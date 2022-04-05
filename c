@@ -5,74 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.3","port":5500,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.3","port":8008,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.3","port":8009,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.3","port":7306,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.3","port":8118,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"日本_1","server":"1.ezydfdd.com","port":443,"type":"vmess","uuid":"0e5b46b5-699d-4aca-8fb3-a8e7b4270ed9","alterId":0,"cipher":"auto","country":"日本_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/qwe","headers":{"host":"1.ezydfdd.com"}}}
+  - {"name":"加拿大高速_2","server":"8.ezydfdd.com","port":443,"type":"vmess","uuid":"dc0887b8-4c05-428c-adce-4235d1636341","alterId":0,"cipher":"auto","country":"加拿大高速_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/qwe","headers":{"host":"8.ezydfdd.com"}}}
+  - {"name":"香港_3","server":"2.ezydfdd.com","port":443,"type":"vmess","uuid":"edea419a-3b21-4fdf-9c2c-f50e75dc0b93","alterId":0,"cipher":"auto","country":"香港_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/qwe","headers":{"host":"2.ezydfdd.com"}}}
+  - {"name":"香港2_4","server":"3.ezydfdd.com","port":443,"type":"vmess","uuid":"303d651b-24c6-4023-ff89-dffe2b8e6995","alterId":0,"cipher":"auto","country":"香港2_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/qwe","headers":{"host":"3.ezydfdd.com"}}}
+  - {"name":"西美高速_5","server":"4.ezydfdd.com","port":443,"type":"vmess","uuid":"c0cb6988-5967-447d-ea34-b4b0aa70b9f7","alterId":0,"cipher":"auto","country":"西美高速_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/qwe","headers":{"host":"4.ezydfdd.com"}}}
+  - {"name":"TG频道https://t_me/xlyv2ray_6","server":"https://t.me/xlyv2ray","port":80,"type":"vmess","uuid":"fdcb71c1-1c2e-4084-ac2c-8b52c44837a8","alterId":0,"cipher":"auto","country":"TG频道https://t_me/xlyv2ray_6","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"xlyhl.cn"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - 日本_1
+      - 加拿大高速_2
+      - 香港_3
+      - 香港2_4
+      - 西美高速_5
+      - TG频道https://t_me/xlyv2ray_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - 日本_1
+      - 加拿大高速_2
+      - 香港_3
+      - 香港2_4
+      - 西美高速_5
+      - TG频道https://t_me/xlyv2ray_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - 日本_1
+      - 加拿大高速_2
+      - 香港_3
+      - 香港2_4
+      - 西美高速_5
+      - TG频道https://t_me/xlyv2ray_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - 日本_1
+      - 加拿大高速_2
+      - 香港_3
+      - 香港2_4
+      - 西美高速_5
+      - TG频道https://t_me/xlyv2ray_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - 日本_1
+      - 加拿大高速_2
+      - 香港_3
+      - 香港2_4
+      - 西美高速_5
+      - TG频道https://t_me/xlyv2ray_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - 日本_1
+      - 加拿大高速_2
+      - 香港_3
+      - 香港2_4
+      - 西美高速_5
+      - TG频道https://t_me/xlyv2ray_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +102,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - 日本_1
+      - 加拿大高速_2
+      - 香港_3
+      - 香港2_4
+      - 西美高速_5
+      - TG频道https://t_me/xlyv2ray_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
