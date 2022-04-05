@@ -5,46 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"中国香港-电讯盈科_1","server":"112.33.100.113","port":552,"type":"ssr","country":"中国香港-电讯盈科_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"24706:zzzzzz.me","obfs-param":"cdn.sharepointonline.com"}
+  - {"name":"default_name_1","server":"104.19.62.119","port":443,"type":"vmess","uuid":"e40d2888-03f6-4859-e84d-a743db763d52","alterId":0,"cipher":"auto","country":"default_name_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"broken-snow-9bc0.nhv111202.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 中国香港-电讯盈科_1
+      - default_name_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 中国香港-电讯盈科_1
+      - default_name_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国香港-电讯盈科_1
+      - default_name_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 中国香港-电讯盈科_1
+      - default_name_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 中国香港-电讯盈科_1
+      - default_name_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 中国香港-电讯盈科_1
+      - default_name_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国香港-电讯盈科_1
+      - default_name_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
