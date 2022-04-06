@@ -5,46 +5,116 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"38.107.226.48","port":2376,"type":"ss","country":"🇺🇸_US_美国_1","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"加拿大-951_8KB/s(Youtube:不良林)_1","server":"134.195.196.44","port":6679,"type":"ss","country":"加拿大-951_8KB/s(Youtube:不良林)_1","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"美国-1_08MB/s(Youtube:不良林)_2","server":"38.107.226.48","port":7307,"type":"ss","country":"美国-1_08MB/s(Youtube:不良林)_2","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国-1_93MB/s(Youtube:不良林)_3","server":"c23s3.jamjams.net","port":61173,"type":"vmess","uuid":"9d1043a6-e87e-4bb7-8858-c1185e9c0c3b","alterId":8,"cipher":"auto","country":"美国-1_93MB/s(Youtube:不良林)_3","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"c23s3.jamjams.net"}}}
+  - {"name":"🇺🇸_US_美国_4","server":"38.107.226.48","port":5004,"type":"ss","country":"🇺🇸_US_美国_4","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA_加拿大_5","server":"134.195.196.44","port":3306,"type":"ss","country":"🇨🇦_CA_加拿大_5","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.44","port":8091,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_7","server":"gy.xqcloud.net","port":31005,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_7","cipher":"chacha20-ietf-poly1305","password":"082e09b9-35a1-45af-914c-76bd6562228d"}
+  - {"name":"🇨🇦_CA_加拿大_8","server":"134.195.196.44","port":2375,"type":"ss","country":"🇨🇦_CA_加拿大_8","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.44","port":2376,"type":"ss","country":"🇨🇦_CA_加拿大_9","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_10","server":"38.107.226.48","port":3306,"type":"ss","country":"🇺🇸_US_美国_10","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_11","server":"38.107.226.48","port":8091,"type":"ss","country":"🇺🇸_US_美国_11","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
+      - 加拿大-951_8KB/s(Youtube:不良林)_1
+      - 美国-1_08MB/s(Youtube:不良林)_2
+      - 美国-1_93MB/s(Youtube:不良林)_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
+      - 加拿大-951_8KB/s(Youtube:不良林)_1
+      - 美国-1_08MB/s(Youtube:不良林)_2
+      - 美国-1_93MB/s(Youtube:不良林)_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
+      - 加拿大-951_8KB/s(Youtube:不良林)_1
+      - 美国-1_08MB/s(Youtube:不良林)_2
+      - 美国-1_93MB/s(Youtube:不良林)_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
+      - 加拿大-951_8KB/s(Youtube:不良林)_1
+      - 美国-1_08MB/s(Youtube:不良林)_2
+      - 美国-1_93MB/s(Youtube:不良林)_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
+      - 加拿大-951_8KB/s(Youtube:不良林)_1
+      - 美国-1_08MB/s(Youtube:不良林)_2
+      - 美国-1_93MB/s(Youtube:不良林)_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
+      - 加拿大-951_8KB/s(Youtube:不良林)_1
+      - 美国-1_08MB/s(Youtube:不良林)_2
+      - 美国-1_93MB/s(Youtube:不良林)_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +137,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
+      - 加拿大-951_8KB/s(Youtube:不良林)_1
+      - 美国-1_08MB/s(Youtube:不良林)_2
+      - 美国-1_93MB/s(Youtube:不良林)_3
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_11
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
