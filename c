@@ -5,144 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.51","port":8080,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.51","port":9102,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_3","server":"134.195.196.51","port":8119,"type":"ss","country":"🇨🇦_CA_加拿大_3","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.51","port":6379,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_5","server":"172.67.68.58","port":443,"type":"vmess","uuid":"f2f578e4-692d-40b5-af99-9f1dd712eb32","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇷_FR_法国_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/shuier","headers":{"host":"xc1.v2rie.pp.ua"}}}
-  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.51","port":8881,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦_CA_加拿大_7","server":"134.195.196.51","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_7","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国->🇰🇷_KR_韩国_8","server":"niaop.tk","port":443,"type":"vmess","uuid":"a0b0df87-bda2-440e-830f-347da6cc7760","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇰🇷_KR_韩国_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/wsssdr1","headers":{"host":"niaop.tk"}}}
-  - {"name":"🇺🇸_US_美国_9","server":"169.197.142.99","port":7001,"type":"ss","country":"🇺🇸_US_美国_9","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_10","server":"03071t.moonfree.top","port":443,"type":"vmess","uuid":"aa5dd703-195d-4682-8c35-ea0083ea1a74","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国->🇫🇷_FR_法国_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"03071t.moonfree.top"}}}
-  - {"name":"🇨🇦_CA_加拿大_11","server":"134.195.196.51","port":3389,"type":"ss","country":"🇨🇦_CA_加拿大_11","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦_CA_加拿大_12","server":"134.195.196.51","port":8008,"type":"ss","country":"🇨🇦_CA_加拿大_12","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_13","server":"134.195.196.51","port":7001,"type":"ss","country":"🇨🇦_CA_加拿大_13","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_14","server":"169.197.142.99","port":6679,"type":"ss","country":"🇺🇸_US_美国_14","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸_US_美国_15","server":"www.zhangss.xyz","port":59627,"type":"vmess","uuid":"7cb9b8c1-ddc8-4bdc-b365-d8b73aafa0ec","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_15","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.zhangss.xyz"}}}
+  - {"name":"京东-教程_1","server":"www.wsxasd.tk","port":20817,"type":"vmess","uuid":"85d7b64a-49c3-45e0-8ebc-2bb265993044","alterId":0,"cipher":"auto","country":"京东-教程_1","skip-cert-verify":true,"tls":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 京东-教程_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 京东-教程_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 京东-教程_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 京东-教程_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 京东-教程_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 京东-教程_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,21 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_5
-      - 🇨🇦_CA_加拿大_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国->🇫🇷_FR_法国_10
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
+      - 京东-教程_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
