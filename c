@@ -20,6 +20,7 @@ proxies:
   - {"name":"🇨🇦_CA_加拿大_13","server":"134.195.196.221","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_13","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
   - {"name":"🇨🇦_CA_加拿大_14","server":"134.195.196.221","port":2375,"type":"ss","country":"🇨🇦_CA_加拿大_14","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
   - {"name":"🇺🇸_US_美国_15","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"731ebf8a-b4f9-11ec-aeac-000017022008","alterId":64,"cipher":"auto","country":"🇺🇸_US_美国_15","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/getweather"}}
+  - {"name":"🇨🇦_CA_加拿大_16","server":"134.195.196.221","port":8118,"type":"ss","country":"🇨🇦_CA_加拿大_16","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -41,6 +42,7 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_13
       - 🇨🇦_CA_加拿大_14
       - 🇺🇸_US_美国_15
+      - 🇨🇦_CA_加拿大_16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -62,6 +64,7 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_13
       - 🇨🇦_CA_加拿大_14
       - 🇺🇸_US_美国_15
+      - 🇨🇦_CA_加拿大_16
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -83,6 +86,7 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_13
       - 🇨🇦_CA_加拿大_14
       - 🇺🇸_US_美国_15
+      - 🇨🇦_CA_加拿大_16
   - name: 📲 电报信息
     type: select
     proxies:
@@ -103,6 +107,7 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_13
       - 🇨🇦_CA_加拿大_14
       - 🇺🇸_US_美国_15
+      - 🇨🇦_CA_加拿大_16
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -123,6 +128,7 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_13
       - 🇨🇦_CA_加拿大_14
       - 🇺🇸_US_美国_15
+      - 🇨🇦_CA_加拿大_16
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -143,6 +149,7 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_13
       - 🇨🇦_CA_加拿大_14
       - 🇺🇸_US_美国_15
+      - 🇨🇦_CA_加拿大_16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -180,6 +187,7 @@ proxy-groups:
       - 🇨🇦_CA_加拿大_13
       - 🇨🇦_CA_加拿大_14
       - 🇺🇸_US_美国_15
+      - 🇨🇦_CA_加拿大_16
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
