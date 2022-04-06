@@ -5,151 +5,452 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.196.221","port":9102,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.221","port":6379,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_3","server":"gy.xqcloud.net","port":31006,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_3","cipher":"chacha20-ietf-poly1305","password":"082e09b9-35a1-45af-914c-76bd6562228d"}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.221","port":6679,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_5","server":"gy.xqcloud.net","port":31005,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_5","cipher":"chacha20-ietf-poly1305","password":"082e09b9-35a1-45af-914c-76bd6562228d"}
-  - {"name":"default_name_6","server":"104.19.62.119","port":443,"type":"vmess","uuid":"e40d2888-03f6-4859-e84d-a743db763d52","alterId":0,"cipher":"auto","country":"default_name_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"broken-snow-9bc0.nhv111202.workers.dev"}}}
-  - {"name":"🇨🇦_CA_加拿大_7","server":"134.195.196.221","port":7001,"type":"ss","country":"🇨🇦_CA_加拿大_7","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_8","server":"134.195.196.221","port":8008,"type":"ss","country":"🇨🇦_CA_加拿大_8","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.221","port":8091,"type":"ss","country":"🇨🇦_CA_加拿大_9","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_10","server":"gy.xqcloud.net","port":31009,"type":"ss","country":"🇨🇳_CN_中国->🇺🇸_US_美国_10","cipher":"chacha20-ietf-poly1305","password":"082e09b9-35a1-45af-914c-76bd6562228d"}
-  - {"name":"default_name_11","server":"bpjzx2.cainiao.tk","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","country":"default_name_11","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"orange-mode-ac6a.xjp0mx2cp.workers.dev"}}}
-  - {"name":"🇨🇦_CA_加拿大_12","server":"134.195.196.221","port":8009,"type":"ss","country":"🇨🇦_CA_加拿大_12","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇨🇦_CA_加拿大_13","server":"134.195.196.221","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_13","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇨🇦_CA_加拿大_14","server":"134.195.196.221","port":2375,"type":"ss","country":"🇨🇦_CA_加拿大_14","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_15","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"731ebf8a-b4f9-11ec-aeac-000017022008","alterId":64,"cipher":"auto","country":"🇺🇸_US_美国_15","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/getweather"}}
-  - {"name":"🇨🇦_CA_加拿大_16","server":"134.195.196.221","port":8118,"type":"ss","country":"🇨🇦_CA_加拿大_16","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"✈www_iyio_net_美国_1","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"✈www_iyio_net_美国_1","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"139.162.122.205"}}}
+  - {"name":"✈www_iyio_net_美国_2","server":"45.32.91.251","port":28819,"type":"vmess","uuid":"f6bf0550-b46f-11ec-9ebd-560003ef0cb9","alterId":0,"cipher":"auto","country":"✈www_iyio_net_美国_2","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/CQwWVgEx/","headers":{"host":"45.32.91.251"}}}
+  - {"name":"✈+www_iyio_net_美国_3","server":"server1.hkg.exacc.need.sh","port":48097,"type":"ss","country":"✈+www_iyio_net_美国_3","cipher":"aes-256-gcm","password":"grNqFYB1a8"}
+  - {"name":"✈www_iyio_net_美国_4","server":"niaop.tk","port":443,"type":"vmess","uuid":"a0b0df87-bda2-440e-830f-347da6cc7760","alterId":0,"cipher":"auto","country":"✈www_iyio_net_美国_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/wsssdr1","headers":{"host":"niaop.tk"}}}
+  - {"name":"✈+www_iyio_net_美国_5","server":"eu.licom.ga","port":60001,"type":"trojan","country":"✈+www_iyio_net_美国_5","skip-cert-verify":true,"udp":true,"password":"f81e990e-1283-48f9-9eff-acacad6fb661"}
+  - {"name":"✈+www_iyio_net_美国_6","server":"00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz","port":7867,"type":"ss","country":"✈+www_iyio_net_美国_6","cipher":"chacha20-ietf-poly1305","password":"998630ea-9e28-4ae9-b177-1ea5f278febf"}
+  - {"name":"✈www_iyio_net_美国_7","server":"207.246.94.28","port":42383,"type":"vmess","uuid":"4773dfdc-9c85-4873-8720-ce8cf5f74f7c","alterId":0,"cipher":"auto","country":"✈www_iyio_net_美国_7","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/xrenblog/","headers":{"host":"207.246.94.28"}}}
+  - {"name":"✈+www_iyio_net_美国_8","server":"tj-us02.yiyodns.xyz","port":443,"type":"trojan","country":"✈+www_iyio_net_美国_8","skip-cert-verify":true,"udp":true,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc"}
+  - {"name":"✈+www_iyio_net_美国_9","server":"kr2.qingyun123.xyz","port":10050,"type":"trojan","country":"✈+www_iyio_net_美国_9","skip-cert-verify":true,"udp":true,"password":"f8a85c2f-3ba2-4645-a894-dd5d4c1ff308"}
+  - {"name":"✈+www_iyio_net_美国_10","server":"jp23.holiganfan.com","port":10088,"type":"trojan","country":"✈+www_iyio_net_美国_10","skip-cert-verify":true,"udp":true,"password":"4e9dac0d-ae86-45e8-af61-668ce5825d61"}
+  - {"name":"✈www_iyio_net_美国_11","server":"03071t.moonfree.top","port":443,"type":"vmess","uuid":"aa5dd703-195d-4682-8c35-ea0083ea1a74","alterId":0,"cipher":"auto","country":"✈www_iyio_net_美国_11","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"03071t.moonfree.top"}}}
+  - {"name":"✈+www_iyio_net_美国_12","server":"134.195.196.51","port":8000,"type":"ss","country":"✈+www_iyio_net_美国_12","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"✈+www_iyio_net_欧洲_13","server":"134.195.196.51","port":8882,"type":"ss","country":"✈+www_iyio_net_欧洲_13","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"✈+www_iyio_net_欧洲_14","server":"134.195.196.51","port":8888,"type":"ss","country":"✈+www_iyio_net_欧洲_14","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"✈www_iyio_net_欧洲_15","server":"150.230.43.65","port":14564,"type":"vmess","uuid":"1556e040-31d3-4c47-b0d2-ddf888010b4e","alterId":0,"cipher":"auto","country":"✈www_iyio_net_欧洲_15","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"150.230.43.65"}}}
+  - {"name":"✈+www_iyio_net_欧洲_16","server":"169.197.142.99","port":8090,"type":"ss","country":"✈+www_iyio_net_欧洲_16","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"✈+www_iyio_net_欧洲_17","server":"134.195.196.51","port":6697,"type":"ss","country":"✈+www_iyio_net_欧洲_17","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"✈www_iyio_net_欧洲_18","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","country":"✈www_iyio_net_欧洲_18","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog/","headers":{"host":"ipv6.xrenblog.com"}}}
+  - {"name":"✈+www_iyio_net_欧洲_19","server":"169.197.142.99","port":9102,"type":"ss","country":"✈+www_iyio_net_欧洲_19","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"✈+www_iyio_net_欧洲_20","server":"134.195.196.51","port":6379,"type":"ss","country":"✈+www_iyio_net_欧洲_20","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"✈+www_iyio_net_欧洲_21","server":"169.197.142.99","port":6679,"type":"ss","country":"✈+www_iyio_net_欧洲_21","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"✈+www_iyio_net_欧洲_22","server":"134.195.196.51","port":8008,"type":"ss","country":"✈+www_iyio_net_欧洲_22","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"✈+www_iyio_net_欧洲_23","server":"134.195.196.51","port":8090,"type":"ss","country":"✈+www_iyio_net_欧洲_23","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"✈+www_iyio_net_欧洲_24","server":"169.197.142.99","port":7002,"type":"ss","country":"✈+www_iyio_net_欧洲_24","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"✈+www_iyio_net_欧洲_25","server":"134.195.196.51","port":9102,"type":"ss","country":"✈+www_iyio_net_欧洲_25","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"✈+www_iyio_net_欧洲_26","server":"134.195.196.51","port":7001,"type":"ss","country":"✈+www_iyio_net_欧洲_26","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"✈+www_iyio_net_欧洲_27","server":"134.195.196.51","port":5601,"type":"ss","country":"✈+www_iyio_net_欧洲_27","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"✈www_iyio_net_欧洲_28","server":"ingress-i1.onebox6.org","port":38701,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"✈www_iyio_net_欧洲_28","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}}}
+  - {"name":"✈www_iyio_net_欧洲_29","server":"165.154.225.231","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"✈www_iyio_net_欧洲_29","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330hk02.fans8.xyz"}}}
+  - {"name":"✈+www_iyio_net_欧洲_30","server":"134.195.196.51","port":443,"type":"ss","country":"✈+www_iyio_net_欧洲_30","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"✈+www_iyio_net_欧洲_31","server":"134.195.196.51","port":8119,"type":"ss","country":"✈+www_iyio_net_欧洲_31","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"✈+www_iyio_net_欧洲_32","server":"134.195.196.51","port":9101,"type":"ss","country":"✈+www_iyio_net_欧洲_32","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"✈+www_iyio_net_欧洲_33","server":"134.195.196.51","port":8881,"type":"ss","country":"✈+www_iyio_net_欧洲_33","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"✈+www_iyio_net_欧洲_34","server":"134.195.196.51","port":7002,"type":"ss","country":"✈+www_iyio_net_欧洲_34","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"✈+www_iyio_net_欧洲_35","server":"134.195.196.51","port":6679,"type":"ss","country":"✈+www_iyio_net_欧洲_35","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"✈www_iyio_net_欧洲_36","server":"104.16.196.47","port":443,"type":"vmess","uuid":"3256a220-3c95-4844-839c-3b509c1c0997","alterId":0,"cipher":"auto","country":"✈www_iyio_net_欧洲_36","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"production.flat-firefly-71d2.v20210811.workers.dev"}}}
+  - {"name":"✈www_iyio_net_欧洲_37","server":"183.232.56.161","port":5019,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","country":"✈www_iyio_net_欧洲_37","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"✈www_iyio_net_欧洲_38","server":"0326kr.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"✈www_iyio_net_欧洲_38","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0326kr.fans8.xyz"}}}
+  - {"name":"✈www_iyio_net_欧洲_39","server":"unitedkingdomcloud.club","port":443,"type":"vmess","uuid":"ae610bbe-ce40-433a-980d-2a411bfc209d","alterId":0,"cipher":"auto","country":"✈www_iyio_net_欧洲_39","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/neuromancer","headers":{"host":"unitedkingdomcloud.club"}}}
+  - {"name":"✈www_iyio_net_欧洲_40","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"✈www_iyio_net_欧洲_40","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"✈+www_iyio_net_欧洲_41","server":"134.195.196.51","port":7306,"type":"ss","country":"✈+www_iyio_net_欧洲_41","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"✈www_iyio_net_欧洲_42","server":"183.232.56.161","port":1101,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":0,"cipher":"auto","country":"✈www_iyio_net_欧洲_42","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"183.232.56.161"}}}
+  - {"name":"✈+www_iyio_net_欧洲_43","server":"169.197.142.99","port":9101,"type":"ss","country":"✈+www_iyio_net_欧洲_43","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"✈+www_iyio_net_欧洲_44","server":"169.197.142.99","port":5001,"type":"ss","country":"✈+www_iyio_net_欧洲_44","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"✈+www_iyio_net_欧洲_45","server":"134.195.196.51","port":8080,"type":"ss","country":"✈+www_iyio_net_欧洲_45","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"✈+www_iyio_net_欧洲_46","server":"134.195.196.51","port":3389,"type":"ss","country":"✈+www_iyio_net_欧洲_46","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"✈www_iyio_net_日本_47","server":"198.13.61.192","port":10110,"type":"vmess","uuid":"29430b3d-f83f-3c74-94a2-e8c1a459219f","alterId":0,"cipher":"auto","country":"✈www_iyio_net_日本_47","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"198.13.61.192"}}}
+  - {"name":"✈www_iyio_net_日本_48","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"✈www_iyio_net_日本_48","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"✈www_iyio_net_日本_49","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"✈www_iyio_net_日本_49","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"139.162.122.205"}}}
+  - {"name":"✈www_iyio_net_日本_50","server":"20.222.58.16","port":80,"type":"vmess","uuid":"ced66bd3-4263-4fb2-cf69-cff22e394394","alterId":0,"cipher":"auto","country":"✈www_iyio_net_日本_50","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"✈+www_iyio_net_香港_51","server":"hk20.holiganfan.com","port":10088,"type":"trojan","country":"✈+www_iyio_net_香港_51","skip-cert-verify":true,"udp":true,"password":"4e9dac0d-ae86-45e8-af61-668ce5825d61"}
+  - {"name":"✈+www_iyio_net_香港_52","server":"hk21.holiganfan.com","port":10088,"type":"trojan","country":"✈+www_iyio_net_香港_52","skip-cert-verify":true,"udp":true,"password":"4e9dac0d-ae86-45e8-af61-668ce5825d61"}
+  - {"name":"✈www_iyio_net_新加坡_53","server":"v2.bove.top","port":35921,"type":"vmess","uuid":"ea0f0aeb-da33-45dd-c512-1a07f5619937","alterId":0,"cipher":"auto","country":"✈www_iyio_net_新加坡_53","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"v2.bove.top"}}}
+  - {"name":"✈+www_iyio_net_新加坡_54","server":"56c918c15a09403d93c037772a69dwd.jkcloud.xyz","port":6599,"type":"ss","country":"✈+www_iyio_net_新加坡_54","cipher":"chacha20-ietf-poly1305","password":"998630ea-9e28-4ae9-b177-1ea5f278febf"}
+  - {"name":"✈www_iyio_net_新加坡_55","server":"eu.licom.ga","port":62011,"type":"vmess","uuid":"f81e990e-1283-48f9-9eff-acacad6fb661","alterId":0,"cipher":"auto","country":"✈www_iyio_net_新加坡_55","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"eu.licom.ga"}}}
+  - {"name":"✈+www_iyio_net_新加坡_56","server":"eu.licom.ga","port":60000,"type":"trojan","country":"✈+www_iyio_net_新加坡_56","skip-cert-verify":true,"udp":true,"password":"f81e990e-1283-48f9-9eff-acacad6fb661"}
+  - {"name":"✈+www_iyio_net_新加坡_57","server":"tj-sg02.yiyodns.xyz","port":443,"type":"trojan","country":"✈+www_iyio_net_新加坡_57","skip-cert-verify":true,"udp":true,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc"}
+  - {"name":"✈www_iyio_net_新加坡_58","server":"128.199.131.91","port":41976,"type":"vmess","uuid":"5db07bd0-e392-45a4-ad73-4663b4b59155","alterId":0,"cipher":"auto","country":"✈www_iyio_net_新加坡_58","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"✈+www_iyio_net_新加坡_59","server":"169.197.142.99","port":6697,"type":"ss","country":"✈+www_iyio_net_新加坡_59","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇦_CA_加拿大_16
+      - ✈www_iyio_net_美国_1
+      - ✈www_iyio_net_美国_2
+      - ✈+www_iyio_net_美国_3
+      - ✈www_iyio_net_美国_4
+      - ✈+www_iyio_net_美国_5
+      - ✈+www_iyio_net_美国_6
+      - ✈www_iyio_net_美国_7
+      - ✈+www_iyio_net_美国_8
+      - ✈+www_iyio_net_美国_9
+      - ✈+www_iyio_net_美国_10
+      - ✈www_iyio_net_美国_11
+      - ✈+www_iyio_net_美国_12
+      - ✈+www_iyio_net_欧洲_13
+      - ✈+www_iyio_net_欧洲_14
+      - ✈www_iyio_net_欧洲_15
+      - ✈+www_iyio_net_欧洲_16
+      - ✈+www_iyio_net_欧洲_17
+      - ✈www_iyio_net_欧洲_18
+      - ✈+www_iyio_net_欧洲_19
+      - ✈+www_iyio_net_欧洲_20
+      - ✈+www_iyio_net_欧洲_21
+      - ✈+www_iyio_net_欧洲_22
+      - ✈+www_iyio_net_欧洲_23
+      - ✈+www_iyio_net_欧洲_24
+      - ✈+www_iyio_net_欧洲_25
+      - ✈+www_iyio_net_欧洲_26
+      - ✈+www_iyio_net_欧洲_27
+      - ✈www_iyio_net_欧洲_28
+      - ✈www_iyio_net_欧洲_29
+      - ✈+www_iyio_net_欧洲_30
+      - ✈+www_iyio_net_欧洲_31
+      - ✈+www_iyio_net_欧洲_32
+      - ✈+www_iyio_net_欧洲_33
+      - ✈+www_iyio_net_欧洲_34
+      - ✈+www_iyio_net_欧洲_35
+      - ✈www_iyio_net_欧洲_36
+      - ✈www_iyio_net_欧洲_37
+      - ✈www_iyio_net_欧洲_38
+      - ✈www_iyio_net_欧洲_39
+      - ✈www_iyio_net_欧洲_40
+      - ✈+www_iyio_net_欧洲_41
+      - ✈www_iyio_net_欧洲_42
+      - ✈+www_iyio_net_欧洲_43
+      - ✈+www_iyio_net_欧洲_44
+      - ✈+www_iyio_net_欧洲_45
+      - ✈+www_iyio_net_欧洲_46
+      - ✈www_iyio_net_日本_47
+      - ✈www_iyio_net_日本_48
+      - ✈www_iyio_net_日本_49
+      - ✈www_iyio_net_日本_50
+      - ✈+www_iyio_net_香港_51
+      - ✈+www_iyio_net_香港_52
+      - ✈www_iyio_net_新加坡_53
+      - ✈+www_iyio_net_新加坡_54
+      - ✈www_iyio_net_新加坡_55
+      - ✈+www_iyio_net_新加坡_56
+      - ✈+www_iyio_net_新加坡_57
+      - ✈www_iyio_net_新加坡_58
+      - ✈+www_iyio_net_新加坡_59
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇦_CA_加拿大_16
+      - ✈www_iyio_net_美国_1
+      - ✈www_iyio_net_美国_2
+      - ✈+www_iyio_net_美国_3
+      - ✈www_iyio_net_美国_4
+      - ✈+www_iyio_net_美国_5
+      - ✈+www_iyio_net_美国_6
+      - ✈www_iyio_net_美国_7
+      - ✈+www_iyio_net_美国_8
+      - ✈+www_iyio_net_美国_9
+      - ✈+www_iyio_net_美国_10
+      - ✈www_iyio_net_美国_11
+      - ✈+www_iyio_net_美国_12
+      - ✈+www_iyio_net_欧洲_13
+      - ✈+www_iyio_net_欧洲_14
+      - ✈www_iyio_net_欧洲_15
+      - ✈+www_iyio_net_欧洲_16
+      - ✈+www_iyio_net_欧洲_17
+      - ✈www_iyio_net_欧洲_18
+      - ✈+www_iyio_net_欧洲_19
+      - ✈+www_iyio_net_欧洲_20
+      - ✈+www_iyio_net_欧洲_21
+      - ✈+www_iyio_net_欧洲_22
+      - ✈+www_iyio_net_欧洲_23
+      - ✈+www_iyio_net_欧洲_24
+      - ✈+www_iyio_net_欧洲_25
+      - ✈+www_iyio_net_欧洲_26
+      - ✈+www_iyio_net_欧洲_27
+      - ✈www_iyio_net_欧洲_28
+      - ✈www_iyio_net_欧洲_29
+      - ✈+www_iyio_net_欧洲_30
+      - ✈+www_iyio_net_欧洲_31
+      - ✈+www_iyio_net_欧洲_32
+      - ✈+www_iyio_net_欧洲_33
+      - ✈+www_iyio_net_欧洲_34
+      - ✈+www_iyio_net_欧洲_35
+      - ✈www_iyio_net_欧洲_36
+      - ✈www_iyio_net_欧洲_37
+      - ✈www_iyio_net_欧洲_38
+      - ✈www_iyio_net_欧洲_39
+      - ✈www_iyio_net_欧洲_40
+      - ✈+www_iyio_net_欧洲_41
+      - ✈www_iyio_net_欧洲_42
+      - ✈+www_iyio_net_欧洲_43
+      - ✈+www_iyio_net_欧洲_44
+      - ✈+www_iyio_net_欧洲_45
+      - ✈+www_iyio_net_欧洲_46
+      - ✈www_iyio_net_日本_47
+      - ✈www_iyio_net_日本_48
+      - ✈www_iyio_net_日本_49
+      - ✈www_iyio_net_日本_50
+      - ✈+www_iyio_net_香港_51
+      - ✈+www_iyio_net_香港_52
+      - ✈www_iyio_net_新加坡_53
+      - ✈+www_iyio_net_新加坡_54
+      - ✈www_iyio_net_新加坡_55
+      - ✈+www_iyio_net_新加坡_56
+      - ✈+www_iyio_net_新加坡_57
+      - ✈www_iyio_net_新加坡_58
+      - ✈+www_iyio_net_新加坡_59
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇦_CA_加拿大_16
+      - ✈www_iyio_net_美国_1
+      - ✈www_iyio_net_美国_2
+      - ✈+www_iyio_net_美国_3
+      - ✈www_iyio_net_美国_4
+      - ✈+www_iyio_net_美国_5
+      - ✈+www_iyio_net_美国_6
+      - ✈www_iyio_net_美国_7
+      - ✈+www_iyio_net_美国_8
+      - ✈+www_iyio_net_美国_9
+      - ✈+www_iyio_net_美国_10
+      - ✈www_iyio_net_美国_11
+      - ✈+www_iyio_net_美国_12
+      - ✈+www_iyio_net_欧洲_13
+      - ✈+www_iyio_net_欧洲_14
+      - ✈www_iyio_net_欧洲_15
+      - ✈+www_iyio_net_欧洲_16
+      - ✈+www_iyio_net_欧洲_17
+      - ✈www_iyio_net_欧洲_18
+      - ✈+www_iyio_net_欧洲_19
+      - ✈+www_iyio_net_欧洲_20
+      - ✈+www_iyio_net_欧洲_21
+      - ✈+www_iyio_net_欧洲_22
+      - ✈+www_iyio_net_欧洲_23
+      - ✈+www_iyio_net_欧洲_24
+      - ✈+www_iyio_net_欧洲_25
+      - ✈+www_iyio_net_欧洲_26
+      - ✈+www_iyio_net_欧洲_27
+      - ✈www_iyio_net_欧洲_28
+      - ✈www_iyio_net_欧洲_29
+      - ✈+www_iyio_net_欧洲_30
+      - ✈+www_iyio_net_欧洲_31
+      - ✈+www_iyio_net_欧洲_32
+      - ✈+www_iyio_net_欧洲_33
+      - ✈+www_iyio_net_欧洲_34
+      - ✈+www_iyio_net_欧洲_35
+      - ✈www_iyio_net_欧洲_36
+      - ✈www_iyio_net_欧洲_37
+      - ✈www_iyio_net_欧洲_38
+      - ✈www_iyio_net_欧洲_39
+      - ✈www_iyio_net_欧洲_40
+      - ✈+www_iyio_net_欧洲_41
+      - ✈www_iyio_net_欧洲_42
+      - ✈+www_iyio_net_欧洲_43
+      - ✈+www_iyio_net_欧洲_44
+      - ✈+www_iyio_net_欧洲_45
+      - ✈+www_iyio_net_欧洲_46
+      - ✈www_iyio_net_日本_47
+      - ✈www_iyio_net_日本_48
+      - ✈www_iyio_net_日本_49
+      - ✈www_iyio_net_日本_50
+      - ✈+www_iyio_net_香港_51
+      - ✈+www_iyio_net_香港_52
+      - ✈www_iyio_net_新加坡_53
+      - ✈+www_iyio_net_新加坡_54
+      - ✈www_iyio_net_新加坡_55
+      - ✈+www_iyio_net_新加坡_56
+      - ✈+www_iyio_net_新加坡_57
+      - ✈www_iyio_net_新加坡_58
+      - ✈+www_iyio_net_新加坡_59
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇦_CA_加拿大_16
+      - ✈www_iyio_net_美国_1
+      - ✈www_iyio_net_美国_2
+      - ✈+www_iyio_net_美国_3
+      - ✈www_iyio_net_美国_4
+      - ✈+www_iyio_net_美国_5
+      - ✈+www_iyio_net_美国_6
+      - ✈www_iyio_net_美国_7
+      - ✈+www_iyio_net_美国_8
+      - ✈+www_iyio_net_美国_9
+      - ✈+www_iyio_net_美国_10
+      - ✈www_iyio_net_美国_11
+      - ✈+www_iyio_net_美国_12
+      - ✈+www_iyio_net_欧洲_13
+      - ✈+www_iyio_net_欧洲_14
+      - ✈www_iyio_net_欧洲_15
+      - ✈+www_iyio_net_欧洲_16
+      - ✈+www_iyio_net_欧洲_17
+      - ✈www_iyio_net_欧洲_18
+      - ✈+www_iyio_net_欧洲_19
+      - ✈+www_iyio_net_欧洲_20
+      - ✈+www_iyio_net_欧洲_21
+      - ✈+www_iyio_net_欧洲_22
+      - ✈+www_iyio_net_欧洲_23
+      - ✈+www_iyio_net_欧洲_24
+      - ✈+www_iyio_net_欧洲_25
+      - ✈+www_iyio_net_欧洲_26
+      - ✈+www_iyio_net_欧洲_27
+      - ✈www_iyio_net_欧洲_28
+      - ✈www_iyio_net_欧洲_29
+      - ✈+www_iyio_net_欧洲_30
+      - ✈+www_iyio_net_欧洲_31
+      - ✈+www_iyio_net_欧洲_32
+      - ✈+www_iyio_net_欧洲_33
+      - ✈+www_iyio_net_欧洲_34
+      - ✈+www_iyio_net_欧洲_35
+      - ✈www_iyio_net_欧洲_36
+      - ✈www_iyio_net_欧洲_37
+      - ✈www_iyio_net_欧洲_38
+      - ✈www_iyio_net_欧洲_39
+      - ✈www_iyio_net_欧洲_40
+      - ✈+www_iyio_net_欧洲_41
+      - ✈www_iyio_net_欧洲_42
+      - ✈+www_iyio_net_欧洲_43
+      - ✈+www_iyio_net_欧洲_44
+      - ✈+www_iyio_net_欧洲_45
+      - ✈+www_iyio_net_欧洲_46
+      - ✈www_iyio_net_日本_47
+      - ✈www_iyio_net_日本_48
+      - ✈www_iyio_net_日本_49
+      - ✈www_iyio_net_日本_50
+      - ✈+www_iyio_net_香港_51
+      - ✈+www_iyio_net_香港_52
+      - ✈www_iyio_net_新加坡_53
+      - ✈+www_iyio_net_新加坡_54
+      - ✈www_iyio_net_新加坡_55
+      - ✈+www_iyio_net_新加坡_56
+      - ✈+www_iyio_net_新加坡_57
+      - ✈www_iyio_net_新加坡_58
+      - ✈+www_iyio_net_新加坡_59
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇦_CA_加拿大_16
+      - ✈www_iyio_net_美国_1
+      - ✈www_iyio_net_美国_2
+      - ✈+www_iyio_net_美国_3
+      - ✈www_iyio_net_美国_4
+      - ✈+www_iyio_net_美国_5
+      - ✈+www_iyio_net_美国_6
+      - ✈www_iyio_net_美国_7
+      - ✈+www_iyio_net_美国_8
+      - ✈+www_iyio_net_美国_9
+      - ✈+www_iyio_net_美国_10
+      - ✈www_iyio_net_美国_11
+      - ✈+www_iyio_net_美国_12
+      - ✈+www_iyio_net_欧洲_13
+      - ✈+www_iyio_net_欧洲_14
+      - ✈www_iyio_net_欧洲_15
+      - ✈+www_iyio_net_欧洲_16
+      - ✈+www_iyio_net_欧洲_17
+      - ✈www_iyio_net_欧洲_18
+      - ✈+www_iyio_net_欧洲_19
+      - ✈+www_iyio_net_欧洲_20
+      - ✈+www_iyio_net_欧洲_21
+      - ✈+www_iyio_net_欧洲_22
+      - ✈+www_iyio_net_欧洲_23
+      - ✈+www_iyio_net_欧洲_24
+      - ✈+www_iyio_net_欧洲_25
+      - ✈+www_iyio_net_欧洲_26
+      - ✈+www_iyio_net_欧洲_27
+      - ✈www_iyio_net_欧洲_28
+      - ✈www_iyio_net_欧洲_29
+      - ✈+www_iyio_net_欧洲_30
+      - ✈+www_iyio_net_欧洲_31
+      - ✈+www_iyio_net_欧洲_32
+      - ✈+www_iyio_net_欧洲_33
+      - ✈+www_iyio_net_欧洲_34
+      - ✈+www_iyio_net_欧洲_35
+      - ✈www_iyio_net_欧洲_36
+      - ✈www_iyio_net_欧洲_37
+      - ✈www_iyio_net_欧洲_38
+      - ✈www_iyio_net_欧洲_39
+      - ✈www_iyio_net_欧洲_40
+      - ✈+www_iyio_net_欧洲_41
+      - ✈www_iyio_net_欧洲_42
+      - ✈+www_iyio_net_欧洲_43
+      - ✈+www_iyio_net_欧洲_44
+      - ✈+www_iyio_net_欧洲_45
+      - ✈+www_iyio_net_欧洲_46
+      - ✈www_iyio_net_日本_47
+      - ✈www_iyio_net_日本_48
+      - ✈www_iyio_net_日本_49
+      - ✈www_iyio_net_日本_50
+      - ✈+www_iyio_net_香港_51
+      - ✈+www_iyio_net_香港_52
+      - ✈www_iyio_net_新加坡_53
+      - ✈+www_iyio_net_新加坡_54
+      - ✈www_iyio_net_新加坡_55
+      - ✈+www_iyio_net_新加坡_56
+      - ✈+www_iyio_net_新加坡_57
+      - ✈www_iyio_net_新加坡_58
+      - ✈+www_iyio_net_新加坡_59
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇦_CA_加拿大_16
+      - ✈www_iyio_net_美国_1
+      - ✈www_iyio_net_美国_2
+      - ✈+www_iyio_net_美国_3
+      - ✈www_iyio_net_美国_4
+      - ✈+www_iyio_net_美国_5
+      - ✈+www_iyio_net_美国_6
+      - ✈www_iyio_net_美国_7
+      - ✈+www_iyio_net_美国_8
+      - ✈+www_iyio_net_美国_9
+      - ✈+www_iyio_net_美国_10
+      - ✈www_iyio_net_美国_11
+      - ✈+www_iyio_net_美国_12
+      - ✈+www_iyio_net_欧洲_13
+      - ✈+www_iyio_net_欧洲_14
+      - ✈www_iyio_net_欧洲_15
+      - ✈+www_iyio_net_欧洲_16
+      - ✈+www_iyio_net_欧洲_17
+      - ✈www_iyio_net_欧洲_18
+      - ✈+www_iyio_net_欧洲_19
+      - ✈+www_iyio_net_欧洲_20
+      - ✈+www_iyio_net_欧洲_21
+      - ✈+www_iyio_net_欧洲_22
+      - ✈+www_iyio_net_欧洲_23
+      - ✈+www_iyio_net_欧洲_24
+      - ✈+www_iyio_net_欧洲_25
+      - ✈+www_iyio_net_欧洲_26
+      - ✈+www_iyio_net_欧洲_27
+      - ✈www_iyio_net_欧洲_28
+      - ✈www_iyio_net_欧洲_29
+      - ✈+www_iyio_net_欧洲_30
+      - ✈+www_iyio_net_欧洲_31
+      - ✈+www_iyio_net_欧洲_32
+      - ✈+www_iyio_net_欧洲_33
+      - ✈+www_iyio_net_欧洲_34
+      - ✈+www_iyio_net_欧洲_35
+      - ✈www_iyio_net_欧洲_36
+      - ✈www_iyio_net_欧洲_37
+      - ✈www_iyio_net_欧洲_38
+      - ✈www_iyio_net_欧洲_39
+      - ✈www_iyio_net_欧洲_40
+      - ✈+www_iyio_net_欧洲_41
+      - ✈www_iyio_net_欧洲_42
+      - ✈+www_iyio_net_欧洲_43
+      - ✈+www_iyio_net_欧洲_44
+      - ✈+www_iyio_net_欧洲_45
+      - ✈+www_iyio_net_欧洲_46
+      - ✈www_iyio_net_日本_47
+      - ✈www_iyio_net_日本_48
+      - ✈www_iyio_net_日本_49
+      - ✈www_iyio_net_日本_50
+      - ✈+www_iyio_net_香港_51
+      - ✈+www_iyio_net_香港_52
+      - ✈www_iyio_net_新加坡_53
+      - ✈+www_iyio_net_新加坡_54
+      - ✈www_iyio_net_新加坡_55
+      - ✈+www_iyio_net_新加坡_56
+      - ✈+www_iyio_net_新加坡_57
+      - ✈www_iyio_net_新加坡_58
+      - ✈+www_iyio_net_新加坡_59
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,22 +473,65 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_6
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_10
-      - default_name_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇨🇦_CA_加拿大_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇦_CA_加拿大_16
+      - ✈www_iyio_net_美国_1
+      - ✈www_iyio_net_美国_2
+      - ✈+www_iyio_net_美国_3
+      - ✈www_iyio_net_美国_4
+      - ✈+www_iyio_net_美国_5
+      - ✈+www_iyio_net_美国_6
+      - ✈www_iyio_net_美国_7
+      - ✈+www_iyio_net_美国_8
+      - ✈+www_iyio_net_美国_9
+      - ✈+www_iyio_net_美国_10
+      - ✈www_iyio_net_美国_11
+      - ✈+www_iyio_net_美国_12
+      - ✈+www_iyio_net_欧洲_13
+      - ✈+www_iyio_net_欧洲_14
+      - ✈www_iyio_net_欧洲_15
+      - ✈+www_iyio_net_欧洲_16
+      - ✈+www_iyio_net_欧洲_17
+      - ✈www_iyio_net_欧洲_18
+      - ✈+www_iyio_net_欧洲_19
+      - ✈+www_iyio_net_欧洲_20
+      - ✈+www_iyio_net_欧洲_21
+      - ✈+www_iyio_net_欧洲_22
+      - ✈+www_iyio_net_欧洲_23
+      - ✈+www_iyio_net_欧洲_24
+      - ✈+www_iyio_net_欧洲_25
+      - ✈+www_iyio_net_欧洲_26
+      - ✈+www_iyio_net_欧洲_27
+      - ✈www_iyio_net_欧洲_28
+      - ✈www_iyio_net_欧洲_29
+      - ✈+www_iyio_net_欧洲_30
+      - ✈+www_iyio_net_欧洲_31
+      - ✈+www_iyio_net_欧洲_32
+      - ✈+www_iyio_net_欧洲_33
+      - ✈+www_iyio_net_欧洲_34
+      - ✈+www_iyio_net_欧洲_35
+      - ✈www_iyio_net_欧洲_36
+      - ✈www_iyio_net_欧洲_37
+      - ✈www_iyio_net_欧洲_38
+      - ✈www_iyio_net_欧洲_39
+      - ✈www_iyio_net_欧洲_40
+      - ✈+www_iyio_net_欧洲_41
+      - ✈www_iyio_net_欧洲_42
+      - ✈+www_iyio_net_欧洲_43
+      - ✈+www_iyio_net_欧洲_44
+      - ✈+www_iyio_net_欧洲_45
+      - ✈+www_iyio_net_欧洲_46
+      - ✈www_iyio_net_日本_47
+      - ✈www_iyio_net_日本_48
+      - ✈www_iyio_net_日本_49
+      - ✈www_iyio_net_日本_50
+      - ✈+www_iyio_net_香港_51
+      - ✈+www_iyio_net_香港_52
+      - ✈www_iyio_net_新加坡_53
+      - ✈+www_iyio_net_新加坡_54
+      - ✈www_iyio_net_新加坡_55
+      - ✈+www_iyio_net_新加坡_56
+      - ✈+www_iyio_net_新加坡_57
+      - ✈www_iyio_net_新加坡_58
+      - ✈+www_iyio_net_新加坡_59
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
