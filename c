@@ -5,662 +5,354 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"v2_亚洲03_MPTCP_★★☆_1","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_亚洲03_MPTCP_★★☆_1","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7569.sina.cn"}
-  - {"name":"v2_亚洲02_MPTCP_★★☆_2","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_亚洲02_MPTCP_★★☆_2","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7564.sina.cn"}
-  - {"name":"v2_亚洲13_MPTCP_★★☆_3","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_亚洲13_MPTCP_★★☆_3","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607776.sina.cn"}
-  - {"name":"v2_亚洲12_MPTCP_★★☆_4","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_亚洲12_MPTCP_★★☆_4","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607976.sina.cn"}
-  - {"name":"〖freeyule〗v2_亚洲01_MPTCP_★★★_5","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"〖freeyule〗v2_亚洲01_MPTCP_★★★_5","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607876.sina.cn"}
-  - {"name":"v2_亚洲04_MPTCP_★★★_6","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_亚洲04_MPTCP_★★★_6","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7763.sina.cn"}
-  - {"name":"v2_亚洲05_MPTCP_★★★_7","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_亚洲05_MPTCP_★★★_7","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7169.sina.cn"}
-  - {"name":"v2_香港01_MPTCP_★★★_8","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_香港01_MPTCP_★★★_8","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7568.sina.cn"}
-  - {"name":"v2_香港02_MPTCP_★★★_9","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_香港02_MPTCP_★★★_9","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7565.sina.cn"}
-  - {"name":"v2_香港03_MPTCP_★★★_10","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_香港03_MPTCP_★★★_10","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a60777c.sina.cn"}
-  - {"name":"v2_香港12_MPTCP_★★★_11","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_香港12_MPTCP_★★★_11","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a60797d.sina.cn"}
-  - {"name":"v2_香港04_MPTCP_★★★_12","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_香港04_MPTCP_★★★_12","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7760.sina.cn"}
-  - {"name":"v2_香港05_MPTCP_★★★_13","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_香港05_MPTCP_★★★_13","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7168.sina.cn"}
-  - {"name":"v2_新加坡01_MPTCP_★★☆_14","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_新加坡01_MPTCP_★★☆_14","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607871.sina.cn"}
-  - {"name":"v2_新加坡02_MPTCP_★★☆_15","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_新加坡02_MPTCP_★★☆_15","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607971.sina.cn"}
-  - {"name":"v2_新加坡03_MPTCP_★★☆_16","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_新加坡03_MPTCP_★★☆_16","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607773.sina.cn"}
-  - {"name":"v2_新加坡13_MPTCP_★★☆_17","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_新加坡13_MPTCP_★★☆_17","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607771.sina.cn"}
-  - {"name":"v2_新加坡04_MPTCP_★★★_18","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_新加坡04_MPTCP_★★★_18","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7566.sina.cn"}
-  - {"name":"v2_新加坡05_MPTCP_★★★_19","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_新加坡05_MPTCP_★★★_19","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7167.sina.cn"}
-  - {"name":"v2_日本01_MPTCP_★★☆_20","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_日本01_MPTCP_★★☆_20","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607870.sina.cn"}
-  - {"name":"v2_日本02_MPTCP_★★☆_21","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_日本02_MPTCP_★★☆_21","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607970.sina.cn"}
-  - {"name":"v2_日本12_MPTCP_★★☆_22","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_日本12_MPTCP_★★☆_22","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7563.sina.cn"}
-  - {"name":"v2_日本03_MPTCP_★★☆_23","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_日本03_MPTCP_★★☆_23","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607770.sina.cn"}
-  - {"name":"v2_日本04_MPTCP_★★☆_24","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_日本04_MPTCP_★★☆_24","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7668.sina.cn"}
-  - {"name":"v2_日本05_MPTCP_★★☆_25","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_日本05_MPTCP_★★☆_25","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7166.sina.cn"}
-  - {"name":"v2_美国01_MPTCP_★★★_26","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_美国01_MPTCP_★★★_26","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7d65.sina.cn"}
-  - {"name":"v2_美国02_MPTCP_★★★_27","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_美国02_MPTCP_★★★_27","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607873.sina.cn"}
-  - {"name":"v2_美国03_MPTCP_★★★_28","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_美国03_MPTCP_★★★_28","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7d66.sina.cn"}
-  - {"name":"v2_美国04_MPTCP_★★★_29","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_美国04_MPTCP_★★★_29","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7661.sina.cn"}
-  - {"name":"v2_美国05_MPTCP_★★★_30","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_美国05_MPTCP_★★★_30","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7165.sina.cn"}
-  - {"name":"v2_香港01_原生_★★★_31","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_香港01_原生_★★★_31","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607874.sina.cn"}
-  - {"name":"v2_香港02_原生_★★★_32","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_香港02_原生_★★★_32","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607974.sina.cn"}
-  - {"name":"v2_香港03_原生_★★★_33","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_香港03_原生_★★★_33","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607774.sina.cn"}
-  - {"name":"v2_香港12_原生_★★★_34","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_香港12_原生_★★★_34","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a60797c.sina.cn"}
-  - {"name":"v2_香港04_原生_★★★_35","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_香港04_原生_★★★_35","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7562.sina.cn"}
-  - {"name":"v2_香港05_原生_★★★_36","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_香港05_原生_★★★_36","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7164.sina.cn"}
-  - {"name":"v2_香港03_myTVSUPER_限速_37","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_香港03_myTVSUPER_限速_37","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7c67.sina.cn"}
-  - {"name":"v2_香港03_YouTubePre_限速_38","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_香港03_YouTubePre_限速_38","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7c68.sina.cn"}
-  - {"name":"v2_台湾01_原生_★★☆_39","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_台湾01_原生_★★☆_39","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7660.sina.cn"}
-  - {"name":"v2_台湾02_原生_★★☆_40","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_台湾02_原生_★★☆_40","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7768.sina.cn"}
-  - {"name":"v2_台湾03_原生_★★☆_41","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_台湾03_原生_★★☆_41","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7568.sina.cn"}
-  - {"name":"v2_台湾04_原生_★★☆_42","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_台湾04_原生_★★☆_42","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7268.sina.cn"}
-  - {"name":"v2_台湾05_原生_★★☆_43","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_台湾05_原生_★★☆_43","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7163.sina.cn"}
-  - {"name":"v2_新加坡01_原生_★★☆_44","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_新加坡01_原生_★★☆_44","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7c66.sina.cn"}
-  - {"name":"v2_新加坡02_原生_★★☆_45","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_新加坡02_原生_★★☆_45","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7c67.sina.cn"}
-  - {"name":"v2_新加坡03_原生_★★☆_46","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_新加坡03_原生_★★☆_46","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7565.sina.cn"}
-  - {"name":"v2_新加坡04_原生_★★☆_47","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_新加坡04_原生_★★☆_47","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7c63.sina.cn"}
-  - {"name":"v2_新加坡05_原生_★★☆_48","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_新加坡05_原生_★★☆_48","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7162.sina.cn"}
-  - {"name":"v2_日本01_原生_★★☆_49","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_日本01_原生_★★☆_49","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7c65.sina.cn"}
-  - {"name":"v2_日本02_原生_★★☆_50","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_日本02_原生_★★☆_50","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7265.sina.cn"}
-  - {"name":"v2_日本03_原生_★★☆_51","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_日本03_原生_★★☆_51","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7264.sina.cn"}
-  - {"name":"v2_日本04_原生_★★☆_52","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_日本04_原生_★★☆_52","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7266.sina.cn"}
-  - {"name":"v2_日本05_原生_★★☆_53","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_日本05_原生_★★☆_53","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7267.sina.cn"}
-  - {"name":"v2_日本03_特供原生_限速_54","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_日本03_特供原生_限速_54","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7c66.sina.cn"}
-  - {"name":"v2_美国01_原生_★★☆_55","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_美国01_原生_★★☆_55","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7462.sina.cn"}
-  - {"name":"v2_美国02_原生_★★☆_56","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_美国02_原生_★★☆_56","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7463.sina.cn"}
-  - {"name":"v2_美国03_原生_★★☆_57","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_美国03_原生_★★☆_57","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7660.sina.cn"}
-  - {"name":"v2_美国04_原生_★★☆_58","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_美国04_原生_★★☆_58","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7c64.sina.cn"}
-  - {"name":"v2_美国05_原生_★★☆_59","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_美国05_原生_★★☆_59","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7161.sina.cn"}
-  - {"name":"v2_欧洲01_MPTCP_★☆☆_60","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_欧洲01_MPTCP_★☆☆_60","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a60787c.sina.cn"}
-  - {"name":"v2_欧洲02_MPTCP_★☆☆_61","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_欧洲02_MPTCP_★☆☆_61","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7665.sina.cn"}
-  - {"name":"v2_欧洲03_MPTCP_★☆☆_62","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_欧洲03_MPTCP_★☆☆_62","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7160.sina.cn"}
-  - {"name":"v2_欧洲04_MPTCP_★☆☆_63","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_欧洲04_MPTCP_★☆☆_63","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7361.sina.cn"}
-  - {"name":"v2_欧洲05_MPTCP_★☆☆_64","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_欧洲05_MPTCP_★☆☆_64","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7362.sina.cn"}
-  - {"name":"v2_澳洲01_MPTCP_★☆☆_65","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_澳洲01_MPTCP_★☆☆_65","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7468.sina.cn"}
-  - {"name":"v2_澳洲02_MPTCP_★☆☆_66","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_澳洲02_MPTCP_★☆☆_66","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7664.sina.cn"}
-  - {"name":"v2_澳洲03_MPTCP_★☆☆_67","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_澳洲03_MPTCP_★☆☆_67","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7069.sina.cn"}
-  - {"name":"v2_澳洲04_MPTCP_★☆☆_68","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_澳洲04_MPTCP_★☆☆_68","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7369.sina.cn"}
-  - {"name":"v2_澳洲05_MPTCP_★☆☆_69","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_澳洲05_MPTCP_★☆☆_69","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7c60.sina.cn"}
-  - {"name":"v2_韩国01_MPTCP_★☆☆_70","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_韩国01_MPTCP_★☆☆_70","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7469.sina.cn"}
-  - {"name":"v2_韩国02_MPTCP_★☆☆_71","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_韩国02_MPTCP_★☆☆_71","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7761.sina.cn"}
-  - {"name":"v2_韩国03_MPTCP_★☆☆_72","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_韩国03_MPTCP_★☆☆_72","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7068.sina.cn"}
-  - {"name":"v2_韩国04_MPTCP_★☆☆_73","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_韩国04_MPTCP_★☆☆_73","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7269.sina.cn"}
-  - {"name":"v2_韩国05_MPTCP_★☆☆_74","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_韩国05_MPTCP_★☆☆_74","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7360.sina.cn"}
-  - {"name":"v2_南美01_MPTCP_★☆☆_75","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_南美01_MPTCP_★☆☆_75","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7560.sina.cn"}
-  - {"name":"v2_南美02_MPTCP_★☆☆_76","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_南美02_MPTCP_★☆☆_76","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7662.sina.cn"}
-  - {"name":"v2_南美03_MPTCP_★☆☆_77","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_南美03_MPTCP_★☆☆_77","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7067.sina.cn"}
-  - {"name":"v2_南美04_MPTCP_★☆☆_78","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_南美04_MPTCP_★☆☆_78","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7363.sina.cn"}
-  - {"name":"v2_南美05_MPTCP_★☆☆_79","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_南美05_MPTCP_★☆☆_79","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7364.sina.cn"}
-  - {"name":"v2_印度01_MPTCP_★☆☆_80","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_印度01_MPTCP_★☆☆_80","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607f7d68.sina.cn"}
-  - {"name":"v2_印度02_MPTCP_★☆☆_81","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_印度02_MPTCP_★☆☆_81","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7666.sina.cn"}
-  - {"name":"v2_印度03_MPTCP_★☆☆_82","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_印度03_MPTCP_★☆☆_82","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7066.sina.cn"}
-  - {"name":"v2_印度04_MPTCP_★☆☆_83","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_印度04_MPTCP_★☆☆_83","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7367.sina.cn"}
-  - {"name":"v2_印度05_MPTCP_★☆☆_84","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_印度05_MPTCP_★☆☆_84","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7368.sina.cn"}
-  - {"name":"v2_俄罗斯01_MPTCP_★☆☆_85","server":"k1.2yy7.top","port":41322,"type":"ssr","country":"v2_俄罗斯01_MPTCP_★☆☆_85","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7460.sina.cn"}
-  - {"name":"v2_俄罗斯02_MPTCP_★☆☆_86","server":"k2.2yy7.top","port":41322,"type":"ssr","country":"v2_俄罗斯02_MPTCP_★☆☆_86","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7765.sina.cn"}
-  - {"name":"v2_俄罗斯03_MPTCP_★☆☆_87","server":"k3.2yy7.top","port":41322,"type":"ssr","country":"v2_俄罗斯03_MPTCP_★☆☆_87","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7065.sina.cn"}
-  - {"name":"v2_俄罗斯04_MPTCP_★☆☆_88","server":"k4.2yy7.top","port":41322,"type":"ssr","country":"v2_俄罗斯04_MPTCP_★☆☆_88","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7365.sina.cn"}
-  - {"name":"v2_俄罗斯05_MPTCP_★☆☆_89","server":"k5.2yy7.top","port":41322,"type":"ssr","country":"v2_俄罗斯05_MPTCP_★☆☆_89","password":"33ae496241d6","cipher":"rc4-md5","protocol":"origin","obfs":"http_simple","obfs-param":"62737e7663716f2d2a607c7366.sina.cn"}
+  - {"name":"🇬🇧GB_9000atWangCai_1","server":"185.167.117.171","port":9000,"type":"ss","country":"🇬🇧GB_9000atWangCai_1","cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
+  - {"name":"🇬🇧GB_9001atWangCai_1","server":"185.167.117.171","port":9001,"type":"ss","country":"🇬🇧GB_9001atWangCai_1","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
+  - {"name":"🇬🇧GB_9003atWangCai_1","server":"185.167.117.171","port":9003,"type":"ss","country":"🇬🇧GB_9003atWangCai_1","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
+  - {"name":"🇬🇧GB_9005atWangCai_1","server":"185.167.117.171","port":9005,"type":"ss","country":"🇬🇧GB_9005atWangCai_1","cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
+  - {"name":"🇬🇧GB_9006atWangCai_1","server":"185.167.117.171","port":9006,"type":"ss","country":"🇬🇧GB_9006atWangCai_1","cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
+  - {"name":"🇬🇧GB_9007atWangCai_1","server":"185.167.117.171","port":9007,"type":"ss","country":"🇬🇧GB_9007atWangCai_1","cipher":"aes-256-cfb","password":"kSPmvwdFzGMMW5pY"}
+  - {"name":"🇬🇧GB_9008atWangCai_1","server":"185.167.117.171","port":9008,"type":"ss","country":"🇬🇧GB_9008atWangCai_1","cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ"}
+  - {"name":"🇬🇧GB_9010atWangCai_1","server":"185.167.117.171","port":9010,"type":"ss","country":"🇬🇧GB_9010atWangCai_1","cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
+  - {"name":"🇬🇧GB_9011atWangCai_1","server":"185.167.117.171","port":9011,"type":"ss","country":"🇬🇧GB_9011atWangCai_1","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
+  - {"name":"🇬🇧GB_9014atWangCai_1","server":"185.167.117.171","port":9014,"type":"ss","country":"🇬🇧GB_9014atWangCai_1","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
+  - {"name":"🇬🇧GB_9015atWangCai_1","server":"185.167.117.171","port":9015,"type":"ss","country":"🇬🇧GB_9015atWangCai_1","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
+  - {"name":"🇬🇧GB_9018atWangCai_1","server":"185.167.117.171","port":9018,"type":"ss","country":"🇬🇧GB_9018atWangCai_1","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
+  - {"name":"🇬🇧GB_9019atWangCai_1","server":"185.167.117.171","port":9019,"type":"ss","country":"🇬🇧GB_9019atWangCai_1","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
+  - {"name":"🇬🇧GB_9020atWangCai_1","server":"185.167.117.171","port":9020,"type":"ss","country":"🇬🇧GB_9020atWangCai_1","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
+  - {"name":"🇬🇧GB_9024atWangCai_1","server":"185.167.117.171","port":9024,"type":"ss","country":"🇬🇧GB_9024atWangCai_1","cipher":"aes-256-cfb","password":"BejrQvtu9sqUeNuZ"}
+  - {"name":"🇬🇧GB_9025atWangCai_1","server":"185.167.117.171","port":9025,"type":"ss","country":"🇬🇧GB_9025atWangCai_1","cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
+  - {"name":"🇬🇧GB_9026atWangCai_1","server":"185.167.117.171","port":9026,"type":"ss","country":"🇬🇧GB_9026atWangCai_1","cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
+  - {"name":"🇬🇧GB_9027atWangCai_1","server":"185.167.117.171","port":9027,"type":"ss","country":"🇬🇧GB_9027atWangCai_1","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
+  - {"name":"🇬🇧GB_9031atWangCai_1","server":"185.167.117.171","port":9031,"type":"ss","country":"🇬🇧GB_9031atWangCai_1","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
+  - {"name":"🇬🇧GB_9032atWangCai_1","server":"185.167.117.171","port":9032,"type":"ss","country":"🇬🇧GB_9032atWangCai_1","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
+  - {"name":"🇬🇧GB_9033atWangCai_1","server":"185.167.117.171","port":9033,"type":"ss","country":"🇬🇧GB_9033atWangCai_1","cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
+  - {"name":"🇬🇧GB_9037atWangCai_1","server":"185.167.117.171","port":9037,"type":"ss","country":"🇬🇧GB_9037atWangCai_1","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"name":"🇬🇧GB_9038atWangCai_1","server":"185.167.117.171","port":9038,"type":"ss","country":"🇬🇧GB_9038atWangCai_1","cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ"}
+  - {"name":"🇬🇧GB_9040atWangCai_1","server":"185.167.117.171","port":9040,"type":"ss","country":"🇬🇧GB_9040atWangCai_1","cipher":"aes-256-cfb","password":"p9z5BVADH2YFs3MN"}
+  - {"name":"🇬🇧GB_9041atWangCai_1","server":"185.167.117.171","port":9041,"type":"ss","country":"🇬🇧GB_9041atWangCai_1","cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
+  - {"name":"🇬🇧GB_9042atWangCai_1","server":"185.167.117.171","port":9042,"type":"ss","country":"🇬🇧GB_9042atWangCai_1","cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
+  - {"name":"🇬🇧GB_9043atWangCai_1","server":"185.167.117.171","port":9043,"type":"ss","country":"🇬🇧GB_9043atWangCai_1","cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
+  - {"name":"🇬🇧GB_9045atWangCai_1","server":"185.167.117.171","port":9045,"type":"ss","country":"🇬🇧GB_9045atWangCai_1","cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
+  - {"name":"🇬🇧GB_9046atWangCai_1","server":"185.167.117.171","port":9046,"type":"ss","country":"🇬🇧GB_9046atWangCai_1","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
+  - {"name":"🇬🇧GB_9050atWangCai_1","server":"185.167.117.171","port":9050,"type":"ss","country":"🇬🇧GB_9050atWangCai_1","cipher":"aes-256-cfb","password":"FG5ddLsMPbV5CutE"}
+  - {"name":"🇬🇧GB_9053atWangCai_1","server":"185.167.117.171","port":9053,"type":"ss","country":"🇬🇧GB_9053atWangCai_1","cipher":"aes-256-cfb","password":"SBM7R883jBmnqe6C"}
+  - {"name":"🇬🇧GB_9056atWangCai_1","server":"185.167.117.171","port":9056,"type":"ss","country":"🇬🇧GB_9056atWangCai_1","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
+  - {"name":"🇬🇧GB_9057atWangCai_1","server":"185.167.117.171","port":9057,"type":"ss","country":"🇬🇧GB_9057atWangCai_1","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
+  - {"name":"🇬🇧GB_9059atWangCai_1","server":"185.167.117.171","port":9059,"type":"ss","country":"🇬🇧GB_9059atWangCai_1","cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
+  - {"name":"🇬🇧GB_9060atWangCai_1","server":"185.167.117.171","port":9060,"type":"ss","country":"🇬🇧GB_9060atWangCai_1","cipher":"aes-256-cfb","password":"ueLXVkvh4hckhErQ"}
+  - {"name":"🇬🇧GB_9064atWangCai_1","server":"185.167.117.171","port":9064,"type":"ss","country":"🇬🇧GB_9064atWangCai_1","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
+  - {"name":"🇬🇧GB_9070atWangCai_1","server":"185.167.117.171","port":9070,"type":"ss","country":"🇬🇧GB_9070atWangCai_1","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
+  - {"name":"🇬🇧GB_9073atWangCai_1","server":"185.167.117.171","port":9073,"type":"ss","country":"🇬🇧GB_9073atWangCai_1","cipher":"aes-256-cfb","password":"daFYagqDdBdA6VTX"}
+  - {"name":"🇬🇧GB_9079atWangCai_1","server":"185.167.117.171","port":9079,"type":"ss","country":"🇬🇧GB_9079atWangCai_1","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
+  - {"name":"🇬🇧GB_9084atWangCai_1","server":"185.167.117.171","port":9084,"type":"ss","country":"🇬🇧GB_9084atWangCai_1","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"🇬🇧GB_9088atWangCai_1","server":"185.167.117.171","port":9088,"type":"ss","country":"🇬🇧GB_9088atWangCai_1","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
+  - {"name":"🇬🇧GB_9093atWangCai_1","server":"185.167.117.171","port":9093,"type":"ss","country":"🇬🇧GB_9093atWangCai_1","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
+  - {"name":"🇬🇧GB_9094atWangCai_1","server":"185.167.117.171","port":9094,"type":"ss","country":"🇬🇧GB_9094atWangCai_1","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
+  - {"name":"🇬🇧GB_9097atWangCai_1","server":"185.167.117.171","port":9097,"type":"ss","country":"🇬🇧GB_9097atWangCai_1","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
+  - {"name":"🇬🇧GB_9098atWangCai_1","server":"185.167.117.171","port":9098,"type":"ss","country":"🇬🇧GB_9098atWangCai_1","cipher":"aes-256-cfb","password":"aLpQtfEZe445QyHk"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - v2_亚洲03_MPTCP_★★☆_1
-      - v2_亚洲02_MPTCP_★★☆_2
-      - v2_亚洲13_MPTCP_★★☆_3
-      - v2_亚洲12_MPTCP_★★☆_4
-      - 〖freeyule〗v2_亚洲01_MPTCP_★★★_5
-      - v2_亚洲04_MPTCP_★★★_6
-      - v2_亚洲05_MPTCP_★★★_7
-      - v2_香港01_MPTCP_★★★_8
-      - v2_香港02_MPTCP_★★★_9
-      - v2_香港03_MPTCP_★★★_10
-      - v2_香港12_MPTCP_★★★_11
-      - v2_香港04_MPTCP_★★★_12
-      - v2_香港05_MPTCP_★★★_13
-      - v2_新加坡01_MPTCP_★★☆_14
-      - v2_新加坡02_MPTCP_★★☆_15
-      - v2_新加坡03_MPTCP_★★☆_16
-      - v2_新加坡13_MPTCP_★★☆_17
-      - v2_新加坡04_MPTCP_★★★_18
-      - v2_新加坡05_MPTCP_★★★_19
-      - v2_日本01_MPTCP_★★☆_20
-      - v2_日本02_MPTCP_★★☆_21
-      - v2_日本12_MPTCP_★★☆_22
-      - v2_日本03_MPTCP_★★☆_23
-      - v2_日本04_MPTCP_★★☆_24
-      - v2_日本05_MPTCP_★★☆_25
-      - v2_美国01_MPTCP_★★★_26
-      - v2_美国02_MPTCP_★★★_27
-      - v2_美国03_MPTCP_★★★_28
-      - v2_美国04_MPTCP_★★★_29
-      - v2_美国05_MPTCP_★★★_30
-      - v2_香港01_原生_★★★_31
-      - v2_香港02_原生_★★★_32
-      - v2_香港03_原生_★★★_33
-      - v2_香港12_原生_★★★_34
-      - v2_香港04_原生_★★★_35
-      - v2_香港05_原生_★★★_36
-      - v2_香港03_myTVSUPER_限速_37
-      - v2_香港03_YouTubePre_限速_38
-      - v2_台湾01_原生_★★☆_39
-      - v2_台湾02_原生_★★☆_40
-      - v2_台湾03_原生_★★☆_41
-      - v2_台湾04_原生_★★☆_42
-      - v2_台湾05_原生_★★☆_43
-      - v2_新加坡01_原生_★★☆_44
-      - v2_新加坡02_原生_★★☆_45
-      - v2_新加坡03_原生_★★☆_46
-      - v2_新加坡04_原生_★★☆_47
-      - v2_新加坡05_原生_★★☆_48
-      - v2_日本01_原生_★★☆_49
-      - v2_日本02_原生_★★☆_50
-      - v2_日本03_原生_★★☆_51
-      - v2_日本04_原生_★★☆_52
-      - v2_日本05_原生_★★☆_53
-      - v2_日本03_特供原生_限速_54
-      - v2_美国01_原生_★★☆_55
-      - v2_美国02_原生_★★☆_56
-      - v2_美国03_原生_★★☆_57
-      - v2_美国04_原生_★★☆_58
-      - v2_美国05_原生_★★☆_59
-      - v2_欧洲01_MPTCP_★☆☆_60
-      - v2_欧洲02_MPTCP_★☆☆_61
-      - v2_欧洲03_MPTCP_★☆☆_62
-      - v2_欧洲04_MPTCP_★☆☆_63
-      - v2_欧洲05_MPTCP_★☆☆_64
-      - v2_澳洲01_MPTCP_★☆☆_65
-      - v2_澳洲02_MPTCP_★☆☆_66
-      - v2_澳洲03_MPTCP_★☆☆_67
-      - v2_澳洲04_MPTCP_★☆☆_68
-      - v2_澳洲05_MPTCP_★☆☆_69
-      - v2_韩国01_MPTCP_★☆☆_70
-      - v2_韩国02_MPTCP_★☆☆_71
-      - v2_韩国03_MPTCP_★☆☆_72
-      - v2_韩国04_MPTCP_★☆☆_73
-      - v2_韩国05_MPTCP_★☆☆_74
-      - v2_南美01_MPTCP_★☆☆_75
-      - v2_南美02_MPTCP_★☆☆_76
-      - v2_南美03_MPTCP_★☆☆_77
-      - v2_南美04_MPTCP_★☆☆_78
-      - v2_南美05_MPTCP_★☆☆_79
-      - v2_印度01_MPTCP_★☆☆_80
-      - v2_印度02_MPTCP_★☆☆_81
-      - v2_印度03_MPTCP_★☆☆_82
-      - v2_印度04_MPTCP_★☆☆_83
-      - v2_印度05_MPTCP_★☆☆_84
-      - v2_俄罗斯01_MPTCP_★☆☆_85
-      - v2_俄罗斯02_MPTCP_★☆☆_86
-      - v2_俄罗斯03_MPTCP_★☆☆_87
-      - v2_俄罗斯04_MPTCP_★☆☆_88
-      - v2_俄罗斯05_MPTCP_★☆☆_89
+      - 🇬🇧GB_9000atWangCai_1
+      - 🇬🇧GB_9001atWangCai_1
+      - 🇬🇧GB_9003atWangCai_1
+      - 🇬🇧GB_9005atWangCai_1
+      - 🇬🇧GB_9006atWangCai_1
+      - 🇬🇧GB_9007atWangCai_1
+      - 🇬🇧GB_9008atWangCai_1
+      - 🇬🇧GB_9010atWangCai_1
+      - 🇬🇧GB_9011atWangCai_1
+      - 🇬🇧GB_9014atWangCai_1
+      - 🇬🇧GB_9015atWangCai_1
+      - 🇬🇧GB_9018atWangCai_1
+      - 🇬🇧GB_9019atWangCai_1
+      - 🇬🇧GB_9020atWangCai_1
+      - 🇬🇧GB_9024atWangCai_1
+      - 🇬🇧GB_9025atWangCai_1
+      - 🇬🇧GB_9026atWangCai_1
+      - 🇬🇧GB_9027atWangCai_1
+      - 🇬🇧GB_9031atWangCai_1
+      - 🇬🇧GB_9032atWangCai_1
+      - 🇬🇧GB_9033atWangCai_1
+      - 🇬🇧GB_9037atWangCai_1
+      - 🇬🇧GB_9038atWangCai_1
+      - 🇬🇧GB_9040atWangCai_1
+      - 🇬🇧GB_9041atWangCai_1
+      - 🇬🇧GB_9042atWangCai_1
+      - 🇬🇧GB_9043atWangCai_1
+      - 🇬🇧GB_9045atWangCai_1
+      - 🇬🇧GB_9046atWangCai_1
+      - 🇬🇧GB_9050atWangCai_1
+      - 🇬🇧GB_9053atWangCai_1
+      - 🇬🇧GB_9056atWangCai_1
+      - 🇬🇧GB_9057atWangCai_1
+      - 🇬🇧GB_9059atWangCai_1
+      - 🇬🇧GB_9060atWangCai_1
+      - 🇬🇧GB_9064atWangCai_1
+      - 🇬🇧GB_9070atWangCai_1
+      - 🇬🇧GB_9073atWangCai_1
+      - 🇬🇧GB_9079atWangCai_1
+      - 🇬🇧GB_9084atWangCai_1
+      - 🇬🇧GB_9088atWangCai_1
+      - 🇬🇧GB_9093atWangCai_1
+      - 🇬🇧GB_9094atWangCai_1
+      - 🇬🇧GB_9097atWangCai_1
+      - 🇬🇧GB_9098atWangCai_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - v2_亚洲03_MPTCP_★★☆_1
-      - v2_亚洲02_MPTCP_★★☆_2
-      - v2_亚洲13_MPTCP_★★☆_3
-      - v2_亚洲12_MPTCP_★★☆_4
-      - 〖freeyule〗v2_亚洲01_MPTCP_★★★_5
-      - v2_亚洲04_MPTCP_★★★_6
-      - v2_亚洲05_MPTCP_★★★_7
-      - v2_香港01_MPTCP_★★★_8
-      - v2_香港02_MPTCP_★★★_9
-      - v2_香港03_MPTCP_★★★_10
-      - v2_香港12_MPTCP_★★★_11
-      - v2_香港04_MPTCP_★★★_12
-      - v2_香港05_MPTCP_★★★_13
-      - v2_新加坡01_MPTCP_★★☆_14
-      - v2_新加坡02_MPTCP_★★☆_15
-      - v2_新加坡03_MPTCP_★★☆_16
-      - v2_新加坡13_MPTCP_★★☆_17
-      - v2_新加坡04_MPTCP_★★★_18
-      - v2_新加坡05_MPTCP_★★★_19
-      - v2_日本01_MPTCP_★★☆_20
-      - v2_日本02_MPTCP_★★☆_21
-      - v2_日本12_MPTCP_★★☆_22
-      - v2_日本03_MPTCP_★★☆_23
-      - v2_日本04_MPTCP_★★☆_24
-      - v2_日本05_MPTCP_★★☆_25
-      - v2_美国01_MPTCP_★★★_26
-      - v2_美国02_MPTCP_★★★_27
-      - v2_美国03_MPTCP_★★★_28
-      - v2_美国04_MPTCP_★★★_29
-      - v2_美国05_MPTCP_★★★_30
-      - v2_香港01_原生_★★★_31
-      - v2_香港02_原生_★★★_32
-      - v2_香港03_原生_★★★_33
-      - v2_香港12_原生_★★★_34
-      - v2_香港04_原生_★★★_35
-      - v2_香港05_原生_★★★_36
-      - v2_香港03_myTVSUPER_限速_37
-      - v2_香港03_YouTubePre_限速_38
-      - v2_台湾01_原生_★★☆_39
-      - v2_台湾02_原生_★★☆_40
-      - v2_台湾03_原生_★★☆_41
-      - v2_台湾04_原生_★★☆_42
-      - v2_台湾05_原生_★★☆_43
-      - v2_新加坡01_原生_★★☆_44
-      - v2_新加坡02_原生_★★☆_45
-      - v2_新加坡03_原生_★★☆_46
-      - v2_新加坡04_原生_★★☆_47
-      - v2_新加坡05_原生_★★☆_48
-      - v2_日本01_原生_★★☆_49
-      - v2_日本02_原生_★★☆_50
-      - v2_日本03_原生_★★☆_51
-      - v2_日本04_原生_★★☆_52
-      - v2_日本05_原生_★★☆_53
-      - v2_日本03_特供原生_限速_54
-      - v2_美国01_原生_★★☆_55
-      - v2_美国02_原生_★★☆_56
-      - v2_美国03_原生_★★☆_57
-      - v2_美国04_原生_★★☆_58
-      - v2_美国05_原生_★★☆_59
-      - v2_欧洲01_MPTCP_★☆☆_60
-      - v2_欧洲02_MPTCP_★☆☆_61
-      - v2_欧洲03_MPTCP_★☆☆_62
-      - v2_欧洲04_MPTCP_★☆☆_63
-      - v2_欧洲05_MPTCP_★☆☆_64
-      - v2_澳洲01_MPTCP_★☆☆_65
-      - v2_澳洲02_MPTCP_★☆☆_66
-      - v2_澳洲03_MPTCP_★☆☆_67
-      - v2_澳洲04_MPTCP_★☆☆_68
-      - v2_澳洲05_MPTCP_★☆☆_69
-      - v2_韩国01_MPTCP_★☆☆_70
-      - v2_韩国02_MPTCP_★☆☆_71
-      - v2_韩国03_MPTCP_★☆☆_72
-      - v2_韩国04_MPTCP_★☆☆_73
-      - v2_韩国05_MPTCP_★☆☆_74
-      - v2_南美01_MPTCP_★☆☆_75
-      - v2_南美02_MPTCP_★☆☆_76
-      - v2_南美03_MPTCP_★☆☆_77
-      - v2_南美04_MPTCP_★☆☆_78
-      - v2_南美05_MPTCP_★☆☆_79
-      - v2_印度01_MPTCP_★☆☆_80
-      - v2_印度02_MPTCP_★☆☆_81
-      - v2_印度03_MPTCP_★☆☆_82
-      - v2_印度04_MPTCP_★☆☆_83
-      - v2_印度05_MPTCP_★☆☆_84
-      - v2_俄罗斯01_MPTCP_★☆☆_85
-      - v2_俄罗斯02_MPTCP_★☆☆_86
-      - v2_俄罗斯03_MPTCP_★☆☆_87
-      - v2_俄罗斯04_MPTCP_★☆☆_88
-      - v2_俄罗斯05_MPTCP_★☆☆_89
+      - 🇬🇧GB_9000atWangCai_1
+      - 🇬🇧GB_9001atWangCai_1
+      - 🇬🇧GB_9003atWangCai_1
+      - 🇬🇧GB_9005atWangCai_1
+      - 🇬🇧GB_9006atWangCai_1
+      - 🇬🇧GB_9007atWangCai_1
+      - 🇬🇧GB_9008atWangCai_1
+      - 🇬🇧GB_9010atWangCai_1
+      - 🇬🇧GB_9011atWangCai_1
+      - 🇬🇧GB_9014atWangCai_1
+      - 🇬🇧GB_9015atWangCai_1
+      - 🇬🇧GB_9018atWangCai_1
+      - 🇬🇧GB_9019atWangCai_1
+      - 🇬🇧GB_9020atWangCai_1
+      - 🇬🇧GB_9024atWangCai_1
+      - 🇬🇧GB_9025atWangCai_1
+      - 🇬🇧GB_9026atWangCai_1
+      - 🇬🇧GB_9027atWangCai_1
+      - 🇬🇧GB_9031atWangCai_1
+      - 🇬🇧GB_9032atWangCai_1
+      - 🇬🇧GB_9033atWangCai_1
+      - 🇬🇧GB_9037atWangCai_1
+      - 🇬🇧GB_9038atWangCai_1
+      - 🇬🇧GB_9040atWangCai_1
+      - 🇬🇧GB_9041atWangCai_1
+      - 🇬🇧GB_9042atWangCai_1
+      - 🇬🇧GB_9043atWangCai_1
+      - 🇬🇧GB_9045atWangCai_1
+      - 🇬🇧GB_9046atWangCai_1
+      - 🇬🇧GB_9050atWangCai_1
+      - 🇬🇧GB_9053atWangCai_1
+      - 🇬🇧GB_9056atWangCai_1
+      - 🇬🇧GB_9057atWangCai_1
+      - 🇬🇧GB_9059atWangCai_1
+      - 🇬🇧GB_9060atWangCai_1
+      - 🇬🇧GB_9064atWangCai_1
+      - 🇬🇧GB_9070atWangCai_1
+      - 🇬🇧GB_9073atWangCai_1
+      - 🇬🇧GB_9079atWangCai_1
+      - 🇬🇧GB_9084atWangCai_1
+      - 🇬🇧GB_9088atWangCai_1
+      - 🇬🇧GB_9093atWangCai_1
+      - 🇬🇧GB_9094atWangCai_1
+      - 🇬🇧GB_9097atWangCai_1
+      - 🇬🇧GB_9098atWangCai_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2_亚洲03_MPTCP_★★☆_1
-      - v2_亚洲02_MPTCP_★★☆_2
-      - v2_亚洲13_MPTCP_★★☆_3
-      - v2_亚洲12_MPTCP_★★☆_4
-      - 〖freeyule〗v2_亚洲01_MPTCP_★★★_5
-      - v2_亚洲04_MPTCP_★★★_6
-      - v2_亚洲05_MPTCP_★★★_7
-      - v2_香港01_MPTCP_★★★_8
-      - v2_香港02_MPTCP_★★★_9
-      - v2_香港03_MPTCP_★★★_10
-      - v2_香港12_MPTCP_★★★_11
-      - v2_香港04_MPTCP_★★★_12
-      - v2_香港05_MPTCP_★★★_13
-      - v2_新加坡01_MPTCP_★★☆_14
-      - v2_新加坡02_MPTCP_★★☆_15
-      - v2_新加坡03_MPTCP_★★☆_16
-      - v2_新加坡13_MPTCP_★★☆_17
-      - v2_新加坡04_MPTCP_★★★_18
-      - v2_新加坡05_MPTCP_★★★_19
-      - v2_日本01_MPTCP_★★☆_20
-      - v2_日本02_MPTCP_★★☆_21
-      - v2_日本12_MPTCP_★★☆_22
-      - v2_日本03_MPTCP_★★☆_23
-      - v2_日本04_MPTCP_★★☆_24
-      - v2_日本05_MPTCP_★★☆_25
-      - v2_美国01_MPTCP_★★★_26
-      - v2_美国02_MPTCP_★★★_27
-      - v2_美国03_MPTCP_★★★_28
-      - v2_美国04_MPTCP_★★★_29
-      - v2_美国05_MPTCP_★★★_30
-      - v2_香港01_原生_★★★_31
-      - v2_香港02_原生_★★★_32
-      - v2_香港03_原生_★★★_33
-      - v2_香港12_原生_★★★_34
-      - v2_香港04_原生_★★★_35
-      - v2_香港05_原生_★★★_36
-      - v2_香港03_myTVSUPER_限速_37
-      - v2_香港03_YouTubePre_限速_38
-      - v2_台湾01_原生_★★☆_39
-      - v2_台湾02_原生_★★☆_40
-      - v2_台湾03_原生_★★☆_41
-      - v2_台湾04_原生_★★☆_42
-      - v2_台湾05_原生_★★☆_43
-      - v2_新加坡01_原生_★★☆_44
-      - v2_新加坡02_原生_★★☆_45
-      - v2_新加坡03_原生_★★☆_46
-      - v2_新加坡04_原生_★★☆_47
-      - v2_新加坡05_原生_★★☆_48
-      - v2_日本01_原生_★★☆_49
-      - v2_日本02_原生_★★☆_50
-      - v2_日本03_原生_★★☆_51
-      - v2_日本04_原生_★★☆_52
-      - v2_日本05_原生_★★☆_53
-      - v2_日本03_特供原生_限速_54
-      - v2_美国01_原生_★★☆_55
-      - v2_美国02_原生_★★☆_56
-      - v2_美国03_原生_★★☆_57
-      - v2_美国04_原生_★★☆_58
-      - v2_美国05_原生_★★☆_59
-      - v2_欧洲01_MPTCP_★☆☆_60
-      - v2_欧洲02_MPTCP_★☆☆_61
-      - v2_欧洲03_MPTCP_★☆☆_62
-      - v2_欧洲04_MPTCP_★☆☆_63
-      - v2_欧洲05_MPTCP_★☆☆_64
-      - v2_澳洲01_MPTCP_★☆☆_65
-      - v2_澳洲02_MPTCP_★☆☆_66
-      - v2_澳洲03_MPTCP_★☆☆_67
-      - v2_澳洲04_MPTCP_★☆☆_68
-      - v2_澳洲05_MPTCP_★☆☆_69
-      - v2_韩国01_MPTCP_★☆☆_70
-      - v2_韩国02_MPTCP_★☆☆_71
-      - v2_韩国03_MPTCP_★☆☆_72
-      - v2_韩国04_MPTCP_★☆☆_73
-      - v2_韩国05_MPTCP_★☆☆_74
-      - v2_南美01_MPTCP_★☆☆_75
-      - v2_南美02_MPTCP_★☆☆_76
-      - v2_南美03_MPTCP_★☆☆_77
-      - v2_南美04_MPTCP_★☆☆_78
-      - v2_南美05_MPTCP_★☆☆_79
-      - v2_印度01_MPTCP_★☆☆_80
-      - v2_印度02_MPTCP_★☆☆_81
-      - v2_印度03_MPTCP_★☆☆_82
-      - v2_印度04_MPTCP_★☆☆_83
-      - v2_印度05_MPTCP_★☆☆_84
-      - v2_俄罗斯01_MPTCP_★☆☆_85
-      - v2_俄罗斯02_MPTCP_★☆☆_86
-      - v2_俄罗斯03_MPTCP_★☆☆_87
-      - v2_俄罗斯04_MPTCP_★☆☆_88
-      - v2_俄罗斯05_MPTCP_★☆☆_89
+      - 🇬🇧GB_9000atWangCai_1
+      - 🇬🇧GB_9001atWangCai_1
+      - 🇬🇧GB_9003atWangCai_1
+      - 🇬🇧GB_9005atWangCai_1
+      - 🇬🇧GB_9006atWangCai_1
+      - 🇬🇧GB_9007atWangCai_1
+      - 🇬🇧GB_9008atWangCai_1
+      - 🇬🇧GB_9010atWangCai_1
+      - 🇬🇧GB_9011atWangCai_1
+      - 🇬🇧GB_9014atWangCai_1
+      - 🇬🇧GB_9015atWangCai_1
+      - 🇬🇧GB_9018atWangCai_1
+      - 🇬🇧GB_9019atWangCai_1
+      - 🇬🇧GB_9020atWangCai_1
+      - 🇬🇧GB_9024atWangCai_1
+      - 🇬🇧GB_9025atWangCai_1
+      - 🇬🇧GB_9026atWangCai_1
+      - 🇬🇧GB_9027atWangCai_1
+      - 🇬🇧GB_9031atWangCai_1
+      - 🇬🇧GB_9032atWangCai_1
+      - 🇬🇧GB_9033atWangCai_1
+      - 🇬🇧GB_9037atWangCai_1
+      - 🇬🇧GB_9038atWangCai_1
+      - 🇬🇧GB_9040atWangCai_1
+      - 🇬🇧GB_9041atWangCai_1
+      - 🇬🇧GB_9042atWangCai_1
+      - 🇬🇧GB_9043atWangCai_1
+      - 🇬🇧GB_9045atWangCai_1
+      - 🇬🇧GB_9046atWangCai_1
+      - 🇬🇧GB_9050atWangCai_1
+      - 🇬🇧GB_9053atWangCai_1
+      - 🇬🇧GB_9056atWangCai_1
+      - 🇬🇧GB_9057atWangCai_1
+      - 🇬🇧GB_9059atWangCai_1
+      - 🇬🇧GB_9060atWangCai_1
+      - 🇬🇧GB_9064atWangCai_1
+      - 🇬🇧GB_9070atWangCai_1
+      - 🇬🇧GB_9073atWangCai_1
+      - 🇬🇧GB_9079atWangCai_1
+      - 🇬🇧GB_9084atWangCai_1
+      - 🇬🇧GB_9088atWangCai_1
+      - 🇬🇧GB_9093atWangCai_1
+      - 🇬🇧GB_9094atWangCai_1
+      - 🇬🇧GB_9097atWangCai_1
+      - 🇬🇧GB_9098atWangCai_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2_亚洲03_MPTCP_★★☆_1
-      - v2_亚洲02_MPTCP_★★☆_2
-      - v2_亚洲13_MPTCP_★★☆_3
-      - v2_亚洲12_MPTCP_★★☆_4
-      - 〖freeyule〗v2_亚洲01_MPTCP_★★★_5
-      - v2_亚洲04_MPTCP_★★★_6
-      - v2_亚洲05_MPTCP_★★★_7
-      - v2_香港01_MPTCP_★★★_8
-      - v2_香港02_MPTCP_★★★_9
-      - v2_香港03_MPTCP_★★★_10
-      - v2_香港12_MPTCP_★★★_11
-      - v2_香港04_MPTCP_★★★_12
-      - v2_香港05_MPTCP_★★★_13
-      - v2_新加坡01_MPTCP_★★☆_14
-      - v2_新加坡02_MPTCP_★★☆_15
-      - v2_新加坡03_MPTCP_★★☆_16
-      - v2_新加坡13_MPTCP_★★☆_17
-      - v2_新加坡04_MPTCP_★★★_18
-      - v2_新加坡05_MPTCP_★★★_19
-      - v2_日本01_MPTCP_★★☆_20
-      - v2_日本02_MPTCP_★★☆_21
-      - v2_日本12_MPTCP_★★☆_22
-      - v2_日本03_MPTCP_★★☆_23
-      - v2_日本04_MPTCP_★★☆_24
-      - v2_日本05_MPTCP_★★☆_25
-      - v2_美国01_MPTCP_★★★_26
-      - v2_美国02_MPTCP_★★★_27
-      - v2_美国03_MPTCP_★★★_28
-      - v2_美国04_MPTCP_★★★_29
-      - v2_美国05_MPTCP_★★★_30
-      - v2_香港01_原生_★★★_31
-      - v2_香港02_原生_★★★_32
-      - v2_香港03_原生_★★★_33
-      - v2_香港12_原生_★★★_34
-      - v2_香港04_原生_★★★_35
-      - v2_香港05_原生_★★★_36
-      - v2_香港03_myTVSUPER_限速_37
-      - v2_香港03_YouTubePre_限速_38
-      - v2_台湾01_原生_★★☆_39
-      - v2_台湾02_原生_★★☆_40
-      - v2_台湾03_原生_★★☆_41
-      - v2_台湾04_原生_★★☆_42
-      - v2_台湾05_原生_★★☆_43
-      - v2_新加坡01_原生_★★☆_44
-      - v2_新加坡02_原生_★★☆_45
-      - v2_新加坡03_原生_★★☆_46
-      - v2_新加坡04_原生_★★☆_47
-      - v2_新加坡05_原生_★★☆_48
-      - v2_日本01_原生_★★☆_49
-      - v2_日本02_原生_★★☆_50
-      - v2_日本03_原生_★★☆_51
-      - v2_日本04_原生_★★☆_52
-      - v2_日本05_原生_★★☆_53
-      - v2_日本03_特供原生_限速_54
-      - v2_美国01_原生_★★☆_55
-      - v2_美国02_原生_★★☆_56
-      - v2_美国03_原生_★★☆_57
-      - v2_美国04_原生_★★☆_58
-      - v2_美国05_原生_★★☆_59
-      - v2_欧洲01_MPTCP_★☆☆_60
-      - v2_欧洲02_MPTCP_★☆☆_61
-      - v2_欧洲03_MPTCP_★☆☆_62
-      - v2_欧洲04_MPTCP_★☆☆_63
-      - v2_欧洲05_MPTCP_★☆☆_64
-      - v2_澳洲01_MPTCP_★☆☆_65
-      - v2_澳洲02_MPTCP_★☆☆_66
-      - v2_澳洲03_MPTCP_★☆☆_67
-      - v2_澳洲04_MPTCP_★☆☆_68
-      - v2_澳洲05_MPTCP_★☆☆_69
-      - v2_韩国01_MPTCP_★☆☆_70
-      - v2_韩国02_MPTCP_★☆☆_71
-      - v2_韩国03_MPTCP_★☆☆_72
-      - v2_韩国04_MPTCP_★☆☆_73
-      - v2_韩国05_MPTCP_★☆☆_74
-      - v2_南美01_MPTCP_★☆☆_75
-      - v2_南美02_MPTCP_★☆☆_76
-      - v2_南美03_MPTCP_★☆☆_77
-      - v2_南美04_MPTCP_★☆☆_78
-      - v2_南美05_MPTCP_★☆☆_79
-      - v2_印度01_MPTCP_★☆☆_80
-      - v2_印度02_MPTCP_★☆☆_81
-      - v2_印度03_MPTCP_★☆☆_82
-      - v2_印度04_MPTCP_★☆☆_83
-      - v2_印度05_MPTCP_★☆☆_84
-      - v2_俄罗斯01_MPTCP_★☆☆_85
-      - v2_俄罗斯02_MPTCP_★☆☆_86
-      - v2_俄罗斯03_MPTCP_★☆☆_87
-      - v2_俄罗斯04_MPTCP_★☆☆_88
-      - v2_俄罗斯05_MPTCP_★☆☆_89
+      - 🇬🇧GB_9000atWangCai_1
+      - 🇬🇧GB_9001atWangCai_1
+      - 🇬🇧GB_9003atWangCai_1
+      - 🇬🇧GB_9005atWangCai_1
+      - 🇬🇧GB_9006atWangCai_1
+      - 🇬🇧GB_9007atWangCai_1
+      - 🇬🇧GB_9008atWangCai_1
+      - 🇬🇧GB_9010atWangCai_1
+      - 🇬🇧GB_9011atWangCai_1
+      - 🇬🇧GB_9014atWangCai_1
+      - 🇬🇧GB_9015atWangCai_1
+      - 🇬🇧GB_9018atWangCai_1
+      - 🇬🇧GB_9019atWangCai_1
+      - 🇬🇧GB_9020atWangCai_1
+      - 🇬🇧GB_9024atWangCai_1
+      - 🇬🇧GB_9025atWangCai_1
+      - 🇬🇧GB_9026atWangCai_1
+      - 🇬🇧GB_9027atWangCai_1
+      - 🇬🇧GB_9031atWangCai_1
+      - 🇬🇧GB_9032atWangCai_1
+      - 🇬🇧GB_9033atWangCai_1
+      - 🇬🇧GB_9037atWangCai_1
+      - 🇬🇧GB_9038atWangCai_1
+      - 🇬🇧GB_9040atWangCai_1
+      - 🇬🇧GB_9041atWangCai_1
+      - 🇬🇧GB_9042atWangCai_1
+      - 🇬🇧GB_9043atWangCai_1
+      - 🇬🇧GB_9045atWangCai_1
+      - 🇬🇧GB_9046atWangCai_1
+      - 🇬🇧GB_9050atWangCai_1
+      - 🇬🇧GB_9053atWangCai_1
+      - 🇬🇧GB_9056atWangCai_1
+      - 🇬🇧GB_9057atWangCai_1
+      - 🇬🇧GB_9059atWangCai_1
+      - 🇬🇧GB_9060atWangCai_1
+      - 🇬🇧GB_9064atWangCai_1
+      - 🇬🇧GB_9070atWangCai_1
+      - 🇬🇧GB_9073atWangCai_1
+      - 🇬🇧GB_9079atWangCai_1
+      - 🇬🇧GB_9084atWangCai_1
+      - 🇬🇧GB_9088atWangCai_1
+      - 🇬🇧GB_9093atWangCai_1
+      - 🇬🇧GB_9094atWangCai_1
+      - 🇬🇧GB_9097atWangCai_1
+      - 🇬🇧GB_9098atWangCai_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - v2_亚洲03_MPTCP_★★☆_1
-      - v2_亚洲02_MPTCP_★★☆_2
-      - v2_亚洲13_MPTCP_★★☆_3
-      - v2_亚洲12_MPTCP_★★☆_4
-      - 〖freeyule〗v2_亚洲01_MPTCP_★★★_5
-      - v2_亚洲04_MPTCP_★★★_6
-      - v2_亚洲05_MPTCP_★★★_7
-      - v2_香港01_MPTCP_★★★_8
-      - v2_香港02_MPTCP_★★★_9
-      - v2_香港03_MPTCP_★★★_10
-      - v2_香港12_MPTCP_★★★_11
-      - v2_香港04_MPTCP_★★★_12
-      - v2_香港05_MPTCP_★★★_13
-      - v2_新加坡01_MPTCP_★★☆_14
-      - v2_新加坡02_MPTCP_★★☆_15
-      - v2_新加坡03_MPTCP_★★☆_16
-      - v2_新加坡13_MPTCP_★★☆_17
-      - v2_新加坡04_MPTCP_★★★_18
-      - v2_新加坡05_MPTCP_★★★_19
-      - v2_日本01_MPTCP_★★☆_20
-      - v2_日本02_MPTCP_★★☆_21
-      - v2_日本12_MPTCP_★★☆_22
-      - v2_日本03_MPTCP_★★☆_23
-      - v2_日本04_MPTCP_★★☆_24
-      - v2_日本05_MPTCP_★★☆_25
-      - v2_美国01_MPTCP_★★★_26
-      - v2_美国02_MPTCP_★★★_27
-      - v2_美国03_MPTCP_★★★_28
-      - v2_美国04_MPTCP_★★★_29
-      - v2_美国05_MPTCP_★★★_30
-      - v2_香港01_原生_★★★_31
-      - v2_香港02_原生_★★★_32
-      - v2_香港03_原生_★★★_33
-      - v2_香港12_原生_★★★_34
-      - v2_香港04_原生_★★★_35
-      - v2_香港05_原生_★★★_36
-      - v2_香港03_myTVSUPER_限速_37
-      - v2_香港03_YouTubePre_限速_38
-      - v2_台湾01_原生_★★☆_39
-      - v2_台湾02_原生_★★☆_40
-      - v2_台湾03_原生_★★☆_41
-      - v2_台湾04_原生_★★☆_42
-      - v2_台湾05_原生_★★☆_43
-      - v2_新加坡01_原生_★★☆_44
-      - v2_新加坡02_原生_★★☆_45
-      - v2_新加坡03_原生_★★☆_46
-      - v2_新加坡04_原生_★★☆_47
-      - v2_新加坡05_原生_★★☆_48
-      - v2_日本01_原生_★★☆_49
-      - v2_日本02_原生_★★☆_50
-      - v2_日本03_原生_★★☆_51
-      - v2_日本04_原生_★★☆_52
-      - v2_日本05_原生_★★☆_53
-      - v2_日本03_特供原生_限速_54
-      - v2_美国01_原生_★★☆_55
-      - v2_美国02_原生_★★☆_56
-      - v2_美国03_原生_★★☆_57
-      - v2_美国04_原生_★★☆_58
-      - v2_美国05_原生_★★☆_59
-      - v2_欧洲01_MPTCP_★☆☆_60
-      - v2_欧洲02_MPTCP_★☆☆_61
-      - v2_欧洲03_MPTCP_★☆☆_62
-      - v2_欧洲04_MPTCP_★☆☆_63
-      - v2_欧洲05_MPTCP_★☆☆_64
-      - v2_澳洲01_MPTCP_★☆☆_65
-      - v2_澳洲02_MPTCP_★☆☆_66
-      - v2_澳洲03_MPTCP_★☆☆_67
-      - v2_澳洲04_MPTCP_★☆☆_68
-      - v2_澳洲05_MPTCP_★☆☆_69
-      - v2_韩国01_MPTCP_★☆☆_70
-      - v2_韩国02_MPTCP_★☆☆_71
-      - v2_韩国03_MPTCP_★☆☆_72
-      - v2_韩国04_MPTCP_★☆☆_73
-      - v2_韩国05_MPTCP_★☆☆_74
-      - v2_南美01_MPTCP_★☆☆_75
-      - v2_南美02_MPTCP_★☆☆_76
-      - v2_南美03_MPTCP_★☆☆_77
-      - v2_南美04_MPTCP_★☆☆_78
-      - v2_南美05_MPTCP_★☆☆_79
-      - v2_印度01_MPTCP_★☆☆_80
-      - v2_印度02_MPTCP_★☆☆_81
-      - v2_印度03_MPTCP_★☆☆_82
-      - v2_印度04_MPTCP_★☆☆_83
-      - v2_印度05_MPTCP_★☆☆_84
-      - v2_俄罗斯01_MPTCP_★☆☆_85
-      - v2_俄罗斯02_MPTCP_★☆☆_86
-      - v2_俄罗斯03_MPTCP_★☆☆_87
-      - v2_俄罗斯04_MPTCP_★☆☆_88
-      - v2_俄罗斯05_MPTCP_★☆☆_89
+      - 🇬🇧GB_9000atWangCai_1
+      - 🇬🇧GB_9001atWangCai_1
+      - 🇬🇧GB_9003atWangCai_1
+      - 🇬🇧GB_9005atWangCai_1
+      - 🇬🇧GB_9006atWangCai_1
+      - 🇬🇧GB_9007atWangCai_1
+      - 🇬🇧GB_9008atWangCai_1
+      - 🇬🇧GB_9010atWangCai_1
+      - 🇬🇧GB_9011atWangCai_1
+      - 🇬🇧GB_9014atWangCai_1
+      - 🇬🇧GB_9015atWangCai_1
+      - 🇬🇧GB_9018atWangCai_1
+      - 🇬🇧GB_9019atWangCai_1
+      - 🇬🇧GB_9020atWangCai_1
+      - 🇬🇧GB_9024atWangCai_1
+      - 🇬🇧GB_9025atWangCai_1
+      - 🇬🇧GB_9026atWangCai_1
+      - 🇬🇧GB_9027atWangCai_1
+      - 🇬🇧GB_9031atWangCai_1
+      - 🇬🇧GB_9032atWangCai_1
+      - 🇬🇧GB_9033atWangCai_1
+      - 🇬🇧GB_9037atWangCai_1
+      - 🇬🇧GB_9038atWangCai_1
+      - 🇬🇧GB_9040atWangCai_1
+      - 🇬🇧GB_9041atWangCai_1
+      - 🇬🇧GB_9042atWangCai_1
+      - 🇬🇧GB_9043atWangCai_1
+      - 🇬🇧GB_9045atWangCai_1
+      - 🇬🇧GB_9046atWangCai_1
+      - 🇬🇧GB_9050atWangCai_1
+      - 🇬🇧GB_9053atWangCai_1
+      - 🇬🇧GB_9056atWangCai_1
+      - 🇬🇧GB_9057atWangCai_1
+      - 🇬🇧GB_9059atWangCai_1
+      - 🇬🇧GB_9060atWangCai_1
+      - 🇬🇧GB_9064atWangCai_1
+      - 🇬🇧GB_9070atWangCai_1
+      - 🇬🇧GB_9073atWangCai_1
+      - 🇬🇧GB_9079atWangCai_1
+      - 🇬🇧GB_9084atWangCai_1
+      - 🇬🇧GB_9088atWangCai_1
+      - 🇬🇧GB_9093atWangCai_1
+      - 🇬🇧GB_9094atWangCai_1
+      - 🇬🇧GB_9097atWangCai_1
+      - 🇬🇧GB_9098atWangCai_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2_亚洲03_MPTCP_★★☆_1
-      - v2_亚洲02_MPTCP_★★☆_2
-      - v2_亚洲13_MPTCP_★★☆_3
-      - v2_亚洲12_MPTCP_★★☆_4
-      - 〖freeyule〗v2_亚洲01_MPTCP_★★★_5
-      - v2_亚洲04_MPTCP_★★★_6
-      - v2_亚洲05_MPTCP_★★★_7
-      - v2_香港01_MPTCP_★★★_8
-      - v2_香港02_MPTCP_★★★_9
-      - v2_香港03_MPTCP_★★★_10
-      - v2_香港12_MPTCP_★★★_11
-      - v2_香港04_MPTCP_★★★_12
-      - v2_香港05_MPTCP_★★★_13
-      - v2_新加坡01_MPTCP_★★☆_14
-      - v2_新加坡02_MPTCP_★★☆_15
-      - v2_新加坡03_MPTCP_★★☆_16
-      - v2_新加坡13_MPTCP_★★☆_17
-      - v2_新加坡04_MPTCP_★★★_18
-      - v2_新加坡05_MPTCP_★★★_19
-      - v2_日本01_MPTCP_★★☆_20
-      - v2_日本02_MPTCP_★★☆_21
-      - v2_日本12_MPTCP_★★☆_22
-      - v2_日本03_MPTCP_★★☆_23
-      - v2_日本04_MPTCP_★★☆_24
-      - v2_日本05_MPTCP_★★☆_25
-      - v2_美国01_MPTCP_★★★_26
-      - v2_美国02_MPTCP_★★★_27
-      - v2_美国03_MPTCP_★★★_28
-      - v2_美国04_MPTCP_★★★_29
-      - v2_美国05_MPTCP_★★★_30
-      - v2_香港01_原生_★★★_31
-      - v2_香港02_原生_★★★_32
-      - v2_香港03_原生_★★★_33
-      - v2_香港12_原生_★★★_34
-      - v2_香港04_原生_★★★_35
-      - v2_香港05_原生_★★★_36
-      - v2_香港03_myTVSUPER_限速_37
-      - v2_香港03_YouTubePre_限速_38
-      - v2_台湾01_原生_★★☆_39
-      - v2_台湾02_原生_★★☆_40
-      - v2_台湾03_原生_★★☆_41
-      - v2_台湾04_原生_★★☆_42
-      - v2_台湾05_原生_★★☆_43
-      - v2_新加坡01_原生_★★☆_44
-      - v2_新加坡02_原生_★★☆_45
-      - v2_新加坡03_原生_★★☆_46
-      - v2_新加坡04_原生_★★☆_47
-      - v2_新加坡05_原生_★★☆_48
-      - v2_日本01_原生_★★☆_49
-      - v2_日本02_原生_★★☆_50
-      - v2_日本03_原生_★★☆_51
-      - v2_日本04_原生_★★☆_52
-      - v2_日本05_原生_★★☆_53
-      - v2_日本03_特供原生_限速_54
-      - v2_美国01_原生_★★☆_55
-      - v2_美国02_原生_★★☆_56
-      - v2_美国03_原生_★★☆_57
-      - v2_美国04_原生_★★☆_58
-      - v2_美国05_原生_★★☆_59
-      - v2_欧洲01_MPTCP_★☆☆_60
-      - v2_欧洲02_MPTCP_★☆☆_61
-      - v2_欧洲03_MPTCP_★☆☆_62
-      - v2_欧洲04_MPTCP_★☆☆_63
-      - v2_欧洲05_MPTCP_★☆☆_64
-      - v2_澳洲01_MPTCP_★☆☆_65
-      - v2_澳洲02_MPTCP_★☆☆_66
-      - v2_澳洲03_MPTCP_★☆☆_67
-      - v2_澳洲04_MPTCP_★☆☆_68
-      - v2_澳洲05_MPTCP_★☆☆_69
-      - v2_韩国01_MPTCP_★☆☆_70
-      - v2_韩国02_MPTCP_★☆☆_71
-      - v2_韩国03_MPTCP_★☆☆_72
-      - v2_韩国04_MPTCP_★☆☆_73
-      - v2_韩国05_MPTCP_★☆☆_74
-      - v2_南美01_MPTCP_★☆☆_75
-      - v2_南美02_MPTCP_★☆☆_76
-      - v2_南美03_MPTCP_★☆☆_77
-      - v2_南美04_MPTCP_★☆☆_78
-      - v2_南美05_MPTCP_★☆☆_79
-      - v2_印度01_MPTCP_★☆☆_80
-      - v2_印度02_MPTCP_★☆☆_81
-      - v2_印度03_MPTCP_★☆☆_82
-      - v2_印度04_MPTCP_★☆☆_83
-      - v2_印度05_MPTCP_★☆☆_84
-      - v2_俄罗斯01_MPTCP_★☆☆_85
-      - v2_俄罗斯02_MPTCP_★☆☆_86
-      - v2_俄罗斯03_MPTCP_★☆☆_87
-      - v2_俄罗斯04_MPTCP_★☆☆_88
-      - v2_俄罗斯05_MPTCP_★☆☆_89
+      - 🇬🇧GB_9000atWangCai_1
+      - 🇬🇧GB_9001atWangCai_1
+      - 🇬🇧GB_9003atWangCai_1
+      - 🇬🇧GB_9005atWangCai_1
+      - 🇬🇧GB_9006atWangCai_1
+      - 🇬🇧GB_9007atWangCai_1
+      - 🇬🇧GB_9008atWangCai_1
+      - 🇬🇧GB_9010atWangCai_1
+      - 🇬🇧GB_9011atWangCai_1
+      - 🇬🇧GB_9014atWangCai_1
+      - 🇬🇧GB_9015atWangCai_1
+      - 🇬🇧GB_9018atWangCai_1
+      - 🇬🇧GB_9019atWangCai_1
+      - 🇬🇧GB_9020atWangCai_1
+      - 🇬🇧GB_9024atWangCai_1
+      - 🇬🇧GB_9025atWangCai_1
+      - 🇬🇧GB_9026atWangCai_1
+      - 🇬🇧GB_9027atWangCai_1
+      - 🇬🇧GB_9031atWangCai_1
+      - 🇬🇧GB_9032atWangCai_1
+      - 🇬🇧GB_9033atWangCai_1
+      - 🇬🇧GB_9037atWangCai_1
+      - 🇬🇧GB_9038atWangCai_1
+      - 🇬🇧GB_9040atWangCai_1
+      - 🇬🇧GB_9041atWangCai_1
+      - 🇬🇧GB_9042atWangCai_1
+      - 🇬🇧GB_9043atWangCai_1
+      - 🇬🇧GB_9045atWangCai_1
+      - 🇬🇧GB_9046atWangCai_1
+      - 🇬🇧GB_9050atWangCai_1
+      - 🇬🇧GB_9053atWangCai_1
+      - 🇬🇧GB_9056atWangCai_1
+      - 🇬🇧GB_9057atWangCai_1
+      - 🇬🇧GB_9059atWangCai_1
+      - 🇬🇧GB_9060atWangCai_1
+      - 🇬🇧GB_9064atWangCai_1
+      - 🇬🇧GB_9070atWangCai_1
+      - 🇬🇧GB_9073atWangCai_1
+      - 🇬🇧GB_9079atWangCai_1
+      - 🇬🇧GB_9084atWangCai_1
+      - 🇬🇧GB_9088atWangCai_1
+      - 🇬🇧GB_9093atWangCai_1
+      - 🇬🇧GB_9094atWangCai_1
+      - 🇬🇧GB_9097atWangCai_1
+      - 🇬🇧GB_9098atWangCai_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -683,95 +375,51 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2_亚洲03_MPTCP_★★☆_1
-      - v2_亚洲02_MPTCP_★★☆_2
-      - v2_亚洲13_MPTCP_★★☆_3
-      - v2_亚洲12_MPTCP_★★☆_4
-      - 〖freeyule〗v2_亚洲01_MPTCP_★★★_5
-      - v2_亚洲04_MPTCP_★★★_6
-      - v2_亚洲05_MPTCP_★★★_7
-      - v2_香港01_MPTCP_★★★_8
-      - v2_香港02_MPTCP_★★★_9
-      - v2_香港03_MPTCP_★★★_10
-      - v2_香港12_MPTCP_★★★_11
-      - v2_香港04_MPTCP_★★★_12
-      - v2_香港05_MPTCP_★★★_13
-      - v2_新加坡01_MPTCP_★★☆_14
-      - v2_新加坡02_MPTCP_★★☆_15
-      - v2_新加坡03_MPTCP_★★☆_16
-      - v2_新加坡13_MPTCP_★★☆_17
-      - v2_新加坡04_MPTCP_★★★_18
-      - v2_新加坡05_MPTCP_★★★_19
-      - v2_日本01_MPTCP_★★☆_20
-      - v2_日本02_MPTCP_★★☆_21
-      - v2_日本12_MPTCP_★★☆_22
-      - v2_日本03_MPTCP_★★☆_23
-      - v2_日本04_MPTCP_★★☆_24
-      - v2_日本05_MPTCP_★★☆_25
-      - v2_美国01_MPTCP_★★★_26
-      - v2_美国02_MPTCP_★★★_27
-      - v2_美国03_MPTCP_★★★_28
-      - v2_美国04_MPTCP_★★★_29
-      - v2_美国05_MPTCP_★★★_30
-      - v2_香港01_原生_★★★_31
-      - v2_香港02_原生_★★★_32
-      - v2_香港03_原生_★★★_33
-      - v2_香港12_原生_★★★_34
-      - v2_香港04_原生_★★★_35
-      - v2_香港05_原生_★★★_36
-      - v2_香港03_myTVSUPER_限速_37
-      - v2_香港03_YouTubePre_限速_38
-      - v2_台湾01_原生_★★☆_39
-      - v2_台湾02_原生_★★☆_40
-      - v2_台湾03_原生_★★☆_41
-      - v2_台湾04_原生_★★☆_42
-      - v2_台湾05_原生_★★☆_43
-      - v2_新加坡01_原生_★★☆_44
-      - v2_新加坡02_原生_★★☆_45
-      - v2_新加坡03_原生_★★☆_46
-      - v2_新加坡04_原生_★★☆_47
-      - v2_新加坡05_原生_★★☆_48
-      - v2_日本01_原生_★★☆_49
-      - v2_日本02_原生_★★☆_50
-      - v2_日本03_原生_★★☆_51
-      - v2_日本04_原生_★★☆_52
-      - v2_日本05_原生_★★☆_53
-      - v2_日本03_特供原生_限速_54
-      - v2_美国01_原生_★★☆_55
-      - v2_美国02_原生_★★☆_56
-      - v2_美国03_原生_★★☆_57
-      - v2_美国04_原生_★★☆_58
-      - v2_美国05_原生_★★☆_59
-      - v2_欧洲01_MPTCP_★☆☆_60
-      - v2_欧洲02_MPTCP_★☆☆_61
-      - v2_欧洲03_MPTCP_★☆☆_62
-      - v2_欧洲04_MPTCP_★☆☆_63
-      - v2_欧洲05_MPTCP_★☆☆_64
-      - v2_澳洲01_MPTCP_★☆☆_65
-      - v2_澳洲02_MPTCP_★☆☆_66
-      - v2_澳洲03_MPTCP_★☆☆_67
-      - v2_澳洲04_MPTCP_★☆☆_68
-      - v2_澳洲05_MPTCP_★☆☆_69
-      - v2_韩国01_MPTCP_★☆☆_70
-      - v2_韩国02_MPTCP_★☆☆_71
-      - v2_韩国03_MPTCP_★☆☆_72
-      - v2_韩国04_MPTCP_★☆☆_73
-      - v2_韩国05_MPTCP_★☆☆_74
-      - v2_南美01_MPTCP_★☆☆_75
-      - v2_南美02_MPTCP_★☆☆_76
-      - v2_南美03_MPTCP_★☆☆_77
-      - v2_南美04_MPTCP_★☆☆_78
-      - v2_南美05_MPTCP_★☆☆_79
-      - v2_印度01_MPTCP_★☆☆_80
-      - v2_印度02_MPTCP_★☆☆_81
-      - v2_印度03_MPTCP_★☆☆_82
-      - v2_印度04_MPTCP_★☆☆_83
-      - v2_印度05_MPTCP_★☆☆_84
-      - v2_俄罗斯01_MPTCP_★☆☆_85
-      - v2_俄罗斯02_MPTCP_★☆☆_86
-      - v2_俄罗斯03_MPTCP_★☆☆_87
-      - v2_俄罗斯04_MPTCP_★☆☆_88
-      - v2_俄罗斯05_MPTCP_★☆☆_89
+      - 🇬🇧GB_9000atWangCai_1
+      - 🇬🇧GB_9001atWangCai_1
+      - 🇬🇧GB_9003atWangCai_1
+      - 🇬🇧GB_9005atWangCai_1
+      - 🇬🇧GB_9006atWangCai_1
+      - 🇬🇧GB_9007atWangCai_1
+      - 🇬🇧GB_9008atWangCai_1
+      - 🇬🇧GB_9010atWangCai_1
+      - 🇬🇧GB_9011atWangCai_1
+      - 🇬🇧GB_9014atWangCai_1
+      - 🇬🇧GB_9015atWangCai_1
+      - 🇬🇧GB_9018atWangCai_1
+      - 🇬🇧GB_9019atWangCai_1
+      - 🇬🇧GB_9020atWangCai_1
+      - 🇬🇧GB_9024atWangCai_1
+      - 🇬🇧GB_9025atWangCai_1
+      - 🇬🇧GB_9026atWangCai_1
+      - 🇬🇧GB_9027atWangCai_1
+      - 🇬🇧GB_9031atWangCai_1
+      - 🇬🇧GB_9032atWangCai_1
+      - 🇬🇧GB_9033atWangCai_1
+      - 🇬🇧GB_9037atWangCai_1
+      - 🇬🇧GB_9038atWangCai_1
+      - 🇬🇧GB_9040atWangCai_1
+      - 🇬🇧GB_9041atWangCai_1
+      - 🇬🇧GB_9042atWangCai_1
+      - 🇬🇧GB_9043atWangCai_1
+      - 🇬🇧GB_9045atWangCai_1
+      - 🇬🇧GB_9046atWangCai_1
+      - 🇬🇧GB_9050atWangCai_1
+      - 🇬🇧GB_9053atWangCai_1
+      - 🇬🇧GB_9056atWangCai_1
+      - 🇬🇧GB_9057atWangCai_1
+      - 🇬🇧GB_9059atWangCai_1
+      - 🇬🇧GB_9060atWangCai_1
+      - 🇬🇧GB_9064atWangCai_1
+      - 🇬🇧GB_9070atWangCai_1
+      - 🇬🇧GB_9073atWangCai_1
+      - 🇬🇧GB_9079atWangCai_1
+      - 🇬🇧GB_9084atWangCai_1
+      - 🇬🇧GB_9088atWangCai_1
+      - 🇬🇧GB_9093atWangCai_1
+      - 🇬🇧GB_9094atWangCai_1
+      - 🇬🇧GB_9097atWangCai_1
+      - 🇬🇧GB_9098atWangCai_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
