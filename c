@@ -5,46 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"Super_南印度_07免流测试_无技术支持_仅80端口_","server":"southindia.dnsfree.top","port":80,"type":"vmess","uuid":"382a08da-8b27-4acb-8109-7660133bc72a","alterId":0,"cipher":"auto","country":"Super_南印度_07免流测试_无技术支持_仅80端口_","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tiebapic.baidu.com"}}}
+  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.198.252","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.198.252","port":4444,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Super_南印度_07免流测试_无技术支持_仅80端口_
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Super_南印度_07免流测试_无技术支持_仅80端口_
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Super_南印度_07免流测试_无技术支持_仅80端口_
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Super_南印度_07免流测试_无技术支持_仅80端口_
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Super_南印度_07免流测试_无技术支持_仅80端口_
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Super_南印度_07免流测试_无技术支持_仅80端口_
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +74,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Super_南印度_07免流测试_无技术支持_仅80端口_
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
