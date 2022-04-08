@@ -5,53 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"ip_140_83_60_234","server":"140.83.60.234","port":38902,"type":"vmess","uuid":"70078179-1b67-41e4-877c-256a678c33b7","alterId":0,"cipher":"auto","country":"ip_140_83_60_234","skip-cert-verify":true,"tls":false,"network":"kcp"}
-  - {"name":"ip_152_70_83_220","server":"152.70.83.220","port":54101,"type":"vmess","uuid":"7c1151e2-f38c-4ded-81f2-98eec8995858","alterId":0,"cipher":"auto","country":"ip_152_70_83_220","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"Super_南印度_07免流测试_无技术支持_仅80端口_","server":"southindia.dnsfree.top","port":80,"type":"vmess","uuid":"382a08da-8b27-4acb-8109-7660133bc72a","alterId":0,"cipher":"auto","country":"Super_南印度_07免流测试_无技术支持_仅80端口_","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tiebapic.baidu.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ip_140_83_60_234
-      - ip_152_70_83_220
+      - Super_南印度_07免流测试_无技术支持_仅80端口_
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ip_140_83_60_234
-      - ip_152_70_83_220
+      - Super_南印度_07免流测试_无技术支持_仅80端口_
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ip_140_83_60_234
-      - ip_152_70_83_220
+      - Super_南印度_07免流测试_无技术支持_仅80端口_
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip_140_83_60_234
-      - ip_152_70_83_220
+      - Super_南印度_07免流测试_无技术支持_仅80端口_
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ip_140_83_60_234
-      - ip_152_70_83_220
+      - Super_南印度_07免流测试_无技术支持_仅80端口_
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip_140_83_60_234
-      - ip_152_70_83_220
+      - Super_南印度_07免流测试_无技术支持_仅80端口_
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ip_140_83_60_234
-      - ip_152_70_83_220
+      - Super_南印度_07免流测试_无技术支持_仅80端口_
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
