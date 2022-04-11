@@ -5,88 +5,214 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇦_CA_加拿大_1","server":"134.195.198.252","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_1","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"default_name_2","server":"bpjzx2.cainiao.tk","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","country":"default_name_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"orange-mode-ac6a.xjp0mx2cp.workers.dev"}}}
-  - {"name":"🇸🇬_SG_新加坡_3","server":"sg1.31vpn.com","port":443,"type":"vmess","uuid":"dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee","alterId":0,"cipher":"auto","country":"🇸🇬_SG_新加坡_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/fastssh/bddasdf/624e71635ed8e/","headers":{"host":"sg1.31vpn.com"}}}
-  - {"name":"default_name_4","server":"104.16.196.47","port":443,"type":"vmess","uuid":"3256a220-3c95-4844-839c-3b509c1c0997","alterId":0,"cipher":"auto","country":"default_name_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"production.flat-firefly-71d2.v20210811.workers.dev"}}}
-  - {"name":"default_name_5","server":"104.19.62.119","port":443,"type":"vmess","uuid":"e40d2888-03f6-4859-e84d-a743db763d52","alterId":0,"cipher":"auto","country":"default_name_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"broken-snow-9bc0.nhv111202.workers.dev"}}}
-  - {"name":"default_name_6","server":"104.18.90.4","port":443,"type":"vmess","uuid":"e40d2888-03f6-4859-e84d-a743db763d52","alterId":0,"cipher":"auto","country":"default_name_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"green-shadow-598a.nguyenhuuvuong11122002.workers.dev"}}}
-  - {"name":"default_name_7","server":"104.16.104.126","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","country":"default_name_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"sweet-salad-aa33.tianzhen19880808.workers.dev"}}}
+  - {"name":"🇺🇸US_2442","server":"ddns-jp01.ayanami.best","port":80,"type":"vmess","uuid":"b31f69e2-efce-4168-932d-2fa083ab1b80","alterId":0,"cipher":"auto","country":"🇺🇸US_2442","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸US_2496","server":"scjp.scsevers.cf","port":443,"type":"trojan","country":"🇺🇸US_2496","skip-cert-verify":true,"udp":true,"password":"sharecentre"}
+  - {"name":"🇺🇸US_2446","server":"kraws002.xmrth-node.xyz","port":11090,"type":"vmess","uuid":"453dfa48-d477-3eef-b791-fc1fddc17ae3","alterId":0,"cipher":"auto","country":"🇺🇸US_2446","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"🇺🇸US_2359","server":"ss-node-3.gfwairport.net","port":50001,"type":"ss","country":"🇺🇸US_2359","cipher":"chacha20-ietf-poly1305","password":"122b9200-c5e0-4003-836c-973eef59b6b2"}
+  - {"name":"🇺🇸US_2467","server":"184.168.127.50","port":443,"type":"trojan","country":"🇺🇸US_2467","skip-cert-verify":true,"udp":true,"password":"28d98f761aca9d636f44db62544628eb"}
+  - {"name":"🇺🇸US_2497","server":"azhk.node.qchwnd.moe","port":443,"type":"trojan","country":"🇺🇸US_2497","skip-cert-verify":true,"udp":true,"password":"ddcfe6cb-d001-430e-9781-427496e3ed1d"}
+  - {"name":"🇺🇸US_2481","server":"azhk.relay.qchwnd.moe","port":443,"type":"trojan","country":"🇺🇸US_2481","skip-cert-verify":true,"udp":true,"password":"52face98-c4cb-4299-aa38-9546085b0619"}
+  - {"name":"🇺🇸US_2470","server":"azhk.node.qchwnd.moe","port":443,"type":"trojan","country":"🇺🇸US_2470","skip-cert-verify":true,"udp":true,"password":"28d98f761addcfe6cb-d001-430e-9781-427496e3ed1d"}
+  - {"name":"🇺🇸US_2484","server":"azhk.node.qchwnd.moe","port":443,"type":"trojan","country":"🇺🇸US_2484","skip-cert-verify":true,"udp":true,"password":"36ebef7d1b1d6205fd0c55f28800e6476ddab3-29a2-4a32-8f0d-33cf6add3722"}
+  - {"name":"🇺🇸US_2466","server":"azhk.node.qchwnd.moe","port":443,"type":"trojan","country":"🇺🇸US_2466","skip-cert-verify":true,"udp":true,"password":"2647cdac-aa5c-4955-a13b-b66793cf48cd"}
+  - {"name":"🇺🇸US_2487","server":"azhk.node.qchwnd.moe","port":443,"type":"trojan","country":"🇺🇸US_2487","skip-cert-verify":true,"udp":true,"password":"476ddab3-29a2-4a32-8f0d-33cf6add3722"}
+  - {"name":"🇺🇸US_2492","server":"share.softbank.mjj-home.com","port":443,"type":"trojan","country":"🇺🇸US_2492","skip-cert-verify":true,"udp":true,"password":"share.mjj-home.com"}
+  - {"name":"🇺🇸US_2494","server":"tw.softbank.mjj-home.com","port":443,"type":"trojan","country":"🇺🇸US_2494","skip-cert-verify":true,"udp":true,"password":"share.mjj-home.com"}
+  - {"name":"🇺🇸US_2475","server":"184.168.127.50","port":443,"type":"trojan","country":"🇺🇸US_2475","skip-cert-verify":true,"udp":true,"password":"a3fa58b581353bb375d2ddad0f327938"}
+  - {"name":"🇺🇸US_2489","server":"www.tokyo2023.ga","port":443,"type":"trojan","country":"🇺🇸US_2489","skip-cert-verify":true,"udp":true,"password":"4f7dc540-d244-4e64-af21-4b5bb300add3"}
+  - {"name":"🇺🇸US_2468","server":"184.168.127.50","port":443,"type":"trojan","country":"🇺🇸US_2468","skip-cert-verify":true,"udp":true,"password":"36ebef7d1b1d6205fd0c55f28800e674"}
+  - {"name":"🇺🇸US_2469","server":"usa-server-02.selfupay.com","port":443,"type":"trojan","country":"🇺🇸US_2469","skip-cert-verify":true,"udp":true,"password":"36ebef7d1b1d6205fd0c55f28800e674"}
+  - {"name":"🇺🇸US_2471","server":"usa-server-02.selfupay.com","port":443,"type":"trojan","country":"🇺🇸US_2471","skip-cert-verify":true,"udp":true,"password":"a3fa58b581353bb375d2ddad0f327938"}
+  - {"name":"🇺🇸US_2486","server":"a2.centaur.network","port":8081,"type":"trojan","country":"🇺🇸US_2486","skip-cert-verify":true,"udp":true,"password":"cdcf03f6-5326-4496-a1d1-03bb098ad56f"}
+  - {"name":"🇺🇸US_2474","server":"72.167.45.6","port":443,"type":"trojan","country":"🇺🇸US_2474","skip-cert-verify":true,"udp":true,"password":"28d98f761aca9d636f44db62544628eb"}
+  - {"name":"🇺🇸US_2473","server":"72.167.45.6","port":443,"type":"trojan","country":"🇺🇸US_2473","skip-cert-verify":true,"udp":true,"password":"36ebef7d1b1d6205fd0c55f28800e674"}
+  - {"name":"🇺🇸US_2495","server":"sg-server-01.selfupay.com","port":443,"type":"trojan","country":"🇺🇸US_2495","skip-cert-verify":true,"udp":true,"password":"36ebef7d1b1d6205fd0c55f28800e674"}
+  - {"name":"🇺🇸US_2472","server":"sg-server-01.selfupay.com","port":443,"type":"trojan","country":"🇺🇸US_2472","skip-cert-verify":true,"udp":true,"password":"a3fa58b581353bb375d2ddad0f327938"}
+  - {"name":"🇺🇸US_2476","server":"72.167.45.6","port":443,"type":"trojan","country":"🇺🇸US_2476","skip-cert-verify":true,"udp":true,"password":"a3fa58b581353bb375d2ddad0f327938"}
+  - {"name":"🇺🇸US_2454","server":"48us.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"🇺🇸US_2454","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"48us.fans8.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇺🇸US_2442
+      - 🇺🇸US_2496
+      - 🇺🇸US_2446
+      - 🇺🇸US_2359
+      - 🇺🇸US_2467
+      - 🇺🇸US_2497
+      - 🇺🇸US_2481
+      - 🇺🇸US_2470
+      - 🇺🇸US_2484
+      - 🇺🇸US_2466
+      - 🇺🇸US_2487
+      - 🇺🇸US_2492
+      - 🇺🇸US_2494
+      - 🇺🇸US_2475
+      - 🇺🇸US_2489
+      - 🇺🇸US_2468
+      - 🇺🇸US_2469
+      - 🇺🇸US_2471
+      - 🇺🇸US_2486
+      - 🇺🇸US_2474
+      - 🇺🇸US_2473
+      - 🇺🇸US_2495
+      - 🇺🇸US_2472
+      - 🇺🇸US_2476
+      - 🇺🇸US_2454
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇺🇸US_2442
+      - 🇺🇸US_2496
+      - 🇺🇸US_2446
+      - 🇺🇸US_2359
+      - 🇺🇸US_2467
+      - 🇺🇸US_2497
+      - 🇺🇸US_2481
+      - 🇺🇸US_2470
+      - 🇺🇸US_2484
+      - 🇺🇸US_2466
+      - 🇺🇸US_2487
+      - 🇺🇸US_2492
+      - 🇺🇸US_2494
+      - 🇺🇸US_2475
+      - 🇺🇸US_2489
+      - 🇺🇸US_2468
+      - 🇺🇸US_2469
+      - 🇺🇸US_2471
+      - 🇺🇸US_2486
+      - 🇺🇸US_2474
+      - 🇺🇸US_2473
+      - 🇺🇸US_2495
+      - 🇺🇸US_2472
+      - 🇺🇸US_2476
+      - 🇺🇸US_2454
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇺🇸US_2442
+      - 🇺🇸US_2496
+      - 🇺🇸US_2446
+      - 🇺🇸US_2359
+      - 🇺🇸US_2467
+      - 🇺🇸US_2497
+      - 🇺🇸US_2481
+      - 🇺🇸US_2470
+      - 🇺🇸US_2484
+      - 🇺🇸US_2466
+      - 🇺🇸US_2487
+      - 🇺🇸US_2492
+      - 🇺🇸US_2494
+      - 🇺🇸US_2475
+      - 🇺🇸US_2489
+      - 🇺🇸US_2468
+      - 🇺🇸US_2469
+      - 🇺🇸US_2471
+      - 🇺🇸US_2486
+      - 🇺🇸US_2474
+      - 🇺🇸US_2473
+      - 🇺🇸US_2495
+      - 🇺🇸US_2472
+      - 🇺🇸US_2476
+      - 🇺🇸US_2454
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇺🇸US_2442
+      - 🇺🇸US_2496
+      - 🇺🇸US_2446
+      - 🇺🇸US_2359
+      - 🇺🇸US_2467
+      - 🇺🇸US_2497
+      - 🇺🇸US_2481
+      - 🇺🇸US_2470
+      - 🇺🇸US_2484
+      - 🇺🇸US_2466
+      - 🇺🇸US_2487
+      - 🇺🇸US_2492
+      - 🇺🇸US_2494
+      - 🇺🇸US_2475
+      - 🇺🇸US_2489
+      - 🇺🇸US_2468
+      - 🇺🇸US_2469
+      - 🇺🇸US_2471
+      - 🇺🇸US_2486
+      - 🇺🇸US_2474
+      - 🇺🇸US_2473
+      - 🇺🇸US_2495
+      - 🇺🇸US_2472
+      - 🇺🇸US_2476
+      - 🇺🇸US_2454
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇺🇸US_2442
+      - 🇺🇸US_2496
+      - 🇺🇸US_2446
+      - 🇺🇸US_2359
+      - 🇺🇸US_2467
+      - 🇺🇸US_2497
+      - 🇺🇸US_2481
+      - 🇺🇸US_2470
+      - 🇺🇸US_2484
+      - 🇺🇸US_2466
+      - 🇺🇸US_2487
+      - 🇺🇸US_2492
+      - 🇺🇸US_2494
+      - 🇺🇸US_2475
+      - 🇺🇸US_2489
+      - 🇺🇸US_2468
+      - 🇺🇸US_2469
+      - 🇺🇸US_2471
+      - 🇺🇸US_2486
+      - 🇺🇸US_2474
+      - 🇺🇸US_2473
+      - 🇺🇸US_2495
+      - 🇺🇸US_2472
+      - 🇺🇸US_2476
+      - 🇺🇸US_2454
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇺🇸US_2442
+      - 🇺🇸US_2496
+      - 🇺🇸US_2446
+      - 🇺🇸US_2359
+      - 🇺🇸US_2467
+      - 🇺🇸US_2497
+      - 🇺🇸US_2481
+      - 🇺🇸US_2470
+      - 🇺🇸US_2484
+      - 🇺🇸US_2466
+      - 🇺🇸US_2487
+      - 🇺🇸US_2492
+      - 🇺🇸US_2494
+      - 🇺🇸US_2475
+      - 🇺🇸US_2489
+      - 🇺🇸US_2468
+      - 🇺🇸US_2469
+      - 🇺🇸US_2471
+      - 🇺🇸US_2486
+      - 🇺🇸US_2474
+      - 🇺🇸US_2473
+      - 🇺🇸US_2495
+      - 🇺🇸US_2472
+      - 🇺🇸US_2476
+      - 🇺🇸US_2454
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -109,13 +235,31 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大_1
-      - default_name_2
-      - 🇸🇬_SG_新加坡_3
-      - default_name_4
-      - default_name_5
-      - default_name_6
-      - default_name_7
+      - 🇺🇸US_2442
+      - 🇺🇸US_2496
+      - 🇺🇸US_2446
+      - 🇺🇸US_2359
+      - 🇺🇸US_2467
+      - 🇺🇸US_2497
+      - 🇺🇸US_2481
+      - 🇺🇸US_2470
+      - 🇺🇸US_2484
+      - 🇺🇸US_2466
+      - 🇺🇸US_2487
+      - 🇺🇸US_2492
+      - 🇺🇸US_2494
+      - 🇺🇸US_2475
+      - 🇺🇸US_2489
+      - 🇺🇸US_2468
+      - 🇺🇸US_2469
+      - 🇺🇸US_2471
+      - 🇺🇸US_2486
+      - 🇺🇸US_2474
+      - 🇺🇸US_2473
+      - 🇺🇸US_2495
+      - 🇺🇸US_2472
+      - 🇺🇸US_2476
+      - 🇺🇸US_2454
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
