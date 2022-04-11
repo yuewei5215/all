@@ -5,46 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"NimNetworkBot_1","server":"reallyamir1.linkirani.xyz","port":8751,"type":"ss","country":"NimNetworkBot_1","cipher":"aes-256-gcm","password":"j27xJRWhg8k4dTGpJMedb6zE"}
+  - {"name":"🇦🇺_AU_澳大利亚_1","server":"185.167.116.38","port":9084,"type":"ss","country":"🇦🇺_AU_澳大利亚_1","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"defaultName_2","server":"103.172.116.9","port":9098,"type":"ssr","country":"defaultName_2","password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇬🇧_GB_英国_3","server":"152.89.210.105","port":9060,"type":"ss","country":"🇬🇧_GB_英国_3","cipher":"aes-256-cfb","password":"ueLXVkvh4hckhErQ"}
+  - {"name":"defaultName_4","server":"152.89.210.105","port":9073,"type":"ssr","country":"defaultName_4","password":"daFYagqDdBdA6VTX","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"default_name_5","server":"103.172.116.9","port":9003,"type":"ss","country":"default_name_5","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
+  - {"name":"defaultName_6","server":"gz1.52168.xyz","port":1114,"type":"ssr","country":"defaultName_6","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
+  - {"name":"🇰🇷_KR_韩国_7","server":"ddns-kr01.ayanami.best","port":8080,"type":"vmess","uuid":"ff0c4cbd-bcfb-40af-9538-f31e91feb2d7","alterId":0,"cipher":"auto","country":"🇰🇷_KR_韩国_7","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"defaultName_8","server":"gz1.52168.xyz","port":1102,"type":"ssr","country":"defaultName_8","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
+  - {"name":"🇦🇺_AU_澳大利亚_9","server":"185.167.116.38","port":9037,"type":"ss","country":"🇦🇺_AU_澳大利亚_9","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"name":"🇩🇪_DE_德国_10","server":"5.183.179.145","port":9059,"type":"ss","country":"🇩🇪_DE_德国_10","cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - NimNetworkBot_1
+      - 🇦🇺_AU_澳大利亚_1
+      - defaultName_2
+      - 🇬🇧_GB_英国_3
+      - defaultName_4
+      - default_name_5
+      - defaultName_6
+      - 🇰🇷_KR_韩国_7
+      - defaultName_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇩🇪_DE_德国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - NimNetworkBot_1
+      - 🇦🇺_AU_澳大利亚_1
+      - defaultName_2
+      - 🇬🇧_GB_英国_3
+      - defaultName_4
+      - default_name_5
+      - defaultName_6
+      - 🇰🇷_KR_韩国_7
+      - defaultName_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇩🇪_DE_德国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NimNetworkBot_1
+      - 🇦🇺_AU_澳大利亚_1
+      - defaultName_2
+      - 🇬🇧_GB_英国_3
+      - defaultName_4
+      - default_name_5
+      - defaultName_6
+      - 🇰🇷_KR_韩国_7
+      - defaultName_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇩🇪_DE_德国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - NimNetworkBot_1
+      - 🇦🇺_AU_澳大利亚_1
+      - defaultName_2
+      - 🇬🇧_GB_英国_3
+      - defaultName_4
+      - default_name_5
+      - defaultName_6
+      - 🇰🇷_KR_韩国_7
+      - defaultName_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇩🇪_DE_德国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - NimNetworkBot_1
+      - 🇦🇺_AU_澳大利亚_1
+      - defaultName_2
+      - 🇬🇧_GB_英国_3
+      - defaultName_4
+      - default_name_5
+      - defaultName_6
+      - 🇰🇷_KR_韩国_7
+      - defaultName_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇩🇪_DE_德国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - NimNetworkBot_1
+      - 🇦🇺_AU_澳大利亚_1
+      - defaultName_2
+      - 🇬🇧_GB_英国_3
+      - defaultName_4
+      - default_name_5
+      - defaultName_6
+      - 🇰🇷_KR_韩国_7
+      - defaultName_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇩🇪_DE_德国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NimNetworkBot_1
+      - 🇦🇺_AU_澳大利亚_1
+      - defaultName_2
+      - 🇬🇧_GB_英国_3
+      - defaultName_4
+      - default_name_5
+      - defaultName_6
+      - 🇰🇷_KR_韩国_7
+      - defaultName_8
+      - 🇦🇺_AU_澳大利亚_9
+      - 🇩🇪_DE_德国_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
