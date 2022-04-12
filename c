@@ -5,46 +5,879 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇩🇪_DE_德国_1","server":"5.183.179.145","port":9005,"type":"ss","country":"🇩🇪_DE_德国_1","cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
+  - {"name":"https://github_com/mianfeifq/share每日更新大量节点，失效请更新订阅_1","server":"github.com","port":443,"type":"vmess","uuid":"0d854b46-15ac-452a-8c09-35e1d0141efb","alterId":0,"cipher":"auto","country":"https://github_com/mianfeifq/share每日更新大量节点，失效请更新订阅_1","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/mianfeifq","headers":{"host":"github.com"}}}
+  - {"name":"美国_TGatnodesharing_2","server":"hk1.qingyun123.xyz","port":10050,"type":"trojan","country":"美国_TGatnodesharing_2","skip-cert-verify":true,"udp":true,"password":"16d4a396-b4f7-4297-9c4a-bb03428a8c86"}
+  - {"name":"LT_328","server":"213.183.53.200","port":9027,"type":"ssr","country":"LT_328","password":"EXN3S3eQpjE7EJu8","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"Relay_🇸🇬SG-🇸🇬SG_254","server":"ycgyg.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"Relay_🇸🇬SG-🇸🇬SG_254","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
+  - {"name":"🇺🇸_美国_YouTube:VV科技_35","server":"172.67.68.58","port":443,"type":"vmess","uuid":"f2f578e4-692d-40b5-af99-9f1dd712eb32","alterId":0,"cipher":"auto","country":"🇺🇸_美国_YouTube:VV科技_35","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/shuier","headers":{"host":"xc1.v2rie.pp.ua"}}}
+  - {"name":"github_com/mianfeifq_🇸🇬SG-Openit_ml_113","server":"14.128.54.174","port":16888,"type":"vmess","uuid":"0eba9dad-69a1-49e4-b338-c49ebc6c774b","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇸🇬SG-Openit_ml_113","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/mianfeifq_🇺🇸US-Openit_ml_130","server":"150.230.43.65","port":14564,"type":"vmess","uuid":"1556e040-31d3-4c47-b0d2-ddf888010b4e","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇺🇸US-Openit_ml_130","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/mianfeifq_v2cross_com_44","server":"129.154.54.75","port":33004,"type":"vmess","uuid":"4f14695c-31b9-45bf-ca34-1d82170fc100","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_v2cross_com_44","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"✈www_iyio_net_日本_9","server":"20.222.58.16","port":80,"type":"vmess","uuid":"ced66bd3-4263-4fb2-cf69-cff22e394394","alterId":0,"cipher":"auto","country":"✈www_iyio_net_日本_9","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"defaultName_10","server":"213.183.53.177","port":9042,"type":"ssr","country":"defaultName_10","password":"S7KwUu7yBy58S3Ga","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"412更新_CN_中国_10","server":"cm.fenglingcloud.com","port":24501,"type":"vmess","uuid":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","alterId":0,"cipher":"auto","country":"412更新_CN_中国_10","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"hkml.fenglingcloud.com"}}}
+  - {"name":"412更新_HK_香港_48","server":"azhk.fenglingcloud.com","port":28001,"type":"trojan","country":"412更新_HK_香港_48","skip-cert-verify":true,"udp":true,"password":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","sni":"azhk02.webapi.cyou"}
+  - {"name":"🇺🇸美国阿伟科技atTG*油管_13","server":"104.168.13.8","port":41342,"type":"vmess","uuid":"3aa90670-6d21-4287-eec5-0cd0b21d579a","alterId":0,"cipher":"auto","country":"🇺🇸美国阿伟科技atTG*油管_13","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"104.168.13.8"}}}
+  - {"name":"github_com/mianfeifq_Relay_🇺🇸US-🇺🇸US_3516","server":"jgwcc1.gaox.ml","port":443,"type":"trojan","country":"github_com/mianfeifq_Relay_🇺🇸US-🇺🇸US_3516","skip-cert-verify":true,"udp":true,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a"}
+  - {"name":"github_com/mianfeifq_🇸🇬SG-Openit_ml_109","server":"172.104.50.145","port":58789,"type":"vmess","uuid":"6e4c3659-aae6-4d13-be44-edc6a7123af1","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇸🇬SG-Openit_ml_109","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/mianfeifq_美国（TGat阿伟科技/油管）_21","server":"144.34.161.239","port":158,"type":"vmess","uuid":"c03a92ed-d64e-4096-8aae-ce6b96d887e8","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_美国（TGat阿伟科技/油管）_21","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/mianfeifq_🇰🇷KR-Openit_ml_129","server":"152.70.94.8","port":41371,"type":"vmess","uuid":"84f76f53-0461-4d71-fc4d-7332aa92ae34","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇰🇷KR-Openit_ml_129","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"defaultName_129","server":"152.89.210.105","port":9064,"type":"ssr","country":"defaultName_129","password":"cp8pRSUAyLhTfVWH","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_20","server":"185.126.116.125","port":9003,"type":"ssr","country":"defaultName_20","password":"JdmRK9gMEqFgs8nP","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"github_com/mianfeifq_🇸🇬SG-Openit_ml_114","server":"14.128.51.179","port":16888,"type":"vmess","uuid":"0eba9dad-69a1-49e4-b338-c49ebc6c774b","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇸🇬SG-Openit_ml_114","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"defaultName_21","server":"213.183.53.177","port":9015,"type":"ssr","country":"defaultName_21","password":"ZpNDDKRu9MagNvaf","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"github_com/mianfeifq_🇺🇸US-Openit_ml_144","server":"us2.tcpbbr.net","port":443,"type":"trojan","country":"github_com/mianfeifq_🇺🇸US-Openit_ml_144","skip-cert-verify":true,"udp":true,"password":"7b4066ae-accc-11eb-a8bf-f23c91cfbbc9"}
+  - {"name":"Relay_🇸🇬SG-🇨🇦CA_1643","server":"sg1.31vpn.com","port":80,"type":"vmess","uuid":"dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee","alterId":0,"cipher":"auto","country":"Relay_🇸🇬SG-🇨🇦CA_1643","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/fastssh/bddasdf/624e71635ed8e/","headers":{"host":"sg1.31vpn.com"}}}
+  - {"name":"🇺🇸_US_美国_24","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"🇺🇸_US_美国_24","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}}}
+  - {"name":"🇫🇷FR(TG/＠yzcloud)_15","server":"ppy-unicom.0098dns02in.work","port":26022,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇫🇷FR(TG/＠yzcloud)_15","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_26","server":"s2.520guge.com","port":443,"type":"vmess","uuid":"cf1819c8-e530-4626-aec0-87ac04200385","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_26","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/happy","headers":{"host":"s2.520guge.com"}}}
+  - {"name":"✈www_iyio_net_欧洲_27","server":"unitedkingdomcloud.club","port":443,"type":"vmess","uuid":"ae610bbe-ce40-433a-980d-2a411bfc209d","alterId":0,"cipher":"auto","country":"✈www_iyio_net_欧洲_27","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/neuromancer","headers":{"host":"unitedkingdomcloud.club"}}}
+  - {"name":"defaultName_67","server":"152.89.210.105","port":9059,"type":"ssr","country":"defaultName_67","password":"9XwYyZsK8SNzQDtY","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"412更新_CN_中国_4","server":"cm.fenglingcloud.com","port":17000,"type":"vmess","uuid":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","alterId":0,"cipher":"auto","country":"412更新_CN_中国_4","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"hkml.fenglingcloud.com"}}}
+  - {"name":"defaultName_3","server":"204.44.75.137","port":18256,"type":"ssr","country":"defaultName_3","password":"teddysun.com","cipher":"dummy","protocol":"origin","obfs":"plain"}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&3_31","server":"ppy-moble.0098dns02in.work","port":26012,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&3_31","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_32","server":"45.35.84.162","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"🇺🇸_US_美国_32","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}}}
+  - {"name":"github_com/mianfeifq_🇸🇬SG-Openit_ml_112","server":"81.90.188.59","port":41657,"type":"vmess","uuid":"930a425e-2fc8-4930-8735-141f6b237755","alterId":64,"cipher":"auto","country":"github_com/mianfeifq_🇸🇬SG-Openit_ml_112","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"defaultName_47","server":"213.183.53.177","port":9059,"type":"ssr","country":"defaultName_47","password":"9XwYyZsK8SNzQDtY","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"Pool_🇺🇸US_358","server":"192.96.204.250","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"Pool_🇺🇸US_358","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-washington.lvuft.com"}}}
+  - {"name":"github_com/mianfeifq_GB_233","server":"163.172.69.181","port":11542,"type":"vmess","uuid":"e57444ec-86a8-45ec-aa42-d66ae4ca446c","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_GB_233","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"Relay_🇬🇧GB-🇬🇧GB_181","server":"italy-milan.mah3Hoet.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"Relay_🇬🇧GB-🇬🇧GB_181","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"italy-milan.mah3Hoet.com"}}}
+  - {"name":"🇸🇬SG_419","server":"1.ezydfdd.com","port":443,"type":"vmess","uuid":"0e5b46b6-699d-4aca-8fb3-a8e7b4270ed9","alterId":0,"cipher":"auto","country":"🇸🇬SG_419","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/qwe","headers":{"host":"1.ezydfdd.com"}}}
+  - {"name":"github_com/mianfeifq_🇨🇳TW_1616","server":"61.222.202.140","port":15789,"type":"vmess","uuid":"4535e708-5988-4377-a083-755ed60d8068","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇨🇳TW_1616","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/v2rayfree-亚太地区69_40","server":"103.164.81.46","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/v2rayfree-亚太地区69_40","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320hk567.fans8.xyz"}}}
+  - {"name":"github_com/mianfeifq_v2cross_com_3","server":"194.195.240.132","port":33210,"type":"vmess","uuid":"f46d05d6-8d41-4e0a-993e-e2658ac29f85","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_v2cross_com_3","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"github_com/mianfeifq_🇸🇬SG-Openit_ml_119","server":"14.128.54.170","port":16888,"type":"vmess","uuid":"0eba9dad-69a1-49e4-b338-c49ebc6c774b","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇸🇬SG-Openit_ml_119","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/mianfeifq_HU-Openit_ml_97","server":"185.225.69.134","port":45081,"type":"vmess","uuid":"3c3bfd75-dc30-4e76-8940-47e1137e21f9","alterId":64,"cipher":"auto","country":"github_com/mianfeifq_HU-Openit_ml_97","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇭🇰HK(TG：＠yzcloud)_4","server":"ppy-moble.0098dns02in.work","port":26013,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇭🇰HK(TG：＠yzcloud)_4","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"412更新_CN_中国_6","server":"cm.fenglingcloud.com","port":19753,"type":"vmess","uuid":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","alterId":0,"cipher":"auto","country":"412更新_CN_中国_6","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"hkml.fenglingcloud.com"}}}
+  - {"name":"🇫🇷FR(TG/＠yzcloud)_2","server":"ppy-moble.0098dns02in.work","port":26011,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇫🇷FR(TG/＠yzcloud)_2","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"日本-中继-03(CNRelayJapan03)_10","server":"cmrelay01.yiyorelay.xyz","port":3702,"type":"ssr","country":"日本-中继-03(CNRelayJapan03)_10","password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","obfs":"plain","protocol-param":"65199:xMcKnc","obfs-param":"microsoft.com"}
+  - {"name":"github_com/mianfeifq_🇺🇸US_405","server":"107.175.62.31","port":18205,"type":"vmess","uuid":"51ffe900-f9a4-4517-b123-9d512d0f5069","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇺🇸US_405","skip-cert-verify":true,"tls":false,"network":"none"}
+  - {"name":"github_com/mianfeifq_🇹🇼TW-Openit_ml_121","server":"61.222.202.140","port":33792,"type":"vmess","uuid":"e55cd182-01b0-4fb7-a510-363701a491c5","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇹🇼TW-Openit_ml_121","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"v2ray_50","server":"freev2ray1.free4444.xyz","port":63660,"type":"vmess","uuid":"47b10eaa-b730-11ec-8b8c-00163c92100d","alterId":0,"cipher":"auto","country":"v2ray_50","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/Z8jWzsHI/","headers":{"host":"freev2ray1.free4444.xyz"}}}
+  - {"name":"日本(欢迎订阅Youtube破解资源君)_51","server":"18.181.176.32","port":17465,"type":"vmess","uuid":"8a74fb3c-fce1-4e28-ee11-4b5368cb2ad7","alterId":0,"cipher":"auto","country":"日本(欢迎订阅Youtube破解资源君)_51","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"defaultName_52","server":"213.183.53.177","port":9097,"type":"ssr","country":"defaultName_52","password":"Sn5B7jTqr76aCJT8","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_13","server":"ppy-unicom.0098dns02in.work","port":26020,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_13","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"defaultName_54","server":"103.172.116.9","port":9097,"type":"ssr","country":"defaultName_54","password":"Sn5B7jTqr76aCJT8","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇨🇳TW(TG/atyzcloud)_2","server":"211.72.35.153","port":3389,"type":"trojan","country":"🇨🇳TW(TG/atyzcloud)_2","skip-cert-verify":true,"udp":true,"password":"22e7ebb2dc8ab524"}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&1_56","server":"ppy-moble.0098dns02in.work","port":26010,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&1_56","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"defaultName_57","server":"213.183.53.177","port":9020,"type":"ssr","country":"defaultName_57","password":"BNmAXXxAHYpTRdzu","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"CYL-科技（2022_04_06）_58","server":"5.183.179.139","port":9001,"type":"ssr","country":"CYL-科技（2022_04_06）_58","password":"UkXRsXvR6buDMG2Y","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"github_com/mianfeifq_🇺🇸US_365","server":"95.181.189.60","port":28629,"type":"vmess","uuid":"872808d3-c7de-4f61-a60e-8b2b0bd399d9","alterId":64,"cipher":"auto","country":"github_com/mianfeifq_🇺🇸US_365","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"412更新_HK_香港_43","server":"hkml.fenglingcloud.com","port":80,"type":"vmess","uuid":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","alterId":0,"cipher":"auto","country":"412更新_HK_香港_43","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hkml.fenglingcloud.com"}}}
+  - {"name":"Relay_🇬🇧GB-🇬🇧GB_177","server":"uk-manchester.eiw2eemo.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"Relay_🇬🇧GB-🇬🇧GB_177","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"uk-manchester.eiw2eemo.com"}}}
+  - {"name":"github_com/mianfeifq_Relay_🇰🇷KR-🇰🇷KR_997","server":"jgw3.gaox.ml","port":443,"type":"trojan","country":"github_com/mianfeifq_Relay_🇰🇷KR-🇰🇷KR_997","skip-cert-verify":true,"udp":true,"password":"a1718180-d616-4b71-9bb6-3e96ba20f921"}
+  - {"name":"github_com/mianfeifq_🇯🇵JP-Openit_ml_105","server":"jgwdj2.gaox.ml","port":443,"type":"trojan","country":"github_com/mianfeifq_🇯🇵JP-Openit_ml_105","skip-cert-verify":true,"udp":true,"password":"86231db5-96d0-4271-9977-cae3a0cba614"}
+  - {"name":"荷兰_TGatnodesharing_113","server":"46.182.107.118","port":443,"type":"vmess","uuid":"990006bd-cb20-482f-9c97-f5fc65359605","alterId":64,"cipher":"auto","country":"荷兰_TGatnodesharing_113","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/path/353021140201","headers":{"host":"www.16885679.xyz"}}}
+  - {"name":"github_com/mianfeifq_🇯🇵JP-Openit_ml_101","server":"139.162.122.240","port":6616,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇯🇵JP-Openit_ml_101","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"新加坡(yudou66_com玉豆分享)_66","server":"sg1.31vpn.com","port":80,"type":"vmess","uuid":"a9481600-ef36-402a-a0e5-5547bfd7b87c","alterId":0,"cipher":"auto","country":"新加坡(yudou66_com玉豆分享)_66","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/fastssh/ppdt/624dde181c76e/","headers":{"host":"sg1.31vpn.com"}}}
+  - {"name":"CYL-科技（2022_04_06）_67","server":"213.183.51.172","port":9079,"type":"ssr","country":"CYL-科技（2022_04_06）_67","password":"TPqX8edgbAURcAMb","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇺🇸US_339","server":"173.255.215.146","port":443,"type":"vmess","uuid":"c04e69b1-3498-4187-9193-b657fd40cb65","alterId":0,"cipher":"auto","country":"🇺🇸US_339","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/api/common","headers":{"host":"usav2.ddns.tjiasu.xyz"}}}
+  - {"name":"default_name_69","server":"104.16.104.126","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","country":"default_name_69","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"sweet-salad-aa33.tianzhen19880808.workers.dev"}}}
+  - {"name":"Relay_🏁ZZ-🏁ZZ_4491","server":"0320hk567.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"Relay_🏁ZZ-🏁ZZ_4491","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320hk567.fans8.xyz"}}}
+  - {"name":"github_com/mianfeifq_🇸🇬SG-Openit_ml_115","server":"14.128.54.177","port":16888,"type":"vmess","uuid":"0eba9dad-69a1-49e4-b338-c49ebc6c774b","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇸🇬SG-Openit_ml_115","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"412更新_HK_香港_44","server":"azhk.fenglingcloud.com","port":28003,"type":"trojan","country":"412更新_HK_香港_44","skip-cert-verify":true,"udp":true,"password":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","sni":"azhk04dl.webapi.cyou"}
+  - {"name":"defaultName_73","server":"213.183.53.177","port":9032,"type":"ssr","country":"defaultName_73","password":"UWZQeLRWnkqgkseq","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"Relay_🇨🇦CA-🇨🇦CA_115","server":"usa-buffalo.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"Relay_🇨🇦CA-🇨🇦CA_115","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
+  - {"name":"412更新_HK_香港_45","server":"azhk.fenglingcloud.com","port":28004,"type":"trojan","country":"412更新_HK_香港_45","skip-cert-verify":true,"udp":true,"password":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","sni":"azkr.webapi.cyou"}
+  - {"name":"美国_TGatnodesharing_24","server":"bpjzx2.cainiao.tk","port":443,"type":"vmess","uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","country":"美国_TGatnodesharing_24","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","headers":{"host":"orange-mode-ac6a.xjp0mx2cp.workers.dev"}}}
+  - {"name":"412更新_HK_香港_41","server":"azhk.fenglingcloud.com","port":28000,"type":"trojan","country":"412更新_HK_香港_41","skip-cert-verify":true,"udp":true,"password":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","sni":"azhk01.webapi.cyou"}
+  - {"name":"github_com/mianfeifq_v2cross_com_6","server":"144.34.248.26","port":13917,"type":"vmess","uuid":"00492cd1-7f5e-4ed5-b9ef-821e9b89ca72","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_v2cross_com_6","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"✈www_iyio_net_新加坡_79","server":"v2.bove.top","port":35921,"type":"vmess","uuid":"ea0f0aeb-da33-45dd-c512-1a07f5619937","alterId":0,"cipher":"auto","country":"✈www_iyio_net_新加坡_79","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"v2.bove.top"}}}
+  - {"name":"default_name_80","server":"104.16.196.47","port":443,"type":"vmess","uuid":"3256a220-3c95-4844-839c-3b509c1c0997","alterId":0,"cipher":"auto","country":"default_name_80","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"production.flat-firefly-71d2.v20210811.workers.dev"}}}
+  - {"name":"github_com/mianfeifq_v2cross_com_15","server":"61.222.202.213","port":12880,"type":"vmess","uuid":"d4b64497-2773-4281-96f1-fc2914ea3c28","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_v2cross_com_15","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"412更新_US_美国_36","server":"kr2.qingyun123.xyz","port":10050,"type":"trojan","country":"412更新_US_美国_36","skip-cert-verify":true,"udp":true,"password":"16d4a396-b4f7-4297-9c4a-bb03428a8c86","sni":"kr2.qingyun123.xyz"}
+  - {"name":"印度(yudou66_com+玉豆分享)_83","server":"in1.qingyun123.xyz","port":443,"type":"trojan","country":"印度(yudou66_com+玉豆分享)_83","skip-cert-verify":true,"udp":true,"password":"b0dd80f5-2e66-4d3c-b41e-f3b10534fd90"}
+  - {"name":"日本_TGatnodesharing_10","server":"nfjp1.qingyun123.xyz","port":10000,"type":"trojan","country":"日本_TGatnodesharing_10","skip-cert-verify":true,"udp":true,"password":"b0dd80f5-2e66-4d3c-b41e-f3b10534fd90"}
+  - {"name":"412更新_CN_中国_7","server":"cm.fenglingcloud.com","port":19580,"type":"trojan","country":"412更新_CN_中国_7","skip-cert-verify":true,"udp":true,"password":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","sni":"ocrin.webapi.cyou"}
+  - {"name":"🇭🇰HK(TG：＠yzcloud)_10","server":"ppy-moble.0098dns02in.work","port":26062,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇭🇰HK(TG：＠yzcloud)_10","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"(Youtube/TG：俊佳科技)_🇺🇸_美国_1","server":"23.xray2chen.xyz","port":443,"type":"vmess","uuid":"ba64059a-37e1-4d25-892a-446191287172","alterId":0,"cipher":"auto","country":"(Youtube/TG：俊佳科技)_🇺🇸_美国_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xtxvvws","headers":{"host":"23.xray2chen.xyz"}}}
+  - {"name":"美国（TGat阿伟科技/油管）_88","server":"107.173.111.93","port":59886,"type":"vmess","uuid":"69ed190e-195b-4035-caaf-f56d4e002cc2","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_88","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/macOS","headers":{"host":"107.173.111.93"}}}
+  - {"name":"412更新_HK_香港_47","server":"azhk.fenglingcloud.com","port":28002,"type":"trojan","country":"412更新_HK_香港_47","skip-cert-verify":true,"udp":true,"password":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","sni":"azhk03.webapi.cyou"}
+  - {"name":"github_com/mianfeifq_github_com/freefq-乌克兰30_20","server":"cz5.v2ce.com","port":443,"type":"trojan","country":"github_com/mianfeifq_github_com/freefq-乌克兰30_20","skip-cert-verify":true,"udp":true,"password":"HTrovQkamDxNfaD5"}
+  - {"name":"412更新_US_美国_67","server":"207.246.94.28","port":42383,"type":"vmess","uuid":"4773dfdc-9c85-4873-8720-ce8cf5f74f7c","alterId":0,"cipher":"auto","country":"412更新_US_美国_67","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ws","headers":{"host":"207.246.94.28"}}}
+  - {"name":"github_com/mianfeifq_SC-Openit_ml_145","server":"156.251.191.241","port":32898,"type":"vmess","uuid":"7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_SC-Openit_ml_145","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"新加坡(yudou66_com玉豆分享)_93","server":"sg1.31vpn.com","port":80,"type":"vmess","uuid":"9dc0c6aa-39a1-46be-9938-85999e3c3498","alterId":0,"cipher":"auto","country":"新加坡(yudou66_com玉豆分享)_93","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/fastssh/ccvcxds/6252624d4fda3/","headers":{"host":"sg1.31vpn.com"}}}
+  - {"name":"defaultName_94","server":"213.183.53.177","port":9084,"type":"ssr","country":"defaultName_94","password":"c3NtHJ5ujV2tGDfj","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"github_com/mianfeifq_🇩🇪DE-Openit_ml_83","server":"43.131.51.120","port":44970,"type":"vmess","uuid":"334181ca-0c75-4fd2-fd56-51a510c7be65","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇩🇪DE-Openit_ml_83","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/mianfeifq_美国（TGat阿伟科技/油管）_20","server":"us1.qingyun123.xyz","port":10050,"type":"trojan","country":"github_com/mianfeifq_美国（TGat阿伟科技/油管）_20","skip-cert-verify":true,"udp":true,"password":"b0dd80f5-2e66-4d3c-b41e-f3b10534fd90"}
+  - {"name":"github_com/v2rayfree-美国81_97","server":"152.70.88.168","port":49081,"type":"vmess","uuid":"e19ea4e5-d918-4d1c-a384-c232ebe7b803","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-美国81_97","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"152.70.88.168"}}}
+  - {"name":"412更新_CN_中国_9","server":"lt.fenglingcloud.com","port":27302,"type":"trojan","country":"412更新_CN_中国_9","skip-cert-verify":true,"udp":true,"password":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","sni":"ocrjptk.webapi.cyou"}
+  - {"name":"洛杉矶SSR_1","server":"45.66.157.106","port":22222,"type":"ssr","country":"洛杉矶SSR_1","password":"dongtaiwang.com","cipher":"aes-256-cfb","protocol":"auth_chain_a","obfs":"tls1.2_ticket_auth"}
+  - {"name":"412更新_HK_香港_49","server":"azhkml.dling.tk","port":80,"type":"vmess","uuid":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","alterId":0,"cipher":"auto","country":"412更新_HK_香港_49","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/linggg","headers":{"host":"azhkml.dling.tk"}}}
+  - {"name":"github_com/mianfeifq_🇸🇬SG-Openit_ml_108","server":"14.128.54.171","port":16888,"type":"vmess","uuid":"0eba9dad-69a1-49e4-b338-c49ebc6c774b","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇸🇬SG-Openit_ml_108","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_8","server":"ppy-unicom.0098dns02in.work","port":26008,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_8","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"CYL-科技（2022_04_06）_103","server":"185.126.116.124","port":9098,"type":"ssr","country":"CYL-科技（2022_04_06）_103","password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"github_com/mianfeifq_🇯🇵JP-Openit_ml_99","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇯🇵JP-Openit_ml_99","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/mianfeifq_🇳🇱NL-Openit_ml_131","server":"23.94.120.19","port":28554,"type":"vmess","uuid":"4a4c96c5-7b8b-4612-c715-6b91a9c34d07","alterId":64,"cipher":"auto","country":"github_com/mianfeifq_🇳🇱NL-Openit_ml_131","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"412更新_CN_中国_11","server":"cm.fenglingcloud.com","port":19562,"type":"trojan","country":"412更新_CN_中国_11","skip-cert-verify":true,"udp":true,"password":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","sni":"hktfl.webapi.cyou"}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&7_107","server":"ppy-moble.0098dns02in.work","port":26061,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&7_107","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/mianfeifq_🇩🇪DE_214","server":"78.46.244.34","port":33655,"type":"vmess","uuid":"b41303b4-e2c8-4771-cb6c-ef62244a7621","alterId":64,"cipher":"auto","country":"github_com/mianfeifq_🇩🇪DE_214","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/mianfeifq_+_+_+_美国阿伟科技atTG/油管+6_26","server":"fhcarm2.gaox.ml","port":443,"type":"trojan","country":"github_com/mianfeifq_+_+_+_美国阿伟科技atTG/油管+6_26","skip-cert-verify":true,"udp":true,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178"}
+  - {"name":"🇨🇳TW(TG：atyzcloud)&9_110","server":"ppy-moble.0098dns02in.work","port":26063,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇨🇳TW(TG：atyzcloud)&9_110","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"412更新_HK_香港_46","server":"azhk.fenglingcloud.com","port":28005,"type":"trojan","country":"412更新_HK_香港_46","skip-cert-verify":true,"udp":true,"password":"f2102f6b-431d-4760-8b1c-c43a1a7ed77a","sni":"azjp01.webapi.cyou"}
+  - {"name":"🇨🇳TW(TG/atyzcloud)_1","server":"211.72.35.153","port":3389,"type":"trojan","country":"🇨🇳TW(TG/atyzcloud)_1","skip-cert-verify":true,"udp":true,"password":"cd39f62aed7b90f6"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_368","server":"iesei1ei.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"Relay_🇺🇸US-🇺🇸US_368","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"iesei1ei.com"}}}
+  - {"name":"github_com/mianfeifq_🇸🇬SG-Openit_ml_116","server":"14.128.54.165","port":16888,"type":"vmess","uuid":"0eba9dad-69a1-49e4-b338-c49ebc6c774b","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇸🇬SG-Openit_ml_116","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/mianfeifq_🇷🇺RU-Openit_ml_107","server":"91.206.92.80","port":7765,"type":"vmess","uuid":"9c0aa3ca-ad6d-11ec-9f5f-3a7f41eb42ce","alterId":0,"cipher":"auto","country":"github_com/mianfeifq_🇷🇺RU-Openit_ml_107","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"defaultName_77","server":"213.183.53.177","port":9053,"type":"ssr","country":"defaultName_77","password":"SBM7R883jBmnqe6C","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"Relay_🇩🇪DE-🇩🇪DE_168","server":"146.0.42.87","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"Relay_🇩🇪DE-🇩🇪DE_168","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"germany-dusseldorf.mah3Hoet.com"}}}
+  - {"name":"🇫🇷FR(TG/＠yzcloud)_7","server":"ppy-unicom.0098dns02in.work","port":26006,"type":"vmess","uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","country":"🇫🇷FR(TG/＠yzcloud)_7","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/mianfeifq_+_FR法国TG/油管at阿伟科技_13","server":"fr-trojan.bonds.id","port":443,"type":"trojan","country":"github_com/mianfeifq_+_FR法国TG/油管at阿伟科技_13","skip-cert-verify":true,"udp":true,"password":"e4307a50-9853-11ec-9b4b-1239d0255272"}
+  - {"name":"github_com/mianfeifq__YouTubeat阿阳AYANG_20","server":"13.113.22.120","port":43993,"type":"vmess","uuid":"cdc7dc87-a395-479e-fdc0-4de148cdbc11","alterId":0,"cipher":"auto","country":"github_com/mianfeifq__YouTubeat阿阳AYANG_20","skip-cert-verify":true,"tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇩🇪_DE_德国_1
+      - https://github_com/mianfeifq/share每日更新大量节点，失效请更新订阅_1
+      - 美国_TGatnodesharing_2
+      - LT_328
+      - Relay_🇸🇬SG-🇸🇬SG_254
+      - 🇺🇸_美国_YouTube:VV科技_35
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_113
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_130
+      - github_com/mianfeifq_v2cross_com_44
+      - ✈www_iyio_net_日本_9
+      - defaultName_10
+      - 412更新_CN_中国_10
+      - 412更新_HK_香港_48
+      - 🇺🇸美国阿伟科技atTG*油管_13
+      - github_com/mianfeifq_Relay_🇺🇸US-🇺🇸US_3516
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_109
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_21
+      - github_com/mianfeifq_🇰🇷KR-Openit_ml_129
+      - defaultName_129
+      - defaultName_20
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_114
+      - defaultName_21
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_144
+      - Relay_🇸🇬SG-🇨🇦CA_1643
+      - 🇺🇸_US_美国_24
+      - 🇫🇷FR(TG/＠yzcloud)_15
+      - 🇺🇸_US_美国_26
+      - ✈www_iyio_net_欧洲_27
+      - defaultName_67
+      - 412更新_CN_中国_4
+      - defaultName_3
+      - 🇨🇳TW(TG：atyzcloud)&3_31
+      - 🇺🇸_US_美国_32
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_112
+      - defaultName_47
+      - Pool_🇺🇸US_358
+      - github_com/mianfeifq_GB_233
+      - Relay_🇬🇧GB-🇬🇧GB_181
+      - 🇸🇬SG_419
+      - github_com/mianfeifq_🇨🇳TW_1616
+      - github_com/v2rayfree-亚太地区69_40
+      - github_com/mianfeifq_v2cross_com_3
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_119
+      - github_com/mianfeifq_HU-Openit_ml_97
+      - 🇭🇰HK(TG：＠yzcloud)_4
+      - 412更新_CN_中国_6
+      - 🇫🇷FR(TG/＠yzcloud)_2
+      - 日本-中继-03(CNRelayJapan03)_10
+      - github_com/mianfeifq_🇺🇸US_405
+      - github_com/mianfeifq_🇹🇼TW-Openit_ml_121
+      - v2ray_50
+      - 日本(欢迎订阅Youtube破解资源君)_51
+      - defaultName_52
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_13
+      - defaultName_54
+      - 🇨🇳TW(TG/atyzcloud)_2
+      - 🇨🇳TW(TG：atyzcloud)&1_56
+      - defaultName_57
+      - CYL-科技（2022_04_06）_58
+      - github_com/mianfeifq_🇺🇸US_365
+      - 412更新_HK_香港_43
+      - Relay_🇬🇧GB-🇬🇧GB_177
+      - github_com/mianfeifq_Relay_🇰🇷KR-🇰🇷KR_997
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_105
+      - 荷兰_TGatnodesharing_113
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_101
+      - 新加坡(yudou66_com玉豆分享)_66
+      - CYL-科技（2022_04_06）_67
+      - 🇺🇸US_339
+      - default_name_69
+      - Relay_🏁ZZ-🏁ZZ_4491
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_115
+      - 412更新_HK_香港_44
+      - defaultName_73
+      - Relay_🇨🇦CA-🇨🇦CA_115
+      - 412更新_HK_香港_45
+      - 美国_TGatnodesharing_24
+      - 412更新_HK_香港_41
+      - github_com/mianfeifq_v2cross_com_6
+      - ✈www_iyio_net_新加坡_79
+      - default_name_80
+      - github_com/mianfeifq_v2cross_com_15
+      - 412更新_US_美国_36
+      - 印度(yudou66_com+玉豆分享)_83
+      - 日本_TGatnodesharing_10
+      - 412更新_CN_中国_7
+      - 🇭🇰HK(TG：＠yzcloud)_10
+      - (Youtube/TG：俊佳科技)_🇺🇸_美国_1
+      - 美国（TGat阿伟科技/油管）_88
+      - 412更新_HK_香港_47
+      - github_com/mianfeifq_github_com/freefq-乌克兰30_20
+      - 412更新_US_美国_67
+      - github_com/mianfeifq_SC-Openit_ml_145
+      - 新加坡(yudou66_com玉豆分享)_93
+      - defaultName_94
+      - github_com/mianfeifq_🇩🇪DE-Openit_ml_83
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_20
+      - github_com/v2rayfree-美国81_97
+      - 412更新_CN_中国_9
+      - 洛杉矶SSR_1
+      - 412更新_HK_香港_49
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_108
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_8
+      - CYL-科技（2022_04_06）_103
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_99
+      - github_com/mianfeifq_🇳🇱NL-Openit_ml_131
+      - 412更新_CN_中国_11
+      - 🇨🇳TW(TG：atyzcloud)&7_107
+      - github_com/mianfeifq_🇩🇪DE_214
+      - github_com/mianfeifq_+_+_+_美国阿伟科技atTG/油管+6_26
+      - 🇨🇳TW(TG：atyzcloud)&9_110
+      - 412更新_HK_香港_46
+      - 🇨🇳TW(TG/atyzcloud)_1
+      - Relay_🇺🇸US-🇺🇸US_368
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_116
+      - github_com/mianfeifq_🇷🇺RU-Openit_ml_107
+      - defaultName_77
+      - Relay_🇩🇪DE-🇩🇪DE_168
+      - 🇫🇷FR(TG/＠yzcloud)_7
+      - github_com/mianfeifq_+_FR法国TG/油管at阿伟科技_13
+      - github_com/mianfeifq__YouTubeat阿阳AYANG_20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪_DE_德国_1
+      - https://github_com/mianfeifq/share每日更新大量节点，失效请更新订阅_1
+      - 美国_TGatnodesharing_2
+      - LT_328
+      - Relay_🇸🇬SG-🇸🇬SG_254
+      - 🇺🇸_美国_YouTube:VV科技_35
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_113
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_130
+      - github_com/mianfeifq_v2cross_com_44
+      - ✈www_iyio_net_日本_9
+      - defaultName_10
+      - 412更新_CN_中国_10
+      - 412更新_HK_香港_48
+      - 🇺🇸美国阿伟科技atTG*油管_13
+      - github_com/mianfeifq_Relay_🇺🇸US-🇺🇸US_3516
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_109
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_21
+      - github_com/mianfeifq_🇰🇷KR-Openit_ml_129
+      - defaultName_129
+      - defaultName_20
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_114
+      - defaultName_21
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_144
+      - Relay_🇸🇬SG-🇨🇦CA_1643
+      - 🇺🇸_US_美国_24
+      - 🇫🇷FR(TG/＠yzcloud)_15
+      - 🇺🇸_US_美国_26
+      - ✈www_iyio_net_欧洲_27
+      - defaultName_67
+      - 412更新_CN_中国_4
+      - defaultName_3
+      - 🇨🇳TW(TG：atyzcloud)&3_31
+      - 🇺🇸_US_美国_32
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_112
+      - defaultName_47
+      - Pool_🇺🇸US_358
+      - github_com/mianfeifq_GB_233
+      - Relay_🇬🇧GB-🇬🇧GB_181
+      - 🇸🇬SG_419
+      - github_com/mianfeifq_🇨🇳TW_1616
+      - github_com/v2rayfree-亚太地区69_40
+      - github_com/mianfeifq_v2cross_com_3
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_119
+      - github_com/mianfeifq_HU-Openit_ml_97
+      - 🇭🇰HK(TG：＠yzcloud)_4
+      - 412更新_CN_中国_6
+      - 🇫🇷FR(TG/＠yzcloud)_2
+      - 日本-中继-03(CNRelayJapan03)_10
+      - github_com/mianfeifq_🇺🇸US_405
+      - github_com/mianfeifq_🇹🇼TW-Openit_ml_121
+      - v2ray_50
+      - 日本(欢迎订阅Youtube破解资源君)_51
+      - defaultName_52
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_13
+      - defaultName_54
+      - 🇨🇳TW(TG/atyzcloud)_2
+      - 🇨🇳TW(TG：atyzcloud)&1_56
+      - defaultName_57
+      - CYL-科技（2022_04_06）_58
+      - github_com/mianfeifq_🇺🇸US_365
+      - 412更新_HK_香港_43
+      - Relay_🇬🇧GB-🇬🇧GB_177
+      - github_com/mianfeifq_Relay_🇰🇷KR-🇰🇷KR_997
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_105
+      - 荷兰_TGatnodesharing_113
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_101
+      - 新加坡(yudou66_com玉豆分享)_66
+      - CYL-科技（2022_04_06）_67
+      - 🇺🇸US_339
+      - default_name_69
+      - Relay_🏁ZZ-🏁ZZ_4491
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_115
+      - 412更新_HK_香港_44
+      - defaultName_73
+      - Relay_🇨🇦CA-🇨🇦CA_115
+      - 412更新_HK_香港_45
+      - 美国_TGatnodesharing_24
+      - 412更新_HK_香港_41
+      - github_com/mianfeifq_v2cross_com_6
+      - ✈www_iyio_net_新加坡_79
+      - default_name_80
+      - github_com/mianfeifq_v2cross_com_15
+      - 412更新_US_美国_36
+      - 印度(yudou66_com+玉豆分享)_83
+      - 日本_TGatnodesharing_10
+      - 412更新_CN_中国_7
+      - 🇭🇰HK(TG：＠yzcloud)_10
+      - (Youtube/TG：俊佳科技)_🇺🇸_美国_1
+      - 美国（TGat阿伟科技/油管）_88
+      - 412更新_HK_香港_47
+      - github_com/mianfeifq_github_com/freefq-乌克兰30_20
+      - 412更新_US_美国_67
+      - github_com/mianfeifq_SC-Openit_ml_145
+      - 新加坡(yudou66_com玉豆分享)_93
+      - defaultName_94
+      - github_com/mianfeifq_🇩🇪DE-Openit_ml_83
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_20
+      - github_com/v2rayfree-美国81_97
+      - 412更新_CN_中国_9
+      - 洛杉矶SSR_1
+      - 412更新_HK_香港_49
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_108
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_8
+      - CYL-科技（2022_04_06）_103
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_99
+      - github_com/mianfeifq_🇳🇱NL-Openit_ml_131
+      - 412更新_CN_中国_11
+      - 🇨🇳TW(TG：atyzcloud)&7_107
+      - github_com/mianfeifq_🇩🇪DE_214
+      - github_com/mianfeifq_+_+_+_美国阿伟科技atTG/油管+6_26
+      - 🇨🇳TW(TG：atyzcloud)&9_110
+      - 412更新_HK_香港_46
+      - 🇨🇳TW(TG/atyzcloud)_1
+      - Relay_🇺🇸US-🇺🇸US_368
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_116
+      - github_com/mianfeifq_🇷🇺RU-Openit_ml_107
+      - defaultName_77
+      - Relay_🇩🇪DE-🇩🇪DE_168
+      - 🇫🇷FR(TG/＠yzcloud)_7
+      - github_com/mianfeifq_+_FR法国TG/油管at阿伟科技_13
+      - github_com/mianfeifq__YouTubeat阿阳AYANG_20
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
+      - https://github_com/mianfeifq/share每日更新大量节点，失效请更新订阅_1
+      - 美国_TGatnodesharing_2
+      - LT_328
+      - Relay_🇸🇬SG-🇸🇬SG_254
+      - 🇺🇸_美国_YouTube:VV科技_35
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_113
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_130
+      - github_com/mianfeifq_v2cross_com_44
+      - ✈www_iyio_net_日本_9
+      - defaultName_10
+      - 412更新_CN_中国_10
+      - 412更新_HK_香港_48
+      - 🇺🇸美国阿伟科技atTG*油管_13
+      - github_com/mianfeifq_Relay_🇺🇸US-🇺🇸US_3516
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_109
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_21
+      - github_com/mianfeifq_🇰🇷KR-Openit_ml_129
+      - defaultName_129
+      - defaultName_20
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_114
+      - defaultName_21
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_144
+      - Relay_🇸🇬SG-🇨🇦CA_1643
+      - 🇺🇸_US_美国_24
+      - 🇫🇷FR(TG/＠yzcloud)_15
+      - 🇺🇸_US_美国_26
+      - ✈www_iyio_net_欧洲_27
+      - defaultName_67
+      - 412更新_CN_中国_4
+      - defaultName_3
+      - 🇨🇳TW(TG：atyzcloud)&3_31
+      - 🇺🇸_US_美国_32
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_112
+      - defaultName_47
+      - Pool_🇺🇸US_358
+      - github_com/mianfeifq_GB_233
+      - Relay_🇬🇧GB-🇬🇧GB_181
+      - 🇸🇬SG_419
+      - github_com/mianfeifq_🇨🇳TW_1616
+      - github_com/v2rayfree-亚太地区69_40
+      - github_com/mianfeifq_v2cross_com_3
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_119
+      - github_com/mianfeifq_HU-Openit_ml_97
+      - 🇭🇰HK(TG：＠yzcloud)_4
+      - 412更新_CN_中国_6
+      - 🇫🇷FR(TG/＠yzcloud)_2
+      - 日本-中继-03(CNRelayJapan03)_10
+      - github_com/mianfeifq_🇺🇸US_405
+      - github_com/mianfeifq_🇹🇼TW-Openit_ml_121
+      - v2ray_50
+      - 日本(欢迎订阅Youtube破解资源君)_51
+      - defaultName_52
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_13
+      - defaultName_54
+      - 🇨🇳TW(TG/atyzcloud)_2
+      - 🇨🇳TW(TG：atyzcloud)&1_56
+      - defaultName_57
+      - CYL-科技（2022_04_06）_58
+      - github_com/mianfeifq_🇺🇸US_365
+      - 412更新_HK_香港_43
+      - Relay_🇬🇧GB-🇬🇧GB_177
+      - github_com/mianfeifq_Relay_🇰🇷KR-🇰🇷KR_997
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_105
+      - 荷兰_TGatnodesharing_113
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_101
+      - 新加坡(yudou66_com玉豆分享)_66
+      - CYL-科技（2022_04_06）_67
+      - 🇺🇸US_339
+      - default_name_69
+      - Relay_🏁ZZ-🏁ZZ_4491
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_115
+      - 412更新_HK_香港_44
+      - defaultName_73
+      - Relay_🇨🇦CA-🇨🇦CA_115
+      - 412更新_HK_香港_45
+      - 美国_TGatnodesharing_24
+      - 412更新_HK_香港_41
+      - github_com/mianfeifq_v2cross_com_6
+      - ✈www_iyio_net_新加坡_79
+      - default_name_80
+      - github_com/mianfeifq_v2cross_com_15
+      - 412更新_US_美国_36
+      - 印度(yudou66_com+玉豆分享)_83
+      - 日本_TGatnodesharing_10
+      - 412更新_CN_中国_7
+      - 🇭🇰HK(TG：＠yzcloud)_10
+      - (Youtube/TG：俊佳科技)_🇺🇸_美国_1
+      - 美国（TGat阿伟科技/油管）_88
+      - 412更新_HK_香港_47
+      - github_com/mianfeifq_github_com/freefq-乌克兰30_20
+      - 412更新_US_美国_67
+      - github_com/mianfeifq_SC-Openit_ml_145
+      - 新加坡(yudou66_com玉豆分享)_93
+      - defaultName_94
+      - github_com/mianfeifq_🇩🇪DE-Openit_ml_83
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_20
+      - github_com/v2rayfree-美国81_97
+      - 412更新_CN_中国_9
+      - 洛杉矶SSR_1
+      - 412更新_HK_香港_49
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_108
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_8
+      - CYL-科技（2022_04_06）_103
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_99
+      - github_com/mianfeifq_🇳🇱NL-Openit_ml_131
+      - 412更新_CN_中国_11
+      - 🇨🇳TW(TG：atyzcloud)&7_107
+      - github_com/mianfeifq_🇩🇪DE_214
+      - github_com/mianfeifq_+_+_+_美国阿伟科技atTG/油管+6_26
+      - 🇨🇳TW(TG：atyzcloud)&9_110
+      - 412更新_HK_香港_46
+      - 🇨🇳TW(TG/atyzcloud)_1
+      - Relay_🇺🇸US-🇺🇸US_368
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_116
+      - github_com/mianfeifq_🇷🇺RU-Openit_ml_107
+      - defaultName_77
+      - Relay_🇩🇪DE-🇩🇪DE_168
+      - 🇫🇷FR(TG/＠yzcloud)_7
+      - github_com/mianfeifq_+_FR法国TG/油管at阿伟科技_13
+      - github_com/mianfeifq__YouTubeat阿阳AYANG_20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
+      - https://github_com/mianfeifq/share每日更新大量节点，失效请更新订阅_1
+      - 美国_TGatnodesharing_2
+      - LT_328
+      - Relay_🇸🇬SG-🇸🇬SG_254
+      - 🇺🇸_美国_YouTube:VV科技_35
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_113
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_130
+      - github_com/mianfeifq_v2cross_com_44
+      - ✈www_iyio_net_日本_9
+      - defaultName_10
+      - 412更新_CN_中国_10
+      - 412更新_HK_香港_48
+      - 🇺🇸美国阿伟科技atTG*油管_13
+      - github_com/mianfeifq_Relay_🇺🇸US-🇺🇸US_3516
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_109
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_21
+      - github_com/mianfeifq_🇰🇷KR-Openit_ml_129
+      - defaultName_129
+      - defaultName_20
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_114
+      - defaultName_21
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_144
+      - Relay_🇸🇬SG-🇨🇦CA_1643
+      - 🇺🇸_US_美国_24
+      - 🇫🇷FR(TG/＠yzcloud)_15
+      - 🇺🇸_US_美国_26
+      - ✈www_iyio_net_欧洲_27
+      - defaultName_67
+      - 412更新_CN_中国_4
+      - defaultName_3
+      - 🇨🇳TW(TG：atyzcloud)&3_31
+      - 🇺🇸_US_美国_32
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_112
+      - defaultName_47
+      - Pool_🇺🇸US_358
+      - github_com/mianfeifq_GB_233
+      - Relay_🇬🇧GB-🇬🇧GB_181
+      - 🇸🇬SG_419
+      - github_com/mianfeifq_🇨🇳TW_1616
+      - github_com/v2rayfree-亚太地区69_40
+      - github_com/mianfeifq_v2cross_com_3
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_119
+      - github_com/mianfeifq_HU-Openit_ml_97
+      - 🇭🇰HK(TG：＠yzcloud)_4
+      - 412更新_CN_中国_6
+      - 🇫🇷FR(TG/＠yzcloud)_2
+      - 日本-中继-03(CNRelayJapan03)_10
+      - github_com/mianfeifq_🇺🇸US_405
+      - github_com/mianfeifq_🇹🇼TW-Openit_ml_121
+      - v2ray_50
+      - 日本(欢迎订阅Youtube破解资源君)_51
+      - defaultName_52
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_13
+      - defaultName_54
+      - 🇨🇳TW(TG/atyzcloud)_2
+      - 🇨🇳TW(TG：atyzcloud)&1_56
+      - defaultName_57
+      - CYL-科技（2022_04_06）_58
+      - github_com/mianfeifq_🇺🇸US_365
+      - 412更新_HK_香港_43
+      - Relay_🇬🇧GB-🇬🇧GB_177
+      - github_com/mianfeifq_Relay_🇰🇷KR-🇰🇷KR_997
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_105
+      - 荷兰_TGatnodesharing_113
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_101
+      - 新加坡(yudou66_com玉豆分享)_66
+      - CYL-科技（2022_04_06）_67
+      - 🇺🇸US_339
+      - default_name_69
+      - Relay_🏁ZZ-🏁ZZ_4491
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_115
+      - 412更新_HK_香港_44
+      - defaultName_73
+      - Relay_🇨🇦CA-🇨🇦CA_115
+      - 412更新_HK_香港_45
+      - 美国_TGatnodesharing_24
+      - 412更新_HK_香港_41
+      - github_com/mianfeifq_v2cross_com_6
+      - ✈www_iyio_net_新加坡_79
+      - default_name_80
+      - github_com/mianfeifq_v2cross_com_15
+      - 412更新_US_美国_36
+      - 印度(yudou66_com+玉豆分享)_83
+      - 日本_TGatnodesharing_10
+      - 412更新_CN_中国_7
+      - 🇭🇰HK(TG：＠yzcloud)_10
+      - (Youtube/TG：俊佳科技)_🇺🇸_美国_1
+      - 美国（TGat阿伟科技/油管）_88
+      - 412更新_HK_香港_47
+      - github_com/mianfeifq_github_com/freefq-乌克兰30_20
+      - 412更新_US_美国_67
+      - github_com/mianfeifq_SC-Openit_ml_145
+      - 新加坡(yudou66_com玉豆分享)_93
+      - defaultName_94
+      - github_com/mianfeifq_🇩🇪DE-Openit_ml_83
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_20
+      - github_com/v2rayfree-美国81_97
+      - 412更新_CN_中国_9
+      - 洛杉矶SSR_1
+      - 412更新_HK_香港_49
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_108
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_8
+      - CYL-科技（2022_04_06）_103
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_99
+      - github_com/mianfeifq_🇳🇱NL-Openit_ml_131
+      - 412更新_CN_中国_11
+      - 🇨🇳TW(TG：atyzcloud)&7_107
+      - github_com/mianfeifq_🇩🇪DE_214
+      - github_com/mianfeifq_+_+_+_美国阿伟科技atTG/油管+6_26
+      - 🇨🇳TW(TG：atyzcloud)&9_110
+      - 412更新_HK_香港_46
+      - 🇨🇳TW(TG/atyzcloud)_1
+      - Relay_🇺🇸US-🇺🇸US_368
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_116
+      - github_com/mianfeifq_🇷🇺RU-Openit_ml_107
+      - defaultName_77
+      - Relay_🇩🇪DE-🇩🇪DE_168
+      - 🇫🇷FR(TG/＠yzcloud)_7
+      - github_com/mianfeifq_+_FR法国TG/油管at阿伟科技_13
+      - github_com/mianfeifq__YouTubeat阿阳AYANG_20
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇩🇪_DE_德国_1
+      - https://github_com/mianfeifq/share每日更新大量节点，失效请更新订阅_1
+      - 美国_TGatnodesharing_2
+      - LT_328
+      - Relay_🇸🇬SG-🇸🇬SG_254
+      - 🇺🇸_美国_YouTube:VV科技_35
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_113
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_130
+      - github_com/mianfeifq_v2cross_com_44
+      - ✈www_iyio_net_日本_9
+      - defaultName_10
+      - 412更新_CN_中国_10
+      - 412更新_HK_香港_48
+      - 🇺🇸美国阿伟科技atTG*油管_13
+      - github_com/mianfeifq_Relay_🇺🇸US-🇺🇸US_3516
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_109
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_21
+      - github_com/mianfeifq_🇰🇷KR-Openit_ml_129
+      - defaultName_129
+      - defaultName_20
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_114
+      - defaultName_21
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_144
+      - Relay_🇸🇬SG-🇨🇦CA_1643
+      - 🇺🇸_US_美国_24
+      - 🇫🇷FR(TG/＠yzcloud)_15
+      - 🇺🇸_US_美国_26
+      - ✈www_iyio_net_欧洲_27
+      - defaultName_67
+      - 412更新_CN_中国_4
+      - defaultName_3
+      - 🇨🇳TW(TG：atyzcloud)&3_31
+      - 🇺🇸_US_美国_32
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_112
+      - defaultName_47
+      - Pool_🇺🇸US_358
+      - github_com/mianfeifq_GB_233
+      - Relay_🇬🇧GB-🇬🇧GB_181
+      - 🇸🇬SG_419
+      - github_com/mianfeifq_🇨🇳TW_1616
+      - github_com/v2rayfree-亚太地区69_40
+      - github_com/mianfeifq_v2cross_com_3
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_119
+      - github_com/mianfeifq_HU-Openit_ml_97
+      - 🇭🇰HK(TG：＠yzcloud)_4
+      - 412更新_CN_中国_6
+      - 🇫🇷FR(TG/＠yzcloud)_2
+      - 日本-中继-03(CNRelayJapan03)_10
+      - github_com/mianfeifq_🇺🇸US_405
+      - github_com/mianfeifq_🇹🇼TW-Openit_ml_121
+      - v2ray_50
+      - 日本(欢迎订阅Youtube破解资源君)_51
+      - defaultName_52
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_13
+      - defaultName_54
+      - 🇨🇳TW(TG/atyzcloud)_2
+      - 🇨🇳TW(TG：atyzcloud)&1_56
+      - defaultName_57
+      - CYL-科技（2022_04_06）_58
+      - github_com/mianfeifq_🇺🇸US_365
+      - 412更新_HK_香港_43
+      - Relay_🇬🇧GB-🇬🇧GB_177
+      - github_com/mianfeifq_Relay_🇰🇷KR-🇰🇷KR_997
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_105
+      - 荷兰_TGatnodesharing_113
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_101
+      - 新加坡(yudou66_com玉豆分享)_66
+      - CYL-科技（2022_04_06）_67
+      - 🇺🇸US_339
+      - default_name_69
+      - Relay_🏁ZZ-🏁ZZ_4491
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_115
+      - 412更新_HK_香港_44
+      - defaultName_73
+      - Relay_🇨🇦CA-🇨🇦CA_115
+      - 412更新_HK_香港_45
+      - 美国_TGatnodesharing_24
+      - 412更新_HK_香港_41
+      - github_com/mianfeifq_v2cross_com_6
+      - ✈www_iyio_net_新加坡_79
+      - default_name_80
+      - github_com/mianfeifq_v2cross_com_15
+      - 412更新_US_美国_36
+      - 印度(yudou66_com+玉豆分享)_83
+      - 日本_TGatnodesharing_10
+      - 412更新_CN_中国_7
+      - 🇭🇰HK(TG：＠yzcloud)_10
+      - (Youtube/TG：俊佳科技)_🇺🇸_美国_1
+      - 美国（TGat阿伟科技/油管）_88
+      - 412更新_HK_香港_47
+      - github_com/mianfeifq_github_com/freefq-乌克兰30_20
+      - 412更新_US_美国_67
+      - github_com/mianfeifq_SC-Openit_ml_145
+      - 新加坡(yudou66_com玉豆分享)_93
+      - defaultName_94
+      - github_com/mianfeifq_🇩🇪DE-Openit_ml_83
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_20
+      - github_com/v2rayfree-美国81_97
+      - 412更新_CN_中国_9
+      - 洛杉矶SSR_1
+      - 412更新_HK_香港_49
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_108
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_8
+      - CYL-科技（2022_04_06）_103
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_99
+      - github_com/mianfeifq_🇳🇱NL-Openit_ml_131
+      - 412更新_CN_中国_11
+      - 🇨🇳TW(TG：atyzcloud)&7_107
+      - github_com/mianfeifq_🇩🇪DE_214
+      - github_com/mianfeifq_+_+_+_美国阿伟科技atTG/油管+6_26
+      - 🇨🇳TW(TG：atyzcloud)&9_110
+      - 412更新_HK_香港_46
+      - 🇨🇳TW(TG/atyzcloud)_1
+      - Relay_🇺🇸US-🇺🇸US_368
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_116
+      - github_com/mianfeifq_🇷🇺RU-Openit_ml_107
+      - defaultName_77
+      - Relay_🇩🇪DE-🇩🇪DE_168
+      - 🇫🇷FR(TG/＠yzcloud)_7
+      - github_com/mianfeifq_+_FR法国TG/油管at阿伟科技_13
+      - github_com/mianfeifq__YouTubeat阿阳AYANG_20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
+      - https://github_com/mianfeifq/share每日更新大量节点，失效请更新订阅_1
+      - 美国_TGatnodesharing_2
+      - LT_328
+      - Relay_🇸🇬SG-🇸🇬SG_254
+      - 🇺🇸_美国_YouTube:VV科技_35
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_113
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_130
+      - github_com/mianfeifq_v2cross_com_44
+      - ✈www_iyio_net_日本_9
+      - defaultName_10
+      - 412更新_CN_中国_10
+      - 412更新_HK_香港_48
+      - 🇺🇸美国阿伟科技atTG*油管_13
+      - github_com/mianfeifq_Relay_🇺🇸US-🇺🇸US_3516
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_109
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_21
+      - github_com/mianfeifq_🇰🇷KR-Openit_ml_129
+      - defaultName_129
+      - defaultName_20
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_114
+      - defaultName_21
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_144
+      - Relay_🇸🇬SG-🇨🇦CA_1643
+      - 🇺🇸_US_美国_24
+      - 🇫🇷FR(TG/＠yzcloud)_15
+      - 🇺🇸_US_美国_26
+      - ✈www_iyio_net_欧洲_27
+      - defaultName_67
+      - 412更新_CN_中国_4
+      - defaultName_3
+      - 🇨🇳TW(TG：atyzcloud)&3_31
+      - 🇺🇸_US_美国_32
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_112
+      - defaultName_47
+      - Pool_🇺🇸US_358
+      - github_com/mianfeifq_GB_233
+      - Relay_🇬🇧GB-🇬🇧GB_181
+      - 🇸🇬SG_419
+      - github_com/mianfeifq_🇨🇳TW_1616
+      - github_com/v2rayfree-亚太地区69_40
+      - github_com/mianfeifq_v2cross_com_3
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_119
+      - github_com/mianfeifq_HU-Openit_ml_97
+      - 🇭🇰HK(TG：＠yzcloud)_4
+      - 412更新_CN_中国_6
+      - 🇫🇷FR(TG/＠yzcloud)_2
+      - 日本-中继-03(CNRelayJapan03)_10
+      - github_com/mianfeifq_🇺🇸US_405
+      - github_com/mianfeifq_🇹🇼TW-Openit_ml_121
+      - v2ray_50
+      - 日本(欢迎订阅Youtube破解资源君)_51
+      - defaultName_52
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_13
+      - defaultName_54
+      - 🇨🇳TW(TG/atyzcloud)_2
+      - 🇨🇳TW(TG：atyzcloud)&1_56
+      - defaultName_57
+      - CYL-科技（2022_04_06）_58
+      - github_com/mianfeifq_🇺🇸US_365
+      - 412更新_HK_香港_43
+      - Relay_🇬🇧GB-🇬🇧GB_177
+      - github_com/mianfeifq_Relay_🇰🇷KR-🇰🇷KR_997
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_105
+      - 荷兰_TGatnodesharing_113
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_101
+      - 新加坡(yudou66_com玉豆分享)_66
+      - CYL-科技（2022_04_06）_67
+      - 🇺🇸US_339
+      - default_name_69
+      - Relay_🏁ZZ-🏁ZZ_4491
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_115
+      - 412更新_HK_香港_44
+      - defaultName_73
+      - Relay_🇨🇦CA-🇨🇦CA_115
+      - 412更新_HK_香港_45
+      - 美国_TGatnodesharing_24
+      - 412更新_HK_香港_41
+      - github_com/mianfeifq_v2cross_com_6
+      - ✈www_iyio_net_新加坡_79
+      - default_name_80
+      - github_com/mianfeifq_v2cross_com_15
+      - 412更新_US_美国_36
+      - 印度(yudou66_com+玉豆分享)_83
+      - 日本_TGatnodesharing_10
+      - 412更新_CN_中国_7
+      - 🇭🇰HK(TG：＠yzcloud)_10
+      - (Youtube/TG：俊佳科技)_🇺🇸_美国_1
+      - 美国（TGat阿伟科技/油管）_88
+      - 412更新_HK_香港_47
+      - github_com/mianfeifq_github_com/freefq-乌克兰30_20
+      - 412更新_US_美国_67
+      - github_com/mianfeifq_SC-Openit_ml_145
+      - 新加坡(yudou66_com玉豆分享)_93
+      - defaultName_94
+      - github_com/mianfeifq_🇩🇪DE-Openit_ml_83
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_20
+      - github_com/v2rayfree-美国81_97
+      - 412更新_CN_中国_9
+      - 洛杉矶SSR_1
+      - 412更新_HK_香港_49
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_108
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_8
+      - CYL-科技（2022_04_06）_103
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_99
+      - github_com/mianfeifq_🇳🇱NL-Openit_ml_131
+      - 412更新_CN_中国_11
+      - 🇨🇳TW(TG：atyzcloud)&7_107
+      - github_com/mianfeifq_🇩🇪DE_214
+      - github_com/mianfeifq_+_+_+_美国阿伟科技atTG/油管+6_26
+      - 🇨🇳TW(TG：atyzcloud)&9_110
+      - 412更新_HK_香港_46
+      - 🇨🇳TW(TG/atyzcloud)_1
+      - Relay_🇺🇸US-🇺🇸US_368
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_116
+      - github_com/mianfeifq_🇷🇺RU-Openit_ml_107
+      - defaultName_77
+      - Relay_🇩🇪DE-🇩🇪DE_168
+      - 🇫🇷FR(TG/＠yzcloud)_7
+      - github_com/mianfeifq_+_FR法国TG/油管at阿伟科技_13
+      - github_com/mianfeifq__YouTubeat阿阳AYANG_20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +900,126 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪_DE_德国_1
+      - https://github_com/mianfeifq/share每日更新大量节点，失效请更新订阅_1
+      - 美国_TGatnodesharing_2
+      - LT_328
+      - Relay_🇸🇬SG-🇸🇬SG_254
+      - 🇺🇸_美国_YouTube:VV科技_35
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_113
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_130
+      - github_com/mianfeifq_v2cross_com_44
+      - ✈www_iyio_net_日本_9
+      - defaultName_10
+      - 412更新_CN_中国_10
+      - 412更新_HK_香港_48
+      - 🇺🇸美国阿伟科技atTG*油管_13
+      - github_com/mianfeifq_Relay_🇺🇸US-🇺🇸US_3516
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_109
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_21
+      - github_com/mianfeifq_🇰🇷KR-Openit_ml_129
+      - defaultName_129
+      - defaultName_20
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_114
+      - defaultName_21
+      - github_com/mianfeifq_🇺🇸US-Openit_ml_144
+      - Relay_🇸🇬SG-🇨🇦CA_1643
+      - 🇺🇸_US_美国_24
+      - 🇫🇷FR(TG/＠yzcloud)_15
+      - 🇺🇸_US_美国_26
+      - ✈www_iyio_net_欧洲_27
+      - defaultName_67
+      - 412更新_CN_中国_4
+      - defaultName_3
+      - 🇨🇳TW(TG：atyzcloud)&3_31
+      - 🇺🇸_US_美国_32
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_112
+      - defaultName_47
+      - Pool_🇺🇸US_358
+      - github_com/mianfeifq_GB_233
+      - Relay_🇬🇧GB-🇬🇧GB_181
+      - 🇸🇬SG_419
+      - github_com/mianfeifq_🇨🇳TW_1616
+      - github_com/v2rayfree-亚太地区69_40
+      - github_com/mianfeifq_v2cross_com_3
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_119
+      - github_com/mianfeifq_HU-Openit_ml_97
+      - 🇭🇰HK(TG：＠yzcloud)_4
+      - 412更新_CN_中国_6
+      - 🇫🇷FR(TG/＠yzcloud)_2
+      - 日本-中继-03(CNRelayJapan03)_10
+      - github_com/mianfeifq_🇺🇸US_405
+      - github_com/mianfeifq_🇹🇼TW-Openit_ml_121
+      - v2ray_50
+      - 日本(欢迎订阅Youtube破解资源君)_51
+      - defaultName_52
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_13
+      - defaultName_54
+      - 🇨🇳TW(TG/atyzcloud)_2
+      - 🇨🇳TW(TG：atyzcloud)&1_56
+      - defaultName_57
+      - CYL-科技（2022_04_06）_58
+      - github_com/mianfeifq_🇺🇸US_365
+      - 412更新_HK_香港_43
+      - Relay_🇬🇧GB-🇬🇧GB_177
+      - github_com/mianfeifq_Relay_🇰🇷KR-🇰🇷KR_997
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_105
+      - 荷兰_TGatnodesharing_113
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_101
+      - 新加坡(yudou66_com玉豆分享)_66
+      - CYL-科技（2022_04_06）_67
+      - 🇺🇸US_339
+      - default_name_69
+      - Relay_🏁ZZ-🏁ZZ_4491
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_115
+      - 412更新_HK_香港_44
+      - defaultName_73
+      - Relay_🇨🇦CA-🇨🇦CA_115
+      - 412更新_HK_香港_45
+      - 美国_TGatnodesharing_24
+      - 412更新_HK_香港_41
+      - github_com/mianfeifq_v2cross_com_6
+      - ✈www_iyio_net_新加坡_79
+      - default_name_80
+      - github_com/mianfeifq_v2cross_com_15
+      - 412更新_US_美国_36
+      - 印度(yudou66_com+玉豆分享)_83
+      - 日本_TGatnodesharing_10
+      - 412更新_CN_中国_7
+      - 🇭🇰HK(TG：＠yzcloud)_10
+      - (Youtube/TG：俊佳科技)_🇺🇸_美国_1
+      - 美国（TGat阿伟科技/油管）_88
+      - 412更新_HK_香港_47
+      - github_com/mianfeifq_github_com/freefq-乌克兰30_20
+      - 412更新_US_美国_67
+      - github_com/mianfeifq_SC-Openit_ml_145
+      - 新加坡(yudou66_com玉豆分享)_93
+      - defaultName_94
+      - github_com/mianfeifq_🇩🇪DE-Openit_ml_83
+      - github_com/mianfeifq_美国（TGat阿伟科技/油管）_20
+      - github_com/v2rayfree-美国81_97
+      - 412更新_CN_中国_9
+      - 洛杉矶SSR_1
+      - 412更新_HK_香港_49
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_108
+      - github_com/mianfeifq_🇭🇰HK(TG：＠yzcloud)_8
+      - CYL-科技（2022_04_06）_103
+      - github_com/mianfeifq_🇯🇵JP-Openit_ml_99
+      - github_com/mianfeifq_🇳🇱NL-Openit_ml_131
+      - 412更新_CN_中国_11
+      - 🇨🇳TW(TG：atyzcloud)&7_107
+      - github_com/mianfeifq_🇩🇪DE_214
+      - github_com/mianfeifq_+_+_+_美国阿伟科技atTG/油管+6_26
+      - 🇨🇳TW(TG：atyzcloud)&9_110
+      - 412更新_HK_香港_46
+      - 🇨🇳TW(TG/atyzcloud)_1
+      - Relay_🇺🇸US-🇺🇸US_368
+      - github_com/mianfeifq_🇸🇬SG-Openit_ml_116
+      - github_com/mianfeifq_🇷🇺RU-Openit_ml_107
+      - defaultName_77
+      - Relay_🇩🇪DE-🇩🇪DE_168
+      - 🇫🇷FR(TG/＠yzcloud)_7
+      - github_com/mianfeifq_+_FR法国TG/油管at阿伟科技_13
+      - github_com/mianfeifq__YouTubeat阿阳AYANG_20
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
