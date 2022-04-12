@@ -5,158 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"公益机场:https://bit_ly/3BPeo5G_1","server":"86.wowogg.cyou","port":52286,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","country":"公益机场:https://bit_ly/3BPeo5G_1","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"86.wowogg.cyou"}}}
-  - {"name":"atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"139.162.122.205"}}}
-  - {"name":"atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3","server":"154.23.190.162","port":443,"type":"vmess","uuid":"b9984674-f771-4e67-a198-c7e60720ba2c","alterId":0,"cipher":"auto","country":"atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"154.23.190.162"}}}
-  - {"name":"atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4","server":"49.234.158.14","port":10909,"type":"vmess","uuid":"c3082e6f-37b2-41b6-b40a-1063bc8e2853","alterId":0,"cipher":"auto","country":"atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"49.234.158.14"}}}
-  - {"name":"atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5","server":"008.AP.POP.BIGAIRPORT.NET","port":443,"type":"vmess","uuid":"c899fb95-cc39-4f3a-a882-36b70d4bef0f","alterId":0,"cipher":"auto","country":"atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"008.AP.POP.BIGAIRPORT.NET"}}}
-  - {"name":"atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6","server":"132.145.92.147","port":29660,"type":"vmess","uuid":"2c02504a-1067-4835-9235-5d50840b4530","alterId":0,"cipher":"auto","country":"atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"132.145.92.147"}}}
-  - {"name":"atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"5dc5d1d4-b6f0-11ec-b3ea-000017022008","alterId":64,"cipher":"auto","country":"atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/getweather","headers":{"host":"app.ssfree.ru"}}}
-  - {"name":"atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8","server":"0319hzm01.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319hzm01.fans8.xyz"}}}
-  - {"name":"atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9","server":"165.154.225.176","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0326hk01.fans8.xyz"}}}
-  - {"name":"atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10","server":"165.154.225.231","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330hk02.fans8.xyz"}}}
-  - {"name":"atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11","server":"0326kr.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0326kr.fans8.xyz"}}}
-  - {"name":"atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12","server":"in-v1.sdgdn.com","port":50206,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.p2psharing"}}}
-  - {"name":"atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13","server":"in-v1.sdgdn.com","port":50205,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.ripaojiedian"}}}
-  - {"name":"atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14","server":"in-v1.sdgdn.com","port":50301,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"in-v1.sdgdn.com"}}}
-  - {"name":"atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15","server":"in-v1.sdgdn.com","port":50207,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"in-v1.sdgdn.com"}}}
-  - {"name":"atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16","server":"0320hk567.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320hk567.fans8.xyz"}}}
-  - {"name":"atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17","server":"103.164.81.46","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320hk567.fans8.xyz"}}}
+  - {"name":"default_name_1","server":"103.172.116.8","port":9000,"type":"ss","country":"default_name_1","cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 公益机场:https://bit_ly/3BPeo5G_1
-      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
-      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
-      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
-      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
-      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
-      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
-      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
-      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
-      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
-      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
-      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
-      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
-      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
-      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
-      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
-      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
+      - default_name_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 公益机场:https://bit_ly/3BPeo5G_1
-      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
-      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
-      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
-      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
-      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
-      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
-      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
-      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
-      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
-      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
-      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
-      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
-      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
-      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
-      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
-      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
+      - default_name_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 公益机场:https://bit_ly/3BPeo5G_1
-      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
-      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
-      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
-      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
-      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
-      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
-      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
-      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
-      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
-      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
-      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
-      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
-      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
-      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
-      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
-      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
+      - default_name_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 公益机场:https://bit_ly/3BPeo5G_1
-      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
-      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
-      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
-      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
-      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
-      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
-      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
-      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
-      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
-      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
-      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
-      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
-      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
-      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
-      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
-      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
+      - default_name_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 公益机场:https://bit_ly/3BPeo5G_1
-      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
-      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
-      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
-      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
-      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
-      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
-      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
-      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
-      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
-      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
-      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
-      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
-      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
-      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
-      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
-      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
+      - default_name_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 公益机场:https://bit_ly/3BPeo5G_1
-      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
-      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
-      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
-      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
-      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
-      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
-      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
-      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
-      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
-      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
-      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
-      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
-      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
-      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
-      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
-      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
+      - default_name_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -179,23 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 公益机场:https://bit_ly/3BPeo5G_1
-      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
-      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
-      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
-      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
-      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
-      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
-      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
-      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
-      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
-      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
-      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
-      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
-      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
-      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
-      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
-      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
+      - default_name_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
