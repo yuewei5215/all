@@ -5,81 +5,102 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇬🇧_GB_英国_1","server":"152.89.210.105","port":9020,"type":"ss","country":"🇬🇧_GB_英国_1","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
-  - {"name":"defaultName_2","server":"152.89.210.105","port":9042,"type":"ssr","country":"defaultName_2","password":"S7KwUu7yBy58S3Ga","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_3","server":"152.89.210.105","port":9050,"type":"ssr","country":"defaultName_3","password":"FG5ddLsMPbV5CutE","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_4","server":"152.89.210.105","port":9098,"type":"ssr","country":"defaultName_4","password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_5","server":"152.89.210.105","port":9084,"type":"ssr","country":"defaultName_5","password":"c3NtHJ5ujV2tGDfj","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇬🇧_GB_英国_6","server":"152.89.210.105","port":9019,"type":"ss","country":"🇬🇧_GB_英国_6","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
+  - {"name":"翻墙党fanqiangdang_com_5","server":"nfjp1.qingyun123.xyz","port":10000,"type":"trojan","country":"翻墙党fanqiangdang_com_5","skip-cert-verify":true,"udp":true,"password":"b0dd80f5-2e66-4d3c-b41e-f3b10534fd90"}
+  - {"name":"翻墙党fanqiangdang_com_7","server":"14.29.124.168","port":25231,"type":"ss","country":"翻墙党fanqiangdang_com_7","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"翻墙党fanqiangdang_com_8","server":"14.29.124.168","port":25218,"type":"ss","country":"翻墙党fanqiangdang_com_8","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"翻墙党fanqiangdang_com_10","server":"us1.qingyun123.xyz","port":10050,"type":"trojan","country":"翻墙党fanqiangdang_com_10","skip-cert-verify":true,"udp":true,"password":"b0dd80f5-2e66-4d3c-b41e-f3b10534fd90"}
+  - {"name":"翻墙党fanqiangdang_com_18","server":"in1.qingyun123.xyz","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_18","skip-cert-verify":true,"udp":true,"password":"b0dd80f5-2e66-4d3c-b41e-f3b10534fd90"}
+  - {"name":"翻墙党fanqiangdang_com_24","server":"213.183.63.217","port":9006,"type":"ss","country":"翻墙党fanqiangdang_com_24","cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
+  - {"name":"翻墙党fanqiangdang_com_31","server":"134.195.198.252","port":443,"type":"ss","country":"翻墙党fanqiangdang_com_31","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"翻墙党fanqiangdang_com_33","server":"eu.licom.ga","port":60001,"type":"trojan","country":"翻墙党fanqiangdang_com_33","skip-cert-verify":true,"udp":true,"password":"f81e990e-1283-48f9-9eff-acacad6fb661"}
+  - {"name":"翻墙党fanqiangdang_com_35","server":"hk2702.cloudmatrix.xyz","port":2702,"type":"vmess","uuid":"32ea0987-24dc-319d-aa8b-e0dcddc711f8","alterId":2,"cipher":"auto","country":"翻墙党fanqiangdang_com_35","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - 🇬🇧_GB_英国_6
+      - 翻墙党fanqiangdang_com_5
+      - 翻墙党fanqiangdang_com_7
+      - 翻墙党fanqiangdang_com_8
+      - 翻墙党fanqiangdang_com_10
+      - 翻墙党fanqiangdang_com_18
+      - 翻墙党fanqiangdang_com_24
+      - 翻墙党fanqiangdang_com_31
+      - 翻墙党fanqiangdang_com_33
+      - 翻墙党fanqiangdang_com_35
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - 🇬🇧_GB_英国_6
+      - 翻墙党fanqiangdang_com_5
+      - 翻墙党fanqiangdang_com_7
+      - 翻墙党fanqiangdang_com_8
+      - 翻墙党fanqiangdang_com_10
+      - 翻墙党fanqiangdang_com_18
+      - 翻墙党fanqiangdang_com_24
+      - 翻墙党fanqiangdang_com_31
+      - 翻墙党fanqiangdang_com_33
+      - 翻墙党fanqiangdang_com_35
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - 🇬🇧_GB_英国_6
+      - 翻墙党fanqiangdang_com_5
+      - 翻墙党fanqiangdang_com_7
+      - 翻墙党fanqiangdang_com_8
+      - 翻墙党fanqiangdang_com_10
+      - 翻墙党fanqiangdang_com_18
+      - 翻墙党fanqiangdang_com_24
+      - 翻墙党fanqiangdang_com_31
+      - 翻墙党fanqiangdang_com_33
+      - 翻墙党fanqiangdang_com_35
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - 🇬🇧_GB_英国_6
+      - 翻墙党fanqiangdang_com_5
+      - 翻墙党fanqiangdang_com_7
+      - 翻墙党fanqiangdang_com_8
+      - 翻墙党fanqiangdang_com_10
+      - 翻墙党fanqiangdang_com_18
+      - 翻墙党fanqiangdang_com_24
+      - 翻墙党fanqiangdang_com_31
+      - 翻墙党fanqiangdang_com_33
+      - 翻墙党fanqiangdang_com_35
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - 🇬🇧_GB_英国_6
+      - 翻墙党fanqiangdang_com_5
+      - 翻墙党fanqiangdang_com_7
+      - 翻墙党fanqiangdang_com_8
+      - 翻墙党fanqiangdang_com_10
+      - 翻墙党fanqiangdang_com_18
+      - 翻墙党fanqiangdang_com_24
+      - 翻墙党fanqiangdang_com_31
+      - 翻墙党fanqiangdang_com_33
+      - 翻墙党fanqiangdang_com_35
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - 🇬🇧_GB_英国_6
+      - 翻墙党fanqiangdang_com_5
+      - 翻墙党fanqiangdang_com_7
+      - 翻墙党fanqiangdang_com_8
+      - 翻墙党fanqiangdang_com_10
+      - 翻墙党fanqiangdang_com_18
+      - 翻墙党fanqiangdang_com_24
+      - 翻墙党fanqiangdang_com_31
+      - 翻墙党fanqiangdang_com_33
+      - 翻墙党fanqiangdang_com_35
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -102,12 +123,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - 🇬🇧_GB_英国_6
+      - 翻墙党fanqiangdang_com_5
+      - 翻墙党fanqiangdang_com_7
+      - 翻墙党fanqiangdang_com_8
+      - 翻墙党fanqiangdang_com_10
+      - 翻墙党fanqiangdang_com_18
+      - 翻墙党fanqiangdang_com_24
+      - 翻墙党fanqiangdang_com_31
+      - 翻墙党fanqiangdang_com_33
+      - 翻墙党fanqiangdang_com_35
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
