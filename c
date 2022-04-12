@@ -5,389 +5,158 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"defaultName_1","server":"103.172.116.9","port":9098,"type":"ssr","country":"defaultName_1","password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_2","server":"152.89.210.105","port":9073,"type":"ssr","country":"defaultName_2","password":"daFYagqDdBdA6VTX","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇧🇬_BG_保加利亚_3","server":"213.183.63.218","port":9097,"type":"ss","country":"🇧🇬_BG_保加利亚_3","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
-  - {"name":"🇧🇬_BG_保加利亚_4","server":"213.183.63.217","port":9084,"type":"ss","country":"🇧🇬_BG_保加利亚_4","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
-  - {"name":"defaultName_5","server":"213.183.53.177","port":9020,"type":"ssr","country":"defaultName_5","password":"BNmAXXxAHYpTRdzu","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_6","server":"213.183.53.177","port":9015,"type":"ssr","country":"defaultName_6","password":"ZpNDDKRu9MagNvaf","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇨🇭_CH_瑞士_7","server":"185.126.116.117","port":9046,"type":"ss","country":"🇨🇭_CH_瑞士_7","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
-  - {"name":"🇨🇭_CH_瑞士_8","server":"185.126.116.117","port":9056,"type":"ss","country":"🇨🇭_CH_瑞士_8","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
-  - {"name":"🇨🇭_CH_瑞士_9","server":"185.126.116.117","port":9094,"type":"ss","country":"🇨🇭_CH_瑞士_9","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
-  - {"name":"🇩🇪_DE_德国_10","server":"5.183.179.140","port":9025,"type":"ss","country":"🇩🇪_DE_德国_10","cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
-  - {"name":"🇩🇪_DE_德国_11","server":"5.183.179.140","port":9001,"type":"ss","country":"🇩🇪_DE_德国_11","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
-  - {"name":"🇩🇪_DE_德国_12","server":"5.183.179.148","port":9031,"type":"ss","country":"🇩🇪_DE_德国_12","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
-  - {"name":"🇩🇪_DE_德国_13","server":"5.183.179.145","port":9014,"type":"ss","country":"🇩🇪_DE_德国_13","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
-  - {"name":"🇧🇬_BG_保加利亚_14","server":"213.183.63.219","port":9008,"type":"ss","country":"🇧🇬_BG_保加利亚_14","cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ"}
-  - {"name":"🇧🇬_BG_保加利亚_15","server":"213.183.63.218","port":9059,"type":"ss","country":"🇧🇬_BG_保加利亚_15","cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
-  - {"name":"🇧🇬_BG_保加利亚_16","server":"213.183.63.217","port":9088,"type":"ss","country":"🇧🇬_BG_保加利亚_16","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
-  - {"name":"🇧🇬_BG_保加利亚_17","server":"213.183.63.218","port":9031,"type":"ss","country":"🇧🇬_BG_保加利亚_17","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
-  - {"name":"🇧🇬_BG_保加利亚_18","server":"213.183.63.218","port":9026,"type":"ss","country":"🇧🇬_BG_保加利亚_18","cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
-  - {"name":"defaultName_19","server":"213.183.53.177","port":9041,"type":"ssr","country":"defaultName_19","password":"U6qnYRhfyDmn8sgn","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_20","server":"gz2.52168.xyz","port":2102,"type":"ssr","country":"defaultName_20","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
-  - {"name":"defaultName_21","server":"213.183.53.177","port":9060,"type":"ssr","country":"defaultName_21","password":"ueLXVkvh4hckhErQ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇰🇷_KR_韩国_22","server":"jgw2.gaox.ml","port":443,"type":"trojan","country":"🇰🇷_KR_韩国_22","skip-cert-verify":true,"udp":true,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998"}
-  - {"name":"🇧🇬_BG_保加利亚_23","server":"213.183.63.219","port":9003,"type":"ss","country":"🇧🇬_BG_保加利亚_23","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_24","server":"213.183.53.202","port":9064,"type":"ss","country":"🇷🇺_RU_俄罗斯联邦_24","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
-  - {"name":"🇳🇱_NL_荷兰_25","server":"213.183.59.218","port":9073,"type":"ss","country":"🇳🇱_NL_荷兰_25","cipher":"aes-256-cfb","password":"daFYagqDdBdA6VTX"}
-  - {"name":"defaultName_26","server":"gz1.52168.xyz","port":1101,"type":"ssr","country":"defaultName_26","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
-  - {"name":"defaultName_27","server":"gz1.52168.xyz","port":1111,"type":"ssr","country":"defaultName_27","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
-  - {"name":"defaultName_28","server":"gz1.52168.xyz","port":1109,"type":"ssr","country":"defaultName_28","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
-  - {"name":"🇧🇬_BG_保加利亚_29","server":"213.183.63.217","port":9008,"type":"ss","country":"🇧🇬_BG_保加利亚_29","cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ"}
-  - {"name":"🇧🇬_BG_保加利亚_30","server":"213.183.63.221","port":9025,"type":"ss","country":"🇧🇬_BG_保加利亚_30","cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
-  - {"name":"🇧🇬_BG_保加利亚_31","server":"213.183.63.221","port":9006,"type":"ss","country":"🇧🇬_BG_保加利亚_31","cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
-  - {"name":"🇧🇬_BG_保加利亚_32","server":"213.183.63.218","port":9011,"type":"ss","country":"🇧🇬_BG_保加利亚_32","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
-  - {"name":"🇧🇬_BG_保加利亚_33","server":"213.183.63.221","port":9084,"type":"ss","country":"🇧🇬_BG_保加利亚_33","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
-  - {"name":"🇧🇬_BG_保加利亚_34","server":"213.183.63.217","port":9045,"type":"ss","country":"🇧🇬_BG_保加利亚_34","cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
-  - {"name":"🇧🇬_BG_保加利亚_35","server":"213.183.63.217","port":9031,"type":"ss","country":"🇧🇬_BG_保加利亚_35","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
-  - {"name":"🇧🇬_BG_保加利亚_36","server":"213.183.63.219","port":9027,"type":"ss","country":"🇧🇬_BG_保加利亚_36","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
-  - {"name":"🇧🇬_BG_保加利亚_37","server":"213.183.63.218","port":9084,"type":"ss","country":"🇧🇬_BG_保加利亚_37","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
-  - {"name":"🇧🇬_BG_保加利亚_38","server":"213.183.63.218","port":9032,"type":"ss","country":"🇧🇬_BG_保加利亚_38","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
-  - {"name":"🇧🇬_BG_保加利亚_39","server":"213.183.63.217","port":9010,"type":"ss","country":"🇧🇬_BG_保加利亚_39","cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
-  - {"name":"🇧🇬_BG_保加利亚_40","server":"213.183.63.219","port":9033,"type":"ss","country":"🇧🇬_BG_保加利亚_40","cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
-  - {"name":"🇧🇬_BG_保加利亚_41","server":"213.183.63.217","port":9064,"type":"ss","country":"🇧🇬_BG_保加利亚_41","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
-  - {"name":"🇧🇬_BG_保加利亚_42","server":"213.183.63.218","port":9008,"type":"ss","country":"🇧🇬_BG_保加利亚_42","cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_43","server":"213.183.53.202","port":9079,"type":"ss","country":"🇷🇺_RU_俄罗斯联邦_43","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
-  - {"name":"🇧🇬_BG_保加利亚_44","server":"213.183.63.218","port":9014,"type":"ss","country":"🇧🇬_BG_保加利亚_44","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
-  - {"name":"🇧🇬_BG_保加利亚_45","server":"213.183.63.221","port":9015,"type":"ss","country":"🇧🇬_BG_保加利亚_45","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
-  - {"name":"defaultName_46","server":"213.183.53.177","port":9010,"type":"ssr","country":"defaultName_46","password":"f63gg8EruDnUrmz4","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_47","server":"213.183.53.177","port":9059,"type":"ssr","country":"defaultName_47","password":"9XwYyZsK8SNzQDtY","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_48","server":"213.183.53.177","port":9043,"type":"ssr","country":"defaultName_48","password":"HSZuyJQcWe8dxNdF","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_49","server":"213.183.53.177","port":9097,"type":"ssr","country":"defaultName_49","password":"Sn5B7jTqr76aCJT8","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"defaultName_50","server":"213.183.53.177","port":9026,"type":"ssr","country":"defaultName_50","password":"QWDDvVE9npNurQfA","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"公益机场:https://bit_ly/3BPeo5G_1","server":"86.wowogg.cyou","port":52286,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","country":"公益机场:https://bit_ly/3BPeo5G_1","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"86.wowogg.cyou"}}}
+  - {"name":"atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2","server":"139.162.122.205","port":3845,"type":"vmess","uuid":"76d5c6e3-c74c-3406-b9e8-9859d0a71c56","alterId":0,"cipher":"auto","country":"atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"139.162.122.205"}}}
+  - {"name":"atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3","server":"154.23.190.162","port":443,"type":"vmess","uuid":"b9984674-f771-4e67-a198-c7e60720ba2c","alterId":0,"cipher":"auto","country":"atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"154.23.190.162"}}}
+  - {"name":"atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4","server":"49.234.158.14","port":10909,"type":"vmess","uuid":"c3082e6f-37b2-41b6-b40a-1063bc8e2853","alterId":0,"cipher":"auto","country":"atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"49.234.158.14"}}}
+  - {"name":"atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5","server":"008.AP.POP.BIGAIRPORT.NET","port":443,"type":"vmess","uuid":"c899fb95-cc39-4f3a-a882-36b70d4bef0f","alterId":0,"cipher":"auto","country":"atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"008.AP.POP.BIGAIRPORT.NET"}}}
+  - {"name":"atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6","server":"132.145.92.147","port":29660,"type":"vmess","uuid":"2c02504a-1067-4835-9235-5d50840b4530","alterId":0,"cipher":"auto","country":"atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"132.145.92.147"}}}
+  - {"name":"atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"5dc5d1d4-b6f0-11ec-b3ea-000017022008","alterId":64,"cipher":"auto","country":"atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/getweather","headers":{"host":"app.ssfree.ru"}}}
+  - {"name":"atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8","server":"0319hzm01.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"0319hzm01.fans8.xyz"}}}
+  - {"name":"atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9","server":"165.154.225.176","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0326hk01.fans8.xyz"}}}
+  - {"name":"atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10","server":"165.154.225.231","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330hk02.fans8.xyz"}}}
+  - {"name":"atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11","server":"0326kr.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0326kr.fans8.xyz"}}}
+  - {"name":"atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12","server":"in-v1.sdgdn.com","port":50206,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13","server":"in-v1.sdgdn.com","port":50205,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.ripaojiedian"}}}
+  - {"name":"atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14","server":"in-v1.sdgdn.com","port":50301,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"in-v1.sdgdn.com"}}}
+  - {"name":"atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15","server":"in-v1.sdgdn.com","port":50207,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"in-v1.sdgdn.com"}}}
+  - {"name":"atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16","server":"0320hk567.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320hk567.fans8.xyz"}}}
+  - {"name":"atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17","server":"103.164.81.46","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0320hk567.fans8.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName_1
-      - defaultName_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - defaultName_5
-      - defaultName_6
-      - 🇨🇭_CH_瑞士_7
-      - 🇨🇭_CH_瑞士_8
-      - 🇨🇭_CH_瑞士_9
-      - 🇩🇪_DE_德国_10
-      - 🇩🇪_DE_德国_11
-      - 🇩🇪_DE_德国_12
-      - 🇩🇪_DE_德国_13
-      - 🇧🇬_BG_保加利亚_14
-      - 🇧🇬_BG_保加利亚_15
-      - 🇧🇬_BG_保加利亚_16
-      - 🇧🇬_BG_保加利亚_17
-      - 🇧🇬_BG_保加利亚_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - 🇰🇷_KR_韩国_22
-      - 🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇳🇱_NL_荷兰_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - 🇧🇬_BG_保加利亚_29
-      - 🇧🇬_BG_保加利亚_30
-      - 🇧🇬_BG_保加利亚_31
-      - 🇧🇬_BG_保加利亚_32
-      - 🇧🇬_BG_保加利亚_33
-      - 🇧🇬_BG_保加利亚_34
-      - 🇧🇬_BG_保加利亚_35
-      - 🇧🇬_BG_保加利亚_36
-      - 🇧🇬_BG_保加利亚_37
-      - 🇧🇬_BG_保加利亚_38
-      - 🇧🇬_BG_保加利亚_39
-      - 🇧🇬_BG_保加利亚_40
-      - 🇧🇬_BG_保加利亚_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇧🇬_BG_保加利亚_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
+      - 公益机场:https://bit_ly/3BPeo5G_1
+      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
+      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
+      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
+      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
+      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
+      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
+      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
+      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
+      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
+      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
+      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
+      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
+      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
+      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
+      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
+      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_1
-      - defaultName_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - defaultName_5
-      - defaultName_6
-      - 🇨🇭_CH_瑞士_7
-      - 🇨🇭_CH_瑞士_8
-      - 🇨🇭_CH_瑞士_9
-      - 🇩🇪_DE_德国_10
-      - 🇩🇪_DE_德国_11
-      - 🇩🇪_DE_德国_12
-      - 🇩🇪_DE_德国_13
-      - 🇧🇬_BG_保加利亚_14
-      - 🇧🇬_BG_保加利亚_15
-      - 🇧🇬_BG_保加利亚_16
-      - 🇧🇬_BG_保加利亚_17
-      - 🇧🇬_BG_保加利亚_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - 🇰🇷_KR_韩国_22
-      - 🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇳🇱_NL_荷兰_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - 🇧🇬_BG_保加利亚_29
-      - 🇧🇬_BG_保加利亚_30
-      - 🇧🇬_BG_保加利亚_31
-      - 🇧🇬_BG_保加利亚_32
-      - 🇧🇬_BG_保加利亚_33
-      - 🇧🇬_BG_保加利亚_34
-      - 🇧🇬_BG_保加利亚_35
-      - 🇧🇬_BG_保加利亚_36
-      - 🇧🇬_BG_保加利亚_37
-      - 🇧🇬_BG_保加利亚_38
-      - 🇧🇬_BG_保加利亚_39
-      - 🇧🇬_BG_保加利亚_40
-      - 🇧🇬_BG_保加利亚_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇧🇬_BG_保加利亚_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
+      - 公益机场:https://bit_ly/3BPeo5G_1
+      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
+      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
+      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
+      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
+      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
+      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
+      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
+      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
+      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
+      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
+      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
+      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
+      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
+      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
+      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
+      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - defaultName_5
-      - defaultName_6
-      - 🇨🇭_CH_瑞士_7
-      - 🇨🇭_CH_瑞士_8
-      - 🇨🇭_CH_瑞士_9
-      - 🇩🇪_DE_德国_10
-      - 🇩🇪_DE_德国_11
-      - 🇩🇪_DE_德国_12
-      - 🇩🇪_DE_德国_13
-      - 🇧🇬_BG_保加利亚_14
-      - 🇧🇬_BG_保加利亚_15
-      - 🇧🇬_BG_保加利亚_16
-      - 🇧🇬_BG_保加利亚_17
-      - 🇧🇬_BG_保加利亚_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - 🇰🇷_KR_韩国_22
-      - 🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇳🇱_NL_荷兰_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - 🇧🇬_BG_保加利亚_29
-      - 🇧🇬_BG_保加利亚_30
-      - 🇧🇬_BG_保加利亚_31
-      - 🇧🇬_BG_保加利亚_32
-      - 🇧🇬_BG_保加利亚_33
-      - 🇧🇬_BG_保加利亚_34
-      - 🇧🇬_BG_保加利亚_35
-      - 🇧🇬_BG_保加利亚_36
-      - 🇧🇬_BG_保加利亚_37
-      - 🇧🇬_BG_保加利亚_38
-      - 🇧🇬_BG_保加利亚_39
-      - 🇧🇬_BG_保加利亚_40
-      - 🇧🇬_BG_保加利亚_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇧🇬_BG_保加利亚_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
+      - 公益机场:https://bit_ly/3BPeo5G_1
+      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
+      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
+      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
+      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
+      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
+      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
+      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
+      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
+      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
+      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
+      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
+      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
+      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
+      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
+      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
+      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - defaultName_5
-      - defaultName_6
-      - 🇨🇭_CH_瑞士_7
-      - 🇨🇭_CH_瑞士_8
-      - 🇨🇭_CH_瑞士_9
-      - 🇩🇪_DE_德国_10
-      - 🇩🇪_DE_德国_11
-      - 🇩🇪_DE_德国_12
-      - 🇩🇪_DE_德国_13
-      - 🇧🇬_BG_保加利亚_14
-      - 🇧🇬_BG_保加利亚_15
-      - 🇧🇬_BG_保加利亚_16
-      - 🇧🇬_BG_保加利亚_17
-      - 🇧🇬_BG_保加利亚_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - 🇰🇷_KR_韩国_22
-      - 🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇳🇱_NL_荷兰_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - 🇧🇬_BG_保加利亚_29
-      - 🇧🇬_BG_保加利亚_30
-      - 🇧🇬_BG_保加利亚_31
-      - 🇧🇬_BG_保加利亚_32
-      - 🇧🇬_BG_保加利亚_33
-      - 🇧🇬_BG_保加利亚_34
-      - 🇧🇬_BG_保加利亚_35
-      - 🇧🇬_BG_保加利亚_36
-      - 🇧🇬_BG_保加利亚_37
-      - 🇧🇬_BG_保加利亚_38
-      - 🇧🇬_BG_保加利亚_39
-      - 🇧🇬_BG_保加利亚_40
-      - 🇧🇬_BG_保加利亚_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇧🇬_BG_保加利亚_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
+      - 公益机场:https://bit_ly/3BPeo5G_1
+      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
+      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
+      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
+      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
+      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
+      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
+      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
+      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
+      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
+      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
+      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
+      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
+      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
+      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
+      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
+      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName_1
-      - defaultName_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - defaultName_5
-      - defaultName_6
-      - 🇨🇭_CH_瑞士_7
-      - 🇨🇭_CH_瑞士_8
-      - 🇨🇭_CH_瑞士_9
-      - 🇩🇪_DE_德国_10
-      - 🇩🇪_DE_德国_11
-      - 🇩🇪_DE_德国_12
-      - 🇩🇪_DE_德国_13
-      - 🇧🇬_BG_保加利亚_14
-      - 🇧🇬_BG_保加利亚_15
-      - 🇧🇬_BG_保加利亚_16
-      - 🇧🇬_BG_保加利亚_17
-      - 🇧🇬_BG_保加利亚_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - 🇰🇷_KR_韩国_22
-      - 🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇳🇱_NL_荷兰_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - 🇧🇬_BG_保加利亚_29
-      - 🇧🇬_BG_保加利亚_30
-      - 🇧🇬_BG_保加利亚_31
-      - 🇧🇬_BG_保加利亚_32
-      - 🇧🇬_BG_保加利亚_33
-      - 🇧🇬_BG_保加利亚_34
-      - 🇧🇬_BG_保加利亚_35
-      - 🇧🇬_BG_保加利亚_36
-      - 🇧🇬_BG_保加利亚_37
-      - 🇧🇬_BG_保加利亚_38
-      - 🇧🇬_BG_保加利亚_39
-      - 🇧🇬_BG_保加利亚_40
-      - 🇧🇬_BG_保加利亚_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇧🇬_BG_保加利亚_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
+      - 公益机场:https://bit_ly/3BPeo5G_1
+      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
+      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
+      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
+      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
+      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
+      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
+      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
+      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
+      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
+      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
+      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
+      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
+      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
+      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
+      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
+      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - defaultName_5
-      - defaultName_6
-      - 🇨🇭_CH_瑞士_7
-      - 🇨🇭_CH_瑞士_8
-      - 🇨🇭_CH_瑞士_9
-      - 🇩🇪_DE_德国_10
-      - 🇩🇪_DE_德国_11
-      - 🇩🇪_DE_德国_12
-      - 🇩🇪_DE_德国_13
-      - 🇧🇬_BG_保加利亚_14
-      - 🇧🇬_BG_保加利亚_15
-      - 🇧🇬_BG_保加利亚_16
-      - 🇧🇬_BG_保加利亚_17
-      - 🇧🇬_BG_保加利亚_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - 🇰🇷_KR_韩国_22
-      - 🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇳🇱_NL_荷兰_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - 🇧🇬_BG_保加利亚_29
-      - 🇧🇬_BG_保加利亚_30
-      - 🇧🇬_BG_保加利亚_31
-      - 🇧🇬_BG_保加利亚_32
-      - 🇧🇬_BG_保加利亚_33
-      - 🇧🇬_BG_保加利亚_34
-      - 🇧🇬_BG_保加利亚_35
-      - 🇧🇬_BG_保加利亚_36
-      - 🇧🇬_BG_保加利亚_37
-      - 🇧🇬_BG_保加利亚_38
-      - 🇧🇬_BG_保加利亚_39
-      - 🇧🇬_BG_保加利亚_40
-      - 🇧🇬_BG_保加利亚_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇧🇬_BG_保加利亚_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
+      - 公益机场:https://bit_ly/3BPeo5G_1
+      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
+      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
+      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
+      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
+      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
+      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
+      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
+      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
+      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
+      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
+      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
+      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
+      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
+      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
+      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
+      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -410,56 +179,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName_1
-      - defaultName_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇧🇬_BG_保加利亚_4
-      - defaultName_5
-      - defaultName_6
-      - 🇨🇭_CH_瑞士_7
-      - 🇨🇭_CH_瑞士_8
-      - 🇨🇭_CH_瑞士_9
-      - 🇩🇪_DE_德国_10
-      - 🇩🇪_DE_德国_11
-      - 🇩🇪_DE_德国_12
-      - 🇩🇪_DE_德国_13
-      - 🇧🇬_BG_保加利亚_14
-      - 🇧🇬_BG_保加利亚_15
-      - 🇧🇬_BG_保加利亚_16
-      - 🇧🇬_BG_保加利亚_17
-      - 🇧🇬_BG_保加利亚_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - 🇰🇷_KR_韩国_22
-      - 🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇳🇱_NL_荷兰_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - 🇧🇬_BG_保加利亚_29
-      - 🇧🇬_BG_保加利亚_30
-      - 🇧🇬_BG_保加利亚_31
-      - 🇧🇬_BG_保加利亚_32
-      - 🇧🇬_BG_保加利亚_33
-      - 🇧🇬_BG_保加利亚_34
-      - 🇧🇬_BG_保加利亚_35
-      - 🇧🇬_BG_保加利亚_36
-      - 🇧🇬_BG_保加利亚_37
-      - 🇧🇬_BG_保加利亚_38
-      - 🇧🇬_BG_保加利亚_39
-      - 🇧🇬_BG_保加利亚_40
-      - 🇧🇬_BG_保加利亚_41
-      - 🇧🇬_BG_保加利亚_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇧🇬_BG_保加利亚_44
-      - 🇧🇬_BG_保加利亚_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
+      - 公益机场:https://bit_ly/3BPeo5G_1
+      - atSSRSUB-V01-付费推荐:suo_yt/ssrsub_2
+      - atSSRSUB-V02-付费推荐:suo_yt/ssrsub_3
+      - atSSRSUB-V03-付费推荐:suo_yt/ssrsub_4
+      - atSSRSUB-V04-付费推荐:suo_yt/ssrsub_5
+      - atSSRSUB-V05-付费推荐:suo_yt/ssrsub_6
+      - atSSRSUB-V06-付费推荐:suo_yt/ssrsub_7
+      - atSSRSUB-V07-付费推荐:suo_yt/ssrsub_8
+      - atSSRSUB-V08-付费推荐:suo_yt/ssrsub_9
+      - atSSRSUB-V09-付费推荐:suo_yt/ssrsub_10
+      - atSSRSUB-V10-付费推荐:suo_yt/ssrsub_11
+      - atSSRSUB-V11-付费推荐:suo_yt/ssrsub_12
+      - atSSRSUB-V12-付费推荐:suo_yt/ssrsub_13
+      - atSSRSUB-V13-付费推荐:suo_yt/ssrsub_14
+      - atSSRSUB-V14-付费推荐:suo_yt/ssrsub_15
+      - atSSRSUB-V15-付费推荐:suo_yt/ssrsub_16
+      - atSSRSUB-V16-付费推荐:suo_yt/ssrsub_17
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
