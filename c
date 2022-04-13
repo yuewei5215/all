@@ -5,74 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"defaultName_1","server":"opt11.boom.party","port":21000,"type":"ssr","country":"defaultName_1","password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
-  - {"name":"defaultName_2","server":"opt23.boom.party","port":33000,"type":"ssr","country":"defaultName_2","password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
-  - {"name":"🇺🇸_US_美国_3","server":"45.32.94.166","port":31676,"type":"vmess","uuid":"6f3ec45c-5283-40e8-aea9-7749f4c75753","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_3","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"45.32.94.166"}}}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.198.252","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"defaultName_5","server":"n111.boom.party","port":29000,"type":"ssr","country":"defaultName_5","password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+  - {"name":"🇨🇳_CN_中国_1","server":"120.233.10.230","port":50500,"type":"ss","country":"🇨🇳_CN_中国_1","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_2","server":"120.233.10.230","port":50300,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_2","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
+  - {"name":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_3","server":"eu.licom.ga","port":60001,"type":"trojan","country":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_3","skip-cert-verify":true,"udp":true,"password":"f81e990e-1283-48f9-9eff-acacad6fb661"}
+  - {"name":"🇸🇬_SG_新加坡_4","server":"sg.sharecentrepro.tk","port":443,"type":"trojan","country":"🇸🇬_SG_新加坡_4","skip-cert-verify":true,"udp":true,"password":"sharecentre"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName_1
-      - defaultName_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - defaultName_5
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_1
-      - defaultName_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - defaultName_5
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - defaultName_5
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - defaultName_5
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName_1
-      - defaultName_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - defaultName_5
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - defaultName_5
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName_1
-      - defaultName_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大_4
-      - defaultName_5
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
+      - 🇸🇬_SG_新加坡->🇩🇪_DE_德国_3
+      - 🇸🇬_SG_新加坡_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
