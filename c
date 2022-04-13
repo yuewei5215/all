@@ -5,32 +5,35 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"翻墙党fanqiangdang_com_1","server":"ussc.scsevers.cf","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_1","skip-cert-verify":true,"udp":true,"password":"sharecentre"}
-  - {"name":"翻墙党fanqiangdang_com_2","server":"us2.tcpbbr.net","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_2","skip-cert-verify":true,"udp":true,"password":"7b4066ae-accc-11eb-a8bf-f23c91cfbbc9"}
-  - {"name":"翻墙党fanqiangdang_com_3","server":"jgwdj2.gaox.ml","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_3","skip-cert-verify":true,"udp":true,"password":"86231db5-96d0-4271-9977-cae3a0cba614"}
-  - {"name":"翻墙党fanqiangdang_com_4","server":"jgwdj1.gaox.ml","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_4","skip-cert-verify":true,"udp":true,"password":"e8553fc5-f3a0-409c-ac06-1cd93b026cf4"}
-  - {"name":"翻墙党fanqiangdang_com_5","server":"jgwdj1.gaox.ml","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_5","skip-cert-verify":true,"udp":true,"password":"e8553fc5-f3a0-409c-ac06-1cd93b026cf4"}
-  - {"name":"翻墙党fanqiangdang_com_6","server":"hk05.kuli888.xyz","port":580,"type":"trojan","country":"翻墙党fanqiangdang_com_6","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"hk05.kuli888.xyz"}
-  - {"name":"翻墙党fanqiangdang_com_7","server":"tw03.kuli888.xyz","port":35256,"type":"trojan","country":"翻墙党fanqiangdang_com_7","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"tw03djacajndknjan.kulime.space"}
-  - {"name":"翻墙党fanqiangdang_com_8","server":"jgwhdlb1.gaox.ml","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_8","skip-cert-verify":true,"udp":true,"password":"e05c749b-7c6b-41b8-9c71-9dcf685edf4a"}
-  - {"name":"翻墙党fanqiangdang_com_9","server":"jgwdb4.gaox.ml","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_9","skip-cert-verify":true,"udp":true,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2"}
-  - {"name":"翻墙党fanqiangdang_com_10","server":"az05.kuli888.xyz","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_10","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"az05dasjhcjbjsfc.kulime.space"}
-  - {"name":"翻墙党fanqiangdang_com_11","server":"jgwdb4.gaox.ml","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_11","skip-cert-verify":true,"udp":true,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2"}
-  - {"name":"🇺🇸_美国_（YouTube：VV科技）_32","server":"usa-buffalo.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"🇺🇸_美国_（YouTube：VV科技）_32","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-buffalo.lvuft.com"}}}
-  - {"name":"翻墙党fanqiangdang_com_13","server":"zhanghua.kuli888.xyz","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_13","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"zhanghua.kulime.space"}
-  - {"name":"翻墙党fanqiangdang_com_14","server":"jgwdj3.gaox.ml","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_14","skip-cert-verify":true,"udp":true,"password":"da777aae-defb-41d0-a183-2c27da2b4677"}
-  - {"name":"翻墙党fanqiangdang_com_15","server":"taiwjing.kuli888.xyz","port":520,"type":"trojan","country":"翻墙党fanqiangdang_com_15","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"taiwjing.kuli888.xyz"}
-  - {"name":"翻墙党fanqiangdang_com_16","server":"jgw3.gaox.ml","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_16","skip-cert-verify":true,"udp":true,"password":"a1718180-d616-4b71-9bb6-3e96ba20f921"}
-  - {"name":"翻墙党fanqiangdang_com_17","server":"bgpwz02.kuli888.xyz","port":20000,"type":"trojan","country":"翻墙党fanqiangdang_com_17","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"az100.kuli888.xyz"}
-  - {"name":"翻墙党fanqiangdang_com_18","server":"changsha01.kuli888.xyz","port":52013,"type":"trojan","country":"翻墙党fanqiangdang_com_18","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"hk10.kulime.space"}
-  - {"name":"翻墙党fanqiangdang_com_19","server":"hugang03.kuli888.xyz","port":20025,"type":"trojan","country":"翻墙党fanqiangdang_com_19","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"hk111.kulime.space"}
-  - {"name":"翻墙党fanqiangdang_com_20","server":"tw05.kulime.space","port":10005,"type":"trojan","country":"翻墙党fanqiangdang_com_20","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"zhanghua.kulime.space"}
-  - {"name":"翻墙党fanqiangdang_com_21","server":"v2bgp01.kuli888.xyz","port":10009,"type":"trojan","country":"翻墙党fanqiangdang_com_21","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"hk10.kulime.space"}
-  - {"name":"翻墙党fanqiangdang_com_22","server":"guangzhou.kuli888.xyz","port":52006,"type":"trojan","country":"翻墙党fanqiangdang_com_22","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"tw.kuli888.xyz"}
-  - {"name":"翻墙党fanqiangdang_com_23","server":"dmit.kuli888.xyz","port":20026,"type":"trojan","country":"翻墙党fanqiangdang_com_23","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"hk111.kulime.space"}
-  - {"name":"翻墙党fanqiangdang_com_24","server":"bgpwr.kulime.space","port":11152,"type":"trojan","country":"翻墙党fanqiangdang_com_24","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"hk05.kuli888.xyz"}
-  - {"name":"翻墙党fanqiangdang_com_25","server":"guangzhou.kuli888.xyz","port":52004,"type":"trojan","country":"翻墙党fanqiangdang_com_25","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"tw02.kuli888.xyz"}
-  - {"name":"翻墙党fanqiangdang_com_26","server":"guangzhou.kuli888.xyz","port":52100,"type":"trojan","country":"翻墙党fanqiangdang_com_26","skip-cert-verify":true,"udp":true,"password":"5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101","sni":"hk05.kuli888.xyz"}
+  - {"name":"翻墙党fanqiangdang_com_1","server":"hk01.linkzones.xyz","port":31911,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"hk01.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_2","server":"hk02.linkzones.xyz","port":31913,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"hk02.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_3","server":"hk03.linkzones.xyz","port":47093,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"hk03.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_4","server":"jp01.linkzones.xyz","port":31961,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"jp01.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_5","server":"jp02.linkzones.xyz","port":31972,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"jp02.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_6","server":"sg02.linkzones.xyz","port":31983,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"sg02.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_7","server":"sg03.linkzones.xyz","port":31984,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"sg03.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_8","server":"tw02.linkzones.xyz","port":41982,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"tw02.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_9","server":"tw03.linkzones.xyz","port":51984,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"tw03.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_10","server":"us01.linkzones.xyz","port":31954,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"us01.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_11","server":"us03.linkzones.xyz","port":31974,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_11","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"us03.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_12","server":"ca01.linkzones.xyz","port":31975,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"ca01.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_13","server":"ca03.linkzones.xyz","port":31977,"type":"vmess","uuid":"c608cb86-52bb-3b14-8564-905d6bf27bb8","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_13","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"ca03.linknodes.xyz"}}}
+  - {"name":"翻墙党fanqiangdang_com_14","server":"cu.mj-cn.cyou","port":16633,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_14","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_15","server":"ct.mj-cn.cyou","port":16633,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_15","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_16","server":"cu.mj-cn.cyou","port":26633,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_16","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_17","server":"cm.mj-cn.cyou","port":26633,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_17","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_18","server":"ct.mj-cn.cyou","port":26633,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_18","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_19","server":"cu.mj-cn.cyou","port":26622,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_19","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_20","server":"cm.mj-cn.cyou","port":26622,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_20","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_21","server":"ct.mj-cn.cyou","port":26622,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_21","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_22","server":"cu.mj-cn.cyou","port":16621,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_22","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_23","server":"cm.mj-cn.cyou","port":16621,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_23","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_24","server":"ct.mj-cn.cyou","port":16621,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_24","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_25","server":"cu.mj-cn.cyou","port":16631,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_25","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_26","server":"cm.mj-cn.cyou","port":16631,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_26","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_27","server":"ct.mj-cn.cyou","port":16631,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_27","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_28","server":"137.116.161.188","port":6622,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_28","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"翻墙党fanqiangdang_com_29","server":"cu.mj-cn.cyou","port":16627,"type":"vmess","uuid":"1c76d079-f161-45a8-a1c9-a720a3c3c44e","alterId":0,"cipher":"auto","country":"翻墙党fanqiangdang_com_29","skip-cert-verify":true,"tls":false,"network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -48,7 +51,7 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_9
       - 翻墙党fanqiangdang_com_10
       - 翻墙党fanqiangdang_com_11
-      - 🇺🇸_美国_（YouTube：VV科技）_32
+      - 翻墙党fanqiangdang_com_12
       - 翻墙党fanqiangdang_com_13
       - 翻墙党fanqiangdang_com_14
       - 翻墙党fanqiangdang_com_15
@@ -63,6 +66,9 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_24
       - 翻墙党fanqiangdang_com_25
       - 翻墙党fanqiangdang_com_26
+      - 翻墙党fanqiangdang_com_27
+      - 翻墙党fanqiangdang_com_28
+      - 翻墙党fanqiangdang_com_29
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -80,7 +86,7 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_9
       - 翻墙党fanqiangdang_com_10
       - 翻墙党fanqiangdang_com_11
-      - 🇺🇸_美国_（YouTube：VV科技）_32
+      - 翻墙党fanqiangdang_com_12
       - 翻墙党fanqiangdang_com_13
       - 翻墙党fanqiangdang_com_14
       - 翻墙党fanqiangdang_com_15
@@ -95,6 +101,9 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_24
       - 翻墙党fanqiangdang_com_25
       - 翻墙党fanqiangdang_com_26
+      - 翻墙党fanqiangdang_com_27
+      - 翻墙党fanqiangdang_com_28
+      - 翻墙党fanqiangdang_com_29
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -112,7 +121,7 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_9
       - 翻墙党fanqiangdang_com_10
       - 翻墙党fanqiangdang_com_11
-      - 🇺🇸_美国_（YouTube：VV科技）_32
+      - 翻墙党fanqiangdang_com_12
       - 翻墙党fanqiangdang_com_13
       - 翻墙党fanqiangdang_com_14
       - 翻墙党fanqiangdang_com_15
@@ -127,6 +136,9 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_24
       - 翻墙党fanqiangdang_com_25
       - 翻墙党fanqiangdang_com_26
+      - 翻墙党fanqiangdang_com_27
+      - 翻墙党fanqiangdang_com_28
+      - 翻墙党fanqiangdang_com_29
   - name: 📲 电报信息
     type: select
     proxies:
@@ -143,7 +155,7 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_9
       - 翻墙党fanqiangdang_com_10
       - 翻墙党fanqiangdang_com_11
-      - 🇺🇸_美国_（YouTube：VV科技）_32
+      - 翻墙党fanqiangdang_com_12
       - 翻墙党fanqiangdang_com_13
       - 翻墙党fanqiangdang_com_14
       - 翻墙党fanqiangdang_com_15
@@ -158,6 +170,9 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_24
       - 翻墙党fanqiangdang_com_25
       - 翻墙党fanqiangdang_com_26
+      - 翻墙党fanqiangdang_com_27
+      - 翻墙党fanqiangdang_com_28
+      - 翻墙党fanqiangdang_com_29
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -174,7 +189,7 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_9
       - 翻墙党fanqiangdang_com_10
       - 翻墙党fanqiangdang_com_11
-      - 🇺🇸_美国_（YouTube：VV科技）_32
+      - 翻墙党fanqiangdang_com_12
       - 翻墙党fanqiangdang_com_13
       - 翻墙党fanqiangdang_com_14
       - 翻墙党fanqiangdang_com_15
@@ -189,6 +204,9 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_24
       - 翻墙党fanqiangdang_com_25
       - 翻墙党fanqiangdang_com_26
+      - 翻墙党fanqiangdang_com_27
+      - 翻墙党fanqiangdang_com_28
+      - 翻墙党fanqiangdang_com_29
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -205,7 +223,7 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_9
       - 翻墙党fanqiangdang_com_10
       - 翻墙党fanqiangdang_com_11
-      - 🇺🇸_美国_（YouTube：VV科技）_32
+      - 翻墙党fanqiangdang_com_12
       - 翻墙党fanqiangdang_com_13
       - 翻墙党fanqiangdang_com_14
       - 翻墙党fanqiangdang_com_15
@@ -220,6 +238,9 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_24
       - 翻墙党fanqiangdang_com_25
       - 翻墙党fanqiangdang_com_26
+      - 翻墙党fanqiangdang_com_27
+      - 翻墙党fanqiangdang_com_28
+      - 翻墙党fanqiangdang_com_29
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -253,7 +274,7 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_9
       - 翻墙党fanqiangdang_com_10
       - 翻墙党fanqiangdang_com_11
-      - 🇺🇸_美国_（YouTube：VV科技）_32
+      - 翻墙党fanqiangdang_com_12
       - 翻墙党fanqiangdang_com_13
       - 翻墙党fanqiangdang_com_14
       - 翻墙党fanqiangdang_com_15
@@ -268,6 +289,9 @@ proxy-groups:
       - 翻墙党fanqiangdang_com_24
       - 翻墙党fanqiangdang_com_25
       - 翻墙党fanqiangdang_com_26
+      - 翻墙党fanqiangdang_com_27
+      - 翻墙党fanqiangdang_com_28
+      - 翻墙党fanqiangdang_com_29
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
