@@ -5,186 +5,312 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"Relay_🇨🇳CN-🇷🇴RO_504","server":"119.147.2.245","port":58806,"type":"trojan","country":"Relay_🇨🇳CN-🇷🇴RO_504","skip-cert-verify":true,"udp":true,"password":"246e1d4c-ac18-35cc-8f55-0b70bee0da56"}
-  - {"name":"CN_2","server":"cn1.iepl.starlink.st","port":50600,"type":"ss","country":"CN_2","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
-  - {"name":"vpnpool-香港_3","server":"119.147.2.245","port":58802,"type":"trojan","country":"vpnpool-香港_3","skip-cert-verify":true,"udp":true,"password":"246e1d4c-ac18-35cc-8f55-0b70bee0da56"}
-  - {"name":"❶台湾03[推荐]_4","server":"transit01.balala2016.xyz","port":10080,"type":"vmess","uuid":"e3121cd0-b493-11ec-8a78-69c637e5ed92","alterId":0,"cipher":"auto","country":"❶台湾03[推荐]_4","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/tw01","headers":{"host":"transit01.balala2016.xyz"}}}
-  - {"name":"Pool_🇹🇼TW_1674","server":"211.72.35.153","port":3389,"type":"trojan","country":"Pool_🇹🇼TW_1674","skip-cert-verify":true,"udp":true,"password":"22e7ebb2dc8ab524"}
-  - {"name":"Relay_🏁ZZ-🇹🇼TW_4724","server":"5.44.249.43","port":3389,"type":"trojan","country":"Relay_🏁ZZ-🇹🇼TW_4724","skip-cert-verify":true,"udp":true,"password":"cd39f62aed7b90f6"}
-  - {"name":"RU1(IEPL)+-+负载均衡专线_7","server":"cn1.iepl.starlink.st","port":50700,"type":"ss","country":"RU1(IEPL)+-+负载均衡专线_7","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
-  - {"name":"🇧🇬_BG_保加利亚_8","server":"213.183.63.217","port":9059,"type":"ss","country":"🇧🇬_BG_保加利亚_8","cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
-  - {"name":"❷英国[转]_9","server":"transit01.balala2016.xyz","port":10080,"type":"vmess","uuid":"e3121cd0-b493-11ec-8a78-69c637e5ed92","alterId":0,"cipher":"auto","country":"❷英国[转]_9","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/uk01","headers":{"host":"transit01.balala2016.xyz"}}}
-  - {"name":"❶新加坡03[H]_10","server":"transit01.balala2016.xyz","port":10080,"type":"vmess","uuid":"e3121cd0-b493-11ec-8a78-69c637e5ed92","alterId":0,"cipher":"auto","country":"❶新加坡03[H]_10","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/sg02","headers":{"host":"transit01.balala2016.xyz"}}}
-  - {"name":"CN_11","server":"14.29.124.168","port":25238,"type":"ss","country":"CN_11","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"name":"CN_12","server":"14.29.124.168","port":25235,"type":"ss","country":"CN_12","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"name":"CN_13","server":"cn1.iepl.starlink.st","port":50500,"type":"ss","country":"CN_13","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
-  - {"name":"CN_14","server":"14.29.124.168","port":25270,"type":"ss","country":"CN_14","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"name":"CN_15","server":"14.29.124.168","port":25217,"type":"ss","country":"CN_15","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"name":"CN_16","server":"14.29.124.168","port":25279,"type":"ss","country":"CN_16","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"name":"CN_17","server":"cn1.iepl.starlink.st","port":50300,"type":"ss","country":"CN_17","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
-  - {"name":"KR_18","server":"hgmf.speedcncnforward2.tk","port":80,"type":"trojan","country":"KR_18","skip-cert-verify":true,"udp":true,"password":"da0ea9bc-0dc1-4714-820f-44e87692930f"}
-  - {"name":"CN_19","server":"14.29.124.168","port":25271,"type":"ss","country":"CN_19","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"name":"🇧🇬_BG_保加利亚_20","server":"213.183.63.217","port":9001,"type":"ss","country":"🇧🇬_BG_保加利亚_20","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
-  - {"name":"CN_21","server":"14.29.124.168","port":25220,"type":"ss","country":"CN_21","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"剩余流量：46_52GB_1","server":"lilyco.cc","port":10086,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"剩余流量：46_52GB_1","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"过期时间：2022-05-17_2","server":"lilyco.cc","port":10086,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"过期时间：2022-05-17_2","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"AWS-JP_3","server":"4bgp.lilyco.cc","port":59001,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"AWS-JP_3","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/JP"}}
+  - {"name":"AWS-JP1_4","server":"4bgp.lilyco.cc","port":10020,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"AWS-JP1_4","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"乌克兰｜长沙联通_5","server":"4bgp.lilyco.cc","port":34003,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"乌克兰｜长沙联通_5","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"俄罗斯1_6","server":"4bgp.lilyco.cc","port":10029,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"俄罗斯1_6","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"台湾1_7","server":"4bgp.lilyco.cc","port":10018,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"台湾1_7","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"台湾2_8","server":"4bgp.lilyco.cc","port":10019,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"台湾2_8","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"台湾3_9","server":"4bgp.lilyco.cc","port":22314,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"台湾3_9","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"台湾4_10","server":"4bgp.lilyco.cc","port":10017,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"台湾4_10","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"台湾直连1_11","server":"tw1.lilyco.cc","port":55980,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"台湾直连1_11","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/ny"}}
+  - {"name":"台湾直连2_12","server":"tw02.lilyco.cc","port":33580,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"台湾直连2_12","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/ny"}}
+  - {"name":"新加坡2NF_13","server":"4bgp.lilyco.cc","port":12005,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"新加坡2NF_13","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/iop"}}
+  - {"name":"新加坡3_14","server":"4bgp.lilyco.cc","port":10028,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"新加坡3_14","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/ny"}}
+  - {"name":"新加坡4_15","server":"4bgp.lilyco.cc","port":10022,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"新加坡4_15","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"新加坡NF4_16","server":"4bgp.lilyco.cc","port":59019,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"新加坡NF4_16","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/yu"}}
+  - {"name":"新加坡NF5_17","server":"4bgp.lilyco.cc","port":59015,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"新加坡NF5_17","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/HJ"}}
+  - {"name":"新加坡NF6_18","server":"4bgp.lilyco.cc","port":59017,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"新加坡NF6_18","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/jo"}}
+  - {"name":"新加坡NF直连_19","server":"157.230.42.34","port":22250,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"新加坡NF直连_19","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/io"}}
+  - {"name":"日本-IPLC｜2倍_20","server":"sujp-iplc.shizukuneko.com","port":11625,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"日本-IPLC｜2倍_20","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/mo"}}
+  - {"name":"日本｜解锁_21","server":"2bgp.lilyco.cc","port":30005,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"日本｜解锁_21","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/nm"}}
+  - {"name":"日本2_22","server":"4bgp.lilyco.cc","port":10027,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"日本2_22","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/ny"}}
+  - {"name":"日本4_23","server":"4bgp.lilyco.cc","port":10021,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"日本4_23","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ob"}}
+  - {"name":"日本5_24","server":"4bgp.lilyco.cc","port":10026,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"日本5_24","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/bn"}}
+  - {"name":"澳门｜广州_25","server":"4bgp.lilyco.cc","port":12007,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"澳门｜广州_25","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"澳门直连_26","server":"ctm.mo.lilyco.cc","port":55580,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"澳门直连_26","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"美国｜CN2GIA｜3倍_27","server":"uscn2.lilyco.cc","port":45580,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"美国｜CN2GIA｜3倍_27","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ny","headers":{"host":"uscn2.lilyco.cc"}}}
+  - {"name":"美国1_28","server":"4bgp.lilyco.cc","port":63342,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"美国1_28","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/kp"}}
+  - {"name":"美国2_29","server":"4bgp.lilyco.cc","port":12006,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"美国2_29","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/uin"}}
+  - {"name":"美国4_30","server":"4bgp.lilyco.cc","port":63342,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"美国4_30","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/hj"}}
+  - {"name":"香港｜IEPL｜10倍_31","server":"gz.quic.top","port":59038,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"香港｜IEPL｜10倍_31","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"香港2_32","server":"4bgp.lilyco.cc","port":10015,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"香港2_32","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"香港3_33","server":"azhk3.lilyco.cc","port":443,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"香港3_33","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ny","headers":{"host":"azhk3.lilyco.cc"}}}
+  - {"name":"香港4_34","server":"4bgp.lilyco.cc","port":10016,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"香港4_34","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"香港HGC1_35","server":"4bgp.lilyco.cc","port":12001,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"香港HGC1_35","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/po"}}
+  - {"name":"香港HGC2_36","server":"4bgp.lilyco.cc","port":59016,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"香港HGC2_36","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/pom"}}
+  - {"name":"香港HKT1_37","server":"4bgp.lilyco.cc","port":10023,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"香港HKT1_37","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/ny"}}
+  - {"name":"香港移动1_38","server":"4bgp.lilyco.cc","port":10024,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"香港移动1_38","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
+  - {"name":"马来西亚｜长沙_39","server":"4bgp.lilyco.cc","port":34001,"type":"vmess","uuid":"f4392618-d694-3a8b-aa05-0484b8292ca0","alterId":0,"cipher":"auto","country":"马来西亚｜长沙_39","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/ny"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_🇨🇳CN-🇷🇴RO_504
-      - CN_2
-      - vpnpool-香港_3
-      - ❶台湾03[推荐]_4
-      - Pool_🇹🇼TW_1674
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - RU1(IEPL)+-+负载均衡专线_7
-      - 🇧🇬_BG_保加利亚_8
-      - ❷英国[转]_9
-      - ❶新加坡03[H]_10
-      - CN_11
-      - CN_12
-      - CN_13
-      - CN_14
-      - CN_15
-      - CN_16
-      - CN_17
-      - KR_18
-      - CN_19
-      - 🇧🇬_BG_保加利亚_20
-      - CN_21
+      - 剩余流量：46_52GB_1
+      - 过期时间：2022-05-17_2
+      - AWS-JP_3
+      - AWS-JP1_4
+      - 乌克兰｜长沙联通_5
+      - 俄罗斯1_6
+      - 台湾1_7
+      - 台湾2_8
+      - 台湾3_9
+      - 台湾4_10
+      - 台湾直连1_11
+      - 台湾直连2_12
+      - 新加坡2NF_13
+      - 新加坡3_14
+      - 新加坡4_15
+      - 新加坡NF4_16
+      - 新加坡NF5_17
+      - 新加坡NF6_18
+      - 新加坡NF直连_19
+      - 日本-IPLC｜2倍_20
+      - 日本｜解锁_21
+      - 日本2_22
+      - 日本4_23
+      - 日本5_24
+      - 澳门｜广州_25
+      - 澳门直连_26
+      - 美国｜CN2GIA｜3倍_27
+      - 美国1_28
+      - 美国2_29
+      - 美国4_30
+      - 香港｜IEPL｜10倍_31
+      - 香港2_32
+      - 香港3_33
+      - 香港4_34
+      - 香港HGC1_35
+      - 香港HGC2_36
+      - 香港HKT1_37
+      - 香港移动1_38
+      - 马来西亚｜长沙_39
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇨🇳CN-🇷🇴RO_504
-      - CN_2
-      - vpnpool-香港_3
-      - ❶台湾03[推荐]_4
-      - Pool_🇹🇼TW_1674
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - RU1(IEPL)+-+负载均衡专线_7
-      - 🇧🇬_BG_保加利亚_8
-      - ❷英国[转]_9
-      - ❶新加坡03[H]_10
-      - CN_11
-      - CN_12
-      - CN_13
-      - CN_14
-      - CN_15
-      - CN_16
-      - CN_17
-      - KR_18
-      - CN_19
-      - 🇧🇬_BG_保加利亚_20
-      - CN_21
+      - 剩余流量：46_52GB_1
+      - 过期时间：2022-05-17_2
+      - AWS-JP_3
+      - AWS-JP1_4
+      - 乌克兰｜长沙联通_5
+      - 俄罗斯1_6
+      - 台湾1_7
+      - 台湾2_8
+      - 台湾3_9
+      - 台湾4_10
+      - 台湾直连1_11
+      - 台湾直连2_12
+      - 新加坡2NF_13
+      - 新加坡3_14
+      - 新加坡4_15
+      - 新加坡NF4_16
+      - 新加坡NF5_17
+      - 新加坡NF6_18
+      - 新加坡NF直连_19
+      - 日本-IPLC｜2倍_20
+      - 日本｜解锁_21
+      - 日本2_22
+      - 日本4_23
+      - 日本5_24
+      - 澳门｜广州_25
+      - 澳门直连_26
+      - 美国｜CN2GIA｜3倍_27
+      - 美国1_28
+      - 美国2_29
+      - 美国4_30
+      - 香港｜IEPL｜10倍_31
+      - 香港2_32
+      - 香港3_33
+      - 香港4_34
+      - 香港HGC1_35
+      - 香港HGC2_36
+      - 香港HKT1_37
+      - 香港移动1_38
+      - 马来西亚｜长沙_39
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇷🇴RO_504
-      - CN_2
-      - vpnpool-香港_3
-      - ❶台湾03[推荐]_4
-      - Pool_🇹🇼TW_1674
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - RU1(IEPL)+-+负载均衡专线_7
-      - 🇧🇬_BG_保加利亚_8
-      - ❷英国[转]_9
-      - ❶新加坡03[H]_10
-      - CN_11
-      - CN_12
-      - CN_13
-      - CN_14
-      - CN_15
-      - CN_16
-      - CN_17
-      - KR_18
-      - CN_19
-      - 🇧🇬_BG_保加利亚_20
-      - CN_21
+      - 剩余流量：46_52GB_1
+      - 过期时间：2022-05-17_2
+      - AWS-JP_3
+      - AWS-JP1_4
+      - 乌克兰｜长沙联通_5
+      - 俄罗斯1_6
+      - 台湾1_7
+      - 台湾2_8
+      - 台湾3_9
+      - 台湾4_10
+      - 台湾直连1_11
+      - 台湾直连2_12
+      - 新加坡2NF_13
+      - 新加坡3_14
+      - 新加坡4_15
+      - 新加坡NF4_16
+      - 新加坡NF5_17
+      - 新加坡NF6_18
+      - 新加坡NF直连_19
+      - 日本-IPLC｜2倍_20
+      - 日本｜解锁_21
+      - 日本2_22
+      - 日本4_23
+      - 日本5_24
+      - 澳门｜广州_25
+      - 澳门直连_26
+      - 美国｜CN2GIA｜3倍_27
+      - 美国1_28
+      - 美国2_29
+      - 美国4_30
+      - 香港｜IEPL｜10倍_31
+      - 香港2_32
+      - 香港3_33
+      - 香港4_34
+      - 香港HGC1_35
+      - 香港HGC2_36
+      - 香港HKT1_37
+      - 香港移动1_38
+      - 马来西亚｜长沙_39
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇷🇴RO_504
-      - CN_2
-      - vpnpool-香港_3
-      - ❶台湾03[推荐]_4
-      - Pool_🇹🇼TW_1674
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - RU1(IEPL)+-+负载均衡专线_7
-      - 🇧🇬_BG_保加利亚_8
-      - ❷英国[转]_9
-      - ❶新加坡03[H]_10
-      - CN_11
-      - CN_12
-      - CN_13
-      - CN_14
-      - CN_15
-      - CN_16
-      - CN_17
-      - KR_18
-      - CN_19
-      - 🇧🇬_BG_保加利亚_20
-      - CN_21
+      - 剩余流量：46_52GB_1
+      - 过期时间：2022-05-17_2
+      - AWS-JP_3
+      - AWS-JP1_4
+      - 乌克兰｜长沙联通_5
+      - 俄罗斯1_6
+      - 台湾1_7
+      - 台湾2_8
+      - 台湾3_9
+      - 台湾4_10
+      - 台湾直连1_11
+      - 台湾直连2_12
+      - 新加坡2NF_13
+      - 新加坡3_14
+      - 新加坡4_15
+      - 新加坡NF4_16
+      - 新加坡NF5_17
+      - 新加坡NF6_18
+      - 新加坡NF直连_19
+      - 日本-IPLC｜2倍_20
+      - 日本｜解锁_21
+      - 日本2_22
+      - 日本4_23
+      - 日本5_24
+      - 澳门｜广州_25
+      - 澳门直连_26
+      - 美国｜CN2GIA｜3倍_27
+      - 美国1_28
+      - 美国2_29
+      - 美国4_30
+      - 香港｜IEPL｜10倍_31
+      - 香港2_32
+      - 香港3_33
+      - 香港4_34
+      - 香港HGC1_35
+      - 香港HGC2_36
+      - 香港HKT1_37
+      - 香港移动1_38
+      - 马来西亚｜长沙_39
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_🇨🇳CN-🇷🇴RO_504
-      - CN_2
-      - vpnpool-香港_3
-      - ❶台湾03[推荐]_4
-      - Pool_🇹🇼TW_1674
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - RU1(IEPL)+-+负载均衡专线_7
-      - 🇧🇬_BG_保加利亚_8
-      - ❷英国[转]_9
-      - ❶新加坡03[H]_10
-      - CN_11
-      - CN_12
-      - CN_13
-      - CN_14
-      - CN_15
-      - CN_16
-      - CN_17
-      - KR_18
-      - CN_19
-      - 🇧🇬_BG_保加利亚_20
-      - CN_21
+      - 剩余流量：46_52GB_1
+      - 过期时间：2022-05-17_2
+      - AWS-JP_3
+      - AWS-JP1_4
+      - 乌克兰｜长沙联通_5
+      - 俄罗斯1_6
+      - 台湾1_7
+      - 台湾2_8
+      - 台湾3_9
+      - 台湾4_10
+      - 台湾直连1_11
+      - 台湾直连2_12
+      - 新加坡2NF_13
+      - 新加坡3_14
+      - 新加坡4_15
+      - 新加坡NF4_16
+      - 新加坡NF5_17
+      - 新加坡NF6_18
+      - 新加坡NF直连_19
+      - 日本-IPLC｜2倍_20
+      - 日本｜解锁_21
+      - 日本2_22
+      - 日本4_23
+      - 日本5_24
+      - 澳门｜广州_25
+      - 澳门直连_26
+      - 美国｜CN2GIA｜3倍_27
+      - 美国1_28
+      - 美国2_29
+      - 美国4_30
+      - 香港｜IEPL｜10倍_31
+      - 香港2_32
+      - 香港3_33
+      - 香港4_34
+      - 香港HGC1_35
+      - 香港HGC2_36
+      - 香港HKT1_37
+      - 香港移动1_38
+      - 马来西亚｜长沙_39
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇷🇴RO_504
-      - CN_2
-      - vpnpool-香港_3
-      - ❶台湾03[推荐]_4
-      - Pool_🇹🇼TW_1674
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - RU1(IEPL)+-+负载均衡专线_7
-      - 🇧🇬_BG_保加利亚_8
-      - ❷英国[转]_9
-      - ❶新加坡03[H]_10
-      - CN_11
-      - CN_12
-      - CN_13
-      - CN_14
-      - CN_15
-      - CN_16
-      - CN_17
-      - KR_18
-      - CN_19
-      - 🇧🇬_BG_保加利亚_20
-      - CN_21
+      - 剩余流量：46_52GB_1
+      - 过期时间：2022-05-17_2
+      - AWS-JP_3
+      - AWS-JP1_4
+      - 乌克兰｜长沙联通_5
+      - 俄罗斯1_6
+      - 台湾1_7
+      - 台湾2_8
+      - 台湾3_9
+      - 台湾4_10
+      - 台湾直连1_11
+      - 台湾直连2_12
+      - 新加坡2NF_13
+      - 新加坡3_14
+      - 新加坡4_15
+      - 新加坡NF4_16
+      - 新加坡NF5_17
+      - 新加坡NF6_18
+      - 新加坡NF直连_19
+      - 日本-IPLC｜2倍_20
+      - 日本｜解锁_21
+      - 日本2_22
+      - 日本4_23
+      - 日本5_24
+      - 澳门｜广州_25
+      - 澳门直连_26
+      - 美国｜CN2GIA｜3倍_27
+      - 美国1_28
+      - 美国2_29
+      - 美国4_30
+      - 香港｜IEPL｜10倍_31
+      - 香港2_32
+      - 香港3_33
+      - 香港4_34
+      - 香港HGC1_35
+      - 香港HGC2_36
+      - 香港HKT1_37
+      - 香港移动1_38
+      - 马来西亚｜长沙_39
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -207,27 +333,45 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇷🇴RO_504
-      - CN_2
-      - vpnpool-香港_3
-      - ❶台湾03[推荐]_4
-      - Pool_🇹🇼TW_1674
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - RU1(IEPL)+-+负载均衡专线_7
-      - 🇧🇬_BG_保加利亚_8
-      - ❷英国[转]_9
-      - ❶新加坡03[H]_10
-      - CN_11
-      - CN_12
-      - CN_13
-      - CN_14
-      - CN_15
-      - CN_16
-      - CN_17
-      - KR_18
-      - CN_19
-      - 🇧🇬_BG_保加利亚_20
-      - CN_21
+      - 剩余流量：46_52GB_1
+      - 过期时间：2022-05-17_2
+      - AWS-JP_3
+      - AWS-JP1_4
+      - 乌克兰｜长沙联通_5
+      - 俄罗斯1_6
+      - 台湾1_7
+      - 台湾2_8
+      - 台湾3_9
+      - 台湾4_10
+      - 台湾直连1_11
+      - 台湾直连2_12
+      - 新加坡2NF_13
+      - 新加坡3_14
+      - 新加坡4_15
+      - 新加坡NF4_16
+      - 新加坡NF5_17
+      - 新加坡NF6_18
+      - 新加坡NF直连_19
+      - 日本-IPLC｜2倍_20
+      - 日本｜解锁_21
+      - 日本2_22
+      - 日本4_23
+      - 日本5_24
+      - 澳门｜广州_25
+      - 澳门直连_26
+      - 美国｜CN2GIA｜3倍_27
+      - 美国1_28
+      - 美国2_29
+      - 美国4_30
+      - 香港｜IEPL｜10倍_31
+      - 香港2_32
+      - 香港3_33
+      - 香港4_34
+      - 香港HGC1_35
+      - 香港HGC2_36
+      - 香港HKT1_37
+      - 香港移动1_38
+      - 马来西亚｜长沙_39
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
