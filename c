@@ -5,102 +5,186 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"翻墙党fanqiangdang_com_5","server":"nfjp1.qingyun123.xyz","port":10000,"type":"trojan","country":"翻墙党fanqiangdang_com_5","skip-cert-verify":true,"udp":true,"password":"b0dd80f5-2e66-4d3c-b41e-f3b10534fd90"}
-  - {"name":"翻墙党fanqiangdang_com_7","server":"14.29.124.168","port":25231,"type":"ss","country":"翻墙党fanqiangdang_com_7","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"name":"翻墙党fanqiangdang_com_8","server":"14.29.124.168","port":25218,"type":"ss","country":"翻墙党fanqiangdang_com_8","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"name":"翻墙党fanqiangdang_com_10","server":"us1.qingyun123.xyz","port":10050,"type":"trojan","country":"翻墙党fanqiangdang_com_10","skip-cert-verify":true,"udp":true,"password":"b0dd80f5-2e66-4d3c-b41e-f3b10534fd90"}
-  - {"name":"翻墙党fanqiangdang_com_18","server":"in1.qingyun123.xyz","port":443,"type":"trojan","country":"翻墙党fanqiangdang_com_18","skip-cert-verify":true,"udp":true,"password":"b0dd80f5-2e66-4d3c-b41e-f3b10534fd90"}
-  - {"name":"翻墙党fanqiangdang_com_24","server":"213.183.63.217","port":9006,"type":"ss","country":"翻墙党fanqiangdang_com_24","cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
-  - {"name":"翻墙党fanqiangdang_com_31","server":"134.195.198.252","port":443,"type":"ss","country":"翻墙党fanqiangdang_com_31","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"翻墙党fanqiangdang_com_33","server":"eu.licom.ga","port":60001,"type":"trojan","country":"翻墙党fanqiangdang_com_33","skip-cert-verify":true,"udp":true,"password":"f81e990e-1283-48f9-9eff-acacad6fb661"}
-  - {"name":"翻墙党fanqiangdang_com_35","server":"hk2702.cloudmatrix.xyz","port":2702,"type":"vmess","uuid":"32ea0987-24dc-319d-aa8b-e0dcddc711f8","alterId":2,"cipher":"auto","country":"翻墙党fanqiangdang_com_35","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8"}}
+  - {"name":"Relay_🇨🇳CN-🇷🇴RO_504","server":"119.147.2.245","port":58806,"type":"trojan","country":"Relay_🇨🇳CN-🇷🇴RO_504","skip-cert-verify":true,"udp":true,"password":"246e1d4c-ac18-35cc-8f55-0b70bee0da56"}
+  - {"name":"CN_2","server":"cn1.iepl.starlink.st","port":50600,"type":"ss","country":"CN_2","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
+  - {"name":"vpnpool-香港_3","server":"119.147.2.245","port":58802,"type":"trojan","country":"vpnpool-香港_3","skip-cert-verify":true,"udp":true,"password":"246e1d4c-ac18-35cc-8f55-0b70bee0da56"}
+  - {"name":"❶台湾03[推荐]_4","server":"transit01.balala2016.xyz","port":10080,"type":"vmess","uuid":"e3121cd0-b493-11ec-8a78-69c637e5ed92","alterId":0,"cipher":"auto","country":"❶台湾03[推荐]_4","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/tw01","headers":{"host":"transit01.balala2016.xyz"}}}
+  - {"name":"Pool_🇹🇼TW_1674","server":"211.72.35.153","port":3389,"type":"trojan","country":"Pool_🇹🇼TW_1674","skip-cert-verify":true,"udp":true,"password":"22e7ebb2dc8ab524"}
+  - {"name":"Relay_🏁ZZ-🇹🇼TW_4724","server":"5.44.249.43","port":3389,"type":"trojan","country":"Relay_🏁ZZ-🇹🇼TW_4724","skip-cert-verify":true,"udp":true,"password":"cd39f62aed7b90f6"}
+  - {"name":"RU1(IEPL)+-+负载均衡专线_7","server":"cn1.iepl.starlink.st","port":50700,"type":"ss","country":"RU1(IEPL)+-+负载均衡专线_7","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
+  - {"name":"🇧🇬_BG_保加利亚_8","server":"213.183.63.217","port":9059,"type":"ss","country":"🇧🇬_BG_保加利亚_8","cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
+  - {"name":"❷英国[转]_9","server":"transit01.balala2016.xyz","port":10080,"type":"vmess","uuid":"e3121cd0-b493-11ec-8a78-69c637e5ed92","alterId":0,"cipher":"auto","country":"❷英国[转]_9","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/uk01","headers":{"host":"transit01.balala2016.xyz"}}}
+  - {"name":"❶新加坡03[H]_10","server":"transit01.balala2016.xyz","port":10080,"type":"vmess","uuid":"e3121cd0-b493-11ec-8a78-69c637e5ed92","alterId":0,"cipher":"auto","country":"❶新加坡03[H]_10","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/sg02","headers":{"host":"transit01.balala2016.xyz"}}}
+  - {"name":"CN_11","server":"14.29.124.168","port":25238,"type":"ss","country":"CN_11","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"CN_12","server":"14.29.124.168","port":25235,"type":"ss","country":"CN_12","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"CN_13","server":"cn1.iepl.starlink.st","port":50500,"type":"ss","country":"CN_13","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
+  - {"name":"CN_14","server":"14.29.124.168","port":25270,"type":"ss","country":"CN_14","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"CN_15","server":"14.29.124.168","port":25217,"type":"ss","country":"CN_15","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"CN_16","server":"14.29.124.168","port":25279,"type":"ss","country":"CN_16","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"CN_17","server":"cn1.iepl.starlink.st","port":50300,"type":"ss","country":"CN_17","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
+  - {"name":"KR_18","server":"hgmf.speedcncnforward2.tk","port":80,"type":"trojan","country":"KR_18","skip-cert-verify":true,"udp":true,"password":"da0ea9bc-0dc1-4714-820f-44e87692930f"}
+  - {"name":"CN_19","server":"14.29.124.168","port":25271,"type":"ss","country":"CN_19","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"🇧🇬_BG_保加利亚_20","server":"213.183.63.217","port":9001,"type":"ss","country":"🇧🇬_BG_保加利亚_20","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
+  - {"name":"CN_21","server":"14.29.124.168","port":25220,"type":"ss","country":"CN_21","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_31
-      - 翻墙党fanqiangdang_com_33
-      - 翻墙党fanqiangdang_com_35
+      - Relay_🇨🇳CN-🇷🇴RO_504
+      - CN_2
+      - vpnpool-香港_3
+      - ❶台湾03[推荐]_4
+      - Pool_🇹🇼TW_1674
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - RU1(IEPL)+-+负载均衡专线_7
+      - 🇧🇬_BG_保加利亚_8
+      - ❷英国[转]_9
+      - ❶新加坡03[H]_10
+      - CN_11
+      - CN_12
+      - CN_13
+      - CN_14
+      - CN_15
+      - CN_16
+      - CN_17
+      - KR_18
+      - CN_19
+      - 🇧🇬_BG_保加利亚_20
+      - CN_21
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_31
-      - 翻墙党fanqiangdang_com_33
-      - 翻墙党fanqiangdang_com_35
+      - Relay_🇨🇳CN-🇷🇴RO_504
+      - CN_2
+      - vpnpool-香港_3
+      - ❶台湾03[推荐]_4
+      - Pool_🇹🇼TW_1674
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - RU1(IEPL)+-+负载均衡专线_7
+      - 🇧🇬_BG_保加利亚_8
+      - ❷英国[转]_9
+      - ❶新加坡03[H]_10
+      - CN_11
+      - CN_12
+      - CN_13
+      - CN_14
+      - CN_15
+      - CN_16
+      - CN_17
+      - KR_18
+      - CN_19
+      - 🇧🇬_BG_保加利亚_20
+      - CN_21
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_31
-      - 翻墙党fanqiangdang_com_33
-      - 翻墙党fanqiangdang_com_35
+      - Relay_🇨🇳CN-🇷🇴RO_504
+      - CN_2
+      - vpnpool-香港_3
+      - ❶台湾03[推荐]_4
+      - Pool_🇹🇼TW_1674
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - RU1(IEPL)+-+负载均衡专线_7
+      - 🇧🇬_BG_保加利亚_8
+      - ❷英国[转]_9
+      - ❶新加坡03[H]_10
+      - CN_11
+      - CN_12
+      - CN_13
+      - CN_14
+      - CN_15
+      - CN_16
+      - CN_17
+      - KR_18
+      - CN_19
+      - 🇧🇬_BG_保加利亚_20
+      - CN_21
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_31
-      - 翻墙党fanqiangdang_com_33
-      - 翻墙党fanqiangdang_com_35
+      - Relay_🇨🇳CN-🇷🇴RO_504
+      - CN_2
+      - vpnpool-香港_3
+      - ❶台湾03[推荐]_4
+      - Pool_🇹🇼TW_1674
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - RU1(IEPL)+-+负载均衡专线_7
+      - 🇧🇬_BG_保加利亚_8
+      - ❷英国[转]_9
+      - ❶新加坡03[H]_10
+      - CN_11
+      - CN_12
+      - CN_13
+      - CN_14
+      - CN_15
+      - CN_16
+      - CN_17
+      - KR_18
+      - CN_19
+      - 🇧🇬_BG_保加利亚_20
+      - CN_21
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_31
-      - 翻墙党fanqiangdang_com_33
-      - 翻墙党fanqiangdang_com_35
+      - Relay_🇨🇳CN-🇷🇴RO_504
+      - CN_2
+      - vpnpool-香港_3
+      - ❶台湾03[推荐]_4
+      - Pool_🇹🇼TW_1674
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - RU1(IEPL)+-+负载均衡专线_7
+      - 🇧🇬_BG_保加利亚_8
+      - ❷英国[转]_9
+      - ❶新加坡03[H]_10
+      - CN_11
+      - CN_12
+      - CN_13
+      - CN_14
+      - CN_15
+      - CN_16
+      - CN_17
+      - KR_18
+      - CN_19
+      - 🇧🇬_BG_保加利亚_20
+      - CN_21
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_31
-      - 翻墙党fanqiangdang_com_33
-      - 翻墙党fanqiangdang_com_35
+      - Relay_🇨🇳CN-🇷🇴RO_504
+      - CN_2
+      - vpnpool-香港_3
+      - ❶台湾03[推荐]_4
+      - Pool_🇹🇼TW_1674
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - RU1(IEPL)+-+负载均衡专线_7
+      - 🇧🇬_BG_保加利亚_8
+      - ❷英国[转]_9
+      - ❶新加坡03[H]_10
+      - CN_11
+      - CN_12
+      - CN_13
+      - CN_14
+      - CN_15
+      - CN_16
+      - CN_17
+      - KR_18
+      - CN_19
+      - 🇧🇬_BG_保加利亚_20
+      - CN_21
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -123,15 +207,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 翻墙党fanqiangdang_com_5
-      - 翻墙党fanqiangdang_com_7
-      - 翻墙党fanqiangdang_com_8
-      - 翻墙党fanqiangdang_com_10
-      - 翻墙党fanqiangdang_com_18
-      - 翻墙党fanqiangdang_com_24
-      - 翻墙党fanqiangdang_com_31
-      - 翻墙党fanqiangdang_com_33
-      - 翻墙党fanqiangdang_com_35
+      - Relay_🇨🇳CN-🇷🇴RO_504
+      - CN_2
+      - vpnpool-香港_3
+      - ❶台湾03[推荐]_4
+      - Pool_🇹🇼TW_1674
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - RU1(IEPL)+-+负载均衡专线_7
+      - 🇧🇬_BG_保加利亚_8
+      - ❷英国[转]_9
+      - ❶新加坡03[H]_10
+      - CN_11
+      - CN_12
+      - CN_13
+      - CN_14
+      - CN_15
+      - CN_16
+      - CN_17
+      - KR_18
+      - CN_19
+      - 🇧🇬_BG_保加利亚_20
+      - CN_21
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
