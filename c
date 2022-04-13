@@ -5,46 +5,116 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","server":"cm-jm.okvpn.xyz","port":20000,"type":"trojan","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","skip-cert-verify":true,"udp":true,"password":"912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e"}
+  - {"name":"🇰🇷_KR_韩国_1","server":"158.247.224.123","port":2376,"type":"ss","country":"🇰🇷_KR_韩国_1","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇰🇷_KR_韩国_2","server":"158.247.209.92","port":5004,"type":"ss","country":"🇰🇷_KR_韩国_2","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇰🇷_KR_韩国_3","server":"158.247.209.92","port":5003,"type":"ss","country":"🇰🇷_KR_韩国_3","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇰🇷_KR_韩国_4","server":"158.247.205.108","port":7002,"type":"ss","country":"🇰🇷_KR_韩国_4","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇰🇷_KR_韩国_5","server":"158.247.205.87","port":5003,"type":"ss","country":"🇰🇷_KR_韩国_5","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇰🇷_KR_韩国_6","server":"158.247.224.123","port":7307,"type":"ss","country":"🇰🇷_KR_韩国_6","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇰🇷_KR_韩国_7","server":"158.247.224.123","port":2376,"type":"ss","country":"🇰🇷_KR_韩国_7","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇰🇷_KR_韩国_8","server":"141.164.47.208","port":7307,"type":"ss","country":"🇰🇷_KR_韩国_8","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇰🇷_KR_韩国_9","server":"158.247.203.168","port":7001,"type":"ss","country":"🇰🇷_KR_韩国_9","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇰🇷_KR_韩国_10","server":"158.247.199.253","port":443,"type":"ss","country":"🇰🇷_KR_韩国_10","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇰🇷_KR_韩国_11","server":"158.247.203.40","port":2376,"type":"ss","country":"🇰🇷_KR_韩国_11","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇰🇷_KR_韩国_6
+      - 🇰🇷_KR_韩国_7
+      - 🇰🇷_KR_韩国_8
+      - 🇰🇷_KR_韩国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇰🇷_KR_韩国_6
+      - 🇰🇷_KR_韩国_7
+      - 🇰🇷_KR_韩国_8
+      - 🇰🇷_KR_韩国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇰🇷_KR_韩国_6
+      - 🇰🇷_KR_韩国_7
+      - 🇰🇷_KR_韩国_8
+      - 🇰🇷_KR_韩国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇰🇷_KR_韩国_6
+      - 🇰🇷_KR_韩国_7
+      - 🇰🇷_KR_韩国_8
+      - 🇰🇷_KR_韩国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇰🇷_KR_韩国_6
+      - 🇰🇷_KR_韩国_7
+      - 🇰🇷_KR_韩国_8
+      - 🇰🇷_KR_韩国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇰🇷_KR_韩国_6
+      - 🇰🇷_KR_韩国_7
+      - 🇰🇷_KR_韩国_8
+      - 🇰🇷_KR_韩国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +137,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇰🇷_KR_韩国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇰🇷_KR_韩国_6
+      - 🇰🇷_KR_韩国_7
+      - 🇰🇷_KR_韩国_8
+      - 🇰🇷_KR_韩国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
