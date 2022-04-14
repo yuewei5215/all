@@ -5,74 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"香港节点tg频道:atripaojiedian_1","server":"gz.bgp.rx.naiun.pw","port":45239,"type":"vmess","uuid":"f7818bd7-36cf-42f2-bf06-8ae7ddc94514","alterId":0,"cipher":"auto","country":"香港节点tg频道:atripaojiedian_1","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"日本节点tg频道:atripaojiedian_2","server":"gz.bgp.rx.naiun.pw","port":45184,"type":"vmess","uuid":"f7818bd7-36cf-42f2-bf06-8ae7ddc94514","alterId":0,"cipher":"auto","country":"日本节点tg频道:atripaojiedian_2","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"台湾节点tg频道:atripaojiedian_3","server":"gz.bgp.rx.naiun.pw","port":45394,"type":"vmess","uuid":"f7818bd7-36cf-42f2-bf06-8ae7ddc94514","alterId":0,"cipher":"auto","country":"台湾节点tg频道:atripaojiedian_3","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"美国节点tg频道:atripaojiedian_4","server":"gz.bgp.rx.naiun.pw","port":45194,"type":"vmess","uuid":"f7818bd7-36cf-42f2-bf06-8ae7ddc94514","alterId":0,"cipher":"auto","country":"美国节点tg频道:atripaojiedian_4","skip-cert-verify":true,"tls":false,"network":"ws"}
-  - {"name":"新加坡节点tg频道:atripaojiedian_5","server":"gz.bgp.rx.naiun.pw","port":45149,"type":"vmess","uuid":"f7818bd7-36cf-42f2-bf06-8ae7ddc94514","alterId":0,"cipher":"auto","country":"新加坡节点tg频道:atripaojiedian_5","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"🇭🇰_HK_香港_1","server":"hkml.fenglingcloud.com","port":80,"type":"vmess","uuid":"4b3903e2-f2a2-4831-95be-03cc8e3a7244","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_1","skip-cert-verify":true,"tls":false,"network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港节点tg频道:atripaojiedian_1
-      - 日本节点tg频道:atripaojiedian_2
-      - 台湾节点tg频道:atripaojiedian_3
-      - 美国节点tg频道:atripaojiedian_4
-      - 新加坡节点tg频道:atripaojiedian_5
+      - 🇭🇰_HK_香港_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港节点tg频道:atripaojiedian_1
-      - 日本节点tg频道:atripaojiedian_2
-      - 台湾节点tg频道:atripaojiedian_3
-      - 美国节点tg频道:atripaojiedian_4
-      - 新加坡节点tg频道:atripaojiedian_5
+      - 🇭🇰_HK_香港_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港节点tg频道:atripaojiedian_1
-      - 日本节点tg频道:atripaojiedian_2
-      - 台湾节点tg频道:atripaojiedian_3
-      - 美国节点tg频道:atripaojiedian_4
-      - 新加坡节点tg频道:atripaojiedian_5
+      - 🇭🇰_HK_香港_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港节点tg频道:atripaojiedian_1
-      - 日本节点tg频道:atripaojiedian_2
-      - 台湾节点tg频道:atripaojiedian_3
-      - 美国节点tg频道:atripaojiedian_4
-      - 新加坡节点tg频道:atripaojiedian_5
+      - 🇭🇰_HK_香港_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港节点tg频道:atripaojiedian_1
-      - 日本节点tg频道:atripaojiedian_2
-      - 台湾节点tg频道:atripaojiedian_3
-      - 美国节点tg频道:atripaojiedian_4
-      - 新加坡节点tg频道:atripaojiedian_5
+      - 🇭🇰_HK_香港_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港节点tg频道:atripaojiedian_1
-      - 日本节点tg频道:atripaojiedian_2
-      - 台湾节点tg频道:atripaojiedian_3
-      - 美国节点tg频道:atripaojiedian_4
-      - 新加坡节点tg频道:atripaojiedian_5
+      - 🇭🇰_HK_香港_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港节点tg频道:atripaojiedian_1
-      - 日本节点tg频道:atripaojiedian_2
-      - 台湾节点tg频道:atripaojiedian_3
-      - 美国节点tg频道:atripaojiedian_4
-      - 新加坡节点tg频道:atripaojiedian_5
+      - 🇭🇰_HK_香港_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
