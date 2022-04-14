@@ -5,46 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇭🇰_HK_香港_1","server":"hkml.fenglingcloud.com","port":80,"type":"vmess","uuid":"4b3903e2-f2a2-4831-95be-03cc8e3a7244","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_1","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"defaultName_1","server":"103.172.116.9","port":9098,"type":"ssr","country":"defaultName_1","password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_2","server":"152.89.210.105","port":9073,"type":"ssr","country":"defaultName_2","password":"daFYagqDdBdA6VTX","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇧🇬_BG_保加利亚_3","server":"213.183.63.218","port":9097,"type":"ss","country":"🇧🇬_BG_保加利亚_3","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
+  - {"name":"🇧🇬_BG_保加利亚_4","server":"213.183.63.217","port":9084,"type":"ss","country":"🇧🇬_BG_保加利亚_4","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"defaultName_5","server":"213.183.53.177","port":9015,"type":"ssr","country":"defaultName_5","password":"ZpNDDKRu9MagNvaf","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇨🇭_CH_瑞士_6","server":"185.126.116.117","port":9046,"type":"ss","country":"🇨🇭_CH_瑞士_6","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
+  - {"name":"🇨🇭_CH_瑞士_7","server":"185.126.116.117","port":9056,"type":"ss","country":"🇨🇭_CH_瑞士_7","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
+  - {"name":"🇨🇭_CH_瑞士_8","server":"185.126.116.117","port":9094,"type":"ss","country":"🇨🇭_CH_瑞士_8","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
+  - {"name":"🇩🇪_DE_德国_9","server":"5.183.179.140","port":9025,"type":"ss","country":"🇩🇪_DE_德国_9","cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
+  - {"name":"🇩🇪_DE_德国_10","server":"5.183.179.148","port":9031,"type":"ss","country":"🇩🇪_DE_德国_10","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰_HK_香港_1
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - 🇨🇭_CH_瑞士_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇩🇪_DE_德国_9
+      - 🇩🇪_DE_德国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰_HK_香港_1
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - 🇨🇭_CH_瑞士_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇩🇪_DE_德国_9
+      - 🇩🇪_DE_德国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - 🇨🇭_CH_瑞士_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇩🇪_DE_德国_9
+      - 🇩🇪_DE_德国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - 🇨🇭_CH_瑞士_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇩🇪_DE_德国_9
+      - 🇩🇪_DE_德国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰_HK_香港_1
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - 🇨🇭_CH_瑞士_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇩🇪_DE_德国_9
+      - 🇩🇪_DE_德国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - 🇨🇭_CH_瑞士_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇩🇪_DE_德国_9
+      - 🇩🇪_DE_德国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
+      - defaultName_1
+      - defaultName_2
+      - 🇧🇬_BG_保加利亚_3
+      - 🇧🇬_BG_保加利亚_4
+      - defaultName_5
+      - 🇨🇭_CH_瑞士_6
+      - 🇨🇭_CH_瑞士_7
+      - 🇨🇭_CH_瑞士_8
+      - 🇩🇪_DE_德国_9
+      - 🇩🇪_DE_德国_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
