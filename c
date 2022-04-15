@@ -5,130 +5,144 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","server":"bgp.kuli888.xyz","port":52008,"type":"trojan","country":"🇨🇳_CN_中国->🇺🇸_US_美国_1","skip-cert-verify":true,"udp":true,"password":"0e4fb858-8b9b-3520-8910-310cac25e475"}
-  - {"name":"🇭🇰_HK_香港_2","server":"40.83.89.223","port":443,"type":"trojan","country":"🇭🇰_HK_香港_2","skip-cert-verify":true,"udp":true,"password":"b345dea8-d232-4aa5-8bec-517f78f986e3"}
-  - {"name":"🇫🇷_FR_法国_3","server":"92.243.24.236","port":443,"type":"ss","country":"🇫🇷_FR_法国_3","cipher":"chacha20-ietf-poly1305","password":"LE6Ee6PELhVu"}
-  - {"name":"default_name_4","server":"oz.moonfree.top","port":443,"type":"vmess","uuid":"861e9cd0-cd1d-4f8c-b7d9-b47409dda333","alterId":0,"cipher":"auto","country":"default_name_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"headers":{"host":"oz.moonfree.top"}}}
-  - {"name":"defaultName_5","server":"gz2.52168.xyz","port":2101,"type":"ssr","country":"defaultName_5","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
-  - {"name":"🇺🇸_US_美国_6","server":"20.212.197.126","port":443,"type":"trojan","country":"🇺🇸_US_美国_6","skip-cert-verify":true,"udp":true,"password":"b345dea8-d232-4aa5-8bec-517f78f986e3"}
-  - {"name":"🇭🇰_HK_香港_7","server":"hknf1.qingyun123.xyz","port":10050,"type":"trojan","country":"🇭🇰_HK_香港_7","skip-cert-verify":true,"udp":true,"password":"d7ff202a-7f5b-4190-93cb-92e086d2ebdc"}
-  - {"name":"🇺🇸_US_美国_8","server":"kr1.qingyun123.xyz","port":10050,"type":"trojan","country":"🇺🇸_US_美国_8","skip-cert-verify":true,"udp":true,"password":"d7ff202a-7f5b-4190-93cb-92e086d2ebdc"}
-  - {"name":"🇸🇬_SG_新加坡_9","server":"161.117.249.118","port":34345,"type":"vmess","uuid":"267821ff-9eb0-489d-9499-8deb549e87d4","alterId":0,"cipher":"auto","country":"🇸🇬_SG_新加坡_9","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"161.117.249.118"}}}
-  - {"name":"🇭🇰_HK_香港_10","server":"vn.mumi.bid","port":10125,"type":"vmess","uuid":"83ae9f04-47f0-4e34-9a1c-9c2e5161f586","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_10","skip-cert-verify":true,"tls":true,"network":"ws"}
-  - {"name":"defaultName_11","server":"gz2.52168.xyz","port":2104,"type":"ssr","country":"defaultName_11","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
-  - {"name":"defaultName_12","server":"opt21.boom.party","port":31000,"type":"ssr","country":"defaultName_12","password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
-  - {"name":"defaultName_13","server":"gz2.52168.xyz","port":2110,"type":"ssr","country":"defaultName_13","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
+  - {"name":"atvpn_proxy66_Romania_1","server":"185.233.150.6","port":18760,"type":"ss","country":"atvpn_proxy66_Romania_1","cipher":"aes-256-gcm","password":"hg49$WH8943g3"}
+  - {"name":"★atMyPremium98★Germany_2","server":"139.162.189.117","port":8080,"type":"ss","country":"★atMyPremium98★Germany_2","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇩🇪DE_408","server":"193.108.118.36","port":8080,"type":"ss","country":"🇩🇪DE_408","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇬🇧GB-England-London2_4","server":"149.7.16.10","port":8119,"type":"ss","country":"🇬🇧GB-England-London2_4","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"★atMyPremium98★UK_5","server":"149.7.16.10","port":8000,"type":"ss","country":"★atMyPremium98★UK_5","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇩🇪DE_380","server":"139.162.130.101","port":8888,"type":"ss","country":"🇩🇪DE_380","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇫🇷_7","server":"54.38.72.170","port":3306,"type":"ss","country":"🇫🇷_7","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇩🇪DE_363","server":"139.162.132.116","port":8009,"type":"ss","country":"🇩🇪DE_363","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇩🇪【426节点池】DE_472","server":"139.162.189.117","port":8080,"type":"ss","country":"🇩🇪【426节点池】DE_472","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇫🇷FR_469","server":"54.38.72.170","port":2375,"type":"ss","country":"🇫🇷FR_469","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"Germany🇩🇪_11","server":"139.162.132.116","port":8881,"type":"ss","country":"Germany🇩🇪_11","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇩🇪DE_503","server":"193.108.118.36","port":8090,"type":"ss","country":"🇩🇪DE_503","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW9AMTYzLjE3Mi4xMTAuMTUzOjgwOQ_13","server":"163.172.110.153","port":809,"type":"ss","country":"ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW9AMTYzLjE3Mi4xMTAuMTUzOjgwOQ_13","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇱🇹LT_1190","server":"213.183.63.221","port":9097,"type":"ss","country":"🇱🇹LT_1190","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
+  - {"name":"🇩🇪Frankfurt-GTHost(7)_15","server":"193.108.118.34","port":3306,"type":"ss","country":"🇩🇪Frankfurt-GTHost(7)_15","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港_2
-      - 🇫🇷_FR_法国_3
-      - default_name_4
-      - defaultName_5
-      - 🇺🇸_US_美国_6
-      - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇭🇰_HK_香港_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
+      - atvpn_proxy66_Romania_1
+      - ★atMyPremium98★Germany_2
+      - 🇩🇪DE_408
+      - 🇬🇧GB-England-London2_4
+      - ★atMyPremium98★UK_5
+      - 🇩🇪DE_380
+      - 🇫🇷_7
+      - 🇩🇪DE_363
+      - 🇩🇪【426节点池】DE_472
+      - 🇫🇷FR_469
+      - Germany🇩🇪_11
+      - 🇩🇪DE_503
+      -     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW9AMTYzLjE3Mi4xMTAuMTUzOjgwOQ_13
+      - 🇱🇹LT_1190
+      - 🇩🇪Frankfurt-GTHost(7)_15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港_2
-      - 🇫🇷_FR_法国_3
-      - default_name_4
-      - defaultName_5
-      - 🇺🇸_US_美国_6
-      - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇭🇰_HK_香港_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
+      - atvpn_proxy66_Romania_1
+      - ★atMyPremium98★Germany_2
+      - 🇩🇪DE_408
+      - 🇬🇧GB-England-London2_4
+      - ★atMyPremium98★UK_5
+      - 🇩🇪DE_380
+      - 🇫🇷_7
+      - 🇩🇪DE_363
+      - 🇩🇪【426节点池】DE_472
+      - 🇫🇷FR_469
+      - Germany🇩🇪_11
+      - 🇩🇪DE_503
+      -     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW9AMTYzLjE3Mi4xMTAuMTUzOjgwOQ_13
+      - 🇱🇹LT_1190
+      - 🇩🇪Frankfurt-GTHost(7)_15
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港_2
-      - 🇫🇷_FR_法国_3
-      - default_name_4
-      - defaultName_5
-      - 🇺🇸_US_美国_6
-      - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇭🇰_HK_香港_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
+      - atvpn_proxy66_Romania_1
+      - ★atMyPremium98★Germany_2
+      - 🇩🇪DE_408
+      - 🇬🇧GB-England-London2_4
+      - ★atMyPremium98★UK_5
+      - 🇩🇪DE_380
+      - 🇫🇷_7
+      - 🇩🇪DE_363
+      - 🇩🇪【426节点池】DE_472
+      - 🇫🇷FR_469
+      - Germany🇩🇪_11
+      - 🇩🇪DE_503
+      -     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW9AMTYzLjE3Mi4xMTAuMTUzOjgwOQ_13
+      - 🇱🇹LT_1190
+      - 🇩🇪Frankfurt-GTHost(7)_15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港_2
-      - 🇫🇷_FR_法国_3
-      - default_name_4
-      - defaultName_5
-      - 🇺🇸_US_美国_6
-      - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇭🇰_HK_香港_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
+      - atvpn_proxy66_Romania_1
+      - ★atMyPremium98★Germany_2
+      - 🇩🇪DE_408
+      - 🇬🇧GB-England-London2_4
+      - ★atMyPremium98★UK_5
+      - 🇩🇪DE_380
+      - 🇫🇷_7
+      - 🇩🇪DE_363
+      - 🇩🇪【426节点池】DE_472
+      - 🇫🇷FR_469
+      - Germany🇩🇪_11
+      - 🇩🇪DE_503
+      -     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW9AMTYzLjE3Mi4xMTAuMTUzOjgwOQ_13
+      - 🇱🇹LT_1190
+      - 🇩🇪Frankfurt-GTHost(7)_15
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港_2
-      - 🇫🇷_FR_法国_3
-      - default_name_4
-      - defaultName_5
-      - 🇺🇸_US_美国_6
-      - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇭🇰_HK_香港_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
+      - atvpn_proxy66_Romania_1
+      - ★atMyPremium98★Germany_2
+      - 🇩🇪DE_408
+      - 🇬🇧GB-England-London2_4
+      - ★atMyPremium98★UK_5
+      - 🇩🇪DE_380
+      - 🇫🇷_7
+      - 🇩🇪DE_363
+      - 🇩🇪【426节点池】DE_472
+      - 🇫🇷FR_469
+      - Germany🇩🇪_11
+      - 🇩🇪DE_503
+      -     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW9AMTYzLjE3Mi4xMTAuMTUzOjgwOQ_13
+      - 🇱🇹LT_1190
+      - 🇩🇪Frankfurt-GTHost(7)_15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港_2
-      - 🇫🇷_FR_法国_3
-      - default_name_4
-      - defaultName_5
-      - 🇺🇸_US_美国_6
-      - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇭🇰_HK_香港_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
+      - atvpn_proxy66_Romania_1
+      - ★atMyPremium98★Germany_2
+      - 🇩🇪DE_408
+      - 🇬🇧GB-England-London2_4
+      - ★atMyPremium98★UK_5
+      - 🇩🇪DE_380
+      - 🇫🇷_7
+      - 🇩🇪DE_363
+      - 🇩🇪【426节点池】DE_472
+      - 🇫🇷FR_469
+      - Germany🇩🇪_11
+      - 🇩🇪DE_503
+      -     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW9AMTYzLjE3Mi4xMTAuMTUzOjgwOQ_13
+      - 🇱🇹LT_1190
+      - 🇩🇪Frankfurt-GTHost(7)_15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -151,19 +165,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇭🇰_HK_香港_2
-      - 🇫🇷_FR_法国_3
-      - default_name_4
-      - defaultName_5
-      - 🇺🇸_US_美国_6
-      - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡_9
-      - 🇭🇰_HK_香港_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
+      - atvpn_proxy66_Romania_1
+      - ★atMyPremium98★Germany_2
+      - 🇩🇪DE_408
+      - 🇬🇧GB-England-London2_4
+      - ★atMyPremium98★UK_5
+      - 🇩🇪DE_380
+      - 🇫🇷_7
+      - 🇩🇪DE_363
+      - 🇩🇪【426节点池】DE_472
+      - 🇫🇷FR_469
+      - Germany🇩🇪_11
+      - 🇩🇪DE_503
+      -     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW9AMTYzLjE3Mi4xMTAuMTUzOjgwOQ_13
+      - 🇱🇹LT_1190
+      - 🇩🇪Frankfurt-GTHost(7)_15
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
