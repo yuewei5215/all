@@ -5,312 +5,135 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"Romania_1","server":"185.233.150.6","port":18760,"type":"ss","country":"Romania_1","cipher":"aes-256-gcm","password":"hg49$WH8943g3"}
-  - {"name":"🇩🇪DE_351","server":"193.108.118.36","port":7306,"type":"ss","country":"🇩🇪DE_351","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇩🇪_3","server":"139.162.132.116","port":5500,"type":"ss","country":"🇩🇪_3","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"GB🇬🇧London_4","server":"149.7.16.10","port":6379,"type":"ss","country":"GB🇬🇧London_4","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"Germany🇩🇪_5","server":"139.162.132.116","port":8881,"type":"ss","country":"Germany🇩🇪_5","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"Germany_6","server":"139.162.189.117","port":8080,"type":"ss","country":"Germany_6","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"TR_7","server":"78.138.99.86","port":18760,"type":"ss","country":"TR_7","cipher":"chacha20-ietf-poly1305","password":"hg49$WH8943g3"}
-  - {"name":"🇹🇷TR_1099","server":"185.219.134.52","port":50003,"type":"ss","country":"🇹🇷TR_1099","cipher":"aes-256-cfb","password":"8460400130"}
-  - {"name":"🇱🇹LT_1190","server":"213.183.63.221","port":9097,"type":"ss","country":"🇱🇹LT_1190","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
-  - {"name":"🇺🇸US_3418","server":"172.99.190.188","port":9101,"type":"ss","country":"🇺🇸US_3418","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇫🇷FR_753","server":"145.239.1.100","port":5500,"type":"ss","country":"🇫🇷FR_753","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇫🇷FR_826","server":"145.239.1.100","port":5003,"type":"ss","country":"🇫🇷FR_826","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸US_2030","server":"149.7.16.10","port":8882,"type":"ss","country":"🇺🇸US_2030","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"France2🇫🇷_14","server":"152.228.187.147","port":443,"type":"ssr","country":"France2🇫🇷_14","password":"MyYekt@K3y","cipher":"chacha20-ietf","protocol":"auth_chain_a","obfs":"http_simple","protocol-param":"0","obfs-param":"0"}
-  - {"name":"🇩🇪Germany_15","server":"49.12.203.80","port":40960,"type":"ss","country":"🇩🇪Germany_15","cipher":"aes-256-gcm","password":"6kA7b3f9Aw2508erQ3W7D4"}
-  - {"name":"NL🇳🇱_16","server":"91.232.105.253","port":9101,"type":"ss","country":"NL🇳🇱_16","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"193_108_118_34:445_17","server":"193.108.118.34","port":445,"type":"ss","country":"193_108_118_34:445_17","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"193_108_118_30:5500_18","server":"193.108.118.30","port":5500,"type":"ss","country":"193_108_118_30:5500_18","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"172_99_190_158:5600_19","server":"172.99.190.158","port":5600,"type":"ss","country":"172_99_190_158:5600_19","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"DE🇩🇪FrankfurtamMain_20","server":"139.162.189.117","port":8080,"type":"ss","country":"DE🇩🇪FrankfurtamMain_20","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"TR🇹🇷Istanbul_21","server":"185.219.134.52","port":50003,"type":"ss","country":"TR🇹🇷Istanbul_21","cipher":"aes-256-cfb","password":"8460400130"}
-  - {"name":"CA🇨🇦(6)_22","server":"198.57.27.172","port":8080,"type":"ss","country":"CA🇨🇦(6)_22","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇩🇪【426节点池】DE_398","server":"193.108.118.36","port":7002,"type":"ss","country":"🇩🇪【426节点池】DE_398","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇫🇷【426节点池】FR_463","server":"51.68.205.180","port":5003,"type":"ss","country":"🇫🇷【426节点池】FR_463","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇧🇦【426节点池】BA_102","server":"185.212.111.59","port":33992,"type":"ss","country":"🇧🇦【426节点池】BA_102","cipher":"aes-256-gcm","password":"8n6pwAcrrv2pj6tFY2p3TbQ6"}
-  - {"name":"🇩🇪【426节点池】DE_489","server":"193.108.118.36","port":8882,"type":"ss","country":"🇩🇪【426节点池】DE_489","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇫🇷【426节点池】FR_596","server":"54.38.72.170","port":7306,"type":"ss","country":"🇫🇷【426节点池】FR_596","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸【426节点池】US_2350","server":"172.99.190.188","port":7307,"type":"ss","country":"🇺🇸【426节点池】US_2350","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇧🇦【426节点池】BA_73","server":"185.212.111.59","port":39772,"type":"ss","country":"🇧🇦【426节点池】BA_73","cipher":"aes-256-gcm","password":"CUndSZnYsPKcu6Kj8THVMBHD"}
-  - {"name":"🇨🇦【426节点池】CA_116","server":"198.57.27.191","port":8008,"type":"ss","country":"🇨🇦【426节点池】CA_116","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇬🇧London-GTHost(12)_31","server":"172.99.190.188","port":3306,"type":"ss","country":"🇬🇧London-GTHost(12)_31","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷Roubaix-OVH(2)_32","server":"5.39.70.138","port":3306,"type":"ss","country":"🇫🇷Roubaix-OVH(2)_32","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸NewYork-GTHost(33)_33","server":"38.91.100.130","port":3306,"type":"ss","country":"🇺🇸NewYork-GTHost(33)_33","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷【426节点池】FR_504","server":"145.239.1.100","port":2375,"type":"ss","country":"🇫🇷【426节点池】FR_504","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇸🇬_35","server":"217.197.161.136","port":801,"type":"ss","country":"🇸🇬_35","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇮🇳_36","server":"172.105.59.32","port":5003,"type":"ss","country":"🇮🇳_36","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇩🇪DE_408","server":"193.108.118.36","port":8080,"type":"ss","country":"🇩🇪DE_408","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇸🇪SE_1941","server":"192.71.244.49","port":989,"type":"ss","country":"🇸🇪SE_1941","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇹🇷TR_1088","server":"185.219.134.52","port":50003,"type":"ss","country":"🇹🇷TR_1088","cipher":"aes-256-cfb","password":"8460400130"}
+  - {"name":"俄罗斯E_1","server":"194.147.86.26","port":9661,"type":"ssr","country":"俄罗斯E_1","password":"lncn.org
+    2v","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯F_2","server":"195.245.239.15","port":9661,"type":"ssr","country":"俄罗斯F_2","password":"lncn.org
+    2v","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯G_3","server":"194.156.121.170","port":9661,"type":"ssr","country":"俄罗斯G_3","password":"lncn.org
+    2v","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯H_4","server":"91.198.220.69","port":9661,"type":"ssr","country":"俄罗斯H_4","password":"lncn.org
+    2v","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯I_5","server":"194.147.34.32","port":9661,"type":"ssr","country":"俄罗斯I_5","password":"lncn.org
+    5k","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯J_6","server":"45.130.147.192","port":9661,"type":"ssr","country":"俄罗斯J_6","password":"lncn.org
+    5k","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯K_7","server":"176.32.32.118","port":9661,"type":"ssr","country":"俄罗斯K_7","password":"lncn.org
+    5k","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯L_8","server":"91.198.220.84","port":9661,"type":"ssr","country":"俄罗斯L_8","password":"lncn.org
+    5k","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯M_9","server":"194.147.34.162","port":9661,"type":"ssr","country":"俄罗斯M_9","password":"lncn.org
+    7o","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯N_10","server":"45.130.146.233","port":9661,"type":"ssr","country":"俄罗斯N_10","password":"lncn.org
+    7o","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯O_11","server":"46.17.47.156","port":9661,"type":"ssr","country":"俄罗斯O_11","password":"lncn.org
+    7o","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯P_12","server":"46.29.160.101","port":9661,"type":"ssr","country":"俄罗斯P_12","password":"lncn.org
+    7o","cipher":"rc4","protocol":"origin","obfs":"plain"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Romania_1
-      - 🇩🇪DE_351
-      - 🇩🇪_3
-      - GB🇬🇧London_4
-      - Germany🇩🇪_5
-      - Germany_6
-      - TR_7
-      - 🇹🇷TR_1099
-      - 🇱🇹LT_1190
-      - 🇺🇸US_3418
-      - 🇫🇷FR_753
-      - 🇫🇷FR_826
-      - 🇺🇸US_2030
-      - France2🇫🇷_14
-      - 🇩🇪Germany_15
-      - NL🇳🇱_16
-      - '193_108_118_34:445_17'
-      - '193_108_118_30:5500_18'
-      - '172_99_190_158:5600_19'
-      - DE🇩🇪FrankfurtamMain_20
-      - TR🇹🇷Istanbul_21
-      - CA🇨🇦(6)_22
-      - 🇩🇪【426节点池】DE_398
-      - 🇫🇷【426节点池】FR_463
-      - 🇧🇦【426节点池】BA_102
-      - 🇩🇪【426节点池】DE_489
-      - 🇫🇷【426节点池】FR_596
-      - 🇺🇸【426节点池】US_2350
-      - 🇧🇦【426节点池】BA_73
-      - 🇨🇦【426节点池】CA_116
-      - 🇬🇧London-GTHost(12)_31
-      - 🇫🇷Roubaix-OVH(2)_32
-      - 🇺🇸NewYork-GTHost(33)_33
-      - 🇫🇷【426节点池】FR_504
-      - 🇸🇬_35
-      - 🇮🇳_36
-      - 🇩🇪DE_408
-      - 🇸🇪SE_1941
-      - 🇹🇷TR_1088
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Romania_1
-      - 🇩🇪DE_351
-      - 🇩🇪_3
-      - GB🇬🇧London_4
-      - Germany🇩🇪_5
-      - Germany_6
-      - TR_7
-      - 🇹🇷TR_1099
-      - 🇱🇹LT_1190
-      - 🇺🇸US_3418
-      - 🇫🇷FR_753
-      - 🇫🇷FR_826
-      - 🇺🇸US_2030
-      - France2🇫🇷_14
-      - 🇩🇪Germany_15
-      - NL🇳🇱_16
-      - '193_108_118_34:445_17'
-      - '193_108_118_30:5500_18'
-      - '172_99_190_158:5600_19'
-      - DE🇩🇪FrankfurtamMain_20
-      - TR🇹🇷Istanbul_21
-      - CA🇨🇦(6)_22
-      - 🇩🇪【426节点池】DE_398
-      - 🇫🇷【426节点池】FR_463
-      - 🇧🇦【426节点池】BA_102
-      - 🇩🇪【426节点池】DE_489
-      - 🇫🇷【426节点池】FR_596
-      - 🇺🇸【426节点池】US_2350
-      - 🇧🇦【426节点池】BA_73
-      - 🇨🇦【426节点池】CA_116
-      - 🇬🇧London-GTHost(12)_31
-      - 🇫🇷Roubaix-OVH(2)_32
-      - 🇺🇸NewYork-GTHost(33)_33
-      - 🇫🇷【426节点池】FR_504
-      - 🇸🇬_35
-      - 🇮🇳_36
-      - 🇩🇪DE_408
-      - 🇸🇪SE_1941
-      - 🇹🇷TR_1088
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Romania_1
-      - 🇩🇪DE_351
-      - 🇩🇪_3
-      - GB🇬🇧London_4
-      - Germany🇩🇪_5
-      - Germany_6
-      - TR_7
-      - 🇹🇷TR_1099
-      - 🇱🇹LT_1190
-      - 🇺🇸US_3418
-      - 🇫🇷FR_753
-      - 🇫🇷FR_826
-      - 🇺🇸US_2030
-      - France2🇫🇷_14
-      - 🇩🇪Germany_15
-      - NL🇳🇱_16
-      - '193_108_118_34:445_17'
-      - '193_108_118_30:5500_18'
-      - '172_99_190_158:5600_19'
-      - DE🇩🇪FrankfurtamMain_20
-      - TR🇹🇷Istanbul_21
-      - CA🇨🇦(6)_22
-      - 🇩🇪【426节点池】DE_398
-      - 🇫🇷【426节点池】FR_463
-      - 🇧🇦【426节点池】BA_102
-      - 🇩🇪【426节点池】DE_489
-      - 🇫🇷【426节点池】FR_596
-      - 🇺🇸【426节点池】US_2350
-      - 🇧🇦【426节点池】BA_73
-      - 🇨🇦【426节点池】CA_116
-      - 🇬🇧London-GTHost(12)_31
-      - 🇫🇷Roubaix-OVH(2)_32
-      - 🇺🇸NewYork-GTHost(33)_33
-      - 🇫🇷【426节点池】FR_504
-      - 🇸🇬_35
-      - 🇮🇳_36
-      - 🇩🇪DE_408
-      - 🇸🇪SE_1941
-      - 🇹🇷TR_1088
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Romania_1
-      - 🇩🇪DE_351
-      - 🇩🇪_3
-      - GB🇬🇧London_4
-      - Germany🇩🇪_5
-      - Germany_6
-      - TR_7
-      - 🇹🇷TR_1099
-      - 🇱🇹LT_1190
-      - 🇺🇸US_3418
-      - 🇫🇷FR_753
-      - 🇫🇷FR_826
-      - 🇺🇸US_2030
-      - France2🇫🇷_14
-      - 🇩🇪Germany_15
-      - NL🇳🇱_16
-      - '193_108_118_34:445_17'
-      - '193_108_118_30:5500_18'
-      - '172_99_190_158:5600_19'
-      - DE🇩🇪FrankfurtamMain_20
-      - TR🇹🇷Istanbul_21
-      - CA🇨🇦(6)_22
-      - 🇩🇪【426节点池】DE_398
-      - 🇫🇷【426节点池】FR_463
-      - 🇧🇦【426节点池】BA_102
-      - 🇩🇪【426节点池】DE_489
-      - 🇫🇷【426节点池】FR_596
-      - 🇺🇸【426节点池】US_2350
-      - 🇧🇦【426节点池】BA_73
-      - 🇨🇦【426节点池】CA_116
-      - 🇬🇧London-GTHost(12)_31
-      - 🇫🇷Roubaix-OVH(2)_32
-      - 🇺🇸NewYork-GTHost(33)_33
-      - 🇫🇷【426节点池】FR_504
-      - 🇸🇬_35
-      - 🇮🇳_36
-      - 🇩🇪DE_408
-      - 🇸🇪SE_1941
-      - 🇹🇷TR_1088
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Romania_1
-      - 🇩🇪DE_351
-      - 🇩🇪_3
-      - GB🇬🇧London_4
-      - Germany🇩🇪_5
-      - Germany_6
-      - TR_7
-      - 🇹🇷TR_1099
-      - 🇱🇹LT_1190
-      - 🇺🇸US_3418
-      - 🇫🇷FR_753
-      - 🇫🇷FR_826
-      - 🇺🇸US_2030
-      - France2🇫🇷_14
-      - 🇩🇪Germany_15
-      - NL🇳🇱_16
-      - '193_108_118_34:445_17'
-      - '193_108_118_30:5500_18'
-      - '172_99_190_158:5600_19'
-      - DE🇩🇪FrankfurtamMain_20
-      - TR🇹🇷Istanbul_21
-      - CA🇨🇦(6)_22
-      - 🇩🇪【426节点池】DE_398
-      - 🇫🇷【426节点池】FR_463
-      - 🇧🇦【426节点池】BA_102
-      - 🇩🇪【426节点池】DE_489
-      - 🇫🇷【426节点池】FR_596
-      - 🇺🇸【426节点池】US_2350
-      - 🇧🇦【426节点池】BA_73
-      - 🇨🇦【426节点池】CA_116
-      - 🇬🇧London-GTHost(12)_31
-      - 🇫🇷Roubaix-OVH(2)_32
-      - 🇺🇸NewYork-GTHost(33)_33
-      - 🇫🇷【426节点池】FR_504
-      - 🇸🇬_35
-      - 🇮🇳_36
-      - 🇩🇪DE_408
-      - 🇸🇪SE_1941
-      - 🇹🇷TR_1088
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Romania_1
-      - 🇩🇪DE_351
-      - 🇩🇪_3
-      - GB🇬🇧London_4
-      - Germany🇩🇪_5
-      - Germany_6
-      - TR_7
-      - 🇹🇷TR_1099
-      - 🇱🇹LT_1190
-      - 🇺🇸US_3418
-      - 🇫🇷FR_753
-      - 🇫🇷FR_826
-      - 🇺🇸US_2030
-      - France2🇫🇷_14
-      - 🇩🇪Germany_15
-      - NL🇳🇱_16
-      - '193_108_118_34:445_17'
-      - '193_108_118_30:5500_18'
-      - '172_99_190_158:5600_19'
-      - DE🇩🇪FrankfurtamMain_20
-      - TR🇹🇷Istanbul_21
-      - CA🇨🇦(6)_22
-      - 🇩🇪【426节点池】DE_398
-      - 🇫🇷【426节点池】FR_463
-      - 🇧🇦【426节点池】BA_102
-      - 🇩🇪【426节点池】DE_489
-      - 🇫🇷【426节点池】FR_596
-      - 🇺🇸【426节点池】US_2350
-      - 🇧🇦【426节点池】BA_73
-      - 🇨🇦【426节点池】CA_116
-      - 🇬🇧London-GTHost(12)_31
-      - 🇫🇷Roubaix-OVH(2)_32
-      - 🇺🇸NewYork-GTHost(33)_33
-      - 🇫🇷【426节点池】FR_504
-      - 🇸🇬_35
-      - 🇮🇳_36
-      - 🇩🇪DE_408
-      - 🇸🇪SE_1941
-      - 🇹🇷TR_1088
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -333,45 +156,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Romania_1
-      - 🇩🇪DE_351
-      - 🇩🇪_3
-      - GB🇬🇧London_4
-      - Germany🇩🇪_5
-      - Germany_6
-      - TR_7
-      - 🇹🇷TR_1099
-      - 🇱🇹LT_1190
-      - 🇺🇸US_3418
-      - 🇫🇷FR_753
-      - 🇫🇷FR_826
-      - 🇺🇸US_2030
-      - France2🇫🇷_14
-      - 🇩🇪Germany_15
-      - NL🇳🇱_16
-      - '193_108_118_34:445_17'
-      - '193_108_118_30:5500_18'
-      - '172_99_190_158:5600_19'
-      - DE🇩🇪FrankfurtamMain_20
-      - TR🇹🇷Istanbul_21
-      - CA🇨🇦(6)_22
-      - 🇩🇪【426节点池】DE_398
-      - 🇫🇷【426节点池】FR_463
-      - 🇧🇦【426节点池】BA_102
-      - 🇩🇪【426节点池】DE_489
-      - 🇫🇷【426节点池】FR_596
-      - 🇺🇸【426节点池】US_2350
-      - 🇧🇦【426节点池】BA_73
-      - 🇨🇦【426节点池】CA_116
-      - 🇬🇧London-GTHost(12)_31
-      - 🇫🇷Roubaix-OVH(2)_32
-      - 🇺🇸NewYork-GTHost(33)_33
-      - 🇫🇷【426节点池】FR_504
-      - 🇸🇬_35
-      - 🇮🇳_36
-      - 🇩🇪DE_408
-      - 🇸🇪SE_1941
-      - 🇹🇷TR_1088
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
