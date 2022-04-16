@@ -5,263 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"github_com/v2rayfree-香港Microsoft数据中心1_1","server":"hknf2.qingyun123.xyz","port":10070,"type":"trojan","country":"github_com/v2rayfree-香港Microsoft数据中心1_1","skip-cert-verify":true,"udp":true,"password":"32ba9f2a-0a02-42aa-9e1c-040bc9813f12"}
-  - {"name":"github_com/v2rayfree-美国Microsoft数据中心2_2","server":"pro.tls.hongkongaz.dnsfree.top","port":55091,"type":"trojan","country":"github_com/v2rayfree-美国Microsoft数据中心2_2","skip-cert-verify":true,"udp":true,"password":"a37a5947-0493-4a59-ba4c-5d36dd16063b"}
-  - {"name":"github_com/v2rayfree-美国Microsoft数据中心3_3","server":"superjapan1111.dnsfree.top","port":12389,"type":"trojan","country":"github_com/v2rayfree-美国Microsoft数据中心3_3","skip-cert-verify":true,"udp":true,"password":"a37a5947-0493-4a59-ba4c-5d36dd16063b"}
-  - {"name":"github_com/v2rayfree-美国Microsoft数据中心4_4","server":"superjapan1111.dnsfree.top","port":12392,"type":"trojan","country":"github_com/v2rayfree-美国Microsoft数据中心4_4","skip-cert-verify":true,"udp":true,"password":"8d23f8a8-64b8-42c4-9c31-304f7c86669c"}
-  - {"name":"github_com/v2rayfree-香港特别行政区5_5","server":"baidu.hongkong.dnsfree.top","port":55094,"type":"trojan","country":"github_com/v2rayfree-香港特别行政区5_5","skip-cert-verify":true,"udp":true,"password":"8d23f8a8-64b8-42c4-9c31-304f7c86669c"}
-  - {"name":"github_com/v2rayfree-香港特别行政区6_6","server":"baidu.hongkong.dnsfree.top","port":55093,"type":"trojan","country":"github_com/v2rayfree-香港特别行政区6_6","skip-cert-verify":true,"udp":true,"password":"8d23f8a8-64b8-42c4-9c31-304f7c86669c"}
-  - {"name":"github_com/v2rayfree-美国Microsoft公司7_7","server":"nfjp1.qingyun123.xyz","port":10000,"type":"trojan","country":"github_com/v2rayfree-美国Microsoft公司7_7","skip-cert-verify":true,"udp":true,"password":"32ba9f2a-0a02-42aa-9e1c-040bc9813f12"}
-  - {"name":"github_com/v2rayfree-美国Microsoft数据中心8_8","server":"aead.tls.sksupersususu.dnsfree.top","port":12346,"type":"trojan","country":"github_com/v2rayfree-美国Microsoft数据中心8_8","skip-cert-verify":true,"udp":true,"password":"8d23f8a8-64b8-42c4-9c31-304f7c86669c"}
-  - {"name":"github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心9_9","server":"45.77.126.179","port":57745,"type":"vmess","uuid":"e8b99f3e-bc07-11ec-bc51-560003f2ac4d","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心9_9","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/SfqyKoZu/"}}
-  - {"name":"github_com/v2rayfree-欧盟10_10","server":"45.66.159.74","port":58055,"type":"vmess","uuid":"e5dfca9a-b6cb-11ec-9c2f-00163cbed88a","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-欧盟10_10","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/xEzyADCa/","headers":{"host":"45.66.159.74"}}}
-  - {"name":"github_com/v2rayfree-俄罗斯莫斯科Melbicom数据中心11_11","server":"213.183.53.200","port":9031,"type":"ss","country":"github_com/v2rayfree-俄罗斯莫斯科Melbicom数据中心11_11","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
-  - {"name":"github_com/v2rayfree-美国新泽西州皮斯卡特维Vultr数据中心12_12","server":"207.246.94.28","port":42383,"type":"vmess","uuid":"4773dfdc-9c85-4873-8720-ce8cf5f74f7c","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-美国新泽西州皮斯卡特维Vultr数据中心12_12","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"github_com/v2rayfree-新加坡DigitalOcean数据中心13_13","server":"sg1.31vpn.com","port":80,"type":"vmess","uuid":"9dc0c6aa-39a1-46be-9938-85999e3c3498","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-新加坡DigitalOcean数据中心13_13","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/fastssh/ccvcxds/6252624d4fda3/","headers":{"host":"sg1.31vpn.com"}}}
-  - {"name":"github_com/v2rayfree-北美地区14_14","server":"tls.us01.dnsfree.top","port":12345,"type":"trojan","country":"github_com/v2rayfree-北美地区14_14","skip-cert-verify":true,"udp":true,"password":"8d23f8a8-64b8-42c4-9c31-304f7c86669c"}
-  - {"name":"github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心15_15","server":"140.82.22.122","port":37572,"type":"vmess","uuid":"81e3f426-bc02-11ec-b4df-560003f2aa40","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心15_15","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/qgbdnHwN/"}}
-  - {"name":"github_com/v2rayfree-加拿大16_16","server":"165.154.225.176","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/v2rayfree-加拿大16_16","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0326hk01.fans8.xyz"}}}
-  - {"name":"github_com/v2rayfree-上海市电信17_17","server":"101.91.121.247","port":50004,"type":"ss","country":"github_com/v2rayfree-上海市电信17_17","cipher":"aes-256-cfb","password":"4415934295"}
-  - {"name":"github_com/v2rayfree-美国CloudFlare节点18_18","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-美国CloudFlare节点18_18","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"v4.xrenblog.com"}}}
-  - {"name":"github_com/v2rayfree-加拿大19_19","server":"165.154.225.231","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/v2rayfree-加拿大19_19","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330hk02.fans8.xyz"}}}
-  - {"name":"github_com/v2rayfree-美国CloudFlare公司CDN节点20_20","server":"104.16.162.16","port":2053,"type":"vmess","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-美国CloudFlare公司CDN节点20_20","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"host":"foxus.fovi.tk"}}}
-  - {"name":"github_com/v2rayfree-加拿大21_21","server":"330tw.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/v2rayfree-加拿大21_21","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330tw.fans8.xyz"}}}
-  - {"name":"github_com/v2rayfree-美国CloudFlare节点22_22","server":"v2ray.788644.xyz","port":443,"type":"vmess","uuid":"000fe881-b655-4212-b804-b00f9970d5aa","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-美国CloudFlare节点22_22","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/happy"}}
-  - {"name":"github_com/v2rayfree-美国CloudFlare公司CDN节点23_23","server":"hax.hax01.tk","port":443,"type":"vmess","uuid":"e2e073ce-c1d4-43ed-89f5-ca978507548a","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-美国CloudFlare公司CDN节点23_23","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"github_com/v2rayfree-美国CloudFlare节点24_24","server":"oz.moonfree.top","port":443,"type":"vmess","uuid":"861e9cd0-cd1d-4f8c-b7d9-b47409dda333","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-美国CloudFlare节点24_24","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oz.moonfree.top"}}}
-  - {"name":"github_com/v2rayfree-美国CloudFlare节点25_25","server":"v1.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-美国CloudFlare节点25_25","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"github_com/v2rayfree-法国26_26","server":"0316ro.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/v2rayfree-法国26_26","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nl","headers":{"host":"0316ro.fans8.xyz"}}}
-  - {"name":"github_com/v2rayfree-法国27_27","server":"92.243.24.236","port":443,"type":"ss","country":"github_com/v2rayfree-法国27_27","cipher":"chacha20-ietf-poly1305","password":"LE6Ee6PELhVu"}
-  - {"name":"github_com/v2rayfree-香港电讯盈科有限公司28_28","server":"hkt2.node.qchwnd.moe","port":44614,"type":"trojan","country":"github_com/v2rayfree-香港电讯盈科有限公司28_28","skip-cert-verify":true,"udp":true,"password":"1925c4ba-616a-416f-a494-392f2ba9eb77"}
-  - {"name":"github_com/v2rayfree-南非豪登省约翰内斯堡Cloudinnovation数据中心29_29","server":"us1.lolvps.xyz","port":60060,"type":"vmess","uuid":"95886c76-9207-48bd-9e64-d1422e75ad89","alterId":0,"cipher":"auto","country":"github_com/v2rayfree-南非豪登省约翰内斯堡Cloudinnovation数据中心29_29","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/AY920UMR","headers":{"host":"us1.lolvps.xyz"}}}
-  - {"name":"github_com/v2rayfree-北美地区30_30","server":"104.166.135.10","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"github_com/v2rayfree-北美地区30_30","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}}}
-  - {"name":"github_com/v2rayfree-美国3COM公司企业网31_31","server":"jgwhdlb4.gaox.ml","port":443,"type":"trojan","country":"github_com/v2rayfree-美国3COM公司企业网31_31","skip-cert-verify":true,"udp":true,"password":"081a4198-d664-4bc5-a7c6-e35982da964b"}
-  - {"name":"github_com/v2rayfree-荷兰32_32","server":"fhcamd1.gaox.ml","port":443,"type":"trojan","country":"github_com/v2rayfree-荷兰32_32","skip-cert-verify":true,"udp":true,"password":"e23f408a-012e-4030-8b31-02022031cb50"}
+  - {"name":"🇨🇳_CN_中国->🇹🇷_TR_土耳其_1","server":"in01.dns2333.xyz","port":63028,"type":"vmess","uuid":"982227b6-fb48-3c17-b44f-b41daa88afab","alterId":0,"cipher":"auto","country":"🇨🇳_CN_中国->🇹🇷_TR_土耳其_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"headers":{"host":"mugua-tr01.covid19.rip"}}}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","server":"hk01.xniuniu888.club","port":30104,"type":"vmess","uuid":"ef41958c-c145-3363-a332-20e9ec5e8a5c","alterId":2,"cipher":"auto","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_3","server":"tw01.xniuniu888.club","port":30139,"type":"vmess","uuid":"ef41958c-c145-3363-a332-20e9ec5e8a5c","alterId":2,"cipher":"auto","country":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_3","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"defaultName_4","server":"213.183.53.177","port":9093,"type":"ssr","country":"defaultName_4","password":"wfLC2y7rzZyCmuyt","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇺🇸_US_美国_5","server":"aead.tls.sksupersususu.dnsfree.top","port":12346,"type":"trojan","country":"🇺🇸_US_美国_5","skip-cert-verify":true,"udp":true,"password":"a37a5947-0493-4a59-ba4c-5d36dd16063b"}
+  - {"name":"🇭🇰_HK_香港_6","server":"pro.tls.hongkongaz.dnsfree.top","port":55091,"type":"trojan","country":"🇭🇰_HK_香港_6","skip-cert-verify":true,"udp":true,"password":"8d23f8a8-64b8-42c4-9c31-304f7c86669c"}
+  - {"name":"defaultName_7","server":"gz2.52168.xyz","port":2104,"type":"ssr","country":"defaultName_7","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
+  - {"name":"defaultName_8","server":"gz2.52168.xyz","port":2101,"type":"ssr","country":"defaultName_8","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth"}
+  - {"name":"defaultName_9","server":"213.183.53.177","port":9094,"type":"ssr","country":"defaultName_9","password":"rpgbNnU9rDDU4aWZ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇺🇸_US_美国_10","server":"aead.tls.sksupersususu.dnsfree.top","port":12349,"type":"trojan","country":"🇺🇸_US_美国_10","skip-cert-verify":true,"udp":true,"password":"a37a5947-0493-4a59-ba4c-5d36dd16063b"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - github_com/v2rayfree-香港Microsoft数据中心1_1
-      - github_com/v2rayfree-美国Microsoft数据中心2_2
-      - github_com/v2rayfree-美国Microsoft数据中心3_3
-      - github_com/v2rayfree-美国Microsoft数据中心4_4
-      - github_com/v2rayfree-香港特别行政区5_5
-      - github_com/v2rayfree-香港特别行政区6_6
-      - github_com/v2rayfree-美国Microsoft公司7_7
-      - github_com/v2rayfree-美国Microsoft数据中心8_8
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心9_9
-      - github_com/v2rayfree-欧盟10_10
-      - github_com/v2rayfree-俄罗斯莫斯科Melbicom数据中心11_11
-      - github_com/v2rayfree-美国新泽西州皮斯卡特维Vultr数据中心12_12
-      - github_com/v2rayfree-新加坡DigitalOcean数据中心13_13
-      - github_com/v2rayfree-北美地区14_14
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心15_15
-      - github_com/v2rayfree-加拿大16_16
-      - github_com/v2rayfree-上海市电信17_17
-      - github_com/v2rayfree-美国CloudFlare节点18_18
-      - github_com/v2rayfree-加拿大19_19
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点20_20
-      - github_com/v2rayfree-加拿大21_21
-      - github_com/v2rayfree-美国CloudFlare节点22_22
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点23_23
-      - github_com/v2rayfree-美国CloudFlare节点24_24
-      - github_com/v2rayfree-美国CloudFlare节点25_25
-      - github_com/v2rayfree-法国26_26
-      - github_com/v2rayfree-法国27_27
-      - github_com/v2rayfree-香港电讯盈科有限公司28_28
-      - github_com/v2rayfree-南非豪登省约翰内斯堡Cloudinnovation数据中心29_29
-      - github_com/v2rayfree-北美地区30_30
-      - github_com/v2rayfree-美国3COM公司企业网31_31
-      - github_com/v2rayfree-荷兰32_32
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_3
+      - defaultName_4
+      - 🇺🇸_US_美国_5
+      - 🇭🇰_HK_香港_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - 🇺🇸_US_美国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - github_com/v2rayfree-香港Microsoft数据中心1_1
-      - github_com/v2rayfree-美国Microsoft数据中心2_2
-      - github_com/v2rayfree-美国Microsoft数据中心3_3
-      - github_com/v2rayfree-美国Microsoft数据中心4_4
-      - github_com/v2rayfree-香港特别行政区5_5
-      - github_com/v2rayfree-香港特别行政区6_6
-      - github_com/v2rayfree-美国Microsoft公司7_7
-      - github_com/v2rayfree-美国Microsoft数据中心8_8
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心9_9
-      - github_com/v2rayfree-欧盟10_10
-      - github_com/v2rayfree-俄罗斯莫斯科Melbicom数据中心11_11
-      - github_com/v2rayfree-美国新泽西州皮斯卡特维Vultr数据中心12_12
-      - github_com/v2rayfree-新加坡DigitalOcean数据中心13_13
-      - github_com/v2rayfree-北美地区14_14
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心15_15
-      - github_com/v2rayfree-加拿大16_16
-      - github_com/v2rayfree-上海市电信17_17
-      - github_com/v2rayfree-美国CloudFlare节点18_18
-      - github_com/v2rayfree-加拿大19_19
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点20_20
-      - github_com/v2rayfree-加拿大21_21
-      - github_com/v2rayfree-美国CloudFlare节点22_22
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点23_23
-      - github_com/v2rayfree-美国CloudFlare节点24_24
-      - github_com/v2rayfree-美国CloudFlare节点25_25
-      - github_com/v2rayfree-法国26_26
-      - github_com/v2rayfree-法国27_27
-      - github_com/v2rayfree-香港电讯盈科有限公司28_28
-      - github_com/v2rayfree-南非豪登省约翰内斯堡Cloudinnovation数据中心29_29
-      - github_com/v2rayfree-北美地区30_30
-      - github_com/v2rayfree-美国3COM公司企业网31_31
-      - github_com/v2rayfree-荷兰32_32
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_3
+      - defaultName_4
+      - 🇺🇸_US_美国_5
+      - 🇭🇰_HK_香港_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - 🇺🇸_US_美国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github_com/v2rayfree-香港Microsoft数据中心1_1
-      - github_com/v2rayfree-美国Microsoft数据中心2_2
-      - github_com/v2rayfree-美国Microsoft数据中心3_3
-      - github_com/v2rayfree-美国Microsoft数据中心4_4
-      - github_com/v2rayfree-香港特别行政区5_5
-      - github_com/v2rayfree-香港特别行政区6_6
-      - github_com/v2rayfree-美国Microsoft公司7_7
-      - github_com/v2rayfree-美国Microsoft数据中心8_8
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心9_9
-      - github_com/v2rayfree-欧盟10_10
-      - github_com/v2rayfree-俄罗斯莫斯科Melbicom数据中心11_11
-      - github_com/v2rayfree-美国新泽西州皮斯卡特维Vultr数据中心12_12
-      - github_com/v2rayfree-新加坡DigitalOcean数据中心13_13
-      - github_com/v2rayfree-北美地区14_14
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心15_15
-      - github_com/v2rayfree-加拿大16_16
-      - github_com/v2rayfree-上海市电信17_17
-      - github_com/v2rayfree-美国CloudFlare节点18_18
-      - github_com/v2rayfree-加拿大19_19
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点20_20
-      - github_com/v2rayfree-加拿大21_21
-      - github_com/v2rayfree-美国CloudFlare节点22_22
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点23_23
-      - github_com/v2rayfree-美国CloudFlare节点24_24
-      - github_com/v2rayfree-美国CloudFlare节点25_25
-      - github_com/v2rayfree-法国26_26
-      - github_com/v2rayfree-法国27_27
-      - github_com/v2rayfree-香港电讯盈科有限公司28_28
-      - github_com/v2rayfree-南非豪登省约翰内斯堡Cloudinnovation数据中心29_29
-      - github_com/v2rayfree-北美地区30_30
-      - github_com/v2rayfree-美国3COM公司企业网31_31
-      - github_com/v2rayfree-荷兰32_32
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_3
+      - defaultName_4
+      - 🇺🇸_US_美国_5
+      - 🇭🇰_HK_香港_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - 🇺🇸_US_美国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github_com/v2rayfree-香港Microsoft数据中心1_1
-      - github_com/v2rayfree-美国Microsoft数据中心2_2
-      - github_com/v2rayfree-美国Microsoft数据中心3_3
-      - github_com/v2rayfree-美国Microsoft数据中心4_4
-      - github_com/v2rayfree-香港特别行政区5_5
-      - github_com/v2rayfree-香港特别行政区6_6
-      - github_com/v2rayfree-美国Microsoft公司7_7
-      - github_com/v2rayfree-美国Microsoft数据中心8_8
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心9_9
-      - github_com/v2rayfree-欧盟10_10
-      - github_com/v2rayfree-俄罗斯莫斯科Melbicom数据中心11_11
-      - github_com/v2rayfree-美国新泽西州皮斯卡特维Vultr数据中心12_12
-      - github_com/v2rayfree-新加坡DigitalOcean数据中心13_13
-      - github_com/v2rayfree-北美地区14_14
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心15_15
-      - github_com/v2rayfree-加拿大16_16
-      - github_com/v2rayfree-上海市电信17_17
-      - github_com/v2rayfree-美国CloudFlare节点18_18
-      - github_com/v2rayfree-加拿大19_19
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点20_20
-      - github_com/v2rayfree-加拿大21_21
-      - github_com/v2rayfree-美国CloudFlare节点22_22
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点23_23
-      - github_com/v2rayfree-美国CloudFlare节点24_24
-      - github_com/v2rayfree-美国CloudFlare节点25_25
-      - github_com/v2rayfree-法国26_26
-      - github_com/v2rayfree-法国27_27
-      - github_com/v2rayfree-香港电讯盈科有限公司28_28
-      - github_com/v2rayfree-南非豪登省约翰内斯堡Cloudinnovation数据中心29_29
-      - github_com/v2rayfree-北美地区30_30
-      - github_com/v2rayfree-美国3COM公司企业网31_31
-      - github_com/v2rayfree-荷兰32_32
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_3
+      - defaultName_4
+      - 🇺🇸_US_美国_5
+      - 🇭🇰_HK_香港_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - 🇺🇸_US_美国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - github_com/v2rayfree-香港Microsoft数据中心1_1
-      - github_com/v2rayfree-美国Microsoft数据中心2_2
-      - github_com/v2rayfree-美国Microsoft数据中心3_3
-      - github_com/v2rayfree-美国Microsoft数据中心4_4
-      - github_com/v2rayfree-香港特别行政区5_5
-      - github_com/v2rayfree-香港特别行政区6_6
-      - github_com/v2rayfree-美国Microsoft公司7_7
-      - github_com/v2rayfree-美国Microsoft数据中心8_8
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心9_9
-      - github_com/v2rayfree-欧盟10_10
-      - github_com/v2rayfree-俄罗斯莫斯科Melbicom数据中心11_11
-      - github_com/v2rayfree-美国新泽西州皮斯卡特维Vultr数据中心12_12
-      - github_com/v2rayfree-新加坡DigitalOcean数据中心13_13
-      - github_com/v2rayfree-北美地区14_14
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心15_15
-      - github_com/v2rayfree-加拿大16_16
-      - github_com/v2rayfree-上海市电信17_17
-      - github_com/v2rayfree-美国CloudFlare节点18_18
-      - github_com/v2rayfree-加拿大19_19
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点20_20
-      - github_com/v2rayfree-加拿大21_21
-      - github_com/v2rayfree-美国CloudFlare节点22_22
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点23_23
-      - github_com/v2rayfree-美国CloudFlare节点24_24
-      - github_com/v2rayfree-美国CloudFlare节点25_25
-      - github_com/v2rayfree-法国26_26
-      - github_com/v2rayfree-法国27_27
-      - github_com/v2rayfree-香港电讯盈科有限公司28_28
-      - github_com/v2rayfree-南非豪登省约翰内斯堡Cloudinnovation数据中心29_29
-      - github_com/v2rayfree-北美地区30_30
-      - github_com/v2rayfree-美国3COM公司企业网31_31
-      - github_com/v2rayfree-荷兰32_32
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_3
+      - defaultName_4
+      - 🇺🇸_US_美国_5
+      - 🇭🇰_HK_香港_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - 🇺🇸_US_美国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github_com/v2rayfree-香港Microsoft数据中心1_1
-      - github_com/v2rayfree-美国Microsoft数据中心2_2
-      - github_com/v2rayfree-美国Microsoft数据中心3_3
-      - github_com/v2rayfree-美国Microsoft数据中心4_4
-      - github_com/v2rayfree-香港特别行政区5_5
-      - github_com/v2rayfree-香港特别行政区6_6
-      - github_com/v2rayfree-美国Microsoft公司7_7
-      - github_com/v2rayfree-美国Microsoft数据中心8_8
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心9_9
-      - github_com/v2rayfree-欧盟10_10
-      - github_com/v2rayfree-俄罗斯莫斯科Melbicom数据中心11_11
-      - github_com/v2rayfree-美国新泽西州皮斯卡特维Vultr数据中心12_12
-      - github_com/v2rayfree-新加坡DigitalOcean数据中心13_13
-      - github_com/v2rayfree-北美地区14_14
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心15_15
-      - github_com/v2rayfree-加拿大16_16
-      - github_com/v2rayfree-上海市电信17_17
-      - github_com/v2rayfree-美国CloudFlare节点18_18
-      - github_com/v2rayfree-加拿大19_19
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点20_20
-      - github_com/v2rayfree-加拿大21_21
-      - github_com/v2rayfree-美国CloudFlare节点22_22
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点23_23
-      - github_com/v2rayfree-美国CloudFlare节点24_24
-      - github_com/v2rayfree-美国CloudFlare节点25_25
-      - github_com/v2rayfree-法国26_26
-      - github_com/v2rayfree-法国27_27
-      - github_com/v2rayfree-香港电讯盈科有限公司28_28
-      - github_com/v2rayfree-南非豪登省约翰内斯堡Cloudinnovation数据中心29_29
-      - github_com/v2rayfree-北美地区30_30
-      - github_com/v2rayfree-美国3COM公司企业网31_31
-      - github_com/v2rayfree-荷兰32_32
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_3
+      - defaultName_4
+      - 🇺🇸_US_美国_5
+      - 🇭🇰_HK_香港_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - 🇺🇸_US_美国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -284,38 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github_com/v2rayfree-香港Microsoft数据中心1_1
-      - github_com/v2rayfree-美国Microsoft数据中心2_2
-      - github_com/v2rayfree-美国Microsoft数据中心3_3
-      - github_com/v2rayfree-美国Microsoft数据中心4_4
-      - github_com/v2rayfree-香港特别行政区5_5
-      - github_com/v2rayfree-香港特别行政区6_6
-      - github_com/v2rayfree-美国Microsoft公司7_7
-      - github_com/v2rayfree-美国Microsoft数据中心8_8
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心9_9
-      - github_com/v2rayfree-欧盟10_10
-      - github_com/v2rayfree-俄罗斯莫斯科Melbicom数据中心11_11
-      - github_com/v2rayfree-美国新泽西州皮斯卡特维Vultr数据中心12_12
-      - github_com/v2rayfree-新加坡DigitalOcean数据中心13_13
-      - github_com/v2rayfree-北美地区14_14
-      - github_com/v2rayfree-美国加利福尼亚州洛杉矶Choopa数据中心15_15
-      - github_com/v2rayfree-加拿大16_16
-      - github_com/v2rayfree-上海市电信17_17
-      - github_com/v2rayfree-美国CloudFlare节点18_18
-      - github_com/v2rayfree-加拿大19_19
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点20_20
-      - github_com/v2rayfree-加拿大21_21
-      - github_com/v2rayfree-美国CloudFlare节点22_22
-      - github_com/v2rayfree-美国CloudFlare公司CDN节点23_23
-      - github_com/v2rayfree-美国CloudFlare节点24_24
-      - github_com/v2rayfree-美国CloudFlare节点25_25
-      - github_com/v2rayfree-法国26_26
-      - github_com/v2rayfree-法国27_27
-      - github_com/v2rayfree-香港电讯盈科有限公司28_28
-      - github_com/v2rayfree-南非豪登省约翰内斯堡Cloudinnovation数据中心29_29
-      - github_com/v2rayfree-北美地区30_30
-      - github_com/v2rayfree-美国3COM公司企业网31_31
-      - github_com/v2rayfree-荷兰32_32
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_3
+      - defaultName_4
+      - 🇺🇸_US_美国_5
+      - 🇭🇰_HK_香港_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - 🇺🇸_US_美国_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
