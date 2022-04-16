@@ -5,46 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"SafeamnetworkF06_1","server":"62.60.160.87","port":"57103/?","type":"ss","country":"SafeamnetworkF06_1","cipher":"chacha20-ietf-poly1305","password":"UFnWqHuviqu2"}
+  - {"name":"defaultName_1","server":"n09.boom.party","port":12000,"type":"ssr","country":"defaultName_1","password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+  - {"name":"🇺🇸_US_美国_2","server":"hk4.fdns.unino.tech","port":443,"type":"vmess","uuid":"eb90ad94-9b20-4075-af26-e8e17ff12258","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_2","skip-cert-verify":true,"tls":true,"network":"ws"}
+  - {"name":"defaultName_3","server":"213.183.53.177","port":9006,"type":"ssr","country":"defaultName_3","password":"FAdUvMJUq5vDgKEq","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - SafeamnetworkF06_1
+      - defaultName_1
+      - 🇺🇸_US_美国_2
+      - defaultName_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - SafeamnetworkF06_1
+      - defaultName_1
+      - 🇺🇸_US_美国_2
+      - defaultName_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SafeamnetworkF06_1
+      - defaultName_1
+      - 🇺🇸_US_美国_2
+      - defaultName_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - SafeamnetworkF06_1
+      - defaultName_1
+      - 🇺🇸_US_美国_2
+      - defaultName_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - SafeamnetworkF06_1
+      - defaultName_1
+      - 🇺🇸_US_美国_2
+      - defaultName_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - SafeamnetworkF06_1
+      - defaultName_1
+      - 🇺🇸_US_美国_2
+      - defaultName_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +81,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SafeamnetworkF06_1
+      - defaultName_1
+      - 🇺🇸_US_美国_2
+      - defaultName_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
