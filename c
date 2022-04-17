@@ -5,1208 +5,179 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"defaultName_2","server":"bm9uZTo2YzRkYWZjMC02ZGNkLTQ4NWQtYzg2ZS02MWRmM2U5MjRhZGVAaG9zdG1vbml0LmNvbTo0NDM?remarks=%E6%97%A5%E6%9C%AC4T&obfsParam=10086y.ml&path=/&obfs=websocket&tls=1&peer=10086y.ml","port":"bm9uZTo2YzRkYWZjMC02ZGNkLTQ4NWQtYzg2ZS02MWRmM2U5MjRhZGVAaG9zdG1vbml0LmNvbTo0NDM?remarks=%E6%97%A5%E6%9C%AC4T&obfsParam=10086y.ml&path=/&obfs=websocket&tls=1&peer=10086y.ml","country":"defaultName_2","type":"vless","uuid":"bm9uZTo2YzRkYWZjMC02ZGNkLTQ4NWQtYzg2ZS02MWRmM2U5MjRhZGVAaG9zdG1vbml0LmNvbTo0NDM?remarks=%E6%97%A5%E6%9C%AC4T&obfsParam=10086y.ml&path=/&obfs=websocket&tls=1&peer=10086y.ml","cipher":"auto","skip-cert-verify":true,"path":"/","network":"tcp"}
-  - {"name":"🇨🇳TW_3WangCai_1","server":"cstwrelay.onlineto.xyz","port":562,"type":"ssr","country":"🇨🇳TW_3WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"6436:tyson.cool941"}
-  - {"name":"🇨🇳TW_4WangCai_1","server":"cstwrelay.onlineto.xyz","port":563,"type":"ssr","country":"🇨🇳TW_4WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"🇨🇳TW_4WangCai_1","server":"cstwrelay.onlineto.xyz","port":563,"type":"ssr","country":"🇨🇳TW_4WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"59022:tyson.cool"}
-  - {"name":"🇨🇳TW_2WangCai_1","server":"cstwrelay.onlineto.xyz","port":561,"type":"ssr","country":"🇨🇳TW_2WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"55527:tyson.cool940"}
-  - {"name":"🇨🇳TW_1WangCai_1","server":"cstwrelay.onlineto.xyz","port":560,"type":"ssr","country":"🇨🇳TW_1WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"59022:tyson.cool"}
-  - {"name":"🇨🇳TW_3WangCai_1","server":"cstwrelay.onlineto.xyz","port":562,"type":"ssr","country":"🇨🇳TW_3WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"🇨🇳TW_6WangCai_1","server":"cstwrelay.onlineto.xyz","port":565,"type":"ssr","country":"🇨🇳TW_6WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"6436:tyson.cool941"}
-  - {"name":"🇨🇳TW_1WangCai_1","server":"cstwrelay.onlineto.xyz","port":560,"type":"ssr","country":"🇨🇳TW_1WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"6436:tyson.cool941"}
-  - {"name":"🇭🇰HK_9WangCai_1","server":"cncusouth.procncon.xyz","port":561,"type":"ssr","country":"🇭🇰HK_9WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"6436:tyson.cool941"}
-  - {"name":"🇨🇳TW_8WangCai_1","server":"cstwrelay.onlineto.xyz","port":567,"type":"ssr","country":"🇨🇳TW_8WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"6436:tyson.cool941"}
-  - {"name":"🇨🇳TW_5WangCai_1","server":"cstwrelay.onlineto.xyz","port":564,"type":"ssr","country":"🇨🇳TW_5WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"55527:tyson.cool940"}
-  - {"name":"🇭🇰HK_14WangCai_1","server":"shonlinesandcu02.proconcn.xyz","port":562,"type":"ssr","country":"🇭🇰HK_14WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"55527:tyson.cool940"}
-  - {"name":"🇭🇰HK_9WangCai_1","server":"cncusouth.procncon.xyz","port":561,"type":"ssr","country":"🇭🇰HK_9WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"🇨🇳TW_4WangCai_1","server":"cstwrelay.onlineto.xyz","port":563,"type":"ssr","country":"🇨🇳TW_4WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"6436:tyson.cool941"}
-  - {"name":"🇭🇰HK_13WangCai_1","server":"cusouthcmhk.procncon.xyz","port":562,"type":"ssr","country":"🇭🇰HK_13WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"55527:tyson.cool940"}
-  - {"name":"🇨🇳TW_5WangCai_1","server":"cstwrelay.onlineto.xyz","port":564,"type":"ssr","country":"🇨🇳TW_5WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"🇭🇰HK_10WangCai_1","server":"cusouthcmhk.procncon.xyz","port":560,"type":"ssr","country":"🇭🇰HK_10WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"6436:tyson.cool941"}
-  - {"name":"🇭🇰HK_9WangCai_1","server":"cncusouth.procncon.xyz","port":561,"type":"ssr","country":"🇭🇰HK_9WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"55527:tyson.cool940"}
-  - {"name":"🇭🇰HK_19WangCai_1","server":"shonlinesandcu02.proconcn.xyz","port":560,"type":"ssr","country":"🇭🇰HK_19WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"59022:tyson.cool"}
-  - {"name":"🇨🇳TW_1WangCai_1","server":"cstwrelay.onlineto.xyz","port":560,"type":"ssr","country":"🇨🇳TW_1WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"🇭🇰HK_6WangCai_1","server":"cncusouth.procncon.xyz","port":560,"type":"ssr","country":"🇭🇰HK_6WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"55527:tyson.cool940"}
-  - {"name":"🇭🇰HK_20WangCai_1","server":"shonlinesandcu02.proconcn.xyz","port":561,"type":"ssr","country":"🇭🇰HK_20WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"59022:tyson.cool"}
-  - {"name":"🇭🇰HK_10WangCai_1","server":"cusouthcmhk.procncon.xyz","port":560,"type":"ssr","country":"🇭🇰HK_10WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"🇭🇰HK_6WangCai_1","server":"cncusouth.procncon.xyz","port":560,"type":"ssr","country":"🇭🇰HK_6WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"6436:tyson.cool941"}
-  - {"name":"🇭🇰HK_13WangCai_1","server":"cusouthcmhk.procncon.xyz","port":562,"type":"ssr","country":"🇭🇰HK_13WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"59022:tyson.cool"}
-  - {"name":"🇭🇰HK_20WangCai_1","server":"shonlinesandcu02.proconcn.xyz","port":561,"type":"ssr","country":"🇭🇰HK_20WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"🇭🇰HK_21WangCai_1","server":"cncusouth.procncon.xyz","port":562,"type":"ssr","country":"🇭🇰HK_21WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"55527:tyson.cool940"}
-  - {"name":"🇭🇰HK_13WangCai_1","server":"cusouthcmhk.procncon.xyz","port":562,"type":"ssr","country":"🇭🇰HK_13WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"6436:tyson.cool941"}
-  - {"name":"🇭🇰HK_10WangCai_1","server":"cusouthcmhk.procncon.xyz","port":560,"type":"ssr","country":"🇭🇰HK_10WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"59022:tyson.cool"}
-  - {"name":"🇭🇰HK_21WangCai_1","server":"cncusouth.procncon.xyz","port":562,"type":"ssr","country":"🇭🇰HK_21WangCai_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"59022:tyson.cool"}
-  - {"name":"🇳🇱-NL-0416节点14:00-26_33","server":"213.183.51.172","port":9070,"type":"ss","country":"🇳🇱-NL-0416节点14:00-26_33","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
-  - {"name":"🇳🇱-NL-0416节点14:00-58_34","server":"213.183.51.172","port":9057,"type":"ss","country":"🇳🇱-NL-0416节点14:00-58_34","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
-  - {"name":"🇳🇱-NL-0416节点14:00-41_35","server":"213.183.51.172","port":9020,"type":"ss","country":"🇳🇱-NL-0416节点14:00-41_35","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
-  - {"name":"🇳🇱-NL-0416节点14:00-15_36","server":"213.183.51.172","port":9073,"type":"ss","country":"🇳🇱-NL-0416节点14:00-15_36","cipher":"aes-256-cfb","password":"daFYagqDdBdA6VTX"}
-  - {"name":"🇳🇱-NL-0416节点14:00-8_37","server":"213.183.51.172","port":9001,"type":"ss","country":"🇳🇱-NL-0416节点14:00-8_37","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
-  - {"name":"S3全解·香港16_MIEPL_","server":"quohvop8.nodeinfo.icu","port":6016,"type":"ssr","country":"S3全解·香港16_MIEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S5香港06_IEPL_","server":"iqu5ujio.nodeinfo.icu","port":7006,"type":"ssr","country":"S5香港06_IEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S5香港07_IEPL_","server":"jaibio5c.nodeinfo.icu","port":7007,"type":"ssr","country":"S5香港07_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S5香港02_MIEPL_","server":"feeco8oo.nodeinfo.icu","port":7002,"type":"ssr","country":"S5香港02_MIEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港01_MIEPL_","server":"phahw1un.nodeinfo.icu","port":6001,"type":"ssr","country":"S3全解·香港01_MIEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港20_IEPL_","server":"ti5mulix.nodeinfo.icu","port":6020,"type":"ssr","country":"S3全解·香港20_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S4全解·香港11_IEPL_","server":"el2ohqua.nodeinfo.icu","port":2111,"type":"ssr","country":"S4全解·香港11_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港24_IEPL_","server":"phahx7xo.nodeinfo.icu","port":3726,"type":"ssr","country":"S3全解·香港24_IEPL_","password":"di15PV","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港06_MIEPL_","server":"iux7shis.nodeinfo.icu","port":6006,"type":"ssr","country":"S3全解·香港06_MIEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港09_IEPL_","server":"eevahb9v.nodeinfo.icu","port":6009,"type":"ssr","country":"S3全解·香港09_IEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港04_MIEPL_","server":"queigh5h.nodeinfo.icu","port":6004,"type":"ssr","country":"S3全解·香港04_MIEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S5香港08_IEPL_","server":"aemoo9wi.nodeinfo.icu","port":7008,"type":"ssr","country":"S5香港08_IEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·新加坡08_IEPL_","server":"eu7aish2.nodeinfo.icu","port":1004,"type":"ssr","country":"S3全解·新加坡08_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港14_MIEPL_","server":"utai3iw1.nodeinfo.icu","port":6014,"type":"ssr","country":"S3全解·香港14_MIEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港13_IEPL_","server":"koo3cuiz.nodeinfo.icu","port":6013,"type":"ssr","country":"S3全解·香港13_IEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港08_IEPL_","server":"ie2ohyai.nodeinfo.icu","port":6008,"type":"ssr","country":"S3全解·香港08_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港17_IEPL_","server":"inu8azei.nodeinfo.icu","port":6017,"type":"ssr","country":"S3全解·香港17_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港15_MIEPL_","server":"phu8iej2.nodeinfo.icu","port":6015,"type":"ssr","country":"S3全解·香港15_MIEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港07_MIEPL_","server":"ac5mahye.nodeinfo.icu","port":6007,"type":"ssr","country":"S3全解·香港07_MIEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港11_IEPL_","server":"aezee4ea.nodeinfo.icu","port":6011,"type":"ssr","country":"S3全解·香港11_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"Super香港游戏01_63","server":"loe5aeno.nodeinfo.icu","port":520,"type":"ssr","country":"Super香港游戏01_63","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港18_IEPL_","server":"vieghei0.nodeinfo.icu","port":6018,"type":"ssr","country":"S3全解·香港18_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港22_IEPL_","server":"aquoh8xi.nodeinfo.icu","port":6022,"type":"ssr","country":"S3全解·香港22_IEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·新加坡05_IEPL_","server":"aebek1oo.nodeinfo.icu","port":1001,"type":"ssr","country":"S3全解·新加坡05_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S4全解·香港12_IEPL_","server":"oohas7ou.nodeinfo.icu","port":2112,"type":"ssr","country":"S4全解·香港12_IEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港02_MIEPL_","server":"ooqu0eep.nodeinfo.icu","port":6002,"type":"ssr","country":"S3全解·香港02_MIEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港03_MIEPL_","server":"wu3gadam.nodeinfo.icu","port":6003,"type":"ssr","country":"S3全解·香港03_MIEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S5香港05_IEPL_","server":"quaex7oo.nodeinfo.icu","port":7005,"type":"ssr","country":"S5香港05_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·新加坡01_IEPL_","server":"aigha5ay.nodeinfo.icu","port":3201,"type":"ssr","country":"S3全解·新加坡01_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·新加坡06_IEPL_","server":"phoo6aem.nodeinfo.icu","port":1002,"type":"ssr","country":"S3全解·新加坡06_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S5台湾01_MIEPL_","server":"ohm9aizu.nodeinfo.icu","port":1122,"type":"ssr","country":"S5台湾01_MIEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·新加坡07_IEPL_","server":"eer9iqu7.nodeinfo.icu","port":1003,"type":"ssr","country":"S3全解·新加坡07_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港10_IEPL_","server":"thoo6foh.nodeinfo.icu","port":6010,"type":"ssr","country":"S3全解·香港10_IEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港05_MIEPL_","server":"keixai3u.nodeinfo.icu","port":6005,"type":"ssr","country":"S3全解·香港05_MIEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S5香港01_MIEPL_","server":"ota2wier.nodeinfo.icu","port":7001,"type":"ssr","country":"S5香港01_MIEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·新加坡02_IEPL_","server":"roog5tee.nodeinfo.icu","port":3202,"type":"ssr","country":"S3全解·新加坡02_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S5日本01_MIEPL_","server":"meiphen0.nodeinfo.icu","port":1126,"type":"ssr","country":"S5日本01_MIEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S4全解·新加坡04_IEPL_","server":"ohg5xoot.nodeinfo.icu","port":2002,"type":"ssr","country":"S4全解·新加坡04_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S5香港04_MIEPL_","server":"vureuva3.nodeinfo.icu","port":7004,"type":"ssr","country":"S5香港04_MIEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·台灣03_MIEPL_","server":"keem9bov.nodeinfo.icu","port":6503,"type":"ssr","country":"S3全解·台灣03_MIEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·日本02_IEPL_","server":"wi6ru6zo.nodeinfo.icu","port":6302,"type":"ssr","country":"S3全解·日本02_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·新加坡04_MIEPL_","server":"ainetu9e.nodeinfo.icu","port":3204,"type":"ssr","country":"S3全解·新加坡04_MIEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·台灣05_IEPL_","server":"eu1she3s.nodeinfo.icu","port":700,"type":"ssr","country":"S3全解·台灣05_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"Super台湾游戏01_86","server":"di0amoxu.nodeinfo.icu","port":11130,"type":"ssr","country":"Super台湾游戏01_86","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·新加坡09_IEPL_","server":"meeku3zi.nodeinfo.icu","port":3209,"type":"ssr","country":"S3全解·新加坡09_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·香港23_IEPL_","server":"shei5eij.nodeinfo.icu","port":3725,"type":"ssr","country":"S3全解·香港23_IEPL_","password":"di15PV","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·日本01_IEPL_","server":"dua4kie5.nodeinfo.icu","port":6301,"type":"ssr","country":"S3全解·日本01_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"S3全解·新加坡12_IEPL_","server":"iephu5so.nodeinfo.icu","port":3212,"type":"ssr","country":"S3全解·新加坡12_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"【V4_Tunnel】香港HKT_91","server":"v4-node20.mimemi-y7ez.com","port":13202,"type":"ssr","country":"【V4_Tunnel】香港HKT_91","password":"mimemi","cipher":"aes-256-ctr","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"9525:QxHsQf","obfs-param":"hk2sch70d9e9525.wns.windows.com"}
-  - {"name":"【V3_Tunnel】香港26HKT_92","server":"v3-node29.mimemi-y7ez.com","port":13139,"type":"ssr","country":"【V3_Tunnel】香港26HKT_92","password":"mimemi","cipher":"aes-256-ctr","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"9525:QxHsQf","obfs-param":"hk2sch70d9e9525.wns.windows.com"}
-  - {"name":"【V2_Tunnel】香港31_5x_93","server":"v2-node23.mimemi-y7ez.com","port":13133,"type":"ssr","country":"【V2_Tunnel】香港31_5x_93","password":"mimemi","cipher":"aes-256-ctr","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"9525:QxHsQf","obfs-param":"hk2sch70d9e9525.wns.windows.com"}
-  - {"name":"【V4_Tunnel】香港iCableA_94","server":"v4-node96.mimemi-y7ez.com","port":13101,"type":"ssr","country":"【V4_Tunnel】香港iCableA_94","password":"mimemi","cipher":"aes-256-ctr","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"9525:QxHsQf","obfs-param":"hk2sch70d9e9525.wns.windows.com"}
-  - {"name":"【V4_Tunnel】香港9HKT_95","server":"v4-node22.mimemi-y7ez.com","port":13126,"type":"ssr","country":"【V4_Tunnel】香港9HKT_95","password":"mimemi","cipher":"aes-256-ctr","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"9525:QxHsQf","obfs-param":"hk2sch70d9e9525.wns.windows.com"}
-  - {"name":"【V3_Tunnel】香港HGCC_96","server":"v3-node13.mimemi-y7ez.com","port":13121,"type":"ssr","country":"【V3_Tunnel】香港HGCC_96","password":"mimemi","cipher":"aes-256-ctr","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"9525:QxHsQf","obfs-param":"hk2sch70d9e9525.wns.windows.com"}
-  - {"name":"🇬🇧-GB-0415-恢复更新_97","server":"152.89.210.84","port":9079,"type":"ss","country":"🇬🇧-GB-0415-恢复更新_97","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
-  - {"name":"🇬🇧-GB-0415-恢复更新_98","server":"152.89.210.84","port":9015,"type":"ss","country":"🇬🇧-GB-0415-恢复更新_98","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
-  - {"name":"🇬🇧-GB-0415-恢复更新_99","server":"152.89.210.84","port":9064,"type":"ss","country":"🇬🇧-GB-0415-恢复更新_99","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
-  - {"name":"🇬🇧-GB-0415-恢复更新_100","server":"152.89.210.84","port":9046,"type":"ss","country":"🇬🇧-GB-0415-恢复更新_100","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
-  - {"name":"🇬🇧-GB-0415-恢复更新_101","server":"152.89.210.84","port":9024,"type":"ss","country":"🇬🇧-GB-0415-恢复更新_101","cipher":"aes-256-cfb","password":"BejrQvtu9sqUeNuZ"}
-  - {"name":"🇭🇰S3全解·香港11_IEPL_","server":"aezee4ea.nodeinfo.icu","port":6011,"type":"ssr","country":"🇭🇰S3全解·香港11_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"🇭🇰S5香港07_IEPL_","server":"jaibio5c.nodeinfo.icu","port":7007,"type":"ssr","country":"🇭🇰S5香港07_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"🇭🇰S3全解·香港13_IEPL_","server":"koo3cuiz.nodeinfo.icu","port":6013,"type":"ssr","country":"🇭🇰S3全解·香港13_IEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"🇭🇰S3全解·香港15_MIEPL_","server":"phu8iej2.nodeinfo.icu","port":6015,"type":"ssr","country":"🇭🇰S3全解·香港15_MIEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"🇭🇰S3全解·香港22_IEPL_","server":"aquoh8xi.nodeinfo.icu","port":6022,"type":"ssr","country":"🇭🇰S3全解·香港22_IEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"🇭🇰S5香港09_IEPL_","server":"aemoo9wi.nodeinfo.icu","port":7008,"type":"ssr","country":"🇭🇰S5香港09_IEPL_","password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"新加坡_R_441","server":"ieplszhk-sz.qqgg.work","port":52306,"type":"ssr","country":"新加坡_R_441","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
-  - {"name":"香港_R_160","server":"iepl-gz.yyuuii.cyou","port":64112,"type":"ssr","country":"香港_R_160","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
-  - {"name":"defaultName_17","server":"iepl-gz.yyuuii.cyou","port":10899,"type":"ssr","country":"defaultName_17","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
-  - {"name":"tgatnfeng6198_122","server":"$*@14.29.124.168","port":25279,"type":"ss","country":"tgatnfeng6198_122","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6195_123","server":"$*@14.29.124.168","port":25286,"type":"ss","country":"tgatnfeng6195_123","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"defaultName_124","server":"$*@14.29.124.168","port":25289,"type":"ss","country":"defaultName_124","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6207_125","server":"$*@14.29.124.168","port":25252,"type":"ss","country":"tgatnfeng6207_125","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"越南_R_377","server":"iepl-gz.yyuuii.cyou","port":10899,"type":"ssr","country":"越南_R_377","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
-  - {"name":"tgatnfeng6195_127","server":"$*@14.29.124.168","port":25286,"type":"ss","country":"tgatnfeng6195_127","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6201_128","server":"$*@14.29.124.168","port":25231,"type":"ss","country":"tgatnfeng6201_128","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6200_129","server":"$*@14.29.124.168","port":25247,"type":"ss","country":"tgatnfeng6200_129","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6198_130","server":"$*@14.29.124.168","port":25279,"type":"ss","country":"tgatnfeng6198_130","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6200_131","server":"$*@14.29.124.168","port":25247,"type":"ss","country":"tgatnfeng6200_131","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"🇨🇳CN18*hi-moon_pw_132","server":"$*@14.29.124.168","port":25247,"type":"ss","country":"🇨🇳CN18*hi-moon_pw_132","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"defaultName_77","server":"iepl-hn01.qqgg.work","port":20399,"type":"ssr","country":"defaultName_77","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
-  - {"name":"tgatnfeng6205_134","server":"$*@14.29.124.168","port":25217,"type":"ss","country":"tgatnfeng6205_134","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6190_135","server":"$*@14.29.124.168","port":25219,"type":"ss","country":"tgatnfeng6190_135","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6192_136","server":"$*@14.29.124.168","port":25283,"type":"ss","country":"tgatnfeng6192_136","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6207_137","server":"$*@14.29.124.168","port":25252,"type":"ss","country":"tgatnfeng6207_137","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"T_04_台湾_中继3_動畫瘋_138","server":"cscu.wecanfly.top","port":51132,"type":"trojan","country":"T_04_台湾_中继3_動畫瘋_138","skip-cert-verify":true,"udp":true,"password":"5eaea1b9-b977-3391-b7cb-370addb40ce2"}
-  - {"name":"tgatnfeng6204_139","server":"$*@14.29.124.168","port":25235,"type":"ss","country":"tgatnfeng6204_139","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6198_140","server":"$*@14.29.124.168","port":25279,"type":"ss","country":"tgatnfeng6198_140","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6196_141","server":"$*@14.29.124.168","port":25238,"type":"ss","country":"tgatnfeng6196_141","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6207_142","server":"$*@14.29.124.168","port":25252,"type":"ss","country":"tgatnfeng6207_142","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6190_143","server":"$*@14.29.124.168","port":25219,"type":"ss","country":"tgatnfeng6190_143","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6192_144","server":"$*@14.29.124.168","port":25283,"type":"ss","country":"tgatnfeng6192_144","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6202_145","server":"$*@14.29.124.168","port":25295,"type":"ss","country":"tgatnfeng6202_145","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6204_146","server":"$*@14.29.124.168","port":25235,"type":"ss","country":"tgatnfeng6204_146","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6197_147","server":"$*@14.29.124.168","port":25218,"type":"ss","country":"tgatnfeng6197_147","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6201_148","server":"$*@14.29.124.168","port":25231,"type":"ss","country":"tgatnfeng6201_148","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"defaultName_18","server":"iepl-hn01.qqgg.work","port":43738,"type":"ssr","country":"defaultName_18","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
-  - {"name":"tgatnfeng6194_150","server":"$*@14.29.124.168","port":25294,"type":"ss","country":"tgatnfeng6194_150","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6191_151","server":"$*@14.29.124.168","port":25296,"type":"ss","country":"tgatnfeng6191_151","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6193_152","server":"$*@14.29.124.168","port":25259,"type":"ss","country":"tgatnfeng6193_152","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6191_153","server":"$*@14.29.124.168","port":25296,"type":"ss","country":"tgatnfeng6191_153","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6208_154","server":"$*@14.29.124.168","port":25210,"type":"ss","country":"tgatnfeng6208_154","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"defaultName_18","server":"iepl-hn01.qqgg.work","port":43738,"type":"ssr","country":"defaultName_18","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
-  - {"name":"tgatnfeng6201_156","server":"$*@14.29.124.168","port":25231,"type":"ss","country":"tgatnfeng6201_156","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6190_157","server":"$*@14.29.124.168","port":25219,"type":"ss","country":"tgatnfeng6190_157","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6193_158","server":"$*@14.29.124.168","port":25259,"type":"ss","country":"tgatnfeng6193_158","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6208_159","server":"$*@14.29.124.168","port":25210,"type":"ss","country":"tgatnfeng6208_159","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6195_160","server":"$*@14.29.124.168","port":25286,"type":"ss","country":"tgatnfeng6195_160","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6197_161","server":"$*@14.29.124.168","port":25218,"type":"ss","country":"tgatnfeng6197_161","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6194_162","server":"$*@14.29.124.168","port":25294,"type":"ss","country":"tgatnfeng6194_162","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"🇨🇳CN19*hi-moon_pw_163","server":"$*@14.29.124.168","port":25219,"type":"ss","country":"🇨🇳CN19*hi-moon_pw_163","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"tgatnfeng6193_165","server":"$*@14.29.124.168","port":25259,"type":"ss","country":"tgatnfeng6193_165","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
-  - {"name":"defaultName_19","server":"ieplszhk-sz.qqgg.work","port":52306,"type":"ssr","country":"defaultName_19","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
-  - {"name":"日本节点(免费)倍率(0倍率不消耗流量)_167","server":"rbmf.speedcncnforward3.tk","port":10004,"type":"trojan","country":"日本节点(免费)倍率(0倍率不消耗流量)_167","skip-cert-verify":true,"udp":true,"password":"eb40a3f4-3b04-4a1c-993d-d71b44fee92c"}
-  - {"name":"defaultName_33","server":"iepl-hn01.qqgg.work","port":21637,"type":"ssr","country":"defaultName_33","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"32381:C2pHyiQfgm","obfs-param":"ajax.microsoft.com"}
-  - {"name":"defaultName_33","server":"iepl-hn01.qqgg.work","port":21637,"type":"ssr","country":"defaultName_33","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"32381:C2pHyiQfgm","obfs-param":"ajax.microsoft.com"}
-  - {"name":"🇭🇰S4全解·香港07_IEPL_","server":"hee4bieh.nodeinfo.icu","port":2107,"type":"ssr","country":"🇭🇰S4全解·香港07_IEPL_","password":"di15PV","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"萨拉热窝b_175","server":"120.232.214.153","port":3223,"type":"ss","country":"萨拉热窝b_175","cipher":"chacha20-ietf-poly1305","password":"638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72"}
-  - {"name":"挪威推荐_177","server":"122.9.54.40","port":3947,"type":"ss","country":"挪威推荐_177","cipher":"chacha20-ietf-poly1305","password":"853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53"}
-  - {"name":"荷兰c_179","server":"122.9.62.16","port":3281,"type":"ss","country":"荷兰c_179","cipher":"chacha20-ietf-poly1305","password":"8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569"}
-  - {"name":"PD+-+挪威+-+奧斯陸+[BGPA]+[SVIP]+[Netflix]+[推薦]_180","server":"122.9.54.40","port":3947,"type":"ss","country":"PD+-+挪威+-+奧斯陸+[BGPA]+[SVIP]+[Netflix]+[推薦]_180","cipher":"chacha20-ietf-poly1305","password":"853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53"}
-  - {"name":"荷兰b_181","server":"122.9.62.6","port":3281,"type":"ss","country":"荷兰b_181","cipher":"chacha20-ietf-poly1305","password":"8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569"}
-  - {"name":"🇷🇺俄罗斯RU75*hi-moon_pw_182","server":"213.183.53.177","port":9005,"type":"ssr","country":"🇷🇺俄罗斯RU75*hi-moon_pw_182","password":"ZET59LF6DvCC8KVt","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇭🇰S4全解·香港05_IEPL_","server":"lia7nosh.nodeinfo.icu","port":2105,"type":"ssr","country":"🇭🇰S4全解·香港05_IEPL_","password":"di15PV","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"T_07_法国_中继2_184","server":"t2.doggogogo.top","port":50207,"type":"trojan","country":"T_07_法国_中继2_184","skip-cert-verify":true,"udp":true,"password":"5eaea1b9-b977-3391-b7cb-370addb40ce2"}
-  - {"name":"T_07_法国_中继3_185","server":"cscu.wecanfly.top","port":50207,"type":"trojan","country":"T_07_法国_中继3_185","skip-cert-verify":true,"udp":true,"password":"5eaea1b9-b977-3391-b7cb-370addb40ce2"}
-  - {"name":"🇭🇰S5香港05_IEPL_","server":"quaex7oo.nodeinfo.icu","port":7005,"type":"ssr","country":"🇭🇰S5香港05_IEPL_","password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"157106:6eAcZ9","obfs-param":"0a63f157106.www.gov.hk"}
-  - {"name":"defaultName_63","server":"jx-002.yyuuii.cyou","port":12021,"type":"ssr","country":"defaultName_63","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
-  - {"name":"tgatnfeng665_188","server":"5.183.179.137","port":9033,"type":"ss","country":"tgatnfeng665_188","cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
-  - {"name":"defaultName_63","server":"jx-002.yyuuii.cyou","port":12021,"type":"ssr","country":"defaultName_63","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
-  - {"name":"萨拉热窝a_190","server":"120.232.214.240","port":3223,"type":"ss","country":"萨拉热窝a_190","cipher":"chacha20-ietf-poly1305","password":"638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72"}
-  - {"name":"defaultName_28","server":"jx-002.yyuuii.cyou","port":10007,"type":"ssr","country":"defaultName_28","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"37380:k4VJ9SyAu3","obfs-param":"ajax.microsoft.com"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_1","server":"213.183.53.177","port":9032,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_1","password":"UWZQeLRWnkqgkseq","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_2","server":"213.183.53.177","port":9088,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_2","password":"f8npKgNzdkss2ytn","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇨🇳_CN_中国->🇺🇦_UA_乌克兰_3","server":"gz2.52168.xyz","port":2110,"type":"ssr","country":"🇨🇳_CN_中国->🇺🇦_UA_乌克兰_3","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_4","server":"213.183.53.177","port":9018,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_4","password":"fG2artUmHfNT2cX7","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇨🇳_CN_中国->🇧🇬_BG_保加利亚_5","server":"gz1.52168.xyz","port":1102,"type":"ssr","country":"🇨🇳_CN_中国->🇧🇬_BG_保加利亚_5","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_6","server":"213.183.53.177","port":9050,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_6","password":"FG5ddLsMPbV5CutE","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_7","server":"213.183.53.177","port":9064,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_7","password":"cp8pRSUAyLhTfVWH","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_8","server":"gz1.52168.xyz","port":1114,"type":"ssr","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_8","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_9","server":"gz1.52168.xyz","port":1112,"type":"ssr","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_9","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"🇨🇳_CN_中国->🇧🇬_BG_保加利亚_10","server":"gz2.52168.xyz","port":2104,"type":"ssr","country":"🇨🇳_CN_中国->🇧🇬_BG_保加利亚_10","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_11","server":"213.183.53.177","port":9008,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_11","password":"y9VURyNzJWNRYEGQ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_12","server":"213.183.53.177","port":9010,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_12","password":"f63gg8EruDnUrmz4","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_13","server":"213.183.53.177","port":9003,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_13","password":"JdmRK9gMEqFgs8nP","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_14","server":"213.183.53.177","port":9014,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_14","password":"KnJGad3FqTvjqbaX","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇨🇦_CA_加拿大_15","server":"134.195.196.184","port":2375,"type":"ss","country":"🇨🇦_CA_加拿大_15","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_16","server":"134.195.196.184","port":5601,"type":"ss","country":"🇨🇦_CA_加拿大_16","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦_CA_加拿大_17","server":"134.195.196.184","port":7307,"type":"ss","country":"🇨🇦_CA_加拿大_17","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_18","server":"134.195.196.184","port":5004,"type":"ss","country":"🇨🇦_CA_加拿大_18","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA_加拿大_19","server":"134.195.196.184","port":8090,"type":"ss","country":"🇨🇦_CA_加拿大_19","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇳_CN_中国->🇩🇪_DE_德国_20","server":"gz2.52168.xyz","port":2101,"type":"ssr","country":"🇨🇳_CN_中国->🇩🇪_DE_德国_20","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName_2
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_2WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_6WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_8WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_14WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇭🇰HK_19WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇳🇱-NL-0416节点14:00-26_33
-      - 🇳🇱-NL-0416节点14:00-58_34
-      - 🇳🇱-NL-0416节点14:00-41_35
-      - 🇳🇱-NL-0416节点14:00-15_36
-      - 🇳🇱-NL-0416节点14:00-8_37
-      - S3全解·香港16_MIEPL_
-      - S5香港06_IEPL_
-      - S5香港07_IEPL_
-      - S5香港02_MIEPL_
-      - S3全解·香港01_MIEPL_
-      - S3全解·香港20_IEPL_
-      - S4全解·香港11_IEPL_
-      - S3全解·香港24_IEPL_
-      - S3全解·香港06_MIEPL_
-      - S3全解·香港09_IEPL_
-      - S3全解·香港04_MIEPL_
-      - S5香港08_IEPL_
-      - S3全解·新加坡08_IEPL_
-      - S3全解·香港14_MIEPL_
-      - S3全解·香港13_IEPL_
-      - S3全解·香港08_IEPL_
-      - S3全解·香港17_IEPL_
-      - S3全解·香港15_MIEPL_
-      - S3全解·香港07_MIEPL_
-      - S3全解·香港11_IEPL_
-      - Super香港游戏01_63
-      - S3全解·香港18_IEPL_
-      - S3全解·香港22_IEPL_
-      - S3全解·新加坡05_IEPL_
-      - S4全解·香港12_IEPL_
-      - S3全解·香港02_MIEPL_
-      - S3全解·香港03_MIEPL_
-      - S5香港05_IEPL_
-      - S3全解·新加坡01_IEPL_
-      - S3全解·新加坡06_IEPL_
-      - S5台湾01_MIEPL_
-      - S3全解·新加坡07_IEPL_
-      - S3全解·香港10_IEPL_
-      - S3全解·香港05_MIEPL_
-      - S5香港01_MIEPL_
-      - S3全解·新加坡02_IEPL_
-      - S5日本01_MIEPL_
-      - S4全解·新加坡04_IEPL_
-      - S5香港04_MIEPL_
-      - S3全解·台灣03_MIEPL_
-      - S3全解·日本02_IEPL_
-      - S3全解·新加坡04_MIEPL_
-      - S3全解·台灣05_IEPL_
-      - Super台湾游戏01_86
-      - S3全解·新加坡09_IEPL_
-      - S3全解·香港23_IEPL_
-      - S3全解·日本01_IEPL_
-      - S3全解·新加坡12_IEPL_
-      - 【V4_Tunnel】香港HKT_91
-      - 【V3_Tunnel】香港26HKT_92
-      - 【V2_Tunnel】香港31_5x_93
-      - 【V4_Tunnel】香港iCableA_94
-      - 【V4_Tunnel】香港9HKT_95
-      - 【V3_Tunnel】香港HGCC_96
-      - 🇬🇧-GB-0415-恢复更新_97
-      - 🇬🇧-GB-0415-恢复更新_98
-      - 🇬🇧-GB-0415-恢复更新_99
-      - 🇬🇧-GB-0415-恢复更新_100
-      - 🇬🇧-GB-0415-恢复更新_101
-      - 🇭🇰S3全解·香港11_IEPL_
-      - 🇭🇰S5香港07_IEPL_
-      - 🇭🇰S3全解·香港13_IEPL_
-      - 🇭🇰S3全解·香港15_MIEPL_
-      - 🇭🇰S3全解·香港22_IEPL_
-      - 🇭🇰S5香港09_IEPL_
-      - 新加坡_R_441
-      - 香港_R_160
-      - defaultName_17
-      - tgatnfeng6198_122
-      - tgatnfeng6195_123
-      - defaultName_124
-      - tgatnfeng6207_125
-      - 越南_R_377
-      - tgatnfeng6195_127
-      - tgatnfeng6201_128
-      - tgatnfeng6200_129
-      - tgatnfeng6198_130
-      - tgatnfeng6200_131
-      - 🇨🇳CN18*hi-moon_pw_132
-      - defaultName_77
-      - tgatnfeng6205_134
-      - tgatnfeng6190_135
-      - tgatnfeng6192_136
-      - tgatnfeng6207_137
-      - T_04_台湾_中继3_動畫瘋_138
-      - tgatnfeng6204_139
-      - tgatnfeng6198_140
-      - tgatnfeng6196_141
-      - tgatnfeng6207_142
-      - tgatnfeng6190_143
-      - tgatnfeng6192_144
-      - tgatnfeng6202_145
-      - tgatnfeng6204_146
-      - tgatnfeng6197_147
-      - tgatnfeng6201_148
-      - defaultName_18
-      - tgatnfeng6194_150
-      - tgatnfeng6191_151
-      - tgatnfeng6193_152
-      - tgatnfeng6191_153
-      - tgatnfeng6208_154
-      - defaultName_18
-      - tgatnfeng6201_156
-      - tgatnfeng6190_157
-      - tgatnfeng6193_158
-      - tgatnfeng6208_159
-      - tgatnfeng6195_160
-      - tgatnfeng6197_161
-      - tgatnfeng6194_162
-      - 🇨🇳CN19*hi-moon_pw_163
-      - tgatnfeng6193_165
-      - defaultName_19
-      - 日本节点(免费)倍率(0倍率不消耗流量)_167
-      - defaultName_33
-      - defaultName_33
-      - 🇭🇰S4全解·香港07_IEPL_
-      - 萨拉热窝b_175
-      - 挪威推荐_177
-      - 荷兰c_179
-      - PD+-+挪威+-+奧斯陸+[BGPA]+[SVIP]+[Netflix]+[推薦]_180
-      - 荷兰b_181
-      - 🇷🇺俄罗斯RU75*hi-moon_pw_182
-      - 🇭🇰S4全解·香港05_IEPL_
-      - T_07_法国_中继2_184
-      - T_07_法国_中继3_185
-      - 🇭🇰S5香港05_IEPL_
-      - defaultName_63
-      - tgatnfeng665_188
-      - defaultName_63
-      - 萨拉热窝a_190
-      - defaultName_28
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰_3
+      - 🇷🇺_RU_俄罗斯联邦_4
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_5
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇷🇺_RU_俄罗斯联邦_12
+      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇷🇺_RU_俄罗斯联邦_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_2
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_2WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_6WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_8WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_14WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇭🇰HK_19WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇳🇱-NL-0416节点14:00-26_33
-      - 🇳🇱-NL-0416节点14:00-58_34
-      - 🇳🇱-NL-0416节点14:00-41_35
-      - 🇳🇱-NL-0416节点14:00-15_36
-      - 🇳🇱-NL-0416节点14:00-8_37
-      - S3全解·香港16_MIEPL_
-      - S5香港06_IEPL_
-      - S5香港07_IEPL_
-      - S5香港02_MIEPL_
-      - S3全解·香港01_MIEPL_
-      - S3全解·香港20_IEPL_
-      - S4全解·香港11_IEPL_
-      - S3全解·香港24_IEPL_
-      - S3全解·香港06_MIEPL_
-      - S3全解·香港09_IEPL_
-      - S3全解·香港04_MIEPL_
-      - S5香港08_IEPL_
-      - S3全解·新加坡08_IEPL_
-      - S3全解·香港14_MIEPL_
-      - S3全解·香港13_IEPL_
-      - S3全解·香港08_IEPL_
-      - S3全解·香港17_IEPL_
-      - S3全解·香港15_MIEPL_
-      - S3全解·香港07_MIEPL_
-      - S3全解·香港11_IEPL_
-      - Super香港游戏01_63
-      - S3全解·香港18_IEPL_
-      - S3全解·香港22_IEPL_
-      - S3全解·新加坡05_IEPL_
-      - S4全解·香港12_IEPL_
-      - S3全解·香港02_MIEPL_
-      - S3全解·香港03_MIEPL_
-      - S5香港05_IEPL_
-      - S3全解·新加坡01_IEPL_
-      - S3全解·新加坡06_IEPL_
-      - S5台湾01_MIEPL_
-      - S3全解·新加坡07_IEPL_
-      - S3全解·香港10_IEPL_
-      - S3全解·香港05_MIEPL_
-      - S5香港01_MIEPL_
-      - S3全解·新加坡02_IEPL_
-      - S5日本01_MIEPL_
-      - S4全解·新加坡04_IEPL_
-      - S5香港04_MIEPL_
-      - S3全解·台灣03_MIEPL_
-      - S3全解·日本02_IEPL_
-      - S3全解·新加坡04_MIEPL_
-      - S3全解·台灣05_IEPL_
-      - Super台湾游戏01_86
-      - S3全解·新加坡09_IEPL_
-      - S3全解·香港23_IEPL_
-      - S3全解·日本01_IEPL_
-      - S3全解·新加坡12_IEPL_
-      - 【V4_Tunnel】香港HKT_91
-      - 【V3_Tunnel】香港26HKT_92
-      - 【V2_Tunnel】香港31_5x_93
-      - 【V4_Tunnel】香港iCableA_94
-      - 【V4_Tunnel】香港9HKT_95
-      - 【V3_Tunnel】香港HGCC_96
-      - 🇬🇧-GB-0415-恢复更新_97
-      - 🇬🇧-GB-0415-恢复更新_98
-      - 🇬🇧-GB-0415-恢复更新_99
-      - 🇬🇧-GB-0415-恢复更新_100
-      - 🇬🇧-GB-0415-恢复更新_101
-      - 🇭🇰S3全解·香港11_IEPL_
-      - 🇭🇰S5香港07_IEPL_
-      - 🇭🇰S3全解·香港13_IEPL_
-      - 🇭🇰S3全解·香港15_MIEPL_
-      - 🇭🇰S3全解·香港22_IEPL_
-      - 🇭🇰S5香港09_IEPL_
-      - 新加坡_R_441
-      - 香港_R_160
-      - defaultName_17
-      - tgatnfeng6198_122
-      - tgatnfeng6195_123
-      - defaultName_124
-      - tgatnfeng6207_125
-      - 越南_R_377
-      - tgatnfeng6195_127
-      - tgatnfeng6201_128
-      - tgatnfeng6200_129
-      - tgatnfeng6198_130
-      - tgatnfeng6200_131
-      - 🇨🇳CN18*hi-moon_pw_132
-      - defaultName_77
-      - tgatnfeng6205_134
-      - tgatnfeng6190_135
-      - tgatnfeng6192_136
-      - tgatnfeng6207_137
-      - T_04_台湾_中继3_動畫瘋_138
-      - tgatnfeng6204_139
-      - tgatnfeng6198_140
-      - tgatnfeng6196_141
-      - tgatnfeng6207_142
-      - tgatnfeng6190_143
-      - tgatnfeng6192_144
-      - tgatnfeng6202_145
-      - tgatnfeng6204_146
-      - tgatnfeng6197_147
-      - tgatnfeng6201_148
-      - defaultName_18
-      - tgatnfeng6194_150
-      - tgatnfeng6191_151
-      - tgatnfeng6193_152
-      - tgatnfeng6191_153
-      - tgatnfeng6208_154
-      - defaultName_18
-      - tgatnfeng6201_156
-      - tgatnfeng6190_157
-      - tgatnfeng6193_158
-      - tgatnfeng6208_159
-      - tgatnfeng6195_160
-      - tgatnfeng6197_161
-      - tgatnfeng6194_162
-      - 🇨🇳CN19*hi-moon_pw_163
-      - tgatnfeng6193_165
-      - defaultName_19
-      - 日本节点(免费)倍率(0倍率不消耗流量)_167
-      - defaultName_33
-      - defaultName_33
-      - 🇭🇰S4全解·香港07_IEPL_
-      - 萨拉热窝b_175
-      - 挪威推荐_177
-      - 荷兰c_179
-      - PD+-+挪威+-+奧斯陸+[BGPA]+[SVIP]+[Netflix]+[推薦]_180
-      - 荷兰b_181
-      - 🇷🇺俄罗斯RU75*hi-moon_pw_182
-      - 🇭🇰S4全解·香港05_IEPL_
-      - T_07_法国_中继2_184
-      - T_07_法国_中继3_185
-      - 🇭🇰S5香港05_IEPL_
-      - defaultName_63
-      - tgatnfeng665_188
-      - defaultName_63
-      - 萨拉热窝a_190
-      - defaultName_28
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰_3
+      - 🇷🇺_RU_俄罗斯联邦_4
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_5
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇷🇺_RU_俄罗斯联邦_12
+      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇷🇺_RU_俄罗斯联邦_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_20
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName_2
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_2WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_6WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_8WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_14WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇭🇰HK_19WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇳🇱-NL-0416节点14:00-26_33
-      - 🇳🇱-NL-0416节点14:00-58_34
-      - 🇳🇱-NL-0416节点14:00-41_35
-      - 🇳🇱-NL-0416节点14:00-15_36
-      - 🇳🇱-NL-0416节点14:00-8_37
-      - S3全解·香港16_MIEPL_
-      - S5香港06_IEPL_
-      - S5香港07_IEPL_
-      - S5香港02_MIEPL_
-      - S3全解·香港01_MIEPL_
-      - S3全解·香港20_IEPL_
-      - S4全解·香港11_IEPL_
-      - S3全解·香港24_IEPL_
-      - S3全解·香港06_MIEPL_
-      - S3全解·香港09_IEPL_
-      - S3全解·香港04_MIEPL_
-      - S5香港08_IEPL_
-      - S3全解·新加坡08_IEPL_
-      - S3全解·香港14_MIEPL_
-      - S3全解·香港13_IEPL_
-      - S3全解·香港08_IEPL_
-      - S3全解·香港17_IEPL_
-      - S3全解·香港15_MIEPL_
-      - S3全解·香港07_MIEPL_
-      - S3全解·香港11_IEPL_
-      - Super香港游戏01_63
-      - S3全解·香港18_IEPL_
-      - S3全解·香港22_IEPL_
-      - S3全解·新加坡05_IEPL_
-      - S4全解·香港12_IEPL_
-      - S3全解·香港02_MIEPL_
-      - S3全解·香港03_MIEPL_
-      - S5香港05_IEPL_
-      - S3全解·新加坡01_IEPL_
-      - S3全解·新加坡06_IEPL_
-      - S5台湾01_MIEPL_
-      - S3全解·新加坡07_IEPL_
-      - S3全解·香港10_IEPL_
-      - S3全解·香港05_MIEPL_
-      - S5香港01_MIEPL_
-      - S3全解·新加坡02_IEPL_
-      - S5日本01_MIEPL_
-      - S4全解·新加坡04_IEPL_
-      - S5香港04_MIEPL_
-      - S3全解·台灣03_MIEPL_
-      - S3全解·日本02_IEPL_
-      - S3全解·新加坡04_MIEPL_
-      - S3全解·台灣05_IEPL_
-      - Super台湾游戏01_86
-      - S3全解·新加坡09_IEPL_
-      - S3全解·香港23_IEPL_
-      - S3全解·日本01_IEPL_
-      - S3全解·新加坡12_IEPL_
-      - 【V4_Tunnel】香港HKT_91
-      - 【V3_Tunnel】香港26HKT_92
-      - 【V2_Tunnel】香港31_5x_93
-      - 【V4_Tunnel】香港iCableA_94
-      - 【V4_Tunnel】香港9HKT_95
-      - 【V3_Tunnel】香港HGCC_96
-      - 🇬🇧-GB-0415-恢复更新_97
-      - 🇬🇧-GB-0415-恢复更新_98
-      - 🇬🇧-GB-0415-恢复更新_99
-      - 🇬🇧-GB-0415-恢复更新_100
-      - 🇬🇧-GB-0415-恢复更新_101
-      - 🇭🇰S3全解·香港11_IEPL_
-      - 🇭🇰S5香港07_IEPL_
-      - 🇭🇰S3全解·香港13_IEPL_
-      - 🇭🇰S3全解·香港15_MIEPL_
-      - 🇭🇰S3全解·香港22_IEPL_
-      - 🇭🇰S5香港09_IEPL_
-      - 新加坡_R_441
-      - 香港_R_160
-      - defaultName_17
-      - tgatnfeng6198_122
-      - tgatnfeng6195_123
-      - defaultName_124
-      - tgatnfeng6207_125
-      - 越南_R_377
-      - tgatnfeng6195_127
-      - tgatnfeng6201_128
-      - tgatnfeng6200_129
-      - tgatnfeng6198_130
-      - tgatnfeng6200_131
-      - 🇨🇳CN18*hi-moon_pw_132
-      - defaultName_77
-      - tgatnfeng6205_134
-      - tgatnfeng6190_135
-      - tgatnfeng6192_136
-      - tgatnfeng6207_137
-      - T_04_台湾_中继3_動畫瘋_138
-      - tgatnfeng6204_139
-      - tgatnfeng6198_140
-      - tgatnfeng6196_141
-      - tgatnfeng6207_142
-      - tgatnfeng6190_143
-      - tgatnfeng6192_144
-      - tgatnfeng6202_145
-      - tgatnfeng6204_146
-      - tgatnfeng6197_147
-      - tgatnfeng6201_148
-      - defaultName_18
-      - tgatnfeng6194_150
-      - tgatnfeng6191_151
-      - tgatnfeng6193_152
-      - tgatnfeng6191_153
-      - tgatnfeng6208_154
-      - defaultName_18
-      - tgatnfeng6201_156
-      - tgatnfeng6190_157
-      - tgatnfeng6193_158
-      - tgatnfeng6208_159
-      - tgatnfeng6195_160
-      - tgatnfeng6197_161
-      - tgatnfeng6194_162
-      - 🇨🇳CN19*hi-moon_pw_163
-      - tgatnfeng6193_165
-      - defaultName_19
-      - 日本节点(免费)倍率(0倍率不消耗流量)_167
-      - defaultName_33
-      - defaultName_33
-      - 🇭🇰S4全解·香港07_IEPL_
-      - 萨拉热窝b_175
-      - 挪威推荐_177
-      - 荷兰c_179
-      - PD+-+挪威+-+奧斯陸+[BGPA]+[SVIP]+[Netflix]+[推薦]_180
-      - 荷兰b_181
-      - 🇷🇺俄罗斯RU75*hi-moon_pw_182
-      - 🇭🇰S4全解·香港05_IEPL_
-      - T_07_法国_中继2_184
-      - T_07_法国_中继3_185
-      - 🇭🇰S5香港05_IEPL_
-      - defaultName_63
-      - tgatnfeng665_188
-      - defaultName_63
-      - 萨拉热窝a_190
-      - defaultName_28
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰_3
+      - 🇷🇺_RU_俄罗斯联邦_4
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_5
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇷🇺_RU_俄罗斯联邦_12
+      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇷🇺_RU_俄罗斯联邦_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_2
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_2WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_6WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_8WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_14WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇭🇰HK_19WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇳🇱-NL-0416节点14:00-26_33
-      - 🇳🇱-NL-0416节点14:00-58_34
-      - 🇳🇱-NL-0416节点14:00-41_35
-      - 🇳🇱-NL-0416节点14:00-15_36
-      - 🇳🇱-NL-0416节点14:00-8_37
-      - S3全解·香港16_MIEPL_
-      - S5香港06_IEPL_
-      - S5香港07_IEPL_
-      - S5香港02_MIEPL_
-      - S3全解·香港01_MIEPL_
-      - S3全解·香港20_IEPL_
-      - S4全解·香港11_IEPL_
-      - S3全解·香港24_IEPL_
-      - S3全解·香港06_MIEPL_
-      - S3全解·香港09_IEPL_
-      - S3全解·香港04_MIEPL_
-      - S5香港08_IEPL_
-      - S3全解·新加坡08_IEPL_
-      - S3全解·香港14_MIEPL_
-      - S3全解·香港13_IEPL_
-      - S3全解·香港08_IEPL_
-      - S3全解·香港17_IEPL_
-      - S3全解·香港15_MIEPL_
-      - S3全解·香港07_MIEPL_
-      - S3全解·香港11_IEPL_
-      - Super香港游戏01_63
-      - S3全解·香港18_IEPL_
-      - S3全解·香港22_IEPL_
-      - S3全解·新加坡05_IEPL_
-      - S4全解·香港12_IEPL_
-      - S3全解·香港02_MIEPL_
-      - S3全解·香港03_MIEPL_
-      - S5香港05_IEPL_
-      - S3全解·新加坡01_IEPL_
-      - S3全解·新加坡06_IEPL_
-      - S5台湾01_MIEPL_
-      - S3全解·新加坡07_IEPL_
-      - S3全解·香港10_IEPL_
-      - S3全解·香港05_MIEPL_
-      - S5香港01_MIEPL_
-      - S3全解·新加坡02_IEPL_
-      - S5日本01_MIEPL_
-      - S4全解·新加坡04_IEPL_
-      - S5香港04_MIEPL_
-      - S3全解·台灣03_MIEPL_
-      - S3全解·日本02_IEPL_
-      - S3全解·新加坡04_MIEPL_
-      - S3全解·台灣05_IEPL_
-      - Super台湾游戏01_86
-      - S3全解·新加坡09_IEPL_
-      - S3全解·香港23_IEPL_
-      - S3全解·日本01_IEPL_
-      - S3全解·新加坡12_IEPL_
-      - 【V4_Tunnel】香港HKT_91
-      - 【V3_Tunnel】香港26HKT_92
-      - 【V2_Tunnel】香港31_5x_93
-      - 【V4_Tunnel】香港iCableA_94
-      - 【V4_Tunnel】香港9HKT_95
-      - 【V3_Tunnel】香港HGCC_96
-      - 🇬🇧-GB-0415-恢复更新_97
-      - 🇬🇧-GB-0415-恢复更新_98
-      - 🇬🇧-GB-0415-恢复更新_99
-      - 🇬🇧-GB-0415-恢复更新_100
-      - 🇬🇧-GB-0415-恢复更新_101
-      - 🇭🇰S3全解·香港11_IEPL_
-      - 🇭🇰S5香港07_IEPL_
-      - 🇭🇰S3全解·香港13_IEPL_
-      - 🇭🇰S3全解·香港15_MIEPL_
-      - 🇭🇰S3全解·香港22_IEPL_
-      - 🇭🇰S5香港09_IEPL_
-      - 新加坡_R_441
-      - 香港_R_160
-      - defaultName_17
-      - tgatnfeng6198_122
-      - tgatnfeng6195_123
-      - defaultName_124
-      - tgatnfeng6207_125
-      - 越南_R_377
-      - tgatnfeng6195_127
-      - tgatnfeng6201_128
-      - tgatnfeng6200_129
-      - tgatnfeng6198_130
-      - tgatnfeng6200_131
-      - 🇨🇳CN18*hi-moon_pw_132
-      - defaultName_77
-      - tgatnfeng6205_134
-      - tgatnfeng6190_135
-      - tgatnfeng6192_136
-      - tgatnfeng6207_137
-      - T_04_台湾_中继3_動畫瘋_138
-      - tgatnfeng6204_139
-      - tgatnfeng6198_140
-      - tgatnfeng6196_141
-      - tgatnfeng6207_142
-      - tgatnfeng6190_143
-      - tgatnfeng6192_144
-      - tgatnfeng6202_145
-      - tgatnfeng6204_146
-      - tgatnfeng6197_147
-      - tgatnfeng6201_148
-      - defaultName_18
-      - tgatnfeng6194_150
-      - tgatnfeng6191_151
-      - tgatnfeng6193_152
-      - tgatnfeng6191_153
-      - tgatnfeng6208_154
-      - defaultName_18
-      - tgatnfeng6201_156
-      - tgatnfeng6190_157
-      - tgatnfeng6193_158
-      - tgatnfeng6208_159
-      - tgatnfeng6195_160
-      - tgatnfeng6197_161
-      - tgatnfeng6194_162
-      - 🇨🇳CN19*hi-moon_pw_163
-      - tgatnfeng6193_165
-      - defaultName_19
-      - 日本节点(免费)倍率(0倍率不消耗流量)_167
-      - defaultName_33
-      - defaultName_33
-      - 🇭🇰S4全解·香港07_IEPL_
-      - 萨拉热窝b_175
-      - 挪威推荐_177
-      - 荷兰c_179
-      - PD+-+挪威+-+奧斯陸+[BGPA]+[SVIP]+[Netflix]+[推薦]_180
-      - 荷兰b_181
-      - 🇷🇺俄罗斯RU75*hi-moon_pw_182
-      - 🇭🇰S4全解·香港05_IEPL_
-      - T_07_法国_中继2_184
-      - T_07_法国_中继3_185
-      - 🇭🇰S5香港05_IEPL_
-      - defaultName_63
-      - tgatnfeng665_188
-      - defaultName_63
-      - 萨拉热窝a_190
-      - defaultName_28
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰_3
+      - 🇷🇺_RU_俄罗斯联邦_4
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_5
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇷🇺_RU_俄罗斯联邦_12
+      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇷🇺_RU_俄罗斯联邦_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_20
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName_2
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_2WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_6WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_8WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_14WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇭🇰HK_19WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇳🇱-NL-0416节点14:00-26_33
-      - 🇳🇱-NL-0416节点14:00-58_34
-      - 🇳🇱-NL-0416节点14:00-41_35
-      - 🇳🇱-NL-0416节点14:00-15_36
-      - 🇳🇱-NL-0416节点14:00-8_37
-      - S3全解·香港16_MIEPL_
-      - S5香港06_IEPL_
-      - S5香港07_IEPL_
-      - S5香港02_MIEPL_
-      - S3全解·香港01_MIEPL_
-      - S3全解·香港20_IEPL_
-      - S4全解·香港11_IEPL_
-      - S3全解·香港24_IEPL_
-      - S3全解·香港06_MIEPL_
-      - S3全解·香港09_IEPL_
-      - S3全解·香港04_MIEPL_
-      - S5香港08_IEPL_
-      - S3全解·新加坡08_IEPL_
-      - S3全解·香港14_MIEPL_
-      - S3全解·香港13_IEPL_
-      - S3全解·香港08_IEPL_
-      - S3全解·香港17_IEPL_
-      - S3全解·香港15_MIEPL_
-      - S3全解·香港07_MIEPL_
-      - S3全解·香港11_IEPL_
-      - Super香港游戏01_63
-      - S3全解·香港18_IEPL_
-      - S3全解·香港22_IEPL_
-      - S3全解·新加坡05_IEPL_
-      - S4全解·香港12_IEPL_
-      - S3全解·香港02_MIEPL_
-      - S3全解·香港03_MIEPL_
-      - S5香港05_IEPL_
-      - S3全解·新加坡01_IEPL_
-      - S3全解·新加坡06_IEPL_
-      - S5台湾01_MIEPL_
-      - S3全解·新加坡07_IEPL_
-      - S3全解·香港10_IEPL_
-      - S3全解·香港05_MIEPL_
-      - S5香港01_MIEPL_
-      - S3全解·新加坡02_IEPL_
-      - S5日本01_MIEPL_
-      - S4全解·新加坡04_IEPL_
-      - S5香港04_MIEPL_
-      - S3全解·台灣03_MIEPL_
-      - S3全解·日本02_IEPL_
-      - S3全解·新加坡04_MIEPL_
-      - S3全解·台灣05_IEPL_
-      - Super台湾游戏01_86
-      - S3全解·新加坡09_IEPL_
-      - S3全解·香港23_IEPL_
-      - S3全解·日本01_IEPL_
-      - S3全解·新加坡12_IEPL_
-      - 【V4_Tunnel】香港HKT_91
-      - 【V3_Tunnel】香港26HKT_92
-      - 【V2_Tunnel】香港31_5x_93
-      - 【V4_Tunnel】香港iCableA_94
-      - 【V4_Tunnel】香港9HKT_95
-      - 【V3_Tunnel】香港HGCC_96
-      - 🇬🇧-GB-0415-恢复更新_97
-      - 🇬🇧-GB-0415-恢复更新_98
-      - 🇬🇧-GB-0415-恢复更新_99
-      - 🇬🇧-GB-0415-恢复更新_100
-      - 🇬🇧-GB-0415-恢复更新_101
-      - 🇭🇰S3全解·香港11_IEPL_
-      - 🇭🇰S5香港07_IEPL_
-      - 🇭🇰S3全解·香港13_IEPL_
-      - 🇭🇰S3全解·香港15_MIEPL_
-      - 🇭🇰S3全解·香港22_IEPL_
-      - 🇭🇰S5香港09_IEPL_
-      - 新加坡_R_441
-      - 香港_R_160
-      - defaultName_17
-      - tgatnfeng6198_122
-      - tgatnfeng6195_123
-      - defaultName_124
-      - tgatnfeng6207_125
-      - 越南_R_377
-      - tgatnfeng6195_127
-      - tgatnfeng6201_128
-      - tgatnfeng6200_129
-      - tgatnfeng6198_130
-      - tgatnfeng6200_131
-      - 🇨🇳CN18*hi-moon_pw_132
-      - defaultName_77
-      - tgatnfeng6205_134
-      - tgatnfeng6190_135
-      - tgatnfeng6192_136
-      - tgatnfeng6207_137
-      - T_04_台湾_中继3_動畫瘋_138
-      - tgatnfeng6204_139
-      - tgatnfeng6198_140
-      - tgatnfeng6196_141
-      - tgatnfeng6207_142
-      - tgatnfeng6190_143
-      - tgatnfeng6192_144
-      - tgatnfeng6202_145
-      - tgatnfeng6204_146
-      - tgatnfeng6197_147
-      - tgatnfeng6201_148
-      - defaultName_18
-      - tgatnfeng6194_150
-      - tgatnfeng6191_151
-      - tgatnfeng6193_152
-      - tgatnfeng6191_153
-      - tgatnfeng6208_154
-      - defaultName_18
-      - tgatnfeng6201_156
-      - tgatnfeng6190_157
-      - tgatnfeng6193_158
-      - tgatnfeng6208_159
-      - tgatnfeng6195_160
-      - tgatnfeng6197_161
-      - tgatnfeng6194_162
-      - 🇨🇳CN19*hi-moon_pw_163
-      - tgatnfeng6193_165
-      - defaultName_19
-      - 日本节点(免费)倍率(0倍率不消耗流量)_167
-      - defaultName_33
-      - defaultName_33
-      - 🇭🇰S4全解·香港07_IEPL_
-      - 萨拉热窝b_175
-      - 挪威推荐_177
-      - 荷兰c_179
-      - PD+-+挪威+-+奧斯陸+[BGPA]+[SVIP]+[Netflix]+[推薦]_180
-      - 荷兰b_181
-      - 🇷🇺俄罗斯RU75*hi-moon_pw_182
-      - 🇭🇰S4全解·香港05_IEPL_
-      - T_07_法国_中继2_184
-      - T_07_法国_中继3_185
-      - 🇭🇰S5香港05_IEPL_
-      - defaultName_63
-      - tgatnfeng665_188
-      - defaultName_63
-      - 萨拉热窝a_190
-      - defaultName_28
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰_3
+      - 🇷🇺_RU_俄罗斯联邦_4
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_5
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇷🇺_RU_俄罗斯联邦_12
+      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇷🇺_RU_俄罗斯联邦_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_2
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_2WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_6WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_8WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_14WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇭🇰HK_19WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇳🇱-NL-0416节点14:00-26_33
-      - 🇳🇱-NL-0416节点14:00-58_34
-      - 🇳🇱-NL-0416节点14:00-41_35
-      - 🇳🇱-NL-0416节点14:00-15_36
-      - 🇳🇱-NL-0416节点14:00-8_37
-      - S3全解·香港16_MIEPL_
-      - S5香港06_IEPL_
-      - S5香港07_IEPL_
-      - S5香港02_MIEPL_
-      - S3全解·香港01_MIEPL_
-      - S3全解·香港20_IEPL_
-      - S4全解·香港11_IEPL_
-      - S3全解·香港24_IEPL_
-      - S3全解·香港06_MIEPL_
-      - S3全解·香港09_IEPL_
-      - S3全解·香港04_MIEPL_
-      - S5香港08_IEPL_
-      - S3全解·新加坡08_IEPL_
-      - S3全解·香港14_MIEPL_
-      - S3全解·香港13_IEPL_
-      - S3全解·香港08_IEPL_
-      - S3全解·香港17_IEPL_
-      - S3全解·香港15_MIEPL_
-      - S3全解·香港07_MIEPL_
-      - S3全解·香港11_IEPL_
-      - Super香港游戏01_63
-      - S3全解·香港18_IEPL_
-      - S3全解·香港22_IEPL_
-      - S3全解·新加坡05_IEPL_
-      - S4全解·香港12_IEPL_
-      - S3全解·香港02_MIEPL_
-      - S3全解·香港03_MIEPL_
-      - S5香港05_IEPL_
-      - S3全解·新加坡01_IEPL_
-      - S3全解·新加坡06_IEPL_
-      - S5台湾01_MIEPL_
-      - S3全解·新加坡07_IEPL_
-      - S3全解·香港10_IEPL_
-      - S3全解·香港05_MIEPL_
-      - S5香港01_MIEPL_
-      - S3全解·新加坡02_IEPL_
-      - S5日本01_MIEPL_
-      - S4全解·新加坡04_IEPL_
-      - S5香港04_MIEPL_
-      - S3全解·台灣03_MIEPL_
-      - S3全解·日本02_IEPL_
-      - S3全解·新加坡04_MIEPL_
-      - S3全解·台灣05_IEPL_
-      - Super台湾游戏01_86
-      - S3全解·新加坡09_IEPL_
-      - S3全解·香港23_IEPL_
-      - S3全解·日本01_IEPL_
-      - S3全解·新加坡12_IEPL_
-      - 【V4_Tunnel】香港HKT_91
-      - 【V3_Tunnel】香港26HKT_92
-      - 【V2_Tunnel】香港31_5x_93
-      - 【V4_Tunnel】香港iCableA_94
-      - 【V4_Tunnel】香港9HKT_95
-      - 【V3_Tunnel】香港HGCC_96
-      - 🇬🇧-GB-0415-恢复更新_97
-      - 🇬🇧-GB-0415-恢复更新_98
-      - 🇬🇧-GB-0415-恢复更新_99
-      - 🇬🇧-GB-0415-恢复更新_100
-      - 🇬🇧-GB-0415-恢复更新_101
-      - 🇭🇰S3全解·香港11_IEPL_
-      - 🇭🇰S5香港07_IEPL_
-      - 🇭🇰S3全解·香港13_IEPL_
-      - 🇭🇰S3全解·香港15_MIEPL_
-      - 🇭🇰S3全解·香港22_IEPL_
-      - 🇭🇰S5香港09_IEPL_
-      - 新加坡_R_441
-      - 香港_R_160
-      - defaultName_17
-      - tgatnfeng6198_122
-      - tgatnfeng6195_123
-      - defaultName_124
-      - tgatnfeng6207_125
-      - 越南_R_377
-      - tgatnfeng6195_127
-      - tgatnfeng6201_128
-      - tgatnfeng6200_129
-      - tgatnfeng6198_130
-      - tgatnfeng6200_131
-      - 🇨🇳CN18*hi-moon_pw_132
-      - defaultName_77
-      - tgatnfeng6205_134
-      - tgatnfeng6190_135
-      - tgatnfeng6192_136
-      - tgatnfeng6207_137
-      - T_04_台湾_中继3_動畫瘋_138
-      - tgatnfeng6204_139
-      - tgatnfeng6198_140
-      - tgatnfeng6196_141
-      - tgatnfeng6207_142
-      - tgatnfeng6190_143
-      - tgatnfeng6192_144
-      - tgatnfeng6202_145
-      - tgatnfeng6204_146
-      - tgatnfeng6197_147
-      - tgatnfeng6201_148
-      - defaultName_18
-      - tgatnfeng6194_150
-      - tgatnfeng6191_151
-      - tgatnfeng6193_152
-      - tgatnfeng6191_153
-      - tgatnfeng6208_154
-      - defaultName_18
-      - tgatnfeng6201_156
-      - tgatnfeng6190_157
-      - tgatnfeng6193_158
-      - tgatnfeng6208_159
-      - tgatnfeng6195_160
-      - tgatnfeng6197_161
-      - tgatnfeng6194_162
-      - 🇨🇳CN19*hi-moon_pw_163
-      - tgatnfeng6193_165
-      - defaultName_19
-      - 日本节点(免费)倍率(0倍率不消耗流量)_167
-      - defaultName_33
-      - defaultName_33
-      - 🇭🇰S4全解·香港07_IEPL_
-      - 萨拉热窝b_175
-      - 挪威推荐_177
-      - 荷兰c_179
-      - PD+-+挪威+-+奧斯陸+[BGPA]+[SVIP]+[Netflix]+[推薦]_180
-      - 荷兰b_181
-      - 🇷🇺俄罗斯RU75*hi-moon_pw_182
-      - 🇭🇰S4全解·香港05_IEPL_
-      - T_07_法国_中继2_184
-      - T_07_法国_中继3_185
-      - 🇭🇰S5香港05_IEPL_
-      - defaultName_63
-      - tgatnfeng665_188
-      - defaultName_63
-      - 萨拉热窝a_190
-      - defaultName_28
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰_3
+      - 🇷🇺_RU_俄罗斯联邦_4
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_5
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇷🇺_RU_俄罗斯联邦_12
+      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇷🇺_RU_俄罗斯联邦_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1229,173 +200,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName_2
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇨🇳TW_2WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇨🇳TW_3WangCai_1
-      - 🇨🇳TW_6WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_8WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_14WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇨🇳TW_4WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇨🇳TW_5WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_9WangCai_1
-      - 🇭🇰HK_19WangCai_1
-      - 🇨🇳TW_1WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_6WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_20WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇭🇰HK_13WangCai_1
-      - 🇭🇰HK_10WangCai_1
-      - 🇭🇰HK_21WangCai_1
-      - 🇳🇱-NL-0416节点14:00-26_33
-      - 🇳🇱-NL-0416节点14:00-58_34
-      - 🇳🇱-NL-0416节点14:00-41_35
-      - 🇳🇱-NL-0416节点14:00-15_36
-      - 🇳🇱-NL-0416节点14:00-8_37
-      - S3全解·香港16_MIEPL_
-      - S5香港06_IEPL_
-      - S5香港07_IEPL_
-      - S5香港02_MIEPL_
-      - S3全解·香港01_MIEPL_
-      - S3全解·香港20_IEPL_
-      - S4全解·香港11_IEPL_
-      - S3全解·香港24_IEPL_
-      - S3全解·香港06_MIEPL_
-      - S3全解·香港09_IEPL_
-      - S3全解·香港04_MIEPL_
-      - S5香港08_IEPL_
-      - S3全解·新加坡08_IEPL_
-      - S3全解·香港14_MIEPL_
-      - S3全解·香港13_IEPL_
-      - S3全解·香港08_IEPL_
-      - S3全解·香港17_IEPL_
-      - S3全解·香港15_MIEPL_
-      - S3全解·香港07_MIEPL_
-      - S3全解·香港11_IEPL_
-      - Super香港游戏01_63
-      - S3全解·香港18_IEPL_
-      - S3全解·香港22_IEPL_
-      - S3全解·新加坡05_IEPL_
-      - S4全解·香港12_IEPL_
-      - S3全解·香港02_MIEPL_
-      - S3全解·香港03_MIEPL_
-      - S5香港05_IEPL_
-      - S3全解·新加坡01_IEPL_
-      - S3全解·新加坡06_IEPL_
-      - S5台湾01_MIEPL_
-      - S3全解·新加坡07_IEPL_
-      - S3全解·香港10_IEPL_
-      - S3全解·香港05_MIEPL_
-      - S5香港01_MIEPL_
-      - S3全解·新加坡02_IEPL_
-      - S5日本01_MIEPL_
-      - S4全解·新加坡04_IEPL_
-      - S5香港04_MIEPL_
-      - S3全解·台灣03_MIEPL_
-      - S3全解·日本02_IEPL_
-      - S3全解·新加坡04_MIEPL_
-      - S3全解·台灣05_IEPL_
-      - Super台湾游戏01_86
-      - S3全解·新加坡09_IEPL_
-      - S3全解·香港23_IEPL_
-      - S3全解·日本01_IEPL_
-      - S3全解·新加坡12_IEPL_
-      - 【V4_Tunnel】香港HKT_91
-      - 【V3_Tunnel】香港26HKT_92
-      - 【V2_Tunnel】香港31_5x_93
-      - 【V4_Tunnel】香港iCableA_94
-      - 【V4_Tunnel】香港9HKT_95
-      - 【V3_Tunnel】香港HGCC_96
-      - 🇬🇧-GB-0415-恢复更新_97
-      - 🇬🇧-GB-0415-恢复更新_98
-      - 🇬🇧-GB-0415-恢复更新_99
-      - 🇬🇧-GB-0415-恢复更新_100
-      - 🇬🇧-GB-0415-恢复更新_101
-      - 🇭🇰S3全解·香港11_IEPL_
-      - 🇭🇰S5香港07_IEPL_
-      - 🇭🇰S3全解·香港13_IEPL_
-      - 🇭🇰S3全解·香港15_MIEPL_
-      - 🇭🇰S3全解·香港22_IEPL_
-      - 🇭🇰S5香港09_IEPL_
-      - 新加坡_R_441
-      - 香港_R_160
-      - defaultName_17
-      - tgatnfeng6198_122
-      - tgatnfeng6195_123
-      - defaultName_124
-      - tgatnfeng6207_125
-      - 越南_R_377
-      - tgatnfeng6195_127
-      - tgatnfeng6201_128
-      - tgatnfeng6200_129
-      - tgatnfeng6198_130
-      - tgatnfeng6200_131
-      - 🇨🇳CN18*hi-moon_pw_132
-      - defaultName_77
-      - tgatnfeng6205_134
-      - tgatnfeng6190_135
-      - tgatnfeng6192_136
-      - tgatnfeng6207_137
-      - T_04_台湾_中继3_動畫瘋_138
-      - tgatnfeng6204_139
-      - tgatnfeng6198_140
-      - tgatnfeng6196_141
-      - tgatnfeng6207_142
-      - tgatnfeng6190_143
-      - tgatnfeng6192_144
-      - tgatnfeng6202_145
-      - tgatnfeng6204_146
-      - tgatnfeng6197_147
-      - tgatnfeng6201_148
-      - defaultName_18
-      - tgatnfeng6194_150
-      - tgatnfeng6191_151
-      - tgatnfeng6193_152
-      - tgatnfeng6191_153
-      - tgatnfeng6208_154
-      - defaultName_18
-      - tgatnfeng6201_156
-      - tgatnfeng6190_157
-      - tgatnfeng6193_158
-      - tgatnfeng6208_159
-      - tgatnfeng6195_160
-      - tgatnfeng6197_161
-      - tgatnfeng6194_162
-      - 🇨🇳CN19*hi-moon_pw_163
-      - tgatnfeng6193_165
-      - defaultName_19
-      - 日本节点(免费)倍率(0倍率不消耗流量)_167
-      - defaultName_33
-      - defaultName_33
-      - 🇭🇰S4全解·香港07_IEPL_
-      - 萨拉热窝b_175
-      - 挪威推荐_177
-      - 荷兰c_179
-      - PD+-+挪威+-+奧斯陸+[BGPA]+[SVIP]+[Netflix]+[推薦]_180
-      - 荷兰b_181
-      - 🇷🇺俄罗斯RU75*hi-moon_pw_182
-      - 🇭🇰S4全解·香港05_IEPL_
-      - T_07_法国_中继2_184
-      - T_07_法国_中继3_185
-      - 🇭🇰S5香港05_IEPL_
-      - defaultName_63
-      - tgatnfeng665_188
-      - defaultName_63
-      - 萨拉热窝a_190
-      - defaultName_28
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰_3
+      - 🇷🇺_RU_俄罗斯联邦_4
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_5
+      - 🇷🇺_RU_俄罗斯联邦_6
+      - 🇷🇺_RU_俄罗斯联邦_7
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_9
+      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_10
+      - 🇷🇺_RU_俄罗斯联邦_11
+      - 🇷🇺_RU_俄罗斯联邦_12
+      - 🇷🇺_RU_俄罗斯联邦_13
+      - 🇷🇺_RU_俄罗斯联邦_14
+      - 🇨🇦_CA_加拿大_15
+      - 🇨🇦_CA_加拿大_16
+      - 🇨🇦_CA_加拿大_17
+      - 🇨🇦_CA_加拿大_18
+      - 🇨🇦_CA_加拿大_19
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_20
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
