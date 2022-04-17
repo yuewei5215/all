@@ -5,88 +5,144 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇳🇱_NL_荷兰_1","server":"c6s5.jamjams.net","port":27620,"type":"vmess","uuid":"b08fce9e-b88c-4edd-8f72-b6db2a3cdf58","alterId":0,"cipher":"auto","country":"🇳🇱_NL_荷兰_1","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"c6s5.jamjams.net"}}}
-  - {"name":"🇺🇸_US_美国_2","server":"us-am32-5.eqnode.net","port":8081,"type":"ssr","country":"🇺🇸_US_美国_2","password":"YFVrXZgRo","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth"}
-  - {"name":"🇭🇰_HK_香港_3","server":"gyazm.susenl.com","port":10030,"type":"trojan","country":"🇭🇰_HK_香港_3","skip-cert-verify":true,"udp":true,"password":"c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0"}
-  - {"name":"🇺🇸_US_美国_4","server":"c6s3.jamjams.net","port":27620,"type":"vmess","uuid":"b08fce9e-b88c-4edd-8f72-b6db2a3cdf58","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_4","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"c6s3.jamjams.net"}}}
-  - {"name":"🇺🇸_US_美国_5","server":"c6s801.jamjams.net","port":27620,"type":"vmess","uuid":"b08fce9e-b88c-4edd-8f72-b6db2a3cdf58","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_5","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"c6s801.jamjams.net"}}}
-  - {"name":"🇯🇵_JP_日本_6","server":"c6s4.jamjams.net","port":27620,"type":"vmess","uuid":"b08fce9e-b88c-4edd-8f72-b6db2a3cdf58","alterId":0,"cipher":"auto","country":"🇯🇵_JP_日本_6","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"c6s4.jamjams.net"}}}
-  - {"name":"🇭🇰_HK_香港_7","server":"heinuproxy.gimovo.com","port":12345,"type":"vmess","uuid":"61aa0ec9-ceef-4d60-ac38-00ad982fba38","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"headers":{"host":"www.paypal.com"}}}
+  - {"name":"中国-1_95MB/s(Youtube:不良林)_1","server":"gz1.52168.xyz","port":1102,"type":"ssr","country":"中国-1_95MB/s(Youtube:不良林)_1","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"中国-452_6KB/s(Youtube:不良林)_2","server":"gz2.52168.xyz","port":2106,"type":"ssr","country":"中国-452_6KB/s(Youtube:不良林)_2","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"日本-482_9KB/s(Youtube:不良林)_3","server":"54.168.241.213","port":443,"type":"ss","country":"日本-482_9KB/s(Youtube:不良林)_3","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"中国-2_46MB/s(Youtube:不良林)_4","server":"gz2.52168.xyz","port":2107,"type":"ssr","country":"中国-2_46MB/s(Youtube:不良林)_4","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"中国-11_68MB/s(Youtube:不良林)_5","server":"gz1.52168.xyz","port":1112,"type":"ssr","country":"中国-11_68MB/s(Youtube:不良林)_5","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"美国-863_6KB/s(Youtube:不良林)_6","server":"c6s801.jamjams.net","port":27620,"type":"vmess","uuid":"b08fce9e-b88c-4edd-8f72-b6db2a3cdf58","alterId":0,"cipher":"auto","country":"美国-863_6KB/s(Youtube:不良林)_6","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"c6s801.jamjams.net"}}}
+  - {"name":"香港-2_56MB/s(Youtube:不良林)_7","server":"gyazm.susenl.com","port":10030,"type":"trojan","country":"香港-2_56MB/s(Youtube:不良林)_7","skip-cert-verify":true,"udp":true,"password":"c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0"}
+  - {"name":"荷兰-1_19MB/s(Youtube:不良林)_8","server":"c6s5.jamjams.net","port":27620,"type":"vmess","uuid":"b08fce9e-b88c-4edd-8f72-b6db2a3cdf58","alterId":0,"cipher":"auto","country":"荷兰-1_19MB/s(Youtube:不良林)_8","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"c6s5.jamjams.net"}}}
+  - {"name":"日本-165_2KB/s(Youtube:不良林)_9","server":"54.168.241.213","port":443,"type":"ss","country":"日本-165_2KB/s(Youtube:不良林)_9","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"美国-5_23MB/s(Youtube:不良林)_10","server":"185.148.15.49","port":28200,"type":"vmess","uuid":"056c9022-fb76-454a-a160-c5243ffe61ba","alterId":0,"cipher":"auto","country":"美国-5_23MB/s(Youtube:不良林)_10","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"185.148.15.49"}}}
+  - {"name":"美国-3_04MB/s(Youtube:不良林)_11","server":"fhcamd1.gaox.ml","port":443,"type":"trojan","country":"美国-3_04MB/s(Youtube:不良林)_11","skip-cert-verify":true,"udp":true,"password":"e23f408a-012e-4030-8b31-02022031cb50"}
+  - {"name":"中国-4_86MB/s(Youtube:不良林)_12","server":"gz2.52168.xyz","port":2107,"type":"ssr","country":"中国-4_86MB/s(Youtube:不良林)_12","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"韩国-3_67MB/s(Youtube:不良林)_13","server":"jgw4.gaox.ml","port":443,"type":"trojan","country":"韩国-3_67MB/s(Youtube:不良林)_13","skip-cert-verify":true,"udp":true,"password":"b7e0e71f-070c-437a-9826-6e23caeb0307"}
+  - {"name":"中国-2_98MB/s(Youtube:不良林)_14","server":"gz2.52168.xyz","port":2101,"type":"ssr","country":"中国-2_98MB/s(Youtube:不良林)_14","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
+  - {"name":"美国-716_0KB/s(Youtube:不良林)_15","server":"niaop.tk","port":443,"type":"vmess","uuid":"a0b0df87-bda2-440e-830f-347da6cc7760","alterId":0,"cipher":"auto","country":"美国-716_0KB/s(Youtube:不良林)_15","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/wsssdr1","headers":{"host":"niaop.tk"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
+      - 中国-1_95MB/s(Youtube:不良林)_1
+      - 中国-452_6KB/s(Youtube:不良林)_2
+      - 日本-482_9KB/s(Youtube:不良林)_3
+      - 中国-2_46MB/s(Youtube:不良林)_4
+      - 中国-11_68MB/s(Youtube:不良林)_5
+      - 美国-863_6KB/s(Youtube:不良林)_6
+      - 香港-2_56MB/s(Youtube:不良林)_7
+      - 荷兰-1_19MB/s(Youtube:不良林)_8
+      - 日本-165_2KB/s(Youtube:不良林)_9
+      - 美国-5_23MB/s(Youtube:不良林)_10
+      - 美国-3_04MB/s(Youtube:不良林)_11
+      - 中国-4_86MB/s(Youtube:不良林)_12
+      - 韩国-3_67MB/s(Youtube:不良林)_13
+      - 中国-2_98MB/s(Youtube:不良林)_14
+      - 美国-716_0KB/s(Youtube:不良林)_15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
+      - 中国-1_95MB/s(Youtube:不良林)_1
+      - 中国-452_6KB/s(Youtube:不良林)_2
+      - 日本-482_9KB/s(Youtube:不良林)_3
+      - 中国-2_46MB/s(Youtube:不良林)_4
+      - 中国-11_68MB/s(Youtube:不良林)_5
+      - 美国-863_6KB/s(Youtube:不良林)_6
+      - 香港-2_56MB/s(Youtube:不良林)_7
+      - 荷兰-1_19MB/s(Youtube:不良林)_8
+      - 日本-165_2KB/s(Youtube:不良林)_9
+      - 美国-5_23MB/s(Youtube:不良林)_10
+      - 美国-3_04MB/s(Youtube:不良林)_11
+      - 中国-4_86MB/s(Youtube:不良林)_12
+      - 韩国-3_67MB/s(Youtube:不良林)_13
+      - 中国-2_98MB/s(Youtube:不良林)_14
+      - 美国-716_0KB/s(Youtube:不良林)_15
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
+      - 中国-1_95MB/s(Youtube:不良林)_1
+      - 中国-452_6KB/s(Youtube:不良林)_2
+      - 日本-482_9KB/s(Youtube:不良林)_3
+      - 中国-2_46MB/s(Youtube:不良林)_4
+      - 中国-11_68MB/s(Youtube:不良林)_5
+      - 美国-863_6KB/s(Youtube:不良林)_6
+      - 香港-2_56MB/s(Youtube:不良林)_7
+      - 荷兰-1_19MB/s(Youtube:不良林)_8
+      - 日本-165_2KB/s(Youtube:不良林)_9
+      - 美国-5_23MB/s(Youtube:不良林)_10
+      - 美国-3_04MB/s(Youtube:不良林)_11
+      - 中国-4_86MB/s(Youtube:不良林)_12
+      - 韩国-3_67MB/s(Youtube:不良林)_13
+      - 中国-2_98MB/s(Youtube:不良林)_14
+      - 美国-716_0KB/s(Youtube:不良林)_15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
+      - 中国-1_95MB/s(Youtube:不良林)_1
+      - 中国-452_6KB/s(Youtube:不良林)_2
+      - 日本-482_9KB/s(Youtube:不良林)_3
+      - 中国-2_46MB/s(Youtube:不良林)_4
+      - 中国-11_68MB/s(Youtube:不良林)_5
+      - 美国-863_6KB/s(Youtube:不良林)_6
+      - 香港-2_56MB/s(Youtube:不良林)_7
+      - 荷兰-1_19MB/s(Youtube:不良林)_8
+      - 日本-165_2KB/s(Youtube:不良林)_9
+      - 美国-5_23MB/s(Youtube:不良林)_10
+      - 美国-3_04MB/s(Youtube:不良林)_11
+      - 中国-4_86MB/s(Youtube:不良林)_12
+      - 韩国-3_67MB/s(Youtube:不良林)_13
+      - 中国-2_98MB/s(Youtube:不良林)_14
+      - 美国-716_0KB/s(Youtube:不良林)_15
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
+      - 中国-1_95MB/s(Youtube:不良林)_1
+      - 中国-452_6KB/s(Youtube:不良林)_2
+      - 日本-482_9KB/s(Youtube:不良林)_3
+      - 中国-2_46MB/s(Youtube:不良林)_4
+      - 中国-11_68MB/s(Youtube:不良林)_5
+      - 美国-863_6KB/s(Youtube:不良林)_6
+      - 香港-2_56MB/s(Youtube:不良林)_7
+      - 荷兰-1_19MB/s(Youtube:不良林)_8
+      - 日本-165_2KB/s(Youtube:不良林)_9
+      - 美国-5_23MB/s(Youtube:不良林)_10
+      - 美国-3_04MB/s(Youtube:不良林)_11
+      - 中国-4_86MB/s(Youtube:不良林)_12
+      - 韩国-3_67MB/s(Youtube:不良林)_13
+      - 中国-2_98MB/s(Youtube:不良林)_14
+      - 美国-716_0KB/s(Youtube:不良林)_15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
+      - 中国-1_95MB/s(Youtube:不良林)_1
+      - 中国-452_6KB/s(Youtube:不良林)_2
+      - 日本-482_9KB/s(Youtube:不良林)_3
+      - 中国-2_46MB/s(Youtube:不良林)_4
+      - 中国-11_68MB/s(Youtube:不良林)_5
+      - 美国-863_6KB/s(Youtube:不良林)_6
+      - 香港-2_56MB/s(Youtube:不良林)_7
+      - 荷兰-1_19MB/s(Youtube:不良林)_8
+      - 日本-165_2KB/s(Youtube:不良林)_9
+      - 美国-5_23MB/s(Youtube:不良林)_10
+      - 美国-3_04MB/s(Youtube:不良林)_11
+      - 中国-4_86MB/s(Youtube:不良林)_12
+      - 韩国-3_67MB/s(Youtube:不良林)_13
+      - 中国-2_98MB/s(Youtube:不良林)_14
+      - 美国-716_0KB/s(Youtube:不良林)_15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -109,13 +165,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇯🇵_JP_日本_6
-      - 🇭🇰_HK_香港_7
+      - 中国-1_95MB/s(Youtube:不良林)_1
+      - 中国-452_6KB/s(Youtube:不良林)_2
+      - 日本-482_9KB/s(Youtube:不良林)_3
+      - 中国-2_46MB/s(Youtube:不良林)_4
+      - 中国-11_68MB/s(Youtube:不良林)_5
+      - 美国-863_6KB/s(Youtube:不良林)_6
+      - 香港-2_56MB/s(Youtube:不良林)_7
+      - 荷兰-1_19MB/s(Youtube:不良林)_8
+      - 日本-165_2KB/s(Youtube:不良林)_9
+      - 美国-5_23MB/s(Youtube:不良林)_10
+      - 美国-3_04MB/s(Youtube:不良林)_11
+      - 中国-4_86MB/s(Youtube:不良林)_12
+      - 韩国-3_67MB/s(Youtube:不良林)_13
+      - 中国-2_98MB/s(Youtube:不良林)_14
+      - 美国-716_0KB/s(Youtube:不良林)_15
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
