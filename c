@@ -5,144 +5,368 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"中国-1_95MB/s(Youtube:不良林)_1","server":"gz1.52168.xyz","port":1102,"type":"ssr","country":"中国-1_95MB/s(Youtube:不良林)_1","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
-  - {"name":"中国-452_6KB/s(Youtube:不良林)_2","server":"gz2.52168.xyz","port":2106,"type":"ssr","country":"中国-452_6KB/s(Youtube:不良林)_2","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
-  - {"name":"日本-482_9KB/s(Youtube:不良林)_3","server":"54.168.241.213","port":443,"type":"ss","country":"日本-482_9KB/s(Youtube:不良林)_3","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"中国-2_46MB/s(Youtube:不良林)_4","server":"gz2.52168.xyz","port":2107,"type":"ssr","country":"中国-2_46MB/s(Youtube:不良林)_4","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
-  - {"name":"中国-11_68MB/s(Youtube:不良林)_5","server":"gz1.52168.xyz","port":1112,"type":"ssr","country":"中国-11_68MB/s(Youtube:不良林)_5","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
-  - {"name":"美国-863_6KB/s(Youtube:不良林)_6","server":"c6s801.jamjams.net","port":27620,"type":"vmess","uuid":"b08fce9e-b88c-4edd-8f72-b6db2a3cdf58","alterId":0,"cipher":"auto","country":"美国-863_6KB/s(Youtube:不良林)_6","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"c6s801.jamjams.net"}}}
-  - {"name":"香港-2_56MB/s(Youtube:不良林)_7","server":"gyazm.susenl.com","port":10030,"type":"trojan","country":"香港-2_56MB/s(Youtube:不良林)_7","skip-cert-verify":true,"udp":true,"password":"c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0"}
-  - {"name":"荷兰-1_19MB/s(Youtube:不良林)_8","server":"c6s5.jamjams.net","port":27620,"type":"vmess","uuid":"b08fce9e-b88c-4edd-8f72-b6db2a3cdf58","alterId":0,"cipher":"auto","country":"荷兰-1_19MB/s(Youtube:不良林)_8","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"c6s5.jamjams.net"}}}
-  - {"name":"日本-165_2KB/s(Youtube:不良林)_9","server":"54.168.241.213","port":443,"type":"ss","country":"日本-165_2KB/s(Youtube:不良林)_9","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"美国-5_23MB/s(Youtube:不良林)_10","server":"185.148.15.49","port":28200,"type":"vmess","uuid":"056c9022-fb76-454a-a160-c5243ffe61ba","alterId":0,"cipher":"auto","country":"美国-5_23MB/s(Youtube:不良林)_10","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"headers":{"host":"185.148.15.49"}}}
-  - {"name":"美国-3_04MB/s(Youtube:不良林)_11","server":"fhcamd1.gaox.ml","port":443,"type":"trojan","country":"美国-3_04MB/s(Youtube:不良林)_11","skip-cert-verify":true,"udp":true,"password":"e23f408a-012e-4030-8b31-02022031cb50"}
-  - {"name":"中国-4_86MB/s(Youtube:不良林)_12","server":"gz2.52168.xyz","port":2107,"type":"ssr","country":"中国-4_86MB/s(Youtube:不良林)_12","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
-  - {"name":"韩国-3_67MB/s(Youtube:不良林)_13","server":"jgw4.gaox.ml","port":443,"type":"trojan","country":"韩国-3_67MB/s(Youtube:不良林)_13","skip-cert-verify":true,"udp":true,"password":"b7e0e71f-070c-437a-9826-6e23caeb0307"}
-  - {"name":"中国-2_98MB/s(Youtube:不良林)_14","server":"gz2.52168.xyz","port":2101,"type":"ssr","country":"中国-2_98MB/s(Youtube:不良林)_14","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
-  - {"name":"美国-716_0KB/s(Youtube:不良林)_15","server":"niaop.tk","port":443,"type":"vmess","uuid":"a0b0df87-bda2-440e-830f-347da6cc7760","alterId":0,"cipher":"auto","country":"美国-716_0KB/s(Youtube:不良林)_15","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/wsssdr1","headers":{"host":"niaop.tk"}}}
+  - {"name":"github_com/freefq-日本东京Oracle云计算数据中心2_1","server":"jgwdj4.gaox.ml","port":443,"type":"trojan","country":"github_com/freefq-日本东京Oracle云计算数据中心2_1","skip-cert-verify":true,"udp":true,"password":"c09eb137-bf68-4658-84e0-102d94b74168"}
+  - {"name":"github_com/freefq-美国新泽西州皮斯卡特维Vultr数据中心3_2","server":"207.246.94.28","port":42383,"type":"vmess","uuid":"4773dfdc-9c85-4873-8720-ce8cf5f74f7c","alterId":0,"cipher":"auto","country":"github_com/freefq-美国新泽西州皮斯卡特维Vultr数据中心3_2","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/xrenblog/","headers":{"host":"207.246.94.28"}}}
+  - {"name":"github_com/freefq-美国4_3","server":"ai2.susenl.com","port":10030,"type":"trojan","country":"github_com/freefq-美国4_3","skip-cert-verify":true,"udp":true,"password":"c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0"}
+  - {"name":"github_com/freefq-俄罗斯莫斯科Melbicom数据中心5_4","server":"213.183.53.177","port":9020,"type":"ss","country":"github_com/freefq-俄罗斯莫斯科Melbicom数据中心5_4","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
+  - {"name":"github_com/freefq-美国6_5","server":"ai2.susenl.com","port":30010,"type":"trojan","country":"github_com/freefq-美国6_5","skip-cert-verify":true,"udp":true,"password":"c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0"}
+  - {"name":"github_com/freefq-上海市电信7_6","server":"ingress-i1.onebox6.org","port":38106,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"github_com/freefq-上海市电信7_6","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}}}
+  - {"name":"github_com/freefq-亚太地区8_7","server":"ai1.susenl.com","port":10031,"type":"trojan","country":"github_com/freefq-亚太地区8_7","skip-cert-verify":true,"udp":true,"password":"c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0"}
+  - {"name":"github_com/freefq-新加坡DigitalOcean数据中心9_8","server":"sg1.31vpn.com","port":80,"type":"vmess","uuid":"9dc0c6aa-39a1-46be-9938-85999e3c3498","alterId":0,"cipher":"auto","country":"github_com/freefq-新加坡DigitalOcean数据中心9_8","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/fastssh/ccvcxds/6252624d4fda3/","headers":{"host":"sg1.31vpn.com"}}}
+  - {"name":"github_com/freefq-亚太地区10_9","server":"ai1.susenl.com","port":10030,"type":"trojan","country":"github_com/freefq-亚太地区10_9","skip-cert-verify":true,"udp":true,"password":"c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0"}
+  - {"name":"github_com/freefq-美国加利福尼亚州圣何塞PEGTECH11_10","server":"142.4.127.67","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","country":"github_com/freefq-美国加利福尼亚州圣何塞PEGTECH11_10","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/path/310910211916","headers":{"host":"www.47727450.xyz"}}}
+  - {"name":"github_com/freefq-加拿大12_11","server":"165.154.225.231","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/freefq-加拿大12_11","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330hk02.fans8.xyz"}}}
+  - {"name":"github_com/freefq-美国CloudFlare节点13_12","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"46312776-bd9e-11ec-b974-000017022008","alterId":64,"cipher":"auto","country":"github_com/freefq-美国CloudFlare节点13_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/getweather","headers":{"host":"app.ssfree.ru"}}}
+  - {"name":"github_com/freefq-法国14_13","server":"92.243.24.236","port":443,"type":"ss","country":"github_com/freefq-法国14_13","cipher":"chacha20-ietf-poly1305","password":"LE6Ee6PELhVu"}
+  - {"name":"github_com/freefq-美国3COM公司企业网15_14","server":"jgwhdlb4.gaox.ml","port":443,"type":"trojan","country":"github_com/freefq-美国3COM公司企业网15_14","skip-cert-verify":true,"udp":true,"password":"081a4198-d664-4bc5-a7c6-e35982da964b"}
+  - {"name":"github_com/freefq-加拿大16_15","server":"165.154.225.176","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/freefq-加拿大16_15","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0326hk01.fans8.xyz"}}}
+  - {"name":"github_com/freefq-加拿大17_16","server":"330tw.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/freefq-加拿大17_16","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330tw.fans8.xyz"}}}
+  - {"name":"github_com/freefq-美国CloudFlare公司CDN节点18_17","server":"104.16.162.16","port":2053,"type":"vmess","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"cipher":"auto","country":"github_com/freefq-美国CloudFlare公司CDN节点18_17","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"host":"foxus.fovi.tk"}}}
+  - {"name":"github_com/freefq-美国CloudFlare公司CDN节点19_18","server":"oz.moonfree.top","port":443,"type":"vmess","uuid":"861e9cd0-cd1d-4f8c-b7d9-b47409dda333","alterId":0,"cipher":"auto","country":"github_com/freefq-美国CloudFlare公司CDN节点19_18","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oz.moonfree.top"}}}
+  - {"name":"github_com/freefq-美国CloudFlare节点20_19","server":"v1.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"github_com/freefq-美国CloudFlare节点20_19","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","headers":{"host":"v1.ssrsub.com"}}}
+  - {"name":"github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心21_20","server":"ray.waitlight.top","port":443,"type":"vmess","uuid":"84e2ab8e-1456-4457-9e6c-136cfffd2ec7","alterId":0,"cipher":"auto","country":"github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心21_20","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/WqkDfX","headers":{"host":"ray.waitlight.top"}}}
+  - {"name":"github_com/freefq-美国CloudFlare公司CDN节点22_21","server":"hax2.hax01.ml","port":443,"type":"vmess","uuid":"25af03c3-27ff-4c14-c142-ad7694ec42f9","alterId":0,"cipher":"auto","country":"github_com/freefq-美国CloudFlare公司CDN节点22_21","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hax2.hax01.ml"}}}
+  - {"name":"github_com/freefq-美国CloudFlare节点23_22","server":"hax.hax01.tk","port":443,"type":"vmess","uuid":"e2e073ce-c1d4-43ed-89f5-ca978507548a","alterId":0,"cipher":"auto","country":"github_com/freefq-美国CloudFlare节点23_22","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hax.hax01.tk"}}}
+  - {"name":"github_com/freefq-美国CloudFlare节点24_23","server":"1.ezydfdd.com","port":443,"type":"vmess","uuid":"0e5b46b6-699d-4aca-8fb3-a8e7b4270ed9","alterId":0,"cipher":"auto","country":"github_com/freefq-美国CloudFlare节点24_23","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/qwe","headers":{"host":"1.ezydfdd.com"}}}
+  - {"name":"github_com/freefq-法国25_24","server":"0316ro.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/freefq-法国25_24","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nl","headers":{"host":"0316ro.fans8.xyz"}}}
+  - {"name":"github_com/freefq-北美地区26_25","server":"104.166.135.10","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"github_com/freefq-北美地区26_25","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"104.166.135.10"}}}
+  - {"name":"github_com/freefq-美国Microsoft数据中心27_26","server":"rbmf.speedcncnforward3.tk","port":10004,"type":"trojan","country":"github_com/freefq-美国Microsoft数据中心27_26","skip-cert-verify":true,"udp":true,"password":"04d83e9e-d6ff-49ca-9c32-082b9b9c9c54"}
+  - {"name":"github_com/freefq-美国CloudFlare节点28_27","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","country":"github_com/freefq-美国CloudFlare节点28_27","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"v4.xrenblog.com"}}}
+  - {"name":":美国-ss-169_197_142_99:443-可用-直连-仅支持加拿大地区NF自制剧_28","server":"169.197.142.99","port":443,"type":"ss","country":":美国-ss-169_197_142_99:443-可用-直连-仅支持加拿大地区NF自制剧_28","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":":美国-ss-169_197_142_99:9102-可用-直连-仅支持加拿大地区NF自制剧_29","server":"169.197.142.99","port":9102,"type":"ss","country":":美国-ss-169_197_142_99:9102-可用-直连-仅支持加拿大地区NF自制剧_29","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":":英国-ss-152_89_210_105:9007-可用-直连-仅支持英国地区NF自制剧_30","server":"152.89.210.105","port":9007,"type":"ss","country":":英国-ss-152_89_210_105:9007-可用-直连-仅支持英国地区NF自制剧_30","cipher":"aes-256-cfb","password":"kSPmvwdFzGMMW5pY"}
+  - {"name":":保加利亚-ss-213_183_63_221:9056-可用-直连-仅支持保加利亚地区NF自制剧_31","server":"213.183.63.221","port":9056,"type":"ss","country":":保加利亚-ss-213_183_63_221:9056-可用-直连-仅支持保加利亚地区NF自制剧_31","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
+  - {"name":":澳大利亚-ss-185_167_116_38:9026-可用-直连-仅支持澳大利亚地区NF自制剧_32","server":"185.167.116.38","port":9026,"type":"ss","country":":澳大利亚-ss-185_167_116_38:9026-可用-直连-仅支持澳大利亚地区NF自制剧_32","cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
+  - {"name":":中国-ss-14_29_124_168:25245-可用-直连-完全不支持NF_33","server":"14.29.124.168","port":25245,"type":"ss","country":":中国-ss-14_29_124_168:25245-可用-直连-完全不支持NF_33","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":":中国-ss-14_29_124_168:25289-可用-直连-完全不支持NF_34","server":"14.29.124.168","port":25289,"type":"ss","country":":中国-ss-14_29_124_168:25289-可用-直连-完全不支持NF_34","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":":澳大利亚-ss-185_167_116_38:9008-可用-直连-仅支持澳大利亚地区NF自制剧_35","server":"185.167.116.38","port":9008,"type":"ss","country":":澳大利亚-ss-185_167_116_38:9008-可用-直连-仅支持澳大利亚地区NF自制剧_35","cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ"}
+  - {"name":":俄罗斯-ss-213_183_53_202:9038-可用-直连-仅支持俄罗斯联邦地区NF自制剧_36","server":"213.183.53.202","port":9038,"type":"ss","country":":俄罗斯-ss-213_183_53_202:9038-可用-直连-仅支持俄罗斯联邦地区NF自制剧_36","cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ"}
+  - {"name":":美国-ss-169_197_142_99:6697-可用-直连-仅支持加拿大地区NF自制剧_37","server":"169.197.142.99","port":6697,"type":"ss","country":":美国-ss-169_197_142_99:6697-可用-直连-仅支持加拿大地区NF自制剧_37","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":":美国-ss-169_197_142_99:6679-可用-直连-仅支持加拿大地区NF自制剧_38","server":"169.197.142.99","port":6679,"type":"ss","country":":美国-ss-169_197_142_99:6679-可用-直连-仅支持加拿大地区NF自制剧_38","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":":俄罗斯-ss-213_183_53_202:9084-可用-直连-仅支持俄罗斯联邦地区NF自制剧_39","server":"213.183.53.202","port":9084,"type":"ss","country":":俄罗斯-ss-213_183_53_202:9084-可用-直连-仅支持俄罗斯联邦地区NF自制剧_39","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":":澳大利亚-ss-185_167_116_38:9088-可用-直连-仅支持澳大利亚地区NF自制剧_40","server":"185.167.116.38","port":9088,"type":"ss","country":":澳大利亚-ss-185_167_116_38:9088-可用-直连-仅支持澳大利亚地区NF自制剧_40","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
+  - {"name":":澳大利亚-ss-185_167_116_38:9064-可用-直连-仅支持澳大利亚地区NF自制剧_41","server":"185.167.116.38","port":9064,"type":"ss","country":":澳大利亚-ss-185_167_116_38:9064-可用-直连-仅支持澳大利亚地区NF自制剧_41","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
+  - {"name":":俄罗斯-ss-217_30_10_63:9093-可用-直连-仅支持波兰地区NF自制剧_42","server":"217.30.10.63","port":9093,"type":"ss","country":":俄罗斯-ss-217_30_10_63:9093-可用-直连-仅支持波兰地区NF自制剧_42","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
+  - {"name":":美国-ss-169_197_142_99:9101-可用-直连-仅支持加拿大地区NF自制剧_43","server":"169.197.142.99","port":9101,"type":"ss","country":":美国-ss-169_197_142_99:9101-可用-直连-仅支持加拿大地区NF自制剧_43","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":":保加利亚-ss-213_183_63_221:9027-可用-直连-仅支持保加利亚地区NF自制剧_44","server":"213.183.63.221","port":9027,"type":"ss","country":":保加利亚-ss-213_183_63_221:9027-可用-直连-仅支持保加利亚地区NF自制剧_44","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
+  - {"name":":中国-ss-14_29_124_168:25270-可用-直连-完全不支持NF_45","server":"14.29.124.168","port":25270,"type":"ss","country":":中国-ss-14_29_124_168:25270-可用-直连-完全不支持NF_45","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":":中国-ss-14_29_124_168:25218-可用-直连-完全不支持NF_46","server":"14.29.124.168","port":25218,"type":"ss","country":":中国-ss-14_29_124_168:25218-可用-直连-完全不支持NF_46","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":":俄罗斯-ss-217_30_10_63:9094-可用-直连-仅支持波兰地区NF自制剧_47","server":"217.30.10.63","port":9094,"type":"ss","country":":俄罗斯-ss-217_30_10_63:9094-可用-直连-仅支持波兰地区NF自制剧_47","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 中国-1_95MB/s(Youtube:不良林)_1
-      - 中国-452_6KB/s(Youtube:不良林)_2
-      - 日本-482_9KB/s(Youtube:不良林)_3
-      - 中国-2_46MB/s(Youtube:不良林)_4
-      - 中国-11_68MB/s(Youtube:不良林)_5
-      - 美国-863_6KB/s(Youtube:不良林)_6
-      - 香港-2_56MB/s(Youtube:不良林)_7
-      - 荷兰-1_19MB/s(Youtube:不良林)_8
-      - 日本-165_2KB/s(Youtube:不良林)_9
-      - 美国-5_23MB/s(Youtube:不良林)_10
-      - 美国-3_04MB/s(Youtube:不良林)_11
-      - 中国-4_86MB/s(Youtube:不良林)_12
-      - 韩国-3_67MB/s(Youtube:不良林)_13
-      - 中国-2_98MB/s(Youtube:不良林)_14
-      - 美国-716_0KB/s(Youtube:不良林)_15
+      - github_com/freefq-日本东京Oracle云计算数据中心2_1
+      - github_com/freefq-美国新泽西州皮斯卡特维Vultr数据中心3_2
+      - github_com/freefq-美国4_3
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心5_4
+      - github_com/freefq-美国6_5
+      - github_com/freefq-上海市电信7_6
+      - github_com/freefq-亚太地区8_7
+      - github_com/freefq-新加坡DigitalOcean数据中心9_8
+      - github_com/freefq-亚太地区10_9
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH11_10
+      - github_com/freefq-加拿大12_11
+      - github_com/freefq-美国CloudFlare节点13_12
+      - github_com/freefq-法国14_13
+      - github_com/freefq-美国3COM公司企业网15_14
+      - github_com/freefq-加拿大16_15
+      - github_com/freefq-加拿大17_16
+      - github_com/freefq-美国CloudFlare公司CDN节点18_17
+      - github_com/freefq-美国CloudFlare公司CDN节点19_18
+      - github_com/freefq-美国CloudFlare节点20_19
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心21_20
+      - github_com/freefq-美国CloudFlare公司CDN节点22_21
+      - github_com/freefq-美国CloudFlare节点23_22
+      - github_com/freefq-美国CloudFlare节点24_23
+      - github_com/freefq-法国25_24
+      - github_com/freefq-北美地区26_25
+      - github_com/freefq-美国Microsoft数据中心27_26
+      - github_com/freefq-美国CloudFlare节点28_27
+      - ':美国-ss-169_197_142_99:443-可用-直连-仅支持加拿大地区NF自制剧_28'
+      - ':美国-ss-169_197_142_99:9102-可用-直连-仅支持加拿大地区NF自制剧_29'
+      - ':英国-ss-152_89_210_105:9007-可用-直连-仅支持英国地区NF自制剧_30'
+      - ':保加利亚-ss-213_183_63_221:9056-可用-直连-仅支持保加利亚地区NF自制剧_31'
+      - ':澳大利亚-ss-185_167_116_38:9026-可用-直连-仅支持澳大利亚地区NF自制剧_32'
+      - ':中国-ss-14_29_124_168:25245-可用-直连-完全不支持NF_33'
+      - ':中国-ss-14_29_124_168:25289-可用-直连-完全不支持NF_34'
+      - ':澳大利亚-ss-185_167_116_38:9008-可用-直连-仅支持澳大利亚地区NF自制剧_35'
+      - ':俄罗斯-ss-213_183_53_202:9038-可用-直连-仅支持俄罗斯联邦地区NF自制剧_36'
+      - ':美国-ss-169_197_142_99:6697-可用-直连-仅支持加拿大地区NF自制剧_37'
+      - ':美国-ss-169_197_142_99:6679-可用-直连-仅支持加拿大地区NF自制剧_38'
+      - ':俄罗斯-ss-213_183_53_202:9084-可用-直连-仅支持俄罗斯联邦地区NF自制剧_39'
+      - ':澳大利亚-ss-185_167_116_38:9088-可用-直连-仅支持澳大利亚地区NF自制剧_40'
+      - ':澳大利亚-ss-185_167_116_38:9064-可用-直连-仅支持澳大利亚地区NF自制剧_41'
+      - ':俄罗斯-ss-217_30_10_63:9093-可用-直连-仅支持波兰地区NF自制剧_42'
+      - ':美国-ss-169_197_142_99:9101-可用-直连-仅支持加拿大地区NF自制剧_43'
+      - ':保加利亚-ss-213_183_63_221:9027-可用-直连-仅支持保加利亚地区NF自制剧_44'
+      - ':中国-ss-14_29_124_168:25270-可用-直连-完全不支持NF_45'
+      - ':中国-ss-14_29_124_168:25218-可用-直连-完全不支持NF_46'
+      - ':俄罗斯-ss-217_30_10_63:9094-可用-直连-仅支持波兰地区NF自制剧_47'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 中国-1_95MB/s(Youtube:不良林)_1
-      - 中国-452_6KB/s(Youtube:不良林)_2
-      - 日本-482_9KB/s(Youtube:不良林)_3
-      - 中国-2_46MB/s(Youtube:不良林)_4
-      - 中国-11_68MB/s(Youtube:不良林)_5
-      - 美国-863_6KB/s(Youtube:不良林)_6
-      - 香港-2_56MB/s(Youtube:不良林)_7
-      - 荷兰-1_19MB/s(Youtube:不良林)_8
-      - 日本-165_2KB/s(Youtube:不良林)_9
-      - 美国-5_23MB/s(Youtube:不良林)_10
-      - 美国-3_04MB/s(Youtube:不良林)_11
-      - 中国-4_86MB/s(Youtube:不良林)_12
-      - 韩国-3_67MB/s(Youtube:不良林)_13
-      - 中国-2_98MB/s(Youtube:不良林)_14
-      - 美国-716_0KB/s(Youtube:不良林)_15
+      - github_com/freefq-日本东京Oracle云计算数据中心2_1
+      - github_com/freefq-美国新泽西州皮斯卡特维Vultr数据中心3_2
+      - github_com/freefq-美国4_3
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心5_4
+      - github_com/freefq-美国6_5
+      - github_com/freefq-上海市电信7_6
+      - github_com/freefq-亚太地区8_7
+      - github_com/freefq-新加坡DigitalOcean数据中心9_8
+      - github_com/freefq-亚太地区10_9
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH11_10
+      - github_com/freefq-加拿大12_11
+      - github_com/freefq-美国CloudFlare节点13_12
+      - github_com/freefq-法国14_13
+      - github_com/freefq-美国3COM公司企业网15_14
+      - github_com/freefq-加拿大16_15
+      - github_com/freefq-加拿大17_16
+      - github_com/freefq-美国CloudFlare公司CDN节点18_17
+      - github_com/freefq-美国CloudFlare公司CDN节点19_18
+      - github_com/freefq-美国CloudFlare节点20_19
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心21_20
+      - github_com/freefq-美国CloudFlare公司CDN节点22_21
+      - github_com/freefq-美国CloudFlare节点23_22
+      - github_com/freefq-美国CloudFlare节点24_23
+      - github_com/freefq-法国25_24
+      - github_com/freefq-北美地区26_25
+      - github_com/freefq-美国Microsoft数据中心27_26
+      - github_com/freefq-美国CloudFlare节点28_27
+      - ':美国-ss-169_197_142_99:443-可用-直连-仅支持加拿大地区NF自制剧_28'
+      - ':美国-ss-169_197_142_99:9102-可用-直连-仅支持加拿大地区NF自制剧_29'
+      - ':英国-ss-152_89_210_105:9007-可用-直连-仅支持英国地区NF自制剧_30'
+      - ':保加利亚-ss-213_183_63_221:9056-可用-直连-仅支持保加利亚地区NF自制剧_31'
+      - ':澳大利亚-ss-185_167_116_38:9026-可用-直连-仅支持澳大利亚地区NF自制剧_32'
+      - ':中国-ss-14_29_124_168:25245-可用-直连-完全不支持NF_33'
+      - ':中国-ss-14_29_124_168:25289-可用-直连-完全不支持NF_34'
+      - ':澳大利亚-ss-185_167_116_38:9008-可用-直连-仅支持澳大利亚地区NF自制剧_35'
+      - ':俄罗斯-ss-213_183_53_202:9038-可用-直连-仅支持俄罗斯联邦地区NF自制剧_36'
+      - ':美国-ss-169_197_142_99:6697-可用-直连-仅支持加拿大地区NF自制剧_37'
+      - ':美国-ss-169_197_142_99:6679-可用-直连-仅支持加拿大地区NF自制剧_38'
+      - ':俄罗斯-ss-213_183_53_202:9084-可用-直连-仅支持俄罗斯联邦地区NF自制剧_39'
+      - ':澳大利亚-ss-185_167_116_38:9088-可用-直连-仅支持澳大利亚地区NF自制剧_40'
+      - ':澳大利亚-ss-185_167_116_38:9064-可用-直连-仅支持澳大利亚地区NF自制剧_41'
+      - ':俄罗斯-ss-217_30_10_63:9093-可用-直连-仅支持波兰地区NF自制剧_42'
+      - ':美国-ss-169_197_142_99:9101-可用-直连-仅支持加拿大地区NF自制剧_43'
+      - ':保加利亚-ss-213_183_63_221:9027-可用-直连-仅支持保加利亚地区NF自制剧_44'
+      - ':中国-ss-14_29_124_168:25270-可用-直连-完全不支持NF_45'
+      - ':中国-ss-14_29_124_168:25218-可用-直连-完全不支持NF_46'
+      - ':俄罗斯-ss-217_30_10_63:9094-可用-直连-仅支持波兰地区NF自制剧_47'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国-1_95MB/s(Youtube:不良林)_1
-      - 中国-452_6KB/s(Youtube:不良林)_2
-      - 日本-482_9KB/s(Youtube:不良林)_3
-      - 中国-2_46MB/s(Youtube:不良林)_4
-      - 中国-11_68MB/s(Youtube:不良林)_5
-      - 美国-863_6KB/s(Youtube:不良林)_6
-      - 香港-2_56MB/s(Youtube:不良林)_7
-      - 荷兰-1_19MB/s(Youtube:不良林)_8
-      - 日本-165_2KB/s(Youtube:不良林)_9
-      - 美国-5_23MB/s(Youtube:不良林)_10
-      - 美国-3_04MB/s(Youtube:不良林)_11
-      - 中国-4_86MB/s(Youtube:不良林)_12
-      - 韩国-3_67MB/s(Youtube:不良林)_13
-      - 中国-2_98MB/s(Youtube:不良林)_14
-      - 美国-716_0KB/s(Youtube:不良林)_15
+      - github_com/freefq-日本东京Oracle云计算数据中心2_1
+      - github_com/freefq-美国新泽西州皮斯卡特维Vultr数据中心3_2
+      - github_com/freefq-美国4_3
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心5_4
+      - github_com/freefq-美国6_5
+      - github_com/freefq-上海市电信7_6
+      - github_com/freefq-亚太地区8_7
+      - github_com/freefq-新加坡DigitalOcean数据中心9_8
+      - github_com/freefq-亚太地区10_9
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH11_10
+      - github_com/freefq-加拿大12_11
+      - github_com/freefq-美国CloudFlare节点13_12
+      - github_com/freefq-法国14_13
+      - github_com/freefq-美国3COM公司企业网15_14
+      - github_com/freefq-加拿大16_15
+      - github_com/freefq-加拿大17_16
+      - github_com/freefq-美国CloudFlare公司CDN节点18_17
+      - github_com/freefq-美国CloudFlare公司CDN节点19_18
+      - github_com/freefq-美国CloudFlare节点20_19
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心21_20
+      - github_com/freefq-美国CloudFlare公司CDN节点22_21
+      - github_com/freefq-美国CloudFlare节点23_22
+      - github_com/freefq-美国CloudFlare节点24_23
+      - github_com/freefq-法国25_24
+      - github_com/freefq-北美地区26_25
+      - github_com/freefq-美国Microsoft数据中心27_26
+      - github_com/freefq-美国CloudFlare节点28_27
+      - ':美国-ss-169_197_142_99:443-可用-直连-仅支持加拿大地区NF自制剧_28'
+      - ':美国-ss-169_197_142_99:9102-可用-直连-仅支持加拿大地区NF自制剧_29'
+      - ':英国-ss-152_89_210_105:9007-可用-直连-仅支持英国地区NF自制剧_30'
+      - ':保加利亚-ss-213_183_63_221:9056-可用-直连-仅支持保加利亚地区NF自制剧_31'
+      - ':澳大利亚-ss-185_167_116_38:9026-可用-直连-仅支持澳大利亚地区NF自制剧_32'
+      - ':中国-ss-14_29_124_168:25245-可用-直连-完全不支持NF_33'
+      - ':中国-ss-14_29_124_168:25289-可用-直连-完全不支持NF_34'
+      - ':澳大利亚-ss-185_167_116_38:9008-可用-直连-仅支持澳大利亚地区NF自制剧_35'
+      - ':俄罗斯-ss-213_183_53_202:9038-可用-直连-仅支持俄罗斯联邦地区NF自制剧_36'
+      - ':美国-ss-169_197_142_99:6697-可用-直连-仅支持加拿大地区NF自制剧_37'
+      - ':美国-ss-169_197_142_99:6679-可用-直连-仅支持加拿大地区NF自制剧_38'
+      - ':俄罗斯-ss-213_183_53_202:9084-可用-直连-仅支持俄罗斯联邦地区NF自制剧_39'
+      - ':澳大利亚-ss-185_167_116_38:9088-可用-直连-仅支持澳大利亚地区NF自制剧_40'
+      - ':澳大利亚-ss-185_167_116_38:9064-可用-直连-仅支持澳大利亚地区NF自制剧_41'
+      - ':俄罗斯-ss-217_30_10_63:9093-可用-直连-仅支持波兰地区NF自制剧_42'
+      - ':美国-ss-169_197_142_99:9101-可用-直连-仅支持加拿大地区NF自制剧_43'
+      - ':保加利亚-ss-213_183_63_221:9027-可用-直连-仅支持保加利亚地区NF自制剧_44'
+      - ':中国-ss-14_29_124_168:25270-可用-直连-完全不支持NF_45'
+      - ':中国-ss-14_29_124_168:25218-可用-直连-完全不支持NF_46'
+      - ':俄罗斯-ss-217_30_10_63:9094-可用-直连-仅支持波兰地区NF自制剧_47'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 中国-1_95MB/s(Youtube:不良林)_1
-      - 中国-452_6KB/s(Youtube:不良林)_2
-      - 日本-482_9KB/s(Youtube:不良林)_3
-      - 中国-2_46MB/s(Youtube:不良林)_4
-      - 中国-11_68MB/s(Youtube:不良林)_5
-      - 美国-863_6KB/s(Youtube:不良林)_6
-      - 香港-2_56MB/s(Youtube:不良林)_7
-      - 荷兰-1_19MB/s(Youtube:不良林)_8
-      - 日本-165_2KB/s(Youtube:不良林)_9
-      - 美国-5_23MB/s(Youtube:不良林)_10
-      - 美国-3_04MB/s(Youtube:不良林)_11
-      - 中国-4_86MB/s(Youtube:不良林)_12
-      - 韩国-3_67MB/s(Youtube:不良林)_13
-      - 中国-2_98MB/s(Youtube:不良林)_14
-      - 美国-716_0KB/s(Youtube:不良林)_15
+      - github_com/freefq-日本东京Oracle云计算数据中心2_1
+      - github_com/freefq-美国新泽西州皮斯卡特维Vultr数据中心3_2
+      - github_com/freefq-美国4_3
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心5_4
+      - github_com/freefq-美国6_5
+      - github_com/freefq-上海市电信7_6
+      - github_com/freefq-亚太地区8_7
+      - github_com/freefq-新加坡DigitalOcean数据中心9_8
+      - github_com/freefq-亚太地区10_9
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH11_10
+      - github_com/freefq-加拿大12_11
+      - github_com/freefq-美国CloudFlare节点13_12
+      - github_com/freefq-法国14_13
+      - github_com/freefq-美国3COM公司企业网15_14
+      - github_com/freefq-加拿大16_15
+      - github_com/freefq-加拿大17_16
+      - github_com/freefq-美国CloudFlare公司CDN节点18_17
+      - github_com/freefq-美国CloudFlare公司CDN节点19_18
+      - github_com/freefq-美国CloudFlare节点20_19
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心21_20
+      - github_com/freefq-美国CloudFlare公司CDN节点22_21
+      - github_com/freefq-美国CloudFlare节点23_22
+      - github_com/freefq-美国CloudFlare节点24_23
+      - github_com/freefq-法国25_24
+      - github_com/freefq-北美地区26_25
+      - github_com/freefq-美国Microsoft数据中心27_26
+      - github_com/freefq-美国CloudFlare节点28_27
+      - ':美国-ss-169_197_142_99:443-可用-直连-仅支持加拿大地区NF自制剧_28'
+      - ':美国-ss-169_197_142_99:9102-可用-直连-仅支持加拿大地区NF自制剧_29'
+      - ':英国-ss-152_89_210_105:9007-可用-直连-仅支持英国地区NF自制剧_30'
+      - ':保加利亚-ss-213_183_63_221:9056-可用-直连-仅支持保加利亚地区NF自制剧_31'
+      - ':澳大利亚-ss-185_167_116_38:9026-可用-直连-仅支持澳大利亚地区NF自制剧_32'
+      - ':中国-ss-14_29_124_168:25245-可用-直连-完全不支持NF_33'
+      - ':中国-ss-14_29_124_168:25289-可用-直连-完全不支持NF_34'
+      - ':澳大利亚-ss-185_167_116_38:9008-可用-直连-仅支持澳大利亚地区NF自制剧_35'
+      - ':俄罗斯-ss-213_183_53_202:9038-可用-直连-仅支持俄罗斯联邦地区NF自制剧_36'
+      - ':美国-ss-169_197_142_99:6697-可用-直连-仅支持加拿大地区NF自制剧_37'
+      - ':美国-ss-169_197_142_99:6679-可用-直连-仅支持加拿大地区NF自制剧_38'
+      - ':俄罗斯-ss-213_183_53_202:9084-可用-直连-仅支持俄罗斯联邦地区NF自制剧_39'
+      - ':澳大利亚-ss-185_167_116_38:9088-可用-直连-仅支持澳大利亚地区NF自制剧_40'
+      - ':澳大利亚-ss-185_167_116_38:9064-可用-直连-仅支持澳大利亚地区NF自制剧_41'
+      - ':俄罗斯-ss-217_30_10_63:9093-可用-直连-仅支持波兰地区NF自制剧_42'
+      - ':美国-ss-169_197_142_99:9101-可用-直连-仅支持加拿大地区NF自制剧_43'
+      - ':保加利亚-ss-213_183_63_221:9027-可用-直连-仅支持保加利亚地区NF自制剧_44'
+      - ':中国-ss-14_29_124_168:25270-可用-直连-完全不支持NF_45'
+      - ':中国-ss-14_29_124_168:25218-可用-直连-完全不支持NF_46'
+      - ':俄罗斯-ss-217_30_10_63:9094-可用-直连-仅支持波兰地区NF自制剧_47'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 中国-1_95MB/s(Youtube:不良林)_1
-      - 中国-452_6KB/s(Youtube:不良林)_2
-      - 日本-482_9KB/s(Youtube:不良林)_3
-      - 中国-2_46MB/s(Youtube:不良林)_4
-      - 中国-11_68MB/s(Youtube:不良林)_5
-      - 美国-863_6KB/s(Youtube:不良林)_6
-      - 香港-2_56MB/s(Youtube:不良林)_7
-      - 荷兰-1_19MB/s(Youtube:不良林)_8
-      - 日本-165_2KB/s(Youtube:不良林)_9
-      - 美国-5_23MB/s(Youtube:不良林)_10
-      - 美国-3_04MB/s(Youtube:不良林)_11
-      - 中国-4_86MB/s(Youtube:不良林)_12
-      - 韩国-3_67MB/s(Youtube:不良林)_13
-      - 中国-2_98MB/s(Youtube:不良林)_14
-      - 美国-716_0KB/s(Youtube:不良林)_15
+      - github_com/freefq-日本东京Oracle云计算数据中心2_1
+      - github_com/freefq-美国新泽西州皮斯卡特维Vultr数据中心3_2
+      - github_com/freefq-美国4_3
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心5_4
+      - github_com/freefq-美国6_5
+      - github_com/freefq-上海市电信7_6
+      - github_com/freefq-亚太地区8_7
+      - github_com/freefq-新加坡DigitalOcean数据中心9_8
+      - github_com/freefq-亚太地区10_9
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH11_10
+      - github_com/freefq-加拿大12_11
+      - github_com/freefq-美国CloudFlare节点13_12
+      - github_com/freefq-法国14_13
+      - github_com/freefq-美国3COM公司企业网15_14
+      - github_com/freefq-加拿大16_15
+      - github_com/freefq-加拿大17_16
+      - github_com/freefq-美国CloudFlare公司CDN节点18_17
+      - github_com/freefq-美国CloudFlare公司CDN节点19_18
+      - github_com/freefq-美国CloudFlare节点20_19
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心21_20
+      - github_com/freefq-美国CloudFlare公司CDN节点22_21
+      - github_com/freefq-美国CloudFlare节点23_22
+      - github_com/freefq-美国CloudFlare节点24_23
+      - github_com/freefq-法国25_24
+      - github_com/freefq-北美地区26_25
+      - github_com/freefq-美国Microsoft数据中心27_26
+      - github_com/freefq-美国CloudFlare节点28_27
+      - ':美国-ss-169_197_142_99:443-可用-直连-仅支持加拿大地区NF自制剧_28'
+      - ':美国-ss-169_197_142_99:9102-可用-直连-仅支持加拿大地区NF自制剧_29'
+      - ':英国-ss-152_89_210_105:9007-可用-直连-仅支持英国地区NF自制剧_30'
+      - ':保加利亚-ss-213_183_63_221:9056-可用-直连-仅支持保加利亚地区NF自制剧_31'
+      - ':澳大利亚-ss-185_167_116_38:9026-可用-直连-仅支持澳大利亚地区NF自制剧_32'
+      - ':中国-ss-14_29_124_168:25245-可用-直连-完全不支持NF_33'
+      - ':中国-ss-14_29_124_168:25289-可用-直连-完全不支持NF_34'
+      - ':澳大利亚-ss-185_167_116_38:9008-可用-直连-仅支持澳大利亚地区NF自制剧_35'
+      - ':俄罗斯-ss-213_183_53_202:9038-可用-直连-仅支持俄罗斯联邦地区NF自制剧_36'
+      - ':美国-ss-169_197_142_99:6697-可用-直连-仅支持加拿大地区NF自制剧_37'
+      - ':美国-ss-169_197_142_99:6679-可用-直连-仅支持加拿大地区NF自制剧_38'
+      - ':俄罗斯-ss-213_183_53_202:9084-可用-直连-仅支持俄罗斯联邦地区NF自制剧_39'
+      - ':澳大利亚-ss-185_167_116_38:9088-可用-直连-仅支持澳大利亚地区NF自制剧_40'
+      - ':澳大利亚-ss-185_167_116_38:9064-可用-直连-仅支持澳大利亚地区NF自制剧_41'
+      - ':俄罗斯-ss-217_30_10_63:9093-可用-直连-仅支持波兰地区NF自制剧_42'
+      - ':美国-ss-169_197_142_99:9101-可用-直连-仅支持加拿大地区NF自制剧_43'
+      - ':保加利亚-ss-213_183_63_221:9027-可用-直连-仅支持保加利亚地区NF自制剧_44'
+      - ':中国-ss-14_29_124_168:25270-可用-直连-完全不支持NF_45'
+      - ':中国-ss-14_29_124_168:25218-可用-直连-完全不支持NF_46'
+      - ':俄罗斯-ss-217_30_10_63:9094-可用-直连-仅支持波兰地区NF自制剧_47'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 中国-1_95MB/s(Youtube:不良林)_1
-      - 中国-452_6KB/s(Youtube:不良林)_2
-      - 日本-482_9KB/s(Youtube:不良林)_3
-      - 中国-2_46MB/s(Youtube:不良林)_4
-      - 中国-11_68MB/s(Youtube:不良林)_5
-      - 美国-863_6KB/s(Youtube:不良林)_6
-      - 香港-2_56MB/s(Youtube:不良林)_7
-      - 荷兰-1_19MB/s(Youtube:不良林)_8
-      - 日本-165_2KB/s(Youtube:不良林)_9
-      - 美国-5_23MB/s(Youtube:不良林)_10
-      - 美国-3_04MB/s(Youtube:不良林)_11
-      - 中国-4_86MB/s(Youtube:不良林)_12
-      - 韩国-3_67MB/s(Youtube:不良林)_13
-      - 中国-2_98MB/s(Youtube:不良林)_14
-      - 美国-716_0KB/s(Youtube:不良林)_15
+      - github_com/freefq-日本东京Oracle云计算数据中心2_1
+      - github_com/freefq-美国新泽西州皮斯卡特维Vultr数据中心3_2
+      - github_com/freefq-美国4_3
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心5_4
+      - github_com/freefq-美国6_5
+      - github_com/freefq-上海市电信7_6
+      - github_com/freefq-亚太地区8_7
+      - github_com/freefq-新加坡DigitalOcean数据中心9_8
+      - github_com/freefq-亚太地区10_9
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH11_10
+      - github_com/freefq-加拿大12_11
+      - github_com/freefq-美国CloudFlare节点13_12
+      - github_com/freefq-法国14_13
+      - github_com/freefq-美国3COM公司企业网15_14
+      - github_com/freefq-加拿大16_15
+      - github_com/freefq-加拿大17_16
+      - github_com/freefq-美国CloudFlare公司CDN节点18_17
+      - github_com/freefq-美国CloudFlare公司CDN节点19_18
+      - github_com/freefq-美国CloudFlare节点20_19
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心21_20
+      - github_com/freefq-美国CloudFlare公司CDN节点22_21
+      - github_com/freefq-美国CloudFlare节点23_22
+      - github_com/freefq-美国CloudFlare节点24_23
+      - github_com/freefq-法国25_24
+      - github_com/freefq-北美地区26_25
+      - github_com/freefq-美国Microsoft数据中心27_26
+      - github_com/freefq-美国CloudFlare节点28_27
+      - ':美国-ss-169_197_142_99:443-可用-直连-仅支持加拿大地区NF自制剧_28'
+      - ':美国-ss-169_197_142_99:9102-可用-直连-仅支持加拿大地区NF自制剧_29'
+      - ':英国-ss-152_89_210_105:9007-可用-直连-仅支持英国地区NF自制剧_30'
+      - ':保加利亚-ss-213_183_63_221:9056-可用-直连-仅支持保加利亚地区NF自制剧_31'
+      - ':澳大利亚-ss-185_167_116_38:9026-可用-直连-仅支持澳大利亚地区NF自制剧_32'
+      - ':中国-ss-14_29_124_168:25245-可用-直连-完全不支持NF_33'
+      - ':中国-ss-14_29_124_168:25289-可用-直连-完全不支持NF_34'
+      - ':澳大利亚-ss-185_167_116_38:9008-可用-直连-仅支持澳大利亚地区NF自制剧_35'
+      - ':俄罗斯-ss-213_183_53_202:9038-可用-直连-仅支持俄罗斯联邦地区NF自制剧_36'
+      - ':美国-ss-169_197_142_99:6697-可用-直连-仅支持加拿大地区NF自制剧_37'
+      - ':美国-ss-169_197_142_99:6679-可用-直连-仅支持加拿大地区NF自制剧_38'
+      - ':俄罗斯-ss-213_183_53_202:9084-可用-直连-仅支持俄罗斯联邦地区NF自制剧_39'
+      - ':澳大利亚-ss-185_167_116_38:9088-可用-直连-仅支持澳大利亚地区NF自制剧_40'
+      - ':澳大利亚-ss-185_167_116_38:9064-可用-直连-仅支持澳大利亚地区NF自制剧_41'
+      - ':俄罗斯-ss-217_30_10_63:9093-可用-直连-仅支持波兰地区NF自制剧_42'
+      - ':美国-ss-169_197_142_99:9101-可用-直连-仅支持加拿大地区NF自制剧_43'
+      - ':保加利亚-ss-213_183_63_221:9027-可用-直连-仅支持保加利亚地区NF自制剧_44'
+      - ':中国-ss-14_29_124_168:25270-可用-直连-完全不支持NF_45'
+      - ':中国-ss-14_29_124_168:25218-可用-直连-完全不支持NF_46'
+      - ':俄罗斯-ss-217_30_10_63:9094-可用-直连-仅支持波兰地区NF自制剧_47'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,21 +389,53 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国-1_95MB/s(Youtube:不良林)_1
-      - 中国-452_6KB/s(Youtube:不良林)_2
-      - 日本-482_9KB/s(Youtube:不良林)_3
-      - 中国-2_46MB/s(Youtube:不良林)_4
-      - 中国-11_68MB/s(Youtube:不良林)_5
-      - 美国-863_6KB/s(Youtube:不良林)_6
-      - 香港-2_56MB/s(Youtube:不良林)_7
-      - 荷兰-1_19MB/s(Youtube:不良林)_8
-      - 日本-165_2KB/s(Youtube:不良林)_9
-      - 美国-5_23MB/s(Youtube:不良林)_10
-      - 美国-3_04MB/s(Youtube:不良林)_11
-      - 中国-4_86MB/s(Youtube:不良林)_12
-      - 韩国-3_67MB/s(Youtube:不良林)_13
-      - 中国-2_98MB/s(Youtube:不良林)_14
-      - 美国-716_0KB/s(Youtube:不良林)_15
+      - github_com/freefq-日本东京Oracle云计算数据中心2_1
+      - github_com/freefq-美国新泽西州皮斯卡特维Vultr数据中心3_2
+      - github_com/freefq-美国4_3
+      - github_com/freefq-俄罗斯莫斯科Melbicom数据中心5_4
+      - github_com/freefq-美国6_5
+      - github_com/freefq-上海市电信7_6
+      - github_com/freefq-亚太地区8_7
+      - github_com/freefq-新加坡DigitalOcean数据中心9_8
+      - github_com/freefq-亚太地区10_9
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH11_10
+      - github_com/freefq-加拿大12_11
+      - github_com/freefq-美国CloudFlare节点13_12
+      - github_com/freefq-法国14_13
+      - github_com/freefq-美国3COM公司企业网15_14
+      - github_com/freefq-加拿大16_15
+      - github_com/freefq-加拿大17_16
+      - github_com/freefq-美国CloudFlare公司CDN节点18_17
+      - github_com/freefq-美国CloudFlare公司CDN节点19_18
+      - github_com/freefq-美国CloudFlare节点20_19
+      - github_com/freefq-美国加利福尼亚州洛杉矶MULTACOM数据中心21_20
+      - github_com/freefq-美国CloudFlare公司CDN节点22_21
+      - github_com/freefq-美国CloudFlare节点23_22
+      - github_com/freefq-美国CloudFlare节点24_23
+      - github_com/freefq-法国25_24
+      - github_com/freefq-北美地区26_25
+      - github_com/freefq-美国Microsoft数据中心27_26
+      - github_com/freefq-美国CloudFlare节点28_27
+      - ':美国-ss-169_197_142_99:443-可用-直连-仅支持加拿大地区NF自制剧_28'
+      - ':美国-ss-169_197_142_99:9102-可用-直连-仅支持加拿大地区NF自制剧_29'
+      - ':英国-ss-152_89_210_105:9007-可用-直连-仅支持英国地区NF自制剧_30'
+      - ':保加利亚-ss-213_183_63_221:9056-可用-直连-仅支持保加利亚地区NF自制剧_31'
+      - ':澳大利亚-ss-185_167_116_38:9026-可用-直连-仅支持澳大利亚地区NF自制剧_32'
+      - ':中国-ss-14_29_124_168:25245-可用-直连-完全不支持NF_33'
+      - ':中国-ss-14_29_124_168:25289-可用-直连-完全不支持NF_34'
+      - ':澳大利亚-ss-185_167_116_38:9008-可用-直连-仅支持澳大利亚地区NF自制剧_35'
+      - ':俄罗斯-ss-213_183_53_202:9038-可用-直连-仅支持俄罗斯联邦地区NF自制剧_36'
+      - ':美国-ss-169_197_142_99:6697-可用-直连-仅支持加拿大地区NF自制剧_37'
+      - ':美国-ss-169_197_142_99:6679-可用-直连-仅支持加拿大地区NF自制剧_38'
+      - ':俄罗斯-ss-213_183_53_202:9084-可用-直连-仅支持俄罗斯联邦地区NF自制剧_39'
+      - ':澳大利亚-ss-185_167_116_38:9088-可用-直连-仅支持澳大利亚地区NF自制剧_40'
+      - ':澳大利亚-ss-185_167_116_38:9064-可用-直连-仅支持澳大利亚地区NF自制剧_41'
+      - ':俄罗斯-ss-217_30_10_63:9093-可用-直连-仅支持波兰地区NF自制剧_42'
+      - ':美国-ss-169_197_142_99:9101-可用-直连-仅支持加拿大地区NF自制剧_43'
+      - ':保加利亚-ss-213_183_63_221:9027-可用-直连-仅支持保加利亚地区NF自制剧_44'
+      - ':中国-ss-14_29_124_168:25270-可用-直连-完全不支持NF_45'
+      - ':中国-ss-14_29_124_168:25218-可用-直连-完全不支持NF_46'
+      - ':俄罗斯-ss-217_30_10_63:9094-可用-直连-仅支持波兰地区NF自制剧_47'
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
