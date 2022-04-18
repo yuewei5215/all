@@ -5,389 +5,1348 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇬🇧_GB_英国_1","server":"jgwcc2.gaox.ml","port":443,"type":"trojan","country":"🇬🇧_GB_英国_1","skip-cert-verify":true,"udp":true,"password":"9c822f05-cfdc-479a-9534-60f3d4127435"}
-  - {"name":"🇰🇷_KR_韩国_2","server":"jgwcc1.gaox.ml","port":443,"type":"trojan","country":"🇰🇷_KR_韩国_2","skip-cert-verify":true,"udp":true,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a"}
-  - {"name":"🇺🇸_US_美国_3","server":"jgwdj2.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_3","skip-cert-verify":true,"udp":true,"password":"86231db5-96d0-4271-9977-cae3a0cba614"}
-  - {"name":"🇺🇸_US_美国_4","server":"45.32.94.166","port":31676,"type":"vmess","uuid":"6f3ec45c-5283-40e8-aea9-7749f4c75753","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_4","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"45.32.94.166"}}}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_5","server":"213.183.53.177","port":9001,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_5","password":"UkXRsXvR6buDMG2Y","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_6","server":"213.183.53.177","port":9070,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_6","password":"bf7v334KKDV3YDhH","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_7","server":"213.183.53.177","port":9000,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_7","password":"a3GFYt36Sm82Vys9","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_8","server":"213.183.53.177","port":9006,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_8","password":"FAdUvMJUq5vDgKEq","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_9","server":"213.183.53.177","port":9033,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_9","password":"UTJA57ypk2XKQpnm","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇺🇸_US_美国_10","server":"jgwcc3.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_10","skip-cert-verify":true,"udp":true,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7"}
-  - {"name":"🇬🇧_GB_英国_11","server":"144.24.88.101","port":16833,"type":"vmess","uuid":"f5425ccf-3946-4fb4-eb24-5393d78a392f","alterId":0,"cipher":"auto","country":"🇬🇧_GB_英国_11","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_12","server":"213.183.53.177","port":9050,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_12","password":"FG5ddLsMPbV5CutE","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_13","server":"213.183.53.177","port":9084,"type":"ss","country":"🇷🇺_RU_俄罗斯联邦_13","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
-  - {"name":"🇬🇧_GB_英国_14","server":"jgwld1.gaox.ml","port":443,"type":"trojan","country":"🇬🇧_GB_英国_14","skip-cert-verify":true,"udp":true,"password":"02e653c9-7c93-46a9-999d-11834bd0c577"}
-  - {"name":"default_name_15","server":"hax.hax01.tk","port":443,"type":"vmess","uuid":"e2e073ce-c1d4-43ed-89f5-ca978507548a","alterId":0,"cipher":"auto","country":"default_name_15","skip-cert-verify":true,"tls":true,"network":"ws"}
-  - {"name":"🇨🇳_CN_中国->🇱🇺_LU_卢森堡_16","server":"s1.upyun.online","port":12340,"type":"trojan","country":"🇨🇳_CN_中国->🇱🇺_LU_卢森堡_16","skip-cert-verify":true,"udp":true,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_17","server":"213.183.53.177","port":9064,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_17","password":"cp8pRSUAyLhTfVWH","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_18","server":"213.183.53.177","port":9008,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_18","password":"y9VURyNzJWNRYEGQ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_19","server":"213.183.53.177","port":9003,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_19","password":"JdmRK9gMEqFgs8nP","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_20","server":"213.183.53.177","port":9045,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_20","password":"Lp27rqyJq72bZsqX","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇺🇸_US_美国_21","server":"jgwdj3.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_21","skip-cert-verify":true,"udp":true,"password":"da777aae-defb-41d0-a183-2c27da2b4677"}
-  - {"name":"🇺🇸_US_美国_22","server":"asd1v.baozipay.top","port":443,"type":"trojan","country":"🇺🇸_US_美国_22","skip-cert-verify":true,"udp":true,"password":"rYA8dFQI6R2qTwP0"}
-  - {"name":"🇨🇳_CN_中国->🇧🇬_BG_保加利亚_23","server":"gz1.52168.xyz","port":1102,"type":"ssr","country":"🇨🇳_CN_中国->🇧🇬_BG_保加利亚_23","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_24","server":"213.183.53.177","port":9060,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_24","password":"ueLXVkvh4hckhErQ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_25","server":"213.183.53.177","port":9098,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_25","password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_26","server":"213.183.53.177","port":9032,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_26","password":"UWZQeLRWnkqgkseq","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_27","server":"213.183.53.177","port":9053,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_27","password":"SBM7R883jBmnqe6C","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_28","server":"213.183.53.177","port":9056,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_28","password":"rNBfNuuANFCAk7KB","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_29","server":"gz2.52168.xyz","port":2107,"type":"ssr","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_29","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_30","server":"213.183.53.177","port":9015,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_30","password":"ZpNDDKRu9MagNvaf","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_31","server":"gz1.52168.xyz","port":1111,"type":"ssr","country":"🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_31","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_32","server":"213.183.53.177","port":9011,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_32","password":"M3t2ZEQcMGRWBjRa","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_33","server":"213.183.53.200","port":9025,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_33","password":"XPtzA9sCug3SPR4c","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_34","server":"213.183.53.200","port":9038,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_34","password":"gYCYXfkUQEs2TaJQ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇨🇭_CH_瑞士_35","server":"185.126.116.125","port":9043,"type":"ssr","country":"🇨🇭_CH_瑞士_35","password":"HSZuyJQcWe8dxNdF","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_36","server":"213.183.53.177","port":9018,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_36","password":"fG2artUmHfNT2cX7","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_37","server":"213.183.53.177","port":9007,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_37","password":"kSPmvwdFzGMMW5pY","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_38","server":"213.183.53.200","port":9097,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_38","password":"Sn5B7jTqr76aCJT8","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_39","server":"213.183.53.200","port":9026,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_39","password":"QWDDvVE9npNurQfA","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_40","server":"213.183.53.200","port":9015,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_40","password":"ZpNDDKRu9MagNvaf","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_41","server":"213.183.53.200","port":9056,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_41","password":"rNBfNuuANFCAk7KB","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_42","server":"213.183.53.177","port":9097,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_42","password":"Sn5B7jTqr76aCJT8","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_43","server":"213.183.53.200","port":9053,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_43","password":"SBM7R883jBmnqe6C","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_44","server":"213.183.53.177","port":9079,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_44","password":"TPqX8edgbAURcAMb","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_45","server":"213.183.53.200","port":9010,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_45","password":"f63gg8EruDnUrmz4","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_46","server":"213.183.53.177","port":9088,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_46","password":"f8npKgNzdkss2ytn","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_47","server":"213.183.53.200","port":9084,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_47","password":"c3NtHJ5ujV2tGDfj","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_48","server":"213.183.53.177","port":9094,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_48","password":"rpgbNnU9rDDU4aWZ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_49","server":"213.183.53.200","port":9006,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_49","password":"FAdUvMJUq5vDgKEq","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_50","server":"213.183.53.177","port":9031,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_50","password":"BwcAUZk8hUFAkDGN","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"🇺🇸_US_美国_1","server":"hk1.azure.infininode.xyz","port":34634,"type":"vmess","uuid":"f81fe6ec-d426-4fcf-ae9a-fe00dd40b48f","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"tls":true,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"🇰🇷_KR_韩国_2","server":"158.247.203.168","port":8881,"type":"ss","country":"🇰🇷_KR_韩国_2","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇹🇼_TW_台湾_3","server":"twzh6v.zhs.company","port":2053,"type":"vmess","uuid":"f4c677da-ef1c-30e2-a4d0-5b07f9375b2b","alterId":0,"cipher":"auto","country":"🇹🇼_TW_台湾_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/zhs","headers":{"host":"twzh6v.zhs.company"}}}
+  - {"name":"🇰🇷_KR_韩国_4","server":"158.247.205.108","port":7002,"type":"ss","country":"🇰🇷_KR_韩国_4","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_5","server":"167.88.61.175","port":8119,"type":"ss","country":"🇺🇸_US_美国_5","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_6","server":"167.88.61.70","port":2376,"type":"ss","country":"🇺🇸_US_美国_6","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_7","server":"38.114.114.49","port":9101,"type":"ss","country":"🇺🇸_US_美国_7","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_8","server":"169.197.142.216","port":7001,"type":"ss","country":"🇺🇸_US_美国_8","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_9","server":"167.88.61.175","port":5003,"type":"ss","country":"🇺🇸_US_美国_9","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇰🇷_KR_韩国_10","server":"158.247.203.168","port":8008,"type":"ss","country":"🇰🇷_KR_韩国_10","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇰🇷_KR_韩国_11","server":"158.247.209.92","port":9102,"type":"ss","country":"🇰🇷_KR_韩国_11","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_12","server":"169.197.142.39","port":8881,"type":"ss","country":"🇺🇸_US_美国_12","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_13","server":"167.88.61.70","port":8080,"type":"ss","country":"🇺🇸_US_美国_13","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_14","server":"167.88.61.175","port":6679,"type":"ss","country":"🇺🇸_US_美国_14","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_15","server":"ussdh7.zhs.company","port":443,"type":"vmess","uuid":"f4c677da-ef1c-30e2-a4d0-5b07f9375b2b","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_15","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/zhs","headers":{"host":"ussdh7.zhs.company"}}}
+  - {"name":"🇺🇸_US_美国_16","server":"167.88.61.50","port":5003,"type":"ss","country":"🇺🇸_US_美国_16","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_17","server":"169.197.142.4","port":2375,"type":"ss","country":"🇺🇸_US_美国_17","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_18","server":"167.88.61.130","port":8080,"type":"ss","country":"🇺🇸_US_美国_18","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_19","server":"169.197.142.4","port":8881,"type":"ss","country":"🇺🇸_US_美国_19","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_20","server":"169.197.142.39","port":9102,"type":"ss","country":"🇺🇸_US_美国_20","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_21","server":"167.88.61.130","port":8000,"type":"ss","country":"🇺🇸_US_美国_21","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_22","server":"169.197.143.157","port":7002,"type":"ss","country":"🇺🇸_US_美国_22","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_23","server":"169.197.142.216","port":6679,"type":"ss","country":"🇺🇸_US_美国_23","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_24","server":"169.197.142.39","port":5500,"type":"ss","country":"🇺🇸_US_美国_24","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇰🇷_KR_韩国_25","server":"141.164.42.236","port":6379,"type":"ss","country":"🇰🇷_KR_韩国_25","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇰🇷_KR_韩国_26","server":"158.247.203.168","port":8091,"type":"ss","country":"🇰🇷_KR_韩国_26","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_27","server":"38.75.136.45","port":8090,"type":"ss","country":"🇺🇸_US_美国_27","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_28","server":"169.197.142.39","port":3389,"type":"ss","country":"🇺🇸_US_美国_28","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_29","server":"167.88.61.70","port":9102,"type":"ss","country":"🇺🇸_US_美国_29","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_30","server":"169.197.142.39","port":5601,"type":"ss","country":"🇺🇸_US_美国_30","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_31","server":"167.88.61.175","port":2375,"type":"ss","country":"🇺🇸_US_美国_31","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_32","server":"38.75.136.139","port":8080,"type":"ss","country":"🇺🇸_US_美国_32","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_33","server":"167.88.61.70","port":8882,"type":"ss","country":"🇺🇸_US_美国_33","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_34","server":"38.68.134.190","port":9101,"type":"ss","country":"🇺🇸_US_美国_34","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_35","server":"169.197.142.39","port":6379,"type":"ss","country":"🇺🇸_US_美国_35","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇰🇷_KR_韩国_36","server":"158.247.206.19","port":7307,"type":"ss","country":"🇰🇷_KR_韩国_36","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_37","server":"38.114.114.49","port":6679,"type":"ss","country":"🇺🇸_US_美国_37","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_38","server":"38.75.137.71","port":6679,"type":"ss","country":"🇺🇸_US_美国_38","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_39","server":"169.197.143.157","port":7307,"type":"ss","country":"🇺🇸_US_美国_39","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_40","server":"167.88.61.50","port":7306,"type":"ss","country":"🇺🇸_US_美国_40","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_41","server":"167.88.61.50","port":7307,"type":"ss","country":"🇺🇸_US_美国_41","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_42","server":"169.197.142.39","port":8118,"type":"ss","country":"🇺🇸_US_美国_42","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_43","server":"169.197.142.4","port":2376,"type":"ss","country":"🇺🇸_US_美国_43","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_44","server":"38.75.137.71","port":7306,"type":"ss","country":"🇺🇸_US_美国_44","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_45","server":"167.88.61.175","port":5001,"type":"ss","country":"🇺🇸_US_美国_45","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_46","server":"169.197.142.4","port":8091,"type":"ss","country":"🇺🇸_US_美国_46","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_47","server":"167.88.61.130","port":5003,"type":"ss","country":"🇺🇸_US_美国_47","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_48","server":"167.88.61.50","port":3389,"type":"ss","country":"🇺🇸_US_美国_48","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_49","server":"167.88.61.50","port":8119,"type":"ss","country":"🇺🇸_US_美国_49","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_50","server":"38.68.134.69","port":2375,"type":"ss","country":"🇺🇸_US_美国_50","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_51","server":"167.88.61.70","port":5500,"type":"ss","country":"🇺🇸_US_美国_51","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_52","server":"167.88.61.130","port":3389,"type":"ss","country":"🇺🇸_US_美国_52","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_53","server":"169.197.142.39","port":8882,"type":"ss","country":"🇺🇸_US_美国_53","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_54","server":"38.68.134.190","port":8008,"type":"ss","country":"🇺🇸_US_美国_54","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_55","server":"167.88.61.70","port":3389,"type":"ss","country":"🇺🇸_US_美国_55","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇰🇷_KR_韩国_56","server":"158.247.205.87","port":5003,"type":"ss","country":"🇰🇷_KR_韩国_56","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_57","server":"167.88.61.70","port":8090,"type":"ss","country":"🇺🇸_US_美国_57","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_58","server":"167.88.61.70","port":6697,"type":"ss","country":"🇺🇸_US_美国_58","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_59","server":"167.88.61.213","port":8091,"type":"ss","country":"🇺🇸_US_美国_59","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇰🇷_KR_韩国_60","server":"158.247.209.92","port":8119,"type":"ss","country":"🇰🇷_KR_韩国_60","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇰🇷_KR_韩国_61","server":"158.247.203.168","port":5601,"type":"ss","country":"🇰🇷_KR_韩国_61","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_62","server":"38.68.135.19","port":7306,"type":"ss","country":"🇺🇸_US_美国_62","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_63","server":"169.197.142.39","port":8008,"type":"ss","country":"🇺🇸_US_美国_63","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA_加拿大_64","server":"134.195.196.139","port":7306,"type":"ss","country":"🇨🇦_CA_加拿大_64","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_65","server":"167.88.61.70","port":5001,"type":"ss","country":"🇺🇸_US_美国_65","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_66","server":"167.88.61.70","port":8119,"type":"ss","country":"🇺🇸_US_美国_66","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇰🇷_KR_韩国_67","server":"158.247.205.87","port":7306,"type":"ss","country":"🇰🇷_KR_韩国_67","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_68","server":"38.68.134.190","port":7001,"type":"ss","country":"🇺🇸_US_美国_68","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_69","server":"198.57.27.218","port":6379,"type":"ss","country":"🇨🇦_CA_加拿大_69","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸_US_美国_70","server":"169.197.143.157","port":2376,"type":"ss","country":"🇺🇸_US_美国_70","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_71","server":"169.197.143.157","port":8118,"type":"ss","country":"🇺🇸_US_美国_71","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA_加拿大_72","server":"134.195.196.132","port":8881,"type":"ss","country":"🇨🇦_CA_加拿大_72","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_73","server":"38.75.136.139","port":8090,"type":"ss","country":"🇺🇸_US_美国_73","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_74","server":"167.88.61.70","port":8008,"type":"ss","country":"🇺🇸_US_美国_74","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_75","server":"167.88.61.70","port":8009,"type":"ss","country":"🇺🇸_US_美国_75","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_76","server":"169.197.143.157","port":9101,"type":"ss","country":"🇺🇸_US_美国_76","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_77","server":"38.75.137.71","port":8000,"type":"ss","country":"🇺🇸_US_美国_77","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_78","server":"38.68.135.123","port":443,"type":"ss","country":"🇺🇸_US_美国_78","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇰🇷_KR_韩国_79","server":"141.164.47.208","port":5001,"type":"ss","country":"🇰🇷_KR_韩国_79","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_80","server":"167.88.61.175","port":8008,"type":"ss","country":"🇺🇸_US_美国_80","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_81","server":"169.197.142.39","port":5004,"type":"ss","country":"🇺🇸_US_美国_81","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_82","server":"167.88.62.62","port":8080,"type":"ss","country":"🇺🇸_US_美国_82","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_83","server":"38.75.136.45","port":5003,"type":"ss","country":"🇺🇸_US_美国_83","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_84","server":"169.197.142.216","port":7002,"type":"ss","country":"🇺🇸_US_美国_84","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇨🇦_CA_加拿大_85","server":"198.57.27.218","port":2376,"type":"ss","country":"🇨🇦_CA_加拿大_85","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_86","server":"38.68.134.190","port":5601,"type":"ss","country":"🇺🇸_US_美国_86","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇰🇷_KR_韩国_87","server":"158.247.203.168","port":7307,"type":"ss","country":"🇰🇷_KR_韩国_87","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_88","server":"167.88.61.70","port":9101,"type":"ss","country":"🇺🇸_US_美国_88","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_89","server":"167.88.61.70","port":5004,"type":"ss","country":"🇺🇸_US_美国_89","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_90","server":"38.75.137.71","port":2376,"type":"ss","country":"🇺🇸_US_美国_90","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_91","server":"38.68.134.69","port":2376,"type":"ss","country":"🇺🇸_US_美国_91","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_92","server":"167.88.61.96","port":5001,"type":"ss","country":"🇺🇸_US_美国_92","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_93","server":"169.197.142.39","port":9101,"type":"ss","country":"🇺🇸_US_美国_93","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_94","server":"167.88.61.130","port":2376,"type":"ss","country":"🇺🇸_US_美国_94","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_95","server":"169.197.142.216","port":6697,"type":"ss","country":"🇺🇸_US_美国_95","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_96","server":"38.107.226.238","port":2376,"type":"ss","country":"🇺🇸_US_美国_96","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_97","server":"142.202.48.74","port":8091,"type":"ss","country":"🇺🇸_US_美国_97","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_98","server":"38.75.137.71","port":8118,"type":"ss","country":"🇺🇸_US_美国_98","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_99","server":"167.88.61.70","port":8881,"type":"ss","country":"🇺🇸_US_美国_99","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_100","server":"169.197.142.39","port":8000,"type":"ss","country":"🇺🇸_US_美国_100","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_101","server":"38.114.114.49","port":8080,"type":"ss","country":"🇺🇸_US_美国_101","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_102","server":"38.68.134.190","port":8118,"type":"ss","country":"🇺🇸_US_美国_102","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇰🇷_KR_韩国_103","server":"141.164.47.208","port":9101,"type":"ss","country":"🇰🇷_KR_韩国_103","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_104","server":"38.75.136.116","port":8080,"type":"ss","country":"🇺🇸_US_美国_104","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_105","server":"169.197.142.39","port":8119,"type":"ss","country":"🇺🇸_US_美国_105","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_106","server":"38.107.226.146","port":8091,"type":"ss","country":"🇺🇸_US_美国_106","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_107","server":"169.197.143.157","port":8090,"type":"ss","country":"🇺🇸_US_美国_107","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_108","server":"169.197.142.4","port":8090,"type":"ss","country":"🇺🇸_US_美国_108","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_109","server":"169.197.142.216","port":8000,"type":"ss","country":"🇺🇸_US_美国_109","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_110","server":"38.114.114.49","port":5003,"type":"ss","country":"🇺🇸_US_美国_110","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦_CA_加拿大_111","server":"134.195.196.64","port":8118,"type":"ss","country":"🇨🇦_CA_加拿大_111","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦_CA_加拿大_112","server":"134.195.196.51","port":7002,"type":"ss","country":"🇨🇦_CA_加拿大_112","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_113","server":"142.202.48.17","port":9102,"type":"ss","country":"🇺🇸_US_美国_113","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸_US_美国_114","server":"169.197.143.157","port":8008,"type":"ss","country":"🇺🇸_US_美国_114","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇰🇷_KR_韩国_115","server":"158.247.209.92","port":5004,"type":"ss","country":"🇰🇷_KR_韩国_115","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇰🇷_KR_韩国_116","server":"141.164.52.21","port":7001,"type":"ss","country":"🇰🇷_KR_韩国_116","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_117","server":"167.88.61.50","port":2375,"type":"ss","country":"🇺🇸_US_美国_117","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_118","server":"38.68.134.190","port":5004,"type":"ss","country":"🇺🇸_US_美国_118","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_119","server":"38.75.137.71","port":5601,"type":"ss","country":"🇺🇸_US_美国_119","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_120","server":"167.88.61.175","port":8090,"type":"ss","country":"🇺🇸_US_美国_120","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧_GB_英国_121","server":"rknc.xrenblog.com","port":18888,"type":"vmess","uuid":"0febc8e5-8463-440f-961a-6ea09d429d1c","alterId":0,"cipher":"auto","country":"🇬🇧_GB_英国_121","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog"}}
+  - {"name":"🇺🇸_US_美国_122","server":"169.197.142.4","port":6379,"type":"ss","country":"🇺🇸_US_美国_122","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇰🇷_KR_韩国_123","server":"141.164.56.250","port":2375,"type":"ss","country":"🇰🇷_KR_韩国_123","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_124","server":"142.202.48.74","port":5003,"type":"ss","country":"🇺🇸_US_美国_124","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_125","server":"169.197.142.216","port":7306,"type":"ss","country":"🇺🇸_US_美国_125","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇰🇷_KR_韩国_126","server":"158.247.199.253","port":443,"type":"ss","country":"🇰🇷_KR_韩国_126","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_127","server":"198.57.27.218","port":6697,"type":"ss","country":"🇨🇦_CA_加拿大_127","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_128","server":"167.88.61.50","port":8091,"type":"ss","country":"🇺🇸_US_美国_128","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_129","server":"169.197.143.157","port":7306,"type":"ss","country":"🇺🇸_US_美国_129","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_130","server":"169.197.142.39","port":7306,"type":"ss","country":"🇺🇸_US_美国_130","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦_CA_加拿大_131","server":"198.57.27.218","port":8882,"type":"ss","country":"🇨🇦_CA_加拿大_131","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇰🇷_KR_韩国_132","server":"158.247.205.87","port":8119,"type":"ss","country":"🇰🇷_KR_韩国_132","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸_US_美国_133","server":"167.88.61.70","port":6679,"type":"ss","country":"🇺🇸_US_美国_133","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_134","server":"38.68.135.19","port":2375,"type":"ss","country":"🇺🇸_US_美国_134","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_135","server":"169.197.142.39","port":5001,"type":"ss","country":"🇺🇸_US_美国_135","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_136","server":"167.88.63.21","port":5601,"type":"ss","country":"🇺🇸_US_美国_136","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_137","server":"167.88.61.70","port":7002,"type":"ss","country":"🇺🇸_US_美国_137","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_138","server":"169.197.142.216","port":8881,"type":"ss","country":"🇺🇸_US_美国_138","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦_CA_加拿大_139","server":"198.57.27.218","port":7001,"type":"ss","country":"🇨🇦_CA_加拿大_139","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_140","server":"38.107.226.146","port":5004,"type":"ss","country":"🇺🇸_US_美国_140","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_141","server":"169.197.143.157","port":5001,"type":"ss","country":"🇺🇸_US_美国_141","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_142","server":"38.75.136.49","port":6697,"type":"ss","country":"🇺🇸_US_美国_142","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_143","server":"169.197.142.39","port":6679,"type":"ss","country":"🇺🇸_US_美国_143","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇰🇷_KR_韩国_144","server":"158.247.209.92","port":5003,"type":"ss","country":"🇰🇷_KR_韩国_144","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_145","server":"167.88.63.64","port":5500,"type":"ss","country":"🇺🇸_US_美国_145","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"更新于:04-1812:00-byBuLink_xyz-以下节点不计流量_146","server":"使用前记得更新订阅","port":0,"type":"vmess","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"cipher":"auto","country":"更新于:04-1812:00-byBuLink_xyz-以下节点不计流量_146","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/freefq-美国Microsoft数据中心1_147","server":"20.24.83.247","port":80,"type":"vmess","uuid":"296c78e7-c4d7-456b-805a-3db82fe06edc","alterId":0,"cipher":"auto","country":"github_com/freefq-美国Microsoft数据中心1_147","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)2_148","server":"172.247.127.175","port":51692,"type":"vmess","uuid":"a5aa4fad-3cc3-484f-f170-9cec7a347819","alterId":0,"cipher":"auto","country":"github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)2_148","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/freefq-新加坡Amazon数据中心3_149","server":"v2-2.godlight.xyz","port":30520,"type":"vmess","uuid":"43308d27-94ec-408e-a8f6-d682cfb99ca9","alterId":0,"cipher":"auto","country":"github_com/freefq-新加坡Amazon数据中心3_149","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/54f634fs","headers":{"host":"v2-2.godlight.xyz"}}}
+  - {"name":"github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)4_150","server":"172.247.127.236","port":51692,"type":"vmess","uuid":"a5aa4fad-3cc3-484f-f170-9cec7a347819","alterId":0,"cipher":"auto","country":"github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)4_150","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/freefq-美国Microsoft数据中心5_151","server":"hknf1.qingyun123.xyz","port":10050,"type":"trojan","country":"github_com/freefq-美国Microsoft数据中心5_151","skip-cert-verify":true,"udp":true,"password":"868f097d-cb8d-4d37-beb4-a0c84d82b8bf"}
+  - {"name":"github_com/freefq-美国Microsoft数据中心6_152","server":"superjapan1111.dnsfree.top","port":80,"type":"vmess","uuid":"44d62787-1cbf-42aa-99d7-21e9bcdb1c24","alterId":0,"cipher":"auto","country":"github_com/freefq-美国Microsoft数据中心6_152","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"github_com/freefq-美国加利福尼亚州费里蒙7_153","server":"45.9.10.56","port":14994,"type":"vmess","uuid":"01b663ce-ae56-47e3-a455-01944f4e1a42","alterId":0,"cipher":"auto","country":"github_com/freefq-美国加利福尼亚州费里蒙7_153","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/freefq-新加坡Amazon数据中心8_154","server":"v2-3.godlight.xyz","port":39270,"type":"vmess","uuid":"6a52f259-4367-468c-a828-7b8283c2f059","alterId":0,"cipher":"auto","country":"github_com/freefq-新加坡Amazon数据中心8_154","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/f45361465j175","headers":{"host":"v2-3.godlight.xyz"}}}
+  - {"name":"github_com/freefq-上海市电信9_155","server":"101.91.121.247","port":50004,"type":"ss","country":"github_com/freefq-上海市电信9_155","cipher":"aes-256-cfb","password":"4415934295"}
+  - {"name":"github_com/freefq-美国加利福尼亚州洛杉矶IT7网络10_156","server":"65.49.214.110","port":59750,"type":"vmess","uuid":"32531e8d-8ca7-443a-d6d8-9a5e091bdf4b","alterId":0,"cipher":"auto","country":"github_com/freefq-美国加利福尼亚州洛杉矶IT7网络10_156","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"github_com/freefq-美国AmazonEC2服务器11_157","server":"v2-5.godlight.xyz","port":39780,"type":"vmess","uuid":"767e55a4-43fa-4301-a9c2-ad30eaa9f61a","alterId":0,"cipher":"auto","country":"github_com/freefq-美国AmazonEC2服务器11_157","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/71h4b3s1f53","headers":{"host":"v2-5.godlight.xyz"}}}
+  - {"name":"github_com/freefq-法国12_158","server":"92.243.24.236","port":443,"type":"ss","country":"github_com/freefq-法国12_158","cipher":"chacha20-ietf-poly1305","password":"LE6Ee6PELhVu"}
+  - {"name":"github_com/freefq-美国加利福尼亚州洛杉矶Krypt机房13_159","server":"ussxhh.zhs.company","port":2087,"type":"vmess","uuid":"4517d729-7b37-32ef-9d4d-7807b6f57feb","alterId":0,"cipher":"auto","country":"github_com/freefq-美国加利福尼亚州洛杉矶Krypt机房13_159","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/zhs","headers":{"host":"ussxhh.zhs.company"}}}
+  - {"name":"github_com/freefq-美国DXCTechnology14_160","server":"yin1.qingyun123.xyz","port":10000,"type":"trojan","country":"github_com/freefq-美国DXCTechnology14_160","skip-cert-verify":true,"udp":true,"password":"868f097d-cb8d-4d37-beb4-a0c84d82b8bf"}
+  - {"name":"github_com/freefq-美国DXCTechnology15_161","server":"us1.qingyun123.xyz","port":10050,"type":"trojan","country":"github_com/freefq-美国DXCTechnology15_161","skip-cert-verify":true,"udp":true,"password":"868f097d-cb8d-4d37-beb4-a0c84d82b8bf"}
+  - {"name":"github_com/freefq-美国加你福尼亚洛杉矶CoperationColoction数据中心16_162","server":"uscera.moonfree.top","port":443,"type":"vmess","uuid":"861e9cd0-cd1d-4f8c-b7d9-b47409dda333","alterId":3,"cipher":"auto","country":"github_com/freefq-美国加你福尼亚洛杉矶CoperationColoction数据中心16_162","skip-cert-verify":true,"tls":true,"network":"ws"}
+  - {"name":"github_com/freefq-美国加利福尼亚州圣何塞PEGTECH17_163","server":"142.4.127.67","port":443,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","country":"github_com/freefq-美国加利福尼亚州圣何塞PEGTECH17_163","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/path/310910211916","headers":{"host":"www.47727450.xyz"}}}
+  - {"name":"github_com/freefq-美国CloudFlare节点18_164","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"70899a48-be67-11ec-bebc-000017022008","alterId":64,"cipher":"auto","country":"github_com/freefq-美国CloudFlare节点18_164","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/getweather"}}
+  - {"name":"github_com/freefq-广东省广州市移动19_165","server":"in03.dns2333.xyz","port":63014,"type":"vmess","uuid":"e701a942-fba5-3381-b15e-2838689b9c23","alterId":0,"cipher":"auto","country":"github_com/freefq-广东省广州市移动19_165","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/mg","headers":{"host":"in03.dns2333.xyz"}}}
+  - {"name":"github_com/freefq-加拿大20_166","server":"165.154.225.176","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/freefq-加拿大20_166","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0326hk01.fans8.xyz"}}}
+  - {"name":"github_com/freefq-加拿大21_167","server":"165.154.225.231","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/freefq-加拿大21_167","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330hk02.fans8.xyz"}}}
+  - {"name":"github_com/freefq-加拿大22_168","server":"330tw.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/freefq-加拿大22_168","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330tw.fans8.xyz"}}}
+  - {"name":"github_com/freefq-上海市电信23_169","server":"ingress-i1.onebox6.org","port":38106,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"github_com/freefq-上海市电信23_169","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}}}
+  - {"name":"github_com/freefq-广东省移动24_170","server":"in02.dns2333.xyz","port":63041,"type":"vmess","uuid":"e701a942-fba5-3381-b15e-2838689b9c23","alterId":0,"cipher":"auto","country":"github_com/freefq-广东省移动24_170","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/mg","headers":{"host":"in02.dns2333.xyz"}}}
+  - {"name":"github_com/freefq-美国加利福尼亚州洛杉矶Choopa数据中心25_171","server":"trojan1.free4444.xyz","port":443,"type":"trojan","country":"github_com/freefq-美国加利福尼亚州洛杉矶Choopa数据中心25_171","skip-cert-verify":true,"udp":true,"password":"dongtaiwang.com"}
+  - {"name":"github_com/freefq-美国CloudFlare节点26_172","server":"hax2.hax01.ml","port":443,"type":"vmess","uuid":"25af03c3-27ff-4c14-c142-ad7694ec42f9","alterId":0,"cipher":"auto","country":"github_com/freefq-美国CloudFlare节点26_172","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"github_com/freefq-美国CloudFlare公司CDN节点27_173","server":"104.16.162.16","port":2053,"type":"vmess","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"cipher":"auto","country":"github_com/freefq-美国CloudFlare公司CDN节点27_173","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"host":"foxus.fovi.tk"}}}
+  - {"name":"github_com/freefq-美国CloudFlare公司CDN节点28_174","server":"v5.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"github_com/freefq-美国CloudFlare公司CDN节点28_174","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
+  - {"name":"github_com/freefq-湖南省长沙市电信29_175","server":"in-v1.sdgdn.com","port":50301,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"github_com/freefq-湖南省长沙市电信29_175","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"in-v1.sdgdn.com"}}}
+  - {"name":"github_com/freefq-美国30_176","server":"jgwdb4.gaox.ml","port":443,"type":"trojan","country":"github_com/freefq-美国30_176","skip-cert-verify":true,"udp":true,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2"}
+  - {"name":"github_com/freefq-荷兰31_177","server":"ru1.lolvps.xyz","port":40040,"type":"vmess","uuid":"2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99","alterId":0,"cipher":"auto","country":"github_com/freefq-荷兰31_177","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/6129CFHR","headers":{"host":"ru1.lolvps.xyz"}}}
+  - {"name":"github_com/freefq-美国32_178","server":"xjpmf.speedcncnforward2.tk","port":10001,"type":"trojan","country":"github_com/freefq-美国32_178","skip-cert-verify":true,"udp":true,"password":"32f3466c-2483-4de6-83b8-f4008c750102"}
+  - {"name":"github_com/freefq-广东省广州市电信33_179","server":"14.29.124.168","port":25238,"type":"ss","country":"github_com/freefq-广东省广州市电信33_179","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"github_com/freefq-新加坡DigitalOcean数据中心34_180","server":"sg.sharecentrepro.tk","port":443,"type":"trojan","country":"github_com/freefq-新加坡DigitalOcean数据中心34_180","skip-cert-verify":true,"udp":true,"password":"sharecentre"}
+  - {"name":"github_com/freefq-美国CloudFlare节点35_181","server":"v2ray.788644.xyz","port":443,"type":"vmess","uuid":"000fe881-b655-4212-b804-b00f9970d5aa","alterId":0,"cipher":"auto","country":"github_com/freefq-美国CloudFlare节点35_181","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/happy"}}
+  - {"name":"github_com/freefq-法国36_182","server":"0316ro.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"github_com/freefq-法国36_182","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nl","headers":{"host":"0316ro.fans8.xyz"}}}
+  - {"name":"github_com/freefq-广东省广州市黄埔区珠江宽频37_183","server":"120.240.48.19","port":38106,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"github_com/freefq-广东省广州市黄埔区珠江宽频37_183","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8"}}
+  - {"name":"github_com/freefq-美国Microsoft数据中心38_184","server":"hkmf1.speedcncnforward2.tk","port":10004,"type":"trojan","country":"github_com/freefq-美国Microsoft数据中心38_184","skip-cert-verify":true,"udp":true,"password":"04d83e9e-d6ff-49ca-9c32-082b9b9c9c54"}
+  - {"name":"github_com/freefq-美国Microsoft数据中心39_185","server":"rbmf.speedcncnforward3.tk","port":10004,"type":"trojan","country":"github_com/freefq-美国Microsoft数据中心39_185","skip-cert-verify":true,"udp":true,"password":"eb40a3f4-3b04-4a1c-993d-d71b44fee92c"}
+  - {"name":"节点流量有限，请合理使用_186","server":"感谢支持","port":0,"type":"vmess","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"cipher":"auto","country":"节点流量有限，请合理使用_186","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"当月流量已用光，大侠请下个月再来_187","server":"感谢支持","port":0,"type":"vmess","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"cipher":"auto","country":"当月流量已用光，大侠请下个月再来_187","skip-cert-verify":true,"tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
       - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇺🇸_US_美国_10
-      - 🇬🇧_GB_英国_11
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_14
-      - default_name_15
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_16
-      - 🇷🇺_RU_俄罗斯联邦_17
-      - 🇷🇺_RU_俄罗斯联邦_18
-      - 🇷🇺_RU_俄罗斯联邦_19
-      - 🇷🇺_RU_俄罗斯联邦_20
+      - 🇹🇼_TW_台湾_3
+      - 🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇷🇺_RU_俄罗斯联邦_25
-      - 🇷🇺_RU_俄罗斯联邦_26
-      - 🇷🇺_RU_俄罗斯联邦_27
-      - 🇷🇺_RU_俄罗斯联邦_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_31
-      - 🇷🇺_RU_俄罗斯联邦_32
-      - 🇷🇺_RU_俄罗斯联邦_33
-      - 🇷🇺_RU_俄罗斯联邦_34
-      - 🇨🇭_CH_瑞士_35
-      - 🇷🇺_RU_俄罗斯联邦_36
-      - 🇷🇺_RU_俄罗斯联邦_37
-      - 🇷🇺_RU_俄罗斯联邦_38
-      - 🇷🇺_RU_俄罗斯联邦_39
-      - 🇷🇺_RU_俄罗斯联邦_40
-      - 🇷🇺_RU_俄罗斯联邦_41
-      - 🇷🇺_RU_俄罗斯联邦_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇷🇺_RU_俄罗斯联邦_44
-      - 🇷🇺_RU_俄罗斯联邦_45
-      - 🇷🇺_RU_俄罗斯联邦_46
-      - 🇷🇺_RU_俄罗斯联邦_47
-      - 🇷🇺_RU_俄罗斯联邦_48
-      - 🇷🇺_RU_俄罗斯联邦_49
-      - 🇷🇺_RU_俄罗斯联邦_50
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇰🇷_KR_韩国_25
+      - 🇰🇷_KR_韩国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇰🇷_KR_韩国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇰🇷_KR_韩国_60
+      - 🇰🇷_KR_韩国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇰🇷_KR_韩国_67
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇰🇷_KR_韩国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇨🇦_CA_加拿大_85
+      - 🇺🇸_US_美国_86
+      - 🇰🇷_KR_韩国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇰🇷_KR_韩国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇰🇷_KR_韩国_115
+      - 🇰🇷_KR_韩国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇬🇧_GB_英国_121
+      - 🇺🇸_US_美国_122
+      - 🇰🇷_KR_韩国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇰🇷_KR_韩国_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇰🇷_KR_韩国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇨🇦_CA_加拿大_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇰🇷_KR_韩国_144
+      - 🇺🇸_US_美国_145
+      - 更新于:04-1812:00-byBuLink_xyz-以下节点不计流量_146
+      - github_com/freefq-美国Microsoft数据中心1_147
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)2_148
+      - github_com/freefq-新加坡Amazon数据中心3_149
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)4_150
+      - github_com/freefq-美国Microsoft数据中心5_151
+      - github_com/freefq-美国Microsoft数据中心6_152
+      - github_com/freefq-美国加利福尼亚州费里蒙7_153
+      - github_com/freefq-新加坡Amazon数据中心8_154
+      - github_com/freefq-上海市电信9_155
+      - github_com/freefq-美国加利福尼亚州洛杉矶IT7网络10_156
+      - github_com/freefq-美国AmazonEC2服务器11_157
+      - github_com/freefq-法国12_158
+      - github_com/freefq-美国加利福尼亚州洛杉矶Krypt机房13_159
+      - github_com/freefq-美国DXCTechnology14_160
+      - github_com/freefq-美国DXCTechnology15_161
+      - github_com/freefq-美国加你福尼亚洛杉矶CoperationColoction数据中心16_162
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH17_163
+      - github_com/freefq-美国CloudFlare节点18_164
+      - github_com/freefq-广东省广州市移动19_165
+      - github_com/freefq-加拿大20_166
+      - github_com/freefq-加拿大21_167
+      - github_com/freefq-加拿大22_168
+      - github_com/freefq-上海市电信23_169
+      - github_com/freefq-广东省移动24_170
+      - github_com/freefq-美国加利福尼亚州洛杉矶Choopa数据中心25_171
+      - github_com/freefq-美国CloudFlare节点26_172
+      - github_com/freefq-美国CloudFlare公司CDN节点27_173
+      - github_com/freefq-美国CloudFlare公司CDN节点28_174
+      - github_com/freefq-湖南省长沙市电信29_175
+      - github_com/freefq-美国30_176
+      - github_com/freefq-荷兰31_177
+      - github_com/freefq-美国32_178
+      - github_com/freefq-广东省广州市电信33_179
+      - github_com/freefq-新加坡DigitalOcean数据中心34_180
+      - github_com/freefq-美国CloudFlare节点35_181
+      - github_com/freefq-法国36_182
+      - github_com/freefq-广东省广州市黄埔区珠江宽频37_183
+      - github_com/freefq-美国Microsoft数据中心38_184
+      - github_com/freefq-美国Microsoft数据中心39_185
+      - 节点流量有限，请合理使用_186
+      - 当月流量已用光，大侠请下个月再来_187
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
       - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇺🇸_US_美国_10
-      - 🇬🇧_GB_英国_11
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_14
-      - default_name_15
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_16
-      - 🇷🇺_RU_俄罗斯联邦_17
-      - 🇷🇺_RU_俄罗斯联邦_18
-      - 🇷🇺_RU_俄罗斯联邦_19
-      - 🇷🇺_RU_俄罗斯联邦_20
+      - 🇹🇼_TW_台湾_3
+      - 🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇷🇺_RU_俄罗斯联邦_25
-      - 🇷🇺_RU_俄罗斯联邦_26
-      - 🇷🇺_RU_俄罗斯联邦_27
-      - 🇷🇺_RU_俄罗斯联邦_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_31
-      - 🇷🇺_RU_俄罗斯联邦_32
-      - 🇷🇺_RU_俄罗斯联邦_33
-      - 🇷🇺_RU_俄罗斯联邦_34
-      - 🇨🇭_CH_瑞士_35
-      - 🇷🇺_RU_俄罗斯联邦_36
-      - 🇷🇺_RU_俄罗斯联邦_37
-      - 🇷🇺_RU_俄罗斯联邦_38
-      - 🇷🇺_RU_俄罗斯联邦_39
-      - 🇷🇺_RU_俄罗斯联邦_40
-      - 🇷🇺_RU_俄罗斯联邦_41
-      - 🇷🇺_RU_俄罗斯联邦_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇷🇺_RU_俄罗斯联邦_44
-      - 🇷🇺_RU_俄罗斯联邦_45
-      - 🇷🇺_RU_俄罗斯联邦_46
-      - 🇷🇺_RU_俄罗斯联邦_47
-      - 🇷🇺_RU_俄罗斯联邦_48
-      - 🇷🇺_RU_俄罗斯联邦_49
-      - 🇷🇺_RU_俄罗斯联邦_50
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇰🇷_KR_韩国_25
+      - 🇰🇷_KR_韩国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇰🇷_KR_韩国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇰🇷_KR_韩国_60
+      - 🇰🇷_KR_韩国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇰🇷_KR_韩国_67
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇰🇷_KR_韩国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇨🇦_CA_加拿大_85
+      - 🇺🇸_US_美国_86
+      - 🇰🇷_KR_韩国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇰🇷_KR_韩国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇰🇷_KR_韩国_115
+      - 🇰🇷_KR_韩国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇬🇧_GB_英国_121
+      - 🇺🇸_US_美国_122
+      - 🇰🇷_KR_韩国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇰🇷_KR_韩国_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇰🇷_KR_韩国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇨🇦_CA_加拿大_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇰🇷_KR_韩国_144
+      - 🇺🇸_US_美国_145
+      - 更新于:04-1812:00-byBuLink_xyz-以下节点不计流量_146
+      - github_com/freefq-美国Microsoft数据中心1_147
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)2_148
+      - github_com/freefq-新加坡Amazon数据中心3_149
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)4_150
+      - github_com/freefq-美国Microsoft数据中心5_151
+      - github_com/freefq-美国Microsoft数据中心6_152
+      - github_com/freefq-美国加利福尼亚州费里蒙7_153
+      - github_com/freefq-新加坡Amazon数据中心8_154
+      - github_com/freefq-上海市电信9_155
+      - github_com/freefq-美国加利福尼亚州洛杉矶IT7网络10_156
+      - github_com/freefq-美国AmazonEC2服务器11_157
+      - github_com/freefq-法国12_158
+      - github_com/freefq-美国加利福尼亚州洛杉矶Krypt机房13_159
+      - github_com/freefq-美国DXCTechnology14_160
+      - github_com/freefq-美国DXCTechnology15_161
+      - github_com/freefq-美国加你福尼亚洛杉矶CoperationColoction数据中心16_162
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH17_163
+      - github_com/freefq-美国CloudFlare节点18_164
+      - github_com/freefq-广东省广州市移动19_165
+      - github_com/freefq-加拿大20_166
+      - github_com/freefq-加拿大21_167
+      - github_com/freefq-加拿大22_168
+      - github_com/freefq-上海市电信23_169
+      - github_com/freefq-广东省移动24_170
+      - github_com/freefq-美国加利福尼亚州洛杉矶Choopa数据中心25_171
+      - github_com/freefq-美国CloudFlare节点26_172
+      - github_com/freefq-美国CloudFlare公司CDN节点27_173
+      - github_com/freefq-美国CloudFlare公司CDN节点28_174
+      - github_com/freefq-湖南省长沙市电信29_175
+      - github_com/freefq-美国30_176
+      - github_com/freefq-荷兰31_177
+      - github_com/freefq-美国32_178
+      - github_com/freefq-广东省广州市电信33_179
+      - github_com/freefq-新加坡DigitalOcean数据中心34_180
+      - github_com/freefq-美国CloudFlare节点35_181
+      - github_com/freefq-法国36_182
+      - github_com/freefq-广东省广州市黄埔区珠江宽频37_183
+      - github_com/freefq-美国Microsoft数据中心38_184
+      - github_com/freefq-美国Microsoft数据中心39_185
+      - 节点流量有限，请合理使用_186
+      - 当月流量已用光，大侠请下个月再来_187
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
       - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇺🇸_US_美国_10
-      - 🇬🇧_GB_英国_11
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_14
-      - default_name_15
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_16
-      - 🇷🇺_RU_俄罗斯联邦_17
-      - 🇷🇺_RU_俄罗斯联邦_18
-      - 🇷🇺_RU_俄罗斯联邦_19
-      - 🇷🇺_RU_俄罗斯联邦_20
+      - 🇹🇼_TW_台湾_3
+      - 🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇷🇺_RU_俄罗斯联邦_25
-      - 🇷🇺_RU_俄罗斯联邦_26
-      - 🇷🇺_RU_俄罗斯联邦_27
-      - 🇷🇺_RU_俄罗斯联邦_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_31
-      - 🇷🇺_RU_俄罗斯联邦_32
-      - 🇷🇺_RU_俄罗斯联邦_33
-      - 🇷🇺_RU_俄罗斯联邦_34
-      - 🇨🇭_CH_瑞士_35
-      - 🇷🇺_RU_俄罗斯联邦_36
-      - 🇷🇺_RU_俄罗斯联邦_37
-      - 🇷🇺_RU_俄罗斯联邦_38
-      - 🇷🇺_RU_俄罗斯联邦_39
-      - 🇷🇺_RU_俄罗斯联邦_40
-      - 🇷🇺_RU_俄罗斯联邦_41
-      - 🇷🇺_RU_俄罗斯联邦_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇷🇺_RU_俄罗斯联邦_44
-      - 🇷🇺_RU_俄罗斯联邦_45
-      - 🇷🇺_RU_俄罗斯联邦_46
-      - 🇷🇺_RU_俄罗斯联邦_47
-      - 🇷🇺_RU_俄罗斯联邦_48
-      - 🇷🇺_RU_俄罗斯联邦_49
-      - 🇷🇺_RU_俄罗斯联邦_50
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇰🇷_KR_韩国_25
+      - 🇰🇷_KR_韩国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇰🇷_KR_韩国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇰🇷_KR_韩国_60
+      - 🇰🇷_KR_韩国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇰🇷_KR_韩国_67
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇰🇷_KR_韩国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇨🇦_CA_加拿大_85
+      - 🇺🇸_US_美国_86
+      - 🇰🇷_KR_韩国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇰🇷_KR_韩国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇰🇷_KR_韩国_115
+      - 🇰🇷_KR_韩国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇬🇧_GB_英国_121
+      - 🇺🇸_US_美国_122
+      - 🇰🇷_KR_韩国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇰🇷_KR_韩国_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇰🇷_KR_韩国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇨🇦_CA_加拿大_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇰🇷_KR_韩国_144
+      - 🇺🇸_US_美国_145
+      - 更新于:04-1812:00-byBuLink_xyz-以下节点不计流量_146
+      - github_com/freefq-美国Microsoft数据中心1_147
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)2_148
+      - github_com/freefq-新加坡Amazon数据中心3_149
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)4_150
+      - github_com/freefq-美国Microsoft数据中心5_151
+      - github_com/freefq-美国Microsoft数据中心6_152
+      - github_com/freefq-美国加利福尼亚州费里蒙7_153
+      - github_com/freefq-新加坡Amazon数据中心8_154
+      - github_com/freefq-上海市电信9_155
+      - github_com/freefq-美国加利福尼亚州洛杉矶IT7网络10_156
+      - github_com/freefq-美国AmazonEC2服务器11_157
+      - github_com/freefq-法国12_158
+      - github_com/freefq-美国加利福尼亚州洛杉矶Krypt机房13_159
+      - github_com/freefq-美国DXCTechnology14_160
+      - github_com/freefq-美国DXCTechnology15_161
+      - github_com/freefq-美国加你福尼亚洛杉矶CoperationColoction数据中心16_162
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH17_163
+      - github_com/freefq-美国CloudFlare节点18_164
+      - github_com/freefq-广东省广州市移动19_165
+      - github_com/freefq-加拿大20_166
+      - github_com/freefq-加拿大21_167
+      - github_com/freefq-加拿大22_168
+      - github_com/freefq-上海市电信23_169
+      - github_com/freefq-广东省移动24_170
+      - github_com/freefq-美国加利福尼亚州洛杉矶Choopa数据中心25_171
+      - github_com/freefq-美国CloudFlare节点26_172
+      - github_com/freefq-美国CloudFlare公司CDN节点27_173
+      - github_com/freefq-美国CloudFlare公司CDN节点28_174
+      - github_com/freefq-湖南省长沙市电信29_175
+      - github_com/freefq-美国30_176
+      - github_com/freefq-荷兰31_177
+      - github_com/freefq-美国32_178
+      - github_com/freefq-广东省广州市电信33_179
+      - github_com/freefq-新加坡DigitalOcean数据中心34_180
+      - github_com/freefq-美国CloudFlare节点35_181
+      - github_com/freefq-法国36_182
+      - github_com/freefq-广东省广州市黄埔区珠江宽频37_183
+      - github_com/freefq-美国Microsoft数据中心38_184
+      - github_com/freefq-美国Microsoft数据中心39_185
+      - 节点流量有限，请合理使用_186
+      - 当月流量已用光，大侠请下个月再来_187
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
       - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇺🇸_US_美国_10
-      - 🇬🇧_GB_英国_11
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_14
-      - default_name_15
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_16
-      - 🇷🇺_RU_俄罗斯联邦_17
-      - 🇷🇺_RU_俄罗斯联邦_18
-      - 🇷🇺_RU_俄罗斯联邦_19
-      - 🇷🇺_RU_俄罗斯联邦_20
+      - 🇹🇼_TW_台湾_3
+      - 🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇷🇺_RU_俄罗斯联邦_25
-      - 🇷🇺_RU_俄罗斯联邦_26
-      - 🇷🇺_RU_俄罗斯联邦_27
-      - 🇷🇺_RU_俄罗斯联邦_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_31
-      - 🇷🇺_RU_俄罗斯联邦_32
-      - 🇷🇺_RU_俄罗斯联邦_33
-      - 🇷🇺_RU_俄罗斯联邦_34
-      - 🇨🇭_CH_瑞士_35
-      - 🇷🇺_RU_俄罗斯联邦_36
-      - 🇷🇺_RU_俄罗斯联邦_37
-      - 🇷🇺_RU_俄罗斯联邦_38
-      - 🇷🇺_RU_俄罗斯联邦_39
-      - 🇷🇺_RU_俄罗斯联邦_40
-      - 🇷🇺_RU_俄罗斯联邦_41
-      - 🇷🇺_RU_俄罗斯联邦_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇷🇺_RU_俄罗斯联邦_44
-      - 🇷🇺_RU_俄罗斯联邦_45
-      - 🇷🇺_RU_俄罗斯联邦_46
-      - 🇷🇺_RU_俄罗斯联邦_47
-      - 🇷🇺_RU_俄罗斯联邦_48
-      - 🇷🇺_RU_俄罗斯联邦_49
-      - 🇷🇺_RU_俄罗斯联邦_50
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇰🇷_KR_韩国_25
+      - 🇰🇷_KR_韩国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇰🇷_KR_韩国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇰🇷_KR_韩国_60
+      - 🇰🇷_KR_韩国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇰🇷_KR_韩国_67
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇰🇷_KR_韩国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇨🇦_CA_加拿大_85
+      - 🇺🇸_US_美国_86
+      - 🇰🇷_KR_韩国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇰🇷_KR_韩国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇰🇷_KR_韩国_115
+      - 🇰🇷_KR_韩国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇬🇧_GB_英国_121
+      - 🇺🇸_US_美国_122
+      - 🇰🇷_KR_韩国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇰🇷_KR_韩国_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇰🇷_KR_韩国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇨🇦_CA_加拿大_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇰🇷_KR_韩国_144
+      - 🇺🇸_US_美国_145
+      - 更新于:04-1812:00-byBuLink_xyz-以下节点不计流量_146
+      - github_com/freefq-美国Microsoft数据中心1_147
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)2_148
+      - github_com/freefq-新加坡Amazon数据中心3_149
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)4_150
+      - github_com/freefq-美国Microsoft数据中心5_151
+      - github_com/freefq-美国Microsoft数据中心6_152
+      - github_com/freefq-美国加利福尼亚州费里蒙7_153
+      - github_com/freefq-新加坡Amazon数据中心8_154
+      - github_com/freefq-上海市电信9_155
+      - github_com/freefq-美国加利福尼亚州洛杉矶IT7网络10_156
+      - github_com/freefq-美国AmazonEC2服务器11_157
+      - github_com/freefq-法国12_158
+      - github_com/freefq-美国加利福尼亚州洛杉矶Krypt机房13_159
+      - github_com/freefq-美国DXCTechnology14_160
+      - github_com/freefq-美国DXCTechnology15_161
+      - github_com/freefq-美国加你福尼亚洛杉矶CoperationColoction数据中心16_162
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH17_163
+      - github_com/freefq-美国CloudFlare节点18_164
+      - github_com/freefq-广东省广州市移动19_165
+      - github_com/freefq-加拿大20_166
+      - github_com/freefq-加拿大21_167
+      - github_com/freefq-加拿大22_168
+      - github_com/freefq-上海市电信23_169
+      - github_com/freefq-广东省移动24_170
+      - github_com/freefq-美国加利福尼亚州洛杉矶Choopa数据中心25_171
+      - github_com/freefq-美国CloudFlare节点26_172
+      - github_com/freefq-美国CloudFlare公司CDN节点27_173
+      - github_com/freefq-美国CloudFlare公司CDN节点28_174
+      - github_com/freefq-湖南省长沙市电信29_175
+      - github_com/freefq-美国30_176
+      - github_com/freefq-荷兰31_177
+      - github_com/freefq-美国32_178
+      - github_com/freefq-广东省广州市电信33_179
+      - github_com/freefq-新加坡DigitalOcean数据中心34_180
+      - github_com/freefq-美国CloudFlare节点35_181
+      - github_com/freefq-法国36_182
+      - github_com/freefq-广东省广州市黄埔区珠江宽频37_183
+      - github_com/freefq-美国Microsoft数据中心38_184
+      - github_com/freefq-美国Microsoft数据中心39_185
+      - 节点流量有限，请合理使用_186
+      - 当月流量已用光，大侠请下个月再来_187
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
       - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇺🇸_US_美国_10
-      - 🇬🇧_GB_英国_11
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_14
-      - default_name_15
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_16
-      - 🇷🇺_RU_俄罗斯联邦_17
-      - 🇷🇺_RU_俄罗斯联邦_18
-      - 🇷🇺_RU_俄罗斯联邦_19
-      - 🇷🇺_RU_俄罗斯联邦_20
+      - 🇹🇼_TW_台湾_3
+      - 🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇷🇺_RU_俄罗斯联邦_25
-      - 🇷🇺_RU_俄罗斯联邦_26
-      - 🇷🇺_RU_俄罗斯联邦_27
-      - 🇷🇺_RU_俄罗斯联邦_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_31
-      - 🇷🇺_RU_俄罗斯联邦_32
-      - 🇷🇺_RU_俄罗斯联邦_33
-      - 🇷🇺_RU_俄罗斯联邦_34
-      - 🇨🇭_CH_瑞士_35
-      - 🇷🇺_RU_俄罗斯联邦_36
-      - 🇷🇺_RU_俄罗斯联邦_37
-      - 🇷🇺_RU_俄罗斯联邦_38
-      - 🇷🇺_RU_俄罗斯联邦_39
-      - 🇷🇺_RU_俄罗斯联邦_40
-      - 🇷🇺_RU_俄罗斯联邦_41
-      - 🇷🇺_RU_俄罗斯联邦_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇷🇺_RU_俄罗斯联邦_44
-      - 🇷🇺_RU_俄罗斯联邦_45
-      - 🇷🇺_RU_俄罗斯联邦_46
-      - 🇷🇺_RU_俄罗斯联邦_47
-      - 🇷🇺_RU_俄罗斯联邦_48
-      - 🇷🇺_RU_俄罗斯联邦_49
-      - 🇷🇺_RU_俄罗斯联邦_50
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇰🇷_KR_韩国_25
+      - 🇰🇷_KR_韩国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇰🇷_KR_韩国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇰🇷_KR_韩国_60
+      - 🇰🇷_KR_韩国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇰🇷_KR_韩国_67
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇰🇷_KR_韩国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇨🇦_CA_加拿大_85
+      - 🇺🇸_US_美国_86
+      - 🇰🇷_KR_韩国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇰🇷_KR_韩国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇰🇷_KR_韩国_115
+      - 🇰🇷_KR_韩国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇬🇧_GB_英国_121
+      - 🇺🇸_US_美国_122
+      - 🇰🇷_KR_韩国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇰🇷_KR_韩国_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇰🇷_KR_韩国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇨🇦_CA_加拿大_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇰🇷_KR_韩国_144
+      - 🇺🇸_US_美国_145
+      - 更新于:04-1812:00-byBuLink_xyz-以下节点不计流量_146
+      - github_com/freefq-美国Microsoft数据中心1_147
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)2_148
+      - github_com/freefq-新加坡Amazon数据中心3_149
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)4_150
+      - github_com/freefq-美国Microsoft数据中心5_151
+      - github_com/freefq-美国Microsoft数据中心6_152
+      - github_com/freefq-美国加利福尼亚州费里蒙7_153
+      - github_com/freefq-新加坡Amazon数据中心8_154
+      - github_com/freefq-上海市电信9_155
+      - github_com/freefq-美国加利福尼亚州洛杉矶IT7网络10_156
+      - github_com/freefq-美国AmazonEC2服务器11_157
+      - github_com/freefq-法国12_158
+      - github_com/freefq-美国加利福尼亚州洛杉矶Krypt机房13_159
+      - github_com/freefq-美国DXCTechnology14_160
+      - github_com/freefq-美国DXCTechnology15_161
+      - github_com/freefq-美国加你福尼亚洛杉矶CoperationColoction数据中心16_162
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH17_163
+      - github_com/freefq-美国CloudFlare节点18_164
+      - github_com/freefq-广东省广州市移动19_165
+      - github_com/freefq-加拿大20_166
+      - github_com/freefq-加拿大21_167
+      - github_com/freefq-加拿大22_168
+      - github_com/freefq-上海市电信23_169
+      - github_com/freefq-广东省移动24_170
+      - github_com/freefq-美国加利福尼亚州洛杉矶Choopa数据中心25_171
+      - github_com/freefq-美国CloudFlare节点26_172
+      - github_com/freefq-美国CloudFlare公司CDN节点27_173
+      - github_com/freefq-美国CloudFlare公司CDN节点28_174
+      - github_com/freefq-湖南省长沙市电信29_175
+      - github_com/freefq-美国30_176
+      - github_com/freefq-荷兰31_177
+      - github_com/freefq-美国32_178
+      - github_com/freefq-广东省广州市电信33_179
+      - github_com/freefq-新加坡DigitalOcean数据中心34_180
+      - github_com/freefq-美国CloudFlare节点35_181
+      - github_com/freefq-法国36_182
+      - github_com/freefq-广东省广州市黄埔区珠江宽频37_183
+      - github_com/freefq-美国Microsoft数据中心38_184
+      - github_com/freefq-美国Microsoft数据中心39_185
+      - 节点流量有限，请合理使用_186
+      - 当月流量已用光，大侠请下个月再来_187
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
       - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇺🇸_US_美国_10
-      - 🇬🇧_GB_英国_11
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_14
-      - default_name_15
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_16
-      - 🇷🇺_RU_俄罗斯联邦_17
-      - 🇷🇺_RU_俄罗斯联邦_18
-      - 🇷🇺_RU_俄罗斯联邦_19
-      - 🇷🇺_RU_俄罗斯联邦_20
+      - 🇹🇼_TW_台湾_3
+      - 🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇷🇺_RU_俄罗斯联邦_25
-      - 🇷🇺_RU_俄罗斯联邦_26
-      - 🇷🇺_RU_俄罗斯联邦_27
-      - 🇷🇺_RU_俄罗斯联邦_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_31
-      - 🇷🇺_RU_俄罗斯联邦_32
-      - 🇷🇺_RU_俄罗斯联邦_33
-      - 🇷🇺_RU_俄罗斯联邦_34
-      - 🇨🇭_CH_瑞士_35
-      - 🇷🇺_RU_俄罗斯联邦_36
-      - 🇷🇺_RU_俄罗斯联邦_37
-      - 🇷🇺_RU_俄罗斯联邦_38
-      - 🇷🇺_RU_俄罗斯联邦_39
-      - 🇷🇺_RU_俄罗斯联邦_40
-      - 🇷🇺_RU_俄罗斯联邦_41
-      - 🇷🇺_RU_俄罗斯联邦_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇷🇺_RU_俄罗斯联邦_44
-      - 🇷🇺_RU_俄罗斯联邦_45
-      - 🇷🇺_RU_俄罗斯联邦_46
-      - 🇷🇺_RU_俄罗斯联邦_47
-      - 🇷🇺_RU_俄罗斯联邦_48
-      - 🇷🇺_RU_俄罗斯联邦_49
-      - 🇷🇺_RU_俄罗斯联邦_50
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇰🇷_KR_韩国_25
+      - 🇰🇷_KR_韩国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇰🇷_KR_韩国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇰🇷_KR_韩国_60
+      - 🇰🇷_KR_韩国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇰🇷_KR_韩国_67
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇰🇷_KR_韩国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇨🇦_CA_加拿大_85
+      - 🇺🇸_US_美国_86
+      - 🇰🇷_KR_韩国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇰🇷_KR_韩国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇰🇷_KR_韩国_115
+      - 🇰🇷_KR_韩国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇬🇧_GB_英国_121
+      - 🇺🇸_US_美国_122
+      - 🇰🇷_KR_韩国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇰🇷_KR_韩国_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇰🇷_KR_韩国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇨🇦_CA_加拿大_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇰🇷_KR_韩国_144
+      - 🇺🇸_US_美国_145
+      - 更新于:04-1812:00-byBuLink_xyz-以下节点不计流量_146
+      - github_com/freefq-美国Microsoft数据中心1_147
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)2_148
+      - github_com/freefq-新加坡Amazon数据中心3_149
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)4_150
+      - github_com/freefq-美国Microsoft数据中心5_151
+      - github_com/freefq-美国Microsoft数据中心6_152
+      - github_com/freefq-美国加利福尼亚州费里蒙7_153
+      - github_com/freefq-新加坡Amazon数据中心8_154
+      - github_com/freefq-上海市电信9_155
+      - github_com/freefq-美国加利福尼亚州洛杉矶IT7网络10_156
+      - github_com/freefq-美国AmazonEC2服务器11_157
+      - github_com/freefq-法国12_158
+      - github_com/freefq-美国加利福尼亚州洛杉矶Krypt机房13_159
+      - github_com/freefq-美国DXCTechnology14_160
+      - github_com/freefq-美国DXCTechnology15_161
+      - github_com/freefq-美国加你福尼亚洛杉矶CoperationColoction数据中心16_162
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH17_163
+      - github_com/freefq-美国CloudFlare节点18_164
+      - github_com/freefq-广东省广州市移动19_165
+      - github_com/freefq-加拿大20_166
+      - github_com/freefq-加拿大21_167
+      - github_com/freefq-加拿大22_168
+      - github_com/freefq-上海市电信23_169
+      - github_com/freefq-广东省移动24_170
+      - github_com/freefq-美国加利福尼亚州洛杉矶Choopa数据中心25_171
+      - github_com/freefq-美国CloudFlare节点26_172
+      - github_com/freefq-美国CloudFlare公司CDN节点27_173
+      - github_com/freefq-美国CloudFlare公司CDN节点28_174
+      - github_com/freefq-湖南省长沙市电信29_175
+      - github_com/freefq-美国30_176
+      - github_com/freefq-荷兰31_177
+      - github_com/freefq-美国32_178
+      - github_com/freefq-广东省广州市电信33_179
+      - github_com/freefq-新加坡DigitalOcean数据中心34_180
+      - github_com/freefq-美国CloudFlare节点35_181
+      - github_com/freefq-法国36_182
+      - github_com/freefq-广东省广州市黄埔区珠江宽频37_183
+      - github_com/freefq-美国Microsoft数据中心38_184
+      - github_com/freefq-美国Microsoft数据中心39_185
+      - 节点流量有限，请合理使用_186
+      - 当月流量已用光，大侠请下个月再来_187
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -410,56 +1369,193 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_1
       - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇺🇸_US_美国_10
-      - 🇬🇧_GB_英国_11
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_14
-      - default_name_15
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_16
-      - 🇷🇺_RU_俄罗斯联邦_17
-      - 🇷🇺_RU_俄罗斯联邦_18
-      - 🇷🇺_RU_俄罗斯联邦_19
-      - 🇷🇺_RU_俄罗斯联邦_20
+      - 🇹🇼_TW_台湾_3
+      - 🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇰🇷_KR_韩国_10
+      - 🇰🇷_KR_韩国_11
+      - 🇺🇸_US_美国_12
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
-      - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_23
-      - 🇷🇺_RU_俄罗斯联邦_24
-      - 🇷🇺_RU_俄罗斯联邦_25
-      - 🇷🇺_RU_俄罗斯联邦_26
-      - 🇷🇺_RU_俄罗斯联邦_27
-      - 🇷🇺_RU_俄罗斯联邦_28
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_29
-      - 🇷🇺_RU_俄罗斯联邦_30
-      - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_31
-      - 🇷🇺_RU_俄罗斯联邦_32
-      - 🇷🇺_RU_俄罗斯联邦_33
-      - 🇷🇺_RU_俄罗斯联邦_34
-      - 🇨🇭_CH_瑞士_35
-      - 🇷🇺_RU_俄罗斯联邦_36
-      - 🇷🇺_RU_俄罗斯联邦_37
-      - 🇷🇺_RU_俄罗斯联邦_38
-      - 🇷🇺_RU_俄罗斯联邦_39
-      - 🇷🇺_RU_俄罗斯联邦_40
-      - 🇷🇺_RU_俄罗斯联邦_41
-      - 🇷🇺_RU_俄罗斯联邦_42
-      - 🇷🇺_RU_俄罗斯联邦_43
-      - 🇷🇺_RU_俄罗斯联邦_44
-      - 🇷🇺_RU_俄罗斯联邦_45
-      - 🇷🇺_RU_俄罗斯联邦_46
-      - 🇷🇺_RU_俄罗斯联邦_47
-      - 🇷🇺_RU_俄罗斯联邦_48
-      - 🇷🇺_RU_俄罗斯联邦_49
-      - 🇷🇺_RU_俄罗斯联邦_50
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇰🇷_KR_韩国_25
+      - 🇰🇷_KR_韩国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇺🇸_US_美国_34
+      - 🇺🇸_US_美国_35
+      - 🇰🇷_KR_韩国_36
+      - 🇺🇸_US_美国_37
+      - 🇺🇸_US_美国_38
+      - 🇺🇸_US_美国_39
+      - 🇺🇸_US_美国_40
+      - 🇺🇸_US_美国_41
+      - 🇺🇸_US_美国_42
+      - 🇺🇸_US_美国_43
+      - 🇺🇸_US_美国_44
+      - 🇺🇸_US_美国_45
+      - 🇺🇸_US_美国_46
+      - 🇺🇸_US_美国_47
+      - 🇺🇸_US_美国_48
+      - 🇺🇸_US_美国_49
+      - 🇺🇸_US_美国_50
+      - 🇺🇸_US_美国_51
+      - 🇺🇸_US_美国_52
+      - 🇺🇸_US_美国_53
+      - 🇺🇸_US_美国_54
+      - 🇺🇸_US_美国_55
+      - 🇰🇷_KR_韩国_56
+      - 🇺🇸_US_美国_57
+      - 🇺🇸_US_美国_58
+      - 🇺🇸_US_美国_59
+      - 🇰🇷_KR_韩国_60
+      - 🇰🇷_KR_韩国_61
+      - 🇺🇸_US_美国_62
+      - 🇺🇸_US_美国_63
+      - 🇨🇦_CA_加拿大_64
+      - 🇺🇸_US_美国_65
+      - 🇺🇸_US_美国_66
+      - 🇰🇷_KR_韩国_67
+      - 🇺🇸_US_美国_68
+      - 🇨🇦_CA_加拿大_69
+      - 🇺🇸_US_美国_70
+      - 🇺🇸_US_美国_71
+      - 🇨🇦_CA_加拿大_72
+      - 🇺🇸_US_美国_73
+      - 🇺🇸_US_美国_74
+      - 🇺🇸_US_美国_75
+      - 🇺🇸_US_美国_76
+      - 🇺🇸_US_美国_77
+      - 🇺🇸_US_美国_78
+      - 🇰🇷_KR_韩国_79
+      - 🇺🇸_US_美国_80
+      - 🇺🇸_US_美国_81
+      - 🇺🇸_US_美国_82
+      - 🇺🇸_US_美国_83
+      - 🇺🇸_US_美国_84
+      - 🇨🇦_CA_加拿大_85
+      - 🇺🇸_US_美国_86
+      - 🇰🇷_KR_韩国_87
+      - 🇺🇸_US_美国_88
+      - 🇺🇸_US_美国_89
+      - 🇺🇸_US_美国_90
+      - 🇺🇸_US_美国_91
+      - 🇺🇸_US_美国_92
+      - 🇺🇸_US_美国_93
+      - 🇺🇸_US_美国_94
+      - 🇺🇸_US_美国_95
+      - 🇺🇸_US_美国_96
+      - 🇺🇸_US_美国_97
+      - 🇺🇸_US_美国_98
+      - 🇺🇸_US_美国_99
+      - 🇺🇸_US_美国_100
+      - 🇺🇸_US_美国_101
+      - 🇺🇸_US_美国_102
+      - 🇰🇷_KR_韩国_103
+      - 🇺🇸_US_美国_104
+      - 🇺🇸_US_美国_105
+      - 🇺🇸_US_美国_106
+      - 🇺🇸_US_美国_107
+      - 🇺🇸_US_美国_108
+      - 🇺🇸_US_美国_109
+      - 🇺🇸_US_美国_110
+      - 🇨🇦_CA_加拿大_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇺🇸_US_美国_113
+      - 🇺🇸_US_美国_114
+      - 🇰🇷_KR_韩国_115
+      - 🇰🇷_KR_韩国_116
+      - 🇺🇸_US_美国_117
+      - 🇺🇸_US_美国_118
+      - 🇺🇸_US_美国_119
+      - 🇺🇸_US_美国_120
+      - 🇬🇧_GB_英国_121
+      - 🇺🇸_US_美国_122
+      - 🇰🇷_KR_韩国_123
+      - 🇺🇸_US_美国_124
+      - 🇺🇸_US_美国_125
+      - 🇰🇷_KR_韩国_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇺🇸_US_美国_128
+      - 🇺🇸_US_美国_129
+      - 🇺🇸_US_美国_130
+      - 🇨🇦_CA_加拿大_131
+      - 🇰🇷_KR_韩国_132
+      - 🇺🇸_US_美国_133
+      - 🇺🇸_US_美国_134
+      - 🇺🇸_US_美国_135
+      - 🇺🇸_US_美国_136
+      - 🇺🇸_US_美国_137
+      - 🇺🇸_US_美国_138
+      - 🇨🇦_CA_加拿大_139
+      - 🇺🇸_US_美国_140
+      - 🇺🇸_US_美国_141
+      - 🇺🇸_US_美国_142
+      - 🇺🇸_US_美国_143
+      - 🇰🇷_KR_韩国_144
+      - 🇺🇸_US_美国_145
+      - 更新于:04-1812:00-byBuLink_xyz-以下节点不计流量_146
+      - github_com/freefq-美国Microsoft数据中心1_147
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)2_148
+      - github_com/freefq-新加坡Amazon数据中心3_149
+      - github_com/freefq-香港GlobalData将军澳数据中心(CeraNetworks)4_150
+      - github_com/freefq-美国Microsoft数据中心5_151
+      - github_com/freefq-美国Microsoft数据中心6_152
+      - github_com/freefq-美国加利福尼亚州费里蒙7_153
+      - github_com/freefq-新加坡Amazon数据中心8_154
+      - github_com/freefq-上海市电信9_155
+      - github_com/freefq-美国加利福尼亚州洛杉矶IT7网络10_156
+      - github_com/freefq-美国AmazonEC2服务器11_157
+      - github_com/freefq-法国12_158
+      - github_com/freefq-美国加利福尼亚州洛杉矶Krypt机房13_159
+      - github_com/freefq-美国DXCTechnology14_160
+      - github_com/freefq-美国DXCTechnology15_161
+      - github_com/freefq-美国加你福尼亚洛杉矶CoperationColoction数据中心16_162
+      - github_com/freefq-美国加利福尼亚州圣何塞PEGTECH17_163
+      - github_com/freefq-美国CloudFlare节点18_164
+      - github_com/freefq-广东省广州市移动19_165
+      - github_com/freefq-加拿大20_166
+      - github_com/freefq-加拿大21_167
+      - github_com/freefq-加拿大22_168
+      - github_com/freefq-上海市电信23_169
+      - github_com/freefq-广东省移动24_170
+      - github_com/freefq-美国加利福尼亚州洛杉矶Choopa数据中心25_171
+      - github_com/freefq-美国CloudFlare节点26_172
+      - github_com/freefq-美国CloudFlare公司CDN节点27_173
+      - github_com/freefq-美国CloudFlare公司CDN节点28_174
+      - github_com/freefq-湖南省长沙市电信29_175
+      - github_com/freefq-美国30_176
+      - github_com/freefq-荷兰31_177
+      - github_com/freefq-美国32_178
+      - github_com/freefq-广东省广州市电信33_179
+      - github_com/freefq-新加坡DigitalOcean数据中心34_180
+      - github_com/freefq-美国CloudFlare节点35_181
+      - github_com/freefq-法国36_182
+      - github_com/freefq-广东省广州市黄埔区珠江宽频37_183
+      - github_com/freefq-美国Microsoft数据中心38_184
+      - github_com/freefq-美国Microsoft数据中心39_185
+      - 节点流量有限，请合理使用_186
+      - 当月流量已用光，大侠请下个月再来_187
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
