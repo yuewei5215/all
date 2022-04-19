@@ -5,123 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"v2ray_wefuckgfw_ga:8443_1","server":"v2ray.wefuckgfw.ga","port":8443,"type":"vmess","uuid":"08207162-b353-11ec-a378-52ac00ea1411","alterId":0,"cipher":"auto","country":"v2ray_wefuckgfw_ga:8443_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/E94olUFf/"}}
-  - {"name":"v2ray_wefuckgfw_ga:8443_2","server":"v2ray.wefuckgfw.ga","port":8443,"type":"vmess","uuid":"0afb652c-b353-11ec-a378-52ac00ea1411","alterId":0,"cipher":"auto","country":"v2ray_wefuckgfw_ga:8443_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/E94olUFf/"}}
-  - {"name":"v2ray_wefuckgfw_ga:8443_3","server":"v2ray.wefuckgfw.ga","port":8443,"type":"vmess","uuid":"0d845c22-b353-11ec-a378-52ac00ea1411","alterId":0,"cipher":"auto","country":"v2ray_wefuckgfw_ga:8443_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/E94olUFf/"}}
-  - {"name":"v2ray_wefuckgfw_ga:8443_4","server":"v2ray.wefuckgfw.ga","port":8443,"type":"vmess","uuid":"104ce500-b353-11ec-a378-52ac00ea1411","alterId":0,"cipher":"auto","country":"v2ray_wefuckgfw_ga:8443_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/E94olUFf/"}}
-  - {"name":"v2ray_wefuckgfw_ga:8443_5","server":"v2ray.wefuckgfw.ga","port":8443,"type":"vmess","uuid":"135284c6-b353-11ec-a378-52ac00ea1411","alterId":0,"cipher":"auto","country":"v2ray_wefuckgfw_ga:8443_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/E94olUFf/"}}
-  - {"name":"23_94_98_216:27597_6","server":"23.94.98.216","port":27597,"type":"ss","country":"23_94_98_216:27597_6","cipher":"chacha20-ietf-poly1305","password":"wgT788Dl"}
-  - {"name":"23_234_201_142:57193_7","server":"23.234.201.142","port":57193,"type":"ss","country":"23_234_201_142:57193_7","cipher":"chacha20-ietf-poly1305","password":"fQtlCKJ5"}
-  - {"name":"46_29_160_128:64672_8","server":"46.29.160.128","port":64672,"type":"ss","country":"46_29_160_128:64672_8","cipher":"chacha20-ietf-poly1305","password":"WY5CFclT"}
-  - {"name":"141_164_61_231:28366_9","server":"141.164.61.231","port":28366,"type":"ss","country":"141_164_61_231:28366_9","cipher":"chacha20-ietf-poly1305","password":"EpxY7uZV"}
-  - {"name":"172_99_174_91:54650_10","server":"172.99.174.91","port":54650,"type":"ss","country":"172_99_174_91:54650_10","cipher":"chacha20-ietf-poly1305","password":"LsMeacMi"}
-  - {"name":"173_82_19_187:61740_11","server":"173.82.19.187","port":61740,"type":"ss","country":"173_82_19_187:61740_11","cipher":"chacha20-ietf-poly1305","password":"z8hz2m5m"}
-  - {"name":"194_87_49_12:32109_12","server":"194.87.49.12","port":32109,"type":"ss","country":"194_87_49_12:32109_12","cipher":"chacha20-ietf-poly1305","password":"eh97sFmy"}
+  - {"name":"🇺🇸_US_美国_1","server":"38.121.43.27","port":5500,"type":"ss","country":"🇺🇸_US_美国_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_2","server":"38.121.43.27","port":6679,"type":"ss","country":"🇺🇸_US_美国_2","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_3","server":"38.121.43.27","port":7002,"type":"ss","country":"🇺🇸_US_美国_3","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸_US_美国_4","server":"38.143.66.210","port":6379,"type":"ss","country":"🇺🇸_US_美国_4","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸_US_美国_5","server":"169.197.143.157","port":443,"type":"ss","country":"🇺🇸_US_美国_5","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦_CA_加拿大_6","server":"134.195.196.227","port":8008,"type":"ss","country":"🇨🇦_CA_加拿大_6","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦_CA_加拿大_7","server":"134.195.196.227","port":3306,"type":"ss","country":"🇨🇦_CA_加拿大_7","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_8","server":"169.197.143.157","port":2376,"type":"ss","country":"🇺🇸_US_美国_8","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦_CA_加拿大_9","server":"134.195.196.219","port":5004,"type":"ss","country":"🇨🇦_CA_加拿大_9","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸_US_美国_10","server":"169.197.143.157","port":8009,"type":"ss","country":"🇺🇸_US_美国_10","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - v2ray_wefuckgfw_ga:8443_1
-      - v2ray_wefuckgfw_ga:8443_2
-      - v2ray_wefuckgfw_ga:8443_3
-      - v2ray_wefuckgfw_ga:8443_4
-      - v2ray_wefuckgfw_ga:8443_5
-      - '23_94_98_216:27597_6'
-      - '23_234_201_142:57193_7'
-      - '46_29_160_128:64672_8'
-      - '141_164_61_231:28366_9'
-      - '172_99_174_91:54650_10'
-      - '173_82_19_187:61740_11'
-      - '194_87_49_12:32109_12'
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - v2ray_wefuckgfw_ga:8443_1
-      - v2ray_wefuckgfw_ga:8443_2
-      - v2ray_wefuckgfw_ga:8443_3
-      - v2ray_wefuckgfw_ga:8443_4
-      - v2ray_wefuckgfw_ga:8443_5
-      - '23_94_98_216:27597_6'
-      - '23_234_201_142:57193_7'
-      - '46_29_160_128:64672_8'
-      - '141_164_61_231:28366_9'
-      - '172_99_174_91:54650_10'
-      - '173_82_19_187:61740_11'
-      - '194_87_49_12:32109_12'
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2ray_wefuckgfw_ga:8443_1
-      - v2ray_wefuckgfw_ga:8443_2
-      - v2ray_wefuckgfw_ga:8443_3
-      - v2ray_wefuckgfw_ga:8443_4
-      - v2ray_wefuckgfw_ga:8443_5
-      - '23_94_98_216:27597_6'
-      - '23_234_201_142:57193_7'
-      - '46_29_160_128:64672_8'
-      - '141_164_61_231:28366_9'
-      - '172_99_174_91:54650_10'
-      - '173_82_19_187:61740_11'
-      - '194_87_49_12:32109_12'
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2ray_wefuckgfw_ga:8443_1
-      - v2ray_wefuckgfw_ga:8443_2
-      - v2ray_wefuckgfw_ga:8443_3
-      - v2ray_wefuckgfw_ga:8443_4
-      - v2ray_wefuckgfw_ga:8443_5
-      - '23_94_98_216:27597_6'
-      - '23_234_201_142:57193_7'
-      - '46_29_160_128:64672_8'
-      - '141_164_61_231:28366_9'
-      - '172_99_174_91:54650_10'
-      - '173_82_19_187:61740_11'
-      - '194_87_49_12:32109_12'
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - v2ray_wefuckgfw_ga:8443_1
-      - v2ray_wefuckgfw_ga:8443_2
-      - v2ray_wefuckgfw_ga:8443_3
-      - v2ray_wefuckgfw_ga:8443_4
-      - v2ray_wefuckgfw_ga:8443_5
-      - '23_94_98_216:27597_6'
-      - '23_234_201_142:57193_7'
-      - '46_29_160_128:64672_8'
-      - '141_164_61_231:28366_9'
-      - '172_99_174_91:54650_10'
-      - '173_82_19_187:61740_11'
-      - '194_87_49_12:32109_12'
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2ray_wefuckgfw_ga:8443_1
-      - v2ray_wefuckgfw_ga:8443_2
-      - v2ray_wefuckgfw_ga:8443_3
-      - v2ray_wefuckgfw_ga:8443_4
-      - v2ray_wefuckgfw_ga:8443_5
-      - '23_94_98_216:27597_6'
-      - '23_234_201_142:57193_7'
-      - '46_29_160_128:64672_8'
-      - '141_164_61_231:28366_9'
-      - '172_99_174_91:54650_10'
-      - '173_82_19_187:61740_11'
-      - '194_87_49_12:32109_12'
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -144,18 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2ray_wefuckgfw_ga:8443_1
-      - v2ray_wefuckgfw_ga:8443_2
-      - v2ray_wefuckgfw_ga:8443_3
-      - v2ray_wefuckgfw_ga:8443_4
-      - v2ray_wefuckgfw_ga:8443_5
-      - '23_94_98_216:27597_6'
-      - '23_234_201_142:57193_7'
-      - '46_29_160_128:64672_8'
-      - '141_164_61_231:28366_9'
-      - '172_99_174_91:54650_10'
-      - '173_82_19_187:61740_11'
-      - '194_87_49_12:32109_12'
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_US_美国_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
