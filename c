@@ -5,109 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"trojan1.free4444.xyz","port":443,"type":"trojan","country":"🇺🇸_US_美国_1","skip-cert-verify":true,"udp":true,"password":"dongtaiwang.com"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","server":"cm-jm.okvpn.xyz","port":20000,"type":"trojan","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","skip-cert-verify":true,"udp":true,"password":"912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e"}
-  - {"name":"🇨🇳_CN_中国->🇱🇺_LU_卢森堡_3","server":"s1.upyun.online","port":12340,"type":"trojan","country":"🇨🇳_CN_中国->🇱🇺_LU_卢森堡_3","skip-cert-verify":true,"udp":true,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2"}
-  - {"name":"🇺🇸_US_美国_4","server":"ai2.susenl.com","port":30010,"type":"trojan","country":"🇺🇸_US_美国_4","skip-cert-verify":true,"udp":true,"password":"c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0"}
-  - {"name":"🇰🇷_KR_韩国_5","server":"jgwcc2.gaox.ml","port":443,"type":"trojan","country":"🇰🇷_KR_韩国_5","skip-cert-verify":true,"udp":true,"password":"9c822f05-cfdc-479a-9534-60f3d4127435"}
-  - {"name":"🇺🇸_US_美国_6","server":"misaka1433.tk","port":443,"type":"trojan","country":"🇺🇸_US_美国_6","skip-cert-verify":true,"udp":true,"password":"YcQgIbGZNNd1PwsF"}
-  - {"name":"🇬🇧_GB_英国_7","server":"jgwld1.gaox.ml","port":443,"type":"trojan","country":"🇬🇧_GB_英国_7","skip-cert-verify":true,"udp":true,"password":"02e653c9-7c93-46a9-999d-11834bd0c577"}
-  - {"name":"🇺🇸_US_美国_8","server":"fhcamd2.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_8","skip-cert-verify":true,"udp":true,"password":"dbf9bf9c-2c3f-474a-8031-d4c00666a989"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_9","server":"213.183.53.177","port":9000,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_9","password":"a3GFYt36Sm82Vys9","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_10","server":"213.183.53.177","port":9098,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_10","password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"yaoyaocat_com_vmess_ws_1","server":"yaoyaocat.com","port":443,"type":"vmess","uuid":"507f0405-df14-4d7f-9289-052bbd0f8ccb","alterId":0,"cipher":"auto","country":"yaoyaocat_com_vmess_ws_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/lidivws","headers":{"host":"yaoyaocat.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_3
-      - 🇺🇸_US_美国_4
-      - 🇰🇷_KR_韩国_5
-      - 🇺🇸_US_美国_6
-      - 🇬🇧_GB_英国_7
-      - 🇺🇸_US_美国_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - yaoyaocat_com_vmess_ws_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_3
-      - 🇺🇸_US_美国_4
-      - 🇰🇷_KR_韩国_5
-      - 🇺🇸_US_美国_6
-      - 🇬🇧_GB_英国_7
-      - 🇺🇸_US_美国_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - yaoyaocat_com_vmess_ws_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_3
-      - 🇺🇸_US_美国_4
-      - 🇰🇷_KR_韩国_5
-      - 🇺🇸_US_美国_6
-      - 🇬🇧_GB_英国_7
-      - 🇺🇸_US_美国_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - yaoyaocat_com_vmess_ws_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_3
-      - 🇺🇸_US_美国_4
-      - 🇰🇷_KR_韩国_5
-      - 🇺🇸_US_美国_6
-      - 🇬🇧_GB_英国_7
-      - 🇺🇸_US_美国_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - yaoyaocat_com_vmess_ws_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_3
-      - 🇺🇸_US_美国_4
-      - 🇰🇷_KR_韩国_5
-      - 🇺🇸_US_美国_6
-      - 🇬🇧_GB_英国_7
-      - 🇺🇸_US_美国_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - yaoyaocat_com_vmess_ws_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_3
-      - 🇺🇸_US_美国_4
-      - 🇰🇷_KR_韩国_5
-      - 🇺🇸_US_美国_6
-      - 🇬🇧_GB_英国_7
-      - 🇺🇸_US_美国_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - yaoyaocat_com_vmess_ws_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_3
-      - 🇺🇸_US_美国_4
-      - 🇰🇷_KR_韩国_5
-      - 🇺🇸_US_美国_6
-      - 🇬🇧_GB_英国_7
-      - 🇺🇸_US_美国_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
+      - yaoyaocat_com_vmess_ws_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
