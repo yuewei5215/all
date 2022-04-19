@@ -5,46 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"yaoyaocat_com_vmess_ws_1","server":"yaoyaocat.com","port":443,"type":"vmess","uuid":"507f0405-df14-4d7f-9289-052bbd0f8ccb","alterId":0,"cipher":"auto","country":"yaoyaocat_com_vmess_ws_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/lidivws","headers":{"host":"yaoyaocat.com"}}}
+  - {"name":"https://github_com/Alvin9999/new-pac/wiki+洛杉矶ip1_1","server":"trojan2.free4444.xyz","port":443,"type":"trojan","country":"https://github_com/Alvin9999/new-pac/wiki+洛杉矶ip1_1","skip-cert-verify":true,"udp":true,"password":"dongtaiwang.com"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - yaoyaocat_com_vmess_ws_1
+      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶ip1_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - yaoyaocat_com_vmess_ws_1
+      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶ip1_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - yaoyaocat_com_vmess_ws_1
+      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶ip1_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - yaoyaocat_com_vmess_ws_1
+      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶ip1_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - yaoyaocat_com_vmess_ws_1
+      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶ip1_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - yaoyaocat_com_vmess_ws_1
+      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶ip1_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - yaoyaocat_com_vmess_ws_1
+      - https://github_com/Alvin9999/new-pac/wiki+洛杉矶ip1_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
