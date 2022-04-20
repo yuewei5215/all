@@ -5,130 +5,417 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","server":"116.129.253.177","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","server":"120.232.192.250","port":3385,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_3","server":"116.129.253.227","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_3","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_4","server":"116.129.253.187","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_4","skip-cert-verify":true,"udp":true,"password":"e37c6d7efa845d60"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_5","server":"116.129.254.29","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_5","skip-cert-verify":true,"udp":true,"password":"e37c6d7efa845d60"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_6","server":"116.129.253.130","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_6","skip-cert-verify":true,"udp":true,"password":"e37c6d7efa845d60"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_7","server":"116.129.254.47","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_7","skip-cert-verify":true,"udp":true,"password":"e37c6d7efa845d60"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_8","server":"116.129.253.134","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_8","skip-cert-verify":true,"udp":true,"password":"e37c6d7efa845d60"}
-  - {"name":"🇷🇺_RU_俄罗斯联邦_9","server":"213.183.53.177","port":9019,"type":"ssr","country":"🇷🇺_RU_俄罗斯联邦_9","password":"GA9KzeEgvfxNrgmM","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_10","server":"116.129.253.191","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_10","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
-  - {"name":"🇺🇸_US_美国_11","server":"hk5.fdns.cloudlink123.com","port":80,"type":"vmess","uuid":"7378550f-b373-44be-a6e8-92ffe3e42050","alterId":0,"cipher":"auto","country":"🇺🇸_US_美国_11","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"headers":{"host":"hk5.fdns.cloudlink123.com"}}}
-  - {"name":"🇸🇬_SG_新加坡_12","server":"5.44.249.43","port":3389,"type":"trojan","country":"🇸🇬_SG_新加坡_12","skip-cert-verify":true,"udp":true,"password":"cd39f62aed7b90f6"}
-  - {"name":"🇵🇱_PL_波兰_13","server":"217.30.10.64","port":9070,"type":"ss","country":"🇵🇱_PL_波兰_13","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
+  - {"name":"Relay_🇨🇦CA-🇨🇦CA_382","server":"331tw.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"Relay_🇨🇦CA-🇨🇦CA_382","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"331tw.fans8.xyz"}}}
+  - {"name":"🇨🇦CA_384","server":"165.154.225.231","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"🇨🇦CA_384","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330hk02.fans8.xyz"}}}
+  - {"name":"Relay_🇨🇦CA-🇨🇦CA_386","server":"330tw.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"Relay_🇨🇦CA-🇨🇦CA_386","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330tw.fans8.xyz"}}}
+  - {"name":"Relay_🇨🇦CA-🇨🇦CA_387","server":"330hk02.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"Relay_🇨🇦CA-🇨🇦CA_387","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"330hk02.fans8.xyz"}}}
+  - {"name":"Relay_🇨🇳CN-🇭🇰HK_426","server":"snode-14.nmp.pw","port":11280,"type":"vmess","uuid":"b5bc5ccc-bf5f-4bd5-99d5-5c79f6b57548","alterId":0,"cipher":"auto","country":"Relay_🇨🇳CN-🇭🇰HK_426","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"🇫🇷FR_826","server":"192.248.171.227","port":8650,"type":"vmess","uuid":"29430b3d-f83f-3c74-94a2-e8c1a459219f","alterId":0,"cipher":"auto","country":"🇫🇷FR_826","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"192.248.171.227"}}}
+  - {"name":"Relay_🇸🇬SG-🇸🇬SG_1627","server":"V2-NODE-3.GFWAIRPORT.NET","port":50001,"type":"vmess","uuid":"122b9200-c5e0-4003-836c-973eef59b6b2","alterId":0,"cipher":"auto","country":"Relay_🇸🇬SG-🇸🇬SG_1627","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"V2-NODE-3.GFWAIRPORT.NET"}}}
+  - {"name":"Relay_🇺🇸US-🇷🇺RU_3639","server":"v3.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"Relay_🇺🇸US-🇷🇺RU_3639","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_3659","server":"hk5.fdns.cloudlink123.com","port":80,"type":"vmess","uuid":"7378550f-b373-44be-a6e8-92ffe3e42050","alterId":0,"cipher":"auto","country":"Relay_🇺🇸US-🇺🇸US_3659","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hk5.fdns.cloudlink123.com"}}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_3663","server":"138.197.236.77","port":443,"type":"vmess","uuid":"3579436c-b37e-11eb-8529-0242ac130003","alterId":0,"cipher":"auto","country":"Relay_🇺🇸US-🇺🇸US_3663","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"138.197.236.77"}}}
+  - {"name":"🏁ZZ_4695","server":"103.170.72.233","port":8001,"type":"vmess","uuid":"b5bc5ccc-bf5f-4bd5-99d5-5c79f6b57548","alterId":0,"cipher":"auto","country":"🏁ZZ_4695","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"103.170.72.233"}}}
+  - {"name":"Relay_🇨🇳CN-🇺🇸US_428","server":"s1.upyun.online","port":12340,"type":"trojan","country":"Relay_🇨🇳CN-🇺🇸US_428","skip-cert-verify":true,"udp":true,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2"}
+  - {"name":"🇨🇳CN_438","server":"s1.lg-blpop.wds-dsa.com","port":19610,"type":"trojan","country":"🇨🇳CN_438","skip-cert-verify":true,"udp":true,"password":"5d1ab994-348c-3a3e-8947-ce7e9dfeee25"}
+  - {"name":"Relay_🇨🇳CN-🇹🇼TW_440","server":"116.129.253.130","port":3389,"type":"trojan","country":"Relay_🇨🇳CN-🇹🇼TW_440","skip-cert-verify":true,"udp":true,"password":"e37c6d7efa845d60"}
+  - {"name":"Relay_🇨🇳CN-🇯🇵JP_445","server":"s1.lg-blpop.wds-dsa.com","port":19605,"type":"trojan","country":"Relay_🇨🇳CN-🇯🇵JP_445","skip-cert-verify":true,"udp":true,"password":"5d1ab994-348c-3a3e-8947-ce7e9dfeee25"}
+  - {"name":"Relay_🇨🇳CN-🇹🇼TW_453","server":"116.129.254.29","port":3389,"type":"trojan","country":"Relay_🇨🇳CN-🇹🇼TW_453","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"Relay_🇬🇧GB-🇬🇧GB_899","server":"jgwcc3.gaox.ml","port":443,"type":"trojan","country":"Relay_🇬🇧GB-🇬🇧GB_899","skip-cert-verify":true,"udp":true,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7"}
+  - {"name":"Relay_🇭🇰HK-🇺🇸US_905","server":"tj-node-4.gfwairport.net","port":50001,"type":"trojan","country":"Relay_🇭🇰HK-🇺🇸US_905","skip-cert-verify":true,"udp":true,"password":"122b9200-c5e0-4003-836c-973eef59b6b2"}
+  - {"name":"Relay_🇯🇵JP-🇺🇸US_1072","server":"TJ-NODE-1-B.GFWAIRPORT.NET","port":50001,"type":"trojan","country":"Relay_🇯🇵JP-🇺🇸US_1072","skip-cert-verify":true,"udp":true,"password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
+  - {"name":"Relay_🇹🇼TW-🇹🇼TW_1643","server":"tw03.kuli888.xyz","port":35256,"type":"trojan","country":"Relay_🇹🇼TW-🇹🇼TW_1643","skip-cert-verify":true,"udp":true,"password":"54acbfdc-34ec-3d72-8182-3b437e4747eb"}
+  - {"name":"🇺🇸US_3668","server":"tj-node-2.gfwairport.net","port":50001,"type":"trojan","country":"🇺🇸US_3668","skip-cert-verify":true,"udp":true,"password":"122b9200-c5e0-4003-836c-973eef59b6b2"}
+  - {"name":"🇺🇸US_3676","server":"TJ-NODE-1.GFWAIRPORT.NET","port":50001,"type":"trojan","country":"🇺🇸US_3676","skip-cert-verify":true,"udp":true,"password":"122b9200-c5e0-4003-836c-973eef59b6b2"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_3677","server":"rbmf.speedcncnforward3.tk","port":10004,"type":"trojan","country":"Relay_🇺🇸US-🇺🇸US_3677","skip-cert-verify":true,"udp":true,"password":"eb40a3f4-3b04-4a1c-993d-d71b44fee92c"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_3680","server":"fhcamd2.gaox.ml","port":443,"type":"trojan","country":"Relay_🇺🇸US-🇺🇸US_3680","skip-cert-verify":true,"udp":true,"password":"dbf9bf9c-2c3f-474a-8031-d4c00666a989"}
+  - {"name":"Relay_🏁ZZ-🇹🇼TW_4696","server":"5.44.249.43","port":3389,"type":"trojan","country":"Relay_🏁ZZ-🇹🇼TW_4696","skip-cert-verify":true,"udp":true,"password":"6f0a9d0fa39d65fa"}
+  - {"name":"defaultName_26","server":"gzyd-01.yyuuii.cyou","port":23033,"type":"ssr","country":"defaultName_26","password":"hGkQ6915tD","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"32381:C2pHyiQfgm","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_28","server":"213.183.53.200","port":9064,"type":"ssr","country":"defaultName_28","password":"cp8pRSUAyLhTfVWH","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_29","server":"213.183.53.200","port":9032,"type":"ssr","country":"defaultName_29","password":"UWZQeLRWnkqgkseq","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_30","server":"213.183.53.177","port":9057,"type":"ssr","country":"defaultName_30","password":"wjTugX3ZtHMB9c3Z","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_31","server":"213.183.53.200","port":9018,"type":"ssr","country":"defaultName_31","password":"fG2artUmHfNT2cX7","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_32","server":"213.183.53.177","port":9079,"type":"ssr","country":"defaultName_32","password":"TPqX8edgbAURcAMb","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_33","server":"213.183.53.177","port":9053,"type":"ssr","country":"defaultName_33","password":"SBM7R883jBmnqe6C","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_34","server":"213.183.53.200","port":9094,"type":"ssr","country":"defaultName_34","password":"rpgbNnU9rDDU4aWZ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_35","server":"213.183.53.177","port":9093,"type":"ssr","country":"defaultName_35","password":"wfLC2y7rzZyCmuyt","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_36","server":"213.183.53.200","port":9046,"type":"ssr","country":"defaultName_36","password":"NvS8N4Vf8qAGPSCL","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_37","server":"213.183.53.177","port":9033,"type":"ssr","country":"defaultName_37","password":"UTJA57ypk2XKQpnm","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_38","server":"213.183.53.200","port":9020,"type":"ssr","country":"defaultName_38","password":"BNmAXXxAHYpTRdzu","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_39","server":"213.183.53.200","port":9097,"type":"ssr","country":"defaultName_39","password":"Sn5B7jTqr76aCJT8","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_40","server":"213.183.53.177","port":9070,"type":"ssr","country":"defaultName_40","password":"bf7v334KKDV3YDhH","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_41","server":"213.183.53.177","port":9018,"type":"ssr","country":"defaultName_41","password":"fG2artUmHfNT2cX7","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_42","server":"213.183.53.177","port":9042,"type":"ssr","country":"defaultName_42","password":"S7KwUu7yBy58S3Ga","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_43","server":"185.126.116.125","port":9015,"type":"ssr","country":"defaultName_43","password":"ZpNDDKRu9MagNvaf","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_44","server":"185.126.116.125","port":9070,"type":"ssr","country":"defaultName_44","password":"bf7v334KKDV3YDhH","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_45","server":"185.126.116.125","port":9025,"type":"ssr","country":"defaultName_45","password":"XPtzA9sCug3SPR4c","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_46","server":"185.126.116.125","port":9079,"type":"ssr","country":"defaultName_46","password":"TPqX8edgbAURcAMb","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_47","server":"185.126.116.125","port":9011,"type":"ssr","country":"defaultName_47","password":"M3t2ZEQcMGRWBjRa","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_48","server":"185.126.116.125","port":9019,"type":"ssr","country":"defaultName_48","password":"GA9KzeEgvfxNrgmM","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_49","server":"185.126.116.125","port":9032,"type":"ssr","country":"defaultName_49","password":"UWZQeLRWnkqgkseq","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_50","server":"185.126.116.125","port":9057,"type":"ssr","country":"defaultName_50","password":"wjTugX3ZtHMB9c3Z","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_51","server":"185.126.116.125","port":9094,"type":"ssr","country":"defaultName_51","password":"rpgbNnU9rDDU4aWZ","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_52","server":"185.126.116.125","port":9001,"type":"ssr","country":"defaultName_52","password":"UkXRsXvR6buDMG2Y","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_53","server":"185.126.116.125","port":9056,"type":"ssr","country":"defaultName_53","password":"rNBfNuuANFCAk7KB","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_54","server":"185.126.116.125","port":9059,"type":"ssr","country":"defaultName_54","password":"9XwYyZsK8SNzQDtY","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
+  - {"name":"defaultName_55","server":"us-am32-5.eqnode.net","port":8081,"type":"ssr","country":"defaultName_55","password":"YFVrXZgRo","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇵🇱_PL_波兰_13
+      - Relay_🇨🇦CA-🇨🇦CA_382
+      - 🇨🇦CA_384
+      - Relay_🇨🇦CA-🇨🇦CA_386
+      - Relay_🇨🇦CA-🇨🇦CA_387
+      - Relay_🇨🇳CN-🇭🇰HK_426
+      - 🇫🇷FR_826
+      - Relay_🇸🇬SG-🇸🇬SG_1627
+      - Relay_🇺🇸US-🇷🇺RU_3639
+      - Relay_🇺🇸US-🇺🇸US_3659
+      - Relay_🇺🇸US-🇺🇸US_3663
+      - 🏁ZZ_4695
+      - Relay_🇨🇳CN-🇺🇸US_428
+      - 🇨🇳CN_438
+      - Relay_🇨🇳CN-🇹🇼TW_440
+      - Relay_🇨🇳CN-🇯🇵JP_445
+      - Relay_🇨🇳CN-🇹🇼TW_453
+      - Relay_🇬🇧GB-🇬🇧GB_899
+      - Relay_🇭🇰HK-🇺🇸US_905
+      - Relay_🇯🇵JP-🇺🇸US_1072
+      - Relay_🇹🇼TW-🇹🇼TW_1643
+      - 🇺🇸US_3668
+      - 🇺🇸US_3676
+      - Relay_🇺🇸US-🇺🇸US_3677
+      - Relay_🇺🇸US-🇺🇸US_3680
+      - Relay_🏁ZZ-🇹🇼TW_4696
+      - defaultName_26
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇵🇱_PL_波兰_13
+      - Relay_🇨🇦CA-🇨🇦CA_382
+      - 🇨🇦CA_384
+      - Relay_🇨🇦CA-🇨🇦CA_386
+      - Relay_🇨🇦CA-🇨🇦CA_387
+      - Relay_🇨🇳CN-🇭🇰HK_426
+      - 🇫🇷FR_826
+      - Relay_🇸🇬SG-🇸🇬SG_1627
+      - Relay_🇺🇸US-🇷🇺RU_3639
+      - Relay_🇺🇸US-🇺🇸US_3659
+      - Relay_🇺🇸US-🇺🇸US_3663
+      - 🏁ZZ_4695
+      - Relay_🇨🇳CN-🇺🇸US_428
+      - 🇨🇳CN_438
+      - Relay_🇨🇳CN-🇹🇼TW_440
+      - Relay_🇨🇳CN-🇯🇵JP_445
+      - Relay_🇨🇳CN-🇹🇼TW_453
+      - Relay_🇬🇧GB-🇬🇧GB_899
+      - Relay_🇭🇰HK-🇺🇸US_905
+      - Relay_🇯🇵JP-🇺🇸US_1072
+      - Relay_🇹🇼TW-🇹🇼TW_1643
+      - 🇺🇸US_3668
+      - 🇺🇸US_3676
+      - Relay_🇺🇸US-🇺🇸US_3677
+      - Relay_🇺🇸US-🇺🇸US_3680
+      - Relay_🏁ZZ-🇹🇼TW_4696
+      - defaultName_26
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇵🇱_PL_波兰_13
+      - Relay_🇨🇦CA-🇨🇦CA_382
+      - 🇨🇦CA_384
+      - Relay_🇨🇦CA-🇨🇦CA_386
+      - Relay_🇨🇦CA-🇨🇦CA_387
+      - Relay_🇨🇳CN-🇭🇰HK_426
+      - 🇫🇷FR_826
+      - Relay_🇸🇬SG-🇸🇬SG_1627
+      - Relay_🇺🇸US-🇷🇺RU_3639
+      - Relay_🇺🇸US-🇺🇸US_3659
+      - Relay_🇺🇸US-🇺🇸US_3663
+      - 🏁ZZ_4695
+      - Relay_🇨🇳CN-🇺🇸US_428
+      - 🇨🇳CN_438
+      - Relay_🇨🇳CN-🇹🇼TW_440
+      - Relay_🇨🇳CN-🇯🇵JP_445
+      - Relay_🇨🇳CN-🇹🇼TW_453
+      - Relay_🇬🇧GB-🇬🇧GB_899
+      - Relay_🇭🇰HK-🇺🇸US_905
+      - Relay_🇯🇵JP-🇺🇸US_1072
+      - Relay_🇹🇼TW-🇹🇼TW_1643
+      - 🇺🇸US_3668
+      - 🇺🇸US_3676
+      - Relay_🇺🇸US-🇺🇸US_3677
+      - Relay_🇺🇸US-🇺🇸US_3680
+      - Relay_🏁ZZ-🇹🇼TW_4696
+      - defaultName_26
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇵🇱_PL_波兰_13
+      - Relay_🇨🇦CA-🇨🇦CA_382
+      - 🇨🇦CA_384
+      - Relay_🇨🇦CA-🇨🇦CA_386
+      - Relay_🇨🇦CA-🇨🇦CA_387
+      - Relay_🇨🇳CN-🇭🇰HK_426
+      - 🇫🇷FR_826
+      - Relay_🇸🇬SG-🇸🇬SG_1627
+      - Relay_🇺🇸US-🇷🇺RU_3639
+      - Relay_🇺🇸US-🇺🇸US_3659
+      - Relay_🇺🇸US-🇺🇸US_3663
+      - 🏁ZZ_4695
+      - Relay_🇨🇳CN-🇺🇸US_428
+      - 🇨🇳CN_438
+      - Relay_🇨🇳CN-🇹🇼TW_440
+      - Relay_🇨🇳CN-🇯🇵JP_445
+      - Relay_🇨🇳CN-🇹🇼TW_453
+      - Relay_🇬🇧GB-🇬🇧GB_899
+      - Relay_🇭🇰HK-🇺🇸US_905
+      - Relay_🇯🇵JP-🇺🇸US_1072
+      - Relay_🇹🇼TW-🇹🇼TW_1643
+      - 🇺🇸US_3668
+      - 🇺🇸US_3676
+      - Relay_🇺🇸US-🇺🇸US_3677
+      - Relay_🇺🇸US-🇺🇸US_3680
+      - Relay_🏁ZZ-🇹🇼TW_4696
+      - defaultName_26
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇵🇱_PL_波兰_13
+      - Relay_🇨🇦CA-🇨🇦CA_382
+      - 🇨🇦CA_384
+      - Relay_🇨🇦CA-🇨🇦CA_386
+      - Relay_🇨🇦CA-🇨🇦CA_387
+      - Relay_🇨🇳CN-🇭🇰HK_426
+      - 🇫🇷FR_826
+      - Relay_🇸🇬SG-🇸🇬SG_1627
+      - Relay_🇺🇸US-🇷🇺RU_3639
+      - Relay_🇺🇸US-🇺🇸US_3659
+      - Relay_🇺🇸US-🇺🇸US_3663
+      - 🏁ZZ_4695
+      - Relay_🇨🇳CN-🇺🇸US_428
+      - 🇨🇳CN_438
+      - Relay_🇨🇳CN-🇹🇼TW_440
+      - Relay_🇨🇳CN-🇯🇵JP_445
+      - Relay_🇨🇳CN-🇹🇼TW_453
+      - Relay_🇬🇧GB-🇬🇧GB_899
+      - Relay_🇭🇰HK-🇺🇸US_905
+      - Relay_🇯🇵JP-🇺🇸US_1072
+      - Relay_🇹🇼TW-🇹🇼TW_1643
+      - 🇺🇸US_3668
+      - 🇺🇸US_3676
+      - Relay_🇺🇸US-🇺🇸US_3677
+      - Relay_🇺🇸US-🇺🇸US_3680
+      - Relay_🏁ZZ-🇹🇼TW_4696
+      - defaultName_26
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇵🇱_PL_波兰_13
+      - Relay_🇨🇦CA-🇨🇦CA_382
+      - 🇨🇦CA_384
+      - Relay_🇨🇦CA-🇨🇦CA_386
+      - Relay_🇨🇦CA-🇨🇦CA_387
+      - Relay_🇨🇳CN-🇭🇰HK_426
+      - 🇫🇷FR_826
+      - Relay_🇸🇬SG-🇸🇬SG_1627
+      - Relay_🇺🇸US-🇷🇺RU_3639
+      - Relay_🇺🇸US-🇺🇸US_3659
+      - Relay_🇺🇸US-🇺🇸US_3663
+      - 🏁ZZ_4695
+      - Relay_🇨🇳CN-🇺🇸US_428
+      - 🇨🇳CN_438
+      - Relay_🇨🇳CN-🇹🇼TW_440
+      - Relay_🇨🇳CN-🇯🇵JP_445
+      - Relay_🇨🇳CN-🇹🇼TW_453
+      - Relay_🇬🇧GB-🇬🇧GB_899
+      - Relay_🇭🇰HK-🇺🇸US_905
+      - Relay_🇯🇵JP-🇺🇸US_1072
+      - Relay_🇹🇼TW-🇹🇼TW_1643
+      - 🇺🇸US_3668
+      - 🇺🇸US_3676
+      - Relay_🇺🇸US-🇺🇸US_3677
+      - Relay_🇺🇸US-🇺🇸US_3680
+      - Relay_🏁ZZ-🇹🇼TW_4696
+      - defaultName_26
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -151,19 +438,60 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
-      - 🇺🇸_US_美国_11
-      - 🇸🇬_SG_新加坡_12
-      - 🇵🇱_PL_波兰_13
+      - Relay_🇨🇦CA-🇨🇦CA_382
+      - 🇨🇦CA_384
+      - Relay_🇨🇦CA-🇨🇦CA_386
+      - Relay_🇨🇦CA-🇨🇦CA_387
+      - Relay_🇨🇳CN-🇭🇰HK_426
+      - 🇫🇷FR_826
+      - Relay_🇸🇬SG-🇸🇬SG_1627
+      - Relay_🇺🇸US-🇷🇺RU_3639
+      - Relay_🇺🇸US-🇺🇸US_3659
+      - Relay_🇺🇸US-🇺🇸US_3663
+      - 🏁ZZ_4695
+      - Relay_🇨🇳CN-🇺🇸US_428
+      - 🇨🇳CN_438
+      - Relay_🇨🇳CN-🇹🇼TW_440
+      - Relay_🇨🇳CN-🇯🇵JP_445
+      - Relay_🇨🇳CN-🇹🇼TW_453
+      - Relay_🇬🇧GB-🇬🇧GB_899
+      - Relay_🇭🇰HK-🇺🇸US_905
+      - Relay_🇯🇵JP-🇺🇸US_1072
+      - Relay_🇹🇼TW-🇹🇼TW_1643
+      - 🇺🇸US_3668
+      - 🇺🇸US_3676
+      - Relay_🇺🇸US-🇺🇸US_3677
+      - Relay_🇺🇸US-🇺🇸US_3680
+      - Relay_🏁ZZ-🇹🇼TW_4696
+      - defaultName_26
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
