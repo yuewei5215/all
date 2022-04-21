@@ -5,270 +5,135 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇸🇬SG_0443atWangCai_1","server":"139.162.52.177","port":443,"type":"ss","country":"🇸🇬SG_0443atWangCai_1","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇸🇬SG_2375atWangCai_1","server":"139.162.52.177","port":2375,"type":"ss","country":"🇸🇬SG_2375atWangCai_1","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇸🇬SG_2376atWangCai_1","server":"139.162.52.177","port":2376,"type":"ss","country":"🇸🇬SG_2376atWangCai_1","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇸🇬SG_3306atWangCai_1","server":"139.162.52.177","port":3306,"type":"ss","country":"🇸🇬SG_3306atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬SG_3389atWangCai_1","server":"139.162.52.177","port":3389,"type":"ss","country":"🇸🇬SG_3389atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬SG_4444atWangCai_1","server":"139.162.52.177","port":4444,"type":"ss","country":"🇸🇬SG_4444atWangCai_1","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇸🇬SG_5000atWangCai_1","server":"139.162.52.177","port":5000,"type":"ss","country":"🇸🇬SG_5000atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬SG_5001atWangCai_1","server":"139.162.52.177","port":5001,"type":"ss","country":"🇸🇬SG_5001atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬SG_5003atWangCai_1","server":"139.162.52.177","port":5003,"type":"ss","country":"🇸🇬SG_5003atWangCai_1","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇸🇬SG_5004atWangCai_1","server":"139.162.52.177","port":5004,"type":"ss","country":"🇸🇬SG_5004atWangCai_1","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇸🇬SG_5500atWangCai_1","server":"139.162.52.177","port":5500,"type":"ss","country":"🇸🇬SG_5500atWangCai_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇸🇬SG_5600atWangCai_1","server":"139.162.52.177","port":5600,"type":"ss","country":"🇸🇬SG_5600atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬SG_5601atWangCai_1","server":"139.162.52.177","port":5601,"type":"ss","country":"🇸🇬SG_5601atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬SG_6379atWangCai_1","server":"139.162.52.177","port":6379,"type":"ss","country":"🇸🇬SG_6379atWangCai_1","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇸🇬SG_6679atWangCai_1","server":"139.162.52.177","port":6679,"type":"ss","country":"🇸🇬SG_6679atWangCai_1","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇸🇬SG_6697atWangCai_1","server":"139.162.52.177","port":6697,"type":"ss","country":"🇸🇬SG_6697atWangCai_1","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇸🇬SG_7001atWangCai_1","server":"139.162.52.177","port":7001,"type":"ss","country":"🇸🇬SG_7001atWangCai_1","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇸🇬SG_7002atWangCai_1","server":"139.162.52.177","port":7002,"type":"ss","country":"🇸🇬SG_7002atWangCai_1","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇸🇬SG_7306atWangCai_1","server":"139.162.52.177","port":7306,"type":"ss","country":"🇸🇬SG_7306atWangCai_1","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇸🇬SG_7307atWangCai_1","server":"139.162.52.177","port":7307,"type":"ss","country":"🇸🇬SG_7307atWangCai_1","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇸🇬SG_8000atWangCai_1","server":"139.162.52.177","port":8000,"type":"ss","country":"🇸🇬SG_8000atWangCai_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇸🇬SG_8008atWangCai_1","server":"139.162.52.177","port":8008,"type":"ss","country":"🇸🇬SG_8008atWangCai_1","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇸🇬SG_8009atWangCai_1","server":"139.162.52.177","port":8009,"type":"ss","country":"🇸🇬SG_8009atWangCai_1","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇸🇬SG_8080atWangCai_1","server":"139.162.52.177","port":8080,"type":"ss","country":"🇸🇬SG_8080atWangCai_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇸🇬SG_8090atWangCai_1","server":"139.162.52.177","port":8090,"type":"ss","country":"🇸🇬SG_8090atWangCai_1","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇸🇬SG_8091atWangCai_1","server":"139.162.52.177","port":8091,"type":"ss","country":"🇸🇬SG_8091atWangCai_1","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇸🇬SG_8118atWangCai_1","server":"139.162.52.177","port":8118,"type":"ss","country":"🇸🇬SG_8118atWangCai_1","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇸🇬SG_8119atWangCai_1","server":"139.162.52.177","port":8119,"type":"ss","country":"🇸🇬SG_8119atWangCai_1","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇸🇬SG_8881atWangCai_1","server":"139.162.52.177","port":8881,"type":"ss","country":"🇸🇬SG_8881atWangCai_1","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇸🇬SG_8882atWangCai_1","server":"139.162.52.177","port":8882,"type":"ss","country":"🇸🇬SG_8882atWangCai_1","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇸🇬SG_8888atWangCai_1","server":"139.162.52.177","port":8888,"type":"ss","country":"🇸🇬SG_8888atWangCai_1","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬SG_9101atWangCai_1","server":"139.162.52.177","port":9101,"type":"ss","country":"🇸🇬SG_9101atWangCai_1","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇸🇬SG_9102atWangCai_1","server":"139.162.52.177","port":9102,"type":"ss","country":"🇸🇬SG_9102atWangCai_1","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"俄罗斯E_1","server":"193.233.16.243","port":11965,"type":"ssr","country":"俄罗斯E_1","password":"lncn.org
+    3i","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯F_2","server":"195.245.239.15","port":11965,"type":"ssr","country":"俄罗斯F_2","password":"lncn.org
+    3i","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯G_3","server":"45.8.158.201","port":11965,"type":"ssr","country":"俄罗斯G_3","password":"lncn.org
+    3i","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯H_4","server":"46.29.160.130","port":11965,"type":"ssr","country":"俄罗斯H_4","password":"lncn.org
+    3i","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯I_5","server":"194.147.34.32","port":11965,"type":"ssr","country":"俄罗斯I_5","password":"lncn.org
+    5y","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯J_6","server":"45.130.147.192","port":11965,"type":"ssr","country":"俄罗斯J_6","password":"lncn.org
+    5y","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯K_7","server":"176.32.32.118","port":11965,"type":"ssr","country":"俄罗斯K_7","password":"lncn.org
+    5y","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯L_8","server":"176.32.32.223","port":11965,"type":"ssr","country":"俄罗斯L_8","password":"lncn.org
+    5y","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯M_9","server":"194.147.34.162","port":11965,"type":"ssr","country":"俄罗斯M_9","password":"lncn.org
+    j6","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯N_10","server":"46.17.46.83","port":11965,"type":"ssr","country":"俄罗斯N_10","password":"lncn.org
+    j6","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯O_11","server":"46.17.47.156","port":11965,"type":"ssr","country":"俄罗斯O_11","password":"lncn.org
+    j6","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"俄罗斯P_12","server":"46.29.160.101","port":11965,"type":"ssr","country":"俄罗斯P_12","password":"lncn.org
+    j6","cipher":"rc4","protocol":"origin","obfs":"plain"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬SG_0443atWangCai_1
-      - 🇸🇬SG_2375atWangCai_1
-      - 🇸🇬SG_2376atWangCai_1
-      - 🇸🇬SG_3306atWangCai_1
-      - 🇸🇬SG_3389atWangCai_1
-      - 🇸🇬SG_4444atWangCai_1
-      - 🇸🇬SG_5000atWangCai_1
-      - 🇸🇬SG_5001atWangCai_1
-      - 🇸🇬SG_5003atWangCai_1
-      - 🇸🇬SG_5004atWangCai_1
-      - 🇸🇬SG_5500atWangCai_1
-      - 🇸🇬SG_5600atWangCai_1
-      - 🇸🇬SG_5601atWangCai_1
-      - 🇸🇬SG_6379atWangCai_1
-      - 🇸🇬SG_6679atWangCai_1
-      - 🇸🇬SG_6697atWangCai_1
-      - 🇸🇬SG_7001atWangCai_1
-      - 🇸🇬SG_7002atWangCai_1
-      - 🇸🇬SG_7306atWangCai_1
-      - 🇸🇬SG_7307atWangCai_1
-      - 🇸🇬SG_8000atWangCai_1
-      - 🇸🇬SG_8008atWangCai_1
-      - 🇸🇬SG_8009atWangCai_1
-      - 🇸🇬SG_8080atWangCai_1
-      - 🇸🇬SG_8090atWangCai_1
-      - 🇸🇬SG_8091atWangCai_1
-      - 🇸🇬SG_8118atWangCai_1
-      - 🇸🇬SG_8119atWangCai_1
-      - 🇸🇬SG_8881atWangCai_1
-      - 🇸🇬SG_8882atWangCai_1
-      - 🇸🇬SG_8888atWangCai_1
-      - 🇸🇬SG_9101atWangCai_1
-      - 🇸🇬SG_9102atWangCai_1
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬SG_0443atWangCai_1
-      - 🇸🇬SG_2375atWangCai_1
-      - 🇸🇬SG_2376atWangCai_1
-      - 🇸🇬SG_3306atWangCai_1
-      - 🇸🇬SG_3389atWangCai_1
-      - 🇸🇬SG_4444atWangCai_1
-      - 🇸🇬SG_5000atWangCai_1
-      - 🇸🇬SG_5001atWangCai_1
-      - 🇸🇬SG_5003atWangCai_1
-      - 🇸🇬SG_5004atWangCai_1
-      - 🇸🇬SG_5500atWangCai_1
-      - 🇸🇬SG_5600atWangCai_1
-      - 🇸🇬SG_5601atWangCai_1
-      - 🇸🇬SG_6379atWangCai_1
-      - 🇸🇬SG_6679atWangCai_1
-      - 🇸🇬SG_6697atWangCai_1
-      - 🇸🇬SG_7001atWangCai_1
-      - 🇸🇬SG_7002atWangCai_1
-      - 🇸🇬SG_7306atWangCai_1
-      - 🇸🇬SG_7307atWangCai_1
-      - 🇸🇬SG_8000atWangCai_1
-      - 🇸🇬SG_8008atWangCai_1
-      - 🇸🇬SG_8009atWangCai_1
-      - 🇸🇬SG_8080atWangCai_1
-      - 🇸🇬SG_8090atWangCai_1
-      - 🇸🇬SG_8091atWangCai_1
-      - 🇸🇬SG_8118atWangCai_1
-      - 🇸🇬SG_8119atWangCai_1
-      - 🇸🇬SG_8881atWangCai_1
-      - 🇸🇬SG_8882atWangCai_1
-      - 🇸🇬SG_8888atWangCai_1
-      - 🇸🇬SG_9101atWangCai_1
-      - 🇸🇬SG_9102atWangCai_1
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬SG_0443atWangCai_1
-      - 🇸🇬SG_2375atWangCai_1
-      - 🇸🇬SG_2376atWangCai_1
-      - 🇸🇬SG_3306atWangCai_1
-      - 🇸🇬SG_3389atWangCai_1
-      - 🇸🇬SG_4444atWangCai_1
-      - 🇸🇬SG_5000atWangCai_1
-      - 🇸🇬SG_5001atWangCai_1
-      - 🇸🇬SG_5003atWangCai_1
-      - 🇸🇬SG_5004atWangCai_1
-      - 🇸🇬SG_5500atWangCai_1
-      - 🇸🇬SG_5600atWangCai_1
-      - 🇸🇬SG_5601atWangCai_1
-      - 🇸🇬SG_6379atWangCai_1
-      - 🇸🇬SG_6679atWangCai_1
-      - 🇸🇬SG_6697atWangCai_1
-      - 🇸🇬SG_7001atWangCai_1
-      - 🇸🇬SG_7002atWangCai_1
-      - 🇸🇬SG_7306atWangCai_1
-      - 🇸🇬SG_7307atWangCai_1
-      - 🇸🇬SG_8000atWangCai_1
-      - 🇸🇬SG_8008atWangCai_1
-      - 🇸🇬SG_8009atWangCai_1
-      - 🇸🇬SG_8080atWangCai_1
-      - 🇸🇬SG_8090atWangCai_1
-      - 🇸🇬SG_8091atWangCai_1
-      - 🇸🇬SG_8118atWangCai_1
-      - 🇸🇬SG_8119atWangCai_1
-      - 🇸🇬SG_8881atWangCai_1
-      - 🇸🇬SG_8882atWangCai_1
-      - 🇸🇬SG_8888atWangCai_1
-      - 🇸🇬SG_9101atWangCai_1
-      - 🇸🇬SG_9102atWangCai_1
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬SG_0443atWangCai_1
-      - 🇸🇬SG_2375atWangCai_1
-      - 🇸🇬SG_2376atWangCai_1
-      - 🇸🇬SG_3306atWangCai_1
-      - 🇸🇬SG_3389atWangCai_1
-      - 🇸🇬SG_4444atWangCai_1
-      - 🇸🇬SG_5000atWangCai_1
-      - 🇸🇬SG_5001atWangCai_1
-      - 🇸🇬SG_5003atWangCai_1
-      - 🇸🇬SG_5004atWangCai_1
-      - 🇸🇬SG_5500atWangCai_1
-      - 🇸🇬SG_5600atWangCai_1
-      - 🇸🇬SG_5601atWangCai_1
-      - 🇸🇬SG_6379atWangCai_1
-      - 🇸🇬SG_6679atWangCai_1
-      - 🇸🇬SG_6697atWangCai_1
-      - 🇸🇬SG_7001atWangCai_1
-      - 🇸🇬SG_7002atWangCai_1
-      - 🇸🇬SG_7306atWangCai_1
-      - 🇸🇬SG_7307atWangCai_1
-      - 🇸🇬SG_8000atWangCai_1
-      - 🇸🇬SG_8008atWangCai_1
-      - 🇸🇬SG_8009atWangCai_1
-      - 🇸🇬SG_8080atWangCai_1
-      - 🇸🇬SG_8090atWangCai_1
-      - 🇸🇬SG_8091atWangCai_1
-      - 🇸🇬SG_8118atWangCai_1
-      - 🇸🇬SG_8119atWangCai_1
-      - 🇸🇬SG_8881atWangCai_1
-      - 🇸🇬SG_8882atWangCai_1
-      - 🇸🇬SG_8888atWangCai_1
-      - 🇸🇬SG_9101atWangCai_1
-      - 🇸🇬SG_9102atWangCai_1
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬SG_0443atWangCai_1
-      - 🇸🇬SG_2375atWangCai_1
-      - 🇸🇬SG_2376atWangCai_1
-      - 🇸🇬SG_3306atWangCai_1
-      - 🇸🇬SG_3389atWangCai_1
-      - 🇸🇬SG_4444atWangCai_1
-      - 🇸🇬SG_5000atWangCai_1
-      - 🇸🇬SG_5001atWangCai_1
-      - 🇸🇬SG_5003atWangCai_1
-      - 🇸🇬SG_5004atWangCai_1
-      - 🇸🇬SG_5500atWangCai_1
-      - 🇸🇬SG_5600atWangCai_1
-      - 🇸🇬SG_5601atWangCai_1
-      - 🇸🇬SG_6379atWangCai_1
-      - 🇸🇬SG_6679atWangCai_1
-      - 🇸🇬SG_6697atWangCai_1
-      - 🇸🇬SG_7001atWangCai_1
-      - 🇸🇬SG_7002atWangCai_1
-      - 🇸🇬SG_7306atWangCai_1
-      - 🇸🇬SG_7307atWangCai_1
-      - 🇸🇬SG_8000atWangCai_1
-      - 🇸🇬SG_8008atWangCai_1
-      - 🇸🇬SG_8009atWangCai_1
-      - 🇸🇬SG_8080atWangCai_1
-      - 🇸🇬SG_8090atWangCai_1
-      - 🇸🇬SG_8091atWangCai_1
-      - 🇸🇬SG_8118atWangCai_1
-      - 🇸🇬SG_8119atWangCai_1
-      - 🇸🇬SG_8881atWangCai_1
-      - 🇸🇬SG_8882atWangCai_1
-      - 🇸🇬SG_8888atWangCai_1
-      - 🇸🇬SG_9101atWangCai_1
-      - 🇸🇬SG_9102atWangCai_1
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬SG_0443atWangCai_1
-      - 🇸🇬SG_2375atWangCai_1
-      - 🇸🇬SG_2376atWangCai_1
-      - 🇸🇬SG_3306atWangCai_1
-      - 🇸🇬SG_3389atWangCai_1
-      - 🇸🇬SG_4444atWangCai_1
-      - 🇸🇬SG_5000atWangCai_1
-      - 🇸🇬SG_5001atWangCai_1
-      - 🇸🇬SG_5003atWangCai_1
-      - 🇸🇬SG_5004atWangCai_1
-      - 🇸🇬SG_5500atWangCai_1
-      - 🇸🇬SG_5600atWangCai_1
-      - 🇸🇬SG_5601atWangCai_1
-      - 🇸🇬SG_6379atWangCai_1
-      - 🇸🇬SG_6679atWangCai_1
-      - 🇸🇬SG_6697atWangCai_1
-      - 🇸🇬SG_7001atWangCai_1
-      - 🇸🇬SG_7002atWangCai_1
-      - 🇸🇬SG_7306atWangCai_1
-      - 🇸🇬SG_7307atWangCai_1
-      - 🇸🇬SG_8000atWangCai_1
-      - 🇸🇬SG_8008atWangCai_1
-      - 🇸🇬SG_8009atWangCai_1
-      - 🇸🇬SG_8080atWangCai_1
-      - 🇸🇬SG_8090atWangCai_1
-      - 🇸🇬SG_8091atWangCai_1
-      - 🇸🇬SG_8118atWangCai_1
-      - 🇸🇬SG_8119atWangCai_1
-      - 🇸🇬SG_8881atWangCai_1
-      - 🇸🇬SG_8882atWangCai_1
-      - 🇸🇬SG_8888atWangCai_1
-      - 🇸🇬SG_9101atWangCai_1
-      - 🇸🇬SG_9102atWangCai_1
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -291,39 +156,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬SG_0443atWangCai_1
-      - 🇸🇬SG_2375atWangCai_1
-      - 🇸🇬SG_2376atWangCai_1
-      - 🇸🇬SG_3306atWangCai_1
-      - 🇸🇬SG_3389atWangCai_1
-      - 🇸🇬SG_4444atWangCai_1
-      - 🇸🇬SG_5000atWangCai_1
-      - 🇸🇬SG_5001atWangCai_1
-      - 🇸🇬SG_5003atWangCai_1
-      - 🇸🇬SG_5004atWangCai_1
-      - 🇸🇬SG_5500atWangCai_1
-      - 🇸🇬SG_5600atWangCai_1
-      - 🇸🇬SG_5601atWangCai_1
-      - 🇸🇬SG_6379atWangCai_1
-      - 🇸🇬SG_6679atWangCai_1
-      - 🇸🇬SG_6697atWangCai_1
-      - 🇸🇬SG_7001atWangCai_1
-      - 🇸🇬SG_7002atWangCai_1
-      - 🇸🇬SG_7306atWangCai_1
-      - 🇸🇬SG_7307atWangCai_1
-      - 🇸🇬SG_8000atWangCai_1
-      - 🇸🇬SG_8008atWangCai_1
-      - 🇸🇬SG_8009atWangCai_1
-      - 🇸🇬SG_8080atWangCai_1
-      - 🇸🇬SG_8090atWangCai_1
-      - 🇸🇬SG_8091atWangCai_1
-      - 🇸🇬SG_8118atWangCai_1
-      - 🇸🇬SG_8119atWangCai_1
-      - 🇸🇬SG_8881atWangCai_1
-      - 🇸🇬SG_8882atWangCai_1
-      - 🇸🇬SG_8888atWangCai_1
-      - 🇸🇬SG_9101atWangCai_1
-      - 🇸🇬SG_9102atWangCai_1
+      - 俄罗斯E_1
+      - 俄罗斯F_2
+      - 俄罗斯G_3
+      - 俄罗斯H_4
+      - 俄罗斯I_5
+      - 俄罗斯J_6
+      - 俄罗斯K_7
+      - 俄罗斯L_8
+      - 俄罗斯M_9
+      - 俄罗斯N_10
+      - 俄罗斯O_11
+      - 俄罗斯P_12
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
