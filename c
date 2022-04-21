@@ -5,135 +5,144 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"俄罗斯E_1","server":"193.233.16.243","port":11965,"type":"ssr","country":"俄罗斯E_1","password":"lncn.org
-    3i","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯F_2","server":"195.245.239.15","port":11965,"type":"ssr","country":"俄罗斯F_2","password":"lncn.org
-    3i","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯G_3","server":"45.8.158.201","port":11965,"type":"ssr","country":"俄罗斯G_3","password":"lncn.org
-    3i","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯H_4","server":"46.29.160.130","port":11965,"type":"ssr","country":"俄罗斯H_4","password":"lncn.org
-    3i","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯I_5","server":"194.147.34.32","port":11965,"type":"ssr","country":"俄罗斯I_5","password":"lncn.org
-    5y","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯J_6","server":"45.130.147.192","port":11965,"type":"ssr","country":"俄罗斯J_6","password":"lncn.org
-    5y","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯K_7","server":"176.32.32.118","port":11965,"type":"ssr","country":"俄罗斯K_7","password":"lncn.org
-    5y","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯L_8","server":"176.32.32.223","port":11965,"type":"ssr","country":"俄罗斯L_8","password":"lncn.org
-    5y","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯M_9","server":"194.147.34.162","port":11965,"type":"ssr","country":"俄罗斯M_9","password":"lncn.org
-    j6","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯N_10","server":"46.17.46.83","port":11965,"type":"ssr","country":"俄罗斯N_10","password":"lncn.org
-    j6","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯O_11","server":"46.17.47.156","port":11965,"type":"ssr","country":"俄罗斯O_11","password":"lncn.org
-    j6","cipher":"rc4","protocol":"origin","obfs":"plain"}
-  - {"name":"俄罗斯P_12","server":"46.29.160.101","port":11965,"type":"ssr","country":"俄罗斯P_12","password":"lncn.org
-    j6","cipher":"rc4","protocol":"origin","obfs":"plain"}
+  - {"name":"日本(yudou66_com玉豆分享)_1","server":"jpaz3.xmrth-node.xyz","port":11012,"type":"vmess","uuid":"f3d669ec-1617-3d40-be56-3c8a45fc44eb","alterId":2,"cipher":"auto","country":"日本(yudou66_com玉豆分享)_1","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"美国(yudou66_com玉豆分享)_2","server":"lzq02.ugatk.ml","port":443,"type":"vmess","uuid":"71a222de-6ec9-4bfb-872f-a0b39a10028f","alterId":0,"cipher":"auto","country":"美国(yudou66_com玉豆分享)_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/7cd2305/","headers":{"host":"lzq02.ugatk.ml"}}}
+  - {"name":"美国(yudou66_com+玉豆分享)_3","server":"jgwdb2.gaox.ml","port":443,"type":"trojan","country":"美国(yudou66_com+玉豆分享)_3","skip-cert-verify":true,"udp":true,"password":"c19d1432-8b3e-4818-8837-3d160cf65908"}
+  - {"name":"美国(yudou66_com玉豆分享)_4","server":"dns.ysguanggang.xyz","port":30006,"type":"vmess","uuid":"f1886be0-5338-493d-ae5e-2cfea20a73b4","alterId":0,"cipher":"auto","country":"美国(yudou66_com玉豆分享)_4","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/yunsunode","headers":{"host":"dns.ysguanggang.xyz"}}}
+  - {"name":"亚洲(yudou66_com玉豆分享)_5","server":"101.230.149.29","port":38106,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"亚洲(yudou66_com玉豆分享)_5","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}}}
+  - {"name":"美国(yudou66_com+玉豆分享)_6","server":"jgwld1.gaox.ml","port":443,"type":"trojan","country":"美国(yudou66_com+玉豆分享)_6","skip-cert-verify":true,"udp":true,"password":"02e653c9-7c93-46a9-999d-11834bd0c577"}
+  - {"name":"韩国(yudou66_com玉豆分享)_7","server":"v2-5.godlight.xyz","port":39783,"type":"vmess","uuid":"767e55a4-43fa-4301-a9c2-ad30eaa9f61a","alterId":0,"cipher":"auto","country":"韩国(yudou66_com玉豆分享)_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/71h4b3s1f53","headers":{"host":"v2-5.godlight.xyz"}}}
+  - {"name":"🇨🇿_CZ_捷克(yudou66_com+玉豆分享)_8","server":"v2cross.com.04.v2ce.com","port":443,"type":"trojan","country":"🇨🇿_CZ_捷克(yudou66_com+玉豆分享)_8","skip-cert-verify":true,"udp":true,"password":"vGWCNNfBHwSY6m6M"}
+  - {"name":"美国(yudou66_com玉豆分享)_9","server":"149.28.81.105","port":45721,"type":"vmess","uuid":"492cbc4a-c07f-11ec-881d-560003f4a437","alterId":0,"cipher":"auto","country":"美国(yudou66_com玉豆分享)_9","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/T3cj7mJZ/","headers":{"host":"149.28.81.105"}}}
+  - {"name":"卢森堡(yudou66_com+玉豆分享)_10","server":"s3.upyun.online","port":12340,"type":"trojan","country":"卢森堡(yudou66_com+玉豆分享)_10","skip-cert-verify":true,"udp":true,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","sni":"free.upyun.online"}
+  - {"name":"卢森堡(yudou66_com+玉豆分享)_11","server":"s1.upyun.online","port":12340,"type":"trojan","country":"卢森堡(yudou66_com+玉豆分享)_11","skip-cert-verify":true,"udp":true,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","sni":"free.upyun.online"}
+  - {"name":"亚洲(欢迎订阅Youtube破解资源君)_12","server":"120.240.48.20","port":38106,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"亚洲(欢迎订阅Youtube破解资源君)_12","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/vpnhat"}}}
+  - {"name":"亚洲(欢迎订阅Youtube破解资源君)_13","server":"120.240.48.20","port":38101,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"亚洲(欢迎订阅Youtube破解资源君)_13","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/vpnhat"}}}
+  - {"name":"亚洲(欢迎订阅Youtube破解资源君)_14","server":"120.240.48.20","port":38102,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"亚洲(欢迎订阅Youtube破解资源君)_14","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/vpnhat"}}}
+  - {"name":"亚洲(欢迎订阅Youtube破解资源君)_15","server":"183.240.181.57","port":50206,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"亚洲(欢迎订阅Youtube破解资源君)_15","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.p2psharing"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 日本(yudou66_com玉豆分享)_1
+      - 美国(yudou66_com玉豆分享)_2
+      - 美国(yudou66_com+玉豆分享)_3
+      - 美国(yudou66_com玉豆分享)_4
+      - 亚洲(yudou66_com玉豆分享)_5
+      - 美国(yudou66_com+玉豆分享)_6
+      - 韩国(yudou66_com玉豆分享)_7
+      - 🇨🇿_CZ_捷克(yudou66_com+玉豆分享)_8
+      - 美国(yudou66_com玉豆分享)_9
+      - 卢森堡(yudou66_com+玉豆分享)_10
+      - 卢森堡(yudou66_com+玉豆分享)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - 亚洲(欢迎订阅Youtube破解资源君)_13
+      - 亚洲(欢迎订阅Youtube破解资源君)_14
+      - 亚洲(欢迎订阅Youtube破解资源君)_15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 日本(yudou66_com玉豆分享)_1
+      - 美国(yudou66_com玉豆分享)_2
+      - 美国(yudou66_com+玉豆分享)_3
+      - 美国(yudou66_com玉豆分享)_4
+      - 亚洲(yudou66_com玉豆分享)_5
+      - 美国(yudou66_com+玉豆分享)_6
+      - 韩国(yudou66_com玉豆分享)_7
+      - 🇨🇿_CZ_捷克(yudou66_com+玉豆分享)_8
+      - 美国(yudou66_com玉豆分享)_9
+      - 卢森堡(yudou66_com+玉豆分享)_10
+      - 卢森堡(yudou66_com+玉豆分享)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - 亚洲(欢迎订阅Youtube破解资源君)_13
+      - 亚洲(欢迎订阅Youtube破解资源君)_14
+      - 亚洲(欢迎订阅Youtube破解资源君)_15
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 日本(yudou66_com玉豆分享)_1
+      - 美国(yudou66_com玉豆分享)_2
+      - 美国(yudou66_com+玉豆分享)_3
+      - 美国(yudou66_com玉豆分享)_4
+      - 亚洲(yudou66_com玉豆分享)_5
+      - 美国(yudou66_com+玉豆分享)_6
+      - 韩国(yudou66_com玉豆分享)_7
+      - 🇨🇿_CZ_捷克(yudou66_com+玉豆分享)_8
+      - 美国(yudou66_com玉豆分享)_9
+      - 卢森堡(yudou66_com+玉豆分享)_10
+      - 卢森堡(yudou66_com+玉豆分享)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - 亚洲(欢迎订阅Youtube破解资源君)_13
+      - 亚洲(欢迎订阅Youtube破解资源君)_14
+      - 亚洲(欢迎订阅Youtube破解资源君)_15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 日本(yudou66_com玉豆分享)_1
+      - 美国(yudou66_com玉豆分享)_2
+      - 美国(yudou66_com+玉豆分享)_3
+      - 美国(yudou66_com玉豆分享)_4
+      - 亚洲(yudou66_com玉豆分享)_5
+      - 美国(yudou66_com+玉豆分享)_6
+      - 韩国(yudou66_com玉豆分享)_7
+      - 🇨🇿_CZ_捷克(yudou66_com+玉豆分享)_8
+      - 美国(yudou66_com玉豆分享)_9
+      - 卢森堡(yudou66_com+玉豆分享)_10
+      - 卢森堡(yudou66_com+玉豆分享)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - 亚洲(欢迎订阅Youtube破解资源君)_13
+      - 亚洲(欢迎订阅Youtube破解资源君)_14
+      - 亚洲(欢迎订阅Youtube破解资源君)_15
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 日本(yudou66_com玉豆分享)_1
+      - 美国(yudou66_com玉豆分享)_2
+      - 美国(yudou66_com+玉豆分享)_3
+      - 美国(yudou66_com玉豆分享)_4
+      - 亚洲(yudou66_com玉豆分享)_5
+      - 美国(yudou66_com+玉豆分享)_6
+      - 韩国(yudou66_com玉豆分享)_7
+      - 🇨🇿_CZ_捷克(yudou66_com+玉豆分享)_8
+      - 美国(yudou66_com玉豆分享)_9
+      - 卢森堡(yudou66_com+玉豆分享)_10
+      - 卢森堡(yudou66_com+玉豆分享)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - 亚洲(欢迎订阅Youtube破解资源君)_13
+      - 亚洲(欢迎订阅Youtube破解资源君)_14
+      - 亚洲(欢迎订阅Youtube破解资源君)_15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 日本(yudou66_com玉豆分享)_1
+      - 美国(yudou66_com玉豆分享)_2
+      - 美国(yudou66_com+玉豆分享)_3
+      - 美国(yudou66_com玉豆分享)_4
+      - 亚洲(yudou66_com玉豆分享)_5
+      - 美国(yudou66_com+玉豆分享)_6
+      - 韩国(yudou66_com玉豆分享)_7
+      - 🇨🇿_CZ_捷克(yudou66_com+玉豆分享)_8
+      - 美国(yudou66_com玉豆分享)_9
+      - 卢森堡(yudou66_com+玉豆分享)_10
+      - 卢森堡(yudou66_com+玉豆分享)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - 亚洲(欢迎订阅Youtube破解资源君)_13
+      - 亚洲(欢迎订阅Youtube破解资源君)_14
+      - 亚洲(欢迎订阅Youtube破解资源君)_15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,18 +165,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 俄罗斯E_1
-      - 俄罗斯F_2
-      - 俄罗斯G_3
-      - 俄罗斯H_4
-      - 俄罗斯I_5
-      - 俄罗斯J_6
-      - 俄罗斯K_7
-      - 俄罗斯L_8
-      - 俄罗斯M_9
-      - 俄罗斯N_10
-      - 俄罗斯O_11
-      - 俄罗斯P_12
+      - 日本(yudou66_com玉豆分享)_1
+      - 美国(yudou66_com玉豆分享)_2
+      - 美国(yudou66_com+玉豆分享)_3
+      - 美国(yudou66_com玉豆分享)_4
+      - 亚洲(yudou66_com玉豆分享)_5
+      - 美国(yudou66_com+玉豆分享)_6
+      - 韩国(yudou66_com玉豆分享)_7
+      - 🇨🇿_CZ_捷克(yudou66_com+玉豆分享)_8
+      - 美国(yudou66_com玉豆分享)_9
+      - 卢森堡(yudou66_com+玉豆分享)_10
+      - 卢森堡(yudou66_com+玉豆分享)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - 亚洲(欢迎订阅Youtube破解资源君)_13
+      - 亚洲(欢迎订阅Youtube破解资源君)_14
+      - 亚洲(欢迎订阅Youtube破解资源君)_15
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
