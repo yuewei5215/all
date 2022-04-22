@@ -5,165 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"tg+univstar_12","server":"fs.keaiyun.xyz","port":48518,"type":"vmess","uuid":"4e7bef06-2529-3230-aacd-c24e4ccb8f68","alterId":0,"cipher":"auto","country":"tg+univstar_12","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"SGA004_2","server":"hkaz4.xmrth-node.xyz","port":12870,"type":"vmess","uuid":"49aed705-ac45-332c-aa62-7ac9a9d8cb0b","alterId":2,"cipher":"auto","country":"SGA004_2","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
-  - {"name":"新加坡AMD_3","server":"152.67.210.119","port":999,"type":"trojan","country":"新加坡AMD_3","skip-cert-verify":true,"udp":true,"password":"98VWfKT1Zx"}
-  - {"name":"JPB001_4","server":"jpaz1.xmrth-node.xyz","port":11178,"type":"vmess","uuid":"49aed705-ac45-332c-aa62-7ac9a9d8cb0b","alterId":2,"cipher":"auto","country":"JPB001_4","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
-  - {"name":"tg+univstar_6","server":"fs.keaiyun.xyz","port":48511,"type":"vmess","uuid":"4e7bef06-2529-3230-aacd-c24e4ccb8f68","alterId":0,"cipher":"auto","country":"tg+univstar_6","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"USB001_6","server":"jpaz1.xmrth-node.xyz","port":10058,"type":"vmess","uuid":"49aed705-ac45-332c-aa62-7ac9a9d8cb0b","alterId":2,"cipher":"auto","country":"USB001_6","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
-  - {"name":"HK201_7","server":"hgc1.xmrth-node.xyz","port":12848,"type":"vmess","uuid":"49aed705-ac45-332c-aa62-7ac9a9d8cb0b","alterId":2,"cipher":"auto","country":"HK201_7","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
-  - {"name":"INB001_8","server":"jpaz1.xmrth-node.xyz","port":11032,"type":"vmess","uuid":"49aed705-ac45-332c-aa62-7ac9a9d8cb0b","alterId":2,"cipher":"auto","country":"INB001_8","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
-  - {"name":"SG007_9","server":"sgaws007.xmrth-node.xyz","port":11301,"type":"vmess","uuid":"471273e7-81e0-317c-9cb4-a9eacf775219","alterId":2,"cipher":"auto","country":"SG007_9","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
-  - {"name":"日本节点节点更新https://bit_ly/36b6iJh_102","server":"rbmf.speedcncnforward3.tk","port":10004,"type":"trojan","country":"日本节点节点更新https://bit_ly/36b6iJh_102","skip-cert-verify":true,"udp":true,"password":"24a69c36-af9b-4fe8-aa1e-f98dff810af8"}
-  - {"name":"日本节点(免费已限速)倍率(0倍率不消耗流量)_86","server":"rbmf.speedcncnforward3.tk","port":10004,"type":"trojan","country":"日本节点(免费已限速)倍率(0倍率不消耗流量)_86","skip-cert-verify":true,"udp":true,"password":"bba93123-c826-4279-9e7f-3bcdee96fa9d"}
-  - {"name":"JP002_12","server":"jpaws002.xmrth-node.xyz","port":12056,"type":"vmess","uuid":"49aed705-ac45-332c-aa62-7ac9a9d8cb0b","alterId":2,"cipher":"auto","country":"JP002_12","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
-  - {"name":"github_com/mianfeifq+_🇨🇿_CZ_捷克_26","server":"v2cross.com.04.v2ce.com","port":443,"type":"trojan","country":"github_com/mianfeifq+_🇨🇿_CZ_捷克_26","skip-cert-verify":true,"udp":true,"password":"vGWCNNfBHwSY6m6M"}
-  - {"name":"DE001_14","server":"delin001.xmrth-node.xyz","port":10591,"type":"vmess","uuid":"49aed705-ac45-332c-aa62-7ac9a9d8cb0b","alterId":2,"cipher":"auto","country":"DE001_14","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
-  - {"name":"AU001_15","server":"aulin001.xmrth-node.xyz","port":10131,"type":"vmess","uuid":"471273e7-81e0-317c-9cb4-a9eacf775219","alterId":2,"cipher":"auto","country":"AU001_15","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
-  - {"name":"德国(yudou66_com玉豆分享)_16","server":"fumetsuseiko.tk","port":443,"type":"vmess","uuid":"3364a992-7e4a-4551-d488-e3fad37421ad","alterId":0,"cipher":"auto","country":"德国(yudou66_com玉豆分享)_16","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fumetsuseiko.tk"}}}
-  - {"name":"DE001_17","server":"delin001.xmrth-node.xyz","port":10591,"type":"vmess","uuid":"471273e7-81e0-317c-9cb4-a9eacf775219","alterId":2,"cipher":"auto","country":"DE001_17","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
-  - {"name":"JP004_18","server":"jplin004.xmrth-node.xyz","port":11307,"type":"vmess","uuid":"471273e7-81e0-317c-9cb4-a9eacf775219","alterId":2,"cipher":"auto","country":"JP004_18","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"🇨🇳_CN_中国_1","server":"gz2.52168.xyz","port":2101,"type":"ssr","country":"🇨🇳_CN_中国_1","password":"epChJS35fV","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"tls1.2_ticket_auth","protocol-param":"149:gt9img0d2jp","obfs-param":"ee821149.baidu.com"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - tg+univstar_12
-      - SGA004_2
-      - 新加坡AMD_3
-      - JPB001_4
-      - tg+univstar_6
-      - USB001_6
-      - HK201_7
-      - INB001_8
-      - SG007_9
-      - 日本节点节点更新https://bit_ly/36b6iJh_102
-      - 日本节点(免费已限速)倍率(0倍率不消耗流量)_86
-      - JP002_12
-      - github_com/mianfeifq+_🇨🇿_CZ_捷克_26
-      - DE001_14
-      - AU001_15
-      - 德国(yudou66_com玉豆分享)_16
-      - DE001_17
-      - JP004_18
+      - 🇨🇳_CN_中国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - tg+univstar_12
-      - SGA004_2
-      - 新加坡AMD_3
-      - JPB001_4
-      - tg+univstar_6
-      - USB001_6
-      - HK201_7
-      - INB001_8
-      - SG007_9
-      - 日本节点节点更新https://bit_ly/36b6iJh_102
-      - 日本节点(免费已限速)倍率(0倍率不消耗流量)_86
-      - JP002_12
-      - github_com/mianfeifq+_🇨🇿_CZ_捷克_26
-      - DE001_14
-      - AU001_15
-      - 德国(yudou66_com玉豆分享)_16
-      - DE001_17
-      - JP004_18
+      - 🇨🇳_CN_中国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - tg+univstar_12
-      - SGA004_2
-      - 新加坡AMD_3
-      - JPB001_4
-      - tg+univstar_6
-      - USB001_6
-      - HK201_7
-      - INB001_8
-      - SG007_9
-      - 日本节点节点更新https://bit_ly/36b6iJh_102
-      - 日本节点(免费已限速)倍率(0倍率不消耗流量)_86
-      - JP002_12
-      - github_com/mianfeifq+_🇨🇿_CZ_捷克_26
-      - DE001_14
-      - AU001_15
-      - 德国(yudou66_com玉豆分享)_16
-      - DE001_17
-      - JP004_18
+      - 🇨🇳_CN_中国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - tg+univstar_12
-      - SGA004_2
-      - 新加坡AMD_3
-      - JPB001_4
-      - tg+univstar_6
-      - USB001_6
-      - HK201_7
-      - INB001_8
-      - SG007_9
-      - 日本节点节点更新https://bit_ly/36b6iJh_102
-      - 日本节点(免费已限速)倍率(0倍率不消耗流量)_86
-      - JP002_12
-      - github_com/mianfeifq+_🇨🇿_CZ_捷克_26
-      - DE001_14
-      - AU001_15
-      - 德国(yudou66_com玉豆分享)_16
-      - DE001_17
-      - JP004_18
+      - 🇨🇳_CN_中国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - tg+univstar_12
-      - SGA004_2
-      - 新加坡AMD_3
-      - JPB001_4
-      - tg+univstar_6
-      - USB001_6
-      - HK201_7
-      - INB001_8
-      - SG007_9
-      - 日本节点节点更新https://bit_ly/36b6iJh_102
-      - 日本节点(免费已限速)倍率(0倍率不消耗流量)_86
-      - JP002_12
-      - github_com/mianfeifq+_🇨🇿_CZ_捷克_26
-      - DE001_14
-      - AU001_15
-      - 德国(yudou66_com玉豆分享)_16
-      - DE001_17
-      - JP004_18
+      - 🇨🇳_CN_中国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - tg+univstar_12
-      - SGA004_2
-      - 新加坡AMD_3
-      - JPB001_4
-      - tg+univstar_6
-      - USB001_6
-      - HK201_7
-      - INB001_8
-      - SG007_9
-      - 日本节点节点更新https://bit_ly/36b6iJh_102
-      - 日本节点(免费已限速)倍率(0倍率不消耗流量)_86
-      - JP002_12
-      - github_com/mianfeifq+_🇨🇿_CZ_捷克_26
-      - DE001_14
-      - AU001_15
-      - 德国(yudou66_com玉豆分享)_16
-      - DE001_17
-      - JP004_18
+      - 🇨🇳_CN_中国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,24 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - tg+univstar_12
-      - SGA004_2
-      - 新加坡AMD_3
-      - JPB001_4
-      - tg+univstar_6
-      - USB001_6
-      - HK201_7
-      - INB001_8
-      - SG007_9
-      - 日本节点节点更新https://bit_ly/36b6iJh_102
-      - 日本节点(免费已限速)倍率(0倍率不消耗流量)_86
-      - JP002_12
-      - github_com/mianfeifq+_🇨🇿_CZ_捷克_26
-      - DE001_14
-      - AU001_15
-      - 德国(yudou66_com玉豆分享)_16
-      - DE001_17
-      - JP004_18
+      - 🇨🇳_CN_中国_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
