@@ -15,6 +15,9 @@ proxies:
   - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_8","server":"v4-node66.mimemi-u1sd.com","port":13114,"type":"ssr","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_8","password":"mimemi","cipher":"aes-256-ctr","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"256:ySh8ar","obfs-param":"hk2sch7dd6f256.wns.windows.com"}
   - {"name":"🇦🇺_AU_澳大利亚_9","server":"jgwxn1.gaox.ml","port":443,"type":"trojan","country":"🇦🇺_AU_澳大利亚_9","skip-cert-verify":true,"udp":true,"password":"0f715619-0037-4358-a7c6-958106bc6b49"}
   - {"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国_10","server":"$*@180.163.62.91","port":10064,"type":"ss","country":"🇨🇳_CN_中国->🇰🇷_KR_韩国_10","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
+  - {"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国_11","server":"$*@180.163.62.91","port":10065,"type":"ss","country":"🇨🇳_CN_中国->🇰🇷_KR_韩国_11","cipher":"aes-128-cfb","password":"QazEdcTgb159"}
+  - {"name":"🇵🇱_PL_波兰_12","server":"217.30.10.67","port":9080,"type":"ss","country":"🇵🇱_PL_波兰_12","cipher":"aes-256-cfb","password":"VP8ZPxQpJtZRCjfZ"}
+  - {"name":"🇵🇱_PL_波兰_13","server":"217.30.10.64","port":9042,"type":"ss","country":"🇵🇱_PL_波兰_13","cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +34,9 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
       - 🇦🇺_AU_澳大利亚_9
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国_10
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_11
+      - 🇵🇱_PL_波兰_12
+      - 🇵🇱_PL_波兰_13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -47,6 +53,9 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
       - 🇦🇺_AU_澳大利亚_9
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国_10
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_11
+      - 🇵🇱_PL_波兰_12
+      - 🇵🇱_PL_波兰_13
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -63,6 +72,9 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
       - 🇦🇺_AU_澳大利亚_9
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国_10
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_11
+      - 🇵🇱_PL_波兰_12
+      - 🇵🇱_PL_波兰_13
   - name: 📲 电报信息
     type: select
     proxies:
@@ -78,6 +90,9 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
       - 🇦🇺_AU_澳大利亚_9
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国_10
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_11
+      - 🇵🇱_PL_波兰_12
+      - 🇵🇱_PL_波兰_13
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -93,6 +108,9 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
       - 🇦🇺_AU_澳大利亚_9
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国_10
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_11
+      - 🇵🇱_PL_波兰_12
+      - 🇵🇱_PL_波兰_13
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -108,6 +126,9 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
       - 🇦🇺_AU_澳大利亚_9
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国_10
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_11
+      - 🇵🇱_PL_波兰_12
+      - 🇵🇱_PL_波兰_13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,6 +161,9 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_8
       - 🇦🇺_AU_澳大利亚_9
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国_10
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_11
+      - 🇵🇱_PL_波兰_12
+      - 🇵🇱_PL_波兰_13
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
