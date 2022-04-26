@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_1","server":"120.233.10.71","port":38305,"type":"ss","country":"🇨🇳_CN_中国->🇯🇵_JP_日本_1","cipher":"chacha20-ietf-poly1305","password":"66aa4ba9-8df9-4d58-ad8e-1026a2b0219b"}
-  - {"name":"🇰🇷_KR_韩国_2","server":"jgw2.gaox.ml","port":443,"type":"trojan","country":"🇰🇷_KR_韩国_2","skip-cert-verify":true,"udp":true,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","server":"gy.sharecentrepro.tk","port":13397,"type":"trojan","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","skip-cert-verify":true,"udp":true,"password":"d3b04e55-f2ae-4500-b317-e23946dde463"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","server":"120.233.10.71","port":38007,"type":"ss","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","cipher":"chacha20-ietf-poly1305","password":"66aa4ba9-8df9-4d58-ad8e-1026a2b0219b"}
   - {"name":"🇿🇦_ZA_南非_3","server":"156.251.191.241","port":32898,"type":"vmess","uuid":"7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb","alterId":0,"cipher":"auto","country":"🇿🇦_ZA_南非_3","skip-cert-verify":true,"tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -14,8 +14,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇿🇦_ZA_南非_3
   - name: ♻️ 自动选择
     type: url-test
@@ -23,8 +23,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇿🇦_ZA_南非_3
   - name: 🌍 国外媒体
     type: select
@@ -32,32 +32,32 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇿🇦_ZA_南非_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇿🇦_ZA_南非_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇿🇦_ZA_南非_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇿🇦_ZA_南非_3
   - name: 🎯 全球直连
     type: select
@@ -81,8 +81,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇿🇦_ZA_南非_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
