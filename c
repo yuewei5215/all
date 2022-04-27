@@ -5,95 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇭🇰_HK_香港_1","server":"43.132.158.232","port":44350,"type":"vmess","uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_1","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.132.158.232"}}}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","server":"v3-node28.mimemi-y7et.com","port":13116,"type":"ssr","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","password":"mimemi","cipher":"aes-256-ctr","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"256:ySh8ar","obfs-param":"hk2sch7dd6f256.wns.windows.com"}
-  - {"name":"🇬🇧_GB_英国_3","server":"jgwld4.gaox.ml","port":443,"type":"trojan","country":"🇬🇧_GB_英国_3","skip-cert-verify":true,"udp":true,"password":"58d32c66-43b1-4561-9951-d87c9123774e"}
-  - {"name":"🇨🇦_CA_加拿大_4","server":"134.195.196.51","port":7001,"type":"ss","country":"🇨🇦_CA_加拿大_4","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇦🇺_AU_澳大利亚_5","server":"172.105.162.49","port":4444,"type":"ss","country":"🇦🇺_AU_澳大利亚_5","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇩🇪_DE_德国_6","server":"139.162.132.116","port":8888,"type":"ss","country":"🇩🇪_DE_德国_6","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_7","server":"185.237.98.69","port":3212,"type":"ss","country":"🇬🇧_GB_英国_7","cipher":"aes-256-gcm","password":"13f91d7fd2461aa8ac178d360d94b2a8"}
-  - {"name":"🇰🇷_KR_韩国_8","server":"hgmf.speedcncnforward2.tk","port":10004,"type":"trojan","country":"🇰🇷_KR_韩国_8","skip-cert-verify":true,"udp":true,"password":"eb40a3f4-3b04-4a1c-993d-d71b44fee92c"}
+  - {"name":"dxy国内G口-全国停机1-空配_1","server":"v2.dxy5213.top","port":80,"type":"vmess","uuid":"7a484e56-f73b-4367-8b75-502f23e0c5f0","alterId":0,"cipher":"auto","country":"dxy国内G口-全国停机1-空配_1","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"a.189.cn"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇩🇪_DE_德国_6
-      - 🇬🇧_GB_英国_7
-      - 🇰🇷_KR_韩国_8
+      - dxy国内G口-全国停机1-空配_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇩🇪_DE_德国_6
-      - 🇬🇧_GB_英国_7
-      - 🇰🇷_KR_韩国_8
+      - dxy国内G口-全国停机1-空配_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇩🇪_DE_德国_6
-      - 🇬🇧_GB_英国_7
-      - 🇰🇷_KR_韩国_8
+      - dxy国内G口-全国停机1-空配_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇩🇪_DE_德国_6
-      - 🇬🇧_GB_英国_7
-      - 🇰🇷_KR_韩国_8
+      - dxy国内G口-全国停机1-空配_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇩🇪_DE_德国_6
-      - 🇬🇧_GB_英国_7
-      - 🇰🇷_KR_韩国_8
+      - dxy国内G口-全国停机1-空配_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇩🇪_DE_德国_6
-      - 🇬🇧_GB_英国_7
-      - 🇰🇷_KR_韩国_8
+      - dxy国内G口-全国停机1-空配_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,14 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
-      - 🇬🇧_GB_英国_3
-      - 🇨🇦_CA_加拿大_4
-      - 🇦🇺_AU_澳大利亚_5
-      - 🇩🇪_DE_德国_6
-      - 🇬🇧_GB_英国_7
-      - 🇰🇷_KR_韩国_8
+      - dxy国内G口-全国停机1-空配_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
