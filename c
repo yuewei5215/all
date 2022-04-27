@@ -4,57 +4,95 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
-proxies:
-  - {"name":"🇭🇰_HK_香港_1","server":"43.132.158.232","port":44350,"type":"vmess","uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_1","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.132.158.232"}}}
-  - {"name":"🇨🇦_CA_加拿大_2","server":"134.195.196.51","port":7001,"type":"ss","country":"🇨🇦_CA_加拿大_2","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇦🇺_AU_澳大利亚_3","server":"172.105.162.49","port":4444,"type":"ss","country":"🇦🇺_AU_澳大利亚_3","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇬🇧_GB_英国_4","server":"185.237.98.69","port":3212,"type":"ss","country":"🇬🇧_GB_英国_4","cipher":"aes-256-gcm","password":"13f91d7fd2461aa8ac178d360d94b2a8"}
-  - {"name":"🇯🇵_JP_日本_5","server":"85.208.108.106","port":4444,"type":"ss","country":"🇯🇵_JP_日本_5","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇳🇿_NZ_新西兰_6","server":"103.62.49.141","port":810,"type":"ss","country":"🇳🇿_NZ_新西兰_6","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"🇸🇬_SG_新加坡_7","server":"139.162.52.177","port":8008,"type":"ss","country":"🇸🇬_SG_新加坡_7","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇸🇬_SG_新加坡_8","server":"139.162.52.177","port":9102,"type":"ss","country":"🇸🇬_SG_新加坡_8","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇸🇬_SG_新加坡_9","server":"139.162.52.177","port":2376,"type":"ss","country":"🇸🇬_SG_新加坡_9","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_10","server":"167.88.63.108","port":8090,"type":"ss","country":"🇺🇸_US_美国_10","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_11","server":"167.88.61.60","port":8882,"type":"ss","country":"🇺🇸_US_美国_11","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_US_美国_12","server":"167.88.63.108","port":7001,"type":"ss","country":"🇺🇸_US_美国_12","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_13","server":"142.202.48.52","port":443,"type":"ss","country":"🇺🇸_US_美国_13","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇬🇧_GB_英国_14","server":"172.99.190.92","port":6679,"type":"ss","country":"🇬🇧_GB_英国_14","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸_US_美国_15","server":"167.88.63.108","port":5500,"type":"ss","country":"🇺🇸_US_美国_15","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_16","server":"38.68.134.190","port":9102,"type":"ss","country":"🇺🇸_US_美国_16","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_17","server":"167.88.63.117","port":8090,"type":"ss","country":"🇺🇸_US_美国_17","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_18","server":"167.88.63.60","port":8091,"type":"ss","country":"🇺🇸_US_美国_18","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_19","server":"167.88.61.70","port":8080,"type":"ss","country":"🇺🇸_US_美国_19","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_20","server":"38.68.134.190","port":9101,"type":"ss","country":"🇺🇸_US_美国_20","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_21","server":"167.88.63.71","port":3389,"type":"ss","country":"🇺🇸_US_美国_21","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_22","server":"38.75.136.49","port":7306,"type":"ss","country":"🇺🇸_US_美国_22","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_23","server":"167.88.63.71","port":5004,"type":"ss","country":"🇺🇸_US_美国_23","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_24","server":"167.88.63.71","port":8008,"type":"ss","country":"🇺🇸_US_美国_24","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇬🇧_GB_英国_25","server":"172.99.190.92","port":9102,"type":"ss","country":"🇬🇧_GB_英国_25","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_26","server":"38.114.114.19","port":8091,"type":"ss","country":"🇺🇸_US_美国_26","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_27","server":"38.75.136.21","port":8009,"type":"ss","country":"🇺🇸_US_美国_27","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US_美国_28","server":"142.202.48.52","port":2376,"type":"ss","country":"🇺🇸_US_美国_28","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_29","server":"38.75.136.116","port":5601,"type":"ss","country":"🇺🇸_US_美国_29","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_30","server":"142.202.48.52","port":5003,"type":"ss","country":"🇺🇸_US_美国_30","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_31","server":"38.75.136.21","port":5601,"type":"ss","country":"🇺🇸_US_美国_31","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_32","server":"167.88.61.70","port":3389,"type":"ss","country":"🇺🇸_US_美国_32","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_33","server":"38.68.134.190","port":8080,"type":"ss","country":"🇺🇸_US_美国_33","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_34","server":"38.114.114.19","port":5003,"type":"ss","country":"🇺🇸_US_美国_34","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_35","server":"167.88.63.60","port":2376,"type":"ss","country":"🇺🇸_US_美国_35","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_36","server":"38.75.136.21","port":5003,"type":"ss","country":"🇺🇸_US_美国_36","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_37","server":"38.75.136.21","port":8090,"type":"ss","country":"🇺🇸_US_美国_37","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_38","server":"142.202.48.52","port":7307,"type":"ss","country":"🇺🇸_US_美国_38","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_39","server":"38.114.114.19","port":8888,"type":"ss","country":"🇺🇸_US_美国_39","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_40","server":"167.88.63.71","port":8090,"type":"ss","country":"🇺🇸_US_美国_40","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_41","server":"38.68.134.71","port":8000,"type":"ss","country":"🇺🇸_US_美国_41","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_42","server":"38.75.136.21","port":5500,"type":"ss","country":"🇺🇸_US_美国_42","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_43","server":"38.114.114.19","port":3389,"type":"ss","country":"🇺🇸_US_美国_43","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_44","server":"167.88.63.71","port":7307,"type":"ss","country":"🇺🇸_US_美国_44","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_45","server":"167.88.63.60","port":7001,"type":"ss","country":"🇺🇸_US_美国_45","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_46","server":"38.75.136.21","port":9102,"type":"ss","country":"🇺🇸_US_美国_46","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_47","server":"38.75.136.21","port":7002,"type":"ss","country":"🇺🇸_US_美国_47","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_48","server":"38.68.134.190","port":6679,"type":"ss","country":"🇺🇸_US_美国_48","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇬🇧_GB_英国_49","server":"172.99.190.92","port":7306,"type":"ss","country":"🇬🇧_GB_英国_49","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_50","server":"38.114.114.19","port":6679,"type":"ss","country":"🇺🇸_US_美国_50","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+proxies: 
+  - {name: '🇭🇰_HK_香港_1', server: '43.132.158.232', port: 44350, type: vmess, uuid: '164b5fc8-5689-48ec-9f50-9f1b04f8c885', alterId: 0, cipher: auto, country: "🇭🇰_HK_香港_1", "skip-cert-verify": true, tls: false, network: 'http', ws-opts: { path: '/', headers: {host: '43.132.158.232'}} }
+  - {name: '🇨🇦_CA_加拿大_2', server: '134.195.196.51', port: 7001, type: ss, country: '🇨🇦_CA_加拿大_2', cipher: 'aes-256-gcm', password: 'RexnBgU7EV5ADxG'}
+  - {name: '🇦🇺_AU_澳大利亚_3', server: '172.105.162.49', port: 4444, type: ss, country: '🇦🇺_AU_澳大利亚_3', cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM'}
+  - {name: '🇬🇧_GB_英国_4', server: '185.237.98.69', port: 3212, type: ss, country: '🇬🇧_GB_英国_4', cipher: 'aes-256-gcm', password: '13f91d7fd2461aa8ac178d360d94b2a8'}
+  - {name: '🇯🇵_JP_日本_5', server: '85.208.108.106', port: 4444, type: ss, country: '🇯🇵_JP_日本_5', cipher: 'aes-256-gcm', password: 'pKEW8JPByTVTLtM'}
+  - {name: '🇳🇿_NZ_新西兰_6', server: '103.62.49.141', port: 810, type: ss, country: '🇳🇿_NZ_新西兰_6', cipher: 'chacha20-ietf-poly1305', password: 'G!yBwPWH3Vao'}
+  - {name: '🇸🇬_SG_新加坡_7', server: '139.162.52.177', port: 8008, type: ss, country: '🇸🇬_SG_新加坡_7', cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74'}
+  - {name: '🇸🇬_SG_新加坡_8', server: '139.162.52.177', port: 9102, type: ss, country: '🇸🇬_SG_新加坡_8', cipher: 'aes-256-gcm', password: 'e4FCWrgpkji3QY'}
+  - {name: '🇸🇬_SG_新加坡_9', server: '139.162.52.177', port: 2376, type: ss, country: '🇸🇬_SG_新加坡_9', cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7'}
+  - {name: '🇺🇸_US_美国_10', server: '167.88.63.108', port: 8090, type: ss, country: '🇺🇸_US_美国_10', cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27'}
+  - {name: '🇺🇸美国_11', server: 'vpnx.52tgds666.tk', port: 443, type: vmess, uuid: '976cf9fb-3ff1-48f7-939d-56a0e25f7376', alterId: 0, cipher: auto, country: "🇺🇸美国_11", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/ray', headers: {host: 'vpnb.tgds.workers.dev'}} }
+  - { name: 'Trojan_香港HKBN01_华南隧道[流媒体解锁]_12', server: 'cm-jm.okvpn.xyz', port: 20000, type: trojan, country: 'Trojan_香港HKBN01_华南隧道[流媒体解锁]_12', 'skip-cert-verify': true, udp: true, password: 58a02b88-7015-457f-b271-0be3dbd1ffaa }
+  - { name: 'Trojan_台湾HiNet01_华南隧道[流媒体解锁]_13', server: 'cm-jm.okvpn.xyz', port: 20003, type: trojan, country: 'Trojan_台湾HiNet01_华南隧道[流媒体解锁]_13', 'skip-cert-verify': true, udp: true, password: 58a02b88-7015-457f-b271-0be3dbd1ffaa }
+  - { name: 'Trojan_新加坡Singtel01_华南隧道[流媒体解锁]_14', server: 'cm-jm.okvpn.xyz', port: 20005, type: trojan, country: 'Trojan_新加坡Singtel01_华南隧道[流媒体解锁]_14', 'skip-cert-verify': true, udp: true, password: 58a02b88-7015-457f-b271-0be3dbd1ffaa }
+  - { name: 'Trojan_英国GTHost01_华南隧道[流媒体解锁]_15', server: 'cm-jm.okvpn.xyz', port: 20006, type: trojan, country: 'Trojan_英国GTHost01_华南隧道[流媒体解锁]_15', 'skip-cert-verify': true, udp: true, password: 58a02b88-7015-457f-b271-0be3dbd1ffaa }
+  - {name: '', server: '46.20.109.192', port: 17537, type: vmess, uuid: '7a4d11b7-0154-4519-c92c-e5e7a24ef647', alterId: 0, cipher: auto, country: "", "skip-cert-verify": true, tls: false, network: 'tcp' }
+  - { name: '日本-G+_+直连+_+Trojan_17', server: 'az-jp-a.vmess.top', port: 53602, type: trojan, country: '日本-G+_+直连+_+Trojan_17', 'skip-cert-verify': true, udp: true, password: 0105a9ef-9025-4c26-9dd0-fb898b852c96 }
+  - {name: '香港-C_直连_下载用_V2ray_18', server: 'hk-a.vmess.top', port: 53603, type: vmess, uuid: '0105a9ef-9025-4c26-9dd0-fb898b852c96', alterId: 0, cipher: auto, country: "香港-C_直连_下载用_V2ray_18", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/asdxsaduesadwadxi'} }
+  - {name: '德国-A_直连_V2ray_19', server: 'de-a.vmess.top', port: 443, type: vmess, uuid: '0105a9ef-9025-4c26-9dd0-fb898b852c96', alterId: 0, cipher: auto, country: "德国-A_直连_V2ray_19", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/sadasdxasdasddi'} }
+  - { name: 'attgds6B丨TG盗圣频道_🇺🇸_美国_20', server: 'aead.tls.sksupersususu.dnsfree.top', port: 12345, type: trojan, country: 'attgds6B丨TG盗圣频道_🇺🇸_美国_20', 'skip-cert-verify': true, udp: true, password: 44d62787-1cbf-42aa-99d7-21e9bcdb1c24 }
+  - {name: 'attgds6B丨TG盗圣频道_🇦🇺_澳大利亚_21', server: '185.167.116.252', port: 9015, type: ss, country: 'attgds6B丨TG盗圣频道_🇦🇺_澳大利亚_21', cipher: 'aes-256-cfb', password: 'ZpNDDKRu9MagNvaf'}
+  - {name: 'attgds6B丨TG盗圣频道_🇷🇸_塞尔维亚_22', server: '194.71.126.31', port: 989, type: ss, country: 'attgds6B丨TG盗圣频道_🇷🇸_塞尔维亚_22', cipher: 'aes-256-cfb', password: 'f8f7aCzcPKbsF8p3'}
+  - {name: '85_208_108_106:6379_23', server: '85.208.108.106', port: 6379, type: ss, country: '85_208_108_106:6379_23', cipher: 'aes-256-gcm', password: 'zDNVedRFPQexG9v'}
+  - {name: 'TG频道tgds6B-🇨🇳1_24', server: 'fs.keaiyun.xyz', port: 48520, type: vmess, uuid: '4e7bef06-2529-3230-aacd-c24e4ccb8f68', alterId: 0, cipher: auto, country: "TG频道tgds6B-🇨🇳1_24", "skip-cert-verify": true, tls: false, network: 'tcp' }
+  - {name: 'TG频道tgds6B-🇨🇳2_25', server: 'fs.keaiyun.xyz', port: 48511, type: vmess, uuid: '4e7bef06-2529-3230-aacd-c24e4ccb8f68', alterId: 0, cipher: auto, country: "TG频道tgds6B-🇨🇳2_25", "skip-cert-verify": true, tls: false, network: 'tcp' }
+  - {name: '【直连】韩国【免流】_26', server: 'aead.tls.sksupersususu.dnsfree.top', port: 80, type: vmess, uuid: 'd90e37ac-54b7-4fd6-b85d-dba96ea976d4', alterId: 0, cipher: auto, country: "【直连】韩国【免流】_26", "skip-cert-verify": true, tls: false, network: 'ws', ws-opts: { path: '/', headers: {host: 'tiebapic.baidu.com'}} }
+  - { name: '【直连】香港♥_27', server: 'pro.tls.hongkongaz.dnsfree.top', port: 55097, type: trojan, country: '【直连】香港♥_27', 'skip-cert-verify': true, udp: true, password: d90e37ac-54b7-4fd6-b85d-dba96ea976d4 }
+  - { name: '【直连】日本01【0x】_28', server: 'superjapan1111.dnsfree.top', port: 12391, type: trojan, country: '【直连】日本01【0x】_28', 'skip-cert-verify': true, udp: true, password: d90e37ac-54b7-4fd6-b85d-dba96ea976d4 }
+  - {name: '荷兰_Relay-tg:univstar_Relay-156_29', server: '45.147.160.86', port: 813, type: ss, country: '荷兰_Relay-tg:univstar_Relay-156_29', cipher: 'chacha20-ietf-poly1305', password: 'Ultr@r00t_2017'}
+  - { name: '🇰🇷_KR_韩国_30', server: 'jgwcc1.gaox.ml', port: 443, type: trojan, country: '🇰🇷_KR_韩国_30', 'skip-cert-verify': true, udp: true, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a }
+  - { name: '美国_Relay-tg:univstar_Relay-98_31', server: 'meet-two.defun.us', port: 443, type: trojan, country: '美国_Relay-tg:univstar_Relay-98_31', 'skip-cert-verify': true, udp: true, password: U8s25pwKISqVxHNO }
+  - { name: '美国_Relay-tg:univstar_Relay-6_32', server: 'trojan2.free4444.xyz', port: 443, type: trojan, country: '美国_Relay-tg:univstar_Relay-6_32', 'skip-cert-verify': true, udp: true, password: dongtaiwang.com }
+  - { name: '美国_Relay-tg:univstar_Relay-66_33', server: 'us002.laxiyun.com', port: 10086, type: trojan, country: '美国_Relay-tg:univstar_Relay-66_33', 'skip-cert-verify': true, udp: true, password: 5efe3c05-b123-4688-92b9-f6dc5099811f }
+  - { name: '美国_Relay-tg:univstar_Relay-89_34', server: 'us003.laxiyun.com', port: 10086, type: trojan, country: '美国_Relay-tg:univstar_Relay-89_34', 'skip-cert-verify': true, udp: true, password: 5efe3c05-b123-4688-92b9-f6dc5099811f }
+  - { name: '美国_Relay-tg:univstar_Relay-170_35', server: 'us002.laxiyun.com', port: 10086, type: trojan, country: '美国_Relay-tg:univstar_Relay-170_35', 'skip-cert-verify': true, udp: true, password: 5efe3c05-b123-4688-92b9-f6dc5099811f }
+  - { name: '英国_Relay-tg:univstar_Relay-2_36', server: 'uk001.laxiyun.com', port: 10086, type: trojan, country: '英国_Relay-tg:univstar_Relay-2_36', 'skip-cert-verify': true, udp: true, password: 5efe3c05-b123-4688-92b9-f6dc5099811f }
+  - { name: '美国_Relay-tg:univstar_Relay-94_37', server: 'shop-one.defun.us', port: 443, type: trojan, country: '美国_Relay-tg:univstar_Relay-94_37', 'skip-cert-verify': true, udp: true, password: OEfntmUGHmwQnNGr }
+  - { name: '美国_Relay-tg:univstar_Relay-20_38', server: 'us001.laxiyun.com', port: 10086, type: trojan, country: '美国_Relay-tg:univstar_Relay-20_38', 'skip-cert-verify': true, udp: true, password: 5efe3c05-b123-4688-92b9-f6dc5099811f }
+  - { name: '🇺🇸_US_美国_39', server: 'jgwcc3.gaox.ml', port: 443, type: trojan, country: '🇺🇸_US_美国_39', 'skip-cert-verify': true, udp: true, password: b291d129-ee55-4801-a9b8-b5316e5c37b7 }
+  - { name: '澳大利亚_Relay-tg:univstar_Relay-168_40', server: 'jgwxn2.gaox.ml', port: 443, type: trojan, country: '澳大利亚_Relay-tg:univstar_Relay-168_40', 'skip-cert-verify': true, udp: true, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26 }
+  - { name: '美国_Relay-tg:univstar_Relay-88_41', server: 'us-02.pickaxe.sh', port: 443, type: trojan, country: '美国_Relay-tg:univstar_Relay-88_41', 'skip-cert-verify': true, udp: true, password: Tp1ALMlfUBdkDmkW }
+  - { name: '日本_Relay-tg:univstar_Relay-70_42', server: 'jgwdb3.gaox.ml', port: 443, type: trojan, country: '日本_Relay-tg:univstar_Relay-70_42', 'skip-cert-verify': true, udp: true, password: 8d2d5953-d649-4034-94f2-72f2df2623da }
+  - {name: '美国_Relay-tg:univstar_Relay-160_43', server: 'us.thissitesucks.top', port: 443, type: vmess, uuid: 'b7db039f-c27f-4f7e-95a3-cc0359d7d0ed', alterId: 0, cipher: auto, country: "美国_Relay-tg:univstar_Relay-160_43", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/67289f/', headers: {host: 'us.thissitesucks.top'}} }
+  - { name: '美国_Relay-tg:univstar_Relay-96_44', server: 'miner-two.pickaxe.sh', port: 443, type: trojan, country: '美国_Relay-tg:univstar_Relay-96_44', 'skip-cert-verify': true, udp: true, password: YzJI2mQftXqA6ZH4 }
+  - { name: '德国_Relay-tg:univstar_Relay-155_45', server: 'de-01.fireplay.io', port: 443, type: trojan, country: '德国_Relay-tg:univstar_Relay-155_45', 'skip-cert-verify': true, udp: true, password: lo3TmsNaLWUXpuoE }
+  - { name: '美国_Relay-tg:univstar_Relay-99_46', server: 'shop-two.defun.us', port: 8080, type: trojan, country: '美国_Relay-tg:univstar_Relay-99_46', 'skip-cert-verify': true, udp: true, password: OzKXGbFNHwAurRQ0 }
+  - { name: '美国_Relay-tg:univstar_Relay-105_47', server: 'blogs.defun.us', port: 443, type: trojan, country: '美国_Relay-tg:univstar_Relay-105_47', 'skip-cert-verify': true, udp: true, password: 0STIv0ePoRzjxFTV }
+  - { name: '新加坡_Relay-tg:univstar_Relay-7_48', server: 'sgp001.laxiyun.com', port: 10086, type: trojan, country: '新加坡_Relay-tg:univstar_Relay-7_48', 'skip-cert-verify': true, udp: true, password: 5efe3c05-b123-4688-92b9-f6dc5099811f }
+  - { name: '🇰🇷_KR_韩国_49', server: 'jgwcc1.gaox.ml', port: 443, type: trojan, country: '🇰🇷_KR_韩国_49', 'skip-cert-verify': true, udp: true, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a }
+  - { name: '德国_Relay-tg:univstar_Relay-157_50', server: 'de-03.fireplay.io', port: 8080, type: trojan, country: '德国_Relay-tg:univstar_Relay-157_50', 'skip-cert-verify': true, udp: true, password: 63X7Dg58EII2qt6f }
+  - { name: '美国_Relay-tg:univstar_Relay-32_51', server: 'jgwdb2.gaox.ml', port: 443, type: trojan, country: '美国_Relay-tg:univstar_Relay-32_51', 'skip-cert-verify': true, udp: true, password: c19d1432-8b3e-4818-8837-3d160cf65908 }
+  - { name: '德国_Relay-tg:univstar_Relay-152_52', server: 'deu001.laxiyun.com', port: 10086, type: trojan, country: '德国_Relay-tg:univstar_Relay-152_52', 'skip-cert-verify': true, udp: true, password: 5efe3c05-b123-4688-92b9-f6dc5099811f }
+  - {name: '美国_Relay-tg:univstar_Relay-24_53', server: 'hkaz4.xmrth-node.xyz', port: 13302, type: vmess, uuid: 'ececdd8d-d257-3e9b-a770-9abaf61e4920', alterId: 2, cipher: auto, country: "美国_Relay-tg:univstar_Relay-24_53", "skip-cert-verify": true, tls: false, network: 'ws', ws-opts: { path: '/index', headers: {host: 'hkaz4.xmrth-node.xyz'}} }
+  - { name: '新加坡_Relay-tg:univstar_Relay-80_54', server: 'sgp002.laxiyun.com', port: 10086, type: trojan, country: '新加坡_Relay-tg:univstar_Relay-80_54', 'skip-cert-verify': true, udp: true, password: 5efe3c05-b123-4688-92b9-f6dc5099811f }
+  - { name: '美国_Relay-tg:univstar_Relay-86_55', server: 'meet-one.defun.us', port: 443, type: trojan, country: '美国_Relay-tg:univstar_Relay-86_55', 'skip-cert-verify': true, udp: true, password: INvx7sPho8PyTLS6 }
+  - { name: '美国_Relay-tg:univstar_Relay-108_56', server: 'us-03.pickaxe.sh', port: 443, type: trojan, country: '美国_Relay-tg:univstar_Relay-108_56', 'skip-cert-verify': true, udp: true, password: Rq8MSfJZYw9pcmB3 }
+  - { name: '🇺🇸_US_美国_57', server: 'jgwcc3.gaox.ml', port: 443, type: trojan, country: '🇺🇸_US_美国_57', 'skip-cert-verify': true, udp: true, password: b291d129-ee55-4801-a9b8-b5316e5c37b7 }
+  - {name: '中国_Relay-tg:univstar_Relay-150_58', server: '8.135.103.42', port: 443, type: vmess, uuid: '98d6a5ef-6cd8-870b-8aad-da7bd362c56c', alterId: 0, cipher: auto, country: "中国_Relay-tg:univstar_Relay-150_58", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/', headers: {host: 'square-smoke-6f8a.toiclokeoqc92.workers.dev'}} }
+  - {name: '美国_Relay-tg:univstar_Relay-9_59', server: 'hkaz4.xmrth-node.xyz', port: 13302, type: vmess, uuid: 'ececdd8d-d257-3e9b-a770-9abaf61e4920', alterId: 2, cipher: auto, country: "美国_Relay-tg:univstar_Relay-9_59", "skip-cert-verify": true, tls: false, network: 'ws', ws-opts: { path: '/index', headers: {host: 'hkaz4.xmrth-node.xyz'}} }
+  - { name: '美国_Relay-tg:univstar_Relay-78_60', server: 'us-01.pickaxe.sh', port: 443, type: trojan, country: '美国_Relay-tg:univstar_Relay-78_60', 'skip-cert-verify': true, udp: true, password: VQcup0dd7ulkb1pV }
+  - { name: '美国_Relay-tg:univstar_Relay-151_61', server: 'zones.defun.us', port: 443, type: trojan, country: '美国_Relay-tg:univstar_Relay-151_61', 'skip-cert-verify': true, udp: true, password: lpmMwDKeBbKKPq8K }
+  - {name: '美国_Relay-tg:univstar_Relay-154_62', server: 'hkaz4.xmrth-node.xyz', port: 13302, type: vmess, uuid: 'ececdd8d-d257-3e9b-a770-9abaf61e4920', alterId: 2, cipher: auto, country: "美国_Relay-tg:univstar_Relay-154_62", "skip-cert-verify": true, tls: false, network: 'ws', ws-opts: { path: '/index', headers: {host: 'www.baidu.com'}} }
+  - { name: '中国_Relay-tg:univstar_Relay-153_63', server: 's2.upyun.online', port: 12340, type: trojan, country: '中国_Relay-tg:univstar_Relay-153_63', 'skip-cert-verify': true, udp: true, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2 }
+  - { name: '🇺🇸_US_美国_64', server: 'asd1v.baozipay.top', port: 443, type: trojan, country: '🇺🇸_US_美国_64', 'skip-cert-verify': true, udp: true, password: rYA8dFQI6R2qTwP0 }
+  - { name: '🇺🇸_US_美国_65', server: 'asd1v.baozipay.top', port: 443, type: trojan, country: '🇺🇸_US_美国_65', 'skip-cert-verify': true, udp: true, password: rYA8dFQI6R2qTwP0 }
+  - {name: '美国_Relay-tg:univstar_Relay-107_66', server: 'hkaz1.xmrth-node.xyz', port: 10033, type: vmess, uuid: 'ececdd8d-d257-3e9b-a770-9abaf61e4920', alterId: 2, cipher: auto, country: "美国_Relay-tg:univstar_Relay-107_66", "skip-cert-verify": true, tls: false, network: 'ws', ws-opts: { path: '/index', headers: {host: 'hkaz1.xmrth-node.xyz'}} }
+  - {name: '美国_Relay-tg:univstar_Relay-158_67', server: 'hkaz1.xmrth-node.xyz', port: 10033, type: vmess, uuid: 'ececdd8d-d257-3e9b-a770-9abaf61e4920', alterId: 2, cipher: auto, country: "美国_Relay-tg:univstar_Relay-158_67", "skip-cert-verify": true, tls: false, network: 'ws', ws-opts: { path: '/index', headers: {host: 'www.baidu.com'}} }
+  - { name: 'TG频道tgds6B-🇺🇸美国1_68', server: 'us-a.vmess.top', port: 56656, type: trojan, country: 'TG频道tgds6B-🇺🇸美国1_68', 'skip-cert-verify': true, udp: true, password: 28d116e4-5a8d-439c-9277-ec9d0106f8ad }
+  - {name: 'TG频道tgds6B-🇺🇸美国2_69', server: 'us-a.vmess.top', port: 56669, type: vmess, uuid: '28d116e4-5a8d-439c-9277-ec9d0106f8ad', alterId: 0, cipher: auto, country: "TG频道tgds6B-🇺🇸美国2_69", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/xasda65464uexi'} }
+  - { name: 'TG频道tgds6B-🇺🇸美国3_70', server: 'us-b.vmess.top', port: 56656, type: trojan, country: 'TG频道tgds6B-🇺🇸美国3_70', 'skip-cert-verify': true, udp: true, password: 28d116e4-5a8d-439c-9277-ec9d0106f8ad }
+  - { name: 'TG频道tgds6B-🇺🇸美国3_71', server: 'us-b.vmess.top', port: 56656, type: trojan, country: 'TG频道tgds6B-🇺🇸美国3_71', 'skip-cert-verify': true, udp: true, password: 28d116e4-5a8d-439c-9277-ec9d0106f8ad }
+  - {name: 'TG频道tgds6B-🇺🇸美国4_72', server: 'us-b.vmess.top', port: 56669, type: vmess, uuid: '28d116e4-5a8d-439c-9277-ec9d0106f8ad', alterId: 0, cipher: auto, country: "TG频道tgds6B-🇺🇸美国4_72", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/asdasdueasddasi'} }
+  - {name: 'attgds6B丨TG盗圣频道_73', server: 'vfly5.xyz', port: 443, type: vmess, uuid: '825136bb-fc0a-4f43-8307-dc2e36f27e2d', alterId: 64, cipher: auto, country: "attgds6B丨TG盗圣频道_73", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/myblog'} }
+  - {name: '_12_53Mb_74', server: '45.147.160.86', port: 813, type: ss, country: '_12_53Mb_74', cipher: 'chacha20-ietf-poly1305', password: 'Ultr@r00t_2017'}
+  - {name: 'tg+univstar_53', server: '14.29.124.168', port: 25230, type: ss, country: 'tg+univstar_53', cipher: 'aes-128-cfb', password: 'QazEdcTgb159@$*'}
+  - {name: 'tg+univstar_38', server: '14.29.124.168', port: 25266, type: ss, country: 'tg+univstar_38', cipher: 'aes-128-cfb', password: 'QazEdcTgb159@$*'}
+  - {name: 'tg+univstar_51', server: '14.29.124.168', port: 25219, type: ss, country: 'tg+univstar_51', cipher: 'aes-128-cfb', password: 'QazEdcTgb159@$*'}
+  - {name: 'tg+univstar_49', server: '14.29.124.168', port: 25279, type: ss, country: 'tg+univstar_49', cipher: 'aes-128-cfb', password: 'QazEdcTgb159@$*'}
+  - {name: 'tg+univstar_42', server: '14.29.124.168', port: 25252, type: ss, country: 'tg+univstar_42', cipher: 'aes-128-cfb', password: 'QazEdcTgb159@$*'}
+  - {name: 'tg+univstar_35', server: '14.29.124.168', port: 25235, type: ss, country: 'tg+univstar_35', cipher: 'aes-128-cfb', password: 'QazEdcTgb159@$*'}
+  - { name: 'TGattgds6B-🇨🇳中国1_81', server: 'hncu.relay.qchwnd.moe', port: 10201, type: trojan, country: 'TGattgds6B-🇨🇳中国1_81', 'skip-cert-verify': true, udp: true, password: 5b059403-c05c-4609-ab01-a9352041d2e4 }
+  - { name: 'TGattgds6B-🇦🇺澳大利亚2_82', server: 'jgwxn3.gaox.ml', port: 443, type: trojan, country: 'TGattgds6B-🇦🇺澳大利亚2_82', 'skip-cert-verify': true, udp: true, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf }
+  - { name: 'TGattgds6B-🇺🇸美国3_83', server: 'asd1v.baozipay.top', port: 443, type: trojan, country: 'TGattgds6B-🇺🇸美国3_83', 'skip-cert-verify': true, udp: true, password: rYA8dFQI6R2qTwP0 }
+  - { name: 'TGattgds6B-🇨🇳中国1_84', server: 'hncu.relay.qchwnd.moe', port: 10201, type: trojan, country: 'TGattgds6B-🇨🇳中国1_84', 'skip-cert-verify': true, udp: true, password: 5b059403-c05c-4609-ab01-a9352041d2e4 }
+  - { name: 'TGattgds6B-🇦🇺澳大利亚2_85', server: 'jgwxn3.gaox.ml', port: 443, type: trojan, country: 'TGattgds6B-🇦🇺澳大利亚2_85', 'skip-cert-verify': true, udp: true, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf }
+  - { name: 'TGattgds6B-🇺🇸美国3_86', server: 'asd1v.baozipay.top', port: 443, type: trojan, country: 'TGattgds6B-🇺🇸美国3_86', 'skip-cert-verify': true, udp: true, password: rYA8dFQI6R2qTwP0 }
+  - { name: '🇦🇺+AU_60', server: 'jgwdb1.gaox.ml', port: 443, type: trojan, country: '🇦🇺+AU_60', 'skip-cert-verify': true, udp: true, password: a580d839-ee41-4df1-bf03-6789dca32e30 }
+  - { name: '🇺🇸US_2633', server: 'asd1v.baozipay.top', port: 443, type: trojan, country: '🇺🇸US_2633', 'skip-cert-verify': true, udp: true, password: rYA8dFQI6R2qTwP0 }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -71,46 +109,84 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_8
       - 🇸🇬_SG_新加坡_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇬🇧_GB_英国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
+      - 🇺🇸美国_11
+      - Trojan_香港HKBN01_华南隧道[流媒体解锁]_12
+      - Trojan_台湾HiNet01_华南隧道[流媒体解锁]_13
+      - Trojan_新加坡Singtel01_华南隧道[流媒体解锁]_14
+      - Trojan_英国GTHost01_华南隧道[流媒体解锁]_15
+      - 
+      - 日本-G+_+直连+_+Trojan_17
+      - 香港-C_直连_下载用_V2ray_18
+      - 德国-A_直连_V2ray_19
+      - attgds6B丨TG盗圣频道_🇺🇸_美国_20
+      - attgds6B丨TG盗圣频道_🇦🇺_澳大利亚_21
+      - attgds6B丨TG盗圣频道_🇷🇸_塞尔维亚_22
+      - 85_208_108_106:6379_23
+      - TG频道tgds6B-🇨🇳1_24
+      - TG频道tgds6B-🇨🇳2_25
+      - 【直连】韩国【免流】_26
+      - 【直连】香港♥_27
+      - 【直连】日本01【0x】_28
+      - 荷兰_Relay-tg:univstar_Relay-156_29
+      - 🇰🇷_KR_韩国_30
+      - 美国_Relay-tg:univstar_Relay-98_31
+      - 美国_Relay-tg:univstar_Relay-6_32
+      - 美国_Relay-tg:univstar_Relay-66_33
+      - 美国_Relay-tg:univstar_Relay-89_34
+      - 美国_Relay-tg:univstar_Relay-170_35
+      - 英国_Relay-tg:univstar_Relay-2_36
+      - 美国_Relay-tg:univstar_Relay-94_37
+      - 美国_Relay-tg:univstar_Relay-20_38
       - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇬🇧_GB_英国_49
-      - 🇺🇸_US_美国_50
+      - 澳大利亚_Relay-tg:univstar_Relay-168_40
+      - 美国_Relay-tg:univstar_Relay-88_41
+      - 日本_Relay-tg:univstar_Relay-70_42
+      - 美国_Relay-tg:univstar_Relay-160_43
+      - 美国_Relay-tg:univstar_Relay-96_44
+      - 德国_Relay-tg:univstar_Relay-155_45
+      - 美国_Relay-tg:univstar_Relay-99_46
+      - 美国_Relay-tg:univstar_Relay-105_47
+      - 新加坡_Relay-tg:univstar_Relay-7_48
+      - 🇰🇷_KR_韩国_49
+      - 德国_Relay-tg:univstar_Relay-157_50
+      - 美国_Relay-tg:univstar_Relay-32_51
+      - 德国_Relay-tg:univstar_Relay-152_52
+      - 美国_Relay-tg:univstar_Relay-24_53
+      - 新加坡_Relay-tg:univstar_Relay-80_54
+      - 美国_Relay-tg:univstar_Relay-86_55
+      - 美国_Relay-tg:univstar_Relay-108_56
+      - 🇺🇸_US_美国_57
+      - 中国_Relay-tg:univstar_Relay-150_58
+      - 美国_Relay-tg:univstar_Relay-9_59
+      - 美国_Relay-tg:univstar_Relay-78_60
+      - 美国_Relay-tg:univstar_Relay-151_61
+      - 美国_Relay-tg:univstar_Relay-154_62
+      - 中国_Relay-tg:univstar_Relay-153_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 美国_Relay-tg:univstar_Relay-107_66
+      - 美国_Relay-tg:univstar_Relay-158_67
+      - TG频道tgds6B-🇺🇸美国1_68
+      - TG频道tgds6B-🇺🇸美国2_69
+      - TG频道tgds6B-🇺🇸美国3_70
+      - TG频道tgds6B-🇺🇸美国3_71
+      - TG频道tgds6B-🇺🇸美国4_72
+      - attgds6B丨TG盗圣频道_73
+      - _12_53Mb_74
+      - tg+univstar_53
+      - tg+univstar_38
+      - tg+univstar_51
+      - tg+univstar_49
+      - tg+univstar_42
+      - tg+univstar_35
+      - TGattgds6B-🇨🇳中国1_81
+      - TGattgds6B-🇦🇺澳大利亚2_82
+      - TGattgds6B-🇺🇸美国3_83
+      - TGattgds6B-🇨🇳中国1_84
+      - TGattgds6B-🇦🇺澳大利亚2_85
+      - TGattgds6B-🇺🇸美国3_86
+      - 🇦🇺+AU_60
+      - 🇺🇸US_2633
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -127,46 +203,84 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_8
       - 🇸🇬_SG_新加坡_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇬🇧_GB_英国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
+      - 🇺🇸美国_11
+      - Trojan_香港HKBN01_华南隧道[流媒体解锁]_12
+      - Trojan_台湾HiNet01_华南隧道[流媒体解锁]_13
+      - Trojan_新加坡Singtel01_华南隧道[流媒体解锁]_14
+      - Trojan_英国GTHost01_华南隧道[流媒体解锁]_15
+      - 
+      - 日本-G+_+直连+_+Trojan_17
+      - 香港-C_直连_下载用_V2ray_18
+      - 德国-A_直连_V2ray_19
+      - attgds6B丨TG盗圣频道_🇺🇸_美国_20
+      - attgds6B丨TG盗圣频道_🇦🇺_澳大利亚_21
+      - attgds6B丨TG盗圣频道_🇷🇸_塞尔维亚_22
+      - 85_208_108_106:6379_23
+      - TG频道tgds6B-🇨🇳1_24
+      - TG频道tgds6B-🇨🇳2_25
+      - 【直连】韩国【免流】_26
+      - 【直连】香港♥_27
+      - 【直连】日本01【0x】_28
+      - 荷兰_Relay-tg:univstar_Relay-156_29
+      - 🇰🇷_KR_韩国_30
+      - 美国_Relay-tg:univstar_Relay-98_31
+      - 美国_Relay-tg:univstar_Relay-6_32
+      - 美国_Relay-tg:univstar_Relay-66_33
+      - 美国_Relay-tg:univstar_Relay-89_34
+      - 美国_Relay-tg:univstar_Relay-170_35
+      - 英国_Relay-tg:univstar_Relay-2_36
+      - 美国_Relay-tg:univstar_Relay-94_37
+      - 美国_Relay-tg:univstar_Relay-20_38
       - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇬🇧_GB_英国_49
-      - 🇺🇸_US_美国_50
+      - 澳大利亚_Relay-tg:univstar_Relay-168_40
+      - 美国_Relay-tg:univstar_Relay-88_41
+      - 日本_Relay-tg:univstar_Relay-70_42
+      - 美国_Relay-tg:univstar_Relay-160_43
+      - 美国_Relay-tg:univstar_Relay-96_44
+      - 德国_Relay-tg:univstar_Relay-155_45
+      - 美国_Relay-tg:univstar_Relay-99_46
+      - 美国_Relay-tg:univstar_Relay-105_47
+      - 新加坡_Relay-tg:univstar_Relay-7_48
+      - 🇰🇷_KR_韩国_49
+      - 德国_Relay-tg:univstar_Relay-157_50
+      - 美国_Relay-tg:univstar_Relay-32_51
+      - 德国_Relay-tg:univstar_Relay-152_52
+      - 美国_Relay-tg:univstar_Relay-24_53
+      - 新加坡_Relay-tg:univstar_Relay-80_54
+      - 美国_Relay-tg:univstar_Relay-86_55
+      - 美国_Relay-tg:univstar_Relay-108_56
+      - 🇺🇸_US_美国_57
+      - 中国_Relay-tg:univstar_Relay-150_58
+      - 美国_Relay-tg:univstar_Relay-9_59
+      - 美国_Relay-tg:univstar_Relay-78_60
+      - 美国_Relay-tg:univstar_Relay-151_61
+      - 美国_Relay-tg:univstar_Relay-154_62
+      - 中国_Relay-tg:univstar_Relay-153_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 美国_Relay-tg:univstar_Relay-107_66
+      - 美国_Relay-tg:univstar_Relay-158_67
+      - TG频道tgds6B-🇺🇸美国1_68
+      - TG频道tgds6B-🇺🇸美国2_69
+      - TG频道tgds6B-🇺🇸美国3_70
+      - TG频道tgds6B-🇺🇸美国3_71
+      - TG频道tgds6B-🇺🇸美国4_72
+      - attgds6B丨TG盗圣频道_73
+      - _12_53Mb_74
+      - tg+univstar_53
+      - tg+univstar_38
+      - tg+univstar_51
+      - tg+univstar_49
+      - tg+univstar_42
+      - tg+univstar_35
+      - TGattgds6B-🇨🇳中国1_81
+      - TGattgds6B-🇦🇺澳大利亚2_82
+      - TGattgds6B-🇺🇸美国3_83
+      - TGattgds6B-🇨🇳中国1_84
+      - TGattgds6B-🇦🇺澳大利亚2_85
+      - TGattgds6B-🇺🇸美国3_86
+      - 🇦🇺+AU_60
+      - 🇺🇸US_2633
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -183,46 +297,84 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_8
       - 🇸🇬_SG_新加坡_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇬🇧_GB_英国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
+      - 🇺🇸美国_11
+      - Trojan_香港HKBN01_华南隧道[流媒体解锁]_12
+      - Trojan_台湾HiNet01_华南隧道[流媒体解锁]_13
+      - Trojan_新加坡Singtel01_华南隧道[流媒体解锁]_14
+      - Trojan_英国GTHost01_华南隧道[流媒体解锁]_15
+      - 
+      - 日本-G+_+直连+_+Trojan_17
+      - 香港-C_直连_下载用_V2ray_18
+      - 德国-A_直连_V2ray_19
+      - attgds6B丨TG盗圣频道_🇺🇸_美国_20
+      - attgds6B丨TG盗圣频道_🇦🇺_澳大利亚_21
+      - attgds6B丨TG盗圣频道_🇷🇸_塞尔维亚_22
+      - 85_208_108_106:6379_23
+      - TG频道tgds6B-🇨🇳1_24
+      - TG频道tgds6B-🇨🇳2_25
+      - 【直连】韩国【免流】_26
+      - 【直连】香港♥_27
+      - 【直连】日本01【0x】_28
+      - 荷兰_Relay-tg:univstar_Relay-156_29
+      - 🇰🇷_KR_韩国_30
+      - 美国_Relay-tg:univstar_Relay-98_31
+      - 美国_Relay-tg:univstar_Relay-6_32
+      - 美国_Relay-tg:univstar_Relay-66_33
+      - 美国_Relay-tg:univstar_Relay-89_34
+      - 美国_Relay-tg:univstar_Relay-170_35
+      - 英国_Relay-tg:univstar_Relay-2_36
+      - 美国_Relay-tg:univstar_Relay-94_37
+      - 美国_Relay-tg:univstar_Relay-20_38
       - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇬🇧_GB_英国_49
-      - 🇺🇸_US_美国_50
+      - 澳大利亚_Relay-tg:univstar_Relay-168_40
+      - 美国_Relay-tg:univstar_Relay-88_41
+      - 日本_Relay-tg:univstar_Relay-70_42
+      - 美国_Relay-tg:univstar_Relay-160_43
+      - 美国_Relay-tg:univstar_Relay-96_44
+      - 德国_Relay-tg:univstar_Relay-155_45
+      - 美国_Relay-tg:univstar_Relay-99_46
+      - 美国_Relay-tg:univstar_Relay-105_47
+      - 新加坡_Relay-tg:univstar_Relay-7_48
+      - 🇰🇷_KR_韩国_49
+      - 德国_Relay-tg:univstar_Relay-157_50
+      - 美国_Relay-tg:univstar_Relay-32_51
+      - 德国_Relay-tg:univstar_Relay-152_52
+      - 美国_Relay-tg:univstar_Relay-24_53
+      - 新加坡_Relay-tg:univstar_Relay-80_54
+      - 美国_Relay-tg:univstar_Relay-86_55
+      - 美国_Relay-tg:univstar_Relay-108_56
+      - 🇺🇸_US_美国_57
+      - 中国_Relay-tg:univstar_Relay-150_58
+      - 美国_Relay-tg:univstar_Relay-9_59
+      - 美国_Relay-tg:univstar_Relay-78_60
+      - 美国_Relay-tg:univstar_Relay-151_61
+      - 美国_Relay-tg:univstar_Relay-154_62
+      - 中国_Relay-tg:univstar_Relay-153_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 美国_Relay-tg:univstar_Relay-107_66
+      - 美国_Relay-tg:univstar_Relay-158_67
+      - TG频道tgds6B-🇺🇸美国1_68
+      - TG频道tgds6B-🇺🇸美国2_69
+      - TG频道tgds6B-🇺🇸美国3_70
+      - TG频道tgds6B-🇺🇸美国3_71
+      - TG频道tgds6B-🇺🇸美国4_72
+      - attgds6B丨TG盗圣频道_73
+      - _12_53Mb_74
+      - tg+univstar_53
+      - tg+univstar_38
+      - tg+univstar_51
+      - tg+univstar_49
+      - tg+univstar_42
+      - tg+univstar_35
+      - TGattgds6B-🇨🇳中国1_81
+      - TGattgds6B-🇦🇺澳大利亚2_82
+      - TGattgds6B-🇺🇸美国3_83
+      - TGattgds6B-🇨🇳中国1_84
+      - TGattgds6B-🇦🇺澳大利亚2_85
+      - TGattgds6B-🇺🇸美国3_86
+      - 🇦🇺+AU_60
+      - 🇺🇸US_2633
   - name: 📲 电报信息
     type: select
     proxies:
@@ -238,46 +390,84 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_8
       - 🇸🇬_SG_新加坡_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇬🇧_GB_英国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
+      - 🇺🇸美国_11
+      - Trojan_香港HKBN01_华南隧道[流媒体解锁]_12
+      - Trojan_台湾HiNet01_华南隧道[流媒体解锁]_13
+      - Trojan_新加坡Singtel01_华南隧道[流媒体解锁]_14
+      - Trojan_英国GTHost01_华南隧道[流媒体解锁]_15
+      - 
+      - 日本-G+_+直连+_+Trojan_17
+      - 香港-C_直连_下载用_V2ray_18
+      - 德国-A_直连_V2ray_19
+      - attgds6B丨TG盗圣频道_🇺🇸_美国_20
+      - attgds6B丨TG盗圣频道_🇦🇺_澳大利亚_21
+      - attgds6B丨TG盗圣频道_🇷🇸_塞尔维亚_22
+      - 85_208_108_106:6379_23
+      - TG频道tgds6B-🇨🇳1_24
+      - TG频道tgds6B-🇨🇳2_25
+      - 【直连】韩国【免流】_26
+      - 【直连】香港♥_27
+      - 【直连】日本01【0x】_28
+      - 荷兰_Relay-tg:univstar_Relay-156_29
+      - 🇰🇷_KR_韩国_30
+      - 美国_Relay-tg:univstar_Relay-98_31
+      - 美国_Relay-tg:univstar_Relay-6_32
+      - 美国_Relay-tg:univstar_Relay-66_33
+      - 美国_Relay-tg:univstar_Relay-89_34
+      - 美国_Relay-tg:univstar_Relay-170_35
+      - 英国_Relay-tg:univstar_Relay-2_36
+      - 美国_Relay-tg:univstar_Relay-94_37
+      - 美国_Relay-tg:univstar_Relay-20_38
       - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇬🇧_GB_英国_49
-      - 🇺🇸_US_美国_50
+      - 澳大利亚_Relay-tg:univstar_Relay-168_40
+      - 美国_Relay-tg:univstar_Relay-88_41
+      - 日本_Relay-tg:univstar_Relay-70_42
+      - 美国_Relay-tg:univstar_Relay-160_43
+      - 美国_Relay-tg:univstar_Relay-96_44
+      - 德国_Relay-tg:univstar_Relay-155_45
+      - 美国_Relay-tg:univstar_Relay-99_46
+      - 美国_Relay-tg:univstar_Relay-105_47
+      - 新加坡_Relay-tg:univstar_Relay-7_48
+      - 🇰🇷_KR_韩国_49
+      - 德国_Relay-tg:univstar_Relay-157_50
+      - 美国_Relay-tg:univstar_Relay-32_51
+      - 德国_Relay-tg:univstar_Relay-152_52
+      - 美国_Relay-tg:univstar_Relay-24_53
+      - 新加坡_Relay-tg:univstar_Relay-80_54
+      - 美国_Relay-tg:univstar_Relay-86_55
+      - 美国_Relay-tg:univstar_Relay-108_56
+      - 🇺🇸_US_美国_57
+      - 中国_Relay-tg:univstar_Relay-150_58
+      - 美国_Relay-tg:univstar_Relay-9_59
+      - 美国_Relay-tg:univstar_Relay-78_60
+      - 美国_Relay-tg:univstar_Relay-151_61
+      - 美国_Relay-tg:univstar_Relay-154_62
+      - 中国_Relay-tg:univstar_Relay-153_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 美国_Relay-tg:univstar_Relay-107_66
+      - 美国_Relay-tg:univstar_Relay-158_67
+      - TG频道tgds6B-🇺🇸美国1_68
+      - TG频道tgds6B-🇺🇸美国2_69
+      - TG频道tgds6B-🇺🇸美国3_70
+      - TG频道tgds6B-🇺🇸美国3_71
+      - TG频道tgds6B-🇺🇸美国4_72
+      - attgds6B丨TG盗圣频道_73
+      - _12_53Mb_74
+      - tg+univstar_53
+      - tg+univstar_38
+      - tg+univstar_51
+      - tg+univstar_49
+      - tg+univstar_42
+      - tg+univstar_35
+      - TGattgds6B-🇨🇳中国1_81
+      - TGattgds6B-🇦🇺澳大利亚2_82
+      - TGattgds6B-🇺🇸美国3_83
+      - TGattgds6B-🇨🇳中国1_84
+      - TGattgds6B-🇦🇺澳大利亚2_85
+      - TGattgds6B-🇺🇸美国3_86
+      - 🇦🇺+AU_60
+      - 🇺🇸US_2633
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -293,46 +483,84 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_8
       - 🇸🇬_SG_新加坡_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇬🇧_GB_英国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
+      - 🇺🇸美国_11
+      - Trojan_香港HKBN01_华南隧道[流媒体解锁]_12
+      - Trojan_台湾HiNet01_华南隧道[流媒体解锁]_13
+      - Trojan_新加坡Singtel01_华南隧道[流媒体解锁]_14
+      - Trojan_英国GTHost01_华南隧道[流媒体解锁]_15
+      - 
+      - 日本-G+_+直连+_+Trojan_17
+      - 香港-C_直连_下载用_V2ray_18
+      - 德国-A_直连_V2ray_19
+      - attgds6B丨TG盗圣频道_🇺🇸_美国_20
+      - attgds6B丨TG盗圣频道_🇦🇺_澳大利亚_21
+      - attgds6B丨TG盗圣频道_🇷🇸_塞尔维亚_22
+      - 85_208_108_106:6379_23
+      - TG频道tgds6B-🇨🇳1_24
+      - TG频道tgds6B-🇨🇳2_25
+      - 【直连】韩国【免流】_26
+      - 【直连】香港♥_27
+      - 【直连】日本01【0x】_28
+      - 荷兰_Relay-tg:univstar_Relay-156_29
+      - 🇰🇷_KR_韩国_30
+      - 美国_Relay-tg:univstar_Relay-98_31
+      - 美国_Relay-tg:univstar_Relay-6_32
+      - 美国_Relay-tg:univstar_Relay-66_33
+      - 美国_Relay-tg:univstar_Relay-89_34
+      - 美国_Relay-tg:univstar_Relay-170_35
+      - 英国_Relay-tg:univstar_Relay-2_36
+      - 美国_Relay-tg:univstar_Relay-94_37
+      - 美国_Relay-tg:univstar_Relay-20_38
       - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇬🇧_GB_英国_49
-      - 🇺🇸_US_美国_50
+      - 澳大利亚_Relay-tg:univstar_Relay-168_40
+      - 美国_Relay-tg:univstar_Relay-88_41
+      - 日本_Relay-tg:univstar_Relay-70_42
+      - 美国_Relay-tg:univstar_Relay-160_43
+      - 美国_Relay-tg:univstar_Relay-96_44
+      - 德国_Relay-tg:univstar_Relay-155_45
+      - 美国_Relay-tg:univstar_Relay-99_46
+      - 美国_Relay-tg:univstar_Relay-105_47
+      - 新加坡_Relay-tg:univstar_Relay-7_48
+      - 🇰🇷_KR_韩国_49
+      - 德国_Relay-tg:univstar_Relay-157_50
+      - 美国_Relay-tg:univstar_Relay-32_51
+      - 德国_Relay-tg:univstar_Relay-152_52
+      - 美国_Relay-tg:univstar_Relay-24_53
+      - 新加坡_Relay-tg:univstar_Relay-80_54
+      - 美国_Relay-tg:univstar_Relay-86_55
+      - 美国_Relay-tg:univstar_Relay-108_56
+      - 🇺🇸_US_美国_57
+      - 中国_Relay-tg:univstar_Relay-150_58
+      - 美国_Relay-tg:univstar_Relay-9_59
+      - 美国_Relay-tg:univstar_Relay-78_60
+      - 美国_Relay-tg:univstar_Relay-151_61
+      - 美国_Relay-tg:univstar_Relay-154_62
+      - 中国_Relay-tg:univstar_Relay-153_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 美国_Relay-tg:univstar_Relay-107_66
+      - 美国_Relay-tg:univstar_Relay-158_67
+      - TG频道tgds6B-🇺🇸美国1_68
+      - TG频道tgds6B-🇺🇸美国2_69
+      - TG频道tgds6B-🇺🇸美国3_70
+      - TG频道tgds6B-🇺🇸美国3_71
+      - TG频道tgds6B-🇺🇸美国4_72
+      - attgds6B丨TG盗圣频道_73
+      - _12_53Mb_74
+      - tg+univstar_53
+      - tg+univstar_38
+      - tg+univstar_51
+      - tg+univstar_49
+      - tg+univstar_42
+      - tg+univstar_35
+      - TGattgds6B-🇨🇳中国1_81
+      - TGattgds6B-🇦🇺澳大利亚2_82
+      - TGattgds6B-🇺🇸美国3_83
+      - TGattgds6B-🇨🇳中国1_84
+      - TGattgds6B-🇦🇺澳大利亚2_85
+      - TGattgds6B-🇺🇸美国3_86
+      - 🇦🇺+AU_60
+      - 🇺🇸US_2633
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -348,46 +576,84 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_8
       - 🇸🇬_SG_新加坡_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇬🇧_GB_英国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
+      - 🇺🇸美国_11
+      - Trojan_香港HKBN01_华南隧道[流媒体解锁]_12
+      - Trojan_台湾HiNet01_华南隧道[流媒体解锁]_13
+      - Trojan_新加坡Singtel01_华南隧道[流媒体解锁]_14
+      - Trojan_英国GTHost01_华南隧道[流媒体解锁]_15
+      - 
+      - 日本-G+_+直连+_+Trojan_17
+      - 香港-C_直连_下载用_V2ray_18
+      - 德国-A_直连_V2ray_19
+      - attgds6B丨TG盗圣频道_🇺🇸_美国_20
+      - attgds6B丨TG盗圣频道_🇦🇺_澳大利亚_21
+      - attgds6B丨TG盗圣频道_🇷🇸_塞尔维亚_22
+      - 85_208_108_106:6379_23
+      - TG频道tgds6B-🇨🇳1_24
+      - TG频道tgds6B-🇨🇳2_25
+      - 【直连】韩国【免流】_26
+      - 【直连】香港♥_27
+      - 【直连】日本01【0x】_28
+      - 荷兰_Relay-tg:univstar_Relay-156_29
+      - 🇰🇷_KR_韩国_30
+      - 美国_Relay-tg:univstar_Relay-98_31
+      - 美国_Relay-tg:univstar_Relay-6_32
+      - 美国_Relay-tg:univstar_Relay-66_33
+      - 美国_Relay-tg:univstar_Relay-89_34
+      - 美国_Relay-tg:univstar_Relay-170_35
+      - 英国_Relay-tg:univstar_Relay-2_36
+      - 美国_Relay-tg:univstar_Relay-94_37
+      - 美国_Relay-tg:univstar_Relay-20_38
       - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇬🇧_GB_英国_49
-      - 🇺🇸_US_美国_50
+      - 澳大利亚_Relay-tg:univstar_Relay-168_40
+      - 美国_Relay-tg:univstar_Relay-88_41
+      - 日本_Relay-tg:univstar_Relay-70_42
+      - 美国_Relay-tg:univstar_Relay-160_43
+      - 美国_Relay-tg:univstar_Relay-96_44
+      - 德国_Relay-tg:univstar_Relay-155_45
+      - 美国_Relay-tg:univstar_Relay-99_46
+      - 美国_Relay-tg:univstar_Relay-105_47
+      - 新加坡_Relay-tg:univstar_Relay-7_48
+      - 🇰🇷_KR_韩国_49
+      - 德国_Relay-tg:univstar_Relay-157_50
+      - 美国_Relay-tg:univstar_Relay-32_51
+      - 德国_Relay-tg:univstar_Relay-152_52
+      - 美国_Relay-tg:univstar_Relay-24_53
+      - 新加坡_Relay-tg:univstar_Relay-80_54
+      - 美国_Relay-tg:univstar_Relay-86_55
+      - 美国_Relay-tg:univstar_Relay-108_56
+      - 🇺🇸_US_美国_57
+      - 中国_Relay-tg:univstar_Relay-150_58
+      - 美国_Relay-tg:univstar_Relay-9_59
+      - 美国_Relay-tg:univstar_Relay-78_60
+      - 美国_Relay-tg:univstar_Relay-151_61
+      - 美国_Relay-tg:univstar_Relay-154_62
+      - 中国_Relay-tg:univstar_Relay-153_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 美国_Relay-tg:univstar_Relay-107_66
+      - 美国_Relay-tg:univstar_Relay-158_67
+      - TG频道tgds6B-🇺🇸美国1_68
+      - TG频道tgds6B-🇺🇸美国2_69
+      - TG频道tgds6B-🇺🇸美国3_70
+      - TG频道tgds6B-🇺🇸美国3_71
+      - TG频道tgds6B-🇺🇸美国4_72
+      - attgds6B丨TG盗圣频道_73
+      - _12_53Mb_74
+      - tg+univstar_53
+      - tg+univstar_38
+      - tg+univstar_51
+      - tg+univstar_49
+      - tg+univstar_42
+      - tg+univstar_35
+      - TGattgds6B-🇨🇳中国1_81
+      - TGattgds6B-🇦🇺澳大利亚2_82
+      - TGattgds6B-🇺🇸美国3_83
+      - TGattgds6B-🇨🇳中国1_84
+      - TGattgds6B-🇦🇺澳大利亚2_85
+      - TGattgds6B-🇺🇸美国3_86
+      - 🇦🇺+AU_60
+      - 🇺🇸US_2633
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -420,46 +686,84 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_8
       - 🇸🇬_SG_新加坡_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇬🇧_GB_英国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
+      - 🇺🇸美国_11
+      - Trojan_香港HKBN01_华南隧道[流媒体解锁]_12
+      - Trojan_台湾HiNet01_华南隧道[流媒体解锁]_13
+      - Trojan_新加坡Singtel01_华南隧道[流媒体解锁]_14
+      - Trojan_英国GTHost01_华南隧道[流媒体解锁]_15
+      - 
+      - 日本-G+_+直连+_+Trojan_17
+      - 香港-C_直连_下载用_V2ray_18
+      - 德国-A_直连_V2ray_19
+      - attgds6B丨TG盗圣频道_🇺🇸_美国_20
+      - attgds6B丨TG盗圣频道_🇦🇺_澳大利亚_21
+      - attgds6B丨TG盗圣频道_🇷🇸_塞尔维亚_22
+      - 85_208_108_106:6379_23
+      - TG频道tgds6B-🇨🇳1_24
+      - TG频道tgds6B-🇨🇳2_25
+      - 【直连】韩国【免流】_26
+      - 【直连】香港♥_27
+      - 【直连】日本01【0x】_28
+      - 荷兰_Relay-tg:univstar_Relay-156_29
+      - 🇰🇷_KR_韩国_30
+      - 美国_Relay-tg:univstar_Relay-98_31
+      - 美国_Relay-tg:univstar_Relay-6_32
+      - 美国_Relay-tg:univstar_Relay-66_33
+      - 美国_Relay-tg:univstar_Relay-89_34
+      - 美国_Relay-tg:univstar_Relay-170_35
+      - 英国_Relay-tg:univstar_Relay-2_36
+      - 美国_Relay-tg:univstar_Relay-94_37
+      - 美国_Relay-tg:univstar_Relay-20_38
       - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
-      - 🇬🇧_GB_英国_49
-      - 🇺🇸_US_美国_50
+      - 澳大利亚_Relay-tg:univstar_Relay-168_40
+      - 美国_Relay-tg:univstar_Relay-88_41
+      - 日本_Relay-tg:univstar_Relay-70_42
+      - 美国_Relay-tg:univstar_Relay-160_43
+      - 美国_Relay-tg:univstar_Relay-96_44
+      - 德国_Relay-tg:univstar_Relay-155_45
+      - 美国_Relay-tg:univstar_Relay-99_46
+      - 美国_Relay-tg:univstar_Relay-105_47
+      - 新加坡_Relay-tg:univstar_Relay-7_48
+      - 🇰🇷_KR_韩国_49
+      - 德国_Relay-tg:univstar_Relay-157_50
+      - 美国_Relay-tg:univstar_Relay-32_51
+      - 德国_Relay-tg:univstar_Relay-152_52
+      - 美国_Relay-tg:univstar_Relay-24_53
+      - 新加坡_Relay-tg:univstar_Relay-80_54
+      - 美国_Relay-tg:univstar_Relay-86_55
+      - 美国_Relay-tg:univstar_Relay-108_56
+      - 🇺🇸_US_美国_57
+      - 中国_Relay-tg:univstar_Relay-150_58
+      - 美国_Relay-tg:univstar_Relay-9_59
+      - 美国_Relay-tg:univstar_Relay-78_60
+      - 美国_Relay-tg:univstar_Relay-151_61
+      - 美国_Relay-tg:univstar_Relay-154_62
+      - 中国_Relay-tg:univstar_Relay-153_63
+      - 🇺🇸_US_美国_64
+      - 🇺🇸_US_美国_65
+      - 美国_Relay-tg:univstar_Relay-107_66
+      - 美国_Relay-tg:univstar_Relay-158_67
+      - TG频道tgds6B-🇺🇸美国1_68
+      - TG频道tgds6B-🇺🇸美国2_69
+      - TG频道tgds6B-🇺🇸美国3_70
+      - TG频道tgds6B-🇺🇸美国3_71
+      - TG频道tgds6B-🇺🇸美国4_72
+      - attgds6B丨TG盗圣频道_73
+      - _12_53Mb_74
+      - tg+univstar_53
+      - tg+univstar_38
+      - tg+univstar_51
+      - tg+univstar_49
+      - tg+univstar_42
+      - tg+univstar_35
+      - TGattgds6B-🇨🇳中国1_81
+      - TGattgds6B-🇦🇺澳大利亚2_82
+      - TGattgds6B-🇺🇸美国3_83
+      - TGattgds6B-🇨🇳中国1_84
+      - TGattgds6B-🇦🇺澳大利亚2_85
+      - TGattgds6B-🇺🇸美国3_86
+      - 🇦🇺+AU_60
+      - 🇺🇸US_2633
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
