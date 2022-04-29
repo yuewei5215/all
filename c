@@ -13,12 +13,6 @@ proxies:
   - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_6","server":"116.129.254.29","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_6","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
   - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_7","server":"116.129.253.130","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_7","skip-cert-verify":true,"udp":true,"password":"f6f2072a2e4cfc91"}
   - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_8","server":"120.232.192.250","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_8","skip-cert-verify":true,"udp":true,"password":"f6f2072a2e4cfc91"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_9","server":"116.129.253.227","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_9","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
-  - {"name":"🇨🇳_CN_中国_10","server":"43.154.77.196","port":38539,"type":"vmess","uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","country":"🇨🇳_CN_中国_10","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.154.77.196"}}}
-  - {"name":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_11","server":"cm-jm.okvpn.xyz","port":20005,"type":"trojan","country":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_11","skip-cert-verify":true,"udp":true,"password":"da650643-87d3-4279-9b19-c8aa68568d16"}
-  - {"name":"🇺🇸_US_美国_12","server":"fhcarm2.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_12","skip-cert-verify":true,"udp":true,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178"}
-  - {"name":"🇸🇬_SG_新加坡_13","server":"cp-asus.ml","port":50275,"type":"trojan","country":"🇸🇬_SG_新加坡_13","skip-cert-verify":true,"udp":true,"password":"7Z29DRr1ts"}
-  - {"name":"🇸🇬_SG_新加坡_14","server":"43.135.70.192","port":24740,"type":"vmess","uuid":"3749de34-a1a9-44db-b72a-510712a52d11","alterId":0,"cipher":"auto","country":"🇸🇬_SG_新加坡_14","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.135.70.192"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -33,12 +27,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国_10
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_11
-      - 🇺🇸_US_美国_12
-      - 🇸🇬_SG_新加坡_13
-      - 🇸🇬_SG_新加坡_14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -53,12 +41,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国_10
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_11
-      - 🇺🇸_US_美国_12
-      - 🇸🇬_SG_新加坡_13
-      - 🇸🇬_SG_新加坡_14
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -73,12 +55,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国_10
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_11
-      - 🇺🇸_US_美国_12
-      - 🇸🇬_SG_新加坡_13
-      - 🇸🇬_SG_新加坡_14
   - name: 📲 电报信息
     type: select
     proxies:
@@ -92,12 +68,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国_10
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_11
-      - 🇺🇸_US_美国_12
-      - 🇸🇬_SG_新加坡_13
-      - 🇸🇬_SG_新加坡_14
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -111,12 +81,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国_10
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_11
-      - 🇺🇸_US_美国_12
-      - 🇸🇬_SG_新加坡_13
-      - 🇸🇬_SG_新加坡_14
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -130,12 +94,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国_10
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_11
-      - 🇺🇸_US_美国_12
-      - 🇸🇬_SG_新加坡_13
-      - 🇸🇬_SG_新加坡_14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -166,12 +124,6 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - 🇨🇳_CN_中国_10
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_11
-      - 🇺🇸_US_美国_12
-      - 🇸🇬_SG_新加坡_13
-      - 🇸🇬_SG_新加坡_14
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
