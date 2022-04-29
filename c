@@ -5,95 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","server":"116.129.253.191","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","server":"116.129.253.134","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","skip-cert-verify":true,"udp":true,"password":"c3c448da2363a6f7"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_3","server":"116.129.253.177","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_3","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
-  - {"name":"🇨🇳_CN_中国_4","server":"43.154.104.180","port":43318,"type":"vmess","uuid":"d6941f19-de1e-4176-b1c8-b328c9b98ccb","alterId":0,"cipher":"auto","country":"🇨🇳_CN_中国_4","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.154.104.180"}}}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_5","server":"116.129.254.47","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_5","skip-cert-verify":true,"udp":true,"password":"e37c6d7efa845d60"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_6","server":"116.129.254.29","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_6","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_7","server":"116.129.253.130","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_7","skip-cert-verify":true,"udp":true,"password":"f6f2072a2e4cfc91"}
-  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_8","server":"120.232.192.250","port":3389,"type":"trojan","country":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_8","skip-cert-verify":true,"udp":true,"password":"f6f2072a2e4cfc91"}
+  - {"name":"白嫖-俄罗斯-azhk中转_1","server":"zz1.qiushi.buzz","port":35656,"type":"vmess","uuid":"c6b99e31-2521-3e19-915d-ab54efddee0f","alterId":0,"cipher":"auto","country":"白嫖-俄罗斯-azhk中转_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"ru2.qiushi.buzz"}}}
+  - {"name":"白嫖-俄罗斯-azjp中转_2","server":"zz2.qiushi.buzz","port":35858,"type":"vmess","uuid":"c6b99e31-2521-3e19-915d-ab54efddee0f","alterId":0,"cipher":"auto","country":"白嫖-俄罗斯-azjp中转_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"ru2.qiushi.buzz"}}}
+  - {"name":"白嫖-美国cc-隧道中转_3","server":"zz3.qiushi.buzz","port":48006,"type":"vmess","uuid":"c6b99e31-2521-3e19-915d-ab54efddee0f","alterId":32,"cipher":"auto","country":"白嫖-美国cc-隧道中转_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"uscc3.qiushi.buzz"}}}
+  - {"name":"白嫖-美国rn-azhk中转_4","server":"zz1.qiushi.buzz","port":35443,"type":"vmess","uuid":"c6b99e31-2521-3e19-915d-ab54efddee0f","alterId":0,"cipher":"auto","country":"白嫖-美国rn-azhk中转_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"usrn1.qiushi.buzz"}}}
+  - {"name":"白嫖-美国rn-azjp中转_5","server":"zz2.qiushi.buzz","port":36443,"type":"vmess","uuid":"c6b99e31-2521-3e19-915d-ab54efddee0f","alterId":0,"cipher":"auto","country":"白嫖-美国rn-azjp中转_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"usrn2.qiushi.buzz"}}}
+  - {"name":"白嫖-美国rn-隧道中转_6","server":"zz3.qiushi.buzz","port":43649,"type":"vmess","uuid":"c6b99e31-2521-3e19-915d-ab54efddee0f","alterId":0,"cipher":"auto","country":"白嫖-美国rn-隧道中转_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"usrn3.qiushi.buzz"}}}
+  - {"name":"管理李小龙捐助美国1cc_7","server":"uscc1.qiushi.buzz","port":8006,"type":"vmess","uuid":"c6b99e31-2521-3e19-915d-ab54efddee0f","alterId":0,"cipher":"auto","country":"管理李小龙捐助美国1cc_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
+  - {"name":"管理李小龙捐助美国2cc_8","server":"uscc2.qiushi.buzz","port":8005,"type":"vmess","uuid":"c6b99e31-2521-3e19-915d-ab54efddee0f","alterId":0,"cipher":"auto","country":"管理李小龙捐助美国2cc_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/v2ray"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
+      - 白嫖-俄罗斯-azhk中转_1
+      - 白嫖-俄罗斯-azjp中转_2
+      - 白嫖-美国cc-隧道中转_3
+      - 白嫖-美国rn-azhk中转_4
+      - 白嫖-美国rn-azjp中转_5
+      - 白嫖-美国rn-隧道中转_6
+      - 管理李小龙捐助美国1cc_7
+      - 管理李小龙捐助美国2cc_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
+      - 白嫖-俄罗斯-azhk中转_1
+      - 白嫖-俄罗斯-azjp中转_2
+      - 白嫖-美国cc-隧道中转_3
+      - 白嫖-美国rn-azhk中转_4
+      - 白嫖-美国rn-azjp中转_5
+      - 白嫖-美国rn-隧道中转_6
+      - 管理李小龙捐助美国1cc_7
+      - 管理李小龙捐助美国2cc_8
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
+      - 白嫖-俄罗斯-azhk中转_1
+      - 白嫖-俄罗斯-azjp中转_2
+      - 白嫖-美国cc-隧道中转_3
+      - 白嫖-美国rn-azhk中转_4
+      - 白嫖-美国rn-azjp中转_5
+      - 白嫖-美国rn-隧道中转_6
+      - 管理李小龙捐助美国1cc_7
+      - 管理李小龙捐助美国2cc_8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
+      - 白嫖-俄罗斯-azhk中转_1
+      - 白嫖-俄罗斯-azjp中转_2
+      - 白嫖-美国cc-隧道中转_3
+      - 白嫖-美国rn-azhk中转_4
+      - 白嫖-美国rn-azjp中转_5
+      - 白嫖-美国rn-隧道中转_6
+      - 管理李小龙捐助美国1cc_7
+      - 管理李小龙捐助美国2cc_8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
+      - 白嫖-俄罗斯-azhk中转_1
+      - 白嫖-俄罗斯-azjp中转_2
+      - 白嫖-美国cc-隧道中转_3
+      - 白嫖-美国rn-azhk中转_4
+      - 白嫖-美国rn-azjp中转_5
+      - 白嫖-美国rn-隧道中转_6
+      - 管理李小龙捐助美国1cc_7
+      - 管理李小龙捐助美国2cc_8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
+      - 白嫖-俄罗斯-azhk中转_1
+      - 白嫖-俄罗斯-azjp中转_2
+      - 白嫖-美国cc-隧道中转_3
+      - 白嫖-美国rn-azhk中转_4
+      - 白嫖-美国rn-azjp中转_5
+      - 白嫖-美国rn-隧道中转_6
+      - 管理李小龙捐助美国1cc_7
+      - 管理李小龙捐助美国2cc_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,14 +116,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇨🇳_CN_中国_4
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_6
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_7
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_8
+      - 白嫖-俄罗斯-azhk中转_1
+      - 白嫖-俄罗斯-azjp中转_2
+      - 白嫖-美国cc-隧道中转_3
+      - 白嫖-美国rn-azhk中转_4
+      - 白嫖-美国rn-azjp中转_5
+      - 白嫖-美国rn-隧道中转_6
+      - 管理李小龙捐助美国1cc_7
+      - 管理李小龙捐助美国2cc_8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
