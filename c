@@ -5,109 +5,151 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇩🇪_DE_at_25","server":"139.162.132.116","port":443,"type":"ss","country":"🇩🇪_DE_at_25","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇩🇪_DE_at_26","server":"139.162.132.116","port":2375,"type":"ss","country":"🇩🇪_DE_at_26","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇩🇪_DE_at_28","server":"139.162.132.116","port":3389,"type":"ss","country":"🇩🇪_DE_at_28","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇩🇪_DE_at_29","server":"139.162.132.116","port":4444,"type":"ss","country":"🇩🇪_DE_at_29","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇩🇪_DE_at_31","server":"139.162.132.116","port":5001,"type":"ss","country":"🇩🇪_DE_at_31","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇩🇪_DE_at_32","server":"139.162.132.116","port":5003,"type":"ss","country":"🇩🇪_DE_at_32","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇩🇪_DE_at_33","server":"139.162.132.116","port":5600,"type":"ss","country":"🇩🇪_DE_at_33","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇩🇪_DE_at_35","server":"139.162.132.116","port":6379,"type":"ss","country":"🇩🇪_DE_at_35","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇩🇪_DE_at_36","server":"139.162.132.116","port":6679,"type":"ss","country":"🇩🇪_DE_at_36","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇩🇪_DE_at_37","server":"139.162.132.116","port":6697,"type":"ss","country":"🇩🇪_DE_at_37","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇦🇶-广东省-cm-jm_okvpn_xyz_1","server":"cm-jm.okvpn.xyz","port":20047,"type":"vmess","uuid":"fa2c02cf-bbc1-4da0-b051-3731d87ec785","alterId":1,"cipher":"auto","country":"🇦🇶-广东省-cm-jm_okvpn_xyz_1","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"youtube-aweikeji"}}}
+  - {"name":"广东省广州市-120_241_72_84","server":"120.241.72.84","port":18118,"type":"vmess","uuid":"e842b316-864c-38ed-b26e-31f07add8ddb","alterId":0,"cipher":"auto","country":"广东省广州市-120_241_72_84","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"🇦🇶-湖南省-116_163_14_146","server":"116.163.14.146","port":65012,"type":"vmess","uuid":"1ff21cb2-3b5a-380c-a087-2588077bf214","alterId":2,"cipher":"auto","country":"🇦🇶-湖南省-116_163_14_146","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/rocket"}}
+  - {"name":"广东省广州市-120_197_85_39","server":"120.197.85.39","port":17011,"type":"vmess","uuid":"ecb2dfcc-d5ec-3bb5-bb03-c22faac98448","alterId":0,"cipher":"auto","country":"广东省广州市-120_197_85_39","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me/vpnhat"}}}
+  - {"name":"🇦🇶-上海市徐汇区-112_64_69_187","server":"112.64.69.187","port":10004,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":1,"cipher":"auto","country":"🇦🇶-上海市徐汇区-112_64_69_187","skip-cert-verify":true,"tls":false,"network":"ws"}
+  - {"name":"🇦🇶-北京市-h755658_droplet_today_6","server":"h755658.droplet.today","port":12645,"type":"vmess","uuid":"ccd18661-4846-4661-8eb1-2ff1d8a5bfba","alterId":0,"cipher":"auto","country":"🇦🇶-北京市-h755658_droplet_today_6","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"lzu4t6t5j7qp72ebep0c","headers":{"host":"h755658.droplet.today"}}}
+  - {"name":"🇦🇶-安徽省-gzcm01_iplc188_com_7","server":"gzcm01.iplc188.com","port":10001,"type":"vmess","uuid":"7be91d0d-a814-402c-ab5f-4ac32debed20","alterId":0,"cipher":"auto","country":"🇦🇶-安徽省-gzcm01_iplc188_com_7","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"gzcm01.iplc188.com"}}}
+  - {"name":"广东省广州市-groupb_chbjpw_mobi_8","server":"groupb.chbjpw.mobi","port":60002,"type":"vmess","uuid":"88c69d99-d00d-46c5-bd2e-fc4af2e59043","alterId":2,"cipher":"auto","country":"广东省广州市-groupb_chbjpw_mobi_8","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"groupb.chbjpw.mobi"}}}
+  - {"name":"🇦🇶-湖南省-113_219_211_169","server":"113.219.211.169","port":40817,"type":"vmess","uuid":"bac14e16-4cb3-4d18-83e9-9f394921ebd4","alterId":64,"cipher":"auto","country":"🇦🇶-湖南省-113_219_211_169","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"广东省广州市-183_232_56_189","server":"183.232.56.189","port":64071,"type":"vmess","uuid":"55c2178c-bc0c-3d84-9295-8bac798b76b7","alterId":0,"cipher":"auto","country":"广东省广州市-183_232_56_189","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"183.232.56.189"}}}
+  - {"name":"🇦🇶-安徽省-42_157_8_162","server":"42.157.8.162","port":50002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","country":"🇦🇶-安徽省-42_157_8_162","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"广东省广州市-120_232_43_161","server":"120.232.43.161","port":17015,"type":"vmess","uuid":"ecb2dfcc-d5ec-3bb5-bb03-c22faac98448","alterId":0,"cipher":"auto","country":"广东省广州市-120_232_43_161","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me/vpnhat"}}}
+  - {"name":"江苏省镇江市-222_186_10_33","server":"222.186.10.33","port":17014,"type":"vmess","uuid":"ecb2dfcc-d5ec-3bb5-bb03-c22faac98448","alterId":0,"cipher":"auto","country":"江苏省镇江市-222_186_10_33","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"t.me/vpnhat"}}}
+  - {"name":"🇦🇶-上海市-shcn2-06b_iplc188_com_14","server":"shcn2-06b.iplc188.com","port":10001,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":1,"cipher":"auto","country":"🇦🇶-上海市-shcn2-06b_iplc188_com_14","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"shcn2-06b.iplc188.com"}}}
+  - {"name":"广东省广州市-183_240_55_55","server":"183.240.55.55","port":18888,"type":"vmess","uuid":"3cfb790e-b33f-303f-b386-05f6a82692cf","alterId":0,"cipher":"auto","country":"广东省广州市-183_240_55_55","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/thkt","headers":{"host":"hzlt.tuboshu.space"}}}
+  - {"name":"广东省佛山市-120_240_47_69","server":"120.240.47.69","port":17011,"type":"vmess","uuid":"0ca8100c-d6d7-3089-8f95-1565610ec3c2","alterId":0,"cipher":"auto","country":"广东省佛山市-120_240_47_69","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"120.240.47.69"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇩🇪_DE_at_25
-      - 🇩🇪_DE_at_26
-      - 🇩🇪_DE_at_28
-      - 🇩🇪_DE_at_29
-      - 🇩🇪_DE_at_31
-      - 🇩🇪_DE_at_32
-      - 🇩🇪_DE_at_33
-      - 🇩🇪_DE_at_35
-      - 🇩🇪_DE_at_36
-      - 🇩🇪_DE_at_37
+      - 🇦🇶-广东省-cm-jm_okvpn_xyz_1
+      - 广东省广州市-120_241_72_84
+      - 🇦🇶-湖南省-116_163_14_146
+      - 广东省广州市-120_197_85_39
+      - 🇦🇶-上海市徐汇区-112_64_69_187
+      - 🇦🇶-北京市-h755658_droplet_today_6
+      - 🇦🇶-安徽省-gzcm01_iplc188_com_7
+      - 广东省广州市-groupb_chbjpw_mobi_8
+      - 🇦🇶-湖南省-113_219_211_169
+      - 广东省广州市-183_232_56_189
+      - 🇦🇶-安徽省-42_157_8_162
+      - 广东省广州市-120_232_43_161
+      - 江苏省镇江市-222_186_10_33
+      - 🇦🇶-上海市-shcn2-06b_iplc188_com_14
+      - 广东省广州市-183_240_55_55
+      - 广东省佛山市-120_240_47_69
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪_DE_at_25
-      - 🇩🇪_DE_at_26
-      - 🇩🇪_DE_at_28
-      - 🇩🇪_DE_at_29
-      - 🇩🇪_DE_at_31
-      - 🇩🇪_DE_at_32
-      - 🇩🇪_DE_at_33
-      - 🇩🇪_DE_at_35
-      - 🇩🇪_DE_at_36
-      - 🇩🇪_DE_at_37
+      - 🇦🇶-广东省-cm-jm_okvpn_xyz_1
+      - 广东省广州市-120_241_72_84
+      - 🇦🇶-湖南省-116_163_14_146
+      - 广东省广州市-120_197_85_39
+      - 🇦🇶-上海市徐汇区-112_64_69_187
+      - 🇦🇶-北京市-h755658_droplet_today_6
+      - 🇦🇶-安徽省-gzcm01_iplc188_com_7
+      - 广东省广州市-groupb_chbjpw_mobi_8
+      - 🇦🇶-湖南省-113_219_211_169
+      - 广东省广州市-183_232_56_189
+      - 🇦🇶-安徽省-42_157_8_162
+      - 广东省广州市-120_232_43_161
+      - 江苏省镇江市-222_186_10_33
+      - 🇦🇶-上海市-shcn2-06b_iplc188_com_14
+      - 广东省广州市-183_240_55_55
+      - 广东省佛山市-120_240_47_69
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪_DE_at_25
-      - 🇩🇪_DE_at_26
-      - 🇩🇪_DE_at_28
-      - 🇩🇪_DE_at_29
-      - 🇩🇪_DE_at_31
-      - 🇩🇪_DE_at_32
-      - 🇩🇪_DE_at_33
-      - 🇩🇪_DE_at_35
-      - 🇩🇪_DE_at_36
-      - 🇩🇪_DE_at_37
+      - 🇦🇶-广东省-cm-jm_okvpn_xyz_1
+      - 广东省广州市-120_241_72_84
+      - 🇦🇶-湖南省-116_163_14_146
+      - 广东省广州市-120_197_85_39
+      - 🇦🇶-上海市徐汇区-112_64_69_187
+      - 🇦🇶-北京市-h755658_droplet_today_6
+      - 🇦🇶-安徽省-gzcm01_iplc188_com_7
+      - 广东省广州市-groupb_chbjpw_mobi_8
+      - 🇦🇶-湖南省-113_219_211_169
+      - 广东省广州市-183_232_56_189
+      - 🇦🇶-安徽省-42_157_8_162
+      - 广东省广州市-120_232_43_161
+      - 江苏省镇江市-222_186_10_33
+      - 🇦🇶-上海市-shcn2-06b_iplc188_com_14
+      - 广东省广州市-183_240_55_55
+      - 广东省佛山市-120_240_47_69
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_at_25
-      - 🇩🇪_DE_at_26
-      - 🇩🇪_DE_at_28
-      - 🇩🇪_DE_at_29
-      - 🇩🇪_DE_at_31
-      - 🇩🇪_DE_at_32
-      - 🇩🇪_DE_at_33
-      - 🇩🇪_DE_at_35
-      - 🇩🇪_DE_at_36
-      - 🇩🇪_DE_at_37
+      - 🇦🇶-广东省-cm-jm_okvpn_xyz_1
+      - 广东省广州市-120_241_72_84
+      - 🇦🇶-湖南省-116_163_14_146
+      - 广东省广州市-120_197_85_39
+      - 🇦🇶-上海市徐汇区-112_64_69_187
+      - 🇦🇶-北京市-h755658_droplet_today_6
+      - 🇦🇶-安徽省-gzcm01_iplc188_com_7
+      - 广东省广州市-groupb_chbjpw_mobi_8
+      - 🇦🇶-湖南省-113_219_211_169
+      - 广东省广州市-183_232_56_189
+      - 🇦🇶-安徽省-42_157_8_162
+      - 广东省广州市-120_232_43_161
+      - 江苏省镇江市-222_186_10_33
+      - 🇦🇶-上海市-shcn2-06b_iplc188_com_14
+      - 广东省广州市-183_240_55_55
+      - 广东省佛山市-120_240_47_69
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇩🇪_DE_at_25
-      - 🇩🇪_DE_at_26
-      - 🇩🇪_DE_at_28
-      - 🇩🇪_DE_at_29
-      - 🇩🇪_DE_at_31
-      - 🇩🇪_DE_at_32
-      - 🇩🇪_DE_at_33
-      - 🇩🇪_DE_at_35
-      - 🇩🇪_DE_at_36
-      - 🇩🇪_DE_at_37
+      - 🇦🇶-广东省-cm-jm_okvpn_xyz_1
+      - 广东省广州市-120_241_72_84
+      - 🇦🇶-湖南省-116_163_14_146
+      - 广东省广州市-120_197_85_39
+      - 🇦🇶-上海市徐汇区-112_64_69_187
+      - 🇦🇶-北京市-h755658_droplet_today_6
+      - 🇦🇶-安徽省-gzcm01_iplc188_com_7
+      - 广东省广州市-groupb_chbjpw_mobi_8
+      - 🇦🇶-湖南省-113_219_211_169
+      - 广东省广州市-183_232_56_189
+      - 🇦🇶-安徽省-42_157_8_162
+      - 广东省广州市-120_232_43_161
+      - 江苏省镇江市-222_186_10_33
+      - 🇦🇶-上海市-shcn2-06b_iplc188_com_14
+      - 广东省广州市-183_240_55_55
+      - 广东省佛山市-120_240_47_69
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_at_25
-      - 🇩🇪_DE_at_26
-      - 🇩🇪_DE_at_28
-      - 🇩🇪_DE_at_29
-      - 🇩🇪_DE_at_31
-      - 🇩🇪_DE_at_32
-      - 🇩🇪_DE_at_33
-      - 🇩🇪_DE_at_35
-      - 🇩🇪_DE_at_36
-      - 🇩🇪_DE_at_37
+      - 🇦🇶-广东省-cm-jm_okvpn_xyz_1
+      - 广东省广州市-120_241_72_84
+      - 🇦🇶-湖南省-116_163_14_146
+      - 广东省广州市-120_197_85_39
+      - 🇦🇶-上海市徐汇区-112_64_69_187
+      - 🇦🇶-北京市-h755658_droplet_today_6
+      - 🇦🇶-安徽省-gzcm01_iplc188_com_7
+      - 广东省广州市-groupb_chbjpw_mobi_8
+      - 🇦🇶-湖南省-113_219_211_169
+      - 广东省广州市-183_232_56_189
+      - 🇦🇶-安徽省-42_157_8_162
+      - 广东省广州市-120_232_43_161
+      - 江苏省镇江市-222_186_10_33
+      - 🇦🇶-上海市-shcn2-06b_iplc188_com_14
+      - 广东省广州市-183_240_55_55
+      - 广东省佛山市-120_240_47_69
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +172,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪_DE_at_25
-      - 🇩🇪_DE_at_26
-      - 🇩🇪_DE_at_28
-      - 🇩🇪_DE_at_29
-      - 🇩🇪_DE_at_31
-      - 🇩🇪_DE_at_32
-      - 🇩🇪_DE_at_33
-      - 🇩🇪_DE_at_35
-      - 🇩🇪_DE_at_36
-      - 🇩🇪_DE_at_37
+      - 🇦🇶-广东省-cm-jm_okvpn_xyz_1
+      - 广东省广州市-120_241_72_84
+      - 🇦🇶-湖南省-116_163_14_146
+      - 广东省广州市-120_197_85_39
+      - 🇦🇶-上海市徐汇区-112_64_69_187
+      - 🇦🇶-北京市-h755658_droplet_today_6
+      - 🇦🇶-安徽省-gzcm01_iplc188_com_7
+      - 广东省广州市-groupb_chbjpw_mobi_8
+      - 🇦🇶-湖南省-113_219_211_169
+      - 广东省广州市-183_232_56_189
+      - 🇦🇶-安徽省-42_157_8_162
+      - 广东省广州市-120_232_43_161
+      - 江苏省镇江市-222_186_10_33
+      - 🇦🇶-上海市-shcn2-06b_iplc188_com_14
+      - 广东省广州市-183_240_55_55
+      - 广东省佛山市-120_240_47_69
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
