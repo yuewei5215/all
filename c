@@ -4,47 +4,180 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
-proxies:
-  - {"name":"🇬🇧_GB_英国_1","server":"172.99.190.92","port":443,"type":"ss","country":"🇬🇧_GB_英国_1","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+proxies: 
+  - { name: 'Relay_🇺🇸US-🇺🇸US_3790', server: 'jgwdj2.gaox.ml', port: 443, type: trojan, country: 'Relay_🇺🇸US-🇺🇸US_3790', 'skip-cert-verify': true, udp: true, password: 86231db5-96d0-4271-9977-cae3a0cba614 }
+  - {name: '', server: 'sg03.xiaocloud.icu', port: 20366, type: vmess, uuid: '2889291a-ebd6-355a-ba6f-983acf09d68a', alterId: 2, cipher: auto, country: "", "skip-cert-verify": true, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - {name: 'Relay_🇨🇦CA-🇨🇦CA_434', server: '331tw.fans8.xyz', port: 443, type: vmess, uuid: 'efaeb7b2-bd81-37d7-b3af-5c633570f423', alterId: 2, cipher: auto, country: "Relay_🇨🇦CA-🇨🇦CA_434", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/ray', headers: {host: '331tw.fans8.xyz'}} }
+  - { name: 'NONE_4', server: 'awssg.yeem.cc', port: 21210, type: trojan, country: 'NONE_4', 'skip-cert-verify': true, udp: true, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d }
+  - {name: '', server: 'jp01.xiaocloud.icu', port: 20124, type: vmess, uuid: '2889291a-ebd6-355a-ba6f-983acf09d68a', alterId: 2, cipher: auto, country: "", "skip-cert-verify": true, tls: false, network: 'tcp', ws-opts: { path: '/', headers: {host: 'jp01.xiaocloud.icu'}} }
+  - { name: 'Relay_🇺🇸US-🇺🇸US_3791', server: 'jgwdj3.gaox.ml', port: 443, type: trojan, country: 'Relay_🇺🇸US-🇺🇸US_3791', 'skip-cert-verify': true, udp: true, password: da777aae-defb-41d0-a183-2c27da2b4677 }
+  - {name: '', server: 'sg07.xiaocloud.icu', port: 20770, type: vmess, uuid: '2889291a-ebd6-355a-ba6f-983acf09d68a', alterId: 2, cipher: auto, country: "", "skip-cert-verify": true, tls: false, network: 'tcp', ws-opts: { path: '/', headers: {host: 'sg07.xiaocloud.icu'}} }
+  - {name: '🇨🇳CN_486', server: '117.28.242.156', port: 2164, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, country: "🇨🇳CN_486", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/ws', headers: {host: 'sxqxj.cn'}} }
+  - {name: 'Relay_🇨🇳CN-🇨🇳CN_484', server: 'sxqxj.cn', port: 2164, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, country: "Relay_🇨🇳CN-🇨🇳CN_484", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/ws'} }
+  - { name: 'Relay_🇺🇸US-🇺🇸US_3796', server: 'usa-sr-106.mitoption.com', port: 443, type: trojan, country: 'Relay_🇺🇸US-🇺🇸US_3796', 'skip-cert-verify': true, udp: true, password: e5d46365e25e31d94279c2bcf93390a2 }
+  - { name: 'Relay_🇯🇵JP-🇯🇵JP_1092', server: 'jgwdb4.gaox.ml', port: 443, type: trojan, country: 'Relay_🇯🇵JP-🇯🇵JP_1092', 'skip-cert-verify': true, udp: true, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2 }
+  - {name: 'Relay_🇺🇸US-🇺🇸US_3771', server: 'sanfranciscolafayette.club', port: 443, type: vmess, uuid: 'cc0b4469-c0e5-4efb-8f69-a6df64db24ee', alterId: 0, cipher: auto, country: "Relay_🇺🇸US-🇺🇸US_3771", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/neuromancer', headers: {host: 'sanfranciscolafayette.club'}} }
+  - {name: '🇺🇸US_3747', server: '150.230.43.65', port: 14564, type: vmess, uuid: '1556e040-31d3-4c47-b0d2-ddf888010b4e', alterId: 0, cipher: auto, country: "🇺🇸US_3747", "skip-cert-verify": true, tls: false, network: 'tcp', ws-opts: { path: '/', headers: {host: '150.230.43.65'}} }
+  - { name: 'NONE_14', server: 'jgwhdlb4.gaox.ml', port: 443, type: trojan, country: 'NONE_14', 'skip-cert-verify': true, udp: true, password: 081a4198-d664-4bc5-a7c6-e35982da964b }
+  - { name: 'Relay_🇫🇷FR-🇫🇷FR_106+_139_90Mb_15', server: 'fr-trojan.bonds.id', port: 443, type: trojan, country: 'Relay_🇫🇷FR-🇫🇷FR_106+_139_90Mb_15', 'skip-cert-verify': true, udp: true, password: e4307a50-9853-11ec-9b4b-1239d0255272 }
+  - {name: 'Relay_🏁ZZ-🏁ZZ_4818', server: 'vn06v2.datapn.net', port: 80, type: vmess, uuid: '2c7489bd-6968-4105-8f56-83ceb1590e7b', alterId: 0, cipher: auto, country: "Relay_🏁ZZ-🏁ZZ_4818", "skip-cert-verify": true, tls: false, network: 'ws', ws-opts: { path: '/datapn', headers: {host: 'livestream2.tv360.vn'}} }
+  - {name: '🇺🇸US_3780', server: '20.123.187.212', port: 27931, type: vmess, uuid: '256eae41-0b8f-4faa-bce8-6366011dc19f', alterId: 0, cipher: auto, country: "🇺🇸US_3780", "skip-cert-verify": true, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - {name: '🇺🇸US_3749', server: '152.70.49.174', port: 55988, type: vmess, uuid: '2c644a6a-5817-40b2-b149-2f3ac7eb2447', alterId: 0, cipher: auto, country: "🇺🇸US_3749", "skip-cert-verify": true, tls: false, network: 'tcp', ws-opts: { path: '/'} }
+  - { name: 'Relay_🇦🇺AU-🇦🇺AU_05+_+5_62Mb_19', server: 'jgwxn3.gaox.ml', port: 443, type: trojan, country: 'Relay_🇦🇺AU-🇦🇺AU_05+_+5_62Mb_19', 'skip-cert-verify': true, udp: true, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf }
+  - { name: 'Relay_🇬🇧GB-🇬🇧GB_910', server: 'jgwcc1.gaox.ml', port: 443, type: trojan, country: 'Relay_🇬🇧GB-🇬🇧GB_910', 'skip-cert-verify': true, udp: true, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国_1
+      - Relay_🇺🇸US-🇺🇸US_3790
+      - 
+      - Relay_🇨🇦CA-🇨🇦CA_434
+      - NONE_4
+      - 
+      - Relay_🇺🇸US-🇺🇸US_3791
+      - 
+      - 🇨🇳CN_486
+      - Relay_🇨🇳CN-🇨🇳CN_484
+      - Relay_🇺🇸US-🇺🇸US_3796
+      - Relay_🇯🇵JP-🇯🇵JP_1092
+      - Relay_🇺🇸US-🇺🇸US_3771
+      - 🇺🇸US_3747
+      - NONE_14
+      - Relay_🇫🇷FR-🇫🇷FR_106+_139_90Mb_15
+      - Relay_🏁ZZ-🏁ZZ_4818
+      - 🇺🇸US_3780
+      - 🇺🇸US_3749
+      - Relay_🇦🇺AU-🇦🇺AU_05+_+5_62Mb_19
+      - Relay_🇬🇧GB-🇬🇧GB_910
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国_1
+      - Relay_🇺🇸US-🇺🇸US_3790
+      - 
+      - Relay_🇨🇦CA-🇨🇦CA_434
+      - NONE_4
+      - 
+      - Relay_🇺🇸US-🇺🇸US_3791
+      - 
+      - 🇨🇳CN_486
+      - Relay_🇨🇳CN-🇨🇳CN_484
+      - Relay_🇺🇸US-🇺🇸US_3796
+      - Relay_🇯🇵JP-🇯🇵JP_1092
+      - Relay_🇺🇸US-🇺🇸US_3771
+      - 🇺🇸US_3747
+      - NONE_14
+      - Relay_🇫🇷FR-🇫🇷FR_106+_139_90Mb_15
+      - Relay_🏁ZZ-🏁ZZ_4818
+      - 🇺🇸US_3780
+      - 🇺🇸US_3749
+      - Relay_🇦🇺AU-🇦🇺AU_05+_+5_62Mb_19
+      - Relay_🇬🇧GB-🇬🇧GB_910
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
+      - Relay_🇺🇸US-🇺🇸US_3790
+      - 
+      - Relay_🇨🇦CA-🇨🇦CA_434
+      - NONE_4
+      - 
+      - Relay_🇺🇸US-🇺🇸US_3791
+      - 
+      - 🇨🇳CN_486
+      - Relay_🇨🇳CN-🇨🇳CN_484
+      - Relay_🇺🇸US-🇺🇸US_3796
+      - Relay_🇯🇵JP-🇯🇵JP_1092
+      - Relay_🇺🇸US-🇺🇸US_3771
+      - 🇺🇸US_3747
+      - NONE_14
+      - Relay_🇫🇷FR-🇫🇷FR_106+_139_90Mb_15
+      - Relay_🏁ZZ-🏁ZZ_4818
+      - 🇺🇸US_3780
+      - 🇺🇸US_3749
+      - Relay_🇦🇺AU-🇦🇺AU_05+_+5_62Mb_19
+      - Relay_🇬🇧GB-🇬🇧GB_910
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
+      - Relay_🇺🇸US-🇺🇸US_3790
+      - 
+      - Relay_🇨🇦CA-🇨🇦CA_434
+      - NONE_4
+      - 
+      - Relay_🇺🇸US-🇺🇸US_3791
+      - 
+      - 🇨🇳CN_486
+      - Relay_🇨🇳CN-🇨🇳CN_484
+      - Relay_🇺🇸US-🇺🇸US_3796
+      - Relay_🇯🇵JP-🇯🇵JP_1092
+      - Relay_🇺🇸US-🇺🇸US_3771
+      - 🇺🇸US_3747
+      - NONE_14
+      - Relay_🇫🇷FR-🇫🇷FR_106+_139_90Mb_15
+      - Relay_🏁ZZ-🏁ZZ_4818
+      - 🇺🇸US_3780
+      - 🇺🇸US_3749
+      - Relay_🇦🇺AU-🇦🇺AU_05+_+5_62Mb_19
+      - Relay_🇬🇧GB-🇬🇧GB_910
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国_1
+      - Relay_🇺🇸US-🇺🇸US_3790
+      - 
+      - Relay_🇨🇦CA-🇨🇦CA_434
+      - NONE_4
+      - 
+      - Relay_🇺🇸US-🇺🇸US_3791
+      - 
+      - 🇨🇳CN_486
+      - Relay_🇨🇳CN-🇨🇳CN_484
+      - Relay_🇺🇸US-🇺🇸US_3796
+      - Relay_🇯🇵JP-🇯🇵JP_1092
+      - Relay_🇺🇸US-🇺🇸US_3771
+      - 🇺🇸US_3747
+      - NONE_14
+      - Relay_🇫🇷FR-🇫🇷FR_106+_139_90Mb_15
+      - Relay_🏁ZZ-🏁ZZ_4818
+      - 🇺🇸US_3780
+      - 🇺🇸US_3749
+      - Relay_🇦🇺AU-🇦🇺AU_05+_+5_62Mb_19
+      - Relay_🇬🇧GB-🇬🇧GB_910
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
+      - Relay_🇺🇸US-🇺🇸US_3790
+      - 
+      - Relay_🇨🇦CA-🇨🇦CA_434
+      - NONE_4
+      - 
+      - Relay_🇺🇸US-🇺🇸US_3791
+      - 
+      - 🇨🇳CN_486
+      - Relay_🇨🇳CN-🇨🇳CN_484
+      - Relay_🇺🇸US-🇺🇸US_3796
+      - Relay_🇯🇵JP-🇯🇵JP_1092
+      - Relay_🇺🇸US-🇺🇸US_3771
+      - 🇺🇸US_3747
+      - NONE_14
+      - Relay_🇫🇷FR-🇫🇷FR_106+_139_90Mb_15
+      - Relay_🏁ZZ-🏁ZZ_4818
+      - 🇺🇸US_3780
+      - 🇺🇸US_3749
+      - Relay_🇦🇺AU-🇦🇺AU_05+_+5_62Mb_19
+      - Relay_🇬🇧GB-🇬🇧GB_910
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +200,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_1
+      - Relay_🇺🇸US-🇺🇸US_3790
+      - 
+      - Relay_🇨🇦CA-🇨🇦CA_434
+      - NONE_4
+      - 
+      - Relay_🇺🇸US-🇺🇸US_3791
+      - 
+      - 🇨🇳CN_486
+      - Relay_🇨🇳CN-🇨🇳CN_484
+      - Relay_🇺🇸US-🇺🇸US_3796
+      - Relay_🇯🇵JP-🇯🇵JP_1092
+      - Relay_🇺🇸US-🇺🇸US_3771
+      - 🇺🇸US_3747
+      - NONE_14
+      - Relay_🇫🇷FR-🇫🇷FR_106+_139_90Mb_15
+      - Relay_🏁ZZ-🏁ZZ_4818
+      - 🇺🇸US_3780
+      - 🇺🇸US_3749
+      - Relay_🇦🇺AU-🇦🇺AU_05+_+5_62Mb_19
+      - Relay_🇬🇧GB-🇬🇧GB_910
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
