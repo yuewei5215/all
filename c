@@ -5,46 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇭🇰_HK_香港_1","server":"43.132.158.232","port":44350,"type":"vmess","uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_1","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.132.158.232"}}}
+  - {"name":"🇸🇬_SG_新加坡_1","server":"43.135.70.192","port":24740,"type":"vmess","uuid":"3749de34-a1a9-44db-b72a-510712a52d11","alterId":0,"cipher":"auto","country":"🇸🇬_SG_新加坡_1","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.135.70.192"}}}
+  - {"name":"🇭🇰_HK_香港_2","server":"43.132.158.232","port":44350,"type":"vmess","uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_2","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.132.158.232"}}}
+  - {"name":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3","server":"cm-jm.okvpn.xyz","port":20005,"type":"trojan","country":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3","skip-cert-verify":true,"udp":true,"password":"4ea642c6-ca67-4025-aed6-f743f13d0e20"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_4","server":"cm-jm.okvpn.xyz","port":20000,"type":"trojan","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_4","skip-cert-verify":true,"udp":true,"password":"4ea642c6-ca67-4025-aed6-f743f13d0e20"}
+  - {"name":"🇭🇰_HK_香港_5","server":"43.129.227.60","port":27727,"type":"vmess","uuid":"d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b","alterId":0,"cipher":"auto","country":"🇭🇰_HK_香港_5","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.129.227.60"}}}
+  - {"name":"🇯🇵_JP_日本_6","server":"85.208.108.58","port":8080,"type":"ss","country":"🇯🇵_JP_日本_6","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰_HK_香港_1
+      - 🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
+      - 🇯🇵_JP_日本_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰_HK_香港_1
+      - 🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
+      - 🇯🇵_JP_日本_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
+      - 🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
+      - 🇯🇵_JP_日本_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
+      - 🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
+      - 🇯🇵_JP_日本_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰_HK_香港_1
+      - 🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
+      - 🇯🇵_JP_日本_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港_1
+      - 🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
+      - 🇯🇵_JP_日本_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +102,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港_1
+      - 🇸🇬_SG_新加坡_1
+      - 🇭🇰_HK_香港_2
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚_3
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
+      - 🇭🇰_HK_香港_5
+      - 🇯🇵_JP_日本_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
