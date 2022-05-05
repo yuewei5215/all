@@ -5,46 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇯🇵_JP_日本_1","server":"85.208.108.58","port":8080,"type":"ss","country":"🇯🇵_JP_日本_1","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","server":"shonlinesandcu03.proconcn.xyz","port":561,"type":"ssr","country":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"50252:123321Ddd"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_JP_日本_1
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
