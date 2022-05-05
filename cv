@@ -5,24 +5,136 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: github_com/freefq-日本2_3, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, skip-cert-verify: true, udp: true}
-  - {name: github_com/freefq-北美地区3_4, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github_com/freefq-英国4_5, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, skip-cert-verify: true, udp: true}
-  - {name: github_com/freefq-乌克兰8_9, server: 5.183.179.166, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: github_com/freefq-美国Linode数据中心9_10, server: 172.105.58.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: github_com/freefq-美国10_11, server: usmax01.170809.xyz, port: 444, type: trojan, password: 09d2d2b3-dfce-4912-b943-e4b88f2de92c, skip-cert-verify: true, udp: true}
-  - {name: github_com/freefq-日本东京Linode数据中心16_17, server: jp03.170809.xyz, port: 444, type: trojan, password: 09d2d2b3-dfce-4912-b943-e4b88f2de92c, skip-cert-verify: true, udp: true}
-  - {name: github_com/freefq-美国亚利桑那州斯科茨代尔市GoDaddy集团公司18_19, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
-  - {name: github_com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心19_20, server: 213.183.51.171, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: github_com/freefq-美国20_21, server: us01.170809.xyz, port: 443, type: trojan, password: 09d2d2b3-dfce-4912-b943-e4b88f2de92c, skip-cert-verify: true, udp: true}
-  - {name: github_com/freefq-捷克布拉格Friendhosting有限责任公司23_24, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
-  - {name: github_com/freefq-美国亚利桑那州斯科茨代尔市GoDaddy集团公司25_26, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
-  - {name: github_com/freefq-北美地区27_28, server: usmax02.170809.xyz, port: 443, type: trojan, password: 09d2d2b3-dfce-4912-b943-e4b88f2de92c, skip-cert-verify: true, udp: true}
-  - {name: github_com/freefq-美国华盛顿Cogent通信公司29_30, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: github_com/freefq-新加坡Linode数据中心31_32, server: sgmax01.170809.xyz, port: 444, type: trojan, password: 09d2d2b3-dfce-4912-b943-e4b88f2de92c, skip-cert-verify: true, udp: true}
-  - {name: github_com/freefq-美国华盛顿Cogent通信公司32_33, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github_com/freefq-美国亚利桑那州斯科茨代尔市GoDaddy集团公司33_34, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
-  - {name: github_com/freefq-美国34_35, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
+  - {name: _CA_1, server: 198.57.27.229, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_2, server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_3, server: 198.57.27.200, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_4, server: 198.57.27.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_5, server: 198.57.27.113, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_6, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_7, server: 198.57.27.218, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_8, server: 198.57.27.247, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_9, server: 198.57.27.241, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_10, server: 198.57.27.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_11, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_12, server: 198.57.27.188, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_13, server: 198.57.27.241, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_14, server: 198.57.27.218, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_15, server: 198.57.27.218, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_16, server: 198.57.27.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_17, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_18, server: 198.57.27.233, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_19, server: 198.57.27.191, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_20, server: 198.57.27.191, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_21, server: 198.57.27.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_22, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_23, server: 198.57.27.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_24, server: 198.57.27.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_25, server: 196.247.59.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _CA_26, server: 198.57.27.188, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_27, server: 198.57.27.247, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_28, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_29, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_30, server: 198.57.27.191, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _DE_31, server: 193.108.118.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _DE_32, server: 193.108.118.79, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _DE_33, server: 193.108.118.79, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _DE_34, server: 193.108.117.75, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _DE_35, server: 193.108.118.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _DE_36, server: 193.108.117.75, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _DE_37, server: 193.108.117.75, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _DE_38, server: 193.108.117.75, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _DE_39, server: 193.108.118.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _DE_40, server: 193.108.117.75, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _DE_41, server: 193.108.117.75, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _DE_42, server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _DE_43, server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _DE_44, server: 193.108.118.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _DE_45, server: 193.108.118.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _DE_46, server: 193.108.117.75, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _DE_47, server: 193.108.117.75, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _FR_48, server: 145.239.1.100, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _FR_49, server: 51.159.30.61, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _FR_50, server: 54.38.72.170, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _FR_51, server: 145.239.1.100, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _FR_52, server: 54.38.72.170, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _FR_53, server: 145.239.1.100, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _FR_54, server: 54.38.72.170, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_55, server: 5.39.70.138, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_56, server: 145.239.1.100, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _FR_57, server: 145.239.1.100, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _FR_58, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_59, server: 54.38.72.170, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _FR_60, server: 54.38.72.170, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_61, server: 145.239.1.100, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _FR_62, server: 145.239.1.100, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _FR_63, server: 145.239.1.100, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _FR_64, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _FR_65, server: 5.39.70.138, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_66, server: 145.239.1.100, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _FR_67, server: 145.239.1.100, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _FR_68, server: 145.239.1.100, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_69, server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_70, server: 142.202.48.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_71, server: 167.88.63.107, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_72, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_73, server: 167.88.63.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_74, server: 142.202.48.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_75, server: 167.88.62.104, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_76, server: 38.107.226.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_77, server: 38.91.100.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_78, server: 167.88.63.61, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_79, server: 167.88.63.79, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_80, server: 167.88.63.79, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_81, server: 142.202.48.83, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_82, server: 38.114.114.69, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_83, server: 38.64.138.145, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_84, server: 167.88.63.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_85, server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_86, server: 38.91.100.199, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_87, server: 38.91.100.27, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_88, server: 38.86.135.27, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_89, server: 142.202.48.58, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_90, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_91, server: 142.202.48.77, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_92, server: 142.202.48.108, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_93, server: 38.143.66.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_94, server: 142.202.48.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_95, server: 167.88.63.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_96, server: 167.88.61.96, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_97, server: 38.91.102.86, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_98, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_99, server: 54.36.174.181, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_100, server: 54.36.174.181, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _GB_101, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB_102, server: 54.36.174.181, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _GB_103, server: 54.36.174.181, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_104, server: 54.36.174.181, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_105, server: 54.36.174.181, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_106, server: 54.36.174.181, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _GB_107, server: 54.36.174.181, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _GB_108, server: 54.36.174.181, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_109, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _GB_110, server: 54.36.174.181, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB_111, server: 54.36.174.181, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB_112, server: 54.36.174.181, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_113, server: 134.195.196.16, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _AU_114, server: 172.105.177.120, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _AU_115, server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _AU_116, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _AU_117, server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _AU_118, server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _AU_119, server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _AU_120, server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _AU_121, server: 172.105.180.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _AU_122, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _AU_123, server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _AU_124, server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _AU_125, server: 172.105.180.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _AU_126, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _AU_127, server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _AU_128, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _SG_129, server: 217.197.161.138, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _SG_130, server: 172.104.50.106, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: 45.141.102.51, port: 33689, type: vmess, uuid: 5bff6f03-1d6f-4ef0-8320-3a4dd7eb4cc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 120.240.48.19}}, udp: true}
   - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
@@ -1027,24 +1139,136 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
-      - github_com/freefq-日本2_3
-      - github_com/freefq-北美地区3_4
-      - github_com/freefq-英国4_5
-      - github_com/freefq-乌克兰8_9
-      - github_com/freefq-美国Linode数据中心9_10
-      - github_com/freefq-美国10_11
-      - github_com/freefq-日本东京Linode数据中心16_17
-      - github_com/freefq-美国亚利桑那州斯科茨代尔市GoDaddy集团公司18_19
-      - github_com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心19_20
-      - github_com/freefq-美国20_21
-      - github_com/freefq-捷克布拉格Friendhosting有限责任公司23_24
-      - github_com/freefq-美国亚利桑那州斯科茨代尔市GoDaddy集团公司25_26
-      - github_com/freefq-北美地区27_28
-      - github_com/freefq-美国华盛顿Cogent通信公司29_30
-      - github_com/freefq-新加坡Linode数据中心31_32
-      - github_com/freefq-美国华盛顿Cogent通信公司32_33
-      - github_com/freefq-美国亚利桑那州斯科茨代尔市GoDaddy集团公司33_34
-      - github_com/freefq-美国34_35
+      - _CA_1
+      - _CA_2
+      - _CA_3
+      - _CA_4
+      - _CA_5
+      - _CA_6
+      - _CA_7
+      - _CA_8
+      - _CA_9
+      - _CA_10
+      - _CA_11
+      - _CA_12
+      - _CA_13
+      - _CA_14
+      - _CA_15
+      - _CA_16
+      - _CA_17
+      - _CA_18
+      - _CA_19
+      - _CA_20
+      - _CA_21
+      - _CA_22
+      - _CA_23
+      - _CA_24
+      - _CA_25
+      - _CA_26
+      - _CA_27
+      - _CA_28
+      - _CA_29
+      - _CA_30
+      - _DE_31
+      - _DE_32
+      - _DE_33
+      - _DE_34
+      - _DE_35
+      - _DE_36
+      - _DE_37
+      - _DE_38
+      - _DE_39
+      - _DE_40
+      - _DE_41
+      - _DE_42
+      - _DE_43
+      - _DE_44
+      - _DE_45
+      - _DE_46
+      - _DE_47
+      - _FR_48
+      - _FR_49
+      - _FR_50
+      - _FR_51
+      - _FR_52
+      - _FR_53
+      - _FR_54
+      - _FR_55
+      - _FR_56
+      - _FR_57
+      - _FR_58
+      - _FR_59
+      - _FR_60
+      - _FR_61
+      - _FR_62
+      - _FR_63
+      - _FR_64
+      - _FR_65
+      - _FR_66
+      - _FR_67
+      - _FR_68
+      - _US_69
+      - _US_70
+      - _US_71
+      - _US_72
+      - _US_73
+      - _US_74
+      - _US_75
+      - _US_76
+      - _US_77
+      - _US_78
+      - _US_79
+      - _US_80
+      - _US_81
+      - _US_82
+      - _US_83
+      - _US_84
+      - _US_85
+      - _US_86
+      - _US_87
+      - _US_88
+      - _US_89
+      - _US_90
+      - _US_91
+      - _US_92
+      - _US_93
+      - _US_94
+      - _US_95
+      - _US_96
+      - _US_97
+      - _US_98
+      - _GB_99
+      - _GB_100
+      - _GB_101
+      - _GB_102
+      - _GB_103
+      - _GB_104
+      - _GB_105
+      - _GB_106
+      - _GB_107
+      - _GB_108
+      - _GB_109
+      - _GB_110
+      - _GB_111
+      - _GB_112
+      - _CA_113
+      - _AU_114
+      - _AU_115
+      - _AU_116
+      - _AU_117
+      - _AU_118
+      - _AU_119
+      - _AU_120
+      - _AU_121
+      - _AU_122
+      - _AU_123
+      - _AU_124
+      - _AU_125
+      - _AU_126
+      - _AU_127
+      - _AU_128
+      - _SG_129
+      - _SG_130
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
@@ -2049,24 +2273,136 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 150
     proxies:
-      - github_com/freefq-日本2_3
-      - github_com/freefq-北美地区3_4
-      - github_com/freefq-英国4_5
-      - github_com/freefq-乌克兰8_9
-      - github_com/freefq-美国Linode数据中心9_10
-      - github_com/freefq-美国10_11
-      - github_com/freefq-日本东京Linode数据中心16_17
-      - github_com/freefq-美国亚利桑那州斯科茨代尔市GoDaddy集团公司18_19
-      - github_com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心19_20
-      - github_com/freefq-美国20_21
-      - github_com/freefq-捷克布拉格Friendhosting有限责任公司23_24
-      - github_com/freefq-美国亚利桑那州斯科茨代尔市GoDaddy集团公司25_26
-      - github_com/freefq-北美地区27_28
-      - github_com/freefq-美国华盛顿Cogent通信公司29_30
-      - github_com/freefq-新加坡Linode数据中心31_32
-      - github_com/freefq-美国华盛顿Cogent通信公司32_33
-      - github_com/freefq-美国亚利桑那州斯科茨代尔市GoDaddy集团公司33_34
-      - github_com/freefq-美国34_35
+      - _CA_1
+      - _CA_2
+      - _CA_3
+      - _CA_4
+      - _CA_5
+      - _CA_6
+      - _CA_7
+      - _CA_8
+      - _CA_9
+      - _CA_10
+      - _CA_11
+      - _CA_12
+      - _CA_13
+      - _CA_14
+      - _CA_15
+      - _CA_16
+      - _CA_17
+      - _CA_18
+      - _CA_19
+      - _CA_20
+      - _CA_21
+      - _CA_22
+      - _CA_23
+      - _CA_24
+      - _CA_25
+      - _CA_26
+      - _CA_27
+      - _CA_28
+      - _CA_29
+      - _CA_30
+      - _DE_31
+      - _DE_32
+      - _DE_33
+      - _DE_34
+      - _DE_35
+      - _DE_36
+      - _DE_37
+      - _DE_38
+      - _DE_39
+      - _DE_40
+      - _DE_41
+      - _DE_42
+      - _DE_43
+      - _DE_44
+      - _DE_45
+      - _DE_46
+      - _DE_47
+      - _FR_48
+      - _FR_49
+      - _FR_50
+      - _FR_51
+      - _FR_52
+      - _FR_53
+      - _FR_54
+      - _FR_55
+      - _FR_56
+      - _FR_57
+      - _FR_58
+      - _FR_59
+      - _FR_60
+      - _FR_61
+      - _FR_62
+      - _FR_63
+      - _FR_64
+      - _FR_65
+      - _FR_66
+      - _FR_67
+      - _FR_68
+      - _US_69
+      - _US_70
+      - _US_71
+      - _US_72
+      - _US_73
+      - _US_74
+      - _US_75
+      - _US_76
+      - _US_77
+      - _US_78
+      - _US_79
+      - _US_80
+      - _US_81
+      - _US_82
+      - _US_83
+      - _US_84
+      - _US_85
+      - _US_86
+      - _US_87
+      - _US_88
+      - _US_89
+      - _US_90
+      - _US_91
+      - _US_92
+      - _US_93
+      - _US_94
+      - _US_95
+      - _US_96
+      - _US_97
+      - _US_98
+      - _GB_99
+      - _GB_100
+      - _GB_101
+      - _GB_102
+      - _GB_103
+      - _GB_104
+      - _GB_105
+      - _GB_106
+      - _GB_107
+      - _GB_108
+      - _GB_109
+      - _GB_110
+      - _GB_111
+      - _GB_112
+      - _CA_113
+      - _AU_114
+      - _AU_115
+      - _AU_116
+      - _AU_117
+      - _AU_118
+      - _AU_119
+      - _AU_120
+      - _AU_121
+      - _AU_122
+      - _AU_123
+      - _AU_124
+      - _AU_125
+      - _AU_126
+      - _AU_127
+      - _AU_128
+      - _SG_129
+      - _SG_130
       - 俄罗斯(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
