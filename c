@@ -5,46 +5,74 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇮🇳_IN_印度_1","server":"172.105.58.152","port":8119,"type":"ss","country":"🇮🇳_IN_印度_1","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国_1","server":"2606:4700:83bb:2f91:8873:6d21:b3ae:399c","port":443,"type":"vmess","uuid":"48cdc155-e504-42c0-8c25-c673a63e86af","alterId":0,"cipher":"auto","country":"美国_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"lively-flower-24cc.szwangfan.workers.dev"}}}
+  - {"name":"meiguo_2","server":"2606:4700:83b4:ca3e:57b0:2c92:265e:68a","port":443,"type":"vmess","uuid":"41a366a4-31f7-49bc-a96f-da7c0461b4f6","alterId":0,"cipher":"auto","country":"meiguo_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"winter-rice-762f.szwangfan.workers.dev"}}}
+  - {"name":"欧洲_3","server":"2606:4700:90cd:53e2:6906:a9bd:a476:b83e","port":443,"type":"vmess","uuid":"5213ebff-2007-485a-bd34-d2f28faf1d6b","alterId":0,"cipher":"auto","country":"欧洲_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"little-term-3551.szwangfan.workers.dev"}}}
+  - {"name":"欧洲2_4","server":"2606:4700:90c7:4acf:375c:4972:593f:1c04","port":443,"type":"vmess","uuid":"46705fb6-4a66-49dd-9ed5-792eefd088ca","alterId":0,"cipher":"auto","country":"欧洲2_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fancy-snow-b2fb.szwangfan.workers.dev"}}}
+  - {"name":"ouzhou_5","server":"2606:4700:90c8:15f:98c8:ee4:a3c2:9f5f","port":443,"type":"vmess","uuid":"369bc16c-c11d-4af6-983f-e58647e27e9a","alterId":0,"cipher":"auto","country":"ouzhou_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"muddy-meadow-22be.szwangfan.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇮🇳_IN_印度_1
+      - 美国_1
+      - meiguo_2
+      - 欧洲_3
+      - 欧洲2_4
+      - ouzhou_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇮🇳_IN_印度_1
+      - 美国_1
+      - meiguo_2
+      - 欧洲_3
+      - 欧洲2_4
+      - ouzhou_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇳_IN_印度_1
+      - 美国_1
+      - meiguo_2
+      - 欧洲_3
+      - 欧洲2_4
+      - ouzhou_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇳_IN_印度_1
+      - 美国_1
+      - meiguo_2
+      - 欧洲_3
+      - 欧洲2_4
+      - ouzhou_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇮🇳_IN_印度_1
+      - 美国_1
+      - meiguo_2
+      - 欧洲_3
+      - 欧洲2_4
+      - ouzhou_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇳_IN_印度_1
+      - 美国_1
+      - meiguo_2
+      - 欧洲_3
+      - 欧洲2_4
+      - ouzhou_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +95,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇳_IN_印度_1
+      - 美国_1
+      - meiguo_2
+      - 欧洲_3
+      - 欧洲2_4
+      - ouzhou_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
