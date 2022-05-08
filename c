@@ -5,375 +5,452 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸_US_美国_1","server":"167.88.63.82","port":8090,"type":"ss","country":"🇺🇸_US_美国_1","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇬🇧_GB_英国_2","server":"172.99.190.35","port":443,"type":"ss","country":"🇬🇧_GB_英国_2","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇬🇧_GB_英国_3","server":"172.99.190.35","port":5000,"type":"ss","country":"🇬🇧_GB_英国_3","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_4","server":"172.99.190.35","port":5601,"type":"ss","country":"🇬🇧_GB_英国_4","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_5","server":"172.99.190.35","port":9101,"type":"ss","country":"🇬🇧_GB_英国_5","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇬🇧_GB_英国_6","server":"172.99.190.35","port":5500,"type":"ss","country":"🇬🇧_GB_英国_6","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇬🇧_GB_英国_7","server":"172.99.190.35","port":6679,"type":"ss","country":"🇬🇧_GB_英国_7","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇬🇧_GB_英国_8","server":"172.99.190.35","port":5004,"type":"ss","country":"🇬🇧_GB_英国_8","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇬🇧_GB_英国_9","server":"172.99.190.35","port":5001,"type":"ss","country":"🇬🇧_GB_英国_9","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_10","server":"172.99.190.35","port":3306,"type":"ss","country":"🇬🇧_GB_英国_10","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧_GB_英国_11","server":"152.89.210.105","port":9073,"type":"ss","country":"🇬🇧_GB_英国_11","cipher":"aes-256-cfb","password":"daFYagqDdBdA6VTX"}
-  - {"name":"🇨🇦_CA_加拿大_12","server":"198.57.27.225","port":8008,"type":"ss","country":"🇨🇦_CA_加拿大_12","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇬🇧_GB_英国_13","server":"185.167.117.171","port":9070,"type":"ss","country":"🇬🇧_GB_英国_13","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
-  - {"name":"🇨🇦_CA_加拿大_14","server":"198.57.27.225","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_14","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇬🇧_GB_英国_15","server":"152.89.210.105","port":9088,"type":"ssr","country":"🇬🇧_GB_英国_15","password":"f8npKgNzdkss2ytn","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-  - {"name":"🇨🇦_CA_加拿大_16","server":"134.195.196.205","port":443,"type":"ss","country":"🇨🇦_CA_加拿大_16","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦_CA_加拿大_17","server":"134.195.196.205","port":5004,"type":"ss","country":"🇨🇦_CA_加拿大_17","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇬🇧_GB_英国_18","server":"152.89.210.105","port":9020,"type":"ss","country":"🇬🇧_GB_英国_18","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
-  - {"name":"🇬🇧_GB_英国_19","server":"152.89.210.105","port":9019,"type":"ss","country":"🇬🇧_GB_英国_19","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
-  - {"name":"🇺🇸_US_美国_20","server":"38.114.114.69","port":6379,"type":"ss","country":"🇺🇸_US_美国_20","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇺🇸_US_美国_21","server":"38.114.114.69","port":9101,"type":"ss","country":"🇺🇸_US_美国_21","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_22","server":"38.114.114.67","port":8119,"type":"ss","country":"🇺🇸_US_美国_22","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸_US_美国_23","server":"167.88.61.70","port":5500,"type":"ss","country":"🇺🇸_US_美国_23","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸_US_美国_24","server":"167.88.61.70","port":5001,"type":"ss","country":"🇺🇸_US_美国_24","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_25","server":"38.114.114.69","port":8009,"type":"ss","country":"🇺🇸_US_美国_25","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US_美国_26","server":"38.114.114.67","port":5000,"type":"ss","country":"🇺🇸_US_美国_26","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_27","server":"38.114.114.69","port":9102,"type":"ss","country":"🇺🇸_US_美国_27","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_28","server":"38.114.114.69","port":3306,"type":"ss","country":"🇺🇸_US_美国_28","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_29","server":"38.75.136.102","port":6379,"type":"ss","country":"🇺🇸_US_美国_29","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇺🇸_US_美国_30","server":"167.88.61.70","port":6697,"type":"ss","country":"🇺🇸_US_美国_30","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸_US_美国_31","server":"167.88.61.70","port":8119,"type":"ss","country":"🇺🇸_US_美国_31","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸_US_美国_32","server":"38.114.114.69","port":7002,"type":"ss","country":"🇺🇸_US_美国_32","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_33","server":"38.114.114.69","port":8090,"type":"ss","country":"🇺🇸_US_美国_33","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_34","server":"169.197.142.39","port":5000,"type":"ss","country":"🇺🇸_US_美国_34","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_35","server":"169.197.143.157","port":7002,"type":"ss","country":"🇺🇸_US_美国_35","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸_US_美国_36","server":"169.197.143.157","port":443,"type":"ss","country":"🇺🇸_US_美国_36","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸_US_美国_37","server":"169.197.142.39","port":8881,"type":"ss","country":"🇺🇸_US_美国_37","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_US_美国_38","server":"169.197.143.157","port":9101,"type":"ss","country":"🇺🇸_US_美国_38","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_39","server":"169.197.142.39","port":6679,"type":"ss","country":"🇺🇸_US_美国_39","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸_US_美国_40","server":"169.197.143.157","port":8091,"type":"ss","country":"🇺🇸_US_美国_40","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸_US_美国_41","server":"169.197.143.157","port":7307,"type":"ss","country":"🇺🇸_US_美国_41","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_42","server":"169.197.143.157","port":5003,"type":"ss","country":"🇺🇸_US_美国_42","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸_US_美国_43","server":"169.197.143.157","port":9102,"type":"ss","country":"🇺🇸_US_美国_43","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸_US_美国_44","server":"169.197.143.157","port":8009,"type":"ss","country":"🇺🇸_US_美国_44","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇺🇸_US_美国_45","server":"169.197.142.39","port":8119,"type":"ss","country":"🇺🇸_US_美国_45","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸_US_美国_46","server":"169.197.142.39","port":8888,"type":"ss","country":"🇺🇸_US_美国_46","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_47","server":"169.197.143.157","port":8118,"type":"ss","country":"🇺🇸_US_美国_47","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸_US_美国_48","server":"169.197.143.157","port":2375,"type":"ss","country":"🇺🇸_US_美国_48","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"-tg频道:atbpjzx2_3","server":"vn04v2.vpnsieure.com","port":80,"type":"vmess","uuid":"330efbdb-7171-4fd1-a524-d7b7d8e76732","alterId":0,"cipher":"auto","country":"-tg频道:atbpjzx2_3","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/vpnsieure","headers":{"host":"livestream2.tv360.vn"}}}
+  - {"name":"加拿大-tg频道:atbpjzx2_4","server":"134.195.196.205","port":5004,"type":"ss","country":"加拿大-tg频道:atbpjzx2_4","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国-tg频道:atbpjzx2_5","server":"137.135.10.138","port":51000,"type":"ss","country":"美国-tg频道:atbpjzx2_5","cipher":"aes-128-gcm","password":"ae93d689-f6ce-429b-9855-4f5744b3dfea"}
+  - {"name":"日本-tg频道:atbpjzx2_6","server":"13.230.206.182","port":51000,"type":"ss","country":"日本-tg频道:atbpjzx2_6","cipher":"aes-128-gcm","password":"ae93d689-f6ce-429b-9855-4f5744b3dfea"}
+  - {"name":"中国-tg频道:atbpjzx2_7","server":"120.232.214.26","port":35001,"type":"trojan","country":"中国-tg频道:atbpjzx2_7","skip-cert-verify":true,"udp":true,"password":"ae93d689-f6ce-429b-9855-4f5744b3dfea"}
+  - {"name":"中国-tg频道:atbpjzx2_8","server":"120.240.168.120","port":51003,"type":"ss","country":"中国-tg频道:atbpjzx2_8","cipher":"aes-128-gcm","password":"ae93d689-f6ce-429b-9855-4f5744b3dfea"}
+  - {"name":"日本-tg频道:atbpjzx2_9","server":"85.208.108.58","port":8080,"type":"ss","country":"日本-tg频道:atbpjzx2_9","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"加拿大-tg频道:atbpjzx2_10","server":"134.195.196.205","port":6379,"type":"ss","country":"加拿大-tg频道:atbpjzx2_10","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"英国-tg频道:atbpjzx2_11","server":"172.99.190.35","port":3389,"type":"ss","country":"英国-tg频道:atbpjzx2_11","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"日本-tg频道:atbpjzx2_12","server":"v2-1.godlight.xyz","port":12240,"type":"vmess","uuid":"719d4cec-82a8-4a65-ad01-32cf08f2c988","alterId":0,"cipher":"auto","country":"日本-tg频道:atbpjzx2_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/j75g1461x","headers":{"host":"v2-1.godlight.xyz"}}}
+  - {"name":"英国-tg频道:atbpjzx2_13","server":"172.99.190.61","port":5500,"type":"ss","country":"英国-tg频道:atbpjzx2_13","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"英国-tg频道:atbpjzx2_14","server":"172.99.190.50","port":5004,"type":"ss","country":"英国-tg频道:atbpjzx2_14","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"英国-tg频道:atbpjzx2_15","server":"172.99.190.35","port":5601,"type":"ss","country":"英国-tg频道:atbpjzx2_15","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"英国-tg频道:atbpjzx2_16","server":"172.99.190.61","port":5601,"type":"ss","country":"英国-tg频道:atbpjzx2_16","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"中国-tg频道:atbpjzx2_17","server":"120.232.214.26","port":35003,"type":"trojan","country":"中国-tg频道:atbpjzx2_17","skip-cert-verify":true,"udp":true,"password":"ae93d689-f6ce-429b-9855-4f5744b3dfea"}
+  - {"name":"日本-tg频道:atbpjzx2_18","server":"jgwdb4.gaox.ml","port":443,"type":"trojan","country":"日本-tg频道:atbpjzx2_18","skip-cert-verify":true,"udp":true,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2"}
+  - {"name":"英国-tg频道:atbpjzx2_19","server":"172.99.190.35","port":443,"type":"ss","country":"英国-tg频道:atbpjzx2_19","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"中国-tg频道:atbpjzx2_20","server":"43.154.46.228","port":49930,"type":"vmess","uuid":"051088e3-f62e-4cf6-a199-ab98adcb822b","alterId":0,"cipher":"auto","country":"中国-tg频道:atbpjzx2_20","skip-cert-verify":true,"tls":false,"network":"http","ws-opts":{"path":"/","headers":{"host":"43.154.46.228"}}}
+  - {"name":"中国-tg频道:atbpjzx2_21","server":"120.240.168.120","port":51002,"type":"ss","country":"中国-tg频道:atbpjzx2_21","cipher":"aes-128-gcm","password":"ae93d689-f6ce-429b-9855-4f5744b3dfea"}
+  - {"name":"中国-tg频道:atbpjzx2_22","server":"cm.mj-cn.cyou","port":16617,"type":"vmess","uuid":"455af770-9c42-424e-b284-cb51655d5228","alterId":0,"cipher":"auto","country":"中国-tg频道:atbpjzx2_22","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cm.mj-cn.cyou"}}}
+  - {"name":"中国-tg频道:atbpjzx2_23","server":"139.227.191.174","port":35003,"type":"trojan","country":"中国-tg频道:atbpjzx2_23","skip-cert-verify":true,"udp":true,"password":"ae93d689-f6ce-429b-9855-4f5744b3dfea"}
+  - {"name":"英国-tg频道:atbpjzx2_24","server":"172.99.190.61","port":8881,"type":"ss","country":"英国-tg频道:atbpjzx2_24","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"英国-tg频道:atbpjzx2_25","server":"172.99.190.50","port":2375,"type":"ss","country":"英国-tg频道:atbpjzx2_25","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"英国-tg频道:atbpjzx2_26","server":"172.99.190.50","port":6679,"type":"ss","country":"英国-tg频道:atbpjzx2_26","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"英国-tg频道:atbpjzx2_27","server":"172.99.190.50","port":6697,"type":"ss","country":"英国-tg频道:atbpjzx2_27","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"英国-tg频道:atbpjzx2_28","server":"172.99.190.35","port":6679,"type":"ss","country":"英国-tg频道:atbpjzx2_28","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"英国-tg频道:atbpjzx2_29","server":"172.99.190.35","port":5001,"type":"ss","country":"英国-tg频道:atbpjzx2_29","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国-tg频道:atbpjzx2_30","server":"0001.jp.genzpn.com","port":443,"type":"trojan","country":"美国-tg频道:atbpjzx2_30","skip-cert-verify":true,"udp":true,"password":"85a173a6-cbac-44b7-83b7-0c53d4aadf93"}
+  - {"name":"英国-tg频道:atbpjzx2_31","server":"172.99.190.50","port":5000,"type":"ss","country":"英国-tg频道:atbpjzx2_31","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"英国-tg频道:atbpjzx2_32","server":"172.99.190.61","port":5004,"type":"ss","country":"英国-tg频道:atbpjzx2_32","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国-tg频道:atbpjzx2_33","server":"20.230.146.155","port":262,"type":"vmess","uuid":"eec166d5-25d5-42d2-ce7d-83fca85d2610","alterId":0,"cipher":"auto","country":"美国-tg频道:atbpjzx2_33","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"20.230.146.155"}}}
+  - {"name":"英国-tg频道:atbpjzx2_34","server":"172.99.190.35","port":5500,"type":"ss","country":"英国-tg频道:atbpjzx2_34","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国-tg频道:atbpjzx2_35","server":"38.68.135.19","port":5003,"type":"ss","country":"美国-tg频道:atbpjzx2_35","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"英国-tg频道:atbpjzx2_36","server":"172.99.190.50","port":5003,"type":"ss","country":"英国-tg频道:atbpjzx2_36","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"英国-tg频道:atbpjzx2_37","server":"172.99.190.35","port":5000,"type":"ss","country":"英国-tg频道:atbpjzx2_37","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"英国-tg频道:atbpjzx2_38","server":"172.99.190.35","port":6697,"type":"ss","country":"英国-tg频道:atbpjzx2_38","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"英国-tg频道:atbpjzx2_39","server":"172.99.190.61","port":5003,"type":"ss","country":"英国-tg频道:atbpjzx2_39","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"英国-tg频道:atbpjzx2_40","server":"172.99.190.35","port":5004,"type":"ss","country":"英国-tg频道:atbpjzx2_40","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"英国-tg频道:atbpjzx2_41","server":"172.99.190.61","port":6679,"type":"ss","country":"英国-tg频道:atbpjzx2_41","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"英国-tg频道:atbpjzx2_42","server":"172.99.190.61","port":5000,"type":"ss","country":"英国-tg频道:atbpjzx2_42","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"英国-tg频道:atbpjzx2_43","server":"172.99.190.61","port":2376,"type":"ss","country":"英国-tg频道:atbpjzx2_43","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"印度-tg频道:atbpjzx2_44","server":"jgwhdlb4.gaox.ml","port":443,"type":"trojan","country":"印度-tg频道:atbpjzx2_44","skip-cert-verify":true,"udp":true,"password":"081a4198-d664-4bc5-a7c6-e35982da964b"}
+  - {"name":"英国-tg频道:atbpjzx2_45","server":"172.99.190.61","port":5600,"type":"ss","country":"英国-tg频道:atbpjzx2_45","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"英国-tg频道:atbpjzx2_46","server":"172.99.190.61","port":3306,"type":"ss","country":"英国-tg频道:atbpjzx2_46","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"台湾-tg频道:atbpjzx2_47","server":"tw.node.qchwnd.moe","port":44608,"type":"trojan","country":"台湾-tg频道:atbpjzx2_47","skip-cert-verify":true,"udp":true,"password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790"}
+  - {"name":"英国-tg频道:atbpjzx2_48","server":"172.99.190.50","port":5601,"type":"ss","country":"英国-tg频道:atbpjzx2_48","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"-tg频道:atbpjzx2_49","server":"vn02v2.vpnsieure.com","port":80,"type":"vmess","uuid":"330efbdb-7171-4fd1-a524-d7b7d8e76732","alterId":0,"cipher":"auto","country":"-tg频道:atbpjzx2_49","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/vpnsieure","headers":{"host":"livestream2.tv360.vn"}}}
+  - {"name":"英国-tg频道:atbpjzx2_50","server":"172.99.190.35","port":3306,"type":"ss","country":"英国-tg频道:atbpjzx2_50","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"英国-tg频道:atbpjzx2_51","server":"172.99.190.35","port":9101,"type":"ss","country":"英国-tg频道:atbpjzx2_51","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"英国-tg频道:atbpjzx2_52","server":"172.99.190.61","port":6379,"type":"ss","country":"英国-tg频道:atbpjzx2_52","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"英国-tg频道:atbpjzx2_53","server":"172.99.190.50","port":2376,"type":"ss","country":"英国-tg频道:atbpjzx2_53","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"英国-tg频道:atbpjzx2_54","server":"172.99.190.50","port":5001,"type":"ss","country":"英国-tg频道:atbpjzx2_54","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"英国-tg频道:atbpjzx2_55","server":"172.99.190.35","port":8888,"type":"ss","country":"英国-tg频道:atbpjzx2_55","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"澳大利亚-tg频道:atbpjzx2_56","server":"jgwxn4.gaox.ml","port":443,"type":"trojan","country":"澳大利亚-tg频道:atbpjzx2_56","skip-cert-verify":true,"udp":true,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819"}
+  - {"name":"加拿大-tg频道:atbpjzx2_57","server":"134.195.196.205","port":443,"type":"ss","country":"加拿大-tg频道:atbpjzx2_57","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"加拿大-tg频道:atbpjzx2_58","server":"134.195.196.205","port":5500,"type":"ss","country":"加拿大-tg频道:atbpjzx2_58","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"英国-tg频道:atbpjzx2_59","server":"172.99.190.35","port":5600,"type":"ss","country":"英国-tg频道:atbpjzx2_59","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"英国-tg频道:atbpjzx2_60","server":"172.99.190.61","port":443,"type":"ss","country":"英国-tg频道:atbpjzx2_60","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"中国-tg频道:atbpjzx2_61","server":"139.227.191.174","port":35001,"type":"trojan","country":"中国-tg频道:atbpjzx2_61","skip-cert-verify":true,"udp":true,"password":"ae93d689-f6ce-429b-9855-4f5744b3dfea"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇬🇧_GB_英国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇬🇧_GB_英国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
+      - '-tg频道:atbpjzx2_3'
+      - 加拿大-tg频道:atbpjzx2_4
+      - 美国-tg频道:atbpjzx2_5
+      - 日本-tg频道:atbpjzx2_6
+      - 中国-tg频道:atbpjzx2_7
+      - 中国-tg频道:atbpjzx2_8
+      - 日本-tg频道:atbpjzx2_9
+      - 加拿大-tg频道:atbpjzx2_10
+      - 英国-tg频道:atbpjzx2_11
+      - 日本-tg频道:atbpjzx2_12
+      - 英国-tg频道:atbpjzx2_13
+      - 英国-tg频道:atbpjzx2_14
+      - 英国-tg频道:atbpjzx2_15
+      - 英国-tg频道:atbpjzx2_16
+      - 中国-tg频道:atbpjzx2_17
+      - 日本-tg频道:atbpjzx2_18
+      - 英国-tg频道:atbpjzx2_19
+      - 中国-tg频道:atbpjzx2_20
+      - 中国-tg频道:atbpjzx2_21
+      - 中国-tg频道:atbpjzx2_22
+      - 中国-tg频道:atbpjzx2_23
+      - 英国-tg频道:atbpjzx2_24
+      - 英国-tg频道:atbpjzx2_25
+      - 英国-tg频道:atbpjzx2_26
+      - 英国-tg频道:atbpjzx2_27
+      - 英国-tg频道:atbpjzx2_28
+      - 英国-tg频道:atbpjzx2_29
+      - 美国-tg频道:atbpjzx2_30
+      - 英国-tg频道:atbpjzx2_31
+      - 英国-tg频道:atbpjzx2_32
+      - 美国-tg频道:atbpjzx2_33
+      - 英国-tg频道:atbpjzx2_34
+      - 美国-tg频道:atbpjzx2_35
+      - 英国-tg频道:atbpjzx2_36
+      - 英国-tg频道:atbpjzx2_37
+      - 英国-tg频道:atbpjzx2_38
+      - 英国-tg频道:atbpjzx2_39
+      - 英国-tg频道:atbpjzx2_40
+      - 英国-tg频道:atbpjzx2_41
+      - 英国-tg频道:atbpjzx2_42
+      - 英国-tg频道:atbpjzx2_43
+      - 印度-tg频道:atbpjzx2_44
+      - 英国-tg频道:atbpjzx2_45
+      - 英国-tg频道:atbpjzx2_46
+      - 台湾-tg频道:atbpjzx2_47
+      - 英国-tg频道:atbpjzx2_48
+      - '-tg频道:atbpjzx2_49'
+      - 英国-tg频道:atbpjzx2_50
+      - 英国-tg频道:atbpjzx2_51
+      - 英国-tg频道:atbpjzx2_52
+      - 英国-tg频道:atbpjzx2_53
+      - 英国-tg频道:atbpjzx2_54
+      - 英国-tg频道:atbpjzx2_55
+      - 澳大利亚-tg频道:atbpjzx2_56
+      - 加拿大-tg频道:atbpjzx2_57
+      - 加拿大-tg频道:atbpjzx2_58
+      - 英国-tg频道:atbpjzx2_59
+      - 英国-tg频道:atbpjzx2_60
+      - 中国-tg频道:atbpjzx2_61
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇬🇧_GB_英国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇬🇧_GB_英国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
+      - '-tg频道:atbpjzx2_3'
+      - 加拿大-tg频道:atbpjzx2_4
+      - 美国-tg频道:atbpjzx2_5
+      - 日本-tg频道:atbpjzx2_6
+      - 中国-tg频道:atbpjzx2_7
+      - 中国-tg频道:atbpjzx2_8
+      - 日本-tg频道:atbpjzx2_9
+      - 加拿大-tg频道:atbpjzx2_10
+      - 英国-tg频道:atbpjzx2_11
+      - 日本-tg频道:atbpjzx2_12
+      - 英国-tg频道:atbpjzx2_13
+      - 英国-tg频道:atbpjzx2_14
+      - 英国-tg频道:atbpjzx2_15
+      - 英国-tg频道:atbpjzx2_16
+      - 中国-tg频道:atbpjzx2_17
+      - 日本-tg频道:atbpjzx2_18
+      - 英国-tg频道:atbpjzx2_19
+      - 中国-tg频道:atbpjzx2_20
+      - 中国-tg频道:atbpjzx2_21
+      - 中国-tg频道:atbpjzx2_22
+      - 中国-tg频道:atbpjzx2_23
+      - 英国-tg频道:atbpjzx2_24
+      - 英国-tg频道:atbpjzx2_25
+      - 英国-tg频道:atbpjzx2_26
+      - 英国-tg频道:atbpjzx2_27
+      - 英国-tg频道:atbpjzx2_28
+      - 英国-tg频道:atbpjzx2_29
+      - 美国-tg频道:atbpjzx2_30
+      - 英国-tg频道:atbpjzx2_31
+      - 英国-tg频道:atbpjzx2_32
+      - 美国-tg频道:atbpjzx2_33
+      - 英国-tg频道:atbpjzx2_34
+      - 美国-tg频道:atbpjzx2_35
+      - 英国-tg频道:atbpjzx2_36
+      - 英国-tg频道:atbpjzx2_37
+      - 英国-tg频道:atbpjzx2_38
+      - 英国-tg频道:atbpjzx2_39
+      - 英国-tg频道:atbpjzx2_40
+      - 英国-tg频道:atbpjzx2_41
+      - 英国-tg频道:atbpjzx2_42
+      - 英国-tg频道:atbpjzx2_43
+      - 印度-tg频道:atbpjzx2_44
+      - 英国-tg频道:atbpjzx2_45
+      - 英国-tg频道:atbpjzx2_46
+      - 台湾-tg频道:atbpjzx2_47
+      - 英国-tg频道:atbpjzx2_48
+      - '-tg频道:atbpjzx2_49'
+      - 英国-tg频道:atbpjzx2_50
+      - 英国-tg频道:atbpjzx2_51
+      - 英国-tg频道:atbpjzx2_52
+      - 英国-tg频道:atbpjzx2_53
+      - 英国-tg频道:atbpjzx2_54
+      - 英国-tg频道:atbpjzx2_55
+      - 澳大利亚-tg频道:atbpjzx2_56
+      - 加拿大-tg频道:atbpjzx2_57
+      - 加拿大-tg频道:atbpjzx2_58
+      - 英国-tg频道:atbpjzx2_59
+      - 英国-tg频道:atbpjzx2_60
+      - 中国-tg频道:atbpjzx2_61
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇬🇧_GB_英国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇬🇧_GB_英国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
+      - '-tg频道:atbpjzx2_3'
+      - 加拿大-tg频道:atbpjzx2_4
+      - 美国-tg频道:atbpjzx2_5
+      - 日本-tg频道:atbpjzx2_6
+      - 中国-tg频道:atbpjzx2_7
+      - 中国-tg频道:atbpjzx2_8
+      - 日本-tg频道:atbpjzx2_9
+      - 加拿大-tg频道:atbpjzx2_10
+      - 英国-tg频道:atbpjzx2_11
+      - 日本-tg频道:atbpjzx2_12
+      - 英国-tg频道:atbpjzx2_13
+      - 英国-tg频道:atbpjzx2_14
+      - 英国-tg频道:atbpjzx2_15
+      - 英国-tg频道:atbpjzx2_16
+      - 中国-tg频道:atbpjzx2_17
+      - 日本-tg频道:atbpjzx2_18
+      - 英国-tg频道:atbpjzx2_19
+      - 中国-tg频道:atbpjzx2_20
+      - 中国-tg频道:atbpjzx2_21
+      - 中国-tg频道:atbpjzx2_22
+      - 中国-tg频道:atbpjzx2_23
+      - 英国-tg频道:atbpjzx2_24
+      - 英国-tg频道:atbpjzx2_25
+      - 英国-tg频道:atbpjzx2_26
+      - 英国-tg频道:atbpjzx2_27
+      - 英国-tg频道:atbpjzx2_28
+      - 英国-tg频道:atbpjzx2_29
+      - 美国-tg频道:atbpjzx2_30
+      - 英国-tg频道:atbpjzx2_31
+      - 英国-tg频道:atbpjzx2_32
+      - 美国-tg频道:atbpjzx2_33
+      - 英国-tg频道:atbpjzx2_34
+      - 美国-tg频道:atbpjzx2_35
+      - 英国-tg频道:atbpjzx2_36
+      - 英国-tg频道:atbpjzx2_37
+      - 英国-tg频道:atbpjzx2_38
+      - 英国-tg频道:atbpjzx2_39
+      - 英国-tg频道:atbpjzx2_40
+      - 英国-tg频道:atbpjzx2_41
+      - 英国-tg频道:atbpjzx2_42
+      - 英国-tg频道:atbpjzx2_43
+      - 印度-tg频道:atbpjzx2_44
+      - 英国-tg频道:atbpjzx2_45
+      - 英国-tg频道:atbpjzx2_46
+      - 台湾-tg频道:atbpjzx2_47
+      - 英国-tg频道:atbpjzx2_48
+      - '-tg频道:atbpjzx2_49'
+      - 英国-tg频道:atbpjzx2_50
+      - 英国-tg频道:atbpjzx2_51
+      - 英国-tg频道:atbpjzx2_52
+      - 英国-tg频道:atbpjzx2_53
+      - 英国-tg频道:atbpjzx2_54
+      - 英国-tg频道:atbpjzx2_55
+      - 澳大利亚-tg频道:atbpjzx2_56
+      - 加拿大-tg频道:atbpjzx2_57
+      - 加拿大-tg频道:atbpjzx2_58
+      - 英国-tg频道:atbpjzx2_59
+      - 英国-tg频道:atbpjzx2_60
+      - 中国-tg频道:atbpjzx2_61
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇬🇧_GB_英国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇬🇧_GB_英国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
+      - '-tg频道:atbpjzx2_3'
+      - 加拿大-tg频道:atbpjzx2_4
+      - 美国-tg频道:atbpjzx2_5
+      - 日本-tg频道:atbpjzx2_6
+      - 中国-tg频道:atbpjzx2_7
+      - 中国-tg频道:atbpjzx2_8
+      - 日本-tg频道:atbpjzx2_9
+      - 加拿大-tg频道:atbpjzx2_10
+      - 英国-tg频道:atbpjzx2_11
+      - 日本-tg频道:atbpjzx2_12
+      - 英国-tg频道:atbpjzx2_13
+      - 英国-tg频道:atbpjzx2_14
+      - 英国-tg频道:atbpjzx2_15
+      - 英国-tg频道:atbpjzx2_16
+      - 中国-tg频道:atbpjzx2_17
+      - 日本-tg频道:atbpjzx2_18
+      - 英国-tg频道:atbpjzx2_19
+      - 中国-tg频道:atbpjzx2_20
+      - 中国-tg频道:atbpjzx2_21
+      - 中国-tg频道:atbpjzx2_22
+      - 中国-tg频道:atbpjzx2_23
+      - 英国-tg频道:atbpjzx2_24
+      - 英国-tg频道:atbpjzx2_25
+      - 英国-tg频道:atbpjzx2_26
+      - 英国-tg频道:atbpjzx2_27
+      - 英国-tg频道:atbpjzx2_28
+      - 英国-tg频道:atbpjzx2_29
+      - 美国-tg频道:atbpjzx2_30
+      - 英国-tg频道:atbpjzx2_31
+      - 英国-tg频道:atbpjzx2_32
+      - 美国-tg频道:atbpjzx2_33
+      - 英国-tg频道:atbpjzx2_34
+      - 美国-tg频道:atbpjzx2_35
+      - 英国-tg频道:atbpjzx2_36
+      - 英国-tg频道:atbpjzx2_37
+      - 英国-tg频道:atbpjzx2_38
+      - 英国-tg频道:atbpjzx2_39
+      - 英国-tg频道:atbpjzx2_40
+      - 英国-tg频道:atbpjzx2_41
+      - 英国-tg频道:atbpjzx2_42
+      - 英国-tg频道:atbpjzx2_43
+      - 印度-tg频道:atbpjzx2_44
+      - 英国-tg频道:atbpjzx2_45
+      - 英国-tg频道:atbpjzx2_46
+      - 台湾-tg频道:atbpjzx2_47
+      - 英国-tg频道:atbpjzx2_48
+      - '-tg频道:atbpjzx2_49'
+      - 英国-tg频道:atbpjzx2_50
+      - 英国-tg频道:atbpjzx2_51
+      - 英国-tg频道:atbpjzx2_52
+      - 英国-tg频道:atbpjzx2_53
+      - 英国-tg频道:atbpjzx2_54
+      - 英国-tg频道:atbpjzx2_55
+      - 澳大利亚-tg频道:atbpjzx2_56
+      - 加拿大-tg频道:atbpjzx2_57
+      - 加拿大-tg频道:atbpjzx2_58
+      - 英国-tg频道:atbpjzx2_59
+      - 英国-tg频道:atbpjzx2_60
+      - 中国-tg频道:atbpjzx2_61
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇬🇧_GB_英国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇬🇧_GB_英国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
+      - '-tg频道:atbpjzx2_3'
+      - 加拿大-tg频道:atbpjzx2_4
+      - 美国-tg频道:atbpjzx2_5
+      - 日本-tg频道:atbpjzx2_6
+      - 中国-tg频道:atbpjzx2_7
+      - 中国-tg频道:atbpjzx2_8
+      - 日本-tg频道:atbpjzx2_9
+      - 加拿大-tg频道:atbpjzx2_10
+      - 英国-tg频道:atbpjzx2_11
+      - 日本-tg频道:atbpjzx2_12
+      - 英国-tg频道:atbpjzx2_13
+      - 英国-tg频道:atbpjzx2_14
+      - 英国-tg频道:atbpjzx2_15
+      - 英国-tg频道:atbpjzx2_16
+      - 中国-tg频道:atbpjzx2_17
+      - 日本-tg频道:atbpjzx2_18
+      - 英国-tg频道:atbpjzx2_19
+      - 中国-tg频道:atbpjzx2_20
+      - 中国-tg频道:atbpjzx2_21
+      - 中国-tg频道:atbpjzx2_22
+      - 中国-tg频道:atbpjzx2_23
+      - 英国-tg频道:atbpjzx2_24
+      - 英国-tg频道:atbpjzx2_25
+      - 英国-tg频道:atbpjzx2_26
+      - 英国-tg频道:atbpjzx2_27
+      - 英国-tg频道:atbpjzx2_28
+      - 英国-tg频道:atbpjzx2_29
+      - 美国-tg频道:atbpjzx2_30
+      - 英国-tg频道:atbpjzx2_31
+      - 英国-tg频道:atbpjzx2_32
+      - 美国-tg频道:atbpjzx2_33
+      - 英国-tg频道:atbpjzx2_34
+      - 美国-tg频道:atbpjzx2_35
+      - 英国-tg频道:atbpjzx2_36
+      - 英国-tg频道:atbpjzx2_37
+      - 英国-tg频道:atbpjzx2_38
+      - 英国-tg频道:atbpjzx2_39
+      - 英国-tg频道:atbpjzx2_40
+      - 英国-tg频道:atbpjzx2_41
+      - 英国-tg频道:atbpjzx2_42
+      - 英国-tg频道:atbpjzx2_43
+      - 印度-tg频道:atbpjzx2_44
+      - 英国-tg频道:atbpjzx2_45
+      - 英国-tg频道:atbpjzx2_46
+      - 台湾-tg频道:atbpjzx2_47
+      - 英国-tg频道:atbpjzx2_48
+      - '-tg频道:atbpjzx2_49'
+      - 英国-tg频道:atbpjzx2_50
+      - 英国-tg频道:atbpjzx2_51
+      - 英国-tg频道:atbpjzx2_52
+      - 英国-tg频道:atbpjzx2_53
+      - 英国-tg频道:atbpjzx2_54
+      - 英国-tg频道:atbpjzx2_55
+      - 澳大利亚-tg频道:atbpjzx2_56
+      - 加拿大-tg频道:atbpjzx2_57
+      - 加拿大-tg频道:atbpjzx2_58
+      - 英国-tg频道:atbpjzx2_59
+      - 英国-tg频道:atbpjzx2_60
+      - 中国-tg频道:atbpjzx2_61
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇬🇧_GB_英国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇬🇧_GB_英国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
+      - '-tg频道:atbpjzx2_3'
+      - 加拿大-tg频道:atbpjzx2_4
+      - 美国-tg频道:atbpjzx2_5
+      - 日本-tg频道:atbpjzx2_6
+      - 中国-tg频道:atbpjzx2_7
+      - 中国-tg频道:atbpjzx2_8
+      - 日本-tg频道:atbpjzx2_9
+      - 加拿大-tg频道:atbpjzx2_10
+      - 英国-tg频道:atbpjzx2_11
+      - 日本-tg频道:atbpjzx2_12
+      - 英国-tg频道:atbpjzx2_13
+      - 英国-tg频道:atbpjzx2_14
+      - 英国-tg频道:atbpjzx2_15
+      - 英国-tg频道:atbpjzx2_16
+      - 中国-tg频道:atbpjzx2_17
+      - 日本-tg频道:atbpjzx2_18
+      - 英国-tg频道:atbpjzx2_19
+      - 中国-tg频道:atbpjzx2_20
+      - 中国-tg频道:atbpjzx2_21
+      - 中国-tg频道:atbpjzx2_22
+      - 中国-tg频道:atbpjzx2_23
+      - 英国-tg频道:atbpjzx2_24
+      - 英国-tg频道:atbpjzx2_25
+      - 英国-tg频道:atbpjzx2_26
+      - 英国-tg频道:atbpjzx2_27
+      - 英国-tg频道:atbpjzx2_28
+      - 英国-tg频道:atbpjzx2_29
+      - 美国-tg频道:atbpjzx2_30
+      - 英国-tg频道:atbpjzx2_31
+      - 英国-tg频道:atbpjzx2_32
+      - 美国-tg频道:atbpjzx2_33
+      - 英国-tg频道:atbpjzx2_34
+      - 美国-tg频道:atbpjzx2_35
+      - 英国-tg频道:atbpjzx2_36
+      - 英国-tg频道:atbpjzx2_37
+      - 英国-tg频道:atbpjzx2_38
+      - 英国-tg频道:atbpjzx2_39
+      - 英国-tg频道:atbpjzx2_40
+      - 英国-tg频道:atbpjzx2_41
+      - 英国-tg频道:atbpjzx2_42
+      - 英国-tg频道:atbpjzx2_43
+      - 印度-tg频道:atbpjzx2_44
+      - 英国-tg频道:atbpjzx2_45
+      - 英国-tg频道:atbpjzx2_46
+      - 台湾-tg频道:atbpjzx2_47
+      - 英国-tg频道:atbpjzx2_48
+      - '-tg频道:atbpjzx2_49'
+      - 英国-tg频道:atbpjzx2_50
+      - 英国-tg频道:atbpjzx2_51
+      - 英国-tg频道:atbpjzx2_52
+      - 英国-tg频道:atbpjzx2_53
+      - 英国-tg频道:atbpjzx2_54
+      - 英国-tg频道:atbpjzx2_55
+      - 澳大利亚-tg频道:atbpjzx2_56
+      - 加拿大-tg频道:atbpjzx2_57
+      - 加拿大-tg频道:atbpjzx2_58
+      - 英国-tg频道:atbpjzx2_59
+      - 英国-tg频道:atbpjzx2_60
+      - 中国-tg频道:atbpjzx2_61
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -396,54 +473,65 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国_3
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
-      - 🇬🇧_GB_英国_6
-      - 🇬🇧_GB_英国_7
-      - 🇬🇧_GB_英国_8
-      - 🇬🇧_GB_英国_9
-      - 🇬🇧_GB_英国_10
-      - 🇬🇧_GB_英国_11
-      - 🇨🇦_CA_加拿大_12
-      - 🇬🇧_GB_英国_13
-      - 🇨🇦_CA_加拿大_14
-      - 🇬🇧_GB_英国_15
-      - 🇨🇦_CA_加拿大_16
-      - 🇨🇦_CA_加拿大_17
-      - 🇬🇧_GB_英国_18
-      - 🇬🇧_GB_英国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_23
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_28
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 🇺🇸_US_美国_37
-      - 🇺🇸_US_美国_38
-      - 🇺🇸_US_美国_39
-      - 🇺🇸_US_美国_40
-      - 🇺🇸_US_美国_41
-      - 🇺🇸_US_美国_42
-      - 🇺🇸_US_美国_43
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
-      - 🇺🇸_US_美国_48
+      - '-tg频道:atbpjzx2_3'
+      - 加拿大-tg频道:atbpjzx2_4
+      - 美国-tg频道:atbpjzx2_5
+      - 日本-tg频道:atbpjzx2_6
+      - 中国-tg频道:atbpjzx2_7
+      - 中国-tg频道:atbpjzx2_8
+      - 日本-tg频道:atbpjzx2_9
+      - 加拿大-tg频道:atbpjzx2_10
+      - 英国-tg频道:atbpjzx2_11
+      - 日本-tg频道:atbpjzx2_12
+      - 英国-tg频道:atbpjzx2_13
+      - 英国-tg频道:atbpjzx2_14
+      - 英国-tg频道:atbpjzx2_15
+      - 英国-tg频道:atbpjzx2_16
+      - 中国-tg频道:atbpjzx2_17
+      - 日本-tg频道:atbpjzx2_18
+      - 英国-tg频道:atbpjzx2_19
+      - 中国-tg频道:atbpjzx2_20
+      - 中国-tg频道:atbpjzx2_21
+      - 中国-tg频道:atbpjzx2_22
+      - 中国-tg频道:atbpjzx2_23
+      - 英国-tg频道:atbpjzx2_24
+      - 英国-tg频道:atbpjzx2_25
+      - 英国-tg频道:atbpjzx2_26
+      - 英国-tg频道:atbpjzx2_27
+      - 英国-tg频道:atbpjzx2_28
+      - 英国-tg频道:atbpjzx2_29
+      - 美国-tg频道:atbpjzx2_30
+      - 英国-tg频道:atbpjzx2_31
+      - 英国-tg频道:atbpjzx2_32
+      - 美国-tg频道:atbpjzx2_33
+      - 英国-tg频道:atbpjzx2_34
+      - 美国-tg频道:atbpjzx2_35
+      - 英国-tg频道:atbpjzx2_36
+      - 英国-tg频道:atbpjzx2_37
+      - 英国-tg频道:atbpjzx2_38
+      - 英国-tg频道:atbpjzx2_39
+      - 英国-tg频道:atbpjzx2_40
+      - 英国-tg频道:atbpjzx2_41
+      - 英国-tg频道:atbpjzx2_42
+      - 英国-tg频道:atbpjzx2_43
+      - 印度-tg频道:atbpjzx2_44
+      - 英国-tg频道:atbpjzx2_45
+      - 英国-tg频道:atbpjzx2_46
+      - 台湾-tg频道:atbpjzx2_47
+      - 英国-tg频道:atbpjzx2_48
+      - '-tg频道:atbpjzx2_49'
+      - 英国-tg频道:atbpjzx2_50
+      - 英国-tg频道:atbpjzx2_51
+      - 英国-tg频道:atbpjzx2_52
+      - 英国-tg频道:atbpjzx2_53
+      - 英国-tg频道:atbpjzx2_54
+      - 英国-tg频道:atbpjzx2_55
+      - 澳大利亚-tg频道:atbpjzx2_56
+      - 加拿大-tg频道:atbpjzx2_57
+      - 加拿大-tg频道:atbpjzx2_58
+      - 英国-tg频道:atbpjzx2_59
+      - 英国-tg频道:atbpjzx2_60
+      - 中国-tg频道:atbpjzx2_61
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
