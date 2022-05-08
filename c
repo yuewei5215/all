@@ -5,95 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇬🇧_GB_英国_1","server":"152.89.210.105","port":9020,"type":"ss","country":"🇬🇧_GB_英国_1","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
-  - {"name":"🇩🇪_DE_德国_2","server":"5.183.179.148","port":9001,"type":"ss","country":"🇩🇪_DE_德国_2","cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
-  - {"name":"🇧🇬_BG_保加利亚_3","server":"213.183.63.221","port":9084,"type":"ss","country":"🇧🇬_BG_保加利亚_3","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
-  - {"name":"🇵🇱_PL_波兰_4","server":"217.30.10.63","port":9020,"type":"ss","country":"🇵🇱_PL_波兰_4","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
-  - {"name":"🇺🇸_US_美国_5","server":"169.197.142.39","port":9102,"type":"ss","country":"🇺🇸_US_美国_5","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇬🇧_GB_英国_6","server":"185.167.117.171","port":9088,"type":"ss","country":"🇬🇧_GB_英国_6","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
-  - {"name":"🇺🇸_US_美国_7","server":"38.75.136.102","port":9102,"type":"ss","country":"🇺🇸_US_美国_7","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇩🇪_DE_德国_8","server":"5.183.179.141","port":9010,"type":"ss","country":"🇩🇪_DE_德国_8","cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
+  - {"name":"VTuber联合制作发布www_vtblh_com_1","server":"weixin.babazhuji.com","port":443,"type":"vmess","uuid":"27848739-7e62-4138-9fd3-098a63964b6b","alterId":0,"cipher":"auto","country":"VTuber联合制作发布www_vtblh_com_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/mp"}}
+  - {"name":"VTuber联合制作发布www_vtblh_com_2","server":"167.88.61.70","port":5004,"type":"ss","country":"VTuber联合制作发布www_vtblh_com_2","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"VTuber联合制作发布www_vtblh_com_3","server":"45.79.121.166","port":8882,"type":"ss","country":"VTuber联合制作发布www_vtblh_com_3","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"VTuber联合制作发布www_vtblh_com_4","server":"v2.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"VTuber联合制作发布www_vtblh_com_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
+  - {"name":"VTuber联合制作发布www_vtblh_com_5","server":"38.68.135.19","port":7002,"type":"ss","country":"VTuber联合制作发布www_vtblh_com_5","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"VTuber联合制作发布www_vtblh_com_6","server":"198.57.27.225","port":5600,"type":"ss","country":"VTuber联合制作发布www_vtblh_com_6","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"VTuber联合制作发布www_vtblh_com_7","server":"198.57.27.218","port":8009,"type":"ss","country":"VTuber联合制作发布www_vtblh_com_7","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"VTuber联合制作发布www_vtblh_com_8","server":"172.105.58.152","port":8119,"type":"ss","country":"VTuber联合制作发布www_vtblh_com_8","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"VTuber联合制作发布www_vtblh_com_9","server":"167.88.63.71","port":7306,"type":"ss","country":"VTuber联合制作发布www_vtblh_com_9","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"VTuber联合制作发布www_vtblh_com_10","server":"38.75.136.102","port":7002,"type":"ss","country":"VTuber联合制作发布www_vtblh_com_10","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国_1
-      - 🇩🇪_DE_德国_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇵🇱_PL_波兰_4
-      - 🇺🇸_US_美国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国_7
-      - 🇩🇪_DE_德国_8
+      - VTuber联合制作发布www_vtblh_com_1
+      - VTuber联合制作发布www_vtblh_com_2
+      - VTuber联合制作发布www_vtblh_com_3
+      - VTuber联合制作发布www_vtblh_com_4
+      - VTuber联合制作发布www_vtblh_com_5
+      - VTuber联合制作发布www_vtblh_com_6
+      - VTuber联合制作发布www_vtblh_com_7
+      - VTuber联合制作发布www_vtblh_com_8
+      - VTuber联合制作发布www_vtblh_com_9
+      - VTuber联合制作发布www_vtblh_com_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国_1
-      - 🇩🇪_DE_德国_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇵🇱_PL_波兰_4
-      - 🇺🇸_US_美国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国_7
-      - 🇩🇪_DE_德国_8
+      - VTuber联合制作发布www_vtblh_com_1
+      - VTuber联合制作发布www_vtblh_com_2
+      - VTuber联合制作发布www_vtblh_com_3
+      - VTuber联合制作发布www_vtblh_com_4
+      - VTuber联合制作发布www_vtblh_com_5
+      - VTuber联合制作发布www_vtblh_com_6
+      - VTuber联合制作发布www_vtblh_com_7
+      - VTuber联合制作发布www_vtblh_com_8
+      - VTuber联合制作发布www_vtblh_com_9
+      - VTuber联合制作发布www_vtblh_com_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇩🇪_DE_德国_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇵🇱_PL_波兰_4
-      - 🇺🇸_US_美国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国_7
-      - 🇩🇪_DE_德国_8
+      - VTuber联合制作发布www_vtblh_com_1
+      - VTuber联合制作发布www_vtblh_com_2
+      - VTuber联合制作发布www_vtblh_com_3
+      - VTuber联合制作发布www_vtblh_com_4
+      - VTuber联合制作发布www_vtblh_com_5
+      - VTuber联合制作发布www_vtblh_com_6
+      - VTuber联合制作发布www_vtblh_com_7
+      - VTuber联合制作发布www_vtblh_com_8
+      - VTuber联合制作发布www_vtblh_com_9
+      - VTuber联合制作发布www_vtblh_com_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇩🇪_DE_德国_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇵🇱_PL_波兰_4
-      - 🇺🇸_US_美国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国_7
-      - 🇩🇪_DE_德国_8
+      - VTuber联合制作发布www_vtblh_com_1
+      - VTuber联合制作发布www_vtblh_com_2
+      - VTuber联合制作发布www_vtblh_com_3
+      - VTuber联合制作发布www_vtblh_com_4
+      - VTuber联合制作发布www_vtblh_com_5
+      - VTuber联合制作发布www_vtblh_com_6
+      - VTuber联合制作发布www_vtblh_com_7
+      - VTuber联合制作发布www_vtblh_com_8
+      - VTuber联合制作发布www_vtblh_com_9
+      - VTuber联合制作发布www_vtblh_com_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国_1
-      - 🇩🇪_DE_德国_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇵🇱_PL_波兰_4
-      - 🇺🇸_US_美国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国_7
-      - 🇩🇪_DE_德国_8
+      - VTuber联合制作发布www_vtblh_com_1
+      - VTuber联合制作发布www_vtblh_com_2
+      - VTuber联合制作发布www_vtblh_com_3
+      - VTuber联合制作发布www_vtblh_com_4
+      - VTuber联合制作发布www_vtblh_com_5
+      - VTuber联合制作发布www_vtblh_com_6
+      - VTuber联合制作发布www_vtblh_com_7
+      - VTuber联合制作发布www_vtblh_com_8
+      - VTuber联合制作发布www_vtblh_com_9
+      - VTuber联合制作发布www_vtblh_com_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇩🇪_DE_德国_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇵🇱_PL_波兰_4
-      - 🇺🇸_US_美国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国_7
-      - 🇩🇪_DE_德国_8
+      - VTuber联合制作发布www_vtblh_com_1
+      - VTuber联合制作发布www_vtblh_com_2
+      - VTuber联合制作发布www_vtblh_com_3
+      - VTuber联合制作发布www_vtblh_com_4
+      - VTuber联合制作发布www_vtblh_com_5
+      - VTuber联合制作发布www_vtblh_com_6
+      - VTuber联合制作发布www_vtblh_com_7
+      - VTuber联合制作发布www_vtblh_com_8
+      - VTuber联合制作发布www_vtblh_com_9
+      - VTuber联合制作发布www_vtblh_com_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,14 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_1
-      - 🇩🇪_DE_德国_2
-      - 🇧🇬_BG_保加利亚_3
-      - 🇵🇱_PL_波兰_4
-      - 🇺🇸_US_美国_5
-      - 🇬🇧_GB_英国_6
-      - 🇺🇸_US_美国_7
-      - 🇩🇪_DE_德国_8
+      - VTuber联合制作发布www_vtblh_com_1
+      - VTuber联合制作发布www_vtblh_com_2
+      - VTuber联合制作发布www_vtblh_com_3
+      - VTuber联合制作发布www_vtblh_com_4
+      - VTuber联合制作发布www_vtblh_com_5
+      - VTuber联合制作发布www_vtblh_com_6
+      - VTuber联合制作发布www_vtblh_com_7
+      - VTuber联合制作发布www_vtblh_com_8
+      - VTuber联合制作发布www_vtblh_com_9
+      - VTuber联合制作发布www_vtblh_com_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
