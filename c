@@ -5,389 +5,354 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","http-opts":{"path":["/"]},"server":"43.154.77.196","name":"🇨🇳_CN_中国","port":38539,"uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","network":"http"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.205","port":5601,"name":"🇨🇦_CA_加拿大_1"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"198.57.27.225","port":8118,"name":"🇨🇦_CA_加拿大_2"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"198.57.27.225","port":8888,"name":"🇨🇦_CA_加拿大_3"}
-  - {"type":"ssr","server":"213.183.53.177","port":9011,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"M3t2ZEQcMGRWBjRa","name":"🇷🇺_RU_俄罗斯联邦_1"}
-  - {"type":"ssr","server":"213.183.53.177","port":9056,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rNBfNuuANFCAk7KB","name":"🇷🇺_RU_俄罗斯联邦_2"}
-  - {"type":"ssr","server":"213.183.53.177","port":9005,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZET59LF6DvCC8KVt","name":"🇷🇺_RU_俄罗斯联邦_3"}
-  - {"type":"ssr","server":"213.183.53.177","port":9070,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"bf7v334KKDV3YDhH","name":"🇷🇺_RU_俄罗斯联邦_4"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ","server":"213.183.53.177","port":9094,"name":"🇷🇺_RU_俄罗斯联邦_5"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn","server":"213.183.53.177","port":9088,"name":"🇷🇺_RU_俄罗斯联邦_6"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP","server":"213.183.53.177","port":9003,"name":"🇷🇺_RU_俄罗斯联邦_7"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"198.57.27.225","port":7001,"name":"🇨🇦_CA_加拿大_4"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"198.57.27.225","port":8009,"name":"🇨🇦_CA_加拿大_5"}
-  - {"type":"vmess","server":"20.24.77.204","name":"🇺🇸_US_美国->🇯🇵_JP_日本_1","port":60028,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"198.57.27.225","port":7002,"name":"🇨🇦_CA_加拿大_6"}
-  - {"type":"trojan","name":"🇹🇼_TW_台湾","server":"tw.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44608","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","server":"185.183.84.60","name":"🇺🇸_US_美国_1","port":3306,"uuid":"9b309fbe-4a98-4b15-d853-878d89b18a13","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"20.24.77.204","name":"🇺🇸_US_美国->🇯🇵_JP_日本_2","port":60034,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"20.205.125.236","name":"🇭🇰_HK_香港->🇯🇵_JP_日本","port":60013,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"20.205.11.55","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_1","port":60046,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"20.205.125.236","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_2","port":20004,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"20.205.11.55","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_3","port":60045,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"20.24.77.204","name":"🇺🇸_US_美国_2","port":60014,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"198.57.27.225","port":9102,"name":"🇨🇦_CA_加拿大_7"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"198.57.27.225","port":5500,"name":"🇨🇦_CA_加拿大_8"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"198.57.27.225","port":6697,"name":"🇨🇦_CA_加拿大_9"}
-  - {"type":"ssr","server":"152.89.210.105","port":9064,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"cp8pRSUAyLhTfVWH","name":"🇬🇧_GB_英国_1"}
-  - {"type":"ssr","server":"213.183.53.177","port":9031,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BwcAUZk8hUFAkDGN","name":"🇷🇺_RU_俄罗斯联邦_8"}
-  - {"type":"ssr","server":"213.183.53.177","port":9079,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TPqX8edgbAURcAMb","name":"🇷🇺_RU_俄罗斯联邦_9"}
-  - {"type":"ssr","server":"213.183.53.177","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ","name":"🇷🇺_RU_俄罗斯联邦_10"}
-  - {"type":"ssr","server":"213.183.53.177","port":9027,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"EXN3S3eQpjE7EJu8","name":"🇷🇺_RU_俄罗斯联邦_11"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj","server":"152.89.210.105","port":9084,"name":"🇬🇧_GB_英国_2"}
-  - {"type":"trojan","name":"🇧🇷_BR_巴西","server":"fr.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44612","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","server":"20.205.11.55","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_4","port":60042,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_3","server":"ocikr.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44600","udp":true,"skip-cert-verify":true}
-  - {"type":"ssr","server":"213.183.53.177","port":9053,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"SBM7R883jBmnqe6C","name":"🇷🇺_RU_俄罗斯联邦_12"}
-  - {"type":"vmess","server":"sg02.xqkj.cloud","name":"🇸🇬_SG_新加坡_1","port":1416,"uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":1,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"sg04.xqkj.cloud","name":"🇸🇬_SG_新加坡_2","port":1416,"uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":1,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"sg01.xqkj.cloud","name":"🇸🇬_SG_新加坡_3","port":1416,"uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":1,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"sg03.xqkj.cloud","name":"🇸🇬_SG_新加坡_4","port":1416,"uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":1,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"sg05.xqkj.cloud","name":"🇸🇬_SG_新加坡_5","port":1416,"uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":1,"cipher":"auto","network":"ws"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"198.57.27.225","port":5600,"name":"🇨🇦_CA_加拿大_10"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国->🇩🇪_DE_德国","server":"s2.upyun.online","password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","port":"12340","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM","server":"213.183.53.177","port":9019,"name":"🇷🇺_RU_俄罗斯联邦_13"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt","server":"152.89.210.105","port":9093,"name":"🇬🇧_GB_英国_3"}
-  - {"type":"ssr","server":"213.183.53.177","port":9094,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rpgbNnU9rDDU4aWZ","name":"🇷🇺_RU_俄罗斯联邦_14"}
-  - {"type":"ssr","server":"213.183.53.177","port":9098,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"aLpQtfEZe445QyHk","name":"🇷🇺_RU_俄罗斯联邦_15"}
-  - {"type":"ssr","server":"213.183.53.177","port":9015,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZpNDDKRu9MagNvaf","name":"🇷🇺_RU_俄罗斯联邦_16"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":3306,"name":"🇬🇧_GB_英国_4"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":5601,"name":"🇬🇧_GB_英国_5"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"45.uuuyun.click"}},"server":"45.uuuyun.click","name":"🇭🇰
+    翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港3
+    ||500M","port":"60045","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"46.uuuyun.click"}},"server":"46.uuuyun.click","name":"🇭🇰
+    翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港4
+    ||500M","port":"60046","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"4.uuuyun.click"}},"server":"4.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 1
+    日本|限速100M","port":"20004","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"5.uuuyun.click"}},"server":"5.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 2
+    日本|限速100M","port":"60005","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"8.uuuyun.click"}},"server":"8.uuuyun.click","name":"🇸🇬
+    翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] 3 新加坡
+    |限速100M","port":"60008","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"9.uuuyun.click"}},"server":"9.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 4
+    日本|限速100M","port":"50009","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"10.uuuyun.click"}},"server":"10.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 5
+    日本|限速100M","port":"60010","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"12.uuuyun.click"}},"server":"12.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 6
+    日本|限速100M","port":"60012","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"13.uuuyun.click"}},"server":"13.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 7
+    日本|限速100M","port":"60013","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"21.uuuyun.click"}},"server":"21.uuuyun.click","name":"🇭🇰
+    翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 8
+    香港|限速100M","port":"60021","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"22.uuuyun.click"}},"server":"22.uuuyun.click","name":"🇭🇰
+    翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 9
+    香港|限速100M","port":"60022","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"26.uuuyun.click"}},"server":"26.uuuyun.click","name":"🇺🇸
+    翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑩
+    美国|限速100M","port":"60026","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"27.uuuyun.click"}},"server":"27.uuuyun.click","name":"🇺🇸
+    翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑪
+    美国|限速100M","port":"60027","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"40.uuuyun.click"}},"server":"40.uuuyun.click","name":"🇺🇸
+    翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑫
+    美国|限速100M","port":"39940","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"41.uuuyun.click"}},"server":"41.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑬
+    日本|限速100M","port":"60041","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"20.uuuyun.click"}},"server":"20.uuuyun.click","name":"🇸🇬
+    翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑭
+    新加坡|移动中继|限速100M","port":"60020","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"31.uuuyun.click"}},"server":"31.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑮
+    日本|限速100M","port":"60031","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"42.uuuyun.click"}},"server":"42.uuuyun.click","name":"🇭🇰
+    翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑯
+    香港|限速100M","port":"60042","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"43.uuuyun.click"}},"server":"43.uuuyun.click","name":"🇭🇰
+    翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑰
+    香港|限速100M","port":"60043","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"44.uuuyun.click"}},"server":"44.uuuyun.click","name":"🇸🇬
+    翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑱
+    新加坡|限速100M","port":"60044","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"11.uuuyun.click"}},"server":"11.uuuyun.click","name":"🇺🇸
+    翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip②] 1 美国1
+    |电信中继|500M","port":"60011","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"14.uuuyun.click"}},"server":"14.uuuyun.click","name":"🇸🇬
+    翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 2 新加坡
+    |AZ中继|500M","port":"60014","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"15.uuuyun.click"}},"server":"15.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 3 日本
+    |AZ中继|500M","port":"60015","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"16.uuuyun.click"}},"server":"16.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 4
+    日本|AZ中继|500M","port":"60016","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"17.uuuyun.click"}},"server":"17.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 5
+    日本|廣移中继|AWS|500M","port":"60017","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"18.uuuyun.click"}},"server":"18.uuuyun.click","name":"🇸🇬
+    翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 6
+    新加坡|廣移中继|500M","port":"60018","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"24.uuuyun.click"}},"server":"24.uuuyun.click","name":"🇸🇬
+    翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 7
+    新加坡|廣移中继|500M","port":"60024","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"25.uuuyun.click"}},"server":"25.uuuyun.click","name":"🇭🇰
+    翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] 8
+    香港|廣移中继|AWS|500M","port":"60025","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"28.uuuyun.click"}},"server":"28.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 9
+    日本|廣移中继|500M","port":"60028","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"29.uuuyun.click"}},"server":"29.uuuyun.click","name":"🇭🇰
+    翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] ⑩
+    香港|廣移中继|500M","port":"60029","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"30.uuuyun.click"}},"server":"30.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑪
+    日本||廣移中继|500M","port":"60030","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"34.uuuyun.click"}},"server":"34.uuuyun.click","name":"🇰🇷
+    翻山⛰️只为草泥马长风🎣库 🇰🇷 [vip②] ⑫
+    韩国|CN2中继|500M","port":"60034","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"37.uuuyun.click"}},"server":"37.uuuyun.click","name":"🇯🇵
+    翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②]
+    ⑬日本|CN2中继|500M","port":"60037","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"38.uuuyun.click"}},"server":"38.uuuyun.click","name":"🇸🇬
+    翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑭
+    新加坡|CN2中继|500M","port":"60038","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"39.uuuyun.click"}},"server":"39.uuuyun.click","name":"🇸🇬
+    翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑮
+    新加坡|CN2中继|500M","port":"60039","uuid":"28717c2f-724c-353b-ba90-1e191de05824","alterId":"2","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
-      - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港3 ||500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港4 ||500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 1 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 2 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] 3 新加坡 |限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 4 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 5 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 6 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 7 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 8 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 9 香港|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑩ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑪ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑫ 美国|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑬ 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑭ 新加坡|移动中继|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑮ 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑯ 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑰ 香港|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑱ 新加坡|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip②] 1 美国1 |电信中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 2 新加坡 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 3 日本 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 4 日本|AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 5 日本|廣移中继|AWS|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 6 新加坡|廣移中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 7 新加坡|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] 8 香港|廣移中继|AWS|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 9 日本|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] ⑩ 香港|廣移中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑪ 日本||廣移中继|500M
+      - 🇰🇷 翻山⛰️只为草泥马长风🎣库 🇰🇷 [vip②] ⑫ 韩国|CN2中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑬日本|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑭ 新加坡|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑮ 新加坡|CN2中继|500M
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
-      - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港3 ||500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港4 ||500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 1 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 2 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] 3 新加坡 |限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 4 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 5 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 6 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 7 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 8 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 9 香港|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑩ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑪ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑫ 美国|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑬ 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑭ 新加坡|移动中继|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑮ 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑯ 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑰ 香港|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑱ 新加坡|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip②] 1 美国1 |电信中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 2 新加坡 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 3 日本 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 4 日本|AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 5 日本|廣移中继|AWS|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 6 新加坡|廣移中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 7 新加坡|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] 8 香港|廣移中继|AWS|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 9 日本|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] ⑩ 香港|廣移中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑪ 日本||廣移中继|500M
+      - 🇰🇷 翻山⛰️只为草泥马长风🎣库 🇰🇷 [vip②] ⑫ 韩国|CN2中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑬日本|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑭ 新加坡|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑮ 新加坡|CN2中继|500M
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
-      - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港3 ||500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港4 ||500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 1 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 2 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] 3 新加坡 |限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 4 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 5 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 6 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 7 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 8 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 9 香港|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑩ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑪ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑫ 美国|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑬ 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑭ 新加坡|移动中继|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑮ 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑯ 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑰ 香港|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑱ 新加坡|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip②] 1 美国1 |电信中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 2 新加坡 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 3 日本 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 4 日本|AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 5 日本|廣移中继|AWS|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 6 新加坡|廣移中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 7 新加坡|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] 8 香港|廣移中继|AWS|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 9 日本|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] ⑩ 香港|廣移中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑪ 日本||廣移中继|500M
+      - 🇰🇷 翻山⛰️只为草泥马长风🎣库 🇰🇷 [vip②] ⑫ 韩国|CN2中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑬日本|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑭ 新加坡|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑮ 新加坡|CN2中继|500M
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
-      - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港3 ||500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港4 ||500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 1 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 2 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] 3 新加坡 |限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 4 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 5 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 6 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 7 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 8 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 9 香港|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑩ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑪ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑫ 美国|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑬ 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑭ 新加坡|移动中继|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑮ 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑯ 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑰ 香港|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑱ 新加坡|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip②] 1 美国1 |电信中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 2 新加坡 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 3 日本 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 4 日本|AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 5 日本|廣移中继|AWS|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 6 新加坡|廣移中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 7 新加坡|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] 8 香港|廣移中继|AWS|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 9 日本|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] ⑩ 香港|廣移中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑪ 日本||廣移中继|500M
+      - 🇰🇷 翻山⛰️只为草泥马长风🎣库 🇰🇷 [vip②] ⑫ 韩国|CN2中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑬日本|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑭ 新加坡|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑮ 新加坡|CN2中继|500M
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
-      - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港3 ||500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港4 ||500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 1 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 2 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] 3 新加坡 |限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 4 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 5 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 6 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 7 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 8 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 9 香港|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑩ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑪ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑫ 美国|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑬ 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑭ 新加坡|移动中继|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑮ 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑯ 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑰ 香港|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑱ 新加坡|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip②] 1 美国1 |电信中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 2 新加坡 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 3 日本 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 4 日本|AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 5 日本|廣移中继|AWS|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 6 新加坡|廣移中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 7 新加坡|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] 8 香港|廣移中继|AWS|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 9 日本|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] ⑩ 香港|廣移中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑪ 日本||廣移中继|500M
+      - 🇰🇷 翻山⛰️只为草泥马长风🎣库 🇰🇷 [vip②] ⑫ 韩国|CN2中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑬日本|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑭ 新加坡|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑮ 新加坡|CN2中继|500M
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
-      - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港3 ||500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港4 ||500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 1 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 2 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] 3 新加坡 |限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 4 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 5 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 6 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 7 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 8 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 9 香港|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑩ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑪ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑫ 美国|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑬ 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑭ 新加坡|移动中继|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑮ 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑯ 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑰ 香港|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑱ 新加坡|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip②] 1 美国1 |电信中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 2 新加坡 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 3 日本 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 4 日本|AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 5 日本|廣移中继|AWS|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 6 新加坡|廣移中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 7 新加坡|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] 8 香港|廣移中继|AWS|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 9 日本|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] ⑩ 香港|廣移中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑪ 日本||廣移中继|500M
+      - 🇰🇷 翻山⛰️只为草泥马长风🎣库 🇰🇷 [vip②] ⑫ 韩国|CN2中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑬日本|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑭ 新加坡|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑮ 新加坡|CN2中继|500M
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -410,56 +375,41 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国
-      - 🇨🇦_CA_加拿大_1
-      - 🇨🇦_CA_加拿大_2
-      - 🇨🇦_CA_加拿大_3
-      - 🇷🇺_RU_俄罗斯联邦_1
-      - 🇷🇺_RU_俄罗斯联邦_2
-      - 🇷🇺_RU_俄罗斯联邦_3
-      - 🇷🇺_RU_俄罗斯联邦_4
-      - 🇷🇺_RU_俄罗斯联邦_5
-      - 🇷🇺_RU_俄罗斯联邦_6
-      - 🇷🇺_RU_俄罗斯联邦_7
-      - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_1
-      - 🇨🇦_CA_加拿大_6
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇯🇵_JP_日本_2
-      - 🇭🇰_HK_香港->🇯🇵_JP_日本
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇨🇦_CA_加拿大_7
-      - 🇨🇦_CA_加拿大_8
-      - 🇨🇦_CA_加拿大_9
-      - 🇬🇧_GB_英国_1
-      - 🇷🇺_RU_俄罗斯联邦_8
-      - 🇷🇺_RU_俄罗斯联邦_9
-      - 🇷🇺_RU_俄罗斯联邦_10
-      - 🇷🇺_RU_俄罗斯联邦_11
-      - 🇬🇧_GB_英国_2
-      - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯联邦_12
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇸🇬_SG_新加坡_3
-      - 🇸🇬_SG_新加坡_4
-      - 🇸🇬_SG_新加坡_5
-      - 🇨🇦_CA_加拿大_10
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯联邦_13
-      - 🇬🇧_GB_英国_3
-      - 🇷🇺_RU_俄罗斯联邦_14
-      - 🇷🇺_RU_俄罗斯联邦_15
-      - 🇷🇺_RU_俄罗斯联邦_16
-      - 🇬🇧_GB_英国_4
-      - 🇬🇧_GB_英国_5
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港3 ||500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 VIP2-香港4 ||500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 1 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 2 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] 3 新加坡 |限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 4 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 5 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 6 日本|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] 7 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 8 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] 9 香港|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑩ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑪ 美国|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip①] ⑫ 美国|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑬ 日本|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑭ 新加坡|移动中继|限速100M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip①] ⑮ 日本|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑯ 香港|限速100M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip①] ⑰ 香港|限速100M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip①] ⑱ 新加坡|限速100M
+      - 🇺🇸 翻山⛰️只为草泥马长风🎣库 🇺🇸 [vip②] 1 美国1 |电信中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 2 新加坡 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 3 日本 |AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 4 日本|AZ中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 5 日本|廣移中继|AWS|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 6 新加坡|廣移中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] 7 新加坡|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] 8 香港|廣移中继|AWS|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] 9 日本|廣移中继|500M
+      - 🇭🇰 翻山⛰️只为草泥马长风🎣库 🇭🇰 [vip②] ⑩ 香港|廣移中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑪ 日本||廣移中继|500M
+      - 🇰🇷 翻山⛰️只为草泥马长风🎣库 🇰🇷 [vip②] ⑫ 韩国|CN2中继|500M
+      - 🇯🇵 翻山⛰️只为草泥马长风🎣库 🇯🇵 [vip②] ⑬日本|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑭ 新加坡|CN2中继|500M
+      - 🇸🇬 翻山⛰️只为草泥马长风🎣库 🇸🇬 [vip②] ⑮ 新加坡|CN2中继|500M
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
