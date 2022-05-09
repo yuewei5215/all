@@ -5,109 +5,358 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","http-opts":{"path":["/"]},"server":"43.154.77.196","name":"🇨🇳_CN_中国","port":38539,"uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","network":"http"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN@","server":"198.57.27.225","port":8118,"name":"🇨🇦_CA_加拿大_1"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG@","server":"198.57.27.225","port":7001,"name":"🇨🇦_CA_加拿大_2"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74@","server":"198.57.27.225","port":8009,"name":"🇨🇦_CA_加拿大_3"}
-  - {"type":"vmess","server":"20.205.11.55","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_1","port":60046,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"20.205.11.55","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_2","port":60045,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY@","server":"198.57.27.225","port":9102,"name":"🇨🇦_CA_加拿大_4"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm@","server":"198.57.27.225","port":5500,"name":"🇨🇦_CA_加拿大_5"}
-  - {"type":"trojan","name":"🇧🇷_BR_巴西","server":"fr.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44612","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","server":"20.205.11.55","name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡_3","port":60042,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i1.onebox6.org","name":"github.com/freefq
+    - 上海市电信
+    33","port":"38106","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"zidKl2rcLVBm@","server":"92.38.184.228","port":55231,"name":"github.com/freefq
+    - 俄罗斯  26"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm@","server":"172.99.190.35","port":5500,"name":"🇬🇧_GB_英国_1"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC@","server":"172.99.190.35","port":5600,"name":"🇬🇧_GB_英国_2"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC@","server":"172.99.190.35","port":3306,"name":"🇬🇧_GB_英国_3"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i2.onebox6.org","name":"github.com/freefq
+    - 湖北省武汉市电信IDC机房
+    24","port":"38104","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/happy","headers":{"host":"v2ray.788644.xyz"}},"server":"v2ray.788644.xyz","name":"github.com/freefq
+    - 美国CloudFlare节点
+    41","port":"443","uuid":"000fe881-b655-4212-b804-b00f9970d5aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC@","server":"172.99.190.35","port":5000,"name":"🇬🇧_GB_英国_4"}
+  - {"type":"trojan","name":"github.com/freefq - 美国 
+    23","server":"free.spcloud.us","password":"fdb6f3a3-9d29-47c3-8c92-5a279626dc5b","port":"10001?security=tls&type=tcp&headerType=none","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC@","server":"172.99.190.35","port":5601,"name":"🇬🇧_GB_英国_5"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC@","server":"172.99.190.35","port":8888,"name":"🇬🇧_GB_英国_6"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"us03.xqkj.cloud"}},"server":"us03.xqkj.cloud","name":"github.com/freefq
+    - 美国 
+    32","port":"1113","uuid":"02fb79cc-d0d4-4429-8a2d-abce3746855e","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG@","server":"198.57.27.225","port":7001,"name":"🇨🇦_CA_加拿大_1"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"sg05.xqkj.cloud"}},"server":"sg05.xqkj.cloud","name":"github.com/freefq
+    - 新加坡DigitalOcean数据中心
+    27","port":"1416","uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId@","server":"134.195.196.205","port":5004,"name":"🇨🇦_CA_加拿大_2"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v@","server":"134.195.196.205","port":6379,"name":"🇨🇦_CA_加拿大_3"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"us04.xqkj.cloud"}},"server":"us04.xqkj.cloud","name":"github.com/freefq
+    - 美国 
+    16","port":"1114","uuid":"02fb79cc-d0d4-4429-8a2d-abce3746855e","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"us05.xqkj.cloud"}},"server":"us05.xqkj.cloud","name":"github.com/freefq
+    - 美国 
+    15","port":"1115","uuid":"02fb79cc-d0d4-4429-8a2d-abce3746855e","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId@","server":"172.99.190.35","port":5004,"name":"🇬🇧_GB_英国_7"}
+  - {"type":"trojan","name":"github.com/freefq - 欧盟 
+    44","server":"trojan33.free4444.xyz","password":"dongtaiwang.com","port":"443?security=tls&type=tcp&headerType=none","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY@","server":"172.99.190.35","port":9101,"name":"🇬🇧_GB_英国_8"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"sg03.xqkj.cloud"}},"server":"sg03.xqkj.cloud","name":"github.com/freefq
+    - 新加坡DigitalOcean数据中心
+    51","port":"1416","uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/xasda65464uexi"},"server":"us-a.vmess.top","name":"github.com/freefq
+    - 美国加利福尼亚州洛杉矶县洛杉矶市Multacom公司
+    38","port":"39133","uuid":"d8f386ac-ebf3-4fd1-9397-5eaca4b5889d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司
+    43","server":"usa-sr-106.mitoption.com","password":"e5d46365e25e31d94279c2bcf93390a2","port":"443?security=tls&sni=usa-sr-106.mitoption.com&type=tcp&headerType=none","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","server":"20.24.77.204","name":"github.com/freefq -
+    美国Microsoft数据中心
+    11","port":"60031","uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/ray","headers":{"host":"xa.ex306.buzz"}},"server":"xa.ex306.buzz","name":"github.com/freefq
+    - 新加坡阿里云
+    12","port":"443","uuid":"E725D31D-BBBF-3330-7A40-C92DEEA3B1CF","alterId":"1","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS@","server":"172.99.190.35","port":6697,"name":"🇬🇧_GB_英国_9"}
+  - {"type":"vmess","ws-opts":{"path":"/ray","headers":{"host":"hka2.ex306.buzz"}},"server":"hka2.ex306.buzz","name":"github.com/freefq
+    - 香港阿里云
+    30","port":"443","uuid":"E725D31D-BBBF-3330-7A40-C92DEEA3B1CF","alterId":"1","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"github.com/freefq - 香港香港宽频
+    5","server":"hkbn.henyo.us","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44614?security=tls&type=tcp&headerType=none","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP@","server":"134.195.196.205","port":7306,"name":"🇨🇦_CA_加拿大_4"}
+  - {"type":"vmess","ws-opts":{"path":"/bit.ly/36b6iJh","headers":{"host":"bai-piao-wang-zhe-iplc.98848.xyz"}},"server":"bai-piao-wang-zhe-iplc.98848.xyz","name":"github.com/freefq
+    - 美国圣斯考拉斯蒂卡大学
+    48","port":"11459","uuid":"7ef159a7-2c15-45ca-f5c3-b9798143afaa","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇷🇺_RU_俄罗斯联邦","server":"ru.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44606?security=tls&type=tcp&headerType=none","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC@","server":"198.57.27.225","port":5600,"name":"🇨🇦
+    CA_14 | 0.33Mb"}
+  - {"type":"vmess","ws-opts":{"path":"/mp"},"server":"weixin.babazhuji.com","name":"github.com/freefq
+    - 美国CloudFlare节点
+    42","port":"443","uuid":"27848739-7e62-4138-9fd3-098a63964b6b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇧🇷_BR_巴西","server":"fr.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44612?security=tls&type=tcp&headerType=none","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq - 香港HKCABLE
+    1","server":"hkbn.okvpn.xyz","password":"cbed95ba-b375-4816-80fb-964f38010dba","port":"12000?security=tls&type=tcp&headerType=none","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS@","server":"172.99.190.35","port":6679,"name":"🇬🇧_GB_英国_10"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC@","server":"134.195.196.205","port":5001,"name":"🇨🇦_CA_加拿大_5"}
+  - {"type":"vmess","ws-opts":{"path":"/getweather"},"server":"app.ssfree.ru","name":"github.com/freefq
+    - 美国CloudFlare节点
+    35","port":"443","uuid":"80594a2c-cf4c-11ec-a64f-000017022008","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/ray","headers":{"host":"hka.ex306.buzz"}},"server":"hka.ex306.buzz","name":"github.com/freefq
+    - 香港阿里云
+    6","port":"443","uuid":"E725D31D-BBBF-3330-7A40-C92DEEA3B1CF","alterId":"1","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国
+      - github.com/freefq - 上海市电信 33
+      - github.com/freefq - 俄罗斯  26
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - github.com/freefq - 湖北省武汉市电信IDC机房 24
+      - github.com/freefq - 美国CloudFlare节点 41
+      - 🇬🇧_GB_英国_4
+      - github.com/freefq - 美国  23
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - github.com/freefq - 美国  32
       - 🇨🇦_CA_加拿大_1
+      - github.com/freefq - 新加坡DigitalOcean数据中心 27
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - github.com/freefq - 美国  16
+      - github.com/freefq - 美国  15
+      - 🇬🇧_GB_英国_7
+      - github.com/freefq - 欧盟  44
+      - 🇬🇧_GB_英国_8
+      - github.com/freefq - 新加坡DigitalOcean数据中心 51
+      - github.com/freefq - 美国加利福尼亚州洛杉矶县洛杉矶市Multacom公司 38
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 43
+      - github.com/freefq - 美国Microsoft数据中心 11
+      - github.com/freefq - 新加坡阿里云 12
+      - 🇬🇧_GB_英国_9
+      - github.com/freefq - 香港阿里云 30
+      - github.com/freefq - 香港香港宽频 5
       - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 48
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦 CA_14 | 0.33Mb
+      - github.com/freefq - 美国CloudFlare节点 42
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - github.com/freefq - 香港HKCABLE 1
+      - 🇬🇧_GB_英国_10
+      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国CloudFlare节点 35
+      - github.com/freefq - 香港阿里云 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国
+      - github.com/freefq - 上海市电信 33
+      - github.com/freefq - 俄罗斯  26
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - github.com/freefq - 湖北省武汉市电信IDC机房 24
+      - github.com/freefq - 美国CloudFlare节点 41
+      - 🇬🇧_GB_英国_4
+      - github.com/freefq - 美国  23
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - github.com/freefq - 美国  32
       - 🇨🇦_CA_加拿大_1
+      - github.com/freefq - 新加坡DigitalOcean数据中心 27
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - github.com/freefq - 美国  16
+      - github.com/freefq - 美国  15
+      - 🇬🇧_GB_英国_7
+      - github.com/freefq - 欧盟  44
+      - 🇬🇧_GB_英国_8
+      - github.com/freefq - 新加坡DigitalOcean数据中心 51
+      - github.com/freefq - 美国加利福尼亚州洛杉矶县洛杉矶市Multacom公司 38
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 43
+      - github.com/freefq - 美国Microsoft数据中心 11
+      - github.com/freefq - 新加坡阿里云 12
+      - 🇬🇧_GB_英国_9
+      - github.com/freefq - 香港阿里云 30
+      - github.com/freefq - 香港香港宽频 5
       - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 48
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦 CA_14 | 0.33Mb
+      - github.com/freefq - 美国CloudFlare节点 42
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - github.com/freefq - 香港HKCABLE 1
+      - 🇬🇧_GB_英国_10
+      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国CloudFlare节点 35
+      - github.com/freefq - 香港阿里云 6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国
+      - github.com/freefq - 上海市电信 33
+      - github.com/freefq - 俄罗斯  26
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - github.com/freefq - 湖北省武汉市电信IDC机房 24
+      - github.com/freefq - 美国CloudFlare节点 41
+      - 🇬🇧_GB_英国_4
+      - github.com/freefq - 美国  23
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - github.com/freefq - 美国  32
       - 🇨🇦_CA_加拿大_1
+      - github.com/freefq - 新加坡DigitalOcean数据中心 27
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - github.com/freefq - 美国  16
+      - github.com/freefq - 美国  15
+      - 🇬🇧_GB_英国_7
+      - github.com/freefq - 欧盟  44
+      - 🇬🇧_GB_英国_8
+      - github.com/freefq - 新加坡DigitalOcean数据中心 51
+      - github.com/freefq - 美国加利福尼亚州洛杉矶县洛杉矶市Multacom公司 38
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 43
+      - github.com/freefq - 美国Microsoft数据中心 11
+      - github.com/freefq - 新加坡阿里云 12
+      - 🇬🇧_GB_英国_9
+      - github.com/freefq - 香港阿里云 30
+      - github.com/freefq - 香港香港宽频 5
       - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 48
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦 CA_14 | 0.33Mb
+      - github.com/freefq - 美国CloudFlare节点 42
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - github.com/freefq - 香港HKCABLE 1
+      - 🇬🇧_GB_英国_10
+      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国CloudFlare节点 35
+      - github.com/freefq - 香港阿里云 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国
+      - github.com/freefq - 上海市电信 33
+      - github.com/freefq - 俄罗斯  26
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - github.com/freefq - 湖北省武汉市电信IDC机房 24
+      - github.com/freefq - 美国CloudFlare节点 41
+      - 🇬🇧_GB_英国_4
+      - github.com/freefq - 美国  23
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - github.com/freefq - 美国  32
       - 🇨🇦_CA_加拿大_1
+      - github.com/freefq - 新加坡DigitalOcean数据中心 27
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - github.com/freefq - 美国  16
+      - github.com/freefq - 美国  15
+      - 🇬🇧_GB_英国_7
+      - github.com/freefq - 欧盟  44
+      - 🇬🇧_GB_英国_8
+      - github.com/freefq - 新加坡DigitalOcean数据中心 51
+      - github.com/freefq - 美国加利福尼亚州洛杉矶县洛杉矶市Multacom公司 38
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 43
+      - github.com/freefq - 美国Microsoft数据中心 11
+      - github.com/freefq - 新加坡阿里云 12
+      - 🇬🇧_GB_英国_9
+      - github.com/freefq - 香港阿里云 30
+      - github.com/freefq - 香港香港宽频 5
       - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 48
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦 CA_14 | 0.33Mb
+      - github.com/freefq - 美国CloudFlare节点 42
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - github.com/freefq - 香港HKCABLE 1
+      - 🇬🇧_GB_英国_10
+      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国CloudFlare节点 35
+      - github.com/freefq - 香港阿里云 6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国
+      - github.com/freefq - 上海市电信 33
+      - github.com/freefq - 俄罗斯  26
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - github.com/freefq - 湖北省武汉市电信IDC机房 24
+      - github.com/freefq - 美国CloudFlare节点 41
+      - 🇬🇧_GB_英国_4
+      - github.com/freefq - 美国  23
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - github.com/freefq - 美国  32
       - 🇨🇦_CA_加拿大_1
+      - github.com/freefq - 新加坡DigitalOcean数据中心 27
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - github.com/freefq - 美国  16
+      - github.com/freefq - 美国  15
+      - 🇬🇧_GB_英国_7
+      - github.com/freefq - 欧盟  44
+      - 🇬🇧_GB_英国_8
+      - github.com/freefq - 新加坡DigitalOcean数据中心 51
+      - github.com/freefq - 美国加利福尼亚州洛杉矶县洛杉矶市Multacom公司 38
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 43
+      - github.com/freefq - 美国Microsoft数据中心 11
+      - github.com/freefq - 新加坡阿里云 12
+      - 🇬🇧_GB_英国_9
+      - github.com/freefq - 香港阿里云 30
+      - github.com/freefq - 香港香港宽频 5
       - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 48
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦 CA_14 | 0.33Mb
+      - github.com/freefq - 美国CloudFlare节点 42
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - github.com/freefq - 香港HKCABLE 1
+      - 🇬🇧_GB_英国_10
+      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国CloudFlare节点 35
+      - github.com/freefq - 香港阿里云 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国
+      - github.com/freefq - 上海市电信 33
+      - github.com/freefq - 俄罗斯  26
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - github.com/freefq - 湖北省武汉市电信IDC机房 24
+      - github.com/freefq - 美国CloudFlare节点 41
+      - 🇬🇧_GB_英国_4
+      - github.com/freefq - 美国  23
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - github.com/freefq - 美国  32
       - 🇨🇦_CA_加拿大_1
+      - github.com/freefq - 新加坡DigitalOcean数据中心 27
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - github.com/freefq - 美国  16
+      - github.com/freefq - 美国  15
+      - 🇬🇧_GB_英国_7
+      - github.com/freefq - 欧盟  44
+      - 🇬🇧_GB_英国_8
+      - github.com/freefq - 新加坡DigitalOcean数据中心 51
+      - github.com/freefq - 美国加利福尼亚州洛杉矶县洛杉矶市Multacom公司 38
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 43
+      - github.com/freefq - 美国Microsoft数据中心 11
+      - github.com/freefq - 新加坡阿里云 12
+      - 🇬🇧_GB_英国_9
+      - github.com/freefq - 香港阿里云 30
+      - github.com/freefq - 香港香港宽频 5
       - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 48
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦 CA_14 | 0.33Mb
+      - github.com/freefq - 美国CloudFlare节点 42
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - github.com/freefq - 香港HKCABLE 1
+      - 🇬🇧_GB_英国_10
+      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国CloudFlare节点 35
+      - github.com/freefq - 香港阿里云 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +379,46 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国
+      - github.com/freefq - 上海市电信 33
+      - github.com/freefq - 俄罗斯  26
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - github.com/freefq - 湖北省武汉市电信IDC机房 24
+      - github.com/freefq - 美国CloudFlare节点 41
+      - 🇬🇧_GB_英国_4
+      - github.com/freefq - 美国  23
+      - 🇬🇧_GB_英国_5
+      - 🇬🇧_GB_英国_6
+      - github.com/freefq - 美国  32
       - 🇨🇦_CA_加拿大_1
+      - github.com/freefq - 新加坡DigitalOcean数据中心 27
       - 🇨🇦_CA_加拿大_2
       - 🇨🇦_CA_加拿大_3
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_1
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_2
+      - github.com/freefq - 美国  16
+      - github.com/freefq - 美国  15
+      - 🇬🇧_GB_英国_7
+      - github.com/freefq - 欧盟  44
+      - 🇬🇧_GB_英国_8
+      - github.com/freefq - 新加坡DigitalOcean数据中心 51
+      - github.com/freefq - 美国加利福尼亚州洛杉矶县洛杉矶市Multacom公司 38
+      - github.com/freefq - 美国亚利桑那州斯科茨代尔市Go Daddy集团公司 43
+      - github.com/freefq - 美国Microsoft数据中心 11
+      - github.com/freefq - 新加坡阿里云 12
+      - 🇬🇧_GB_英国_9
+      - github.com/freefq - 香港阿里云 30
+      - github.com/freefq - 香港香港宽频 5
       - 🇨🇦_CA_加拿大_4
-      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国圣斯考拉斯蒂卡大学 48
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇦 CA_14 | 0.33Mb
+      - github.com/freefq - 美国CloudFlare节点 42
       - 🇧🇷_BR_巴西
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_3
+      - github.com/freefq - 香港HKCABLE 1
+      - 🇬🇧_GB_英国_10
+      - 🇨🇦_CA_加拿大_5
+      - github.com/freefq - 美国CloudFlare节点 35
+      - github.com/freefq - 香港阿里云 6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
