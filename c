@@ -5,46 +5,1096 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"hk.jd.com"}},"server":"185.212.63.182","name":"路由器用","port":59513,"uuid":"a952a3bc-a1d7-4663-f2eb-4e87f4f4a440","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"379a0a11-3468-4eb5-b0d3-490e06459d9a","server":"cn1.relay.iepl.pw","port":50600,"name":"新西兰（TG@阿伟科技/油管）\r"}
+  - {"type":"trojan","name":"天津（TG@阿伟科技/油管）\r","server":"hncu.relay.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44610","udp":true,"skip-cert-verify":true,"sni":"usgt.node.qchwnd.moe"}
+  - {"type":"trojan","name":"🇺🇸美国（TG@阿伟科技/油管）\r_1","server":"hncu.relay.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44611","udp":true,"skip-cert-verify":true,"sni":"us.node.qchwnd.moe"}
+  - {"type":"trojan","name":"🇺🇸美国（TG@阿伟科技/油管）\r_2","server":"hncu.relay.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44613","udp":true,"skip-cert-verify":true,"sni":"uk.node.qchwnd.moe"}
+  - {"type":"vmess","ws-opts":{"path":"/nmsl","headers":{"host":"1.ezydfdd.com"}},"server":"1.ezydfdd.com","name":"🇺🇸美国（TG@阿伟科技/油管）_1","port":"443","uuid":"4ee48ad8-178c-40a2-9c52-a14e90a06e49","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","server":"20.230.146.155","name":"🇺🇸美国（TG@阿伟科技/油管）_2","port":"262","uuid":"eec166d5-25d5-42d2-ce7d-83fca85d2610","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"20.239.68.187","name":"🇺🇸美国（TG@阿伟科技/油管）_3","port":"60006","uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/csa","headers":{"host":"20.89.229.99"}},"server":"20.89.229.99","name":"🇺🇸美国（TG@阿伟科技/油管）_4","port":"80","uuid":"aadb434f-d306-495e-b36f-d1e577875c3b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/9Q2ogkOK/","headers":{"host":"45.32.77.103"}},"server":"45.32.77.103","name":"🇺🇸美国（TG@阿伟科技/油管）_5","port":"22192","uuid":"a22653d2-bcbc-4be7-81fb-0272aa4e47b3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/9Q2ogkOK/"},"server":"45.32.77.103","name":"🇺🇸美国（TG@阿伟科技/油管）_6","port":"22192","uuid":"a22653d2-bcbc-4be7-81fb-0272aa4e47b3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/getweather"},"server":"app.ssfree.ru","name":"🇺🇸美国（TG@阿伟科技/油管）_7","port":"443","uuid":"aa9a3ee4-d015-11ec-9145-000017022008","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"/t.me/mengge88888888"}},"server":"fr-direct-cdn.node001.xyz","name":"🇺🇸美国（TG@阿伟科技/油管）_8","port":"2086","uuid":"a1f3e867-8f8d-3763-bb80-21da561e6714","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"fr-direct-cdn.node001.xyz"}},"server":"fr-direct-cdn.node001.xyz","name":"🇺🇸美国（TG@阿伟科技/油管）_9","port":"2086","uuid":"a1f3e867-8f8d-3763-bb80-21da561e6714","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"/t.me/mengge88888888"}},"server":"kr-direct-cdn.node001.xyz","name":"🇺🇸美国（TG@阿伟科技/油管）_10","port":"2086","uuid":"a1f3e867-8f8d-3763-bb80-21da561e6714","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/liuwei","headers":{"host":"krr1.liuwei01.tk"}},"server":"krr1.liuwei01.tk","name":"🇺🇸美国（TG@阿伟科技/油管）_11","port":"443","uuid":"d965d82e-b325-44e8-a472-84721a3ab07c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇺🇸美国（TG@阿伟科技/油管）\r_3","server":"ocikr.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44600","udp":true,"skip-cert-verify":true,"sni":"cdn.qchwnd.moe"}
+  - {"type":"vmess","ws-opts":{"path":"/tls","headers":{"host":"tls2.xxac.cc"}},"server":"tls2.xxac.cc","name":"🇺🇸美国（TG@阿伟科技/油管）_12","port":"443","uuid":"d4955e7f-ad04-4d80-b469-a7c77f1ad5bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/E94olUFf/","headers":{"host":"v2ray.wefuckgfw.ga"}},"server":"v2ray.wefuckgfw.ga","name":"🇺🇸美国（TG@阿伟科技/油管）_13","port":"8443","uuid":"f4a1167a-ca89-11ec-9385-52ac00ea1411","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇺🇸美国（TG@阿伟科技/油管）\r_4","server":"www.anloao.cf","password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","port":"9053","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anloao.ml"}},"server":"www.anloao.ml","name":"🇺🇸美国（TG@阿伟科技/油管）_14","port":"20521","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anlocl.cf"}},"server":"www.anlocl.cf","name":"🇺🇸美国（TG@阿伟科技/油管）_15","port":"20521","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/v2ray","headers":{"host":"www.anlocl.ga"}},"server":"www.anlocl.ga","name":"🇺🇸美国（TG@阿伟科技/油管）_16","port":"20521","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/v2ray","headers":{"host":"www.anlocm.gq"}},"server":"www.anlocm.gq","name":"🇺🇸美国（TG@阿伟科技/油管）_17","port":"20510","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸美国（TG@阿伟科技/油管）\r_5","server":"www.anloe.ga","password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","port":"9063","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸美国（TG@阿伟科技/油管）\r_6","server":"www.anlot.tk","password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","port":"2352","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/ny","headers":{"host":"zz.vip341.xyz"}},"server":"zz.vip341.xyz","name":"🇺🇸美国（TG@阿伟科技/油管）_18","port":"48003","uuid":"ffa9a7b3-3697-3887-a6f3-b02191018941","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/ny","headers":{"host":"zz.vip341.xyz"}},"server":"zz.vip341.xyz","name":"🇺🇸美国（TG@阿伟科技/油管）_19","port":"48008","uuid":"ffa9a7b3-3697-3887-a6f3-b02191018941","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"169.197.141.109","port":5001,"name":"🇺🇸美国（TG@阿伟科技/油管）\r_7"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"169.197.141.109","port":8888,"name":"🇺🇸美国（TG@阿伟科技/油管）\r_8"}
+  - {"type":"vmess","server":"fs.keaiyun.top","name":"🇺🇸美国（TG@阿伟科技/油管）_20","port":"55156","uuid":"6bdb5616-d0ca-3638-8a96-5a70b8ca27a5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU","server":"mplsgz1.ggbbba.xyz","port":45787,"name":"🇺🇸美国（TG@阿伟科技/油管）\r_9"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"379a0a11-3468-4eb5-b0d3-490e06459d9a","server":"cn1.relay.iepl.pw","port":50200,"name":"🇹🇼台湾（TG@阿伟科技/油管）\r_1"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"ie1a2b8d9a3cd9c8d.404sx.com","port":41003,"name":"🇹🇼台湾（TG@阿伟科技/油管）\r_2"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"ie1a2b8d9a3cd9c8d.404sx.com","port":41001,"name":"🇹🇼台湾（TG@阿伟科技/油管）\r_3"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"61.222.202.140"}},"server":"61.222.202.140","name":"🇹🇼台湾（TG@阿伟科技/油管）_1","port":"33792","uuid":"e55cd182-01b0-4fb7-a510-363701a491c5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anlocl.ml"}},"server":"www.anlocl.ml","name":"🇹🇼台湾（TG@阿伟科技/油管）_2","port":"20521","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anlocl.tk"}},"server":"www.anlocl.tk","name":"🇹🇼台湾（TG@阿伟科技/油管）_3","port":"20522","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"fs.keaiyun.top","name":"🇹🇼台湾（TG@阿伟科技/油管）_4","port":"55155","uuid":"6bdb5616-d0ca-3638-8a96-5a70b8ca27a5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"fs.keaiyun.top","name":"🇹🇼台湾（TG@阿伟科技/油管）_5","port":"55154","uuid":"6bdb5616-d0ca-3638-8a96-5a70b8ca27a5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anloc.ml"}},"server":"www.anloc.ml","name":"🇸🇰斯洛伐克（TG@阿伟科技/油管）","port":"10520","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"379a0a11-3468-4eb5-b0d3-490e06459d9a","server":"cn1.relay.iepl.pw","port":50500,"name":"🇸🇬新加坡（TG@阿伟科技/油管）\r_1"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"ie1a2b8d9a3cd9c8d.404sx.com","port":61001,"name":"🇸🇬新加坡（TG@阿伟科技/油管）\r_2"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"ie1a2b8d9a3cd9c8d.404sx.com","port":61002,"name":"🇸🇬新加坡（TG@阿伟科技/油管）\r_3"}
+  - {"type":"vmess","server":"skazcmdl1314520.top","name":"🇸🇬新加坡（TG@阿伟科技/油管）_1","port":"34567","uuid":"99e9b6cf-5393-41b3-8e38-4588a9baa563","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","server":"skazcmdl1314520.top","name":"🇸🇬新加坡（TG@阿伟科技/油管）_2","port":"23456","uuid":"8e421bcd-65b3-48b7-c650-b751c5b6a93b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/giare","headers":{"host":"Livestream2.tv360.vn"}},"server":"139.162.59.41","name":"🇸🇬新加坡（TG@阿伟科技/油管）_3","port":"80","uuid":"326e1c01-dfd7-4265-a086-be64e17c63e6","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/giare","headers":{"host":"139.162.59.41"}},"server":"139.162.59.41","name":"🇸🇬新加坡（TG@阿伟科技/油管）_4","port":"80","uuid":"326e1c01-dfd7-4265-a086-be64e17c63e6","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"168.138.177.112","name":"🇸🇬新加坡（TG@阿伟科技/油管）_5","port":"41239","uuid":"f962092f-a5b7-4011-eaaa-ae52200a3740","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com","port":61002,"name":"🇸🇬新加坡（TG@阿伟科技/油管）\r_4"}
+  - {"type":"trojan","name":"🇸🇬新加坡（TG@阿伟科技/油管）\r_5","server":"cp-asus.ml","password":"7Z29DRr1ts","port":"50275","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","server":"sg01.xqkj.cloud","name":"🇸🇬新加坡（TG@阿伟科技/油管）_6","port":"1416","uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"sg02.xqkj.cloud"}},"server":"sg02.xqkj.cloud","name":"🇸🇬新加坡（TG@阿伟科技/油管）_7","port":"1416","uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"sg03.xqkj.cloud","name":"🇸🇬新加坡（TG@阿伟科技/油管）_8","port":"1416","uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"sg04.xqkj.cloud","name":"🇸🇬新加坡（TG@阿伟科技/油管）_9","port":"1416","uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/"},"server":"sg05.xqkj.cloud","name":"🇸🇬新加坡（TG@阿伟科技/油管）_10","port":"1416","uuid":"518f28fc-4d66-4b89-81a0-0e43c4d7f7e3","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"livestream2.tv360.vn"}},"server":"sgp02ul.vpnsieure.com","name":"🇸🇬新加坡（TG@阿伟科技/油管）_11","port":"80","uuid":"330efbdb-7171-4fd1-a524-d7b7d8e76732","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"skazcmdl1314520.top","name":"🇸🇬新加坡（TG@阿伟科技/油管）_12","port":"34567","uuid":"99e9b6cf-5393-41b3-8e38-4588a9baa563","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","server":"skazcmdl1314520.top","name":"🇸🇬新加坡（TG@阿伟科技/油管）_13","port":"23456","uuid":"8e421bcd-65b3-48b7-c650-b751c5b6a93b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/54f634fs","headers":{"host":"v2-2.godlight.xyz"}},"server":"v2-2.godlight.xyz","name":"🇸🇬新加坡（TG@阿伟科技/油管）_14","port":"30540","uuid":"43308d27-94ec-408e-a8f6-d682cfb99ca9","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","server":"fs.keaiyun.top","name":"🇸🇬新加坡（TG@阿伟科技/油管）_15","port":"48519","uuid":"6bdb5616-d0ca-3638-8a96-5a70b8ca27a5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"fs.keaiyun.top","name":"🇸🇬新加坡（TG@阿伟科技/油管）_16","port":"48518","uuid":"6bdb5616-d0ca-3638-8a96-5a70b8ca27a5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"fs.keaiyun.top","name":"🇸🇬新加坡（TG@阿伟科技/油管）_17","port":"48517","uuid":"6bdb5616-d0ca-3638-8a96-5a70b8ca27a5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇷🇺俄罗斯联邦（TG@阿伟科技/油管）\r","server":"ru.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44606","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"379a0a11-3468-4eb5-b0d3-490e06459d9a","server":"cn1.relay.iepl.pw","port":50700,"name":"🇷🇺俄罗斯（TG@阿伟科技/油管）\r_1"}
+  - {"type":"trojan","name":"🇷🇺俄罗斯（TG@阿伟科技/油管）\r_2","server":"hncu.relay.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44606","udp":true,"skip-cert-verify":true,"sni":"ru.node.qchwnd.moe"}
+  - {"type":"vmess","server":"c69s5.jamjams.net","name":"🇳🇱荷兰（TG@阿伟科技/油管）","port":"8288","uuid":"614ee3a3-90ad-4239-8eb0-1661daba6c2a","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU","server":"mplsjs1.ggbbba.xyz","port":30122,"name":"🇳🇱荷兰（TG@阿伟科技/油管）\r"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"379a0a11-3468-4eb5-b0d3-490e06459d9a","server":"cn1.relay.iepl.pw","port":50400,"name":"🇰🇷韩国（TG@阿伟科技/油管）\r_1"}
+  - {"type":"vmess","server":"146.56.112.141","name":"🇰🇷韩国（TG@阿伟科技/油管）_1","port":"17776","uuid":"aa990962-a99b-4aa7-fdb8-bdbd19f61a79","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anloan.gq"}},"server":"www.anloan.gq","name":"🇰🇷韩国（TG@阿伟科技/油管）_2","port":"10520","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU","server":"mplsgz1.ggbbba.xyz","port":45786,"name":"🇰🇷韩国（TG@阿伟科技/油管）\r_2"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU","server":"mplsjs1.ggbbba.xyz","port":40011,"name":"🇰🇷韩国（TG@阿伟科技/油管）\r_3"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU","server":"mplsjs1.ggbbba.xyz","port":45782,"name":"🇰🇷韩国（TG@阿伟科技/油管）\r_4"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com","port":11001,"name":"🇯🇵日本（TG@阿伟科技/油管）\r_1"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"379a0a11-3468-4eb5-b0d3-490e06459d9a","server":"cn1.relay.iepl.pw","port":50300,"name":"🇯🇵日本（TG@阿伟科技/油管）\r_2"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com","port":11002,"name":"🇯🇵日本（TG@阿伟科技/油管）\r_3"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com","port":11003,"name":"🇯🇵日本（TG@阿伟科技/油管）\r_4"}
+  - {"type":"trojan","name":"🇯🇵日本（TG@阿伟科技/油管）\r_5","server":"hncu.relay.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44616","udp":true,"skip-cert-verify":true,"sni":"jpkirin.node.qchwnd.moe"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"ie1a2b8d9a3cd9c8d.404sx.com","port":11003,"name":"🇯🇵日本（TG@阿伟科技/油管）\r_6"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com","port":11002,"name":"🇯🇵日本（TG@阿伟科技/油管）\r_7"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com","port":11003,"name":"🇯🇵日本（TG@阿伟科技/油管）\r_8"}
+  - {"type":"trojan","name":"🇯🇵日本（TG@阿伟科技/油管）\r_9","server":"jgwdb4.gaox.ml","password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵日本（TG@阿伟科技/油管）\r_10","server":"jp.useanlo.cf","password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","port":"6523","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵日本（TG@阿伟科技/油管）\r_11","server":"jp.useanlo.cf","password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","port":"10203","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/dajdklw231f","headers":{"host":"v2.godlight.xyz"}},"server":"v2.godlight.xyz","name":"🇯🇵日本（TG@阿伟科技/油管）_1","port":"26940","uuid":"1a059eff-ad8a-42ad-921c-465c5b31f183","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/j75g1461x","headers":{"host":"v2-1.godlight.xyz"}},"server":"v2-1.godlight.xyz","name":"🇯🇵日本（TG@阿伟科技/油管）_2","port":"12240","uuid":"719d4cec-82a8-4a65-ad01-32cf08f2c988","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anloac.ml"}},"server":"www.anloac.ml","name":"🇯🇵日本（TG@阿伟科技/油管）_3","port":"20521","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anloan.ga"}},"server":"www.anloan.ga","name":"🇯🇵日本（TG@阿伟科技/油管）_4","port":"20521","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anlocc.gq"}},"server":"www.anlocc.gq","name":"🇯🇵日本（TG@阿伟科技/油管）_5","port":"10520","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anlon.ml"}},"server":"www.anlon.ml","name":"🇯🇵日本（TG@阿伟科技/油管）_6","port":"510","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"fs.keaiyun.top","name":"🇯🇵日本（TG@阿伟科技/油管）_7","port":"48521","uuid":"6bdb5616-d0ca-3638-8a96-5a70b8ca27a5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"fs.keaiyun.top","name":"🇯🇵日本（TG@阿伟科技/油管）_8","port":"48520","uuid":"6bdb5616-d0ca-3638-8a96-5a70b8ca27a5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"fs.keaiyun.top","name":"🇯🇵日本（TG@阿伟科技/油管）_9","port":"48522","uuid":"6bdb5616-d0ca-3638-8a96-5a70b8ca27a5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇮🇳印度（TG@阿伟科技/油管）\r_1","server":"jgwhdlb1.gaox.ml","password":"e05c749b-7c6b-41b8-9c71-9dcf685edf4a","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇮🇳印度（TG@阿伟科技/油管）\r_2","server":"jgwhdlb3.gaox.ml","password":"006baa3f-4bc3-4915-b60d-c8c5dae11a11","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇮🇳印度（TG@阿伟科技/油管）\r_3","server":"jgwhdlb4.gaox.ml","password":"081a4198-d664-4bc5-a7c6-e35982da964b","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anloco.tk"}},"server":"www.anloco.tk","name":"🇮🇩印度尼西亚（TG@阿伟科技/油管）","port":"20521","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com","port":21004,"name":"🇭🇰香港（TG@阿伟科技/油管）\r_1"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com","port":21005,"name":"🇭🇰香港（TG@阿伟科技/油管）\r_2"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com","port":21003,"name":"🇭🇰香港（TG@阿伟科技/油管）\r_3"}
+  - {"type":"trojan","name":"🇭🇰香港（TG@阿伟科技/油管）\r_4","server":"hl1.liuliangzhuanfa.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"45320","udp":true,"skip-cert-verify":true,"sni":"mg3.meiguo01.xyz"}
+  - {"type":"trojan","name":"🇭🇰香港（TG@阿伟科技/油管）\r_5","server":"hl1.liuliangzhuanfa.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"45379","udp":true,"skip-cert-verify":true,"sni":"xg1.xianggang1.xyz"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"ie1a2b8d9a3cd9c8d.404sx.com","port":21007,"name":"🇭🇰香港（TG@阿伟科技/油管）\r_6"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"ie1a2b8d9a3cd9c8d.404sx.com","port":21004,"name":"🇭🇰香港（TG@阿伟科技/油管）\r_7"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"ie1a2b8d9a3cd9c8d.404sx.com","port":21006,"name":"🇭🇰香港（TG@阿伟科技/油管）\r_8"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"72b8aca3-ddcc-4c84-980a-98e853b3b10c","server":"139.219.9.138","port":19811,"name":"🇭🇰香港（TG@阿伟科技/油管）\r_9"}
+  - {"type":"vmess","server":"202.64.1.102","name":"🇭🇰香港（TG@阿伟科技/油管）_1","port":"553","uuid":"30ef0f29-da14-349d-9c49-728d5adc4ba8","alterId":"8","cipher":"auto","network":"tcp"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com","port":21004,"name":"🇭🇰香港（TG@阿伟科技/油管）\r_10"}
+  - {"type":"trojan","name":"🇭🇰香港（TG@阿伟科技/油管）\r_11","server":"az1.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"41535","udp":true,"skip-cert-verify":true,"sni":"els1.eluosi1.xyz"}
+  - {"type":"trojan","name":"🇭🇰香港（TG@阿伟科技/油管）\r_12","server":"az1.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"31250","udp":true,"skip-cert-verify":true,"sni":"mg3.meiguo01.xyz"}
+  - {"type":"trojan","name":"🇭🇰香港（TG@阿伟科技/油管）\r_13","server":"az1.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"64340","udp":true,"skip-cert-verify":true,"sni":"rb1.riben1.xyz"}
+  - {"type":"trojan","name":"🇭🇰香港（TG@阿伟科技/油管）\r_14","server":"az1.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"39675","udp":true,"skip-cert-verify":true,"sni":"aa1.liumeit.xyz"}
+  - {"type":"trojan","name":"🇭🇰香港（TG@阿伟科技/油管）\r_15","server":"az1.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"22818","udp":true,"skip-cert-verify":true,"sni":"xg1.xianggang1.xyz"}
+  - {"type":"trojan","name":"🇭🇰香港（TG@阿伟科技/油管）\r_16","server":"az1.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"30484","udp":true,"skip-cert-verify":true,"sni":"xjp1.xinjiapo1.xyz"}
+  - {"type":"trojan","name":"🇭🇰香港（TG@阿伟科技/油管）\r_17","server":"az1.chuangshi999.xyz","password":"830debf5-b6a5-47b7-ba6d-12d6227f3df3","port":"33346","udp":true,"skip-cert-verify":true,"sni":"yd1.fengzi.uk"}
+  - {"type":"trojan","name":"🇭🇰香港（TG@阿伟科技/油管）\r_18","server":"hk.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44601","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇭🇰香港（TG@阿伟科技/油管）\r_19","server":"www.anlocl.gq","password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","port":"30521","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇭🇰香港（TG@阿伟科技/油管）\r_20","server":"www.anlocl.gq","password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","port":"20521","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anlocn.ga"}},"server":"www.anlocn.ga","name":"🇭🇰香港（TG@阿伟科技/油管）_2","port":"10520","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anloco.ga"}},"server":"www.anloco.ga","name":"🇭🇰香港（TG@阿伟科技/油管）_3","port":"20521","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"ie1a2b8d9a3cd9c8d.404sx.com","port":21010,"name":"🇭🇰香港（TG@阿伟科技/油管）\r_21"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d171fa50-bc99-45bc-84f9-069e7ae6cb82","server":"in2f9636e3484ffa.404sx.com","port":21001,"name":"🇭🇰香港（TG@阿伟科技/油管）\r_22"}
+  - {"type":"vmess","server":"144.24.88.101","name":"🇬🇧英国（TG@阿伟科技/油管）_1","port":"16833","uuid":"f5425ccf-3946-4fb4-eb24-5393d78a392f","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":8888,"name":"🇬🇧英国（TG@阿伟科技/油管）\r_1"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"172.99.190.35","port":6697,"name":"🇬🇧英国（TG@阿伟科技/油管）\r_2"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":5000,"name":"🇬🇧英国（TG@阿伟科技/油管）\r_3"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"172.99.190.35","port":5004,"name":"🇬🇧英国（TG@阿伟科技/油管）\r_4"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":5600,"name":"🇬🇧英国（TG@阿伟科技/油管）\r_5"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"172.99.190.35","port":443,"name":"🇬🇧英国（TG@阿伟科技/油管）\r_6"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"172.99.190.35","port":6679,"name":"🇬🇧英国（TG@阿伟科技/油管）\r_7"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"172.99.190.35","port":9101,"name":"🇬🇧英国（TG@阿伟科技/油管）\r_8"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":5601,"name":"🇬🇧英国（TG@阿伟科技/油管）\r_9"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"172.99.190.35","port":5500,"name":"🇬🇧英国（TG@阿伟科技/油管）\r_10"}
+  - {"type":"trojan","name":"🇬🇧英国（TG@阿伟科技/油管）\r_11","server":"jgwld2.gaox.ml","password":"d7fd8aaa-4581-4281-80aa-4b63e5e1f157","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anloco.gq"}},"server":"www.anloco.gq","name":"🇬🇧英国（TG@阿伟科技/油管）_2","port":"510","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU","server":"mplsgz1.ggbbba.xyz","port":45785,"name":"🇬🇧英国（TG@阿伟科技/油管）\r_12"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anloco.cf"}},"server":"www.anloco.cf","name":"🇫🇷法国（TG@阿伟科技/油管）","port":"31200","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"198.57.27.225","port":9101,"name":"🇨🇦加拿大（TG@阿伟科技/油管）\r_1"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"198.57.27.225","port":8118,"name":"🇨🇦加拿大（TG@阿伟科技/油管）\r_2"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU","server":"mplsjs1.ggbbba.xyz","port":45780,"name":"🇨🇦加拿大（TG@阿伟科技/油管）\r_3"}
+  - {"type":"vmess","server":"129.154.201.58","name":"🇦🇺澳大利亚（TG@阿伟科技/油管）_1","port":"40913","uuid":"4dc811d4-bbef-4ea2-da22-bf8f6a1d8262","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇦🇺澳大利亚（TG@阿伟科技/油管）\r","server":"jgwxn2.gaox.ml","password":"c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.anlocm.ga"}},"server":"www.anlocm.ga","name":"🇦🇺澳大利亚（TG@阿伟科技/油管）_2","port":"10520","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/go","headers":{"host":"lu1.gogogoo.cyou"}},"server":"lu1.gogogoo.cyou","name":"（TG@阿伟科技/油管）_1","port":"443","uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/vmess-ws"},"server":"sg-ovh.clown1i.cf","name":"（TG@阿伟科技/油管）_2","port":"443","uuid":"165af2cb-4bf4-472a-9565-68d55927668e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/vmess-ws","headers":{"host":"sg-ovh.clown1i.cf"}},"server":"sg-ovh.clown1i.cf","name":"（TG@阿伟科技/油管）_3","port":"443","uuid":"165af2cb-4bf4-472a-9565-68d55927668e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/ssrsub"},"server":"v1.ssrsub.com","name":"（TG@阿伟科技/油管）_4","port":"8443","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/ssrsub","headers":{"host":"v1.ssrsub.com"}},"server":"v1.ssrsub.com","name":"（TG@阿伟科技/油管）_5","port":"8443","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/ssrsub"},"server":"v5.ssrsub.com","name":"（TG@阿伟科技/油管）_6","port":"8443","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/vpnsieure","headers":{"host":"livestream2.tv360.vn"}},"server":"vn04v2.vpnsieure.com","name":"（TG@阿伟科技/油管）_7","port":"80","uuid":"330efbdb-7171-4fd1-a524-d7b7d8e76732","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"www.humoane.icu"}},"server":"www.humoane.icu","name":"（TG@阿伟科技/油管）_8","port":"10250","uuid":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","alterId":"2","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 路由器用
+      - "新西兰（TG@阿伟科技/油管）\r"
+      - "天津（TG@阿伟科技/油管）\r"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_1"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_2"
+      - 🇺🇸美国（TG@阿伟科技/油管）_1
+      - 🇺🇸美国（TG@阿伟科技/油管）_2
+      - 🇺🇸美国（TG@阿伟科技/油管）_3
+      - 🇺🇸美国（TG@阿伟科技/油管）_4
+      - 🇺🇸美国（TG@阿伟科技/油管）_5
+      - 🇺🇸美国（TG@阿伟科技/油管）_6
+      - 🇺🇸美国（TG@阿伟科技/油管）_7
+      - 🇺🇸美国（TG@阿伟科技/油管）_8
+      - 🇺🇸美国（TG@阿伟科技/油管）_9
+      - 🇺🇸美国（TG@阿伟科技/油管）_10
+      - 🇺🇸美国（TG@阿伟科技/油管）_11
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_3"
+      - 🇺🇸美国（TG@阿伟科技/油管）_12
+      - 🇺🇸美国（TG@阿伟科技/油管）_13
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_4"
+      - 🇺🇸美国（TG@阿伟科技/油管）_14
+      - 🇺🇸美国（TG@阿伟科技/油管）_15
+      - 🇺🇸美国（TG@阿伟科技/油管）_16
+      - 🇺🇸美国（TG@阿伟科技/油管）_17
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_5"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_6"
+      - 🇺🇸美国（TG@阿伟科技/油管）_18
+      - 🇺🇸美国（TG@阿伟科技/油管）_19
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_7"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_8"
+      - 🇺🇸美国（TG@阿伟科技/油管）_20
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_9"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_1"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_2"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_3"
+      - 🇹🇼台湾（TG@阿伟科技/油管）_1
+      - 🇹🇼台湾（TG@阿伟科技/油管）_2
+      - 🇹🇼台湾（TG@阿伟科技/油管）_3
+      - 🇹🇼台湾（TG@阿伟科技/油管）_4
+      - 🇹🇼台湾（TG@阿伟科技/油管）_5
+      - 🇸🇰斯洛伐克（TG@阿伟科技/油管）
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_1"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_2"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_3"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_1
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_2
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_3
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_4
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_5
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_4"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_5"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_6
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_7
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_8
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_9
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_10
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_11
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_12
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_13
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_14
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_15
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_16
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_17
+      - "🇷🇺俄罗斯联邦（TG@阿伟科技/油管）\r"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_1"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_2"
+      - 🇳🇱荷兰（TG@阿伟科技/油管）
+      - "🇳🇱荷兰（TG@阿伟科技/油管）\r"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_1"
+      - 🇰🇷韩国（TG@阿伟科技/油管）_1
+      - 🇰🇷韩国（TG@阿伟科技/油管）_2
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_2"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_3"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_1"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_2"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_3"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_5"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_6"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_7"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_8"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_9"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_10"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_11"
+      - 🇯🇵日本（TG@阿伟科技/油管）_1
+      - 🇯🇵日本（TG@阿伟科技/油管）_2
+      - 🇯🇵日本（TG@阿伟科技/油管）_3
+      - 🇯🇵日本（TG@阿伟科技/油管）_4
+      - 🇯🇵日本（TG@阿伟科技/油管）_5
+      - 🇯🇵日本（TG@阿伟科技/油管）_6
+      - 🇯🇵日本（TG@阿伟科技/油管）_7
+      - 🇯🇵日本（TG@阿伟科技/油管）_8
+      - 🇯🇵日本（TG@阿伟科技/油管）_9
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_1"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_2"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_3"
+      - 🇮🇩印度尼西亚（TG@阿伟科技/油管）
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_1"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_2"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_3"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_4"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_5"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_6"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_7"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_8"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_9"
+      - 🇭🇰香港（TG@阿伟科技/油管）_1
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_10"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_11"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_12"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_13"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_14"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_15"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_16"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_17"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_18"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_19"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_20"
+      - 🇭🇰香港（TG@阿伟科技/油管）_2
+      - 🇭🇰香港（TG@阿伟科技/油管）_3
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_21"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_22"
+      - 🇬🇧英国（TG@阿伟科技/油管）_1
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_1"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_2"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_3"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_4"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_5"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_6"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_7"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_8"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_9"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_10"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_11"
+      - 🇬🇧英国（TG@阿伟科技/油管）_2
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_12"
+      - 🇫🇷法国（TG@阿伟科技/油管）
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_1"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_2"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_3"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_1
+      - "🇦🇺澳大利亚（TG@阿伟科技/油管）\r"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_1
+      - （TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_3
+      - （TG@阿伟科技/油管）_4
+      - （TG@阿伟科技/油管）_5
+      - （TG@阿伟科技/油管）_6
+      - （TG@阿伟科技/油管）_7
+      - （TG@阿伟科技/油管）_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 路由器用
+      - "新西兰（TG@阿伟科技/油管）\r"
+      - "天津（TG@阿伟科技/油管）\r"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_1"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_2"
+      - 🇺🇸美国（TG@阿伟科技/油管）_1
+      - 🇺🇸美国（TG@阿伟科技/油管）_2
+      - 🇺🇸美国（TG@阿伟科技/油管）_3
+      - 🇺🇸美国（TG@阿伟科技/油管）_4
+      - 🇺🇸美国（TG@阿伟科技/油管）_5
+      - 🇺🇸美国（TG@阿伟科技/油管）_6
+      - 🇺🇸美国（TG@阿伟科技/油管）_7
+      - 🇺🇸美国（TG@阿伟科技/油管）_8
+      - 🇺🇸美国（TG@阿伟科技/油管）_9
+      - 🇺🇸美国（TG@阿伟科技/油管）_10
+      - 🇺🇸美国（TG@阿伟科技/油管）_11
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_3"
+      - 🇺🇸美国（TG@阿伟科技/油管）_12
+      - 🇺🇸美国（TG@阿伟科技/油管）_13
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_4"
+      - 🇺🇸美国（TG@阿伟科技/油管）_14
+      - 🇺🇸美国（TG@阿伟科技/油管）_15
+      - 🇺🇸美国（TG@阿伟科技/油管）_16
+      - 🇺🇸美国（TG@阿伟科技/油管）_17
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_5"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_6"
+      - 🇺🇸美国（TG@阿伟科技/油管）_18
+      - 🇺🇸美国（TG@阿伟科技/油管）_19
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_7"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_8"
+      - 🇺🇸美国（TG@阿伟科技/油管）_20
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_9"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_1"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_2"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_3"
+      - 🇹🇼台湾（TG@阿伟科技/油管）_1
+      - 🇹🇼台湾（TG@阿伟科技/油管）_2
+      - 🇹🇼台湾（TG@阿伟科技/油管）_3
+      - 🇹🇼台湾（TG@阿伟科技/油管）_4
+      - 🇹🇼台湾（TG@阿伟科技/油管）_5
+      - 🇸🇰斯洛伐克（TG@阿伟科技/油管）
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_1"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_2"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_3"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_1
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_2
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_3
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_4
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_5
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_4"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_5"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_6
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_7
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_8
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_9
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_10
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_11
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_12
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_13
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_14
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_15
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_16
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_17
+      - "🇷🇺俄罗斯联邦（TG@阿伟科技/油管）\r"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_1"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_2"
+      - 🇳🇱荷兰（TG@阿伟科技/油管）
+      - "🇳🇱荷兰（TG@阿伟科技/油管）\r"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_1"
+      - 🇰🇷韩国（TG@阿伟科技/油管）_1
+      - 🇰🇷韩国（TG@阿伟科技/油管）_2
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_2"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_3"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_1"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_2"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_3"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_5"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_6"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_7"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_8"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_9"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_10"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_11"
+      - 🇯🇵日本（TG@阿伟科技/油管）_1
+      - 🇯🇵日本（TG@阿伟科技/油管）_2
+      - 🇯🇵日本（TG@阿伟科技/油管）_3
+      - 🇯🇵日本（TG@阿伟科技/油管）_4
+      - 🇯🇵日本（TG@阿伟科技/油管）_5
+      - 🇯🇵日本（TG@阿伟科技/油管）_6
+      - 🇯🇵日本（TG@阿伟科技/油管）_7
+      - 🇯🇵日本（TG@阿伟科技/油管）_8
+      - 🇯🇵日本（TG@阿伟科技/油管）_9
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_1"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_2"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_3"
+      - 🇮🇩印度尼西亚（TG@阿伟科技/油管）
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_1"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_2"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_3"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_4"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_5"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_6"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_7"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_8"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_9"
+      - 🇭🇰香港（TG@阿伟科技/油管）_1
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_10"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_11"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_12"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_13"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_14"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_15"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_16"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_17"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_18"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_19"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_20"
+      - 🇭🇰香港（TG@阿伟科技/油管）_2
+      - 🇭🇰香港（TG@阿伟科技/油管）_3
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_21"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_22"
+      - 🇬🇧英国（TG@阿伟科技/油管）_1
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_1"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_2"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_3"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_4"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_5"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_6"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_7"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_8"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_9"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_10"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_11"
+      - 🇬🇧英国（TG@阿伟科技/油管）_2
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_12"
+      - 🇫🇷法国（TG@阿伟科技/油管）
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_1"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_2"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_3"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_1
+      - "🇦🇺澳大利亚（TG@阿伟科技/油管）\r"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_1
+      - （TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_3
+      - （TG@阿伟科技/油管）_4
+      - （TG@阿伟科技/油管）_5
+      - （TG@阿伟科技/油管）_6
+      - （TG@阿伟科技/油管）_7
+      - （TG@阿伟科技/油管）_8
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 路由器用
+      - "新西兰（TG@阿伟科技/油管）\r"
+      - "天津（TG@阿伟科技/油管）\r"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_1"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_2"
+      - 🇺🇸美国（TG@阿伟科技/油管）_1
+      - 🇺🇸美国（TG@阿伟科技/油管）_2
+      - 🇺🇸美国（TG@阿伟科技/油管）_3
+      - 🇺🇸美国（TG@阿伟科技/油管）_4
+      - 🇺🇸美国（TG@阿伟科技/油管）_5
+      - 🇺🇸美国（TG@阿伟科技/油管）_6
+      - 🇺🇸美国（TG@阿伟科技/油管）_7
+      - 🇺🇸美国（TG@阿伟科技/油管）_8
+      - 🇺🇸美国（TG@阿伟科技/油管）_9
+      - 🇺🇸美国（TG@阿伟科技/油管）_10
+      - 🇺🇸美国（TG@阿伟科技/油管）_11
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_3"
+      - 🇺🇸美国（TG@阿伟科技/油管）_12
+      - 🇺🇸美国（TG@阿伟科技/油管）_13
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_4"
+      - 🇺🇸美国（TG@阿伟科技/油管）_14
+      - 🇺🇸美国（TG@阿伟科技/油管）_15
+      - 🇺🇸美国（TG@阿伟科技/油管）_16
+      - 🇺🇸美国（TG@阿伟科技/油管）_17
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_5"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_6"
+      - 🇺🇸美国（TG@阿伟科技/油管）_18
+      - 🇺🇸美国（TG@阿伟科技/油管）_19
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_7"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_8"
+      - 🇺🇸美国（TG@阿伟科技/油管）_20
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_9"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_1"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_2"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_3"
+      - 🇹🇼台湾（TG@阿伟科技/油管）_1
+      - 🇹🇼台湾（TG@阿伟科技/油管）_2
+      - 🇹🇼台湾（TG@阿伟科技/油管）_3
+      - 🇹🇼台湾（TG@阿伟科技/油管）_4
+      - 🇹🇼台湾（TG@阿伟科技/油管）_5
+      - 🇸🇰斯洛伐克（TG@阿伟科技/油管）
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_1"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_2"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_3"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_1
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_2
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_3
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_4
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_5
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_4"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_5"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_6
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_7
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_8
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_9
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_10
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_11
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_12
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_13
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_14
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_15
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_16
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_17
+      - "🇷🇺俄罗斯联邦（TG@阿伟科技/油管）\r"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_1"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_2"
+      - 🇳🇱荷兰（TG@阿伟科技/油管）
+      - "🇳🇱荷兰（TG@阿伟科技/油管）\r"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_1"
+      - 🇰🇷韩国（TG@阿伟科技/油管）_1
+      - 🇰🇷韩国（TG@阿伟科技/油管）_2
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_2"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_3"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_1"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_2"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_3"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_5"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_6"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_7"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_8"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_9"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_10"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_11"
+      - 🇯🇵日本（TG@阿伟科技/油管）_1
+      - 🇯🇵日本（TG@阿伟科技/油管）_2
+      - 🇯🇵日本（TG@阿伟科技/油管）_3
+      - 🇯🇵日本（TG@阿伟科技/油管）_4
+      - 🇯🇵日本（TG@阿伟科技/油管）_5
+      - 🇯🇵日本（TG@阿伟科技/油管）_6
+      - 🇯🇵日本（TG@阿伟科技/油管）_7
+      - 🇯🇵日本（TG@阿伟科技/油管）_8
+      - 🇯🇵日本（TG@阿伟科技/油管）_9
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_1"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_2"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_3"
+      - 🇮🇩印度尼西亚（TG@阿伟科技/油管）
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_1"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_2"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_3"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_4"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_5"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_6"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_7"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_8"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_9"
+      - 🇭🇰香港（TG@阿伟科技/油管）_1
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_10"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_11"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_12"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_13"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_14"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_15"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_16"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_17"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_18"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_19"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_20"
+      - 🇭🇰香港（TG@阿伟科技/油管）_2
+      - 🇭🇰香港（TG@阿伟科技/油管）_3
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_21"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_22"
+      - 🇬🇧英国（TG@阿伟科技/油管）_1
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_1"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_2"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_3"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_4"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_5"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_6"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_7"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_8"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_9"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_10"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_11"
+      - 🇬🇧英国（TG@阿伟科技/油管）_2
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_12"
+      - 🇫🇷法国（TG@阿伟科技/油管）
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_1"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_2"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_3"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_1
+      - "🇦🇺澳大利亚（TG@阿伟科技/油管）\r"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_1
+      - （TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_3
+      - （TG@阿伟科技/油管）_4
+      - （TG@阿伟科技/油管）_5
+      - （TG@阿伟科技/油管）_6
+      - （TG@阿伟科技/油管）_7
+      - （TG@阿伟科技/油管）_8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 路由器用
+      - "新西兰（TG@阿伟科技/油管）\r"
+      - "天津（TG@阿伟科技/油管）\r"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_1"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_2"
+      - 🇺🇸美国（TG@阿伟科技/油管）_1
+      - 🇺🇸美国（TG@阿伟科技/油管）_2
+      - 🇺🇸美国（TG@阿伟科技/油管）_3
+      - 🇺🇸美国（TG@阿伟科技/油管）_4
+      - 🇺🇸美国（TG@阿伟科技/油管）_5
+      - 🇺🇸美国（TG@阿伟科技/油管）_6
+      - 🇺🇸美国（TG@阿伟科技/油管）_7
+      - 🇺🇸美国（TG@阿伟科技/油管）_8
+      - 🇺🇸美国（TG@阿伟科技/油管）_9
+      - 🇺🇸美国（TG@阿伟科技/油管）_10
+      - 🇺🇸美国（TG@阿伟科技/油管）_11
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_3"
+      - 🇺🇸美国（TG@阿伟科技/油管）_12
+      - 🇺🇸美国（TG@阿伟科技/油管）_13
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_4"
+      - 🇺🇸美国（TG@阿伟科技/油管）_14
+      - 🇺🇸美国（TG@阿伟科技/油管）_15
+      - 🇺🇸美国（TG@阿伟科技/油管）_16
+      - 🇺🇸美国（TG@阿伟科技/油管）_17
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_5"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_6"
+      - 🇺🇸美国（TG@阿伟科技/油管）_18
+      - 🇺🇸美国（TG@阿伟科技/油管）_19
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_7"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_8"
+      - 🇺🇸美国（TG@阿伟科技/油管）_20
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_9"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_1"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_2"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_3"
+      - 🇹🇼台湾（TG@阿伟科技/油管）_1
+      - 🇹🇼台湾（TG@阿伟科技/油管）_2
+      - 🇹🇼台湾（TG@阿伟科技/油管）_3
+      - 🇹🇼台湾（TG@阿伟科技/油管）_4
+      - 🇹🇼台湾（TG@阿伟科技/油管）_5
+      - 🇸🇰斯洛伐克（TG@阿伟科技/油管）
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_1"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_2"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_3"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_1
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_2
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_3
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_4
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_5
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_4"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_5"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_6
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_7
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_8
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_9
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_10
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_11
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_12
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_13
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_14
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_15
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_16
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_17
+      - "🇷🇺俄罗斯联邦（TG@阿伟科技/油管）\r"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_1"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_2"
+      - 🇳🇱荷兰（TG@阿伟科技/油管）
+      - "🇳🇱荷兰（TG@阿伟科技/油管）\r"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_1"
+      - 🇰🇷韩国（TG@阿伟科技/油管）_1
+      - 🇰🇷韩国（TG@阿伟科技/油管）_2
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_2"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_3"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_1"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_2"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_3"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_5"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_6"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_7"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_8"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_9"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_10"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_11"
+      - 🇯🇵日本（TG@阿伟科技/油管）_1
+      - 🇯🇵日本（TG@阿伟科技/油管）_2
+      - 🇯🇵日本（TG@阿伟科技/油管）_3
+      - 🇯🇵日本（TG@阿伟科技/油管）_4
+      - 🇯🇵日本（TG@阿伟科技/油管）_5
+      - 🇯🇵日本（TG@阿伟科技/油管）_6
+      - 🇯🇵日本（TG@阿伟科技/油管）_7
+      - 🇯🇵日本（TG@阿伟科技/油管）_8
+      - 🇯🇵日本（TG@阿伟科技/油管）_9
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_1"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_2"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_3"
+      - 🇮🇩印度尼西亚（TG@阿伟科技/油管）
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_1"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_2"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_3"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_4"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_5"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_6"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_7"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_8"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_9"
+      - 🇭🇰香港（TG@阿伟科技/油管）_1
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_10"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_11"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_12"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_13"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_14"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_15"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_16"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_17"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_18"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_19"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_20"
+      - 🇭🇰香港（TG@阿伟科技/油管）_2
+      - 🇭🇰香港（TG@阿伟科技/油管）_3
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_21"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_22"
+      - 🇬🇧英国（TG@阿伟科技/油管）_1
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_1"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_2"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_3"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_4"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_5"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_6"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_7"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_8"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_9"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_10"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_11"
+      - 🇬🇧英国（TG@阿伟科技/油管）_2
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_12"
+      - 🇫🇷法国（TG@阿伟科技/油管）
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_1"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_2"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_3"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_1
+      - "🇦🇺澳大利亚（TG@阿伟科技/油管）\r"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_1
+      - （TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_3
+      - （TG@阿伟科技/油管）_4
+      - （TG@阿伟科技/油管）_5
+      - （TG@阿伟科技/油管）_6
+      - （TG@阿伟科技/油管）_7
+      - （TG@阿伟科技/油管）_8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 路由器用
+      - "新西兰（TG@阿伟科技/油管）\r"
+      - "天津（TG@阿伟科技/油管）\r"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_1"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_2"
+      - 🇺🇸美国（TG@阿伟科技/油管）_1
+      - 🇺🇸美国（TG@阿伟科技/油管）_2
+      - 🇺🇸美国（TG@阿伟科技/油管）_3
+      - 🇺🇸美国（TG@阿伟科技/油管）_4
+      - 🇺🇸美国（TG@阿伟科技/油管）_5
+      - 🇺🇸美国（TG@阿伟科技/油管）_6
+      - 🇺🇸美国（TG@阿伟科技/油管）_7
+      - 🇺🇸美国（TG@阿伟科技/油管）_8
+      - 🇺🇸美国（TG@阿伟科技/油管）_9
+      - 🇺🇸美国（TG@阿伟科技/油管）_10
+      - 🇺🇸美国（TG@阿伟科技/油管）_11
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_3"
+      - 🇺🇸美国（TG@阿伟科技/油管）_12
+      - 🇺🇸美国（TG@阿伟科技/油管）_13
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_4"
+      - 🇺🇸美国（TG@阿伟科技/油管）_14
+      - 🇺🇸美国（TG@阿伟科技/油管）_15
+      - 🇺🇸美国（TG@阿伟科技/油管）_16
+      - 🇺🇸美国（TG@阿伟科技/油管）_17
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_5"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_6"
+      - 🇺🇸美国（TG@阿伟科技/油管）_18
+      - 🇺🇸美国（TG@阿伟科技/油管）_19
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_7"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_8"
+      - 🇺🇸美国（TG@阿伟科技/油管）_20
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_9"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_1"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_2"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_3"
+      - 🇹🇼台湾（TG@阿伟科技/油管）_1
+      - 🇹🇼台湾（TG@阿伟科技/油管）_2
+      - 🇹🇼台湾（TG@阿伟科技/油管）_3
+      - 🇹🇼台湾（TG@阿伟科技/油管）_4
+      - 🇹🇼台湾（TG@阿伟科技/油管）_5
+      - 🇸🇰斯洛伐克（TG@阿伟科技/油管）
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_1"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_2"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_3"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_1
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_2
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_3
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_4
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_5
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_4"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_5"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_6
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_7
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_8
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_9
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_10
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_11
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_12
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_13
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_14
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_15
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_16
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_17
+      - "🇷🇺俄罗斯联邦（TG@阿伟科技/油管）\r"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_1"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_2"
+      - 🇳🇱荷兰（TG@阿伟科技/油管）
+      - "🇳🇱荷兰（TG@阿伟科技/油管）\r"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_1"
+      - 🇰🇷韩国（TG@阿伟科技/油管）_1
+      - 🇰🇷韩国（TG@阿伟科技/油管）_2
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_2"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_3"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_1"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_2"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_3"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_5"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_6"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_7"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_8"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_9"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_10"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_11"
+      - 🇯🇵日本（TG@阿伟科技/油管）_1
+      - 🇯🇵日本（TG@阿伟科技/油管）_2
+      - 🇯🇵日本（TG@阿伟科技/油管）_3
+      - 🇯🇵日本（TG@阿伟科技/油管）_4
+      - 🇯🇵日本（TG@阿伟科技/油管）_5
+      - 🇯🇵日本（TG@阿伟科技/油管）_6
+      - 🇯🇵日本（TG@阿伟科技/油管）_7
+      - 🇯🇵日本（TG@阿伟科技/油管）_8
+      - 🇯🇵日本（TG@阿伟科技/油管）_9
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_1"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_2"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_3"
+      - 🇮🇩印度尼西亚（TG@阿伟科技/油管）
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_1"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_2"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_3"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_4"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_5"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_6"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_7"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_8"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_9"
+      - 🇭🇰香港（TG@阿伟科技/油管）_1
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_10"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_11"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_12"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_13"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_14"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_15"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_16"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_17"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_18"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_19"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_20"
+      - 🇭🇰香港（TG@阿伟科技/油管）_2
+      - 🇭🇰香港（TG@阿伟科技/油管）_3
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_21"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_22"
+      - 🇬🇧英国（TG@阿伟科技/油管）_1
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_1"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_2"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_3"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_4"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_5"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_6"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_7"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_8"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_9"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_10"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_11"
+      - 🇬🇧英国（TG@阿伟科技/油管）_2
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_12"
+      - 🇫🇷法国（TG@阿伟科技/油管）
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_1"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_2"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_3"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_1
+      - "🇦🇺澳大利亚（TG@阿伟科技/油管）\r"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_1
+      - （TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_3
+      - （TG@阿伟科技/油管）_4
+      - （TG@阿伟科技/油管）_5
+      - （TG@阿伟科技/油管）_6
+      - （TG@阿伟科技/油管）_7
+      - （TG@阿伟科技/油管）_8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 路由器用
+      - "新西兰（TG@阿伟科技/油管）\r"
+      - "天津（TG@阿伟科技/油管）\r"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_1"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_2"
+      - 🇺🇸美国（TG@阿伟科技/油管）_1
+      - 🇺🇸美国（TG@阿伟科技/油管）_2
+      - 🇺🇸美国（TG@阿伟科技/油管）_3
+      - 🇺🇸美国（TG@阿伟科技/油管）_4
+      - 🇺🇸美国（TG@阿伟科技/油管）_5
+      - 🇺🇸美国（TG@阿伟科技/油管）_6
+      - 🇺🇸美国（TG@阿伟科技/油管）_7
+      - 🇺🇸美国（TG@阿伟科技/油管）_8
+      - 🇺🇸美国（TG@阿伟科技/油管）_9
+      - 🇺🇸美国（TG@阿伟科技/油管）_10
+      - 🇺🇸美国（TG@阿伟科技/油管）_11
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_3"
+      - 🇺🇸美国（TG@阿伟科技/油管）_12
+      - 🇺🇸美国（TG@阿伟科技/油管）_13
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_4"
+      - 🇺🇸美国（TG@阿伟科技/油管）_14
+      - 🇺🇸美国（TG@阿伟科技/油管）_15
+      - 🇺🇸美国（TG@阿伟科技/油管）_16
+      - 🇺🇸美国（TG@阿伟科技/油管）_17
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_5"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_6"
+      - 🇺🇸美国（TG@阿伟科技/油管）_18
+      - 🇺🇸美国（TG@阿伟科技/油管）_19
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_7"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_8"
+      - 🇺🇸美国（TG@阿伟科技/油管）_20
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_9"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_1"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_2"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_3"
+      - 🇹🇼台湾（TG@阿伟科技/油管）_1
+      - 🇹🇼台湾（TG@阿伟科技/油管）_2
+      - 🇹🇼台湾（TG@阿伟科技/油管）_3
+      - 🇹🇼台湾（TG@阿伟科技/油管）_4
+      - 🇹🇼台湾（TG@阿伟科技/油管）_5
+      - 🇸🇰斯洛伐克（TG@阿伟科技/油管）
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_1"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_2"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_3"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_1
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_2
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_3
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_4
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_5
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_4"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_5"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_6
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_7
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_8
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_9
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_10
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_11
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_12
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_13
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_14
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_15
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_16
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_17
+      - "🇷🇺俄罗斯联邦（TG@阿伟科技/油管）\r"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_1"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_2"
+      - 🇳🇱荷兰（TG@阿伟科技/油管）
+      - "🇳🇱荷兰（TG@阿伟科技/油管）\r"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_1"
+      - 🇰🇷韩国（TG@阿伟科技/油管）_1
+      - 🇰🇷韩国（TG@阿伟科技/油管）_2
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_2"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_3"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_1"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_2"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_3"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_5"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_6"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_7"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_8"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_9"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_10"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_11"
+      - 🇯🇵日本（TG@阿伟科技/油管）_1
+      - 🇯🇵日本（TG@阿伟科技/油管）_2
+      - 🇯🇵日本（TG@阿伟科技/油管）_3
+      - 🇯🇵日本（TG@阿伟科技/油管）_4
+      - 🇯🇵日本（TG@阿伟科技/油管）_5
+      - 🇯🇵日本（TG@阿伟科技/油管）_6
+      - 🇯🇵日本（TG@阿伟科技/油管）_7
+      - 🇯🇵日本（TG@阿伟科技/油管）_8
+      - 🇯🇵日本（TG@阿伟科技/油管）_9
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_1"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_2"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_3"
+      - 🇮🇩印度尼西亚（TG@阿伟科技/油管）
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_1"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_2"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_3"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_4"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_5"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_6"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_7"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_8"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_9"
+      - 🇭🇰香港（TG@阿伟科技/油管）_1
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_10"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_11"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_12"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_13"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_14"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_15"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_16"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_17"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_18"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_19"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_20"
+      - 🇭🇰香港（TG@阿伟科技/油管）_2
+      - 🇭🇰香港（TG@阿伟科技/油管）_3
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_21"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_22"
+      - 🇬🇧英国（TG@阿伟科技/油管）_1
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_1"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_2"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_3"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_4"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_5"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_6"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_7"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_8"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_9"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_10"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_11"
+      - 🇬🇧英国（TG@阿伟科技/油管）_2
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_12"
+      - 🇫🇷法国（TG@阿伟科技/油管）
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_1"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_2"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_3"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_1
+      - "🇦🇺澳大利亚（TG@阿伟科技/油管）\r"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_1
+      - （TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_3
+      - （TG@阿伟科技/油管）_4
+      - （TG@阿伟科技/油管）_5
+      - （TG@阿伟科技/油管）_6
+      - （TG@阿伟科技/油管）_7
+      - （TG@阿伟科技/油管）_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +1117,157 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 路由器用
+      - "新西兰（TG@阿伟科技/油管）\r"
+      - "天津（TG@阿伟科技/油管）\r"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_1"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_2"
+      - 🇺🇸美国（TG@阿伟科技/油管）_1
+      - 🇺🇸美国（TG@阿伟科技/油管）_2
+      - 🇺🇸美国（TG@阿伟科技/油管）_3
+      - 🇺🇸美国（TG@阿伟科技/油管）_4
+      - 🇺🇸美国（TG@阿伟科技/油管）_5
+      - 🇺🇸美国（TG@阿伟科技/油管）_6
+      - 🇺🇸美国（TG@阿伟科技/油管）_7
+      - 🇺🇸美国（TG@阿伟科技/油管）_8
+      - 🇺🇸美国（TG@阿伟科技/油管）_9
+      - 🇺🇸美国（TG@阿伟科技/油管）_10
+      - 🇺🇸美国（TG@阿伟科技/油管）_11
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_3"
+      - 🇺🇸美国（TG@阿伟科技/油管）_12
+      - 🇺🇸美国（TG@阿伟科技/油管）_13
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_4"
+      - 🇺🇸美国（TG@阿伟科技/油管）_14
+      - 🇺🇸美国（TG@阿伟科技/油管）_15
+      - 🇺🇸美国（TG@阿伟科技/油管）_16
+      - 🇺🇸美国（TG@阿伟科技/油管）_17
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_5"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_6"
+      - 🇺🇸美国（TG@阿伟科技/油管）_18
+      - 🇺🇸美国（TG@阿伟科技/油管）_19
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_7"
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_8"
+      - 🇺🇸美国（TG@阿伟科技/油管）_20
+      - "🇺🇸美国（TG@阿伟科技/油管）\r_9"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_1"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_2"
+      - "🇹🇼台湾（TG@阿伟科技/油管）\r_3"
+      - 🇹🇼台湾（TG@阿伟科技/油管）_1
+      - 🇹🇼台湾（TG@阿伟科技/油管）_2
+      - 🇹🇼台湾（TG@阿伟科技/油管）_3
+      - 🇹🇼台湾（TG@阿伟科技/油管）_4
+      - 🇹🇼台湾（TG@阿伟科技/油管）_5
+      - 🇸🇰斯洛伐克（TG@阿伟科技/油管）
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_1"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_2"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_3"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_1
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_2
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_3
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_4
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_5
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_4"
+      - "🇸🇬新加坡（TG@阿伟科技/油管）\r_5"
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_6
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_7
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_8
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_9
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_10
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_11
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_12
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_13
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_14
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_15
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_16
+      - 🇸🇬新加坡（TG@阿伟科技/油管）_17
+      - "🇷🇺俄罗斯联邦（TG@阿伟科技/油管）\r"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_1"
+      - "🇷🇺俄罗斯（TG@阿伟科技/油管）\r_2"
+      - 🇳🇱荷兰（TG@阿伟科技/油管）
+      - "🇳🇱荷兰（TG@阿伟科技/油管）\r"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_1"
+      - 🇰🇷韩国（TG@阿伟科技/油管）_1
+      - 🇰🇷韩国（TG@阿伟科技/油管）_2
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_2"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_3"
+      - "🇰🇷韩国（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_1"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_2"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_3"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_4"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_5"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_6"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_7"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_8"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_9"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_10"
+      - "🇯🇵日本（TG@阿伟科技/油管）\r_11"
+      - 🇯🇵日本（TG@阿伟科技/油管）_1
+      - 🇯🇵日本（TG@阿伟科技/油管）_2
+      - 🇯🇵日本（TG@阿伟科技/油管）_3
+      - 🇯🇵日本（TG@阿伟科技/油管）_4
+      - 🇯🇵日本（TG@阿伟科技/油管）_5
+      - 🇯🇵日本（TG@阿伟科技/油管）_6
+      - 🇯🇵日本（TG@阿伟科技/油管）_7
+      - 🇯🇵日本（TG@阿伟科技/油管）_8
+      - 🇯🇵日本（TG@阿伟科技/油管）_9
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_1"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_2"
+      - "🇮🇳印度（TG@阿伟科技/油管）\r_3"
+      - 🇮🇩印度尼西亚（TG@阿伟科技/油管）
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_1"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_2"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_3"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_4"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_5"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_6"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_7"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_8"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_9"
+      - 🇭🇰香港（TG@阿伟科技/油管）_1
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_10"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_11"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_12"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_13"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_14"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_15"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_16"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_17"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_18"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_19"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_20"
+      - 🇭🇰香港（TG@阿伟科技/油管）_2
+      - 🇭🇰香港（TG@阿伟科技/油管）_3
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_21"
+      - "🇭🇰香港（TG@阿伟科技/油管）\r_22"
+      - 🇬🇧英国（TG@阿伟科技/油管）_1
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_1"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_2"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_3"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_4"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_5"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_6"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_7"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_8"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_9"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_10"
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_11"
+      - 🇬🇧英国（TG@阿伟科技/油管）_2
+      - "🇬🇧英国（TG@阿伟科技/油管）\r_12"
+      - 🇫🇷法国（TG@阿伟科技/油管）
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_1"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_2"
+      - "🇨🇦加拿大（TG@阿伟科技/油管）\r_3"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_1
+      - "🇦🇺澳大利亚（TG@阿伟科技/油管）\r"
+      - 🇦🇺澳大利亚（TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_1
+      - （TG@阿伟科技/油管）_2
+      - （TG@阿伟科技/油管）_3
+      - （TG@阿伟科技/油管）_4
+      - （TG@阿伟科技/油管）_5
+      - （TG@阿伟科技/油管）_6
+      - （TG@阿伟科技/油管）_7
+      - （TG@阿伟科技/油管）_8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
