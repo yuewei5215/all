@@ -5,10 +5,10 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","http-opts":{"path":["/"]},"server":"43.132.158.232","name":"🇭🇰_HK_香港","port":44350,"uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.132.158.232"]}},"server":"43.132.158.232","name":"🇭🇰_HK_香港","port":44350,"uuid":"164b5fc8-5689-48ec-9f50-9f1b04f8c885","alterId":0,"cipher":"auto","network":"http"}
   - {"type":"trojan","name":"🇨🇳_CN_中国->🇩🇪_DE_德国","server":"s1.upyun.online","password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","port":"12340","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"🇨🇳_CN_中国->🇺🇸_US_美国","server":"hncu.relay.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44611","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","http-opts":{"path":["/"]},"server":"43.154.46.228","name":"🇨🇳_CN_中国","port":49930,"uuid":"051088e3-f62e-4cf6-a199-ab98adcb822b","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.154.46.228"]}},"server":"43.154.46.228","name":"🇨🇳_CN_中国","port":49930,"uuid":"051088e3-f62e-4cf6-a199-ab98adcb822b","alterId":0,"cipher":"auto","network":"http"}
   - {"type":"trojan","name":"🇨🇳_CN_中国->🇯🇵_JP_日本","server":"s2.upyun.online","password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","port":"12340","udp":true,"skip-cert-verify":true}
   - {"type":"ssr","server":"152.89.210.105","port":9093,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"wfLC2y7rzZyCmuyt","name":"🇬🇧_GB_英国_1"}
   - {"type":"ssr","server":"152.89.210.105","port":9084,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"c3NtHJ5ujV2tGDfj","name":"🇬🇧_GB_英国_2"}
