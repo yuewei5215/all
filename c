@@ -5,53 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","server":"120.240.168.118","name":"🇨🇳_CN_中国->🇰🇷_KR_韩国","port":63004,"uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","server":"20.205.125.236","name":"🇭🇰_HK_香港","port":50019,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"120.240.168.118","name":"🇨🇳_CN_中国","port":63078,"uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇸🇬_SG_新加坡","server":"sg-sr-116.mitoption.com","password":"e5d46365e25e31d94279c2bcf93390a2","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸_US_美国","server":"jgwcc3.gaox.ml","password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵_JP_日本","server":"jgwdb4.gaox.ml","password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF","server":"185.126.116.125","port":9043,"name":"🇨🇭_CH_瑞士"}
+  - {"type":"trojan","name":"🇹🇼_TW_台湾","server":"tw.node.qchwnd.moe","password":"f422be13-9143-4266-b355-ff004658853e","port":"44608","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇦🇺_AU_澳大利亚","server":"jgwxn3.gaox.ml","password":"cb43b7c2-b744-41c5-bcc2-fd7467b332cf","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"ssr","server":"213.183.53.177","port":9033,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UTJA57ypk2XKQpnm","name":"🇷🇺_RU_俄罗斯联邦"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国
+      - 🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本
+      - 🇨🇭_CH_瑞士
+      - 🇹🇼_TW_台湾
+      - 🇦🇺_AU_澳大利亚
+      - 🇷🇺_RU_俄罗斯联邦
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国
+      - 🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本
+      - 🇨🇭_CH_瑞士
+      - 🇹🇼_TW_台湾
+      - 🇦🇺_AU_澳大利亚
+      - 🇷🇺_RU_俄罗斯联邦
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国
+      - 🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本
+      - 🇨🇭_CH_瑞士
+      - 🇹🇼_TW_台湾
+      - 🇦🇺_AU_澳大利亚
+      - 🇷🇺_RU_俄罗斯联邦
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国
+      - 🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本
+      - 🇨🇭_CH_瑞士
+      - 🇹🇼_TW_台湾
+      - 🇦🇺_AU_澳大利亚
+      - 🇷🇺_RU_俄罗斯联邦
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国
+      - 🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本
+      - 🇨🇭_CH_瑞士
+      - 🇹🇼_TW_台湾
+      - 🇦🇺_AU_澳大利亚
+      - 🇷🇺_RU_俄罗斯联邦
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国
+      - 🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本
+      - 🇨🇭_CH_瑞士
+      - 🇹🇼_TW_台湾
+      - 🇦🇺_AU_澳大利亚
+      - 🇷🇺_RU_俄罗斯联邦
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +116,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
+      - 🇨🇳_CN_中国
+      - 🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本
+      - 🇨🇭_CH_瑞士
+      - 🇹🇼_TW_台湾
+      - 🇦🇺_AU_澳大利亚
+      - 🇷🇺_RU_俄罗斯联邦
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
