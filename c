@@ -5,53 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","server":"20.205.125.236","name":"🇭🇰_HK_香港","port":50019,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"tcp"}
   - {"type":"vmess","server":"120.240.168.118","name":"🇨🇳_CN_中国->🇰🇷_KR_韩国","port":63004,"uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","server":"20.205.125.236","name":"🇭🇰_HK_香港","port":50019,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰_HK_香港
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰_HK_香港
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰_HK_香港
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_HK_香港
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +74,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_HK_香港
       - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇭🇰_HK_香港
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
