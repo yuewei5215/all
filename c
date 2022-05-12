@@ -5,119 +5,137 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"github.com/freefq - 广东省广州市移动 3 
-    ","server":"ygzyd.sub-nthu.com","password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","port":"35002","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"github.com/freefq - 上海市联通 5 
-    ","server":"shlt.sub-nthu.com","password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","port":"35001","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"github.com/freefq - 香港HKCABLE 8 
-    ","server":"hkbn.okvpn.xyz","password":"508c98e6-aa9b-4afc-b97a-3151fe5860dd","port":"12000","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"github.com/freefq - 上海市联通 9 
-    ","server":"shlt.sub-nthu.com","password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","port":"35002","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"github.com/freefq - 上海市电信CN2 11 
-    ","server":"hnlt.sub-nthu.com","password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","port":"35001","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"github.com/freefq - 广东省广州市移动 12 
-    ","server":"ygzyd.sub-nthu.com","password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","port":"35003","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"72.140.224.197","port":806,"name":"github.com/freefq
-    - 加拿大  14  "}
-  - {"type":"trojan","name":"github.com/freefq - 广东省广州市移动 15 
-    ","server":"ygzyd.sub-nthu.com","password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","port":"35001","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"github.com/freefq - 英国  16 
-    ","server":"de-01.fireplay.io","password":"lo3TmsNaLWUXpuoE","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"github.com/freefq - 澳大利亚  17 
-    ","server":"jgwdb1.gaox.ml","password":"a580d839-ee41-4df1-bf03-6789dca32e30","port":"443","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"167.88.63.60","port":8091,"name":"🇺🇸_US_美国_1"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"72.140.224.197","port":800,"name":"🇨🇦_CA_加拿大_1"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_2","server":"free.spcloud.us","password":"118fc04e-fb8c-4154-9092-352cf1958fcd","port":"11111","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"72.140.224.197","port":801,"name":"🇨🇦_CA_加拿大_2"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"72.140.224.197","port":811,"name":"🇨🇦_CA_加拿大_3"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"198.57.27.225","port":8881,"name":"🇨🇦_CA_加拿大_4"}
+  - {"type":"vmess","server":"20.24.77.204","name":"🇺🇸_US_美国_3","port":50009,"uuid":"9d7fb490-f159-3b56-8e8a-614c45c299d1","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"198.57.27.225","port":9102,"name":"🇨🇦_CA_加拿大_5"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"198.57.27.225","port":8008,"name":"🇨🇦_CA_加拿大_6"}
+  - {"type":"ss","cipher":"aes-256-cfb","password":"a40ff797db5c4b948cfe5a5234a0e74c","server":"167.172.135.97","port":25453,"name":"🇺🇸_US_美国_4"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"134.195.196.206","port":2375,"name":"🇨🇦_CA_加拿大_7"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.206","port":3306,"name":"🇨🇦_CA_加拿大_8"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"198.57.27.225","port":7002,"name":"🇨🇦_CA_加拿大_9"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"198.57.27.225","port":8118,"name":"🇨🇦_CA_加拿大_10"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 'github.com/freefq - 广东省广州市移动 3  '
-      - 'github.com/freefq - 上海市联通 5  '
-      - 'github.com/freefq - 香港HKCABLE 8  '
-      - 'github.com/freefq - 上海市联通 9  '
-      - 'github.com/freefq - 上海市电信CN2 11  '
-      - 'github.com/freefq - 广东省广州市移动 12  '
-      - 'github.com/freefq - 加拿大  14  '
-      - 'github.com/freefq - 广东省广州市移动 15  '
-      - 'github.com/freefq - 英国  16  '
-      - 'github.com/freefq - 澳大利亚  17  '
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 'github.com/freefq - 广东省广州市移动 3  '
-      - 'github.com/freefq - 上海市联通 5  '
-      - 'github.com/freefq - 香港HKCABLE 8  '
-      - 'github.com/freefq - 上海市联通 9  '
-      - 'github.com/freefq - 上海市电信CN2 11  '
-      - 'github.com/freefq - 广东省广州市移动 12  '
-      - 'github.com/freefq - 加拿大  14  '
-      - 'github.com/freefq - 广东省广州市移动 15  '
-      - 'github.com/freefq - 英国  16  '
-      - 'github.com/freefq - 澳大利亚  17  '
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 'github.com/freefq - 广东省广州市移动 3  '
-      - 'github.com/freefq - 上海市联通 5  '
-      - 'github.com/freefq - 香港HKCABLE 8  '
-      - 'github.com/freefq - 上海市联通 9  '
-      - 'github.com/freefq - 上海市电信CN2 11  '
-      - 'github.com/freefq - 广东省广州市移动 12  '
-      - 'github.com/freefq - 加拿大  14  '
-      - 'github.com/freefq - 广东省广州市移动 15  '
-      - 'github.com/freefq - 英国  16  '
-      - 'github.com/freefq - 澳大利亚  17  '
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 'github.com/freefq - 广东省广州市移动 3  '
-      - 'github.com/freefq - 上海市联通 5  '
-      - 'github.com/freefq - 香港HKCABLE 8  '
-      - 'github.com/freefq - 上海市联通 9  '
-      - 'github.com/freefq - 上海市电信CN2 11  '
-      - 'github.com/freefq - 广东省广州市移动 12  '
-      - 'github.com/freefq - 加拿大  14  '
-      - 'github.com/freefq - 广东省广州市移动 15  '
-      - 'github.com/freefq - 英国  16  '
-      - 'github.com/freefq - 澳大利亚  17  '
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 'github.com/freefq - 广东省广州市移动 3  '
-      - 'github.com/freefq - 上海市联通 5  '
-      - 'github.com/freefq - 香港HKCABLE 8  '
-      - 'github.com/freefq - 上海市联通 9  '
-      - 'github.com/freefq - 上海市电信CN2 11  '
-      - 'github.com/freefq - 广东省广州市移动 12  '
-      - 'github.com/freefq - 加拿大  14  '
-      - 'github.com/freefq - 广东省广州市移动 15  '
-      - 'github.com/freefq - 英国  16  '
-      - 'github.com/freefq - 澳大利亚  17  '
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 'github.com/freefq - 广东省广州市移动 3  '
-      - 'github.com/freefq - 上海市联通 5  '
-      - 'github.com/freefq - 香港HKCABLE 8  '
-      - 'github.com/freefq - 上海市联通 9  '
-      - 'github.com/freefq - 上海市电信CN2 11  '
-      - 'github.com/freefq - 广东省广州市移动 12  '
-      - 'github.com/freefq - 加拿大  14  '
-      - 'github.com/freefq - 广东省广州市移动 15  '
-      - 'github.com/freefq - 英国  16  '
-      - 'github.com/freefq - 澳大利亚  17  '
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,16 +158,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 'github.com/freefq - 广东省广州市移动 3  '
-      - 'github.com/freefq - 上海市联通 5  '
-      - 'github.com/freefq - 香港HKCABLE 8  '
-      - 'github.com/freefq - 上海市联通 9  '
-      - 'github.com/freefq - 上海市电信CN2 11  '
-      - 'github.com/freefq - 广东省广州市移动 12  '
-      - 'github.com/freefq - 加拿大  14  '
-      - 'github.com/freefq - 广东省广州市移动 15  '
-      - 'github.com/freefq - 英国  16  '
-      - 'github.com/freefq - 澳大利亚  17  '
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦_CA_加拿大_7
+      - 🇨🇦_CA_加拿大_8
+      - 🇨🇦_CA_加拿大_9
+      - 🇨🇦_CA_加拿大_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
