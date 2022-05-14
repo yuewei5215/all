@@ -5,67 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"🇺🇸_US_美国","server":"free.spcloud.us","password":"118fc04e-fb8c-4154-9092-352cf1958fcd","port":21010,"udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.154.72.145"]}},"server":"43.154.72.145","name":"🇨🇳_CN_中国_1","port":27091,"uuid":"2f1e82e4-5319-4278-92aa-74d49c04683f","alterId":0,"cipher":"auto","network":"http"}
-  - {"type":"ssr","server":"s101.boom.party","port":32000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20=","protocol-param":"NDIxOTgzOndQSWl5MA==","name":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚"}
-  - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.154.46.228"]}},"server":"43.154.46.228","name":"🇨🇳_CN_中国_2","port":49930,"uuid":"051088e3-f62e-4cf6-a199-ab98adcb822b","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"198.57.27.218","port":5004,"name":"v2rayse_test"}
+  - {"type":"vmess","server":"154.23.190.162","name":"v2rayse_test","port":443,"uuid":"b9984674-f771-4e67-a198-c7e60720ba2c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ssr","server":"20.239.49.44","port":59814,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"3df57276-03ef-45cf-bdd4-4edb6dfaa0ef","name":"v2rayse_test"}
+  - {"type":"trojan","name":"v2rayse_test","server":"ca-trojan.bonds.id","password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","port":443,"udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
-      - 🇨🇳_CN_中国_2
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
-      - 🇨🇳_CN_中国_2
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
-      - 🇨🇳_CN_中国_2
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
-      - 🇨🇳_CN_中国_2
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
-      - 🇨🇳_CN_中国_2
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
-      - 🇨🇳_CN_中国_2
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,10 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
-      - 🇨🇳_CN_中国_2
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
