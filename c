@@ -1,189 +1,463 @@
-mixed-port: 7890
+port: 7890
+socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.10068414.xyz"}},"server":"141.95.33.146","name":"636","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.20884287.xyz"}},"server":"141.95.33.212","name":"637","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.32754213.xyz"}},"server":"142.4.112.60","name":"462","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.55004117.xyz"}},"server":"142.4.120.9","name":"601","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.73345741.xyz"}},"server":"154.84.1.119","name":"168","port":"443","uuid":"20b30916-e203-412e-8ec0-900f3acd5128","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.73345741.xyz"}},"server":"154.84.1.120","name":"169","port":"443","uuid":"20b30916-e203-412e-8ec0-900f3acd5128","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.57556953.xyz"}},"server":"154.84.1.195","name":"564","port":"443","uuid":"65ea6727-4461-47a7-a5c4-fef2c67f2f79","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.49952772.xyz"}},"server":"161.8.149.133","name":"638","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.73683013.xyz"}},"server":"161.8.159.21","name":"629","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.68243541.xyz"}},"server":"185.160.24.48","name":"561","port":"443","uuid":"a8a7fc23-c6e6-4505-a173-ae67dfb06f28","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.82852918.xyz"}},"server":"198.2.221.164","name":"621","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.95314708.xyz"}},"server":"23.225.213.243","name":"590","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.44441809.xyz"}},"server":"38.34.163.253","name":"634","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.25620881.xyz"}},"server":"38.34.179.126","name":"639","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.50927799.xyz"}},"server":"45.136.119.118","name":"633","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.96304200.xyz"}},"server":"45.136.119.133","name":"635","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.07890885.xyz"}},"server":"46.182.107.165","name":"390","port":"443","uuid":"d3133484-f2bf-4b0c-8d38-f8e645b65687","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.68737987.xyz"}},"server":"46.182.107.45","name":"167","port":"443","uuid":"fe5f69e7-e183-439b-950b-9661ef0651f2","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.19845465.xyz"}},"server":"46.182.107.67","name":"603","port":"443","uuid":"078eb24d-8d1d-4fbd-b914-ee58a897a35e","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.98272029.xyz"}},"server":"51.89.2.48","name":"280","port":"443","uuid":"9f58234c-355b-4065-ae21-d4a63099aba5","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.42528935.xyz"}},"server":"51.89.42.154","name":"632","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/igyjvws","headers":{"host":"n.nmms.xyz"}},"server":"www.mnn.tw","name":"美国。洛尘8（www.lcr189.com）_1","port":"443","uuid":"bc9d22de-d9c4-444c-8637-bead39ba8674","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v2.ssrsub.com"}},"server":"v2.ssrsub.com","name":"美国。洛尘8（www.lcr189.com）_2","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/go","headers":{"host":"us03.gogogoo.cyou"}},"server":"us03.gogogoo.cyou","name":"美国。洛尘8（www.lcr189.com）_3","port":"443","uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/go","headers":{"host":"us02.gogogoo.cyou"}},"server":"us02.gogogoo.cyou","name":"洛尘8（www.lcr189.com）_1","port":"443","uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","server":"185.202.172.243","name":"美国。洛尘8（www.lcr189.com）_4","port":"40941","uuid":"48537820-14f3-4de7-d26e-a3b88bcf015a","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"185.202.172.243","name":"美国。洛尘8（www.lcr189.com）_5","port":"40941","uuid":"48537820-14f3-4de7-d26e-a3b88bcf015a","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"152.70.237.92","name":"韩国。洛尘8（www.lcr189.com）_1","port":"80","uuid":"9cac569c-fb38-4a71-cae7-2ac1739ecdf0","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"152.70.237.92","name":"韩国。洛尘8（www.lcr189.com）_2","port":"80","uuid":"9cac569c-fb38-4a71-cae7-2ac1739ecdf0","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"104.224.188.29","name":"美国。洛尘8（www.lcr189.com）_6","port":"38226","uuid":"9299fb78-290c-4aad-befb-0130c074a622","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"104.166.135.10","name":"美国。洛尘8（www.lcr189.com）_7","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/eisasqa","headers":{"host":"foxus.fovi.tk"}},"server":"104.16.42.170","name":"洛尘8（www.lcr189.com）_2","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/eisasqa","headers":{"host":"foxus.fovi.tk"}},"server":"104.16.162.16","name":"洛尘8（www.lcr189.com）_3","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"40825843-2e84-4433-a4c0-829948eb620b","server":"cn1.relay.iepl.pw","port":50600,"name":"中国。洛尘8（www.lcr189.com）_1"}
+  - {"name":"美国。洛尘8（www.lcr189.com）_8","type":"vless","server":"v-r.jmhwp3.repl.co","port":443,"uuid":"17af76e1-a5d7-41ab-ae87-b48f185075d1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","headers":{"path":"/vless","servername":"v-r.jmhwp3.repl.co"}}
+  - {"name":"美国。洛尘8（www.lcr189.com）_9","type":"vless","server":"150.230.251.113","port":23616,"uuid":"98d1a62c-2053-468c-b1dd-311cbb87d34f","skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"美国。洛尘8（www.lcr189.com）_10","server":"fhcarm2.gaox.ml","password":"f39bd244-f5fe-415c-8b98-a1e5250bf178","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"美国。洛尘8（www.lcr189.com）_11","server":"bwg.linfeng.tk","password":"qDBOB0SHBD","port":40862,"udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm07.bdate.xyz","name":"中国。洛尘8（www.lcr189.com）_2","port":"1320","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"aweikeji-YouTube"}},"server":"hkaz2.xmrth-node.xyz","name":"美国。洛尘8（www.lcr189.com）_12","port":"14017","uuid":"53ad95b1-8693-34e3-98d7-2010ad24aaf9","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/ray","headers":{"host":"330tw.fans8.xyz"}},"server":"330tw.fans8.xyz","name":"台湾。洛尘8（www.lcr189.com）","port":"443","uuid":"dc09c9a0-1697-3f39-8ba9-65f2985e00ec","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"40825843-2e84-4433-a4c0-829948eb620b","server":"cn1.relay.iepl.pw","port":50200,"name":"中国。洛尘8（www.lcr189.com）_3"}
+  - {"type":"vmess","ws-opts":{"path":"/54f634fs","headers":{"host":"v2-2.godlight.xyz"}},"server":"v2-2.godlight.xyz","name":"新加坡。洛尘8（www.lcr189.com）_1","port":"26942","uuid":"43308d27-94ec-408e-a8f6-d682cfb99ca9","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/YouTube-bai-piao-wang-zhe_vws","headers":{"host":"bai-piao-wang-zhe-iplc2.98848.xyz"}},"server":"bai-piao-wang-zhe-iplc2.98848.xyz","name":"新加坡。洛尘8（www.lcr189.com）_2","port":"443","uuid":"b23ecb07-1cd3-4490-b4eb-4d32cd0b9249","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"40825843-2e84-4433-a4c0-829948eb620b","server":"cn1.relay.iepl.pw","port":50500,"name":"中国。洛尘8（www.lcr189.com）_4"}
+  - {"type":"trojan","name":"中国。洛尘8（www.lcr189.com）_5","server":"sz.by55k1.xyz","password":"022e9efd-928e-420f-aed5-e61f09308fde","port":10003,"udp":true,"skip-cert-verify":true,"sni":"j.a.sg1.55k.buzz"}
+  - {"type":"trojan","name":"新加坡。洛尘8（www.lcr189.com）_3","server":"sg-sr-116.mitoption.com","password":"e5d46365e25e31d94279c2bcf93390a2","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm01.bdate.xyz","name":"中国。洛尘8（www.lcr189.com）_6","port":"1260","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"40825843-2e84-4433-a4c0-829948eb620b","server":"cn1.relay.iepl.pw","port":50700,"name":"中国。洛尘8（www.lcr189.com）_7"}
+  - {"type":"trojan","name":"中国。洛尘8（www.lcr189.com）_8","server":"zfcu1.55k.buzz","password":"022e9efd-928e-420f-aed5-e61f09308fde","port":10013,"udp":true,"skip-cert-verify":true,"sni":"j.acc4.55k.buzz"}
+  - {"type":"trojan","name":"韩国。洛尘8（www.lcr189.com）_3","server":"hg.053111.xyz","password":"d4435b69-3d08-d58a-919f-7f1707150ecb","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"中国。洛尘8（www.lcr189.com）_9","server":"gzbgp.gia.wiki","password":"022e9efd-928e-420f-aed5-e61f09308fde","port":30195,"udp":true,"skip-cert-verify":true,"sni":"j.cc3.55k.buzz"}
+  - {"type":"trojan","name":"新加坡。洛尘8（www.lcr189.com）_4","server":"s3.upyun.online","password":"c0276440-f163-4f40-a08c-78b158ce6c4f","port":12340,"udp":true,"skip-cert-verify":true,"sni":"free.upyun.online"}
+  - {"type":"vmess","ws-opts":{"path":"/j75g1461x","headers":{"host":"v2-1.godlight.xyz"}},"server":"v2-1.godlight.xyz","name":"日本。洛尘8（www.lcr189.com）_1","port":"26942","uuid":"719d4cec-82a8-4a65-ad01-32cf08f2c988","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"022e9efd-928e-420f-aed5-e61f09308fde","server":"zfcu1.55k.buzz","port":14463,"name":"中国。洛尘8（www.lcr189.com）_10"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"40825843-2e84-4433-a4c0-829948eb620b","server":"cn1.relay.iepl.pw","port":50300,"name":"中国。洛尘8（www.lcr189.com）_11"}
+  - {"type":"trojan","name":"中国。洛尘8（www.lcr189.com）_12","server":"zfcu1.55k.buzz","password":"022e9efd-928e-420f-aed5-e61f09308fde","port":10002,"udp":true,"skip-cert-verify":true,"sni":"j.a.dj1.55k.buzz"}
+  - {"type":"trojan","name":"中国。洛尘8（www.lcr189.com）_13","server":"zfcu1.55k.buzz","password":"022e9efd-928e-420f-aed5-e61f09308fde","port":10009,"udp":true,"skip-cert-verify":true,"sni":"mskjp.55k.buzz"}
+  - {"type":"trojan","name":"日本。洛尘8（www.lcr189.com）_2","server":"ty2-8.nigirocloud.com","password":"ruWkGdbUKT4RN7kZ8t","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"日本。洛尘8（www.lcr189.com）_3","server":"ty2-7.nigirocloud.com","password":"ruWkGdbUKT4RN7kZ8t","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"日本。洛尘8（www.lcr189.com）_4","server":"ty2-6.nigirocloud.com","password":"ruWkGdbUKT4RN7kZ8t","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"日本。洛尘8（www.lcr189.com）_5","server":"ty2-5.nigirocloud.com","password":"ruWkGdbUKT4RN7kZ8t","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm07.bdate.xyz","name":"中国。洛尘8（www.lcr189.com）_14","port":"1980","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm09.bdate.xyz","name":"中国。洛尘8（www.lcr189.com）_15","port":"1420","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm04.bdate.xyz","name":"中国。洛尘8（www.lcr189.com）_16","port":"2000","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm01.bdate.xyz","name":"中国。洛尘8（www.lcr189.com）_17","port":"2000","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"?ed=2048","headers":{"host":"aweikeji-YouTube"}},"server":"zfcu1.55k.buzz","name":"中国。洛尘8（www.lcr189.com）_18","port":"10004","uuid":"022e9efd-928e-420f-aed5-e61f09308fde","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"aweikeji-YouTube"}},"server":"zfcm2.55k.buzz","name":"中国。洛尘8（www.lcr189.com）_19","port":"11004","uuid":"022e9efd-928e-420f-aed5-e61f09308fde","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"hk-c2.myuuusss.com","name":"美国。洛尘8（www.lcr189.com）_13","port":"80","uuid":"cf998f5b-85d9-4798-871d-e0e7916fff04","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"022e9efd-928e-420f-aed5-e61f09308fde","server":"zfcm2.55k.buzz","port":21003,"name":"中国。洛尘8（www.lcr189.com）_20"}
+  - {"name":"香港。洛尘8（www.lcr189.com）_1","type":"vless","server":"47.243.224.56","port":16031,"uuid":"eda410a4-5f85-470e-d010-ff8f03a4a268","skip-cert-verify":true,"network":"tcp","servername":"47.243.224.56"}
+  - {"name":"香港。洛尘8（www.lcr189.com）_2","type":"vless","server":"168.63.141.207","port":43025,"uuid":"d41bffad-1e70-4311-9fc6-27f5f782e8e1","skip-cert-verify":true,"network":"tcp","servername":"168.63.141.207"}
+  - {"type":"trojan","name":"中国。洛尘8（www.lcr189.com）_21","server":"zfcm1.55k.buzz","password":"022e9efd-928e-420f-aed5-e61f09308fde","port":10002,"udp":true,"skip-cert-verify":true,"sni":"hkbgp.55k.buzz"}
+  - {"type":"vmess","server":"144.24.88.101","name":"英国。洛尘8（www.lcr189.com）","port":"16833","uuid":"f5425ccf-3946-4fb4-eb24-5393d78a392f","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"bXAlJahEn1fO","server":"95.142.161.130","port":443,"name":"法国。洛尘8（www.lcr189.com）"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm07.bdate.xyz","name":"中国。洛尘8（www.lcr189.com）_22","port":"1350","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"name":"洛尘8（www.lcr189.com）_4","type":"vless","server":"cf.rutracker-cn.com","port":443,"uuid":"e9c14629-fcd5-4584-bb9e-d1431c20ee00","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","headers":{"path":"/1GDNonF","servername":"cf.rutracker-cn.com"}}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm04.bdate.xyz"}},"server":"zzcm04.bdate.xyz","name":"中国。洛尘8（www.lcr189.com）_23","port":"1260","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm06.bdate.xyz","name":"中国。洛尘8（www.lcr189.com）_24","port":"1580","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm01.bdate.xyz","name":"中国。洛尘8（www.lcr189.com）_25","port":"1580","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"aweikeji-YouTube"}},"server":"zfcm2.55k.buzz","name":"中国。洛尘8（www.lcr189.com）_26","port":"27905","uuid":"022e9efd-928e-420f-aed5-e61f09308fde","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '636'
-      - '637'
-      - '462'
-      - '601'
-      - '168'
-      - '169'
-      - '564'
-      - '638'
-      - '629'
-      - '561'
-      - '621'
-      - '590'
-      - '634'
-      - '639'
-      - '633'
-      - '635'
-      - '390'
-      - '167'
-      - '603'
-      - '280'
-      - '632'
+      - 美国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_3
+      - 洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_4
+      - 美国。洛尘8（www.lcr189.com）_5
+      - 韩国。洛尘8（www.lcr189.com）_1
+      - 韩国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_6
+      - 美国。洛尘8（www.lcr189.com）_7
+      - 洛尘8（www.lcr189.com）_2
+      - 洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_8
+      - 美国。洛尘8（www.lcr189.com）_9
+      - 美国。洛尘8（www.lcr189.com）_10
+      - 美国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_12
+      - 台湾。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_3
+      - 新加坡。洛尘8（www.lcr189.com）_1
+      - 新加坡。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_5
+      - 新加坡。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_6
+      - 中国。洛尘8（www.lcr189.com）_7
+      - 中国。洛尘8（www.lcr189.com）_8
+      - 韩国。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_9
+      - 新加坡。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_1
+      - 中国。洛尘8（www.lcr189.com）_10
+      - 中国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_12
+      - 中国。洛尘8（www.lcr189.com）_13
+      - 日本。洛尘8（www.lcr189.com）_2
+      - 日本。洛尘8（www.lcr189.com）_3
+      - 日本。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_5
+      - 中国。洛尘8（www.lcr189.com）_14
+      - 中国。洛尘8（www.lcr189.com）_15
+      - 中国。洛尘8（www.lcr189.com）_16
+      - 中国。洛尘8（www.lcr189.com）_17
+      - 中国。洛尘8（www.lcr189.com）_18
+      - 中国。洛尘8（www.lcr189.com）_19
+      - 美国。洛尘8（www.lcr189.com）_13
+      - 中国。洛尘8（www.lcr189.com）_20
+      - 香港。洛尘8（www.lcr189.com）_1
+      - 香港。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_21
+      - 英国。洛尘8（www.lcr189.com）
+      - 法国。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_22
+      - 洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_23
+      - 中国。洛尘8（www.lcr189.com）_24
+      - 中国。洛尘8（www.lcr189.com）_25
+      - 中国。洛尘8（www.lcr189.com）_26
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '636'
-      - '637'
-      - '462'
-      - '601'
-      - '168'
-      - '169'
-      - '564'
-      - '638'
-      - '629'
-      - '561'
-      - '621'
-      - '590'
-      - '634'
-      - '639'
-      - '633'
-      - '635'
-      - '390'
-      - '167'
-      - '603'
-      - '280'
-      - '632'
+      - 美国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_3
+      - 洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_4
+      - 美国。洛尘8（www.lcr189.com）_5
+      - 韩国。洛尘8（www.lcr189.com）_1
+      - 韩国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_6
+      - 美国。洛尘8（www.lcr189.com）_7
+      - 洛尘8（www.lcr189.com）_2
+      - 洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_8
+      - 美国。洛尘8（www.lcr189.com）_9
+      - 美国。洛尘8（www.lcr189.com）_10
+      - 美国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_12
+      - 台湾。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_3
+      - 新加坡。洛尘8（www.lcr189.com）_1
+      - 新加坡。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_5
+      - 新加坡。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_6
+      - 中国。洛尘8（www.lcr189.com）_7
+      - 中国。洛尘8（www.lcr189.com）_8
+      - 韩国。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_9
+      - 新加坡。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_1
+      - 中国。洛尘8（www.lcr189.com）_10
+      - 中国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_12
+      - 中国。洛尘8（www.lcr189.com）_13
+      - 日本。洛尘8（www.lcr189.com）_2
+      - 日本。洛尘8（www.lcr189.com）_3
+      - 日本。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_5
+      - 中国。洛尘8（www.lcr189.com）_14
+      - 中国。洛尘8（www.lcr189.com）_15
+      - 中国。洛尘8（www.lcr189.com）_16
+      - 中国。洛尘8（www.lcr189.com）_17
+      - 中国。洛尘8（www.lcr189.com）_18
+      - 中国。洛尘8（www.lcr189.com）_19
+      - 美国。洛尘8（www.lcr189.com）_13
+      - 中国。洛尘8（www.lcr189.com）_20
+      - 香港。洛尘8（www.lcr189.com）_1
+      - 香港。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_21
+      - 英国。洛尘8（www.lcr189.com）
+      - 法国。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_22
+      - 洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_23
+      - 中国。洛尘8（www.lcr189.com）_24
+      - 中国。洛尘8（www.lcr189.com）_25
+      - 中国。洛尘8（www.lcr189.com）_26
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '636'
-      - '637'
-      - '462'
-      - '601'
-      - '168'
-      - '169'
-      - '564'
-      - '638'
-      - '629'
-      - '561'
-      - '621'
-      - '590'
-      - '634'
-      - '639'
-      - '633'
-      - '635'
-      - '390'
-      - '167'
-      - '603'
-      - '280'
-      - '632'
+      - 美国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_3
+      - 洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_4
+      - 美国。洛尘8（www.lcr189.com）_5
+      - 韩国。洛尘8（www.lcr189.com）_1
+      - 韩国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_6
+      - 美国。洛尘8（www.lcr189.com）_7
+      - 洛尘8（www.lcr189.com）_2
+      - 洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_8
+      - 美国。洛尘8（www.lcr189.com）_9
+      - 美国。洛尘8（www.lcr189.com）_10
+      - 美国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_12
+      - 台湾。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_3
+      - 新加坡。洛尘8（www.lcr189.com）_1
+      - 新加坡。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_5
+      - 新加坡。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_6
+      - 中国。洛尘8（www.lcr189.com）_7
+      - 中国。洛尘8（www.lcr189.com）_8
+      - 韩国。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_9
+      - 新加坡。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_1
+      - 中国。洛尘8（www.lcr189.com）_10
+      - 中国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_12
+      - 中国。洛尘8（www.lcr189.com）_13
+      - 日本。洛尘8（www.lcr189.com）_2
+      - 日本。洛尘8（www.lcr189.com）_3
+      - 日本。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_5
+      - 中国。洛尘8（www.lcr189.com）_14
+      - 中国。洛尘8（www.lcr189.com）_15
+      - 中国。洛尘8（www.lcr189.com）_16
+      - 中国。洛尘8（www.lcr189.com）_17
+      - 中国。洛尘8（www.lcr189.com）_18
+      - 中国。洛尘8（www.lcr189.com）_19
+      - 美国。洛尘8（www.lcr189.com）_13
+      - 中国。洛尘8（www.lcr189.com）_20
+      - 香港。洛尘8（www.lcr189.com）_1
+      - 香港。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_21
+      - 英国。洛尘8（www.lcr189.com）
+      - 法国。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_22
+      - 洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_23
+      - 中国。洛尘8（www.lcr189.com）_24
+      - 中国。洛尘8（www.lcr189.com）_25
+      - 中国。洛尘8（www.lcr189.com）_26
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '636'
-      - '637'
-      - '462'
-      - '601'
-      - '168'
-      - '169'
-      - '564'
-      - '638'
-      - '629'
-      - '561'
-      - '621'
-      - '590'
-      - '634'
-      - '639'
-      - '633'
-      - '635'
-      - '390'
-      - '167'
-      - '603'
-      - '280'
-      - '632'
+      - 美国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_3
+      - 洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_4
+      - 美国。洛尘8（www.lcr189.com）_5
+      - 韩国。洛尘8（www.lcr189.com）_1
+      - 韩国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_6
+      - 美国。洛尘8（www.lcr189.com）_7
+      - 洛尘8（www.lcr189.com）_2
+      - 洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_8
+      - 美国。洛尘8（www.lcr189.com）_9
+      - 美国。洛尘8（www.lcr189.com）_10
+      - 美国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_12
+      - 台湾。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_3
+      - 新加坡。洛尘8（www.lcr189.com）_1
+      - 新加坡。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_5
+      - 新加坡。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_6
+      - 中国。洛尘8（www.lcr189.com）_7
+      - 中国。洛尘8（www.lcr189.com）_8
+      - 韩国。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_9
+      - 新加坡。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_1
+      - 中国。洛尘8（www.lcr189.com）_10
+      - 中国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_12
+      - 中国。洛尘8（www.lcr189.com）_13
+      - 日本。洛尘8（www.lcr189.com）_2
+      - 日本。洛尘8（www.lcr189.com）_3
+      - 日本。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_5
+      - 中国。洛尘8（www.lcr189.com）_14
+      - 中国。洛尘8（www.lcr189.com）_15
+      - 中国。洛尘8（www.lcr189.com）_16
+      - 中国。洛尘8（www.lcr189.com）_17
+      - 中国。洛尘8（www.lcr189.com）_18
+      - 中国。洛尘8（www.lcr189.com）_19
+      - 美国。洛尘8（www.lcr189.com）_13
+      - 中国。洛尘8（www.lcr189.com）_20
+      - 香港。洛尘8（www.lcr189.com）_1
+      - 香港。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_21
+      - 英国。洛尘8（www.lcr189.com）
+      - 法国。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_22
+      - 洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_23
+      - 中国。洛尘8（www.lcr189.com）_24
+      - 中国。洛尘8（www.lcr189.com）_25
+      - 中国。洛尘8（www.lcr189.com）_26
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '636'
-      - '637'
-      - '462'
-      - '601'
-      - '168'
-      - '169'
-      - '564'
-      - '638'
-      - '629'
-      - '561'
-      - '621'
-      - '590'
-      - '634'
-      - '639'
-      - '633'
-      - '635'
-      - '390'
-      - '167'
-      - '603'
-      - '280'
-      - '632'
+      - 美国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_3
+      - 洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_4
+      - 美国。洛尘8（www.lcr189.com）_5
+      - 韩国。洛尘8（www.lcr189.com）_1
+      - 韩国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_6
+      - 美国。洛尘8（www.lcr189.com）_7
+      - 洛尘8（www.lcr189.com）_2
+      - 洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_8
+      - 美国。洛尘8（www.lcr189.com）_9
+      - 美国。洛尘8（www.lcr189.com）_10
+      - 美国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_12
+      - 台湾。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_3
+      - 新加坡。洛尘8（www.lcr189.com）_1
+      - 新加坡。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_5
+      - 新加坡。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_6
+      - 中国。洛尘8（www.lcr189.com）_7
+      - 中国。洛尘8（www.lcr189.com）_8
+      - 韩国。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_9
+      - 新加坡。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_1
+      - 中国。洛尘8（www.lcr189.com）_10
+      - 中国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_12
+      - 中国。洛尘8（www.lcr189.com）_13
+      - 日本。洛尘8（www.lcr189.com）_2
+      - 日本。洛尘8（www.lcr189.com）_3
+      - 日本。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_5
+      - 中国。洛尘8（www.lcr189.com）_14
+      - 中国。洛尘8（www.lcr189.com）_15
+      - 中国。洛尘8（www.lcr189.com）_16
+      - 中国。洛尘8（www.lcr189.com）_17
+      - 中国。洛尘8（www.lcr189.com）_18
+      - 中国。洛尘8（www.lcr189.com）_19
+      - 美国。洛尘8（www.lcr189.com）_13
+      - 中国。洛尘8（www.lcr189.com）_20
+      - 香港。洛尘8（www.lcr189.com）_1
+      - 香港。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_21
+      - 英国。洛尘8（www.lcr189.com）
+      - 法国。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_22
+      - 洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_23
+      - 中国。洛尘8（www.lcr189.com）_24
+      - 中国。洛尘8（www.lcr189.com）_25
+      - 中国。洛尘8（www.lcr189.com）_26
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '636'
-      - '637'
-      - '462'
-      - '601'
-      - '168'
-      - '169'
-      - '564'
-      - '638'
-      - '629'
-      - '561'
-      - '621'
-      - '590'
-      - '634'
-      - '639'
-      - '633'
-      - '635'
-      - '390'
-      - '167'
-      - '603'
-      - '280'
-      - '632'
+      - 美国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_3
+      - 洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_4
+      - 美国。洛尘8（www.lcr189.com）_5
+      - 韩国。洛尘8（www.lcr189.com）_1
+      - 韩国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_6
+      - 美国。洛尘8（www.lcr189.com）_7
+      - 洛尘8（www.lcr189.com）_2
+      - 洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_8
+      - 美国。洛尘8（www.lcr189.com）_9
+      - 美国。洛尘8（www.lcr189.com）_10
+      - 美国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_12
+      - 台湾。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_3
+      - 新加坡。洛尘8（www.lcr189.com）_1
+      - 新加坡。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_5
+      - 新加坡。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_6
+      - 中国。洛尘8（www.lcr189.com）_7
+      - 中国。洛尘8（www.lcr189.com）_8
+      - 韩国。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_9
+      - 新加坡。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_1
+      - 中国。洛尘8（www.lcr189.com）_10
+      - 中国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_12
+      - 中国。洛尘8（www.lcr189.com）_13
+      - 日本。洛尘8（www.lcr189.com）_2
+      - 日本。洛尘8（www.lcr189.com）_3
+      - 日本。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_5
+      - 中国。洛尘8（www.lcr189.com）_14
+      - 中国。洛尘8（www.lcr189.com）_15
+      - 中国。洛尘8（www.lcr189.com）_16
+      - 中国。洛尘8（www.lcr189.com）_17
+      - 中国。洛尘8（www.lcr189.com）_18
+      - 中国。洛尘8（www.lcr189.com）_19
+      - 美国。洛尘8（www.lcr189.com）_13
+      - 中国。洛尘8（www.lcr189.com）_20
+      - 香港。洛尘8（www.lcr189.com）_1
+      - 香港。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_21
+      - 英国。洛尘8（www.lcr189.com）
+      - 法国。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_22
+      - 洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_23
+      - 中国。洛尘8（www.lcr189.com）_24
+      - 中国。洛尘8（www.lcr189.com）_25
+      - 中国。洛尘8（www.lcr189.com）_26
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -206,27 +480,66 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '636'
-      - '637'
-      - '462'
-      - '601'
-      - '168'
-      - '169'
-      - '564'
-      - '638'
-      - '629'
-      - '561'
-      - '621'
-      - '590'
-      - '634'
-      - '639'
-      - '633'
-      - '635'
-      - '390'
-      - '167'
-      - '603'
-      - '280'
-      - '632'
+      - 美国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_3
+      - 洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_4
+      - 美国。洛尘8（www.lcr189.com）_5
+      - 韩国。洛尘8（www.lcr189.com）_1
+      - 韩国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_6
+      - 美国。洛尘8（www.lcr189.com）_7
+      - 洛尘8（www.lcr189.com）_2
+      - 洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_1
+      - 美国。洛尘8（www.lcr189.com）_8
+      - 美国。洛尘8（www.lcr189.com）_9
+      - 美国。洛尘8（www.lcr189.com）_10
+      - 美国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_2
+      - 美国。洛尘8（www.lcr189.com）_12
+      - 台湾。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_3
+      - 新加坡。洛尘8（www.lcr189.com）_1
+      - 新加坡。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_5
+      - 新加坡。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_6
+      - 中国。洛尘8（www.lcr189.com）_7
+      - 中国。洛尘8（www.lcr189.com）_8
+      - 韩国。洛尘8（www.lcr189.com）_3
+      - 中国。洛尘8（www.lcr189.com）_9
+      - 新加坡。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_1
+      - 中国。洛尘8（www.lcr189.com）_10
+      - 中国。洛尘8（www.lcr189.com）_11
+      - 中国。洛尘8（www.lcr189.com）_12
+      - 中国。洛尘8（www.lcr189.com）_13
+      - 日本。洛尘8（www.lcr189.com）_2
+      - 日本。洛尘8（www.lcr189.com）_3
+      - 日本。洛尘8（www.lcr189.com）_4
+      - 日本。洛尘8（www.lcr189.com）_5
+      - 中国。洛尘8（www.lcr189.com）_14
+      - 中国。洛尘8（www.lcr189.com）_15
+      - 中国。洛尘8（www.lcr189.com）_16
+      - 中国。洛尘8（www.lcr189.com）_17
+      - 中国。洛尘8（www.lcr189.com）_18
+      - 中国。洛尘8（www.lcr189.com）_19
+      - 美国。洛尘8（www.lcr189.com）_13
+      - 中国。洛尘8（www.lcr189.com）_20
+      - 香港。洛尘8（www.lcr189.com）_1
+      - 香港。洛尘8（www.lcr189.com）_2
+      - 中国。洛尘8（www.lcr189.com）_21
+      - 英国。洛尘8（www.lcr189.com）
+      - 法国。洛尘8（www.lcr189.com）
+      - 中国。洛尘8（www.lcr189.com）_22
+      - 洛尘8（www.lcr189.com）_4
+      - 中国。洛尘8（www.lcr189.com）_23
+      - 中国。洛尘8（www.lcr189.com）_24
+      - 中国。洛尘8（www.lcr189.com）_25
+      - 中国。洛尘8（www.lcr189.com）_26
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -243,8 +556,6 @@ rules:
   - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
   - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
   - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
-  - DOMAIN,instant.arubanetworks.com,🎯 全球直连
-  - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
   - DOMAIN,router.asus.com,🎯 全球直连
   - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
@@ -253,7 +564,6 @@ rules:
   - DOMAIN-SUFFIX,p.to,🎯 全球直连
   - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
   - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
-  - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
   - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
   - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zte.home,🎯 全球直连
@@ -284,6 +594,25 @@ rules:
   - DOMAIN-KEYWORD,usage,🛑 全球拦截
   - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
   - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
+  - DOMAIN-SUFFIX,admob.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ads.gmodules.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ads.google.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adservice.google.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,afd.l.google.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,badad.googleplex.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,csi.gstatic.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,doubleclick.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,doubleclick.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,google-analytics.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,googleadservices.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,googleadsserving.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,googlecommerce.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,googlesyndication.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,mobileads.google.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,pagead-tpc.l.google.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,pagead.google.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,pagead.l.google.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,service.urchin.com,🛑 全球拦截
   - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,100peng.com,🛑 全球拦截
   - DOMAIN-SUFFIX,114la.com,🛑 全球拦截
@@ -535,7 +864,6 @@ rules:
   - DOMAIN-SUFFIX,mobgi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mobisage.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,mobvista.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,moogos.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mopub.com,🛑 全球拦截
   - DOMAIN-SUFFIX,moquanad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mpush.cn,🛑 全球拦截
@@ -630,7 +958,6 @@ rules:
   - DOMAIN-SUFFIX,uuzu.com,🛑 全球拦截
   - DOMAIN-SUFFIX,uyunad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,vamaker.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vlion.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,voiceads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,voiceads.com,🛑 全球拦截
   - DOMAIN-SUFFIX,vpon.com,🛑 全球拦截
@@ -963,10 +1290,12 @@ rules:
   - DOMAIN-SUFFIX,activate-sea.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,activate-sjc0.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,activate.adobe.com,🍃 应用净化
+  - DOMAIN-SUFFIX,activate.wip3.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,adobe-dns-2.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,adobe-dns-3.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,adobe-dns.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,ereg.adobe.com,🍃 应用净化
+  - DOMAIN-SUFFIX,ereg.wip3.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,geo2.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,hl2rcv.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,hlrcv.stage.adobe.com,🍃 应用净化
@@ -1021,6 +1350,7 @@ rules:
   - DOMAIN-SUFFIX,baikebcs.bdimg.com,🍃 应用净化
   - DOMAIN-SUFFIX,banlv.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
+  - DOMAIN-SUFFIX,bdimg.share.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,btlaunch.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,c.baidu.cn,🍃 应用净化
@@ -1038,6 +1368,7 @@ rules:
   - DOMAIN-SUFFIX,click.hm.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,click.qianqian.com,🍃 应用净化
   - DOMAIN-SUFFIX,cm.baidu.com,🍃 应用净化
+  - DOMAIN-SUFFIX,cm.pos.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,cpro.baidu.cn,🍃 应用净化
   - DOMAIN-SUFFIX,cpro.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,cpro.baidustatic.com,🍃 应用净化
@@ -1140,10 +1471,13 @@ rules:
   - DOMAIN-SUFFIX,rp.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,rplog.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,s.baidu.com,🍃 应用净化
+  - DOMAIN-SUFFIX,s.cpro.baidu.com,🍃 应用净化
+  - DOMAIN-SUFFIX,sa.tuisong.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,sclick.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,sestat.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,shadu.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,share.baidu.com,🍃 应用净化
+  - DOMAIN-SUFFIX,snippet.pos.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,sobar.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,sobartop.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,spcode.baidu.cn,🍃 应用净化
@@ -1160,6 +1494,7 @@ rules:
   - DOMAIN-SUFFIX,tuijian.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,tuisong.baidu.cn,🍃 应用净化
   - DOMAIN-SUFFIX,tuisong.baidu.com,🍃 应用净化
+  - DOMAIN-SUFFIX,uat1.bfsspadserver.8le8le.com,🍃 应用净化
   - DOMAIN-SUFFIX,ubmcmm.baidustatic.com,🍃 应用净化
   - DOMAIN-SUFFIX,ucstat.baidu.cn,🍃 应用净化
   - DOMAIN-SUFFIX,ucstat.baidu.com,🍃 应用净化
@@ -1184,6 +1519,7 @@ rules:
   - DOMAIN-SUFFIX,wisepush.video.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,wm.baidu.cn,🍃 应用净化
   - DOMAIN-SUFFIX,wm.baidu.com,🍃 应用净化
+  - DOMAIN-SUFFIX,wn.pos.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,znsv.baidu.cn,🍃 应用净化
   - DOMAIN-SUFFIX,znsv.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,zz.bdstatic.com,🍃 应用净化
@@ -1234,11 +1570,7 @@ rules:
   - DOMAIN-SUFFIX,ic.snssdk.com,🍃 应用净化
   - DOMAIN-SUFFIX,log.snssdk.com,🍃 应用净化
   - DOMAIN-SUFFIX,nativeapp.toutiao.com,🍃 应用净化
-  - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,🍃 应用净化
-  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,🍃 应用净化
-  - DOMAIN-SUFFIX,pangolin.snssdk.com,🍃 应用净化
   - DOMAIN-SUFFIX,partner.toutiao.com,🍃 应用净化
-  - DOMAIN-SUFFIX,pglstatp-toutiao.com,🍃 应用净化
   - DOMAIN-SUFFIX,sm.toutiao.com,🍃 应用净化
   - DOMAIN-SUFFIX,a.dangdang.com,🍃 应用净化
   - DOMAIN-SUFFIX,click.dangdang.com,🍃 应用净化
@@ -1761,6 +2093,7 @@ rules:
   - DOMAIN-SUFFIX,couchcoaster.jp,🍃 应用净化
   - DOMAIN-SUFFIX,delivery.dmkt-sp.jp,🍃 应用净化
   - DOMAIN-SUFFIX,ehg-youtube.hitbox.com,🍃 应用净化
+  - DOMAIN-SUFFIX,m-78.jp,🍃 应用净化
   - DOMAIN-SUFFIX,nichibenren.or.jp,🍃 应用净化
   - DOMAIN-SUFFIX,nicorette.co.kr,🍃 应用净化
   - DOMAIN-SUFFIX,ssl-youtube.2cnt.net,🍃 应用净化
@@ -1771,6 +2104,8 @@ rules:
   - DOMAIN-SUFFIX,ads.wasu.tv,🍃 应用净化
   - DOMAIN-SUFFIX,afp.wasu.tv,🍃 应用净化
   - DOMAIN-SUFFIX,c.algovid.com,🍃 应用净化
+  - DOMAIN-SUFFIX,cc.xtgreat.com,🍃 应用净化
+  - DOMAIN-SUFFIX,d.dsp.imageter.com,🍃 应用净化
   - DOMAIN-SUFFIX,gg.jtertp.com,🍃 应用净化
   - DOMAIN-SUFFIX,gridsum-vd.cntv.cn,🍃 应用净化
   - DOMAIN-SUFFIX,kwflvcdn.000dn.com,🍃 应用净化
@@ -1920,21 +2255,6 @@ rules:
   - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
-  - DOMAIN,csgo.wmsj.cn,🎯 全球直连
-  - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
-  - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
-  - DOMAIN,dota2.wmsj.cn,🎯 全球直连
-  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
-  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
-  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
-  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
-  - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
-  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
-  - DOMAIN,wmsjsteam.com,🎯 全球直连
-  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
   - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -2047,24 +2367,15 @@ rules:
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
-  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
-  - DOMAIN,atv-ps.amazon.com,🌍 国外媒体
-  - DOMAIN,avodmp4s3ww-a.akamaihd.net,🌍 国外媒体
-  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🌍 国外媒体
-  - DOMAIN,d1xfray82862hr.cloudfront.net,🌍 国外媒体
-  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🌍 国外媒体
-  - DOMAIN,d25xi40x97liuc.cloudfront.net,🌍 国外媒体
-  - DOMAIN,d27xxe7juh1us6.cloudfront.net,🌍 国外媒体
-  - DOMAIN,d3196yreox78o9.cloudfront.net,🌍 国外媒体
-  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 国外媒体
-  - DOMAIN,ktpx.amazon.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,aboutamazon.com,🌍 国外媒体
+  - DOMAIN, atv-ps.amazon.com,🌍 国外媒体
+  - DOMAIN, fls-na.amazon.com,🌍 国外媒体
+  - DOMAIN-SUFFIX, media-amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
+  - DOMAIN-SUFFIX,amazonaws.co.uk,🌍 国外媒体
+  - DOMAIN-SUFFIX,amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,llnwd.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,primevideo.com,🌍 国外媒体
   - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
   - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
@@ -2083,22 +2394,49 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
   - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
   - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
-  - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
   - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
+  - DOMAIN-SUFFIX,hinet.net,🌍 国外媒体
+  - DOMAIN-KEYWORD,livedazn,🌍 国外媒体
+  - DOMAIN-KEYWORD,vod2dazn,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
+  - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
+  - DOMAIN,players.brightcove.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,amplify.outbrain.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,bluekai.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,control.kochava.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,cws.conviva.com,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,dazn-api.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dazn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dazndn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,🌍 国外媒体
   - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🌍 国外媒体
   - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,perfops.doracdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,s.llnwi.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,s.yimg.jp,🌍 国外媒体
+  - DOMAIN-SUFFIX,secure.footprint.net,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,urbanairship.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,vjs.zencdn.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,yahoo.co.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
   - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
@@ -2129,13 +2467,25 @@ rules:
   - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
+  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
+  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
+  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
+  - DOMAIN,dai3fd1oh325y.cloudfront.net,🌍 国外媒体
+  - DOMAIN,hboasia1-i.akamaihd.net,🌍 国外媒体
+  - DOMAIN,hboasia2-i.akamaihd.net,🌍 国外媒体
+  - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
+  - DOMAIN,hboasia4-i.akamaihd.net,🌍 国外媒体
+  - DOMAIN,hboasia5-i.akamaihd.net,🌍 国外媒体
+  - DOMAIN,players.brightcove.net,🌍 国外媒体
+  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
   - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
-  - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
   - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
@@ -2151,7 +2501,6 @@ rules:
   - DOMAIN,hbounify-prod.evergent.com,🌍 国外媒体
   - DOMAIN,players.brightcove.net,🌍 国外媒体
   - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
   - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
@@ -2199,15 +2548,12 @@ rules:
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
   - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
-  - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
-  - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
   - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
-  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
-  - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
+  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🌍 国外媒体
   - DOMAIN,netflix.com.edgesuite.net,🌍 国外媒体
   - DOMAIN-SUFFIX,fast.com,🌍 国外媒体
   - DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
@@ -2229,9 +2575,12 @@ rules:
   - DOMAIN-SUFFIX,nflxvideo.net,🌍 国外媒体
   - IP-CIDR,8.41.4.0/24,🌍 国外媒体,no-resolve
   - IP-CIDR,23.246.0.0/18,🌍 国外媒体,no-resolve
+  - IP-CIDR,34.210.42.111/32,🌍 国外媒体,no-resolve
   - IP-CIDR,37.77.184.0/21,🌍 国外媒体,no-resolve
   - IP-CIDR,38.72.126.0/24,🌍 国外媒体,no-resolve
   - IP-CIDR,45.57.0.0/17,🌍 国外媒体,no-resolve
+  - IP-CIDR,52.89.124.203/32,🌍 国外媒体,no-resolve
+  - IP-CIDR,54.148.37.5/32,🌍 国外媒体,no-resolve
   - IP-CIDR,64.120.128.0/17,🌍 国外媒体,no-resolve
   - IP-CIDR,66.197.128.0/17,🌍 国外媒体,no-resolve
   - IP-CIDR,69.53.224.0/19,🌍 国外媒体,no-resolve
@@ -2270,7 +2619,7 @@ rules:
   - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
   - DOMAIN,hamifans.emome.net,🌍 国外媒体
   - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-  - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
+  - DOMAIN-KEYWORD,-tiktokcdn-com,🌍 国外媒体
   - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
@@ -2281,10 +2630,8 @@ rules:
   - DOMAIN-SUFFIX,tiktokcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tiktokv.com,🌍 国外媒体
   - DOMAIN-KEYWORD,ttvnw,🌍 国外媒体
-  - DOMAIN-SUFFIX,ext-twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
   - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
   - DOMAIN,api.viu.now.com,🌍 国外媒体
@@ -2307,16 +2654,9 @@ rules:
   - DOMAIN,yt3.ggpht.com,🌍 国外媒体
   - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,gvt2.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,withyoutube.com,🌍 国外媒体
   - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
-  - DOMAIN-SUFFIX,youtube-nocookie.com,🌍 国外媒体
   - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,youtubeeducation.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,youtubegaming.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
-  - DOMAIN,music.youtube.com,🌍 国外媒体
   - DOMAIN-SUFFIX,t.me,📲 电报信息
   - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
   - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
@@ -2329,11 +2669,9 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
+  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
   - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
-  - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
-  - DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
-  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
   - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
@@ -2345,7 +2683,6 @@ rules:
   - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
   - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
   - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
-  - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
   - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
   - DOMAIN-SUFFIX,notion.so,🚀 节点选择
   - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
@@ -2354,6 +2691,8 @@ rules:
   - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
   - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
   - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
+  - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🚀 节点选择
+  - DOMAIN-SUFFIX,yunpanjingling.com,🚀 节点选择
   - DOMAIN-SUFFIX,eu,🚀 节点选择
   - DOMAIN-SUFFIX,hk,🚀 节点选择
   - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -2673,22 +3012,7 @@ rules:
   - DOMAIN-SUFFIX,smartmailcloud.com,🚀 节点选择
   - DOMAIN-SUFFIX,fanatical.com,🚀 节点选择
   - DOMAIN-SUFFIX,humblebundle.com,🚀 节点选择
-  - DOMAIN-SUFFIX,underlords.com,🚀 节点选择
-  - DOMAIN-SUFFIX,valvesoftware.com,🚀 节点选择
-  - DOMAIN-SUFFIX,playartifact.com,🚀 节点选择
-  - DOMAIN-SUFFIX,steam-chat.com,🚀 节点选择
   - DOMAIN-SUFFIX,steamcommunity.com,🚀 节点选择
-  - DOMAIN-SUFFIX,steamgames.com,🚀 节点选择
-  - DOMAIN-SUFFIX,steampowered.com,🚀 节点选择
-  - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
-  - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
-  - DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
-  - DOMAIN,steamcdn-a.akamaihd.net,🚀 节点选择
-  - DOMAIN,steamcommunity-a.akamaihd.net,🚀 节点选择
-  - DOMAIN,steamstore-a.akamaihd.net,🚀 节点选择
-  - DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择
-  - DOMAIN,steamuserimages-a.akamaihd.net,🚀 节点选择
-  - DOMAIN,steampipe.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,tap.io,🚀 节点选择
   - DOMAIN-SUFFIX,taptap.tw,🚀 节点选择
   - DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
@@ -2756,13 +3080,10 @@ rules:
   - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
   - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
   - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
-  - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
-  - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
-  - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
   - DOMAIN-SUFFIX,cn,🎯 全球直连
-  - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
-  - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
-  - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
+  - DOMAIN-SUFFIX,中国,🎯 全球直连
+  - DOMAIN-SUFFIX,公司,🎯 全球直连
+  - DOMAIN-SUFFIX,网络,🎯 全球直连
   - DOMAIN-KEYWORD,-cn,🎯 全球直连
   - DOMAIN-KEYWORD,360buy,🎯 全球直连
   - DOMAIN-KEYWORD,alicdn,🎯 全球直连
@@ -2850,6 +3171,7 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
@@ -2874,7 +3196,6 @@ rules:
   - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
   - DOMAIN-SUFFIX,toutiao.com,🎯 全球直连
   - DOMAIN-SUFFIX,toutiao13.com,🎯 全球直连
-  - DOMAIN-SUFFIX,toutiaoapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,toutiaocdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,toutiaocdn.net,🎯 全球直连
   - DOMAIN-SUFFIX,toutiaocloud.com,🎯 全球直连
@@ -2883,7 +3204,6 @@ rules:
   - DOMAIN-SUFFIX,toutiaoimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,toutiaopage.com,🎯 全球直连
   - DOMAIN-SUFFIX,wukong.com,🎯 全球直连
-  - DOMAIN-SUFFIX,zijieapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zijieimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,zjbyte.com,🎯 全球直连
   - DOMAIN-SUFFIX,zjcdn.com,🎯 全球直连
@@ -2992,21 +3312,20 @@ rules:
   - DOMAIN-SUFFIX,playstationnetwork.com,🎯 全球直连
   - DOMAIN-SUFFIX,sony.com,🎯 全球直连
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
-  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+  - DOMAIN-SUFFIX,csgo.wmsj.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dota2.wmsj.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net,🎯 全球直连
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎯 全球直连
+  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamgames.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamstat.us,🎯 全球直连
+  - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
-  - DOMAIN,csgo.wmsj.cn,🎯 全球直连
-  - DOMAIN,dota2.wmsj.cn,🎯 全球直连
-  - DOMAIN,wmsjsteam.com,🎯 全球直连
-  - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
-  - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
-  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
-  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
-  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
-  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
-  - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
-  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎯 全球直连
   - DOMAIN-SUFFIX,foxmail.com,🎯 全球直连
   - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
@@ -3106,6 +3425,7 @@ rules:
   - DOMAIN-SUFFIX,baomitu.com,🎯 全球直连
   - DOMAIN-SUFFIX,bootcss.com,🎯 全球直连
   - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jsdelivr.net,🎯 全球直连
   - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
   - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
   - DOMAIN-SUFFIX,10010.com,🎯 全球直连
@@ -3227,9 +3547,11 @@ rules:
   - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
   - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
   - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
+  - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
   - DOMAIN-SUFFIX,lizhi.fm,🎯 全球直连
   - DOMAIN-SUFFIX,lizhi.io,🎯 全球直连
   - DOMAIN-SUFFIX,lizhifm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,loli.net,🎯 全球直连
   - DOMAIN-SUFFIX,luoo.net,🎯 全球直连
   - DOMAIN-SUFFIX,lvmama.com,🎯 全球直连
   - DOMAIN-SUFFIX,lxdns.com,🎯 全球直连
@@ -3256,6 +3578,7 @@ rules:
   - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
   - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
   - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
   - DOMAIN-SUFFIX,polyv.net,🎯 全球直连
   - DOMAIN-SUFFIX,qbox.me,🎯 全球直连
   - DOMAIN-SUFFIX,qcloud.com,🎯 全球直连
@@ -3274,7 +3597,9 @@ rules:
   - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
   - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
   - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
+  - DOMAIN-SUFFIX,rarbg.to,🎯 全球直连
   - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
+  - DOMAIN-SUFFIX,rrmj.tv,🎯 全球直连
   - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
   - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
   - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
@@ -3282,6 +3607,7 @@ rules:
   - DOMAIN-SUFFIX,sf-express.com,🎯 全球直连
   - DOMAIN-SUFFIX,shumilou.net,🎯 全球直连
   - DOMAIN-SUFFIX,simplecd.me,🎯 全球直连
+  - DOMAIN-SUFFIX,sm.ms,🎯 全球直连
   - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
   - DOMAIN-SUFFIX,snwx.com,🎯 全球直连
   - DOMAIN-SUFFIX,soufunimg.com,🎯 全球直连
