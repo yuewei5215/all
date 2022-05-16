@@ -5,46 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.154.77.196"]}},"server":"43.154.77.196","name":"🇨🇳_CN_中国","port":38539,"uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"🇮🇳_IN_印度","server":"jgwhdlb2.gaox.ml","password":"54080134-2cba-4535-8599-95650bd9aa54","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"180.163.62.91","port":10065,"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"fcae85b5-baf0-4c5a-ba80-5f513e70512a","server":"183.240.124.200","port":44812,"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"fcae85b5-baf0-4c5a-ba80-5f513e70512a","server":"183.240.124.200","port":44822,"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国
+      - 🇮🇳_IN_印度
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国
+      - 🇮🇳_IN_印度
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国
+      - 🇮🇳_IN_印度
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国
+      - 🇮🇳_IN_印度
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国
+      - 🇮🇳_IN_印度
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国
+      - 🇮🇳_IN_印度
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国
+      - 🇮🇳_IN_印度
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
