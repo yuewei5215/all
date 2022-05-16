@@ -361,22 +361,14 @@ proxies:
   - {name: Ytb:鹏哥分享_中国_95, server: 140.207.232.42, port: 2029, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dd312}, udp: true}
   - {name: Ytb:鹏哥分享_中国_96, server: ingress-i2.onebox6.org, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i2.onebox6.org}}, udp: true}
   - {name: Ytb:鹏哥分享_中国_97, server: jp21301.cloudmatrix.xyz, port: 21301, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp21301.cloudmatrix.xyz}}, udp: true}
-  - {name: _US_美国->🇯🇵_JP_日本_1, server: nn03.nfeng6.pp.ua, port: 60025, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn03.nfeng6.pp.ua}}, udp: true}
-  - {name: _US_美国_1, server: nn03.nfeng6.pp.ua, port: 60027, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn03.nfeng6.pp.ua}}, udp: true}
-  - {name: _US_美国->🇸🇬_SG_新加坡_1, server: nn03.nfeng6.pp.ua, port: 60037, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn03.nfeng6.pp.ua}}, udp: true}
-  - {name: _US_美国_2, server: nn03.nfeng6.pp.ua, port: 60024, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn03.nfeng6.pp.ua}}, udp: true}
-  - {name: _HK_香港->🇸🇬_SG_新加坡_1, server: nn02.nfeng6.pp.ua, port: 60031, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn02.nfeng6.pp.ua}}, udp: true}
-  - {name: _US_美国->🇸🇬_SG_新加坡_2, server: nn03.nfeng6.pp.ua, port: 39940, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn03.nfeng6.pp.ua}}, udp: true}
-  - {name: _HK_香港->🇸🇬_SG_新加坡_2, server: nn02.nfeng6.pp.ua, port: 60010, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn02.nfeng6.pp.ua}}, udp: true}
-  - {name: _HK_香港->🇸🇬_SG_新加坡_3, server: nn01.nfeng6.pp.ua, port: 60026, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn01.nfeng6.pp.ua}}, udp: true}
-  - {name: _US_美国->🇯🇵_JP_日本_2, server: nn03.nfeng6.pp.ua, port: 60029, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn03.nfeng6.pp.ua}}, udp: true}
-  - {name: _HK_香港->🇯🇵_JP_日本_1, server: nn02.nfeng6.pp.ua, port: 60017, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn02.nfeng6.pp.ua}}, udp: true}
-  - {name: _HK_香港->🇯🇵_JP_日本_2, server: nn02.nfeng6.pp.ua, port: 60015, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn02.nfeng6.pp.ua}}, udp: true}
+  - {name: _US_美国->🇯🇵_JP_日本_1, server: nn03.nfeng6.pp.ua, port: 60029, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn03.nfeng6.pp.ua}}, udp: true}
+  - {name: _HK_香港->🇸🇬_SG_新加坡_1, server: nn01.nfeng6.pp.ua, port: 60026, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn01.nfeng6.pp.ua}}, udp: true}
+  - {name: _US_美国->🇯🇵_JP_日本_2, server: nn03.nfeng6.pp.ua, port: 60025, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn03.nfeng6.pp.ua}}, udp: true}
   - {name: _HK_香港->🇺🇸_US_美国, server: nn02.nfeng6.pp.ua, port: 50009, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn02.nfeng6.pp.ua}}, udp: true}
-  - {name: _HK_香港->🇯🇵_JP_日本_3, server: nn01.nfeng6.pp.ua, port: 60022, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn01.nfeng6.pp.ua}}, udp: true}
-  - {name: _HK_香港->🇯🇵_JP_日本_4, server: nn01.nfeng6.pp.ua, port: 60013, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn01.nfeng6.pp.ua}}, udp: true}
-  - {name: _HK_香港->🇯🇵_JP_日本_5, server: nn01.nfeng6.pp.ua, port: 60012, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn01.nfeng6.pp.ua}}, udp: true}
-  - {name: _HK_香港->🇸🇬_SG_新加坡_4, server: nn01.nfeng6.pp.ua, port: 60038, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn01.nfeng6.pp.ua}}, udp: true}
+  - {name: _US_美国, server: nn03.nfeng6.pp.ua, port: 60027, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn03.nfeng6.pp.ua}}, udp: true}
+  - {name: _HK_香港->🇯🇵_JP_日本, server: nn01.nfeng6.pp.ua, port: 60022, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn01.nfeng6.pp.ua}}, udp: true}
+  - {name: _HK_香港->🇸🇬_SG_新加坡_2, server: nn02.nfeng6.pp.ua, port: 60010, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn02.nfeng6.pp.ua}}, udp: true}
+  - {name: _HK_香港->🇸🇬_SG_新加坡_3, server: nn01.nfeng6.pp.ua, port: 60038, type: vmess, uuid: 5b44b8de-2f75-3b34-bf41-584cd89e937a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nn01.nfeng6.pp.ua}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 36, server: zzcm04.bdate.xyz, port: 1980, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm04.bdate.xyz}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 2 2, server: zzcm06.bdate.xyz, port: 1580, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm06.bdate.xyz}}, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 3 2, server: zzcm01.bdate.xyz, port: 1360, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm01.bdate.xyz}}, udp: true}
@@ -1255,21 +1247,13 @@ proxy-groups:
       - Ytb:鹏哥分享_中国_96
       - Ytb:鹏哥分享_中国_97
       - _US_美国->🇯🇵_JP_日本_1
-      - _US_美国_1
-      - _US_美国->🇸🇬_SG_新加坡_1
-      - _US_美国_2
       - _HK_香港->🇸🇬_SG_新加坡_1
-      - _US_美国->🇸🇬_SG_新加坡_2
+      - _US_美国->🇯🇵_JP_日本_2
+      - _HK_香港->🇺🇸_US_美国
+      - _US_美国
+      - _HK_香港->🇯🇵_JP_日本
       - _HK_香港->🇸🇬_SG_新加坡_2
       - _HK_香港->🇸🇬_SG_新加坡_3
-      - _US_美国->🇯🇵_JP_日本_2
-      - _HK_香港->🇯🇵_JP_日本_1
-      - _HK_香港->🇯🇵_JP_日本_2
-      - _HK_香港->🇺🇸_US_美国
-      - _HK_香港->🇯🇵_JP_日本_3
-      - _HK_香港->🇯🇵_JP_日本_4
-      - _HK_香港->🇯🇵_JP_日本_5
-      - _HK_香港->🇸🇬_SG_新加坡_4
       - 亚洲(欢迎订阅Youtube破解资源君) 36
       - 亚洲(欢迎订阅Youtube破解资源君) 2 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3 2
@@ -2148,21 +2132,13 @@ proxy-groups:
       - Ytb:鹏哥分享_中国_96
       - Ytb:鹏哥分享_中国_97
       - _US_美国->🇯🇵_JP_日本_1
-      - _US_美国_1
-      - _US_美国->🇸🇬_SG_新加坡_1
-      - _US_美国_2
       - _HK_香港->🇸🇬_SG_新加坡_1
-      - _US_美国->🇸🇬_SG_新加坡_2
+      - _US_美国->🇯🇵_JP_日本_2
+      - _HK_香港->🇺🇸_US_美国
+      - _US_美国
+      - _HK_香港->🇯🇵_JP_日本
       - _HK_香港->🇸🇬_SG_新加坡_2
       - _HK_香港->🇸🇬_SG_新加坡_3
-      - _US_美国->🇯🇵_JP_日本_2
-      - _HK_香港->🇯🇵_JP_日本_1
-      - _HK_香港->🇯🇵_JP_日本_2
-      - _HK_香港->🇺🇸_US_美国
-      - _HK_香港->🇯🇵_JP_日本_3
-      - _HK_香港->🇯🇵_JP_日本_4
-      - _HK_香港->🇯🇵_JP_日本_5
-      - _HK_香港->🇸🇬_SG_新加坡_4
       - 亚洲(欢迎订阅Youtube破解资源君) 36
       - 亚洲(欢迎订阅Youtube破解资源君) 2 2
       - 亚洲(欢迎订阅Youtube破解资源君) 3 2
