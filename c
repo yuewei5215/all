@@ -5,135 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","server":"46.29.160.15","port":9933,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    e8","name":"俄罗斯A"}
-  - {"type":"ssr","server":"46.17.46.253","port":9933,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    e8","name":"俄罗斯C"}
-  - {"type":"ssr","server":"91.206.92.12","port":9933,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    6g","name":"俄罗斯E"}
-  - {"type":"ssr","server":"194.156.121.170","port":9933,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    6g","name":"俄罗斯G"}
-  - {"type":"ssr","server":"176.32.33.118","port":9933,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    6b","name":"俄罗斯I"}
-  - {"type":"ssr","server":"45.8.158.119","port":9933,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    6b","name":"俄罗斯J"}
-  - {"type":"ssr","server":"176.32.32.118","port":9933,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    6b","name":"俄罗斯K"}
-  - {"type":"ssr","server":"91.198.220.84","port":9933,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    6b","name":"俄罗斯L"}
-  - {"type":"ssr","server":"188.119.65.129","port":9933,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    8m","name":"俄罗斯B"}
-  - {"type":"ssr","server":"194.156.121.197","port":9933,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    8m","name":"俄罗斯D"}
-  - {"type":"ssr","server":"2.56.241.173","port":9933,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    8m","name":"俄罗斯F"}
-  - {"type":"ssr","server":"194.147.33.113","port":9933,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    8m","name":"俄罗斯H"}
+  - {"type":"vmess","server":"aga135.bieqiangwo.xyz","name":"🇨🇳_CN_中国->🇹🇼_TW_台湾","port":62110,"uuid":"6d896dd9-21ff-3844-a72a-332507486049","alterId":0,"cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 俄罗斯A
-      - 俄罗斯C
-      - 俄罗斯E
-      - 俄罗斯G
-      - 俄罗斯I
-      - 俄罗斯J
-      - 俄罗斯K
-      - 俄罗斯L
-      - 俄罗斯B
-      - 俄罗斯D
-      - 俄罗斯F
-      - 俄罗斯H
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 俄罗斯A
-      - 俄罗斯C
-      - 俄罗斯E
-      - 俄罗斯G
-      - 俄罗斯I
-      - 俄罗斯J
-      - 俄罗斯K
-      - 俄罗斯L
-      - 俄罗斯B
-      - 俄罗斯D
-      - 俄罗斯F
-      - 俄罗斯H
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 俄罗斯A
-      - 俄罗斯C
-      - 俄罗斯E
-      - 俄罗斯G
-      - 俄罗斯I
-      - 俄罗斯J
-      - 俄罗斯K
-      - 俄罗斯L
-      - 俄罗斯B
-      - 俄罗斯D
-      - 俄罗斯F
-      - 俄罗斯H
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 俄罗斯A
-      - 俄罗斯C
-      - 俄罗斯E
-      - 俄罗斯G
-      - 俄罗斯I
-      - 俄罗斯J
-      - 俄罗斯K
-      - 俄罗斯L
-      - 俄罗斯B
-      - 俄罗斯D
-      - 俄罗斯F
-      - 俄罗斯H
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 俄罗斯A
-      - 俄罗斯C
-      - 俄罗斯E
-      - 俄罗斯G
-      - 俄罗斯I
-      - 俄罗斯J
-      - 俄罗斯K
-      - 俄罗斯L
-      - 俄罗斯B
-      - 俄罗斯D
-      - 俄罗斯F
-      - 俄罗斯H
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 俄罗斯A
-      - 俄罗斯C
-      - 俄罗斯E
-      - 俄罗斯G
-      - 俄罗斯I
-      - 俄罗斯J
-      - 俄罗斯K
-      - 俄罗斯L
-      - 俄罗斯B
-      - 俄罗斯D
-      - 俄罗斯F
-      - 俄罗斯H
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,18 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 俄罗斯A
-      - 俄罗斯C
-      - 俄罗斯E
-      - 俄罗斯G
-      - 俄罗斯I
-      - 俄罗斯J
-      - 俄罗斯K
-      - 俄罗斯L
-      - 俄罗斯B
-      - 俄罗斯D
-      - 俄罗斯F
-      - 俄罗斯H
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
