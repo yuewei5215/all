@@ -5,67 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"198.57.27.218","port":5004,"name":"v2rayse_test_1"}
-  - {"type":"vmess","server":"154.23.190.162","name":"v2rayse_test_2","port":443,"uuid":"b9984674-f771-4e67-a198-c7e60720ba2c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ssr","server":"20.239.49.44","port":59814,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"3df57276-03ef-45cf-bdd4-4edb6dfaa0ef","name":"v2rayse_test_3"}
-  - {"type":"trojan","name":"v2rayse_test_4","server":"ca-trojan.bonds.id","password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ffc92e68-2650-4636-b059-e7b981e89f8c","server":"dx-hk.vmess.top","port":33701,"name":"翻墙党fanqiangdang.com\r_1"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ffc92e68-2650-4636-b059-e7b981e89f8c","server":"lt-jp.vmess.top","port":33702,"name":"翻墙党fanqiangdang.com\r_2"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ffc92e68-2650-4636-b059-e7b981e89f8c","server":"dx-hk.vmess.top","port":33703,"name":"翻墙党fanqiangdang.com\r_3"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ffc92e68-2650-4636-b059-e7b981e89f8c","server":"lt-jp.vmess.top","port":33704,"name":"翻墙党fanqiangdang.com\r_4"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ffc92e68-2650-4636-b059-e7b981e89f8c","server":"dx-hk.vmess.top","port":33705,"name":"翻墙党fanqiangdang.com\r_5"}
+  - {"type":"vmess","server":"ct.mj-cn.cyou","name":"翻墙党fanqiangdang.com_1","port":"23315","uuid":"9e7ebd39-189f-489c-8b7e-c47ee4c530dc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"cu.mj-cn.cyou","name":"翻墙党fanqiangdang.com_2","port":"23383","uuid":"9e7ebd39-189f-489c-8b7e-c47ee4c530dc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"cm.mj-cn.cyou","name":"翻墙党fanqiangdang.com_3","port":"23383","uuid":"9e7ebd39-189f-489c-8b7e-c47ee4c530dc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"ct.mj-cn.cyou","name":"翻墙党fanqiangdang.com_4","port":"23383","uuid":"9e7ebd39-189f-489c-8b7e-c47ee4c530dc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"cu.mj-cn.cyou","name":"翻墙党fanqiangdang.com_5","port":"16625","uuid":"9e7ebd39-189f-489c-8b7e-c47ee4c530dc","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - "翻墙党fanqiangdang.com\r_1"
+      - "翻墙党fanqiangdang.com\r_2"
+      - "翻墙党fanqiangdang.com\r_3"
+      - "翻墙党fanqiangdang.com\r_4"
+      - "翻墙党fanqiangdang.com\r_5"
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - "翻墙党fanqiangdang.com\r_1"
+      - "翻墙党fanqiangdang.com\r_2"
+      - "翻墙党fanqiangdang.com\r_3"
+      - "翻墙党fanqiangdang.com\r_4"
+      - "翻墙党fanqiangdang.com\r_5"
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - "翻墙党fanqiangdang.com\r_1"
+      - "翻墙党fanqiangdang.com\r_2"
+      - "翻墙党fanqiangdang.com\r_3"
+      - "翻墙党fanqiangdang.com\r_4"
+      - "翻墙党fanqiangdang.com\r_5"
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - "翻墙党fanqiangdang.com\r_1"
+      - "翻墙党fanqiangdang.com\r_2"
+      - "翻墙党fanqiangdang.com\r_3"
+      - "翻墙党fanqiangdang.com\r_4"
+      - "翻墙党fanqiangdang.com\r_5"
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - "翻墙党fanqiangdang.com\r_1"
+      - "翻墙党fanqiangdang.com\r_2"
+      - "翻墙党fanqiangdang.com\r_3"
+      - "翻墙党fanqiangdang.com\r_4"
+      - "翻墙党fanqiangdang.com\r_5"
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - "翻墙党fanqiangdang.com\r_1"
+      - "翻墙党fanqiangdang.com\r_2"
+      - "翻墙党fanqiangdang.com\r_3"
+      - "翻墙党fanqiangdang.com\r_4"
+      - "翻墙党fanqiangdang.com\r_5"
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,10 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - "翻墙党fanqiangdang.com\r_1"
+      - "翻墙党fanqiangdang.com\r_2"
+      - "翻墙党fanqiangdang.com\r_3"
+      - "翻墙党fanqiangdang.com\r_4"
+      - "翻墙党fanqiangdang.com\r_5"
+      - 翻墙党fanqiangdang.com_1
+      - 翻墙党fanqiangdang.com_2
+      - 翻墙党fanqiangdang.com_3
+      - 翻墙党fanqiangdang.com_4
+      - 翻墙党fanqiangdang.com_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
