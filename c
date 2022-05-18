@@ -5,46 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"163.177.158.215","port":16010,"name":"🇨🇳_CN_中国->🇺🇸_US_美国"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"163.177.158.215","port":26220,"name":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"163.177.158.215","port":16020,"name":"🇨🇳_CN_中国->🇭🇰_HK_香港"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"163.177.158.215","port":16040,"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_1"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"163.177.158.215","port":26210,"name":"🇨🇳_CN_中国->🇵🇭_PH_菲律宾_1"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"163.177.158.215","port":16030,"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"163.177.158.215","port":16010,"name":"🇨🇳_CN_中国->🇺🇸_US_美国_1"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"163.177.158.215","port":26230,"name":"🇨🇳_CN_中国->🇿🇦_ZA_南非"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"163.177.158.215","port":16000,"name":"🇨🇳_CN_中国->🇺🇸_US_美国_2"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"b6040656-96c5-4748-a73c-5a8f15ed7531","server":"120.233.10.230","port":50200,"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_2"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"bb01.nfeng6.pp.ua","port":26210,"name":"🇨🇳_CN_中国->🇵🇭_PH_菲律宾_2"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇿🇦_ZA_南非
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - 🇨🇳_CN_中国->🇵🇭_PH_菲律宾_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
