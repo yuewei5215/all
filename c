@@ -6,26 +6,26 @@ log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"trojan","name":"🇸🇬_SG_新加坡","server":"sg1.qingyun123.xyz","password":"b5baea55-e768-4d65-bbe5-62cb473b29ad","port":10001,"udp":true,"skip-cert-verify":true}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":3306,"name":"🇺🇸_US_美国_1"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_2","server":"jgwcc3.gaox.ml","password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","port":443,"udp":true,"skip-cert-verify":true}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"38.91.102.86","port":8118,"name":"🇺🇸_US_美国_3"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":5000,"name":"🇺🇸_US_美国_4"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"38.91.102.86","port":9101,"name":"🇺🇸_US_美国_5"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"38.91.102.86","port":7307,"name":"🇺🇸_US_美国_6"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_1","server":"jgwcc3.gaox.ml","password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"38.91.102.86","port":5500,"name":"🇺🇸_US_美国_2"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"38.91.102.86","port":9102,"name":"🇺🇸_US_美国_3"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"38.91.102.86","port":8882,"name":"🇺🇸_US_美国_4"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"38.91.102.86","port":7001,"name":"🇺🇸_US_美国_5"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"38.91.102.86","port":6379,"name":"🇺🇸_US_美国_6"}
   - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"38.91.102.86","port":8009,"name":"🇺🇸_US_美国_7"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"38.91.102.86","port":6379,"name":"🇺🇸_US_美国_8"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"38.91.102.86","port":5500,"name":"🇺🇸_US_美国_9"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"38.91.102.86","port":7001,"name":"🇺🇸_US_美国_10"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"38.91.102.86","port":8090,"name":"🇺🇸_US_美国_8"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"38.91.102.86","port":8008,"name":"🇺🇸_US_美国_9"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"38.91.102.86","port":8881,"name":"🇺🇸_US_美国_10"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"38.91.102.86","port":9101,"name":"🇺🇸_US_美国_11"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":8888,"name":"🇺🇸_US_美国_12"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"38.91.102.86","port":8118,"name":"🇺🇸_US_美国_13"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":5000,"name":"🇺🇸_US_美国_14"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":3389,"name":"🇺🇸_US_美国_15"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"38.91.102.86","port":7307,"name":"🇺🇸_US_美国_16"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":5600,"name":"🇺🇸_US_美国_17"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":3306,"name":"🇺🇸_US_美国_18"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"38.91.102.86","port":5003,"name":"🇺🇸_US_美国_19"}
   - {"type":"trojan","name":"🇮🇳_IN_印度","server":"jgwhdlb3.gaox.ml","password":"006baa3f-4bc3-4915-b60d-c8c5dae11a11","port":443,"udp":true,"skip-cert-verify":true}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"38.91.102.86","port":9102,"name":"🇺🇸_US_美国_11"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"38.91.102.86","port":8882,"name":"🇺🇸_US_美国_12"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"38.91.102.86","port":8008,"name":"🇺🇸_US_美国_13"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":8888,"name":"🇺🇸_US_美国_14"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"38.91.102.86","port":5003,"name":"🇺🇸_US_美国_15"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":5600,"name":"🇺🇸_US_美国_16"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"38.91.102.86","port":8881,"name":"🇺🇸_US_美国_17"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.91.102.86","port":3389,"name":"🇺🇸_US_美国_18"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"38.91.102.86","port":8090,"name":"🇺🇸_US_美国_19"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -43,7 +43,6 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇮🇳_IN_印度
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
@@ -53,6 +52,7 @@ proxy-groups:
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇮🇳_IN_印度
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -70,7 +70,6 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇮🇳_IN_印度
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
@@ -80,6 +79,7 @@ proxy-groups:
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇮🇳_IN_印度
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -97,7 +97,6 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇮🇳_IN_印度
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
@@ -107,6 +106,7 @@ proxy-groups:
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇮🇳_IN_印度
   - name: 📲 电报信息
     type: select
     proxies:
@@ -123,7 +123,6 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇮🇳_IN_印度
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
@@ -133,6 +132,7 @@ proxy-groups:
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇮🇳_IN_印度
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -149,7 +149,6 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇮🇳_IN_印度
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
@@ -159,6 +158,7 @@ proxy-groups:
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇮🇳_IN_印度
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -175,7 +175,6 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇮🇳_IN_印度
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
@@ -185,6 +184,7 @@ proxy-groups:
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇮🇳_IN_印度
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -218,7 +218,6 @@ proxy-groups:
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇮🇳_IN_印度
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
@@ -228,6 +227,7 @@ proxy-groups:
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇮🇳_IN_印度
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
