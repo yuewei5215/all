@@ -5,6 +5,64 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 167.172.56.225, port: 54141, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: 新加坡(欢迎订阅Youtube破解资源君), server: 134.122.160.4, port: 12235, type: ss, cipher: aes-256-gcm, password: 1f9e7c79-ce39-44f3-bdbd-90ea117629b3, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君), server: bb01.nfeng6.pp.ua, port: 26220, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 163.177.158.215, port: 26230, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 4, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 5, server: bb01.nfeng6.pp.ua, port: 26230, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 6, server: 163.177.158.215, port: 26220, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 7, server: bb01.nfeng6.pp.ua, port: 26250, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 8, server: 163.177.158.215, port: 26250, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 9, server: 206.189.130.75, port: 17745, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: neteasy.cf, port: 45929, type: trojan, password: 2XWUtOT64u, sni: neteasy.cf, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, sni: ussc.scsevers.cf, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 10, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 11, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr05.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 12, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: dc09c9a0-1697-3f39-8ba9-65f2985e00ec, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: vn01v2.vpnsieure.com, port: 80, type: vmess, uuid: 330efbdb-7171-4fd1-a524-d7b7d8e76732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnsieure, headers: {Host: livestream2.tv360.vn}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: vn05v2.vpnsieure.com, port: 80, type: vmess, uuid: 330efbdb-7171-4fd1-a524-d7b7d8e76732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnsieure, headers: {Host: livestream2.tv360.vn}}, udp: true}
+  - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 1.ezydfdd.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 8, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 9, server: aa.houdinix.space, port: 26267, type: vmess, uuid: 9757cdba-c75b-4b94-9e31-7956dc7d852a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wis, headers: {Host: aa.houdinix.space}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 10, server: hkcm.dfnode.top, port: 19254, type: vmess, uuid: dc8b6a8b-af76-3294-93e4-634d6e1b24a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: download.windowsupdate.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 11, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 12, server: V2-NODE-1.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: d3bd4f04-f99b-4905-9916-bac87c728277, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-1.GFWAIRPORT.NET}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 13, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君), server: 428sg2.fans8.xyz, port: 443, type: vmess, uuid: dc09c9a0-1697-3f39-8ba9-65f2985e00ec, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 428sg2.fans8.xyz}}, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君) 2, server: 43.154.109.219, port: 443, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43.154.109.219}}, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君) 3, server: jp.dfnode.top, port: 19255, type: vmess, uuid: dc8b6a8b-af76-3294-93e4-634d6e1b24a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: download.windowsupdate.com}}, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君) 4, server: jpaz5.xmrth-node.xyz, port: 15414, type: vmess, uuid: 6f0349b2-7484-3b32-98a5-04f3a857dde0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君) 5, server: jpcu.dfnode.top, port: 19307, type: vmess, uuid: dc8b6a8b-af76-3294-93e4-634d6e1b24a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: download.windowsupdate.com}}, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君) 6, server: jpcu.dfnode.top, port: 19304, type: vmess, uuid: dc8b6a8b-af76-3294-93e4-634d6e1b24a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: download.windowsupdate.com}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君), server: 45.82.78.151, port: 80, type: vmess, uuid: 24f0e143-b19e-4c8e-bfe5-c6c0b4e95425, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.82.78.151}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: 45.82.78.151, port: 80, type: vmess, uuid: cece0d8f-a905-43ea-94a7-8b5564ea47fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 3, server: hk01-vm5.entry.ikuuu.casa, port: 450, type: vmess, uuid: b3bc07e6-452a-36fd-8476-bd7aac00f265, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-01-01.entry-0.chinasnow.net}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 4, server: hk10-vm5.entry.ikuuu.casa, port: 458, type: vmess, uuid: b3bc07e6-452a-36fd-8476-bd7aac00f265, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk10-vm5.entry.ikuuu.casa}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 5, server: hk11-vm5.entry.ikuuu.casa, port: 459, type: vmess, uuid: b3bc07e6-452a-36fd-8476-bd7aac00f265, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk11-vm5.entry.ikuuu.casa}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 6, server: hkcm.dfnode.top, port: 19300, type: vmess, uuid: dc8b6a8b-af76-3294-93e4-634d6e1b24a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: download.windowsupdate.com}}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君) 7, server: hkcu.dfnode.top, port: 19254, type: vmess, uuid: dc8b6a8b-af76-3294-93e4-634d6e1b24a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: download.windowsupdate.com}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 13, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 14, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 15, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 16, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 17, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 18, server: sgpcm.dfnode.top, port: 15735, type: vmess, uuid: dc8b6a8b-af76-3294-93e4-634d6e1b24a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 香港（YouTube资源分享者）, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者）, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 2, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -317,105 +375,6 @@ proxies:
   - {name: 比利时, server: 198.2.200.116, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.68478520.xyz}}, udp: true}
   - {name: 埃及开罗, server: 23.224.69.21, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.73788846.xyz}}, udp: true}
   - {name: 摩尔多瓦, server: 46.182.107.81, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.52833977.xyz}}, udp: true}
-  - {name: 香港（YouTube资源分享者） 14, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
-  - {name: 美国（YouTube资源分享者） 34, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
-  - {name: 香港（YouTube资源分享者） 15, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（YouTube资源分享者） 35, server: sh.portx.cc, port: 25396, type: ss, cipher: aes-256-gcm, password: zuCXLJ0eL8zlf5xz, udp: true}
-  - {name: 香港（YouTube资源分享者） 16, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: 香港（YouTube资源分享者） 17, server: node03.hookpay.xyz, port: 57110, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港（YouTube资源分享者） 18, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: 台湾（YouTube资源分享者） 9, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（YouTube资源分享者） 36, server: 20.205.63.28, port: 2800, type: vmess, uuid: b3e12e90-daa9-4ec2-a404-1055487d9b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港（YouTube资源分享者） 19, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾（YouTube资源分享者） 10, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（YouTube资源分享者） 37, server: zhuzhu12.com, port: 14718, type: vmess, uuid: b6df3596-5b57-38ed-9375-62e4b3b6cdd2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
-  - {name: 荷兰（YouTube资源分享者） 4, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 515275f0-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
-  - {name: 澳大利亚（YouTube资源分享者） 5, server: 43.154.121.218, port: 60938, type: ss, cipher: chacha20-ietf-poly1305, password: J36xig8fU64H, udp: true}
-  - {name: 日本（YouTube资源分享者） 7, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国（YouTube资源分享者） 38, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2021.ga}}, udp: true}
-  - {name: 比利时（YouTube资源分享者） 2, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
-  - {name: 美国（YouTube资源分享者） 39, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: 日本（YouTube资源分享者） 8, server: 5.183.176.73, port: 443, type: vmess, uuid: d0129880-6c30-4899-9fd9-ace04085cb34, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.80482495.xyz, network: ws, ws-opts: {path: /path/243535322906, headers: {Host: www.80482495.xyz}}, udp: true}
-  - {name: 日本（YouTube资源分享者） 9, server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 香港（YouTube资源分享者） 20, server: 18.162.207.25, port: 5555, type: vmess, uuid: 35a30e95-4874-45e9-a741-5de0239d9074, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾（YouTube资源分享者） 11, server: guangzou-yd-jy-03.pucdn.me, port: 21102, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vvv, headers: {Host: L2-tw-02.pucdn.me}}, udp: true}
-  - {name: 美国（YouTube资源分享者） 40, server: domeixi.nbczl233.ml, port: 30880, type: vmess, uuid: b14e5862-ed44-4ef0-e310-335414d86882, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: domeixi.nbczl233.ml, network: ws, ws-opts: {path: /114514, headers: {Host: domeixi.nbczl233.ml}}, udp: true}
-  - {name: 美国（YouTube资源分享者） 41, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
-  - {name: 美国（YouTube资源分享者） 42, server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: armsj2.kozow.com}}, udp: true}
-  - {name: 美国（YouTube资源分享者） 43, server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: armsj2.kozow.com}}, udp: true}
-  - {name: 美国（YouTube资源分享者） 44, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}, udp: true}
-  - {name: 瑞典（YouTube资源分享者） 2, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF, udp: true}
-  - {name: 匈牙利（YouTube资源分享者） 2, server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.16675463.xyz, network: ws, ws-opts: {path: /path/243535322906, headers: {Host: www.16675463.xyz}}, udp: true}
-  - {name: 香港（YouTube资源分享者） 21, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国（YouTube资源分享者） 45, server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /319285eb2d/, headers: {Host: free-russian-cdn.xiaohouzi.club}}, udp: true}
-  - {name: 台湾（YouTube资源分享者） 12, server: guangzhou-lw-03.pucdn.me, port: 21106, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vvv, headers: {Host: L2-tw-06.pucdn.me}}, udp: true}
-  - {name: 澳大利亚（YouTube资源分享者） 6, server: 192.53.168.189, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国（YouTube资源分享者） 46, server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE, udp: true}
-  - {name: 美国（YouTube资源分享者） 47, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}, udp: true}
-  - {name: 美国（YouTube资源分享者） 48, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
-  - {name: 美国（YouTube资源分享者） 49, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}, udp: true}
-  - {name: 俄罗斯（YouTube资源分享者） 4, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr, udp: true}
-  - {name: 加拿大（YouTube资源分享者） 10, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 荷兰（YouTube资源分享者） 5, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 515275f0-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
-  - {name: 香港（YouTube资源分享者） 22, server: node04.hookpay.xyz, port: 54123, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（YouTube资源分享者） 50, server: armsj2.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: armsj2.kozow.com}}, udp: true}
-  - {name: 法国（YouTube资源分享者） 5, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 英国（YouTube资源分享者） 5, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3, udp: true}
-  - {name: 俄罗斯（YouTube资源分享者） 5, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: 台湾（YouTube资源分享者） 13, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（YouTube资源分享者） 51, server: 152.70.127.223, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: youtube-awekeji}}, udp: true}
-  - {name: 美国（YouTube资源分享者） 52, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: 法国（YouTube资源分享者） 6, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 乌克兰（YouTube资源分享者） 3, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER, udp: true}
-  - {name: 台湾（YouTube资源分享者） 14, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（YouTube资源分享者） 53, server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}, udp: true}
-  - {name: 台湾（YouTube资源分享者） 15, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港（YouTube资源分享者） 23, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本（YouTube资源分享者） 10, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国（YouTube资源分享者） 54, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: 香港（YouTube资源分享者） 24, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚（YouTube资源分享者） 7, server: 192.53.168.189, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 澳大利亚（YouTube资源分享者） 8, server: 192.53.168.189, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国（YouTube资源分享者） 55, server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /2993fe/, headers: {Host: free-russian01-cdn.xiaohouzi.club}}, udp: true}
-  - {name: 卢森堡（YouTube资源分享者） 2, server: 23.109.136.210, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.65674186.xyz, network: ws, ws-opts: {path: /path/243535322906, headers: {Host: www.65674186.xyz}}, udp: true}
-  - {name: 新加坡（YouTube资源分享者） 2, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT, udp: true}
-  - {name: 英国（YouTube资源分享者） 6, server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3, udp: true}
-  - {name: 香港（YouTube资源分享者） 25, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 乌克兰（YouTube资源分享者） 4, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER, udp: true}
-  - {name: 法国（YouTube资源分享者） 7, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 中国（YouTube资源分享者） 4, server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯（YouTube资源分享者） 6, server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /2993fe/, headers: {Host: free-russian01-cdn.xiaohouzi.club}}, udp: true}
-  - {name: 加拿大（YouTube资源分享者） 11, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
-  - {name: 加拿大（YouTube资源分享者） 12, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1116yn.fans8.xyz}}, udp: true}
-  - {name: 日本（YouTube资源分享者） 11, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 加拿大（YouTube资源分享者） 13, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
-  - {name: 中国（YouTube资源分享者） 5, server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（YouTube资源分享者） 56, server: 183.232.163.3, port: 3939, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.163.3}}, udp: true}
-  - {name: 加拿大（YouTube资源分享者） 14, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大（YouTube资源分享者） 15, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: youtube-aweikeji}}, udp: true}
-  - {name: 台湾（YouTube资源分享者） 16, server: 183.232.163.3, port: 5152, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: 中国（YouTube资源分享者） 6, server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（YouTube资源分享者） 57, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（YouTube资源分享者） 58, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 法国（YouTube资源分享者） 8, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: 以色列（YouTube资源分享者） 2, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: 美国（YouTube资源分享者） 59, server: 183.232.163.3, port: 5959, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: youtube-awekeji}}, udp: true}
-  - {name: 美国（YouTube资源分享者） 60, server: 152.70.127.223, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国（YouTube资源分享者） 61, server: 183.232.163.3, port: 6262, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: 美国（YouTube资源分享者） 62, server: 104.19.101.7, port: 2053, type: vmess, uuid: 0699c1fa-7505-4807-fa1a-c72e577b4299, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwed65rhy, headers: {Host: de2.fovi.tk}}, udp: true}
-  - {name: 加拿大（YouTube资源分享者） 16, server: h701576.droplet.today, port: 13345, type: trojan, password: b6a7075fd6, skip-cert-verify: true, udp: true}
-  - {name: 美国（YouTube资源分享者） 63, server: 183.232.163.3, port: 1717, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.163.3}}, udp: true}
-  - {name: 美国（YouTube资源分享者） 64, server: 183.232.163.3, port: 3939, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: 美国（YouTube资源分享者） 65, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 日本（YouTube资源分享者） 12, server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: 英国（YouTube资源分享者） 7, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 加拿大（YouTube资源分享者） 17, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1116yn.fans8.xyz}}, udp: true}
-  - {name: 香港（YouTube资源分享者） 26, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大（YouTube资源分享者） 18, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 英国（YouTube资源分享者） 8, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 荷兰（YouTube资源分享者） 6, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 4ec1c2fa-5a26-11ec-86de-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
-  - {name: 德国（YouTube资源分享者） 2, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr, udp: true}
-  - {name: 美国（YouTube资源分享者） 66, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 公益机场:https://bit.ly/3BPeo5G 3, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub 2", server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}, udp: true}
   - {name: "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2", server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}, udp: true}
@@ -431,31 +390,30 @@ proxies:
   - {name: "@SSRSUB-V07-付费推荐:suo.yt/ssrsub 2", server: zzcm08.bdate.xyz, port: 2570, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
   - {name: "@SSRSUB-V08-付费推荐:suo.yt/ssrsub 2", server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
   - {name: github.com/freefq - 美国Microsoft数据中心 1, server: 20.196.217.207, port: 80, type: vmess, uuid: f778539f-5954-4b0e-987b-94a6081c1af7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: down.dingtalk.com}}, udp: true}
-  - {name: github.com/freefq - 英国伦敦DigitalOcean数据中心 2, server: 167.172.56.225, port: 54141, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 3, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AY920UMR, headers: {Host: us1.lolvps.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶QuadraNet数据中心 4, server: sjy.869869.xyz, port: 443, type: vmess, uuid: 021d6a82-fe95-4078-a3a2-00dbfb791156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b2744c0a/, headers: {Host: sjy.869869.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 5, server: bb1.158801.xyz, port: 22544, type: trojan, password: 2d0cedbf-5ed6-4187-a416-2b01b80b43ff, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 6, server: app.ssfree.ru, port: 443, type: vmess, uuid: 28ac3f12-d728-11ec-9556-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: github.com/freefq - 香港Microsoft公司 7, server: hk-i.sserver.top, port: 80, type: vmess, uuid: 8d0ceab5-1008-300f-996f-0751e11038f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-i.sserver.top}}, udp: true}
-  - {name: github.com/freefq - 加拿大  8, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: dc09c9a0-1697-3f39-8ba9-65f2985e00ec, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 9, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v4.ssrsub.com}}, udp: true}
-  - {name: github.com/freefq - 英国伦敦Oracle云计算数据中心 10, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  11, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
-  - {name: github.com/freefq - 广东省揭阳市移动 12, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
-  - {name: github.com/freefq - 英国伦敦DigitalOcean数据中心 13, server: 167.172.56.211, port: 14512, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
-  - {name: github.com/freefq - 广东省移动 14, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 15, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 1.ezydfdd.com}}, udp: true}
-  - {name: github.com/freefq - 新加坡  16, server: sg1.ipv6b.my.id, port: 443, type: vmess, uuid: f4f7252a-7100-48e7-a2e5-b0334e845c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/73qdrc9jprtduwhvwtkvjrrvz39gr3/627f61f24960e/, headers: {Host: sg1.ipv6b.my.id}}, udp: true}
-  - {name: github.com/freefq - 广东省广州市移动 17, server: zzcm01.bdate.xyz, port: 2000, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm01.bdate.xyz}}, udp: true}
-  - {name: github.com/freefq - 上海市微软Azure世纪互联上海数据中心BGP节点 18, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: github.com/freefq - 广东省揭阳市移动 19, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: github.com/freefq - 广东省广州市电信 20, server: zzcm06.bdate.xyz, port: 2000, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm06.bdate.xyz}}, udp: true}
-  - {name: github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 21, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省广州市电信 22, server: 125.94.37.119, port: 2000, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
-  - {name: github.com/freefq - 香港RivenCloud(Cloudie) 23, server: 45.82.78.151, port: 80, type: vmess, uuid: cece0d8f-a905-43ea-94a7-8b5564ea47fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 24, server: 172.64.94.238, port: 2053, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: xxX3, headers: {Host: web1.wweblog.pw}}, udp: true}
-  - {name: github.com/freefq - 广东省移动 25, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
-  - {name: github.com/freefq - 香港RivenCloud(Cloudie) 26, server: 45.82.78.151, port: 80, type: vmess, uuid: 24f0e143-b19e-4c8e-bfe5-c6c0b4e95425, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: github.com/freefq - 北京市移动 2, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 99591e4d-b11e-4488-b366-53f3b6787bba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hinet04, headers: {Host: cs.daxun.cyou}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 3, server: 104.21.92.172, port: 2095, type: vmess, uuid: 477fb2a0-daf4-3041-b6f6-5de3f42ecc69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /biteb, headers: {Host: fr-direct-cdn.node001.xyz}}, udp: true}
+  - {name: github.com/freefq - 日本  4, server: hy.hsichu.xyz, port: 443, type: trojan, password: HsCOkje2HH2PuRFb, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  5, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: dc09c9a0-1697-3f39-8ba9-65f2985e00ec, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 广东省广州市移动 6, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 英国伦敦DigitalOcean数据中心 7, server: 167.172.56.225, port: 54141, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: github.com/freefq - 广东省揭阳市移动 8, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: github.com/freefq - 广东省揭阳市移动 9, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: github.com/freefq - 美国  10, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: github.com/freefq - 广东省移动 11, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
+  - {name: github.com/freefq - 广东省移动 12, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
+  - {name: github.com/freefq - 上海市微软Azure世纪互联上海数据中心BGP节点 13, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
+  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 14, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 新加坡  15, server: sg1.ipv6b.my.id, port: 443, type: vmess, uuid: f4f7252a-7100-48e7-a2e5-b0334e845c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/73qdrc9jprtduwhvwtkvjrrvz39gr3/627f61f24960e/, headers: {Host: sg1.ipv6b.my.id}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州圣何塞Choopa数据中心 16, server: aa.houdinix.space, port: 26267, type: vmess, uuid: 9757cdba-c75b-4b94-9e31-7956dc7d852a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wis, headers: {Host: aa.houdinix.space}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 17, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: github.com/freefq - 广东省广州市电信 18, server: 125.94.37.119, port: 2000, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: github.com/freefq - 广东省广州市电信 19, server: zzcm06.bdate.xyz, port: 2000, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm06.bdate.xyz}}, udp: true}
+  - {name: github.com/freefq - 广东省广州市移动 20, server: zzcm01.bdate.xyz, port: 2000, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm01.bdate.xyz}}, udp: true}
+  - {name: github.com/freefq - 日本  21, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 英国伦敦Oracle云计算数据中心 22, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 23, server: 172.64.94.238, port: 2053, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: xxX3, headers: {Host: web1.wweblog.pw}}, udp: true}
+  - {name: github.com/freefq - 广东省移动 24, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
+  - {name: github.com/freefq - 加拿大  25, server: 165.154.225.230, port: 33080, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 韩国直连, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
   - {name: 我又来了, server: 3.36.77.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 我又来了 2, server: 54.255.192.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -527,6 +485,64 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 亚洲(欢迎订阅Youtube破解资源君) 2
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
+      - 亚洲(欢迎订阅Youtube破解资源君) 4
+      - 亚洲(欢迎订阅Youtube破解资源君) 5
+      - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 亚洲(欢迎订阅Youtube破解资源君) 7
+      - 亚洲(欢迎订阅Youtube破解资源君) 8
+      - 亚洲(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 亚洲(欢迎订阅Youtube破解资源君) 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 11
+      - 亚洲(欢迎订阅Youtube破解资源君) 12
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 10
+      - 欧洲(欢迎订阅Youtube破解资源君) 11
+      - 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 7
+      - 美国(欢迎订阅Youtube破解资源君) 8
+      - 美国(欢迎订阅Youtube破解资源君) 9
+      - 美国(欢迎订阅Youtube破解资源君) 10
+      - 美国(欢迎订阅Youtube破解资源君) 11
+      - 美国(欢迎订阅Youtube破解资源君) 12
+      - 美国(欢迎订阅Youtube破解资源君) 13
+      - 欧洲(欢迎订阅Youtube破解资源君) 12
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 日本(欢迎订阅Youtube破解资源君) 2
+      - 日本(欢迎订阅Youtube破解资源君) 3
+      - 日本(欢迎订阅Youtube破解资源君) 4
+      - 日本(欢迎订阅Youtube破解资源君) 5
+      - 日本(欢迎订阅Youtube破解资源君) 6
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 香港(欢迎订阅Youtube破解资源君) 2
+      - 香港(欢迎订阅Youtube破解资源君) 3
+      - 香港(欢迎订阅Youtube破解资源君) 4
+      - 香港(欢迎订阅Youtube破解资源君) 5
+      - 香港(欢迎订阅Youtube破解资源君) 6
+      - 香港(欢迎订阅Youtube破解资源君) 7
+      - 亚洲(欢迎订阅Youtube破解资源君) 13
+      - 亚洲(欢迎订阅Youtube破解资源君) 14
+      - 亚洲(欢迎订阅Youtube破解资源君) 15
+      - 亚洲(欢迎订阅Youtube破解资源君) 16
+      - 亚洲(欢迎订阅Youtube破解资源君) 17
+      - 亚洲(欢迎订阅Youtube破解资源君) 18
       - 香港（YouTube资源分享者）
       - 美国（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
@@ -839,105 +855,6 @@ proxy-groups:
       - 比利时
       - 埃及开罗
       - 摩尔多瓦
-      - 香港（YouTube资源分享者） 14
-      - 美国（YouTube资源分享者） 34
-      - 香港（YouTube资源分享者） 15
-      - 美国（YouTube资源分享者） 35
-      - 香港（YouTube资源分享者） 16
-      - 香港（YouTube资源分享者） 17
-      - 香港（YouTube资源分享者） 18
-      - 台湾（YouTube资源分享者） 9
-      - 美国（YouTube资源分享者） 36
-      - 香港（YouTube资源分享者） 19
-      - 台湾（YouTube资源分享者） 10
-      - 美国（YouTube资源分享者） 37
-      - 荷兰（YouTube资源分享者） 4
-      - 澳大利亚（YouTube资源分享者） 5
-      - 日本（YouTube资源分享者） 7
-      - 美国（YouTube资源分享者） 38
-      - 比利时（YouTube资源分享者） 2
-      - 美国（YouTube资源分享者） 39
-      - 日本（YouTube资源分享者） 8
-      - 日本（YouTube资源分享者） 9
-      - 香港（YouTube资源分享者） 20
-      - 台湾（YouTube资源分享者） 11
-      - 美国（YouTube资源分享者） 40
-      - 美国（YouTube资源分享者） 41
-      - 美国（YouTube资源分享者） 42
-      - 美国（YouTube资源分享者） 43
-      - 美国（YouTube资源分享者） 44
-      - 瑞典（YouTube资源分享者） 2
-      - 匈牙利（YouTube资源分享者） 2
-      - 香港（YouTube资源分享者） 21
-      - 美国（YouTube资源分享者） 45
-      - 台湾（YouTube资源分享者） 12
-      - 澳大利亚（YouTube资源分享者） 6
-      - 美国（YouTube资源分享者） 46
-      - 美国（YouTube资源分享者） 47
-      - 美国（YouTube资源分享者） 48
-      - 美国（YouTube资源分享者） 49
-      - 俄罗斯（YouTube资源分享者） 4
-      - 加拿大（YouTube资源分享者） 10
-      - 荷兰（YouTube资源分享者） 5
-      - 香港（YouTube资源分享者） 22
-      - 美国（YouTube资源分享者） 50
-      - 法国（YouTube资源分享者） 5
-      - 英国（YouTube资源分享者） 5
-      - 俄罗斯（YouTube资源分享者） 5
-      - 台湾（YouTube资源分享者） 13
-      - 美国（YouTube资源分享者） 51
-      - 美国（YouTube资源分享者） 52
-      - 法国（YouTube资源分享者） 6
-      - 乌克兰（YouTube资源分享者） 3
-      - 台湾（YouTube资源分享者） 14
-      - 美国（YouTube资源分享者） 53
-      - 台湾（YouTube资源分享者） 15
-      - 香港（YouTube资源分享者） 23
-      - 日本（YouTube资源分享者） 10
-      - 美国（YouTube资源分享者） 54
-      - 香港（YouTube资源分享者） 24
-      - 澳大利亚（YouTube资源分享者） 7
-      - 澳大利亚（YouTube资源分享者） 8
-      - 美国（YouTube资源分享者） 55
-      - 卢森堡（YouTube资源分享者） 2
-      - 新加坡（YouTube资源分享者） 2
-      - 英国（YouTube资源分享者） 6
-      - 香港（YouTube资源分享者） 25
-      - 乌克兰（YouTube资源分享者） 4
-      - 法国（YouTube资源分享者） 7
-      - 中国（YouTube资源分享者） 4
-      - 俄罗斯（YouTube资源分享者） 6
-      - 加拿大（YouTube资源分享者） 11
-      - 加拿大（YouTube资源分享者） 12
-      - 日本（YouTube资源分享者） 11
-      - 加拿大（YouTube资源分享者） 13
-      - 中国（YouTube资源分享者） 5
-      - 美国（YouTube资源分享者） 56
-      - 加拿大（YouTube资源分享者） 14
-      - 加拿大（YouTube资源分享者） 15
-      - 台湾（YouTube资源分享者） 16
-      - 中国（YouTube资源分享者） 6
-      - 美国（YouTube资源分享者） 57
-      - 美国（YouTube资源分享者） 58
-      - 法国（YouTube资源分享者） 8
-      - 以色列（YouTube资源分享者） 2
-      - 美国（YouTube资源分享者） 59
-      - 美国（YouTube资源分享者） 60
-      - 美国（YouTube资源分享者） 61
-      - 美国（YouTube资源分享者） 62
-      - 加拿大（YouTube资源分享者） 16
-      - 美国（YouTube资源分享者） 63
-      - 美国（YouTube资源分享者） 64
-      - 美国（YouTube资源分享者） 65
-      - 日本（YouTube资源分享者） 12
-      - 英国（YouTube资源分享者） 7
-      - 加拿大（YouTube资源分享者） 17
-      - 香港（YouTube资源分享者） 26
-      - 加拿大（YouTube资源分享者） 18
-      - 英国（YouTube资源分享者） 8
-      - 荷兰（YouTube资源分享者） 6
-      - 德国（YouTube资源分享者） 2
-      - 美国（YouTube资源分享者） 66
       - 公益机场:https://bit.ly/3BPeo5G 3
       - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2"
@@ -953,31 +870,30 @@ proxy-groups:
       - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V08-付费推荐:suo.yt/ssrsub 2"
       - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 2
-      - github.com/freefq - 香港特别行政区 3
-      - github.com/freefq - 美国加利福尼亚州洛杉矶QuadraNet数据中心 4
-      - github.com/freefq - 美国Microsoft数据中心 5
-      - github.com/freefq - 美国CloudFlare节点 6
-      - github.com/freefq - 香港Microsoft公司 7
-      - github.com/freefq - 加拿大  8
-      - github.com/freefq - 美国CloudFlare节点 9
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 10
-      - github.com/freefq - 美国  11
-      - github.com/freefq - 广东省揭阳市移动 12
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 13
-      - github.com/freefq - 广东省移动 14
-      - github.com/freefq - 美国CloudFlare节点 15
-      - github.com/freefq - 新加坡  16
-      - github.com/freefq - 广东省广州市移动 17
-      - github.com/freefq - 上海市微软Azure世纪互联上海数据中心BGP节点 18
-      - github.com/freefq - 广东省揭阳市移动 19
-      - github.com/freefq - 广东省广州市电信 20
-      - github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 21
-      - github.com/freefq - 广东省广州市电信 22
-      - github.com/freefq - 香港RivenCloud(Cloudie) 23
-      - github.com/freefq - 美国CloudFlare节点 24
-      - github.com/freefq - 广东省移动 25
-      - github.com/freefq - 香港RivenCloud(Cloudie) 26
+      - github.com/freefq - 北京市移动 2
+      - github.com/freefq - 美国CloudFlare公司CDN节点 3
+      - github.com/freefq - 日本  4
+      - github.com/freefq - 加拿大  5
+      - github.com/freefq - 广东省广州市移动 6
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 7
+      - github.com/freefq - 广东省揭阳市移动 8
+      - github.com/freefq - 广东省揭阳市移动 9
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 广东省移动 11
+      - github.com/freefq - 广东省移动 12
+      - github.com/freefq - 上海市微软Azure世纪互联上海数据中心BGP节点 13
+      - github.com/freefq - 新加坡DigitalOcean数据中心 14
+      - github.com/freefq - 新加坡  15
+      - github.com/freefq - 美国加利福尼亚州圣何塞Choopa数据中心 16
+      - github.com/freefq - 美国CloudFlare节点 17
+      - github.com/freefq - 广东省广州市电信 18
+      - github.com/freefq - 广东省广州市电信 19
+      - github.com/freefq - 广东省广州市移动 20
+      - github.com/freefq - 日本  21
+      - github.com/freefq - 英国伦敦Oracle云计算数据中心 22
+      - github.com/freefq - 美国CloudFlare节点 23
+      - github.com/freefq - 广东省移动 24
+      - github.com/freefq - 加拿大  25
       - 韩国直连
       - 我又来了
       - 我又来了 2
@@ -1049,6 +965,64 @@ proxy-groups:
     url: http://www.msftconnecttest.com/connecttest.txt
     interval: 150
     proxies:
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 亚洲(欢迎订阅Youtube破解资源君) 2
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
+      - 亚洲(欢迎订阅Youtube破解资源君) 4
+      - 亚洲(欢迎订阅Youtube破解资源君) 5
+      - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 亚洲(欢迎订阅Youtube破解资源君) 7
+      - 亚洲(欢迎订阅Youtube破解资源君) 8
+      - 亚洲(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 亚洲(欢迎订阅Youtube破解资源君) 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 11
+      - 亚洲(欢迎订阅Youtube破解资源君) 12
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 10
+      - 欧洲(欢迎订阅Youtube破解资源君) 11
+      - 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 7
+      - 美国(欢迎订阅Youtube破解资源君) 8
+      - 美国(欢迎订阅Youtube破解资源君) 9
+      - 美国(欢迎订阅Youtube破解资源君) 10
+      - 美国(欢迎订阅Youtube破解资源君) 11
+      - 美国(欢迎订阅Youtube破解资源君) 12
+      - 美国(欢迎订阅Youtube破解资源君) 13
+      - 欧洲(欢迎订阅Youtube破解资源君) 12
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 日本(欢迎订阅Youtube破解资源君) 2
+      - 日本(欢迎订阅Youtube破解资源君) 3
+      - 日本(欢迎订阅Youtube破解资源君) 4
+      - 日本(欢迎订阅Youtube破解资源君) 5
+      - 日本(欢迎订阅Youtube破解资源君) 6
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 香港(欢迎订阅Youtube破解资源君) 2
+      - 香港(欢迎订阅Youtube破解资源君) 3
+      - 香港(欢迎订阅Youtube破解资源君) 4
+      - 香港(欢迎订阅Youtube破解资源君) 5
+      - 香港(欢迎订阅Youtube破解资源君) 6
+      - 香港(欢迎订阅Youtube破解资源君) 7
+      - 亚洲(欢迎订阅Youtube破解资源君) 13
+      - 亚洲(欢迎订阅Youtube破解资源君) 14
+      - 亚洲(欢迎订阅Youtube破解资源君) 15
+      - 亚洲(欢迎订阅Youtube破解资源君) 16
+      - 亚洲(欢迎订阅Youtube破解资源君) 17
+      - 亚洲(欢迎订阅Youtube破解资源君) 18
       - 香港（YouTube资源分享者）
       - 美国（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
@@ -1361,105 +1335,6 @@ proxy-groups:
       - 比利时
       - 埃及开罗
       - 摩尔多瓦
-      - 香港（YouTube资源分享者） 14
-      - 美国（YouTube资源分享者） 34
-      - 香港（YouTube资源分享者） 15
-      - 美国（YouTube资源分享者） 35
-      - 香港（YouTube资源分享者） 16
-      - 香港（YouTube资源分享者） 17
-      - 香港（YouTube资源分享者） 18
-      - 台湾（YouTube资源分享者） 9
-      - 美国（YouTube资源分享者） 36
-      - 香港（YouTube资源分享者） 19
-      - 台湾（YouTube资源分享者） 10
-      - 美国（YouTube资源分享者） 37
-      - 荷兰（YouTube资源分享者） 4
-      - 澳大利亚（YouTube资源分享者） 5
-      - 日本（YouTube资源分享者） 7
-      - 美国（YouTube资源分享者） 38
-      - 比利时（YouTube资源分享者） 2
-      - 美国（YouTube资源分享者） 39
-      - 日本（YouTube资源分享者） 8
-      - 日本（YouTube资源分享者） 9
-      - 香港（YouTube资源分享者） 20
-      - 台湾（YouTube资源分享者） 11
-      - 美国（YouTube资源分享者） 40
-      - 美国（YouTube资源分享者） 41
-      - 美国（YouTube资源分享者） 42
-      - 美国（YouTube资源分享者） 43
-      - 美国（YouTube资源分享者） 44
-      - 瑞典（YouTube资源分享者） 2
-      - 匈牙利（YouTube资源分享者） 2
-      - 香港（YouTube资源分享者） 21
-      - 美国（YouTube资源分享者） 45
-      - 台湾（YouTube资源分享者） 12
-      - 澳大利亚（YouTube资源分享者） 6
-      - 美国（YouTube资源分享者） 46
-      - 美国（YouTube资源分享者） 47
-      - 美国（YouTube资源分享者） 48
-      - 美国（YouTube资源分享者） 49
-      - 俄罗斯（YouTube资源分享者） 4
-      - 加拿大（YouTube资源分享者） 10
-      - 荷兰（YouTube资源分享者） 5
-      - 香港（YouTube资源分享者） 22
-      - 美国（YouTube资源分享者） 50
-      - 法国（YouTube资源分享者） 5
-      - 英国（YouTube资源分享者） 5
-      - 俄罗斯（YouTube资源分享者） 5
-      - 台湾（YouTube资源分享者） 13
-      - 美国（YouTube资源分享者） 51
-      - 美国（YouTube资源分享者） 52
-      - 法国（YouTube资源分享者） 6
-      - 乌克兰（YouTube资源分享者） 3
-      - 台湾（YouTube资源分享者） 14
-      - 美国（YouTube资源分享者） 53
-      - 台湾（YouTube资源分享者） 15
-      - 香港（YouTube资源分享者） 23
-      - 日本（YouTube资源分享者） 10
-      - 美国（YouTube资源分享者） 54
-      - 香港（YouTube资源分享者） 24
-      - 澳大利亚（YouTube资源分享者） 7
-      - 澳大利亚（YouTube资源分享者） 8
-      - 美国（YouTube资源分享者） 55
-      - 卢森堡（YouTube资源分享者） 2
-      - 新加坡（YouTube资源分享者） 2
-      - 英国（YouTube资源分享者） 6
-      - 香港（YouTube资源分享者） 25
-      - 乌克兰（YouTube资源分享者） 4
-      - 法国（YouTube资源分享者） 7
-      - 中国（YouTube资源分享者） 4
-      - 俄罗斯（YouTube资源分享者） 6
-      - 加拿大（YouTube资源分享者） 11
-      - 加拿大（YouTube资源分享者） 12
-      - 日本（YouTube资源分享者） 11
-      - 加拿大（YouTube资源分享者） 13
-      - 中国（YouTube资源分享者） 5
-      - 美国（YouTube资源分享者） 56
-      - 加拿大（YouTube资源分享者） 14
-      - 加拿大（YouTube资源分享者） 15
-      - 台湾（YouTube资源分享者） 16
-      - 中国（YouTube资源分享者） 6
-      - 美国（YouTube资源分享者） 57
-      - 美国（YouTube资源分享者） 58
-      - 法国（YouTube资源分享者） 8
-      - 以色列（YouTube资源分享者） 2
-      - 美国（YouTube资源分享者） 59
-      - 美国（YouTube资源分享者） 60
-      - 美国（YouTube资源分享者） 61
-      - 美国（YouTube资源分享者） 62
-      - 加拿大（YouTube资源分享者） 16
-      - 美国（YouTube资源分享者） 63
-      - 美国（YouTube资源分享者） 64
-      - 美国（YouTube资源分享者） 65
-      - 日本（YouTube资源分享者） 12
-      - 英国（YouTube资源分享者） 7
-      - 加拿大（YouTube资源分享者） 17
-      - 香港（YouTube资源分享者） 26
-      - 加拿大（YouTube资源分享者） 18
-      - 英国（YouTube资源分享者） 8
-      - 荷兰（YouTube资源分享者） 6
-      - 德国（YouTube资源分享者） 2
-      - 美国（YouTube资源分享者） 66
       - 公益机场:https://bit.ly/3BPeo5G 3
       - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub 2"
@@ -1475,31 +1350,30 @@ proxy-groups:
       - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub 2"
       - "@SSRSUB-V08-付费推荐:suo.yt/ssrsub 2"
       - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 2
-      - github.com/freefq - 香港特别行政区 3
-      - github.com/freefq - 美国加利福尼亚州洛杉矶QuadraNet数据中心 4
-      - github.com/freefq - 美国Microsoft数据中心 5
-      - github.com/freefq - 美国CloudFlare节点 6
-      - github.com/freefq - 香港Microsoft公司 7
-      - github.com/freefq - 加拿大  8
-      - github.com/freefq - 美国CloudFlare节点 9
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 10
-      - github.com/freefq - 美国  11
-      - github.com/freefq - 广东省揭阳市移动 12
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 13
-      - github.com/freefq - 广东省移动 14
-      - github.com/freefq - 美国CloudFlare节点 15
-      - github.com/freefq - 新加坡  16
-      - github.com/freefq - 广东省广州市移动 17
-      - github.com/freefq - 上海市微软Azure世纪互联上海数据中心BGP节点 18
-      - github.com/freefq - 广东省揭阳市移动 19
-      - github.com/freefq - 广东省广州市电信 20
-      - github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 21
-      - github.com/freefq - 广东省广州市电信 22
-      - github.com/freefq - 香港RivenCloud(Cloudie) 23
-      - github.com/freefq - 美国CloudFlare节点 24
-      - github.com/freefq - 广东省移动 25
-      - github.com/freefq - 香港RivenCloud(Cloudie) 26
+      - github.com/freefq - 北京市移动 2
+      - github.com/freefq - 美国CloudFlare公司CDN节点 3
+      - github.com/freefq - 日本  4
+      - github.com/freefq - 加拿大  5
+      - github.com/freefq - 广东省广州市移动 6
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 7
+      - github.com/freefq - 广东省揭阳市移动 8
+      - github.com/freefq - 广东省揭阳市移动 9
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 广东省移动 11
+      - github.com/freefq - 广东省移动 12
+      - github.com/freefq - 上海市微软Azure世纪互联上海数据中心BGP节点 13
+      - github.com/freefq - 新加坡DigitalOcean数据中心 14
+      - github.com/freefq - 新加坡  15
+      - github.com/freefq - 美国加利福尼亚州圣何塞Choopa数据中心 16
+      - github.com/freefq - 美国CloudFlare节点 17
+      - github.com/freefq - 广东省广州市电信 18
+      - github.com/freefq - 广东省广州市电信 19
+      - github.com/freefq - 广东省广州市移动 20
+      - github.com/freefq - 日本  21
+      - github.com/freefq - 英国伦敦Oracle云计算数据中心 22
+      - github.com/freefq - 美国CloudFlare节点 23
+      - github.com/freefq - 广东省移动 24
+      - github.com/freefq - 加拿大  25
       - 韩国直连
       - 我又来了
       - 我又来了 2
