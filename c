@@ -5,67 +5,137 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"134.195.198.252","port":4444,"name":"🇨🇦_CA_加拿大"}
-  - {"type":"trojan","name":"🇬🇧_GB_英国","server":"jgwld4.gaox.ml","password":"58d32c66-43b1-4561-9951-d87c9123774e","port":443,"udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇯🇵_JP_日本_1","server":"jp2.trojan.tel","password":"f736834f-1fc8-4738-9884-9afe0eb0d818","port":443,"udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇯🇵_JP_日本_2","server":"jgwdb1.gaox.ml","password":"a580d839-ee41-4df1-bf03-6789dca32e30","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/ZXfq8Vm7/","headers":{"host":"161.8.149.7"}},"server":"161.8.149.7","name":"Relay_🇺🇸US-🇩🇪DE_26","port":"38822","uuid":"1dab5094-c29c-11ec-83d0-e0db55fccaf9","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"bgpv2.ktyjsq.com","name":"新加坡(nodefree.org免费节点每日分享)_2","port":"12223","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"bgpv2.ktyjsq.com","name":"英国(nodefree.org免费节点每日分享)","port":"12229","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"bgpv2.ktyjsq.com","name":"台湾(nodefree.org免费节点每日分享)_2","port":"12222","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"bzUdYJ4JzjGfIwhG","server":"bb01.nfeng6.pp.ua","port":26230,"name":"+欧洲(欢迎订阅Youtube破解资源君)+5\r\r\r\r"}
+  - {"type":"vmess","server":"bgpv2.ktyjsq.com","name":"美国(nodefree.org免费节点每日分享)_2","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"180.215.196.10"}},"server":"180.215.196.10","name":"新加坡-180.215.196.10-226","port":"39043","uuid":"1b2f44e4-a810-48a8-b620-a4567b46c9b7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","server":"bgpv2.ktyjsq.com","name":"日本(nodefree.org免费节点每日分享)_2","port":"12205","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"bgpv2.ktyjsq.com","name":"台湾(nodefree.org免费节点每日分享)","port":"12221","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"211.91.243.240","name":"中国_商店：8du.shop_1","port":"31204","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","server":"211.91.243.240","name":"中国_商店：8du.shop_2","port":"31201","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","server":"bgpv2.ktyjsq.com","name":"中国|TXC|WeoworksX分享","port":"12205","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"bgpv2.ktyjsq.com","name":"日本(youtube阿伟科技)10","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"_JP_日本->🇺🇸_US_美国_1\r\r\r","server":"s2.upyun.online","password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","port":12340,"udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1
-      - 🇯🇵_JP_日本_2
+      - Relay_🇺🇸US-🇩🇪DE_26
+      - 新加坡(nodefree.org免费节点每日分享)_2
+      - 英国(nodefree.org免费节点每日分享)
+      - 台湾(nodefree.org免费节点每日分享)_2
+      - "+欧洲(欢迎订阅Youtube破解资源君)+5\r\r\r\r"
+      - 美国(nodefree.org免费节点每日分享)_2
+      - 新加坡-180.215.196.10-226
+      - 日本(nodefree.org免费节点每日分享)_2
+      - 台湾(nodefree.org免费节点每日分享)
+      - 中国_商店：8du.shop_1
+      - 中国_商店：8du.shop_2
+      - 中国|TXC|WeoworksX分享
+      - 日本(youtube阿伟科技)10
+      - "_JP_日本->🇺🇸_US_美国_1\r\r\r"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1
-      - 🇯🇵_JP_日本_2
+      - Relay_🇺🇸US-🇩🇪DE_26
+      - 新加坡(nodefree.org免费节点每日分享)_2
+      - 英国(nodefree.org免费节点每日分享)
+      - 台湾(nodefree.org免费节点每日分享)_2
+      - "+欧洲(欢迎订阅Youtube破解资源君)+5\r\r\r\r"
+      - 美国(nodefree.org免费节点每日分享)_2
+      - 新加坡-180.215.196.10-226
+      - 日本(nodefree.org免费节点每日分享)_2
+      - 台湾(nodefree.org免费节点每日分享)
+      - 中国_商店：8du.shop_1
+      - 中国_商店：8du.shop_2
+      - 中国|TXC|WeoworksX分享
+      - 日本(youtube阿伟科技)10
+      - "_JP_日本->🇺🇸_US_美国_1\r\r\r"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1
-      - 🇯🇵_JP_日本_2
+      - Relay_🇺🇸US-🇩🇪DE_26
+      - 新加坡(nodefree.org免费节点每日分享)_2
+      - 英国(nodefree.org免费节点每日分享)
+      - 台湾(nodefree.org免费节点每日分享)_2
+      - "+欧洲(欢迎订阅Youtube破解资源君)+5\r\r\r\r"
+      - 美国(nodefree.org免费节点每日分享)_2
+      - 新加坡-180.215.196.10-226
+      - 日本(nodefree.org免费节点每日分享)_2
+      - 台湾(nodefree.org免费节点每日分享)
+      - 中国_商店：8du.shop_1
+      - 中国_商店：8du.shop_2
+      - 中国|TXC|WeoworksX分享
+      - 日本(youtube阿伟科技)10
+      - "_JP_日本->🇺🇸_US_美国_1\r\r\r"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1
-      - 🇯🇵_JP_日本_2
+      - Relay_🇺🇸US-🇩🇪DE_26
+      - 新加坡(nodefree.org免费节点每日分享)_2
+      - 英国(nodefree.org免费节点每日分享)
+      - 台湾(nodefree.org免费节点每日分享)_2
+      - "+欧洲(欢迎订阅Youtube破解资源君)+5\r\r\r\r"
+      - 美国(nodefree.org免费节点每日分享)_2
+      - 新加坡-180.215.196.10-226
+      - 日本(nodefree.org免费节点每日分享)_2
+      - 台湾(nodefree.org免费节点每日分享)
+      - 中国_商店：8du.shop_1
+      - 中国_商店：8du.shop_2
+      - 中国|TXC|WeoworksX分享
+      - 日本(youtube阿伟科技)10
+      - "_JP_日本->🇺🇸_US_美国_1\r\r\r"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1
-      - 🇯🇵_JP_日本_2
+      - Relay_🇺🇸US-🇩🇪DE_26
+      - 新加坡(nodefree.org免费节点每日分享)_2
+      - 英国(nodefree.org免费节点每日分享)
+      - 台湾(nodefree.org免费节点每日分享)_2
+      - "+欧洲(欢迎订阅Youtube破解资源君)+5\r\r\r\r"
+      - 美国(nodefree.org免费节点每日分享)_2
+      - 新加坡-180.215.196.10-226
+      - 日本(nodefree.org免费节点每日分享)_2
+      - 台湾(nodefree.org免费节点每日分享)
+      - 中国_商店：8du.shop_1
+      - 中国_商店：8du.shop_2
+      - 中国|TXC|WeoworksX分享
+      - 日本(youtube阿伟科技)10
+      - "_JP_日本->🇺🇸_US_美国_1\r\r\r"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1
-      - 🇯🇵_JP_日本_2
+      - Relay_🇺🇸US-🇩🇪DE_26
+      - 新加坡(nodefree.org免费节点每日分享)_2
+      - 英国(nodefree.org免费节点每日分享)
+      - 台湾(nodefree.org免费节点每日分享)_2
+      - "+欧洲(欢迎订阅Youtube破解资源君)+5\r\r\r\r"
+      - 美国(nodefree.org免费节点每日分享)_2
+      - 新加坡-180.215.196.10-226
+      - 日本(nodefree.org免费节点每日分享)_2
+      - 台湾(nodefree.org免费节点每日分享)
+      - 中国_商店：8du.shop_1
+      - 中国_商店：8du.shop_2
+      - 中国|TXC|WeoworksX分享
+      - 日本(youtube阿伟科技)10
+      - "_JP_日本->🇺🇸_US_美国_1\r\r\r"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,10 +158,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1
-      - 🇯🇵_JP_日本_2
+      - Relay_🇺🇸US-🇩🇪DE_26
+      - 新加坡(nodefree.org免费节点每日分享)_2
+      - 英国(nodefree.org免费节点每日分享)
+      - 台湾(nodefree.org免费节点每日分享)_2
+      - "+欧洲(欢迎订阅Youtube破解资源君)+5\r\r\r\r"
+      - 美国(nodefree.org免费节点每日分享)_2
+      - 新加坡-180.215.196.10-226
+      - 日本(nodefree.org免费节点每日分享)_2
+      - 台湾(nodefree.org免费节点每日分享)
+      - 中国_商店：8du.shop_1
+      - 中国_商店：8du.shop_2
+      - 中国|TXC|WeoworksX分享
+      - 日本(youtube阿伟科技)10
+      - "_JP_日本->🇺🇸_US_美国_1\r\r\r"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
