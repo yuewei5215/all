@@ -1,50 +1,385 @@
-port: 7890
-socks-port: 7891
+mixed-port: 7890
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"🇦🇺_AU_澳大利亚","server":"jgwxn2.gaox.ml","port":443,"password":"c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸US_2537|44.09Mb","ws-opts":{"path":"/17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess","headers":{"host":"xr-5.herokuapp.com"}},"server":"xr-5.herokuapp.com","port":"443","uuid":"17af76e1-a5d7-41ab-ae87-b48f185075d1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇬🇧GB_732|41.08Mb","server":"nnv.chitacdn.xyz","port":"54242","uuid":"f2393d82-94c4-4b12-8267-293a7500e487","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳CN_333|5.63Mb","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US_1511|11.46Mb","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v2.ssrsub.com"}},"server":"v2.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇬🇧GB_647|12.19Mb\r","server":"167.172.56.225","port":54141,"cipher":"chacha20-ietf-poly1305","password":"1c0e4a18-4d7a-4231-a55d-1dee0fe6732a"}
+  - {"type":"vmess","name":"美国(yudou66.com玉豆分享)","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v5.ssrsub.com"}},"server":"v5.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🏁ZZ_2634|19.84Mb\r","server":"134.195.198.252","port":4444,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"🇬🇧GB_669|57.83Mb\r","server":"167.172.56.225","port":54141,"cipher":"chacha20-ietf-poly1305","password":"5e04bdc6-6f09-4f5e-a3c7-edf4d3220ad3"}
+  - {"type":"ss","name":"🇬🇧GB_659|10.01Mb\r","server":"167.172.56.225","port":54141,"cipher":"chacha20-ietf-poly1305","password":"54df1ad5-1323-4dd7-b7a1-a53202347526"}
+  - {"type":"trojan","name":"🇺🇸US_2588|9.80Mb\r","server":"jgwdb2.gaox.ml","port":443,"password":"c19d1432-8b3e-4818-8837-3d160cf65908","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"日本(yudou66.com玉豆分享)","server":"bgpv2.ktyjsq.com","port":"12205","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳CN_326|0.95Mb","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1510","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸US_2573|18.56Mb\r","server":"docs.defun.us","port":443,"password":"WEMagdSekdGBxh6g","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸US_2586|24.80Mb\r","server":"fhcamd2.gaox.ml","port":443,"password":"dbf9bf9c-2c3f-474a-8031-d4c00666a989","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳CN_332|5.54Mb","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1420","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"_05|33.07Mb","server":"51.103.172.68","port":"120","uuid":"4d358310-efdf-4622-9d7e-c067935e7ab8","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US_2550|11.31Mb","ws-opts":{"path":"/a3dHxNiS/"},"server":"45.32.94.249","port":"29589","uuid":"63db045c-d921-4683-a063-d3cb3a16a1b0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2054|9.64Mb\r","server":"jgwcc2.gaox.ml","port":443,"password":"9c822f05-cfdc-479a-9534-60f3d4127435","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳CN_327|1.72Mb","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1260","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"Relay_🇨🇳CN-🇺🇸US_249|11.45Mb\r","server":"mplsgz1.ggbbba.xyz","port":45786,"cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU"}
+  - {"type":"vmess","name":"Pool_🇺🇸US_2023|5.48Mb","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"104.166.135.10","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇬🇧GB_690|16.01Mb","ws-opts":{"path":"/go","headers":{"host":"lu1.gogogoo.cyou"}},"server":"lu1.gogogoo.cyou","port":"443","uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"Relay_🇦🇺AU-🇦🇺AU_101\r","server":"kr04.wangxd.life","port":3052,"password":"3a2c0c6c-9ee5-c05f-c951-fcd73831983e","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳CN_329|3.64Mb","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1370","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US_2531|28.34Mb","ws-opts":{"path":"/v2ray","headers":{"host":"rn.102498.eu.org"}},"server":"rn.102498.eu.org","port":"2053","uuid":"72b86dc6-39d8-3df1-8249-cd79ac88b467","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2080|4.46Mb\r","server":"kr01.wangxd.life","port":3052,"password":"3a2c0c6c-9ee5-c05f-c951-fcd73831983e","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇸🇬SG_1381|0.82Mb","ws-opts":{"path":"/sometimesnaive","headers":{"host":"node.gkddd.buzz"}},"server":"node.gkddd.buzz","port":"23312","uuid":"a6f34df0-6e9e-4522-80ff-a41517803f17","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US_2554|22.94Mb","ws-opts":{"path":"/sometimesnaive","headers":{"host":"aws.gkddd.buzz"}},"server":"aws.gkddd.buzz","port":"32566","uuid":"a6f34df0-6e9e-4522-80ff-a41517803f17","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"Relay_🇺🇸US-🇺🇸US_2021|6.40Mb","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"ahdaeph8.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇳CN_331|6.90Mb","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1150","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇦🇺_AU_澳大利亚\r","server":"jgwxn4.gaox.ml","port":443,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇦🇺AU_132|9.24Mb\r","server":"neteasy.ga","port":28931,"password":"MnROfwtPYa","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇦🇺AU-🇦🇺AU_92|8.91Mb\r","server":"neteasy.cf","port":45929,"password":"2XWUtOT64u","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳CN_323|6.55Mb","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1980","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🏁ZZ_3055","ws-opts":{"path":"/zhs","headers":{"host":"usjzo0.zhs.company"}},"server":"usjzo0.zhs.company","port":"2053","uuid":"236ca3b1-897e-32b0-8c94-c5284d3bfd9b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"Relay_🇦🇺AU-🇦🇺AU_66|11.30Mb\r","server":"jgwxn2.gaox.ml","port":443,"password":"c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇦🇺AU_127|3.66Mb","ws-opts":{"path":"/"},"server":"43.154.109.219","port":"443","uuid":"e5af0cad-295c-37b2-b601-f35d13f6b1bb","alterId":"64","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"新加坡(yudou66.com玉豆分享)","server":"bgpv2.ktyjsq.com","port":"12223","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"欧洲(yudou66.com玉豆分享)","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US_1509|1.13Mb","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v4.ssrsub.com"}},"server":"v4.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇺🇸US_2580|32.14Mb\r","server":"jgwhdlb3.gaox.ml","port":443,"password":"006baa3f-4bc3-4915-b60d-c8c5dae11a11","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸US_2587|34.83Mb\r","server":"fhcarm2.gaox.ml","port":443,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇬🇧GB-🇬🇧GB_606\r","server":"jgwcc1.gaox.ml","port":443,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"🇨🇳CN_290|11.34Mb\r","server":"mplsgz1.ggbbba.xyz","port":45785,"cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU"}
+  - {"type":"vmess","name":"Relay_|1.02Mb","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1040","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳CN_370","ws-opts":{"path":"/zhs","headers":{"host":"usjzo0.zhs.company"}},"server":"umhn5r.zhs.company","port":"30008","uuid":"236ca3b1-897e-32b0-8c94-c5284d3bfd9b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇳CN_336|5.97Mb","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1930","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇨🇳CN_354|11.13Mb\r","server":"mplsgz1.ggbbba.xyz","port":45787,"cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU"}
+  - {"type":"vmess","name":"🇨🇳CN_330|2.62Mb","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1320","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇦🇺_AU_澳大利亚
+      - 🇺🇸US_2537|44.09Mb
+      - 🇬🇧GB_732|41.08Mb
+      - 🇨🇳CN_333|5.63Mb
+      - 🇺🇸US_1511|11.46Mb
+      - "🇬🇧GB_647|12.19Mb\r"
+      - 美国(yudou66.com玉豆分享)
+      - "🏁ZZ_2634|19.84Mb\r"
+      - "🇬🇧GB_669|57.83Mb\r"
+      - "🇬🇧GB_659|10.01Mb\r"
+      - "🇺🇸US_2588|9.80Mb\r"
+      - 日本(yudou66.com玉豆分享)
+      - 🇨🇳CN_326|0.95Mb
+      - "🇺🇸US_2573|18.56Mb\r"
+      - "🇺🇸US_2586|24.80Mb\r"
+      - 🇨🇳CN_332|5.54Mb
+      - _05|33.07Mb
+      - 🇺🇸US_2550|11.31Mb
+      - "Relay_🇺🇸US-🇺🇸US_2054|9.64Mb\r"
+      - 🇨🇳CN_327|1.72Mb
+      - "Relay_🇨🇳CN-🇺🇸US_249|11.45Mb\r"
+      - Pool_🇺🇸US_2023|5.48Mb
+      - 🇬🇧GB_690|16.01Mb
+      - "Relay_🇦🇺AU-🇦🇺AU_101\r"
+      - 🇨🇳CN_329|3.64Mb
+      - 🇺🇸US_2531|28.34Mb
+      - "Relay_🇺🇸US-🇺🇸US_2080|4.46Mb\r"
+      - 🇸🇬SG_1381|0.82Mb
+      - 🇺🇸US_2554|22.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2021|6.40Mb
+      - 🇨🇳CN_331|6.90Mb
+      - "🇦🇺_AU_澳大利亚\r"
+      - "🇦🇺AU_132|9.24Mb\r"
+      - "Relay_🇦🇺AU-🇦🇺AU_92|8.91Mb\r"
+      - 🇨🇳CN_323|6.55Mb
+      - 🏁ZZ_3055
+      - "Relay_🇦🇺AU-🇦🇺AU_66|11.30Mb\r"
+      - 🇦🇺AU_127|3.66Mb
+      - 新加坡(yudou66.com玉豆分享)
+      - 欧洲(yudou66.com玉豆分享)
+      - 🇺🇸US_1509|1.13Mb
+      - "🇺🇸US_2580|32.14Mb\r"
+      - "🇺🇸US_2587|34.83Mb\r"
+      - "Relay_🇬🇧GB-🇬🇧GB_606\r"
+      - "🇨🇳CN_290|11.34Mb\r"
+      - Relay_|1.02Mb
+      - 🇨🇳CN_370
+      - 🇨🇳CN_336|5.97Mb
+      - "🇨🇳CN_354|11.13Mb\r"
+      - 🇨🇳CN_330|2.62Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇦🇺_AU_澳大利亚
+      - 🇺🇸US_2537|44.09Mb
+      - 🇬🇧GB_732|41.08Mb
+      - 🇨🇳CN_333|5.63Mb
+      - 🇺🇸US_1511|11.46Mb
+      - "🇬🇧GB_647|12.19Mb\r"
+      - 美国(yudou66.com玉豆分享)
+      - "🏁ZZ_2634|19.84Mb\r"
+      - "🇬🇧GB_669|57.83Mb\r"
+      - "🇬🇧GB_659|10.01Mb\r"
+      - "🇺🇸US_2588|9.80Mb\r"
+      - 日本(yudou66.com玉豆分享)
+      - 🇨🇳CN_326|0.95Mb
+      - "🇺🇸US_2573|18.56Mb\r"
+      - "🇺🇸US_2586|24.80Mb\r"
+      - 🇨🇳CN_332|5.54Mb
+      - _05|33.07Mb
+      - 🇺🇸US_2550|11.31Mb
+      - "Relay_🇺🇸US-🇺🇸US_2054|9.64Mb\r"
+      - 🇨🇳CN_327|1.72Mb
+      - "Relay_🇨🇳CN-🇺🇸US_249|11.45Mb\r"
+      - Pool_🇺🇸US_2023|5.48Mb
+      - 🇬🇧GB_690|16.01Mb
+      - "Relay_🇦🇺AU-🇦🇺AU_101\r"
+      - 🇨🇳CN_329|3.64Mb
+      - 🇺🇸US_2531|28.34Mb
+      - "Relay_🇺🇸US-🇺🇸US_2080|4.46Mb\r"
+      - 🇸🇬SG_1381|0.82Mb
+      - 🇺🇸US_2554|22.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2021|6.40Mb
+      - 🇨🇳CN_331|6.90Mb
+      - "🇦🇺_AU_澳大利亚\r"
+      - "🇦🇺AU_132|9.24Mb\r"
+      - "Relay_🇦🇺AU-🇦🇺AU_92|8.91Mb\r"
+      - 🇨🇳CN_323|6.55Mb
+      - 🏁ZZ_3055
+      - "Relay_🇦🇺AU-🇦🇺AU_66|11.30Mb\r"
+      - 🇦🇺AU_127|3.66Mb
+      - 新加坡(yudou66.com玉豆分享)
+      - 欧洲(yudou66.com玉豆分享)
+      - 🇺🇸US_1509|1.13Mb
+      - "🇺🇸US_2580|32.14Mb\r"
+      - "🇺🇸US_2587|34.83Mb\r"
+      - "Relay_🇬🇧GB-🇬🇧GB_606\r"
+      - "🇨🇳CN_290|11.34Mb\r"
+      - Relay_|1.02Mb
+      - 🇨🇳CN_370
+      - 🇨🇳CN_336|5.97Mb
+      - "🇨🇳CN_354|11.13Mb\r"
+      - 🇨🇳CN_330|2.62Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚
+      - 🇺🇸US_2537|44.09Mb
+      - 🇬🇧GB_732|41.08Mb
+      - 🇨🇳CN_333|5.63Mb
+      - 🇺🇸US_1511|11.46Mb
+      - "🇬🇧GB_647|12.19Mb\r"
+      - 美国(yudou66.com玉豆分享)
+      - "🏁ZZ_2634|19.84Mb\r"
+      - "🇬🇧GB_669|57.83Mb\r"
+      - "🇬🇧GB_659|10.01Mb\r"
+      - "🇺🇸US_2588|9.80Mb\r"
+      - 日本(yudou66.com玉豆分享)
+      - 🇨🇳CN_326|0.95Mb
+      - "🇺🇸US_2573|18.56Mb\r"
+      - "🇺🇸US_2586|24.80Mb\r"
+      - 🇨🇳CN_332|5.54Mb
+      - _05|33.07Mb
+      - 🇺🇸US_2550|11.31Mb
+      - "Relay_🇺🇸US-🇺🇸US_2054|9.64Mb\r"
+      - 🇨🇳CN_327|1.72Mb
+      - "Relay_🇨🇳CN-🇺🇸US_249|11.45Mb\r"
+      - Pool_🇺🇸US_2023|5.48Mb
+      - 🇬🇧GB_690|16.01Mb
+      - "Relay_🇦🇺AU-🇦🇺AU_101\r"
+      - 🇨🇳CN_329|3.64Mb
+      - 🇺🇸US_2531|28.34Mb
+      - "Relay_🇺🇸US-🇺🇸US_2080|4.46Mb\r"
+      - 🇸🇬SG_1381|0.82Mb
+      - 🇺🇸US_2554|22.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2021|6.40Mb
+      - 🇨🇳CN_331|6.90Mb
+      - "🇦🇺_AU_澳大利亚\r"
+      - "🇦🇺AU_132|9.24Mb\r"
+      - "Relay_🇦🇺AU-🇦🇺AU_92|8.91Mb\r"
+      - 🇨🇳CN_323|6.55Mb
+      - 🏁ZZ_3055
+      - "Relay_🇦🇺AU-🇦🇺AU_66|11.30Mb\r"
+      - 🇦🇺AU_127|3.66Mb
+      - 新加坡(yudou66.com玉豆分享)
+      - 欧洲(yudou66.com玉豆分享)
+      - 🇺🇸US_1509|1.13Mb
+      - "🇺🇸US_2580|32.14Mb\r"
+      - "🇺🇸US_2587|34.83Mb\r"
+      - "Relay_🇬🇧GB-🇬🇧GB_606\r"
+      - "🇨🇳CN_290|11.34Mb\r"
+      - Relay_|1.02Mb
+      - 🇨🇳CN_370
+      - 🇨🇳CN_336|5.97Mb
+      - "🇨🇳CN_354|11.13Mb\r"
+      - 🇨🇳CN_330|2.62Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚
+      - 🇺🇸US_2537|44.09Mb
+      - 🇬🇧GB_732|41.08Mb
+      - 🇨🇳CN_333|5.63Mb
+      - 🇺🇸US_1511|11.46Mb
+      - "🇬🇧GB_647|12.19Mb\r"
+      - 美国(yudou66.com玉豆分享)
+      - "🏁ZZ_2634|19.84Mb\r"
+      - "🇬🇧GB_669|57.83Mb\r"
+      - "🇬🇧GB_659|10.01Mb\r"
+      - "🇺🇸US_2588|9.80Mb\r"
+      - 日本(yudou66.com玉豆分享)
+      - 🇨🇳CN_326|0.95Mb
+      - "🇺🇸US_2573|18.56Mb\r"
+      - "🇺🇸US_2586|24.80Mb\r"
+      - 🇨🇳CN_332|5.54Mb
+      - _05|33.07Mb
+      - 🇺🇸US_2550|11.31Mb
+      - "Relay_🇺🇸US-🇺🇸US_2054|9.64Mb\r"
+      - 🇨🇳CN_327|1.72Mb
+      - "Relay_🇨🇳CN-🇺🇸US_249|11.45Mb\r"
+      - Pool_🇺🇸US_2023|5.48Mb
+      - 🇬🇧GB_690|16.01Mb
+      - "Relay_🇦🇺AU-🇦🇺AU_101\r"
+      - 🇨🇳CN_329|3.64Mb
+      - 🇺🇸US_2531|28.34Mb
+      - "Relay_🇺🇸US-🇺🇸US_2080|4.46Mb\r"
+      - 🇸🇬SG_1381|0.82Mb
+      - 🇺🇸US_2554|22.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2021|6.40Mb
+      - 🇨🇳CN_331|6.90Mb
+      - "🇦🇺_AU_澳大利亚\r"
+      - "🇦🇺AU_132|9.24Mb\r"
+      - "Relay_🇦🇺AU-🇦🇺AU_92|8.91Mb\r"
+      - 🇨🇳CN_323|6.55Mb
+      - 🏁ZZ_3055
+      - "Relay_🇦🇺AU-🇦🇺AU_66|11.30Mb\r"
+      - 🇦🇺AU_127|3.66Mb
+      - 新加坡(yudou66.com玉豆分享)
+      - 欧洲(yudou66.com玉豆分享)
+      - 🇺🇸US_1509|1.13Mb
+      - "🇺🇸US_2580|32.14Mb\r"
+      - "🇺🇸US_2587|34.83Mb\r"
+      - "Relay_🇬🇧GB-🇬🇧GB_606\r"
+      - "🇨🇳CN_290|11.34Mb\r"
+      - Relay_|1.02Mb
+      - 🇨🇳CN_370
+      - 🇨🇳CN_336|5.97Mb
+      - "🇨🇳CN_354|11.13Mb\r"
+      - 🇨🇳CN_330|2.62Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇦🇺_AU_澳大利亚
+      - 🇺🇸US_2537|44.09Mb
+      - 🇬🇧GB_732|41.08Mb
+      - 🇨🇳CN_333|5.63Mb
+      - 🇺🇸US_1511|11.46Mb
+      - "🇬🇧GB_647|12.19Mb\r"
+      - 美国(yudou66.com玉豆分享)
+      - "🏁ZZ_2634|19.84Mb\r"
+      - "🇬🇧GB_669|57.83Mb\r"
+      - "🇬🇧GB_659|10.01Mb\r"
+      - "🇺🇸US_2588|9.80Mb\r"
+      - 日本(yudou66.com玉豆分享)
+      - 🇨🇳CN_326|0.95Mb
+      - "🇺🇸US_2573|18.56Mb\r"
+      - "🇺🇸US_2586|24.80Mb\r"
+      - 🇨🇳CN_332|5.54Mb
+      - _05|33.07Mb
+      - 🇺🇸US_2550|11.31Mb
+      - "Relay_🇺🇸US-🇺🇸US_2054|9.64Mb\r"
+      - 🇨🇳CN_327|1.72Mb
+      - "Relay_🇨🇳CN-🇺🇸US_249|11.45Mb\r"
+      - Pool_🇺🇸US_2023|5.48Mb
+      - 🇬🇧GB_690|16.01Mb
+      - "Relay_🇦🇺AU-🇦🇺AU_101\r"
+      - 🇨🇳CN_329|3.64Mb
+      - 🇺🇸US_2531|28.34Mb
+      - "Relay_🇺🇸US-🇺🇸US_2080|4.46Mb\r"
+      - 🇸🇬SG_1381|0.82Mb
+      - 🇺🇸US_2554|22.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2021|6.40Mb
+      - 🇨🇳CN_331|6.90Mb
+      - "🇦🇺_AU_澳大利亚\r"
+      - "🇦🇺AU_132|9.24Mb\r"
+      - "Relay_🇦🇺AU-🇦🇺AU_92|8.91Mb\r"
+      - 🇨🇳CN_323|6.55Mb
+      - 🏁ZZ_3055
+      - "Relay_🇦🇺AU-🇦🇺AU_66|11.30Mb\r"
+      - 🇦🇺AU_127|3.66Mb
+      - 新加坡(yudou66.com玉豆分享)
+      - 欧洲(yudou66.com玉豆分享)
+      - 🇺🇸US_1509|1.13Mb
+      - "🇺🇸US_2580|32.14Mb\r"
+      - "🇺🇸US_2587|34.83Mb\r"
+      - "Relay_🇬🇧GB-🇬🇧GB_606\r"
+      - "🇨🇳CN_290|11.34Mb\r"
+      - Relay_|1.02Mb
+      - 🇨🇳CN_370
+      - 🇨🇳CN_336|5.97Mb
+      - "🇨🇳CN_354|11.13Mb\r"
+      - 🇨🇳CN_330|2.62Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇦🇺_AU_澳大利亚
+      - 🇺🇸US_2537|44.09Mb
+      - 🇬🇧GB_732|41.08Mb
+      - 🇨🇳CN_333|5.63Mb
+      - 🇺🇸US_1511|11.46Mb
+      - "🇬🇧GB_647|12.19Mb\r"
+      - 美国(yudou66.com玉豆分享)
+      - "🏁ZZ_2634|19.84Mb\r"
+      - "🇬🇧GB_669|57.83Mb\r"
+      - "🇬🇧GB_659|10.01Mb\r"
+      - "🇺🇸US_2588|9.80Mb\r"
+      - 日本(yudou66.com玉豆分享)
+      - 🇨🇳CN_326|0.95Mb
+      - "🇺🇸US_2573|18.56Mb\r"
+      - "🇺🇸US_2586|24.80Mb\r"
+      - 🇨🇳CN_332|5.54Mb
+      - _05|33.07Mb
+      - 🇺🇸US_2550|11.31Mb
+      - "Relay_🇺🇸US-🇺🇸US_2054|9.64Mb\r"
+      - 🇨🇳CN_327|1.72Mb
+      - "Relay_🇨🇳CN-🇺🇸US_249|11.45Mb\r"
+      - Pool_🇺🇸US_2023|5.48Mb
+      - 🇬🇧GB_690|16.01Mb
+      - "Relay_🇦🇺AU-🇦🇺AU_101\r"
+      - 🇨🇳CN_329|3.64Mb
+      - 🇺🇸US_2531|28.34Mb
+      - "Relay_🇺🇸US-🇺🇸US_2080|4.46Mb\r"
+      - 🇸🇬SG_1381|0.82Mb
+      - 🇺🇸US_2554|22.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2021|6.40Mb
+      - 🇨🇳CN_331|6.90Mb
+      - "🇦🇺_AU_澳大利亚\r"
+      - "🇦🇺AU_132|9.24Mb\r"
+      - "Relay_🇦🇺AU-🇦🇺AU_92|8.91Mb\r"
+      - 🇨🇳CN_323|6.55Mb
+      - 🏁ZZ_3055
+      - "Relay_🇦🇺AU-🇦🇺AU_66|11.30Mb\r"
+      - 🇦🇺AU_127|3.66Mb
+      - 新加坡(yudou66.com玉豆分享)
+      - 欧洲(yudou66.com玉豆分享)
+      - 🇺🇸US_1509|1.13Mb
+      - "🇺🇸US_2580|32.14Mb\r"
+      - "🇺🇸US_2587|34.83Mb\r"
+      - "Relay_🇬🇧GB-🇬🇧GB_606\r"
+      - "🇨🇳CN_290|11.34Mb\r"
+      - Relay_|1.02Mb
+      - 🇨🇳CN_370
+      - 🇨🇳CN_336|5.97Mb
+      - "🇨🇳CN_354|11.13Mb\r"
+      - 🇨🇳CN_330|2.62Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +402,55 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇺_AU_澳大利亚
+      - 🇺🇸US_2537|44.09Mb
+      - 🇬🇧GB_732|41.08Mb
+      - 🇨🇳CN_333|5.63Mb
+      - 🇺🇸US_1511|11.46Mb
+      - "🇬🇧GB_647|12.19Mb\r"
+      - 美国(yudou66.com玉豆分享)
+      - "🏁ZZ_2634|19.84Mb\r"
+      - "🇬🇧GB_669|57.83Mb\r"
+      - "🇬🇧GB_659|10.01Mb\r"
+      - "🇺🇸US_2588|9.80Mb\r"
+      - 日本(yudou66.com玉豆分享)
+      - 🇨🇳CN_326|0.95Mb
+      - "🇺🇸US_2573|18.56Mb\r"
+      - "🇺🇸US_2586|24.80Mb\r"
+      - 🇨🇳CN_332|5.54Mb
+      - _05|33.07Mb
+      - 🇺🇸US_2550|11.31Mb
+      - "Relay_🇺🇸US-🇺🇸US_2054|9.64Mb\r"
+      - 🇨🇳CN_327|1.72Mb
+      - "Relay_🇨🇳CN-🇺🇸US_249|11.45Mb\r"
+      - Pool_🇺🇸US_2023|5.48Mb
+      - 🇬🇧GB_690|16.01Mb
+      - "Relay_🇦🇺AU-🇦🇺AU_101\r"
+      - 🇨🇳CN_329|3.64Mb
+      - 🇺🇸US_2531|28.34Mb
+      - "Relay_🇺🇸US-🇺🇸US_2080|4.46Mb\r"
+      - 🇸🇬SG_1381|0.82Mb
+      - 🇺🇸US_2554|22.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2021|6.40Mb
+      - 🇨🇳CN_331|6.90Mb
+      - "🇦🇺_AU_澳大利亚\r"
+      - "🇦🇺AU_132|9.24Mb\r"
+      - "Relay_🇦🇺AU-🇦🇺AU_92|8.91Mb\r"
+      - 🇨🇳CN_323|6.55Mb
+      - 🏁ZZ_3055
+      - "Relay_🇦🇺AU-🇦🇺AU_66|11.30Mb\r"
+      - 🇦🇺AU_127|3.66Mb
+      - 新加坡(yudou66.com玉豆分享)
+      - 欧洲(yudou66.com玉豆分享)
+      - 🇺🇸US_1509|1.13Mb
+      - "🇺🇸US_2580|32.14Mb\r"
+      - "🇺🇸US_2587|34.83Mb\r"
+      - "Relay_🇬🇧GB-🇬🇧GB_606\r"
+      - "🇨🇳CN_290|11.34Mb\r"
+      - Relay_|1.02Mb
+      - 🇨🇳CN_370
+      - 🇨🇳CN_336|5.97Mb
+      - "🇨🇳CN_354|11.13Mb\r"
+      - 🇨🇳CN_330|2.62Mb
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -84,6 +467,8 @@ rules:
   - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
   - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
   - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+  - DOMAIN,instant.arubanetworks.com,🎯 全球直连
+  - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
   - DOMAIN,router.asus.com,🎯 全球直连
   - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
@@ -92,6 +477,7 @@ rules:
   - DOMAIN-SUFFIX,p.to,🎯 全球直连
   - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
   - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
+  - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
   - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
   - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zte.home,🎯 全球直连
@@ -122,25 +508,6 @@ rules:
   - DOMAIN-KEYWORD,usage,🛑 全球拦截
   - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
   - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
-  - DOMAIN-SUFFIX,admob.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ads.gmodules.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ads.google.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,adservice.google.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,afd.l.google.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,badad.googleplex.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,csi.gstatic.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,doubleclick.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,doubleclick.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,google-analytics.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,googleadservices.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,googleadsserving.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,googlecommerce.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,googlesyndication.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,mobileads.google.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,pagead-tpc.l.google.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,pagead.google.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,pagead.l.google.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,service.urchin.com,🛑 全球拦截
   - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,100peng.com,🛑 全球拦截
   - DOMAIN-SUFFIX,114la.com,🛑 全球拦截
@@ -392,6 +759,7 @@ rules:
   - DOMAIN-SUFFIX,mobgi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mobisage.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,mobvista.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,moogos.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mopub.com,🛑 全球拦截
   - DOMAIN-SUFFIX,moquanad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mpush.cn,🛑 全球拦截
@@ -486,6 +854,7 @@ rules:
   - DOMAIN-SUFFIX,uuzu.com,🛑 全球拦截
   - DOMAIN-SUFFIX,uyunad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,vamaker.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,vlion.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,voiceads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,voiceads.com,🛑 全球拦截
   - DOMAIN-SUFFIX,vpon.com,🛑 全球拦截
@@ -818,12 +1187,10 @@ rules:
   - DOMAIN-SUFFIX,activate-sea.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,activate-sjc0.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,activate.adobe.com,🍃 应用净化
-  - DOMAIN-SUFFIX,activate.wip3.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,adobe-dns-2.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,adobe-dns-3.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,adobe-dns.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,ereg.adobe.com,🍃 应用净化
-  - DOMAIN-SUFFIX,ereg.wip3.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,geo2.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,hl2rcv.adobe.com,🍃 应用净化
   - DOMAIN-SUFFIX,hlrcv.stage.adobe.com,🍃 应用净化
@@ -878,7 +1245,6 @@ rules:
   - DOMAIN-SUFFIX,baikebcs.bdimg.com,🍃 应用净化
   - DOMAIN-SUFFIX,banlv.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,bdimg.share.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,btlaunch.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,c.baidu.cn,🍃 应用净化
@@ -896,7 +1262,6 @@ rules:
   - DOMAIN-SUFFIX,click.hm.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,click.qianqian.com,🍃 应用净化
   - DOMAIN-SUFFIX,cm.baidu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,cm.pos.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,cpro.baidu.cn,🍃 应用净化
   - DOMAIN-SUFFIX,cpro.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,cpro.baidustatic.com,🍃 应用净化
@@ -999,13 +1364,10 @@ rules:
   - DOMAIN-SUFFIX,rp.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,rplog.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,s.baidu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,s.cpro.baidu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,sa.tuisong.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,sclick.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,sestat.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,shadu.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,share.baidu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,snippet.pos.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,sobar.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,sobartop.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,spcode.baidu.cn,🍃 应用净化
@@ -1022,7 +1384,6 @@ rules:
   - DOMAIN-SUFFIX,tuijian.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,tuisong.baidu.cn,🍃 应用净化
   - DOMAIN-SUFFIX,tuisong.baidu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,uat1.bfsspadserver.8le8le.com,🍃 应用净化
   - DOMAIN-SUFFIX,ubmcmm.baidustatic.com,🍃 应用净化
   - DOMAIN-SUFFIX,ucstat.baidu.cn,🍃 应用净化
   - DOMAIN-SUFFIX,ucstat.baidu.com,🍃 应用净化
@@ -1047,7 +1408,6 @@ rules:
   - DOMAIN-SUFFIX,wisepush.video.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,wm.baidu.cn,🍃 应用净化
   - DOMAIN-SUFFIX,wm.baidu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,wn.pos.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,znsv.baidu.cn,🍃 应用净化
   - DOMAIN-SUFFIX,znsv.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,zz.bdstatic.com,🍃 应用净化
@@ -1098,7 +1458,11 @@ rules:
   - DOMAIN-SUFFIX,ic.snssdk.com,🍃 应用净化
   - DOMAIN-SUFFIX,log.snssdk.com,🍃 应用净化
   - DOMAIN-SUFFIX,nativeapp.toutiao.com,🍃 应用净化
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,🍃 应用净化
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,🍃 应用净化
+  - DOMAIN-SUFFIX,pangolin.snssdk.com,🍃 应用净化
   - DOMAIN-SUFFIX,partner.toutiao.com,🍃 应用净化
+  - DOMAIN-SUFFIX,pglstatp-toutiao.com,🍃 应用净化
   - DOMAIN-SUFFIX,sm.toutiao.com,🍃 应用净化
   - DOMAIN-SUFFIX,a.dangdang.com,🍃 应用净化
   - DOMAIN-SUFFIX,click.dangdang.com,🍃 应用净化
@@ -1621,7 +1985,6 @@ rules:
   - DOMAIN-SUFFIX,couchcoaster.jp,🍃 应用净化
   - DOMAIN-SUFFIX,delivery.dmkt-sp.jp,🍃 应用净化
   - DOMAIN-SUFFIX,ehg-youtube.hitbox.com,🍃 应用净化
-  - DOMAIN-SUFFIX,m-78.jp,🍃 应用净化
   - DOMAIN-SUFFIX,nichibenren.or.jp,🍃 应用净化
   - DOMAIN-SUFFIX,nicorette.co.kr,🍃 应用净化
   - DOMAIN-SUFFIX,ssl-youtube.2cnt.net,🍃 应用净化
@@ -1632,8 +1995,6 @@ rules:
   - DOMAIN-SUFFIX,ads.wasu.tv,🍃 应用净化
   - DOMAIN-SUFFIX,afp.wasu.tv,🍃 应用净化
   - DOMAIN-SUFFIX,c.algovid.com,🍃 应用净化
-  - DOMAIN-SUFFIX,cc.xtgreat.com,🍃 应用净化
-  - DOMAIN-SUFFIX,d.dsp.imageter.com,🍃 应用净化
   - DOMAIN-SUFFIX,gg.jtertp.com,🍃 应用净化
   - DOMAIN-SUFFIX,gridsum-vd.cntv.cn,🍃 应用净化
   - DOMAIN-SUFFIX,kwflvcdn.000dn.com,🍃 应用净化
@@ -1783,6 +2144,21 @@ rules:
   - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
+  - DOMAIN,csgo.wmsj.cn,🎯 全球直连
+  - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
+  - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
+  - DOMAIN,dota2.wmsj.cn,🎯 全球直连
+  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
+  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
+  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
+  - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
+  - DOMAIN,wmsjsteam.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
   - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -1895,15 +2271,24 @@ rules:
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
-  - DOMAIN, atv-ps.amazon.com,🌍 国外媒体
-  - DOMAIN, fls-na.amazon.com,🌍 国外媒体
-  - DOMAIN-SUFFIX, media-amazon.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
+  - DOMAIN,atv-ps.amazon.com,🌍 国外媒体
+  - DOMAIN,avodmp4s3ww-a.akamaihd.net,🌍 国外媒体
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🌍 国外媒体
+  - DOMAIN,d1xfray82862hr.cloudfront.net,🌍 国外媒体
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🌍 国外媒体
+  - DOMAIN,d25xi40x97liuc.cloudfront.net,🌍 国外媒体
+  - DOMAIN,d27xxe7juh1us6.cloudfront.net,🌍 国外媒体
+  - DOMAIN,d3196yreox78o9.cloudfront.net,🌍 国外媒体
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 国外媒体
+  - DOMAIN,ktpx.amazon.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,aboutamazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,amazonaws.co.uk,🌍 国外媒体
-  - DOMAIN-SUFFIX,amazonaws.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,llnwd.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,primevideo.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
   - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
   - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
@@ -1922,49 +2307,22 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
   - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
   - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
+  - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
   - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
-  - DOMAIN-SUFFIX,hinet.net,🌍 国外媒体
-  - DOMAIN-KEYWORD,livedazn,🌍 国外媒体
-  - DOMAIN-KEYWORD,vod2dazn,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
-  - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
-  - DOMAIN,players.brightcove.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,amplify.outbrain.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,bluekai.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,control.kochava.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,cws.conviva.com,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,dazn-api.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dazn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dazndn.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,🌍 国外媒体
   - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🌍 国外媒体
   - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
-  - DOMAIN-SUFFIX,perfops.doracdn.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,s.llnwi.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,s.yimg.jp,🌍 国外媒体
-  - DOMAIN-SUFFIX,secure.footprint.net,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
-  - DOMAIN-SUFFIX,urbanairship.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,vjs.zencdn.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,yahoo.co.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
   - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
@@ -1995,25 +2353,13 @@ rules:
   - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
-  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
-  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
-  - DOMAIN,dai3fd1oh325y.cloudfront.net,🌍 国外媒体
-  - DOMAIN,hboasia1-i.akamaihd.net,🌍 国外媒体
-  - DOMAIN,hboasia2-i.akamaihd.net,🌍 国外媒体
-  - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
-  - DOMAIN,hboasia4-i.akamaihd.net,🌍 国外媒体
-  - DOMAIN,hboasia5-i.akamaihd.net,🌍 国外媒体
-  - DOMAIN,players.brightcove.net,🌍 国外媒体
-  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
   - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
+  - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
   - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
@@ -2029,6 +2375,7 @@ rules:
   - DOMAIN,hbounify-prod.evergent.com,🌍 国外媒体
   - DOMAIN,players.brightcove.net,🌍 国外媒体
   - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
   - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
@@ -2076,12 +2423,15 @@ rules:
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
   - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
+  - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
+  - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
   - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
-  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🌍 国外媒体
+  - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
   - DOMAIN,netflix.com.edgesuite.net,🌍 国外媒体
   - DOMAIN-SUFFIX,fast.com,🌍 国外媒体
   - DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
@@ -2103,12 +2453,9 @@ rules:
   - DOMAIN-SUFFIX,nflxvideo.net,🌍 国外媒体
   - IP-CIDR,8.41.4.0/24,🌍 国外媒体,no-resolve
   - IP-CIDR,23.246.0.0/18,🌍 国外媒体,no-resolve
-  - IP-CIDR,34.210.42.111/32,🌍 国外媒体,no-resolve
   - IP-CIDR,37.77.184.0/21,🌍 国外媒体,no-resolve
   - IP-CIDR,38.72.126.0/24,🌍 国外媒体,no-resolve
   - IP-CIDR,45.57.0.0/17,🌍 国外媒体,no-resolve
-  - IP-CIDR,52.89.124.203/32,🌍 国外媒体,no-resolve
-  - IP-CIDR,54.148.37.5/32,🌍 国外媒体,no-resolve
   - IP-CIDR,64.120.128.0/17,🌍 国外媒体,no-resolve
   - IP-CIDR,66.197.128.0/17,🌍 国外媒体,no-resolve
   - IP-CIDR,69.53.224.0/19,🌍 国外媒体,no-resolve
@@ -2147,7 +2494,7 @@ rules:
   - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
   - DOMAIN,hamifans.emome.net,🌍 国外媒体
   - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-  - DOMAIN-KEYWORD,-tiktokcdn-com,🌍 国外媒体
+  - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
   - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
@@ -2158,8 +2505,10 @@ rules:
   - DOMAIN-SUFFIX,tiktokcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tiktokv.com,🌍 国外媒体
   - DOMAIN-KEYWORD,ttvnw,🌍 国外媒体
+  - DOMAIN-SUFFIX,ext-twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
   - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
   - DOMAIN,api.viu.now.com,🌍 国外媒体
@@ -2182,9 +2531,16 @@ rules:
   - DOMAIN,yt3.ggpht.com,🌍 国外媒体
   - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,gvt2.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,withyoutube.com,🌍 国外媒体
   - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
+  - DOMAIN-SUFFIX,youtube-nocookie.com,🌍 国外媒体
   - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,youtubeeducation.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,youtubegaming.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+  - DOMAIN,music.youtube.com,🌍 国外媒体
   - DOMAIN-SUFFIX,t.me,📲 电报信息
   - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
   - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
@@ -2197,9 +2553,11 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
-  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
   - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
+  - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
+  - DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
+  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
   - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
@@ -2211,6 +2569,7 @@ rules:
   - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
   - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
   - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
+  - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
   - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
   - DOMAIN-SUFFIX,notion.so,🚀 节点选择
   - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
@@ -2219,8 +2578,6 @@ rules:
   - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
   - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
   - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
-  - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🚀 节点选择
-  - DOMAIN-SUFFIX,yunpanjingling.com,🚀 节点选择
   - DOMAIN-SUFFIX,eu,🚀 节点选择
   - DOMAIN-SUFFIX,hk,🚀 节点选择
   - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -2540,7 +2897,22 @@ rules:
   - DOMAIN-SUFFIX,smartmailcloud.com,🚀 节点选择
   - DOMAIN-SUFFIX,fanatical.com,🚀 节点选择
   - DOMAIN-SUFFIX,humblebundle.com,🚀 节点选择
+  - DOMAIN-SUFFIX,underlords.com,🚀 节点选择
+  - DOMAIN-SUFFIX,valvesoftware.com,🚀 节点选择
+  - DOMAIN-SUFFIX,playartifact.com,🚀 节点选择
+  - DOMAIN-SUFFIX,steam-chat.com,🚀 节点选择
   - DOMAIN-SUFFIX,steamcommunity.com,🚀 节点选择
+  - DOMAIN-SUFFIX,steamgames.com,🚀 节点选择
+  - DOMAIN-SUFFIX,steampowered.com,🚀 节点选择
+  - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
+  - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
+  - DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
+  - DOMAIN,steamcdn-a.akamaihd.net,🚀 节点选择
+  - DOMAIN,steamcommunity-a.akamaihd.net,🚀 节点选择
+  - DOMAIN,steamstore-a.akamaihd.net,🚀 节点选择
+  - DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择
+  - DOMAIN,steamuserimages-a.akamaihd.net,🚀 节点选择
+  - DOMAIN,steampipe.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,tap.io,🚀 节点选择
   - DOMAIN-SUFFIX,taptap.tw,🚀 节点选择
   - DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
@@ -2608,10 +2980,13 @@ rules:
   - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
   - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
   - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
+  - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
   - DOMAIN-SUFFIX,cn,🎯 全球直连
-  - DOMAIN-SUFFIX,中国,🎯 全球直连
-  - DOMAIN-SUFFIX,公司,🎯 全球直连
-  - DOMAIN-SUFFIX,网络,🎯 全球直连
+  - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
+  - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
+  - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
   - DOMAIN-KEYWORD,-cn,🎯 全球直连
   - DOMAIN-KEYWORD,360buy,🎯 全球直连
   - DOMAIN-KEYWORD,alicdn,🎯 全球直连
@@ -2699,7 +3074,6 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
-  - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
@@ -2724,6 +3098,7 @@ rules:
   - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
   - DOMAIN-SUFFIX,toutiao.com,🎯 全球直连
   - DOMAIN-SUFFIX,toutiao13.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaoapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,toutiaocdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,toutiaocdn.net,🎯 全球直连
   - DOMAIN-SUFFIX,toutiaocloud.com,🎯 全球直连
@@ -2732,6 +3107,7 @@ rules:
   - DOMAIN-SUFFIX,toutiaoimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,toutiaopage.com,🎯 全球直连
   - DOMAIN-SUFFIX,wukong.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zijieapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zijieimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,zjbyte.com,🎯 全球直连
   - DOMAIN-SUFFIX,zjcdn.com,🎯 全球直连
@@ -2840,20 +3216,21 @@ rules:
   - DOMAIN-SUFFIX,playstationnetwork.com,🎯 全球直连
   - DOMAIN-SUFFIX,sony.com,🎯 全球直连
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
-  - DOMAIN-SUFFIX,csgo.wmsj.cn,🎯 全球直连
-  - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎯 全球直连
-  - DOMAIN-SUFFIX,dota2.wmsj.cn,🎯 全球直连
-  - DOMAIN-SUFFIX,st.dl.bscstorage.net,🎯 全球直连
-  - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎯 全球直连
-  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,🎯 全球直连
+  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamgames.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamstat.us,🎯 全球直连
-  - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎯 全球直连
+  - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
+  - DOMAIN,csgo.wmsj.cn,🎯 全球直连
+  - DOMAIN,dota2.wmsj.cn,🎯 全球直连
+  - DOMAIN,wmsjsteam.com,🎯 全球直连
+  - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
+  - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
+  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
+  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
+  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
+  - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
   - DOMAIN-SUFFIX,foxmail.com,🎯 全球直连
   - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
@@ -2953,7 +3330,6 @@ rules:
   - DOMAIN-SUFFIX,baomitu.com,🎯 全球直连
   - DOMAIN-SUFFIX,bootcss.com,🎯 全球直连
   - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
-  - DOMAIN-SUFFIX,jsdelivr.net,🎯 全球直连
   - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
   - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
   - DOMAIN-SUFFIX,10010.com,🎯 全球直连
@@ -3075,11 +3451,9 @@ rules:
   - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
   - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
   - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
-  - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
   - DOMAIN-SUFFIX,lizhi.fm,🎯 全球直连
   - DOMAIN-SUFFIX,lizhi.io,🎯 全球直连
   - DOMAIN-SUFFIX,lizhifm.com,🎯 全球直连
-  - DOMAIN-SUFFIX,loli.net,🎯 全球直连
   - DOMAIN-SUFFIX,luoo.net,🎯 全球直连
   - DOMAIN-SUFFIX,lvmama.com,🎯 全球直连
   - DOMAIN-SUFFIX,lxdns.com,🎯 全球直连
@@ -3106,7 +3480,6 @@ rules:
   - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
   - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
   - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
-  - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
   - DOMAIN-SUFFIX,polyv.net,🎯 全球直连
   - DOMAIN-SUFFIX,qbox.me,🎯 全球直连
   - DOMAIN-SUFFIX,qcloud.com,🎯 全球直连
@@ -3125,9 +3498,7 @@ rules:
   - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
   - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
   - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
-  - DOMAIN-SUFFIX,rarbg.to,🎯 全球直连
   - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
-  - DOMAIN-SUFFIX,rrmj.tv,🎯 全球直连
   - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
   - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
   - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
@@ -3135,7 +3506,6 @@ rules:
   - DOMAIN-SUFFIX,sf-express.com,🎯 全球直连
   - DOMAIN-SUFFIX,shumilou.net,🎯 全球直连
   - DOMAIN-SUFFIX,simplecd.me,🎯 全球直连
-  - DOMAIN-SUFFIX,sm.ms,🎯 全球直连
   - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
   - DOMAIN-SUFFIX,snwx.com,🎯 全球直连
   - DOMAIN-SUFFIX,soufunimg.com,🎯 全球直连
