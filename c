@@ -15,12 +15,6 @@ proxies:
   - {"type":"vmess","http-opts":{"path":["/"],"headers":{"Host":["43.154.77.196"]}},"server":"43.154.77.196","name":"🇨🇳_CN_中国","port":38539,"uuid":"a379bd7f-9d0d-4fb5-90c2-9b302782c4d6","alterId":0,"cipher":"auto","network":"http"}
   - {"type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","server":"13.125.80.46","port":443,"name":"🇰🇷_KR_韩国_3"}
   - {"type":"trojan","name":"🇨🇳_CN_中国->🇬🇧_GB_英国","server":"cm-jm.okvpn.xyz","password":"e5cf7069-e269-4926-bdb0-fbb39cde6a3a","port":20006,"udp":true,"skip-cert-verify":true}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"134.195.198.252","port":4444,"name":"🇨🇦_CA_加拿大"}
-  - {"type":"ssr","server":"213.183.53.179","port":9038,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"gYCYXfkUQEs2TaJQ","name":"🇷🇺_RU_俄罗斯联邦"}
-  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"5e04bdc6-6f09-4f5e-a3c7-edf4d3220ad3","server":"159.65.157.70","port":61548,"name":"🇮🇳_IN_印度"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"195.154.200.150","port":2376,"name":"🇫🇷_FR_法国"}
-  - {"type":"vmess","server":"smart.19900101.xyz","name":"🇨🇳_CN_中国->🇯🇵_JP_日本","port":11001,"uuid":"1cfaa36d-9912-3433-b9bc-fd5b5085613d","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"180.163.62.91","port":10064,"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -37,12 +31,6 @@ proxy-groups:
       - 🇨🇳_CN_中国
       - 🇰🇷_KR_韩国_3
       - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇦_CA_加拿大
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇮🇳_IN_印度
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -59,12 +47,6 @@ proxy-groups:
       - 🇨🇳_CN_中国
       - 🇰🇷_KR_韩国_3
       - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇦_CA_加拿大
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇮🇳_IN_印度
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -81,12 +63,6 @@ proxy-groups:
       - 🇨🇳_CN_中国
       - 🇰🇷_KR_韩国_3
       - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇦_CA_加拿大
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇮🇳_IN_印度
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -102,12 +78,6 @@ proxy-groups:
       - 🇨🇳_CN_中国
       - 🇰🇷_KR_韩国_3
       - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇦_CA_加拿大
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇮🇳_IN_印度
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -123,12 +93,6 @@ proxy-groups:
       - 🇨🇳_CN_中国
       - 🇰🇷_KR_韩国_3
       - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇦_CA_加拿大
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇮🇳_IN_印度
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -144,12 +108,6 @@ proxy-groups:
       - 🇨🇳_CN_中国
       - 🇰🇷_KR_韩国_3
       - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇦_CA_加拿大
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇮🇳_IN_印度
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -182,12 +140,6 @@ proxy-groups:
       - 🇨🇳_CN_中国
       - 🇰🇷_KR_韩国_3
       - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇨🇦_CA_加拿大
-      - 🇷🇺_RU_俄罗斯联邦
-      - 🇮🇳_IN_印度
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
