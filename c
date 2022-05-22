@@ -5,109 +5,102 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"🇨🇦_CA_加拿大","server":"134.195.198.252","port":4444,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国->🇬🇧_GB_英国","server":"cm-jm.okvpn.xyz","port":20006,"password":"2e1a3721-c322-40ed-8d23-881c7be90839","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇻🇳_VN_越南","server":"hn.aqvpn.me","port":443,"password":"d00083c7-e3db-4707-a24d-5662912368ff","udp":true,"skip-cert-verify":true}
-  - {"type":"ssr","name":"🇨🇭_CH_瑞士","server":"185.126.116.125","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_1","server":"hk.aqvpn.me","port":80,"uuid":"d00083c7-e3db-4707-a24d-5662912368ff","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_2","server":"hk.aqvpn.me","port":443,"password":"d00083c7-e3db-4707-a24d-5662912368ff","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇯🇵_JP_日本","server":"52.196.186.234","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"ss","name":"🇺🇸_US_美国_3","server":"45.78.5.67","port":30162,"cipher":"aes-256-gcm","password":"eWh5br48eraTyoJS"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_4","server":"ocrb2.moonfree.top","port":443,"uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇬🇧_GB_英国","server":"178.62.16.161","port":811,"cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
+  - {"type":"ss","name":"🇮🇳_IN_印度","server":"206.189.136.113","port":46786,"cipher":"chacha20-ietf-poly1305","password":"1c0e4a18-4d7a-4231-a55d-1dee0fe6732a"}
+  - {"type":"ss","name":"🇷🇺_RU_俄罗斯联邦","server":"213.183.53.198","port":9025,"cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_1","server":"213.183.59.214","port":9088,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"f8npKgNzdkss2ytn"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_2","server":"213.183.59.214","port":9031,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BwcAUZk8hUFAkDGN"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_3","server":"213.183.59.214","port":9041,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"U6qnYRhfyDmn8sgn"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_4","server":"213.183.59.214","port":9033,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UTJA57ypk2XKQpnm"}
+  - {"type":"trojan","name":"🇺🇸_US_美国","server":"japan.aqvpn.me","port":443,"password":"d00083c7-e3db-4707-a24d-5662912368ff","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"default_name","server":"fr1t.moonfree.top","port":8443,"uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇲🇾_MY_马来西亚","server":"cm-jm.okvpn.xyz","port":20005,"password":"2e1a3721-c322-40ed-8d23-881c7be90839","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇻🇳_VN_越南
-      - 🇨🇭_CH_瑞士
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇺🇸_US_美国
+      - default_name
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇻🇳_VN_越南
-      - 🇨🇭_CH_瑞士
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇺🇸_US_美国
+      - default_name
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇻🇳_VN_越南
-      - 🇨🇭_CH_瑞士
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇺🇸_US_美国
+      - default_name
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇻🇳_VN_越南
-      - 🇨🇭_CH_瑞士
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇺🇸_US_美国
+      - default_name
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇻🇳_VN_越南
-      - 🇨🇭_CH_瑞士
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇺🇸_US_美国
+      - default_name
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇻🇳_VN_越南
-      - 🇨🇭_CH_瑞士
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇺🇸_US_美国
+      - default_name
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +123,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇻🇳_VN_越南
-      - 🇨🇭_CH_瑞士
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇺🇸_US_美国
+      - default_name
+      - 🇨🇳_CN_中国->🇲🇾_MY_马来西亚
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
