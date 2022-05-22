@@ -15,6 +15,7 @@ proxies:
   - {"type":"ssr","name":"🇷🇺_RU_俄罗斯联邦","server":"213.183.53.179","port":9038,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"gYCYXfkUQEs2TaJQ"}
   - {"type":"trojan","name":"🇺🇸_US_美国_2","server":"hk.aqvpn.me","port":443,"password":"d00083c7-e3db-4707-a24d-5662912368ff","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"🇺🇸_US_美国_3","server":"c8s1.jamjams.net","port":30162,"cipher":"aes-256-gcm","password":"eWh5br48eraTyoJS"}
+  - {"type":"ss","name":"🇺🇸_US_美国_4","server":"c8s2.jamjams.net","port":30162,"cipher":"aes-256-gcm","password":"eWh5br48eraTyoJS"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +32,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -47,6 +49,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -63,6 +66,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 📲 电报信息
     type: select
     proxies:
@@ -78,6 +82,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -93,6 +98,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -108,6 +114,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,6 +147,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
