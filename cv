@@ -5,6 +5,77 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 澳洲(欢迎订阅Youtube破解资源君), server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr04.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: 澳洲(欢迎订阅Youtube破解资源君) 2, server: neteasy.cf, port: 45929, type: trojan, password: 2XWUtOT64u, sni: neteasy.cf, skip-cert-verify: true, udp: true}
+  - {name: 澳洲(欢迎订阅Youtube破解资源君) 3, server: neteasy.ga, port: 28931, type: trojan, password: MnROfwtPYa, sni: neteasy.ga, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 183.232.48.148, port: 26021, type: vmess, uuid: 1348e9f7-405e-3030-9e0b-2e69050075e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: 183.232.48.148, port: 26036, type: vmess, uuid: 1348e9f7-405e-3030-9e0b-2e69050075e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: inap001.xmrth-node.xyz, port: 15658, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: douban.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /movies, headers: {Host: douban.babazhuji.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 1.ezydfdd.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 8, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 9, server: 45.78.11.116, port: 30162, type: ss, cipher: aes-256-gcm, password: eWh5br48eraTyoJS, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 10, server: aws.gkddd.buzz, port: 32566, type: vmess, uuid: a6f34df0-6e9e-4522-80ff-a41517803f17, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: aws.gkddd.buzz}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 11, server: c8s2.jamjams.net, port: 30162, type: ss, cipher: aes-256-gcm, password: eWh5br48eraTyoJS, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 12, server: docs.defun.us, port: 443, type: trojan, password: WEMagdSekdGBxh6g, sni: docs.defun.us, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 13, server: hk.aqvpn.me, port: 80, type: vmess, uuid: d00083c7-e3db-4707-a24d-5662912368ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.aqvpn.me}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 14, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 15, server: kr01.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr01.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 16, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 17, server: ocrb2.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ocrb2.moonfree.top}}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 18, server: sunhaoduo.tk, port: 443, type: trojan, password: b61d3b3c, sni: sunhaoduo.tk, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 19, server: uscera1.moonfree.top, port: 20008, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d1.moonfree.top}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 206.189.136.113, port: 46786, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 206.189.136.113, port: 46786, type: ss, cipher: chacha20-ietf-poly1305, password: 5e04bdc6-6f09-4f5e-a3c7-edf4d3220ad3, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: xr-4.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, headers: {Host: xr-4.herokuapp.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: z-cn2.mceee.xyz, port: 23133, type: vmess, uuid: bca2b267-61ac-3152-9525-ea1757f8d9f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: z-cn2.mceee.xyz}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: z-cn2.mceee.xyz, port: 24935, type: vmess, uuid: bca2b267-61ac-3152-9525-ea1757f8d9f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: z-cn2.mceee.xyz}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: mplsgz1.ggbbba.xyz, port: 45786, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: mplsgz1.ggbbba.xyz, port: 45787, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 13, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 14, server: node.gkddd.buzz, port: 23312, type: vmess, uuid: a6f34df0-6e9e-4522-80ff-a41517803f17, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: node.gkddd.buzz}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 15, server: 206.189.136.113, port: 46786, type: ss, cipher: chacha20-ietf-poly1305, password: 1c0e4a18-4d7a-4231-a55d-1dee0fe6732a, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 16, server: zzcm09.bdate.xyz, port: 1510, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 17, server: zzcm09.bdate.xyz, port: 1370, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 18, server: zzcm09.bdate.xyz, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 19, server: zzcm09.bdate.xyz, port: 1580, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 20, server: zzcm09.bdate.xyz, port: 1420, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 21, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 22, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 23, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 24, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 25, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 26, server: hcm4.aqvpn.me, port: 80, type: vmess, uuid: d00083c7-e3db-4707-a24d-5662912368ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hcm4.aqvpn.me}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 27, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 28, server: 167.172.56.225, port: 54141, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君), server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君) 2, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 台湾(欢迎订阅Youtube破解资源君), server: zzcm09.bdate.xyz, port: 1320, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 新加坡(欢迎订阅Youtube破解资源君), server: sgggg.158801.xyz, port: 34001, type: trojan, password: cbf4602e-884f-41d1-ad3d-cc6b0d963293, sni: sgggg.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: awsxjp.moonfree.top}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君), server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 4, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 5, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 6, server: ingress-i2.onebox6.org, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 7, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 8, server: mplsgz1.ggbbba.xyz, port: 45785, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 9, server: z-cn2.mceee.xyz, port: 23131, type: vmess, uuid: bca2b267-61ac-3152-9525-ea1757f8d9f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: z-cn2.mceee.xyz}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 10, server: zzcm09.bdate.xyz, port: 1280, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 11, server: zzcm09.bdate.xyz, port: 1980, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 12, server: zzcm09.bdate.xyz, port: 1510, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
   - {name: 香港（YouTube资源分享者）, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 3d474aab-c421-42de-b2f9-17f561e08eef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm-jm.okvpn.xyz}}, udp: true}
   - {name: 美国（YouTube资源分享者）, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: zhuzhu12.com}}, udp: true}
   - {name: 香港（YouTube资源分享者） 2, server: node07.hookpay.xyz, port: 59881, type: vmess, uuid: 8db7fe02-6989-43b8-84fc-80018d6d3f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -154,103 +225,50 @@ proxies:
   - {name: "@SSRSUB-trojan日本T01-付费推荐:dlj.tf/ssrsub", server: jp1.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: douyincdn.com, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-trojan日本T02-付费推荐:dlj.tf/ssrsub", server: jp2.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: douyincdn.com, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-trojan加拿大T03-付费推荐:dlj.tf/ssrsub", server: ca1.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_中国_1, server: sg2604.cloudmatrix.xyz, port: 2604, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg2604.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_美国_2, server: zz.vip341.xyz, port: 48008, type: vmess, uuid: ffa9a7b3-3697-3887-a6f3-b02191018941, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: zz.vip341.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_3, server: sg2604.cloudmatrix.xyz, port: 2604, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg2604.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_4, server: 140.207.232.42, port: 2026, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2r3123y}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_5, server: 140.207.232.42, port: 40012, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v23844ey}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_6, server: 140.207.232.42, port: 15666, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_7, server: tw2501.cloudmatrix.xyz, port: 2501, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2501.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_8, server: 140.207.232.42, port: 23342, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_9, server: us2406.cloudmatrix.xyz, port: 2406, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us2406.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_美国_10, server: zz.vip341.xyz, port: 48003, type: vmess, uuid: ffa9a7b3-3697-3887-a6f3-b02191018941, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: zz.vip341.xyz}}, udp: true}
-  - {name: "Ytb:鹏哥分享_中国_11\r", server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: us.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_中国_12, server: us24058.cloudmatrix.xyz, port: 24058, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24058.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_13, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_14, server: us2406.cloudmatrix.xyz, port: 2406, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us2406.cloudmatrix.xyz}}, udp: true}
-  - {name: "Ytb:鹏哥分享_加拿大_15\r", server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Ytb:鹏哥分享_中国_16, server: us24058.cloudmatrix.xyz, port: 24058, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24058.cloudmatrix.xyz}}, udp: true}
-  - {name: "Ytb:鹏哥分享_加拿大_17\r", server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Ytb:鹏哥分享_18, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_19, server: us24051.cloudmatrix.xyz, port: 24051, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24051.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_20, server: 140.207.232.42, port: 49174, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vaaxzcy}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_21, server: us24051.cloudmatrix.xyz, port: 24051, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24051.cloudmatrix.xyz}}, udp: true}
-  - {name: "Ytb:鹏哥分享_荷兰_22\r", server: 92.38.184.228, port: 55231, type: ss, cipher: chacha20-ietf-poly1305, password: zidKl2rcLVBm, udp: true}
-  - {name: Ytb:鹏哥分享_中国_23, server: us24055.cloudmatrix.xyz, port: 24055, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24055.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_24, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i2.onebox6.org}}, udp: true}
-  - {name: Ytb:鹏哥分享_美国_25, server: zz.vip341.xyz, port: 48003, type: vmess, uuid: ffa9a7b3-3697-3887-a6f3-b02191018941, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: zz.vip341.xyz}}, udp: true}
-  - {name: "Ytb:鹏哥分享_美国_26\r", server: ocikr.node.qchwnd.moe, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "Ytb:鹏哥分享_加拿大_27\r", server: 198.57.27.225, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_中国_28, server: us24053.cloudmatrix.xyz, port: 24053, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24053.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_29, server: uk2901.cloudmatrix.xyz, port: 2901, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: uk2901.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_30, server: uk2901.cloudmatrix.xyz, port: 2901, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: uk2901.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_31, server: us24051.cloudmatrix.xyz, port: 24051, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24051.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_32, server: hk21201.cloudmatrix.xyz, port: 21201, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk21201.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_33, server: us24054.cloudmatrix.xyz, port: 24054, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24054.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_34, server: qinton002.bmbai.buzz, port: 20603, type: vmess, uuid: ddd45ba3-80fb-38f9-8e8a-83d469e103fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: qinton002.bmbai.buzz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_35, server: tw2501.cloudmatrix.xyz, port: 2501, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2501.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_36, server: us24052.cloudmatrix.xyz, port: 24052, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24052.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_37, server: us24052.cloudmatrix.xyz, port: 24052, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24052.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_新加坡_38, server: sg02.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg02.xqkj.cloud}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_39, server: us24053.cloudmatrix.xyz, port: 24053, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24053.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_新加坡_40, server: sg03.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg03.xqkj.cloud}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_41, server: 140.207.232.42, port: 40016, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: Ytb:鹏哥分享_新加坡_42, server: sg01.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg01.xqkj.cloud}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_43, server: qinton002.bmbai.buzz, port: 20600, type: vmess, uuid: ddd45ba3-80fb-38f9-8e8a-83d469e103fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: qinton002.bmbai.buzz}}, udp: true}
-  - {name: Ytb:鹏哥分享_新加坡_44, server: sg05.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg05.xqkj.cloud}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_45, server: qinton002.bmbai.buzz, port: 20601, type: vmess, uuid: ddd45ba3-80fb-38f9-8e8a-83d469e103fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: qinton002.bmbai.buzz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_46, server: us24054.cloudmatrix.xyz, port: 24054, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24054.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_新加坡_47, server: sg04.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg04.xqkj.cloud}}, udp: true}
-  - {name: Ytb:鹏哥分享_新加坡_48, server: sg01.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg01.xqkj.cloud}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_49, server: 140.207.232.42, port: 3009, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dd312}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_50, server: us2406.cloudmatrix.xyz, port: 2406, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us2406.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_51, server: 140.207.232.42, port: 2013, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lloig}, udp: true}
-  - {name: Ytb:鹏哥分享_52, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: f20fd86a-ca89-11ec-9385-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /E94olUFf/, headers: {Host: v2ray.wefuckgfw.ga}}, udp: true}
-  - {name: "Ytb:鹏哥分享_加拿大_53\r", server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "Ytb:鹏哥分享_加拿大_54\r", server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_55, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mg, headers: {Host: kr-direct-cdn.node001.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_56, server: us24053.cloudmatrix.xyz, port: 24053, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24053.cloudmatrix.xyz}}, udp: true}
-  - {name: "Ytb:鹏哥分享_中国_57\r", server: hncu.relay.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_中国_58, server: hk2701.cloudmatrix.xyz, port: 2701, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk2701.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_59, server: us24051.cloudmatrix.xyz, port: 24051, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24051.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_60, server: qinton002.bmbai.buzz, port: 20602, type: vmess, uuid: ddd45ba3-80fb-38f9-8e8a-83d469e103fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: qinton002.bmbai.buzz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_61, server: 140.207.232.42, port: 40019, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dd312}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_62, server: 140.207.232.42, port: 2011, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2312312ray}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_63, server: tw2502.cloudmatrix.xyz, port: 2502, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2502.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_64, server: tw2503.cloudmatrix.xyz, port: 2503, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2503.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_65, server: tw21402.cloudmatrix.xyz, port: 21402, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw21402.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_66, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-sg-1.onebox6.org}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_67, server: 140.207.232.42, port: 2007, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dd312}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_68, server: us24053.cloudmatrix.xyz, port: 24053, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24053.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_69, server: 140.207.232.42, port: 3006, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dd312}, udp: true}
-  - {name: "Ytb:鹏哥分享_加拿大_70\r", server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Ytb:鹏哥分享_中国_71, server: tw2502.cloudmatrix.xyz, port: 2502, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2502.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_72, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_73, server: 140.207.232.42, port: 15684, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dd312}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_74, server: tw2505.cloudmatrix.xyz, port: 2505, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2505.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_75, server: sg21102.cloudmatrix.xyz, port: 21102, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg21102.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_76, server: 140.207.232.42, port: 2028, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ra}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_77, server: 140.207.232.42, port: 15685, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dd312}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_78, server: tw2506.cloudmatrix.xyz, port: 2506, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2506.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_79, server: hk2701.cloudmatrix.xyz, port: 2701, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk2701.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_80, server: jp21301.cloudmatrix.xyz, port: 21301, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp21301.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_81, server: us24055.cloudmatrix.xyz, port: 24055, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24055.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_82, server: sg21102.cloudmatrix.xyz, port: 21102, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg21102.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_83, server: 140.207.232.42, port: 2010, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_84, server: 140.207.232.42, port: 3002, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dd312}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_85, server: jp2803.cloudmatrix.xyz, port: 2803, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp2803.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_86, server: 140.207.232.42, port: 2033, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lloig}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_87, server: 140.207.232.42, port: 3004, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dd312}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_88, server: sg21101.cloudmatrix.xyz, port: 21101, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg21101.cloudmatrix.xyz}}, udp: true}
-  - {name: "Ytb:鹏哥分享_美国_89\r", server: free.spcloud.us, port: 10001, type: trojan, password: fdb6f3a3-9d29-47c3-8c92-5a279626dc5b, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_中国_90, server: sg21101.cloudmatrix.xyz, port: 21101, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg21101.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_91, server: tw21402.cloudmatrix.xyz, port: 21402, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw21402.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_92, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i2.onebox6.org}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_93, server: jp2803.cloudmatrix.xyz, port: 2803, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp2803.cloudmatrix.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_美国_94, server: zz.vip341.xyz, port: 48008, type: vmess, uuid: ffa9a7b3-3697-3887-a6f3-b02191018941, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: zz.vip341.xyz}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_95, server: 140.207.232.42, port: 2029, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dd312}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_96, server: ingress-i2.onebox6.org, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i2.onebox6.org}}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_97, server: jp21301.cloudmatrix.xyz, port: 21301, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp21301.cloudmatrix.xyz}}, udp: true}
+  - {name: 鹏哥分享_台湾_1, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: 鹏哥分享_俄罗斯联邦_2, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: 鹏哥分享_香港_3, server: awshk.yeem.cc, port: 21210, type: vmess, uuid: 44b9d6a2-58e5-46ea-b717-8c40c0c01752, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_美国_4, server: hk-i.sserver.top, port: 80, type: vmess, uuid: 8cb5bcba-8b7f-3141-a400-351a83c80f09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: hk-i.sserver.top}}, udp: true}
+  - {name: 鹏哥分享_美国_5, server: 20.247.65.79, port: 80, type: vmess, uuid: 4068763c-4f11-4629-853a-761c457d245e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 鹏哥分享_美国_6, server: us03.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us03.gogogoo.cyou}}, udp: true}
+  - {name: "鹏哥分享_澳大利亚_7\r", server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: "鹏哥分享_澳大利亚_8\r", server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_伊朗_9, server: mci.myandroidplus1.ir, port: 80, type: vmess, uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: mci.myandroidplus1.ir}}, udp: true}
+  - {name: 鹏哥分享_中国_10, server: sh.moonfree.top, port: 11267, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sh.moonfree.top}}, udp: true}
+  - {name: 鹏哥分享_美国_11, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
+  - {name: 鹏哥分享_12, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: awsxjp.moonfree.top}}, udp: true}
+  - {name: 鹏哥分享_中国_13, server: zzcm09.bdate.xyz, port: 1260, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 鹏哥分享_中国_14, server: zzcm09.bdate.xyz, port: 1980, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: "鹏哥分享_美国_15\r", server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: "鹏哥分享_美国_16\r", server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: "鹏哥分享_美国_17\r", server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_中国_18, server: zzcm09.bdate.xyz, port: 1370, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 鹏哥分享_中国_19, server: zzcm09.bdate.xyz, port: 1980, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 鹏哥分享_美国_20, server: 172.64.93.136, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xxX4}, udp: true}
+  - {name: 鹏哥分享_中国_21, server: zzcm09.bdate.xyz, port: 1350, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 鹏哥分享_中国_22, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "鹏哥分享_美国_23\r", server: docs.defun.us, port: 443, type: trojan, password: WEMagdSekdGBxh6g, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_中国_24, server: zzcm09.bdate.xyz, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: "鹏哥分享_美国_25\r", server: views.pickaxe.sh, port: 443, type: trojan, password: XQ5jxs58ecd403l7, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_美国_26, server: douban.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /movies, headers: {Host: douban.babazhuji.com}}, udp: true}
+  - {name: "鹏哥分享_加拿大_27\r", server: 134.195.198.252, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 鹏哥分享_中国_28, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_中国_29, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_中国_30, server: 521sg.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 521sg.fans8.xyz}}, udp: true}
+  - {name: 鹏哥分享_中国_31, server: zzcm09.bdate.xyz, port: 1420, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 鹏哥分享_中国_32, server: zzcm09.bdate.xyz, port: 1040, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 鹏哥分享_中国_33, server: zzcm09.bdate.xyz, port: 1040, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 鹏哥分享_中国_34, server: zzcm09.bdate.xyz, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 鹏哥分享_中国_35, server: zzcm09.bdate.xyz, port: 1510, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: zzcm09.bdate.xyz}}, udp: true}
+  - {name: 鹏哥分享_中国_36, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_中国_37, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_中国_38, server: b10.v2.gay, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: b10.v2.gay}}, udp: true}
+  - {name: 鹏哥分享_中国_39, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_中国_40, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_中国_41, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_中国_42, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_中国_43, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "鹏哥分享_美国_44\r", server: meet-two.defun.us, port: 443, type: trojan, password: SolQapgEUoQ1ISsB, skip-cert-verify: true, udp: true}
   - {name: ★美国加州A★年付专线, server: 142.4.120.9, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.55004117.xyz}}, udp: true}
   - {name: ★中国香港A★年付专线, server: 46.182.107.81, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.52833977.xyz}}, udp: true}
   - {name: 英国伦敦B, server: 23.224.69.21, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.73788846.xyz}}, udp: true}
@@ -299,55 +317,50 @@ proxies:
   - {name: "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub 2", server: jp2.trojan.tel, port: 48443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: jp2.trojan.tel}}, udp: true}
   - {name: "@SSRSUB-TLS加拿大V06-付费推荐:dlj.tf/ssrsub 2", server: ca1.trojan.tel, port: 48443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ca1.trojan.tel}}, udp: true}
   - {name: github.com/freefq - 美国Microsoft数据中心 1, server: hk-c1.myuuusss.com, port: 80, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-c1.myuuusss.com}}, udp: true}
-  - {name: github.com/freefq - 香港阿里云 2, server: hkjh3r.zhs.company, port: 2053, type: vmess, uuid: b4416cfb-f462-37c1-a840-6a20dcfa43ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zhs, headers: {Host: hkjh3r.zhs.company}}, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 3, server: hk-v.sserver.top, port: 80, type: vmess, uuid: 8cb5bcba-8b7f-3141-a400-351a83c80f09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: hk-v.sserver.top}}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 4, server: 20.222.89.209, port: 364, type: vmess, uuid: fe54fd31-1291-4c79-bb5b-06febd30ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本东京Oracle云计算数据中心 5, server: jp1.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 上海市微软Azure世纪互联上海数据中心BGP节点 6, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: github.com/freefq - 加拿大  7, server: 51jp1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 51jp1.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 日本东京Oracle云计算数据中心 8, server: jp04.vproxy.us, port: 56565, type: trojan, password: acf34fb3-6fed-40c6-b6ab-b5bedf5827a2, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  9, server: meet-two.defun.us, port: 443, type: trojan, password: SolQapgEUoQ1ISsB, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  10, server: values.pickaxe.sh, port: 443, type: trojan, password: PMQFH35hsbfi5tnw, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省深圳市移动 11, server: gy.cwcsrsyby.xyz, port: 47518, type: vmess, uuid: 2a30f24e-c164-3f34-a99d-e9107655cf49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  12, server: docs.defun.us, port: 443, type: trojan, password: WEMagdSekdGBxh6g, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本东京Digital VM 13, server: jpqjd7.zhs.company, port: 443, type: vmess, uuid: b4416cfb-f462-37c1-a840-6a20dcfa43ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zhs, headers: {Host: jpqjd7.zhs.company}}, udp: true}
-  - {name: github.com/freefq - 广东省移动 14, server: wg.nfeng6.pp.ua, port: 52217, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  15, server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  16, server: us-02.pickaxe.sh, port: 443, type: trojan, password: 7J0Cmup52a7To8PI, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 荷兰  17, server: ru1.lolvps.xyz, port: 40040, type: vmess, uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6129CFHR, headers: {Host: ru1.lolvps.xyz}}, udp: true}
-  - {name: github.com/freefq - 英国  18, server: de-03.fireplay.io, port: 443, type: trojan, password: 63X7Dg58EII2qt6f, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 英国  19, server: de-02.fireplay.io, port: 443, type: trojan, password: YrnU2nhCTrx7aPLU, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  20, server: events.starspace.link, port: 443, type: trojan, password: 3RWFPCmWd4lYIMof, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  21, server: snacks.starspace.link, port: 443, type: trojan, password: 0lbw6RXSl7eqCYMv, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 俄罗斯  22, server: 217.30.10.63, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: github.com/freefq - 加拿大  23, server: 426hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 426hk.fans8.xyz}}, udp: true}
-  - {name: github.com/freefq - 英国伦敦Oracle云计算数据中心 24, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 北美地区  25, server: 134.195.198.252, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 俄罗斯  26, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: github.com/freefq - 广东省广州市移动 27, server: 183.232.48.186, port: 31602, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 保加利亚索非亚Melbicom数据中心 28, server: 213.183.63.218, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: github.com/freefq - 俄罗斯  29, server: 217.30.10.63, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 30, server: 213.183.59.229, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: github.com/freefq - 俄罗斯  31, server: 217.30.10.64, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: github.com/freefq - 法国OVH数据中心 32, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: 54.37.192.112}}, udp: true}
-  - {name: github.com/freefq - 香港BGP.NET数据中心 33, server: 180.215.196.10, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: github.com/freefq - 保加利亚索非亚Melbicom数据中心 34, server: 213.183.63.218, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: github.com/freefq - 亚太地区  35, server: 103.172.116.9, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 36, server: vfly9.win, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly9.win}}, udp: true}
-  - {name: github.com/freefq - 广东省广州市移动 37, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港电讯盈科有限公司 2, server: hkt2.xcv2r.com, port: 33232, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt2.xcv2r.com}}, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 3, server: 20.247.65.79, port: 80, type: vmess, uuid: 4068763c-4f11-4629-853a-761c457d245e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: github.com/freefq - 上海市微软Azure世纪互联上海数据中心BGP节点 4, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
+  - {name: github.com/freefq - 美国  5, server: docs.defun.us, port: 443, type: trojan, password: WEMagdSekdGBxh6g, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  6, server: snacks.starspace.link, port: 443, type: trojan, password: 0lbw6RXSl7eqCYMv, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  7, server: events.starspace.link, port: 443, type: trojan, password: 3RWFPCmWd4lYIMof, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  8, server: views.pickaxe.sh, port: 443, type: trojan, password: XQ5jxs58ecd403l7, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 香港Amazon数据中心 9, server: awshk.yeem.cc, port: 21210, type: vmess, uuid: 44b9d6a2-58e5-46ea-b717-8c40c0c01752, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 广东省广州市移动 10, server: nas5.travelerv2.xyz, port: 21871, type: vmess, uuid: b69f3735-a1a1-3dbf-889b-4594d140752f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22HOST%22:%22nas5.travelerv2.xyz%22,%22Host%22:%22nas5.travelerv2.xyz%22%7D"}}, udp: true}
+  - {name: github.com/freefq - 加拿大  11, server: 51jp1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 51jp1.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国  12, server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  13, server: meet-two.defun.us, port: 443, type: trojan, password: SolQapgEUoQ1ISsB, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 江苏省扬州市移动 14, server: free-jpzx.vmess.top, port: 35122, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 俄罗斯莫斯科Melbicom数据中心 15, server: 213.183.53.208, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 16, server: app.ssfree.ru, port: 443, type: vmess, uuid: d245a65e-da4c-11ec-97d7-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: github.com/freefq - 俄罗斯  17, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
+  - {name: github.com/freefq - 英国  18, server: de-02.fireplay.io, port: 443, type: trojan, password: YrnU2nhCTrx7aPLU, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 广东省东莞市电信 19, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: 1a50f0d0-af36-3cbf-93e5-545688ad01f4, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  20, server: 426hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 426hk.fans8.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 21, server: 20.222.89.209, port: 364, type: vmess, uuid: fe54fd31-1291-4c79-bb5b-06febd30ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 法国OVH数据中心 22, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: 54.37.192.112}}, udp: true}
+  - {name: github.com/freefq - 广东省移动 23, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: 1a50f0d0-af36-3cbf-93e5-545688ad01f4, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 英国  24, server: de-03.fireplay.io, port: 443, type: trojan, password: 63X7Dg58EII2qt6f, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 25, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
+  - {name: github.com/freefq - 俄罗斯  26, server: 217.30.10.64, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: github.com/freefq - 爱尔兰都柏林Amazon数据中心 27, server: lluucc3.herokuapp.com, port: 443, type: vmess, uuid: 7ff3d9c9-2153-4d3c-939d-697850c95b21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f495ba1f, headers: {Host: lluucc3.herokuapp.com}}, udp: true}
+  - {name: github.com/freefq - 英国  28, server: o03.trojan.tel, port: 18443, type: trojan, password: 6a230f59-a22f-4d03-9dee-8a15458e429a, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 德国  29, server: mci.myandroidplus1.ir, port: 80, type: vmess, uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: mci.myandroidplus1.ir}}, udp: true}
+  - {name: github.com/freefq - 北美地区  30, server: 134.195.198.252, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 新加坡Choopa数据中心 31, server: crus9.gzfxd.xyz, port: 16616, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: crus9.gzfxd.xyz}}, udp: true}
+  - {name: github.com/freefq - 广东省揭阳市移动 32, server: ingress-i2.onebox6.org, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 33, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v3.ssrsub.com}}, udp: true}
+  - {name: github.com/freefq - 广东省广州市移动 34, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 湖南省联通 35, server: cmi.db-link.in, port: 21152, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: cmi.db-link.in}}, udp: true}
+  - {name: github.com/freefq - 广东省广州市移动 36, server: 183.232.48.186, port: 31602, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  37, server: 165.154.225.230, port: 33080, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 广东省揭阳市移动 38, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 39, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v3.ssrsub.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 40, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 41, server: sunhaoduo.tk, port: 443, type: trojan, password: b61d3b3c, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 德国  42, server: mci.myandroidplus1.ir, port: 80, type: vmess, uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: mci.myandroidplus1.ir}}, udp: true}
-  - {name: github.com/freefq - 美国俄勒冈州波特兰Amazon数据中心 43, server: 54.214.170.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: github.com/freefq - 湖南省联通 44, server: cmi.db-link.in, port: 21152, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: cmi.db-link.in}}, udp: true}
+  - {name: github.com/freefq - 日本东京Oracle云计算数据中心 39, server: jp04.vproxy.us, port: 56565, type: trojan, password: acf34fb3-6fed-40c6-b6ab-b5bedf5827a2, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 日本东京Oracle云计算数据中心 40, server: jp1.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 日本东京Amazon数据中心 41, server: v2.godlight.xyz, port: 27000, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dajdklw231f, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: github.com/freefq - 荷兰  42, server: xiaocai.fly.dev, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: xiaocai.fly.dev}}, udp: true}
+  - {name: github.com/freefq - 香港BGP.NET数据中心 43, server: 180.215.196.10, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: github.com/freefq - 广东省广州市移动 44, server: 120.232.239.6, port: 31220, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 45, server: neteasy.ga, port: 28931, type: trojan, password: MnROfwtPYa, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 46, server: 80.251.208.30, port: 22223, type: vmess, uuid: 5ce411c8-da98-44f5-ac1b-3b32ccdd8ce7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /echo}, udp: true}
-  - {name: github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 47, server: neteasy.cf, port: 45929, type: trojan, password: 2XWUtOT64u, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本  48, server: hy.hsichu.xyz, port: 443, type: trojan, password: HsCOkje2HH2PuRFb, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省广州市移动 49, server: 120.232.239.6, port: 31220, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省广州市移动 50, server: nas5.travelerv2.xyz, port: 21871, type: vmess, uuid: b69f3735-a1a1-3dbf-889b-4594d140752f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22HOST%22:%22nas5.travelerv2.xyz%22,%22Host%22:%22nas5.travelerv2.xyz%22%7D"}}, udp: true}
   - {name: cn2.soow.win:50027, server: cn2.soow.win, port: 50027, type: vmess, uuid: c1d0ae9e-f08a-3f81-962d-ca19b52c760d, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: "%7B%22Host%22:%22cn2.soow.win%22%7D"}}, udp: true}
   - {name: 吃宵夜了, server: 54.214.170.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 台湾11, server: 60.251.66.118, port: 443, type: ss, cipher: aes-256-gcm, password: 46c027d028b4, udp: true}
@@ -456,6 +469,77 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择节点
+      - 澳洲(欢迎订阅Youtube破解资源君)
+      - 澳洲(欢迎订阅Youtube破解资源君) 2
+      - 澳洲(欢迎订阅Youtube破解资源君) 3
+      - 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 6
+      - 美国(欢迎订阅Youtube破解资源君) 7
+      - 美国(欢迎订阅Youtube破解资源君) 8
+      - 美国(欢迎订阅Youtube破解资源君) 9
+      - 美国(欢迎订阅Youtube破解资源君) 10
+      - 美国(欢迎订阅Youtube破解资源君) 11
+      - 美国(欢迎订阅Youtube破解资源君) 12
+      - 美国(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 14
+      - 美国(欢迎订阅Youtube破解资源君) 15
+      - 美国(欢迎订阅Youtube破解资源君) 16
+      - 美国(欢迎订阅Youtube破解资源君) 17
+      - 美国(欢迎订阅Youtube破解资源君) 18
+      - 美国(欢迎订阅Youtube破解资源君) 19
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 10
+      - 欧洲(欢迎订阅Youtube破解资源君) 11
+      - 欧洲(欢迎订阅Youtube破解资源君) 12
+      - 欧洲(欢迎订阅Youtube破解资源君) 13
+      - 欧洲(欢迎订阅Youtube破解资源君) 14
+      - 欧洲(欢迎订阅Youtube破解资源君) 15
+      - 欧洲(欢迎订阅Youtube破解资源君) 16
+      - 欧洲(欢迎订阅Youtube破解资源君) 17
+      - 欧洲(欢迎订阅Youtube破解资源君) 18
+      - 欧洲(欢迎订阅Youtube破解资源君) 19
+      - 欧洲(欢迎订阅Youtube破解资源君) 20
+      - 欧洲(欢迎订阅Youtube破解资源君) 21
+      - 欧洲(欢迎订阅Youtube破解资源君) 22
+      - 欧洲(欢迎订阅Youtube破解资源君) 23
+      - 欧洲(欢迎订阅Youtube破解资源君) 24
+      - 欧洲(欢迎订阅Youtube破解资源君) 25
+      - 欧洲(欢迎订阅Youtube破解资源君) 26
+      - 欧洲(欢迎订阅Youtube破解资源君) 27
+      - 欧洲(欢迎订阅Youtube破解资源君) 28
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 日本(欢迎订阅Youtube破解资源君) 2
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 新加坡(欢迎订阅Youtube破解资源君) 2
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 亚洲(欢迎订阅Youtube破解资源君) 2
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
+      - 亚洲(欢迎订阅Youtube破解资源君) 4
+      - 亚洲(欢迎订阅Youtube破解资源君) 5
+      - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 亚洲(欢迎订阅Youtube破解资源君) 7
+      - 亚洲(欢迎订阅Youtube破解资源君) 8
+      - 亚洲(欢迎订阅Youtube破解资源君) 9
+      - 亚洲(欢迎订阅Youtube破解资源君) 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 11
+      - 亚洲(欢迎订阅Youtube破解资源君) 12
       - 香港（YouTube资源分享者）
       - 美国（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
@@ -605,103 +689,50 @@ proxy-groups:
       - "@SSRSUB-trojan日本T01-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-trojan日本T02-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-trojan加拿大T03-付费推荐:dlj.tf/ssrsub"
-      - Ytb:鹏哥分享_中国_1
-      - Ytb:鹏哥分享_美国_2
-      - Ytb:鹏哥分享_中国_3
-      - Ytb:鹏哥分享_中国_4
-      - Ytb:鹏哥分享_中国_5
-      - Ytb:鹏哥分享_中国_6
-      - Ytb:鹏哥分享_中国_7
-      - Ytb:鹏哥分享_中国_8
-      - Ytb:鹏哥分享_中国_9
-      - Ytb:鹏哥分享_美国_10
-      - "Ytb:鹏哥分享_中国_11\r"
-      - Ytb:鹏哥分享_中国_12
-      - Ytb:鹏哥分享_13
-      - Ytb:鹏哥分享_中国_14
-      - "Ytb:鹏哥分享_加拿大_15\r"
-      - Ytb:鹏哥分享_中国_16
-      - "Ytb:鹏哥分享_加拿大_17\r"
-      - Ytb:鹏哥分享_18
-      - Ytb:鹏哥分享_中国_19
-      - Ytb:鹏哥分享_中国_20
-      - Ytb:鹏哥分享_中国_21
-      - "Ytb:鹏哥分享_荷兰_22\r"
-      - Ytb:鹏哥分享_中国_23
-      - Ytb:鹏哥分享_中国_24
-      - Ytb:鹏哥分享_美国_25
-      - "Ytb:鹏哥分享_美国_26\r"
-      - "Ytb:鹏哥分享_加拿大_27\r"
-      - Ytb:鹏哥分享_中国_28
-      - Ytb:鹏哥分享_中国_29
-      - Ytb:鹏哥分享_中国_30
-      - Ytb:鹏哥分享_中国_31
-      - Ytb:鹏哥分享_中国_32
-      - Ytb:鹏哥分享_中国_33
-      - Ytb:鹏哥分享_中国_34
-      - Ytb:鹏哥分享_中国_35
-      - Ytb:鹏哥分享_中国_36
-      - Ytb:鹏哥分享_中国_37
-      - Ytb:鹏哥分享_新加坡_38
-      - Ytb:鹏哥分享_中国_39
-      - Ytb:鹏哥分享_新加坡_40
-      - Ytb:鹏哥分享_中国_41
-      - Ytb:鹏哥分享_新加坡_42
-      - Ytb:鹏哥分享_中国_43
-      - Ytb:鹏哥分享_新加坡_44
-      - Ytb:鹏哥分享_中国_45
-      - Ytb:鹏哥分享_中国_46
-      - Ytb:鹏哥分享_新加坡_47
-      - Ytb:鹏哥分享_新加坡_48
-      - Ytb:鹏哥分享_中国_49
-      - Ytb:鹏哥分享_中国_50
-      - Ytb:鹏哥分享_中国_51
-      - Ytb:鹏哥分享_52
-      - "Ytb:鹏哥分享_加拿大_53\r"
-      - "Ytb:鹏哥分享_加拿大_54\r"
-      - Ytb:鹏哥分享_55
-      - Ytb:鹏哥分享_中国_56
-      - "Ytb:鹏哥分享_中国_57\r"
-      - Ytb:鹏哥分享_中国_58
-      - Ytb:鹏哥分享_中国_59
-      - Ytb:鹏哥分享_中国_60
-      - Ytb:鹏哥分享_中国_61
-      - Ytb:鹏哥分享_中国_62
-      - Ytb:鹏哥分享_中国_63
-      - Ytb:鹏哥分享_中国_64
-      - Ytb:鹏哥分享_中国_65
-      - Ytb:鹏哥分享_中国_66
-      - Ytb:鹏哥分享_中国_67
-      - Ytb:鹏哥分享_中国_68
-      - Ytb:鹏哥分享_中国_69
-      - "Ytb:鹏哥分享_加拿大_70\r"
-      - Ytb:鹏哥分享_中国_71
-      - Ytb:鹏哥分享_72
-      - Ytb:鹏哥分享_中国_73
-      - Ytb:鹏哥分享_中国_74
-      - Ytb:鹏哥分享_中国_75
-      - Ytb:鹏哥分享_中国_76
-      - Ytb:鹏哥分享_中国_77
-      - Ytb:鹏哥分享_中国_78
-      - Ytb:鹏哥分享_中国_79
-      - Ytb:鹏哥分享_中国_80
-      - Ytb:鹏哥分享_中国_81
-      - Ytb:鹏哥分享_中国_82
-      - Ytb:鹏哥分享_中国_83
-      - Ytb:鹏哥分享_中国_84
-      - Ytb:鹏哥分享_中国_85
-      - Ytb:鹏哥分享_中国_86
-      - Ytb:鹏哥分享_中国_87
-      - Ytb:鹏哥分享_中国_88
-      - "Ytb:鹏哥分享_美国_89\r"
-      - Ytb:鹏哥分享_中国_90
-      - Ytb:鹏哥分享_中国_91
-      - Ytb:鹏哥分享_中国_92
-      - Ytb:鹏哥分享_中国_93
-      - Ytb:鹏哥分享_美国_94
-      - Ytb:鹏哥分享_中国_95
-      - Ytb:鹏哥分享_中国_96
-      - Ytb:鹏哥分享_中国_97
+      - 鹏哥分享_台湾_1
+      - 鹏哥分享_俄罗斯联邦_2
+      - 鹏哥分享_香港_3
+      - 鹏哥分享_美国_4
+      - 鹏哥分享_美国_5
+      - 鹏哥分享_美国_6
+      - "鹏哥分享_澳大利亚_7\r"
+      - "鹏哥分享_澳大利亚_8\r"
+      - 鹏哥分享_伊朗_9
+      - 鹏哥分享_中国_10
+      - 鹏哥分享_美国_11
+      - 鹏哥分享_12
+      - 鹏哥分享_中国_13
+      - 鹏哥分享_中国_14
+      - "鹏哥分享_美国_15\r"
+      - "鹏哥分享_美国_16\r"
+      - "鹏哥分享_美国_17\r"
+      - 鹏哥分享_中国_18
+      - 鹏哥分享_中国_19
+      - 鹏哥分享_美国_20
+      - 鹏哥分享_中国_21
+      - 鹏哥分享_中国_22
+      - "鹏哥分享_美国_23\r"
+      - 鹏哥分享_中国_24
+      - "鹏哥分享_美国_25\r"
+      - 鹏哥分享_美国_26
+      - "鹏哥分享_加拿大_27\r"
+      - 鹏哥分享_中国_28
+      - 鹏哥分享_中国_29
+      - 鹏哥分享_中国_30
+      - 鹏哥分享_中国_31
+      - 鹏哥分享_中国_32
+      - 鹏哥分享_中国_33
+      - 鹏哥分享_中国_34
+      - 鹏哥分享_中国_35
+      - 鹏哥分享_中国_36
+      - 鹏哥分享_中国_37
+      - 鹏哥分享_中国_38
+      - 鹏哥分享_中国_39
+      - 鹏哥分享_中国_40
+      - 鹏哥分享_中国_41
+      - 鹏哥分享_中国_42
+      - 鹏哥分享_中国_43
+      - "鹏哥分享_美国_44\r"
       - ★美国加州A★年付专线
       - ★中国香港A★年付专线
       - 英国伦敦B
@@ -750,55 +781,50 @@ proxy-groups:
       - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-TLS加拿大V06-付费推荐:dlj.tf/ssrsub 2"
       - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 香港阿里云 2
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - github.com/freefq - 美国Microsoft数据中心 4
-      - github.com/freefq - 日本东京Oracle云计算数据中心 5
-      - github.com/freefq - 上海市微软Azure世纪互联上海数据中心BGP节点 6
-      - github.com/freefq - 加拿大  7
-      - github.com/freefq - 日本东京Oracle云计算数据中心 8
-      - github.com/freefq - 美国  9
-      - github.com/freefq - 美国  10
-      - github.com/freefq - 广东省深圳市移动 11
+      - github.com/freefq - 香港电讯盈科有限公司 2
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/freefq - 上海市微软Azure世纪互联上海数据中心BGP节点 4
+      - github.com/freefq - 美国  5
+      - github.com/freefq - 美国  6
+      - github.com/freefq - 美国  7
+      - github.com/freefq - 美国  8
+      - github.com/freefq - 香港Amazon数据中心 9
+      - github.com/freefq - 广东省广州市移动 10
+      - github.com/freefq - 加拿大  11
       - github.com/freefq - 美国  12
-      - github.com/freefq - 日本东京Digital VM 13
-      - github.com/freefq - 广东省移动 14
-      - github.com/freefq - 美国  15
-      - github.com/freefq - 美国  16
-      - github.com/freefq - 荷兰  17
+      - github.com/freefq - 美国  13
+      - github.com/freefq - 江苏省扬州市移动 14
+      - github.com/freefq - 俄罗斯莫斯科Melbicom数据中心 15
+      - github.com/freefq - 美国CloudFlare节点 16
+      - github.com/freefq - 俄罗斯  17
       - github.com/freefq - 英国  18
-      - github.com/freefq - 英国  19
-      - github.com/freefq - 美国  20
-      - github.com/freefq - 美国  21
-      - github.com/freefq - 俄罗斯  22
-      - github.com/freefq - 加拿大  23
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 24
-      - github.com/freefq - 北美地区  25
+      - github.com/freefq - 广东省东莞市电信 19
+      - github.com/freefq - 加拿大  20
+      - github.com/freefq - 美国Microsoft数据中心 21
+      - github.com/freefq - 法国OVH数据中心 22
+      - github.com/freefq - 广东省移动 23
+      - github.com/freefq - 英国  24
+      - github.com/freefq - 美国CloudFlare节点 25
       - github.com/freefq - 俄罗斯  26
-      - github.com/freefq - 广东省广州市移动 27
-      - github.com/freefq - 保加利亚索非亚Melbicom数据中心 28
-      - github.com/freefq - 俄罗斯  29
-      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 30
-      - github.com/freefq - 俄罗斯  31
-      - github.com/freefq - 法国OVH数据中心 32
-      - github.com/freefq - 香港BGP.NET数据中心 33
-      - github.com/freefq - 保加利亚索非亚Melbicom数据中心 34
-      - github.com/freefq - 亚太地区  35
-      - github.com/freefq - 美国CloudFlare节点 36
-      - github.com/freefq - 广东省广州市移动 37
+      - github.com/freefq - 爱尔兰都柏林Amazon数据中心 27
+      - github.com/freefq - 英国  28
+      - github.com/freefq - 德国  29
+      - github.com/freefq - 北美地区  30
+      - github.com/freefq - 新加坡Choopa数据中心 31
+      - github.com/freefq - 广东省揭阳市移动 32
+      - github.com/freefq - 美国CloudFlare节点 33
+      - github.com/freefq - 广东省广州市移动 34
+      - github.com/freefq - 湖南省联通 35
+      - github.com/freefq - 广东省广州市移动 36
+      - github.com/freefq - 加拿大  37
       - github.com/freefq - 广东省揭阳市移动 38
-      - github.com/freefq - 美国CloudFlare节点 39
-      - github.com/freefq - 美国CloudFlare公司CDN节点 40
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 41
-      - github.com/freefq - 德国  42
-      - github.com/freefq - 美国俄勒冈州波特兰Amazon数据中心 43
-      - github.com/freefq - 湖南省联通 44
+      - github.com/freefq - 日本东京Oracle云计算数据中心 39
+      - github.com/freefq - 日本东京Oracle云计算数据中心 40
+      - github.com/freefq - 日本东京Amazon数据中心 41
+      - github.com/freefq - 荷兰  42
+      - github.com/freefq - 香港BGP.NET数据中心 43
+      - github.com/freefq - 广东省广州市移动 44
       - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 45
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 46
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 47
-      - github.com/freefq - 日本  48
-      - github.com/freefq - 广东省广州市移动 49
-      - github.com/freefq - 广东省广州市移动 50
       - cn2.soow.win:50027
       - 吃宵夜了
       - 台湾11
@@ -907,6 +933,77 @@ proxy-groups:
     url: http://www.msftconnecttest.com/connecttest.txt
     interval: 150
     proxies:
+      - 澳洲(欢迎订阅Youtube破解资源君)
+      - 澳洲(欢迎订阅Youtube破解资源君) 2
+      - 澳洲(欢迎订阅Youtube破解资源君) 3
+      - 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 6
+      - 美国(欢迎订阅Youtube破解资源君) 7
+      - 美国(欢迎订阅Youtube破解资源君) 8
+      - 美国(欢迎订阅Youtube破解资源君) 9
+      - 美国(欢迎订阅Youtube破解资源君) 10
+      - 美国(欢迎订阅Youtube破解资源君) 11
+      - 美国(欢迎订阅Youtube破解资源君) 12
+      - 美国(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 14
+      - 美国(欢迎订阅Youtube破解资源君) 15
+      - 美国(欢迎订阅Youtube破解资源君) 16
+      - 美国(欢迎订阅Youtube破解资源君) 17
+      - 美国(欢迎订阅Youtube破解资源君) 18
+      - 美国(欢迎订阅Youtube破解资源君) 19
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 10
+      - 欧洲(欢迎订阅Youtube破解资源君) 11
+      - 欧洲(欢迎订阅Youtube破解资源君) 12
+      - 欧洲(欢迎订阅Youtube破解资源君) 13
+      - 欧洲(欢迎订阅Youtube破解资源君) 14
+      - 欧洲(欢迎订阅Youtube破解资源君) 15
+      - 欧洲(欢迎订阅Youtube破解资源君) 16
+      - 欧洲(欢迎订阅Youtube破解资源君) 17
+      - 欧洲(欢迎订阅Youtube破解资源君) 18
+      - 欧洲(欢迎订阅Youtube破解资源君) 19
+      - 欧洲(欢迎订阅Youtube破解资源君) 20
+      - 欧洲(欢迎订阅Youtube破解资源君) 21
+      - 欧洲(欢迎订阅Youtube破解资源君) 22
+      - 欧洲(欢迎订阅Youtube破解资源君) 23
+      - 欧洲(欢迎订阅Youtube破解资源君) 24
+      - 欧洲(欢迎订阅Youtube破解资源君) 25
+      - 欧洲(欢迎订阅Youtube破解资源君) 26
+      - 欧洲(欢迎订阅Youtube破解资源君) 27
+      - 欧洲(欢迎订阅Youtube破解资源君) 28
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 日本(欢迎订阅Youtube破解资源君) 2
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 新加坡(欢迎订阅Youtube破解资源君) 2
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 亚洲(欢迎订阅Youtube破解资源君) 2
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
+      - 亚洲(欢迎订阅Youtube破解资源君) 4
+      - 亚洲(欢迎订阅Youtube破解资源君) 5
+      - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 亚洲(欢迎订阅Youtube破解资源君) 7
+      - 亚洲(欢迎订阅Youtube破解资源君) 8
+      - 亚洲(欢迎订阅Youtube破解资源君) 9
+      - 亚洲(欢迎订阅Youtube破解资源君) 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 11
+      - 亚洲(欢迎订阅Youtube破解资源君) 12
       - 香港（YouTube资源分享者）
       - 美国（YouTube资源分享者）
       - 香港（YouTube资源分享者） 2
@@ -1056,103 +1153,50 @@ proxy-groups:
       - "@SSRSUB-trojan日本T01-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-trojan日本T02-付费推荐:dlj.tf/ssrsub"
       - "@SSRSUB-trojan加拿大T03-付费推荐:dlj.tf/ssrsub"
-      - Ytb:鹏哥分享_中国_1
-      - Ytb:鹏哥分享_美国_2
-      - Ytb:鹏哥分享_中国_3
-      - Ytb:鹏哥分享_中国_4
-      - Ytb:鹏哥分享_中国_5
-      - Ytb:鹏哥分享_中国_6
-      - Ytb:鹏哥分享_中国_7
-      - Ytb:鹏哥分享_中国_8
-      - Ytb:鹏哥分享_中国_9
-      - Ytb:鹏哥分享_美国_10
-      - "Ytb:鹏哥分享_中国_11\r"
-      - Ytb:鹏哥分享_中国_12
-      - Ytb:鹏哥分享_13
-      - Ytb:鹏哥分享_中国_14
-      - "Ytb:鹏哥分享_加拿大_15\r"
-      - Ytb:鹏哥分享_中国_16
-      - "Ytb:鹏哥分享_加拿大_17\r"
-      - Ytb:鹏哥分享_18
-      - Ytb:鹏哥分享_中国_19
-      - Ytb:鹏哥分享_中国_20
-      - Ytb:鹏哥分享_中国_21
-      - "Ytb:鹏哥分享_荷兰_22\r"
-      - Ytb:鹏哥分享_中国_23
-      - Ytb:鹏哥分享_中国_24
-      - Ytb:鹏哥分享_美国_25
-      - "Ytb:鹏哥分享_美国_26\r"
-      - "Ytb:鹏哥分享_加拿大_27\r"
-      - Ytb:鹏哥分享_中国_28
-      - Ytb:鹏哥分享_中国_29
-      - Ytb:鹏哥分享_中国_30
-      - Ytb:鹏哥分享_中国_31
-      - Ytb:鹏哥分享_中国_32
-      - Ytb:鹏哥分享_中国_33
-      - Ytb:鹏哥分享_中国_34
-      - Ytb:鹏哥分享_中国_35
-      - Ytb:鹏哥分享_中国_36
-      - Ytb:鹏哥分享_中国_37
-      - Ytb:鹏哥分享_新加坡_38
-      - Ytb:鹏哥分享_中国_39
-      - Ytb:鹏哥分享_新加坡_40
-      - Ytb:鹏哥分享_中国_41
-      - Ytb:鹏哥分享_新加坡_42
-      - Ytb:鹏哥分享_中国_43
-      - Ytb:鹏哥分享_新加坡_44
-      - Ytb:鹏哥分享_中国_45
-      - Ytb:鹏哥分享_中国_46
-      - Ytb:鹏哥分享_新加坡_47
-      - Ytb:鹏哥分享_新加坡_48
-      - Ytb:鹏哥分享_中国_49
-      - Ytb:鹏哥分享_中国_50
-      - Ytb:鹏哥分享_中国_51
-      - Ytb:鹏哥分享_52
-      - "Ytb:鹏哥分享_加拿大_53\r"
-      - "Ytb:鹏哥分享_加拿大_54\r"
-      - Ytb:鹏哥分享_55
-      - Ytb:鹏哥分享_中国_56
-      - "Ytb:鹏哥分享_中国_57\r"
-      - Ytb:鹏哥分享_中国_58
-      - Ytb:鹏哥分享_中国_59
-      - Ytb:鹏哥分享_中国_60
-      - Ytb:鹏哥分享_中国_61
-      - Ytb:鹏哥分享_中国_62
-      - Ytb:鹏哥分享_中国_63
-      - Ytb:鹏哥分享_中国_64
-      - Ytb:鹏哥分享_中国_65
-      - Ytb:鹏哥分享_中国_66
-      - Ytb:鹏哥分享_中国_67
-      - Ytb:鹏哥分享_中国_68
-      - Ytb:鹏哥分享_中国_69
-      - "Ytb:鹏哥分享_加拿大_70\r"
-      - Ytb:鹏哥分享_中国_71
-      - Ytb:鹏哥分享_72
-      - Ytb:鹏哥分享_中国_73
-      - Ytb:鹏哥分享_中国_74
-      - Ytb:鹏哥分享_中国_75
-      - Ytb:鹏哥分享_中国_76
-      - Ytb:鹏哥分享_中国_77
-      - Ytb:鹏哥分享_中国_78
-      - Ytb:鹏哥分享_中国_79
-      - Ytb:鹏哥分享_中国_80
-      - Ytb:鹏哥分享_中国_81
-      - Ytb:鹏哥分享_中国_82
-      - Ytb:鹏哥分享_中国_83
-      - Ytb:鹏哥分享_中国_84
-      - Ytb:鹏哥分享_中国_85
-      - Ytb:鹏哥分享_中国_86
-      - Ytb:鹏哥分享_中国_87
-      - Ytb:鹏哥分享_中国_88
-      - "Ytb:鹏哥分享_美国_89\r"
-      - Ytb:鹏哥分享_中国_90
-      - Ytb:鹏哥分享_中国_91
-      - Ytb:鹏哥分享_中国_92
-      - Ytb:鹏哥分享_中国_93
-      - Ytb:鹏哥分享_美国_94
-      - Ytb:鹏哥分享_中国_95
-      - Ytb:鹏哥分享_中国_96
-      - Ytb:鹏哥分享_中国_97
+      - 鹏哥分享_台湾_1
+      - 鹏哥分享_俄罗斯联邦_2
+      - 鹏哥分享_香港_3
+      - 鹏哥分享_美国_4
+      - 鹏哥分享_美国_5
+      - 鹏哥分享_美国_6
+      - "鹏哥分享_澳大利亚_7\r"
+      - "鹏哥分享_澳大利亚_8\r"
+      - 鹏哥分享_伊朗_9
+      - 鹏哥分享_中国_10
+      - 鹏哥分享_美国_11
+      - 鹏哥分享_12
+      - 鹏哥分享_中国_13
+      - 鹏哥分享_中国_14
+      - "鹏哥分享_美国_15\r"
+      - "鹏哥分享_美国_16\r"
+      - "鹏哥分享_美国_17\r"
+      - 鹏哥分享_中国_18
+      - 鹏哥分享_中国_19
+      - 鹏哥分享_美国_20
+      - 鹏哥分享_中国_21
+      - 鹏哥分享_中国_22
+      - "鹏哥分享_美国_23\r"
+      - 鹏哥分享_中国_24
+      - "鹏哥分享_美国_25\r"
+      - 鹏哥分享_美国_26
+      - "鹏哥分享_加拿大_27\r"
+      - 鹏哥分享_中国_28
+      - 鹏哥分享_中国_29
+      - 鹏哥分享_中国_30
+      - 鹏哥分享_中国_31
+      - 鹏哥分享_中国_32
+      - 鹏哥分享_中国_33
+      - 鹏哥分享_中国_34
+      - 鹏哥分享_中国_35
+      - 鹏哥分享_中国_36
+      - 鹏哥分享_中国_37
+      - 鹏哥分享_中国_38
+      - 鹏哥分享_中国_39
+      - 鹏哥分享_中国_40
+      - 鹏哥分享_中国_41
+      - 鹏哥分享_中国_42
+      - 鹏哥分享_中国_43
+      - "鹏哥分享_美国_44\r"
       - ★美国加州A★年付专线
       - ★中国香港A★年付专线
       - 英国伦敦B
@@ -1201,55 +1245,50 @@ proxy-groups:
       - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub 2"
       - "@SSRSUB-TLS加拿大V06-付费推荐:dlj.tf/ssrsub 2"
       - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 香港阿里云 2
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - github.com/freefq - 美国Microsoft数据中心 4
-      - github.com/freefq - 日本东京Oracle云计算数据中心 5
-      - github.com/freefq - 上海市微软Azure世纪互联上海数据中心BGP节点 6
-      - github.com/freefq - 加拿大  7
-      - github.com/freefq - 日本东京Oracle云计算数据中心 8
-      - github.com/freefq - 美国  9
-      - github.com/freefq - 美国  10
-      - github.com/freefq - 广东省深圳市移动 11
+      - github.com/freefq - 香港电讯盈科有限公司 2
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/freefq - 上海市微软Azure世纪互联上海数据中心BGP节点 4
+      - github.com/freefq - 美国  5
+      - github.com/freefq - 美国  6
+      - github.com/freefq - 美国  7
+      - github.com/freefq - 美国  8
+      - github.com/freefq - 香港Amazon数据中心 9
+      - github.com/freefq - 广东省广州市移动 10
+      - github.com/freefq - 加拿大  11
       - github.com/freefq - 美国  12
-      - github.com/freefq - 日本东京Digital VM 13
-      - github.com/freefq - 广东省移动 14
-      - github.com/freefq - 美国  15
-      - github.com/freefq - 美国  16
-      - github.com/freefq - 荷兰  17
+      - github.com/freefq - 美国  13
+      - github.com/freefq - 江苏省扬州市移动 14
+      - github.com/freefq - 俄罗斯莫斯科Melbicom数据中心 15
+      - github.com/freefq - 美国CloudFlare节点 16
+      - github.com/freefq - 俄罗斯  17
       - github.com/freefq - 英国  18
-      - github.com/freefq - 英国  19
-      - github.com/freefq - 美国  20
-      - github.com/freefq - 美国  21
-      - github.com/freefq - 俄罗斯  22
-      - github.com/freefq - 加拿大  23
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 24
-      - github.com/freefq - 北美地区  25
+      - github.com/freefq - 广东省东莞市电信 19
+      - github.com/freefq - 加拿大  20
+      - github.com/freefq - 美国Microsoft数据中心 21
+      - github.com/freefq - 法国OVH数据中心 22
+      - github.com/freefq - 广东省移动 23
+      - github.com/freefq - 英国  24
+      - github.com/freefq - 美国CloudFlare节点 25
       - github.com/freefq - 俄罗斯  26
-      - github.com/freefq - 广东省广州市移动 27
-      - github.com/freefq - 保加利亚索非亚Melbicom数据中心 28
-      - github.com/freefq - 俄罗斯  29
-      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 30
-      - github.com/freefq - 俄罗斯  31
-      - github.com/freefq - 法国OVH数据中心 32
-      - github.com/freefq - 香港BGP.NET数据中心 33
-      - github.com/freefq - 保加利亚索非亚Melbicom数据中心 34
-      - github.com/freefq - 亚太地区  35
-      - github.com/freefq - 美国CloudFlare节点 36
-      - github.com/freefq - 广东省广州市移动 37
+      - github.com/freefq - 爱尔兰都柏林Amazon数据中心 27
+      - github.com/freefq - 英国  28
+      - github.com/freefq - 德国  29
+      - github.com/freefq - 北美地区  30
+      - github.com/freefq - 新加坡Choopa数据中心 31
+      - github.com/freefq - 广东省揭阳市移动 32
+      - github.com/freefq - 美国CloudFlare节点 33
+      - github.com/freefq - 广东省广州市移动 34
+      - github.com/freefq - 湖南省联通 35
+      - github.com/freefq - 广东省广州市移动 36
+      - github.com/freefq - 加拿大  37
       - github.com/freefq - 广东省揭阳市移动 38
-      - github.com/freefq - 美国CloudFlare节点 39
-      - github.com/freefq - 美国CloudFlare公司CDN节点 40
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 41
-      - github.com/freefq - 德国  42
-      - github.com/freefq - 美国俄勒冈州波特兰Amazon数据中心 43
-      - github.com/freefq - 湖南省联通 44
+      - github.com/freefq - 日本东京Oracle云计算数据中心 39
+      - github.com/freefq - 日本东京Oracle云计算数据中心 40
+      - github.com/freefq - 日本东京Amazon数据中心 41
+      - github.com/freefq - 荷兰  42
+      - github.com/freefq - 香港BGP.NET数据中心 43
+      - github.com/freefq - 广东省广州市移动 44
       - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 45
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 46
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 47
-      - github.com/freefq - 日本  48
-      - github.com/freefq - 广东省广州市移动 49
-      - github.com/freefq - 广东省广州市移动 50
       - cn2.soow.win:50027
       - 吃宵夜了
       - 台湾11
@@ -1475,13 +1514,29 @@ rules:
  - DOMAIN-SUFFIX,battle.net,DIRECT
  - DOMAIN-SUFFIX,battlenet.com,DIRECT
  - DOMAIN-SUFFIX,blizzard.com,DIRECT
+ - DOMAIN-SUFFIX,amemv.com,DIRECT
+ - DOMAIN-SUFFIX,bdxiguaimg.com,DIRECT
+ - DOMAIN-SUFFIX,bdxiguastatic.com,DIRECT
+ - DOMAIN-SUFFIX,byted-static.com,DIRECT
  - DOMAIN-SUFFIX,bytedance.com,DIRECT
  - DOMAIN-SUFFIX,bytedance.net,DIRECT
  - DOMAIN-SUFFIX,bytedns.net,DIRECT
+ - DOMAIN-SUFFIX,bytednsdoc.com,DIRECT
+ - DOMAIN-SUFFIX,bytegoofy.com,DIRECT
  - DOMAIN-SUFFIX,byteimg.com,DIRECT
+ - DOMAIN-SUFFIX,bytescm.com,DIRECT
+ - DOMAIN-SUFFIX,bytetos.com,DIRECT
+ - DOMAIN-SUFFIX,bytexservice.com,DIRECT
+ - DOMAIN-SUFFIX,douyin.com,DIRECT
+ - DOMAIN-SUFFIX,douyinpic.com,DIRECT
+ - DOMAIN-SUFFIX,douyinstatic.com,DIRECT
+ - DOMAIN-SUFFIX,douyinvod.com,DIRECT
+ - DOMAIN-SUFFIX,feelgood.cn,DIRECT
  - DOMAIN-SUFFIX,feiliao.com,DIRECT
  - DOMAIN-SUFFIX,gifshow.com,DIRECT
  - DOMAIN-SUFFIX,huoshan.com,DIRECT
+ - DOMAIN-SUFFIX,huoshanzhibo.com,DIRECT
+ - DOMAIN-SUFFIX,ibytedapm.com,DIRECT
  - DOMAIN-SUFFIX,iesdouyin.com,DIRECT
  - DOMAIN-SUFFIX,ixigua.com,DIRECT
  - DOMAIN-SUFFIX,kspkg.com,DIRECT
