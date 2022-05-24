@@ -5,606 +5,1061 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"US_800\r","server":"s2.upyun.online","port":12340,"password":"c0276440-f163-4f40-a08c-78b158ce6c4f","udp":true,"skip-cert-verify":true,"sni":"s2.upyun.online"}
-  - {"type":"trojan","name":"US_799\r","server":"s3.upyun.online","port":12340,"password":"c0276440-f163-4f40-a08c-78b158ce6c4f","udp":true,"skip-cert-verify":true,"sni":"s3.upyun.online"}
-  - {"type":"trojan","name":"US_795\r","server":"snacks.starspace.link","port":443,"password":"0lbw6RXSl7eqCYMv","udp":true,"skip-cert-verify":true,"sni":"snacks.starspace.link"}
-  - {"type":"trojan","name":"US_794\r","server":"storage.starspace.link","port":443,"password":"W8gVbKNAZlFzgGPn","udp":true,"skip-cert-verify":true,"sni":"storage.starspace.link"}
-  - {"type":"trojan","name":"US_793\r","server":"events.starspace.link","port":443,"password":"3RWFPCmWd4lYIMof","udp":true,"skip-cert-verify":true,"sni":"events.starspace.link"}
-  - {"type":"trojan","name":"US_790\r","server":"s2.upyun.online","port":12340,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","udp":true,"skip-cert-verify":true,"sni":"s2.upyun.online"}
-  - {"type":"trojan","name":"US_789\r","server":"wireless.starspace.link","port":443,"password":"5LN8SGTqxk336nFg","udp":true,"skip-cert-verify":true,"sni":"wireless.starspace.link"}
-  - {"type":"trojan","name":"US_788\r","server":"rooms.starspace.link","port":443,"password":"5HfENR8nt2PR8reH","udp":true,"skip-cert-verify":true,"sni":"rooms.starspace.link"}
-  - {"type":"trojan","name":"US_787\r","server":"holidays.starspace.link","port":443,"password":"XCPKaaV8I1rmb7Ai","udp":true,"skip-cert-verify":true,"sni":"holidays.starspace.link"}
-  - {"type":"trojan","name":"US_786\r","server":"s1.upyun.online","port":12340,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","udp":true,"skip-cert-verify":true,"sni":"s1.upyun.online"}
-  - {"type":"trojan","name":"US_785\r","server":"outdoor.starspace.link","port":443,"password":"4brytjljFgnUu3WU","udp":true,"skip-cert-verify":true,"sni":"outdoor.starspace.link"}
-  - {"type":"trojan","name":"US_783\r","server":"living.starspace.link","port":443,"password":"NNhSlVRhte1Vzw5D","udp":true,"skip-cert-verify":true,"sni":"living.starspace.link"}
-  - {"type":"trojan","name":"US_782\r","server":"s1.upyun.online","port":12340,"password":"c0276440-f163-4f40-a08c-78b158ce6c4f","udp":true,"skip-cert-verify":true,"sni":"s1.upyun.online"}
-  - {"type":"ss","name":"US_773\r","server":"20.249.56.55","port":8313,"cipher":"chacha20-ietf-poly1305","password":"ljqdalu13.."}
-  - {"type":"trojan","name":"SG_693\r","server":"sgp.sharecentre.xyz","port":443,"password":"sharecentre","udp":true,"skip-cert-verify":true,"sni":"sgp.sharecentre.xyz"}
-  - {"type":"vmess","name":"Relay_🇨🇳CN-🇺🇸US_275","ws-opts":{"path":"/","headers":{"host":"hz.bgp.rx.naiun.pw"}},"server":"hz.bgp.rx.naiun.pw","port":"45413","uuid":"8b460b5c-22cc-463b-b50a-44cf63bdca08","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Relay_🇨🇳CN-🇺🇸US_274","ws-opts":{"path":"/","headers":{"host":"hz.bgp.rx.naiun.pw"}},"server":"hz.bgp.rx.naiun.pw","port":"45184","uuid":"8b460b5c-22cc-463b-b50a-44cf63bdca08","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Relay_🇨🇳CN-🇹🇼TW_277","ws-opts":{"path":"/","headers":{"host":"hz.bgp.rx.naiun.pw"}},"server":"hz.bgp.rx.naiun.pw","port":"45394","uuid":"8b460b5c-22cc-463b-b50a-44cf63bdca08","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"Relay_🇨🇳CN-🇹🇼TW_235\r","server":"14.29.124.168","port":24065,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"Relay_🇨🇳CN-🇹🇼TW_232\r","server":"14.29.124.168","port":24060,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"Relay_🇨🇳CN-🇹🇼TW_229\r","server":"14.29.124.168","port":24040,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"Relay_🇨🇳CN-🇹🇼TW_218\r","server":"14.29.124.168","port":24035,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"Relay_🇨🇳CN-🇹🇼TW_217\r","server":"hz.bgp.rx.naiun.pw","port":45392,"cipher":"chacha20-ietf-poly1305","password":"8b460b5c-22cc-463b-b50a-44cf63bdca08"}
-  - {"type":"ss","name":"Relay_🇨🇳CN-🇹🇼TW_207\r","server":"14.29.124.168","port":24015,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"Relay_🇨🇳CN-🇹🇼TW_204\r","server":"14.29.124.168","port":24036,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"Relay_🇨🇳CN-🇹🇼TW_203\r","server":"14.29.124.168","port":24013,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"Relay_🇨🇳CN-🇹🇼TW_202\r","server":"14.29.124.168","port":24010,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"Relay_🇨🇳CN-🇹🇼TW_199\r","server":"14.29.124.168","port":24089,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"Relay_🇨🇳CN-🇷🇺RU_208\r","server":"hz.bgp.rx.naiun.pw","port":45240,"cipher":"chacha20-ietf-poly1305","password":"8b460b5c-22cc-463b-b50a-44cf63bdca08"}
-  - {"type":"vmess","name":"Relay_🇨🇳CN-🇱🇺LU_271","ws-opts":{"path":"/ws","headers":{"host":"83041227-55a7-4080-b7e1-9dfc7478ddb0.gz.node.touhou.place"}},"server":"83041227-55a7-4080-b7e1-9dfc7478ddb0.gz.node.touhou.place","port":"8904","uuid":"d7fd73dc-cf42-3a1a-9258-2b28641b4b35","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"Relay_🇨🇳CN-🇯🇵JP_234\r","server":"hz.bgp.rx.naiun.pw","port":45183,"cipher":"chacha20-ietf-poly1305","password":"8b460b5c-22cc-463b-b50a-44cf63bdca08"}
-  - {"type":"vmess","name":"Relay_🇨🇳CN-🇭🇰HK_262","ws-opts":{"path":"/","headers":{"host":"hz.bgp.rx.naiun.pw"}},"server":"hz.bgp.rx.naiun.pw","port":"45250","uuid":"8b460b5c-22cc-463b-b50a-44cf63bdca08","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Relay_🇨🇳CN-🇺🇸US_196","ws-opts":{"path":"/","headers":{"host":"gz.bgp.rx.naiun.pw"}},"server":"gz.bgp.rx.naiun.pw","port":"45413","uuid":"8b460b5c-22cc-463b-b50a-44cf63bdca08","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Relay_🇨🇳CN-🇷🇺RU_197","ws-opts":{"path":"/","headers":{"host":"gz.bgp.rx.naiun.pw"}},"server":"gz.bgp.rx.naiun.pw","port":"45239","uuid":"8b460b5c-22cc-463b-b50a-44cf63bdca08","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"NL_671\r","server":"213.183.59.190","port":9006,"cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
-  - {"type":"ss","name":"NL_670\r","server":"213.183.59.211","port":9061,"cipher":"aes-256-cfb","password":"4R3hUfZ2FHhDmNcP"}
-  - {"type":"ss","name":"NL_669\r","server":"213.183.59.211","port":9038,"cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ"}
-  - {"type":"ss","name":"NL_667\r","server":"213.183.59.214","port":9010,"cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
-  - {"type":"ss","name":"NL_647\r","server":"213.183.59.214","port":9027,"cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
-  - {"type":"trojan","name":"GB_625\r","server":"de-02.fireplay.io","port":443,"password":"YrnU2nhCTrx7aPLU","udp":true,"skip-cert-verify":true,"sni":"de-02.fireplay.io"}
-  - {"type":"trojan","name":"GB_624\r","server":"de-03.fireplay.io","port":443,"password":"63X7Dg58EII2qt6f","udp":true,"skip-cert-verify":true,"sni":"de-03.fireplay.io"}
-  - {"type":"trojan","name":"GB_623\r","server":"jgwcc1.gaox.ml","port":443,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a","udp":true,"skip-cert-verify":true,"sni":"jgwcc1.gaox.ml"}
-  - {"type":"trojan","name":"GB_622\r","server":"s3.upyun.online","port":12340,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","udp":true,"skip-cert-verify":true,"sni":"s3.upyun.online"}
-  - {"type":"trojan","name":"DE_614\r","server":"s4.upyun.online","port":12340,"password":"c0276440-f163-4f40-a08c-78b158ce6c4f","udp":true,"skip-cert-verify":true,"sni":"s4.upyun.online"}
-  - {"type":"vmess","name":"CN_590","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1980","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"CN_589","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"CN_588","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1040","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"CN_587","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1930","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"CN_584\r","server":"14.29.124.168","port":25271,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_583\r","server":"14.29.124.168","port":25235,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_582\r","server":"14.29.124.168","port":25241,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_581\r","server":"momuz.sulink.cn","port":19016,"cipher":"aes-256-cfb","password":"z20010608"}
-  - {"type":"ss","name":"CN_236\r","server":"14.29.124.168","port":25294,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_231\r","server":"14.29.124.168","port":25219,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_230\r","server":"14.29.124.168","port":25268,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_228\r","server":"14.29.124.168","port":25296,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_227\r","server":"14.29.124.168","port":25233,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_222\r","server":"14.29.124.168","port":25247,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_216\r","server":"14.29.124.168","port":25238,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_214\r","server":"14.29.124.168","port":25220,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_213\r","server":"14.29.124.168","port":25256,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_212\r","server":"gz.bgp.rx.naiun.pw","port":45183,"cipher":"chacha20-ietf-poly1305","password":"8b460b5c-22cc-463b-b50a-44cf63bdca08"}
-  - {"type":"ss","name":"CN_211\r","server":"14.29.124.168","port":25267,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_210\r","server":"14.29.124.168","port":25259,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_206\r","server":"14.29.124.168","port":25266,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_205\r","server":"14.29.124.168","port":25230,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_201\r","server":"14.29.124.168","port":25222,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN_200\r","server":"14.29.124.168","port":25231,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"_30\r","server":"14.29.124.168","port":24052,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"_27\r","server":"14.29.124.168","port":24055,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"_23\r","server":"217.30.10.63","port":9024,"cipher":"aes-256-cfb","password":"BejrQvtu9sqUeNuZ"}
-  - {"type":"ss","name":"_22\r","server":"217.30.10.63","port":9084,"cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
-  - {"type":"ss","name":"_21\r","server":"217.30.10.63","port":9018,"cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
-  - {"type":"ss","name":"_20\r","server":"217.30.10.63","port":9043,"cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
-  - {"type":"ss","name":"_17\r","server":"103.172.116.9","port":9006,"cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
-  - {"type":"ss","name":"_16\r","server":"213.183.63.218","port":9000,"cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
-  - {"type":"ss","name":"_15\r","server":"217.30.10.64","port":9043,"cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
-  - {"type":"ss","name":"_13\r","server":"217.30.10.63","port":9056,"cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
-  - {"type":"ss","name":"_11\r","server":"217.30.10.63","port":9064,"cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
-  - {"type":"ss","name":"_10\r","server":"217.30.10.63","port":9093,"cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
-  - {"type":"ss","name":"_06\r","server":"217.30.10.63","port":9027,"cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
+  - {"type":"vmess","name":"github.com/freefq-美国内华达州拉斯维加斯BuyVM3_1","ws-opts":{"path":"/v2ray","headers":{"host":"205.185.124.145"}},"server":"205.185.124.145","port":"85","uuid":"887a1c68-4665-3e74-a911-4e2be6f2e82f","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"github.com/freefq-澳大利亚悉尼Oracle云计算数据中心43\r","server":"neteasy.ga","port":28931,"password":"MnROfwtPYa","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1420","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"github.com/freefq-美国22\r_1","server":"snacks.starspace.link","port":443,"password":"0lbw6RXSl7eqCYMv","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-乌克兰17\r_1","server":"bl.zzk8.me","port":40555,"password":"9cb14d0f-9a55-426e-9f04-905ca30cf3ee","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-广东省广州市移动41_1","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点47","ws-opts":{"path":"xxX3","headers":{"host":"web1.wweblog.pw"}},"server":"172.64.94.238","port":"2053","uuid":"80e098a1-f768-3dfb-b97f-6c3a5d34bcd8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_2","server":"bgpv2.ktyjsq.com","port":"12229","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点27_1","ws-opts":{"path":"/go","headers":{"host":"lu1.gogogoo.cyou"}},"server":"lu1.gogogoo.cyou","port":"443","uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"欧洲(欢迎订阅Youtube破解资源君)\r_1","server":"jgwld4.gaox.ml","port":443,"password":"58d32c66-43b1-4561-9951-d87c9123774e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-英国25\r_1","server":"de-03.fireplay.io","port":443,"password":"63X7Dg58EII2qt6f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-英国伦敦Oracle云计算数据中心14\r_1","server":"jgwld3.gaox.ml","port":443,"password":"71b55a84-3fac-4458-abff-eaad79219c91","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"US-高速节点推荐：v2cross.com","ws-opts":{"path":"/","headers":{"host":"ocrb2.moonfree.top"}},"server":"ocrb2.moonfree.top","port":"443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-广东省揭阳市移动42_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i1.onebox6.org","port":"38201","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-广东省揭阳市移动42_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i1.onebox6.org","port":"38201","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"github.com/freefq-美国45\r_1","server":"fhcarm1.gaox.ml","port":443,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点27_2","ws-opts":{"path":"/go","headers":{"host":"lu1.gogogoo.cyou"}},"server":"lu1.gogogoo.cyou","port":"443","uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"github.com/freefq-英国25\r_2","server":"de-03.fireplay.io","port":443,"password":"63X7Dg58EII2qt6f","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳CN_346|0.99Mb_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"github.com/freefq-美国45\r_2","server":"fhcarm1.gaox.ml","port":443,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US-高速节点购买：v2cross.com\r_1","server":"storage.starspace.link","port":443,"password":"W8gVbKNAZlFzgGPn","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_3","server":"bgpv2.ktyjsq.com","port":"12222","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"github.com/freefq-美国10\r_1","server":"events.starspace.link","port":443,"password":"3RWFPCmWd4lYIMof","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_4","ws-opts":{"path":"/ray","headers":{"host":"331tw.fans8.xyz"}},"server":"331tw.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"US-高速节点购买：v2cross.com\r_2","server":"wireless.starspace.link","port":443,"password":"5LN8SGTqxk336nFg","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US-高速节点购买：v2cross.com\r_3","server":"wireless.starspace.link","port":443,"password":"5LN8SGTqxk336nFg","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_5","ws-opts":{"path":"/ray","headers":{"host":"426hk.fans8.xyz"}},"server":"426hk.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_6","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com-广东省揭阳市移动42","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i1.onebox6.org","port":"38201","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"github.com/freefq-美国13\r_1","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"俄罗斯(欢迎订阅Youtube破解资源君)_1","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v1.ssrsub.com"}},"server":"v1.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v1.ssrsub.com"}},"server":"v1.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare公司CDN节点37_1","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v3.ssrsub.com"}},"server":"v3.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"美国(欢迎订阅Youtube破解资源君)\r_1","server":"lsj02.wangxd.life","port":3052,"password":"3a2c0c6c-9ee5-c05f-c951-fcd73831983e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"美国(欢迎订阅Youtube破解资源君)\r_2","server":"storage.starspace.link","port":443,"password":"W8gVbKNAZlFzgGPn","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US-高速节点购买：v2cross.com\r_4","server":"wireless.starspace.link","port":443,"password":"5LN8SGTqxk336nFg","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare公司CDN节点37_2","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v3.ssrsub.com"}},"server":"v3.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"新加坡(欢迎订阅Youtube破解资源君)\r","server":"sgp.sharecentre.xyz","port":443,"password":"sharecentre","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_7","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm09.bdate.xyz","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"github.com/freefq-乌克兰17\r_2","server":"bl.zzk8.me","port":40555,"password":"9cb14d0f-9a55-426e-9f04-905ca30cf3ee","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@SSRSUB-V06-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm09.bdate.xyz","port":"1510","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"俄罗斯(欢迎订阅Youtube破解资源君)_2","ws-opts":{"path":"/ray","headers":{"host":"422wkl.fans8.xyz"}},"server":"422wkl.fans8.xyz","port":"443","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"亚洲(欢迎订阅Youtube破解资源君)_1","ws-opts":{"path":"/ray","headers":{"host":"511hk.fans8.xyz"}},"server":"511hk.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@SSRSUB-V19-付费推荐:suo.yt/ssrsub","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"github.com/freefq-英国伦敦Oracle云计算数据中心14\r_2","server":"jgwld3.gaox.ml","port":443,"password":"71b55a84-3fac-4458-abff-eaad79219c91","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"亚洲(欢迎订阅Youtube破解资源君)_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1980","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"CN-高速节点推荐：v2cross.com_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-广东省移动39_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm09.bdate.xyz","port":"1510","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v2.ssrsub.com"}},"server":"v2.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_8","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"104.166.135.10","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare公司CDN节点26_1","server":"oz.moonfree.top","port":"443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare公司CDN节点26_2","server":"oz.moonfree.top","port":"443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"JP-高速节点购买：v2cross.com\r_1","server":"jp1.trojan.tel","port":443,"password":"f736834f-1fc8-4738-9884-9afe0eb0d818","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"亚洲(欢迎订阅Youtube破解资源君)_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1350","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"CN-高速节点推荐：v2cross.com_2","server":"bgpv2.ktyjsq.com","port":"12223","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳CN_346|0.99Mb_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-广东省广州市移动41_2","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"俄罗斯(欢迎订阅Youtube破解资源君)_3","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-广东省揭阳市移动35_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"US-高速节点购买：v2cross.com\r_5","server":"storage.starspace.link","port":443,"password":"W8gVbKNAZlFzgGPn","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-美国22\r_2","server":"snacks.starspace.link","port":443,"password":"0lbw6RXSl7eqCYMv","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"美国(欢迎订阅Youtube破解资源君)\r_3","server":"events.starspace.link","port":443,"password":"3RWFPCmWd4lYIMof","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳CN_591","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i2.onebox6.org","port":"38101","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"github.com/freefq-美国13\r_2","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"日本(欢迎订阅Youtube破解资源君)\r_1","server":"jgwcc3.gaox.ml","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-美国10\r_2","server":"events.starspace.link","port":443,"password":"3RWFPCmWd4lYIMof","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_9","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1930","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"亚洲(欢迎订阅Youtube破解资源君)_4","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"CN-高速节点推荐：v2cross.com_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm09.bdate.xyz","port":"1260","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-广东省移动39_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm09.bdate.xyz","port":"1510","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"CZ-高速节点推荐：v2cross.com\r","server":"cz5.v2ce.com","port":443,"password":"HTrovQkamDxNfaD5","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-美国13\r_3","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-美国10\r_3","server":"events.starspace.link","port":443,"password":"3RWFPCmWd4lYIMof","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"俄罗斯(欢迎订阅Youtube破解资源君)_4","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v2.ssrsub.com"}},"server":"v2.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TW-高速节点购买：v2cross.com_1","ws-opts":{"path":"/ray","headers":{"host":"330tw.fans8.xyz"}},"server":"330tw.fans8.xyz","port":"443","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点27_3","ws-opts":{"path":"/go","headers":{"host":"lu1.gogogoo.cyou"}},"server":"lu1.gogogoo.cyou","port":"443","uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"v2cross.com-美国10\r","server":"events.starspace.link","port":443,"password":"3RWFPCmWd4lYIMof","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US-高速节点推荐：v2cross.com\r_1","server":"storage.starspace.link","port":443,"password":"W8gVbKNAZlFzgGPn","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"亚洲(欢迎订阅Youtube破解资源君)_5","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"RU-高速节点购买：v2cross.com_1","ws-opts":{"path":"/ray","headers":{"host":"331tw.fans8.xyz"}},"server":"331tw.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"美国(欢迎订阅Youtube破解资源君)\r_4","server":"wireless.starspace.link","port":443,"password":"5LN8SGTqxk336nFg","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"亚洲(欢迎订阅Youtube破解资源君)_6","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i2.onebox6.org","port":"38104","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"俄罗斯(欢迎订阅Youtube破解资源君)_5","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"美国(欢迎订阅Youtube破解资源君)\r_5","server":"holidays.starspace.link","port":443,"password":"XCPKaaV8I1rmb7Ai","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"RU-高速节点购买：v2cross.com_2","ws-opts":{"path":"/ray","headers":{"host":"331tw.fans8.xyz"}},"server":"331tw.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-广东省揭阳市移动36_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i2.onebox6.org","port":"38101","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-广东省揭阳市移动36_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i2.onebox6.org","port":"38101","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"亚洲(欢迎订阅Youtube破解资源君)_7","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}},"server":"ingress-i1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-广东省揭阳市移动35_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"亚洲(欢迎订阅Youtube破解资源君)_8","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i1.onebox6.org","port":"38201","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"台湾(欢迎订阅Youtube破解资源君)","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1320","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"US-高速节点购买：v2cross.com\r_6","server":"storage.starspace.link","port":443,"password":"W8gVbKNAZlFzgGPn","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"美国(欢迎订阅Youtube破解资源君)\r_6","server":"outdoor.starspace.link","port":443,"password":"4brytjljFgnUu3WU","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"美国(欢迎订阅Youtube破解资源君)\r_7","server":"rooms.starspace.link","port":443,"password":"5HfENR8nt2PR8reH","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP-高速节点购买：v2cross.com\r_2","server":"jp1.trojan.tel","port":443,"password":"f736834f-1fc8-4738-9884-9afe0eb0d818","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"美国(欢迎订阅Youtube破解资源君)\r_8","server":"snacks.starspace.link","port":443,"password":"0lbw6RXSl7eqCYMv","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_10","server":"120.232.239.6","port":"31220","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-广东省揭阳市移动35_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_11","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1370","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@SSRSUB-V08-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i2.onebox6.org","port":"38104","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"亚洲(欢迎订阅Youtube破解资源君)_9","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm09.bdate.xyz","port":"1510","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-广东省揭阳市移动36_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i2.onebox6.org","port":"38101","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_12","ws-opts":{"path":"/ray","headers":{"host":"51jp1.fans8.xyz"}},"server":"51jp1.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_13","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm09.bdate.xyz","port":"1040","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"SG-高速节点推荐：v2cross.com","ws-opts":{"path":"/54f634fs","headers":{"host":"v2-2.godlight.xyz"}},"server":"v2-2.godlight.xyz","port":"27000","uuid":"43308d27-94ec-408e-a8f6-d682cfb99ca9","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"github.com/freefq-美国22\r_3","server":"snacks.starspace.link","port":443,"password":"0lbw6RXSl7eqCYMv","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇭🇰HK_281","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i2.onebox6.org","port":"38104","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳CN_346|0.99Mb_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"JP-高速节点购买：v2cross.com\r_3","server":"jp1.trojan.tel","port":443,"password":"f736834f-1fc8-4738-9884-9afe0eb0d818","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"亚洲(欢迎订阅Youtube破解资源君)_10","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i1.onebox6.org","port":"38106","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@SSRSUB-V12-付费推荐:suo.yt/ssrsub","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"v2cross.com-美国内华达州拉斯维加斯BuyVM3","ws-opts":{"path":"/v2ray","headers":{"host":"205.185.124.145"}},"server":"205.185.124.145","port":"85","uuid":"887a1c68-4665-3e74-a911-4e2be6f2e82f","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_14","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","port":"1580","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-美国内华达州拉斯维加斯BuyVM3_2","ws-opts":{"path":"/v2ray","headers":{"host":"205.185.124.145"}},"server":"205.185.124.145","port":"85","uuid":"887a1c68-4665-3e74-a911-4e2be6f2e82f","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-美国内华达州拉斯维加斯BuyVM3_3","ws-opts":{"path":"/v2ray","headers":{"host":"205.185.124.145"}},"server":"205.185.124.145","port":"85","uuid":"887a1c68-4665-3e74-a911-4e2be6f2e82f","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"104.166.135.10","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"亚洲(欢迎订阅Youtube破解资源君)_11","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i2.onebox6.org","port":"38101","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"美国(欢迎订阅Youtube破解资源君)\r_9","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US-高速节点推荐：v2cross.com\r_2","server":"jgwcc2.gaox.ml","port":443,"password":"9c822f05-cfdc-479a-9534-60f3d4127435","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"AU-高速节点推荐：v2cross.com\r","server":"jgwxn3.gaox.ml","port":443,"password":"cb43b7c2-b744-41c5-bcc2-fd7467b332cf","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"RU-高速节点购买：v2cross.com_3","ws-opts":{"path":"/ray","headers":{"host":"331tw.fans8.xyz"}},"server":"331tw.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"github.com/freefq-英国25\r_3","server":"de-03.fireplay.io","port":443,"password":"63X7Dg58EII2qt6f","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"TW-高速节点购买：v2cross.com_2","ws-opts":{"path":"/ray","headers":{"host":"330tw.fans8.xyz"}},"server":"330tw.fans8.xyz","port":"443","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"github.com/freefq-英国伦敦Oracle云计算数据中心14\r_3","server":"jgwld3.gaox.ml","port":443,"password":"71b55a84-3fac-4458-abff-eaad79219c91","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@SSRSUB-V10-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-广东省广州市移动41_3","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"default_name","ws-opts":{"path":"/"},"server":"oz.moonfree.top","port":"443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"欧洲(欢迎订阅Youtube破解资源君)\r_2","server":"de-03.fireplay.io","port":443,"password":"63X7Dg58EII2qt6f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"日本(欢迎订阅Youtube破解资源君)\r_2","server":"jp1.trojan.tel","port":443,"password":"f736834f-1fc8-4738-9884-9afe0eb0d818","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"v2cross.com-美国8\r_1","server":"fhcarm2.gaox.ml","port":443,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"美国(欢迎订阅Youtube破解资源君)","ws-opts":{"path":"/movies","headers":{"host":"douban.babazhuji.com"}},"server":"douban.babazhuji.com","port":"443","uuid":"27848739-7e62-4138-9fd3-098a63964b6b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"github.com/freefq-美国45\r_3","server":"fhcarm1.gaox.ml","port":443,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"v2cross.com-美国8\r_2","server":"fhcarm2.gaox.ml","port":443,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v3.ssrsub.com"}},"server":"v3.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare公司CDN节点37_3","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v3.ssrsub.com"}},"server":"v3.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TW-高速节点购买：v2cross.com_3","ws-opts":{"path":"/ray","headers":{"host":"330tw.fans8.xyz"}},"server":"330tw.fans8.xyz","port":"443","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"美国(欢迎订阅Youtube破解资源君)\r_10","server":"living.starspace.link","port":443,"password":"NNhSlVRhte1Vzw5D","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"v2cross.com-美国8\r_3","server":"fhcarm2.gaox.ml","port":443,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_15","ws-opts":{"path":"xxX2","headers":{"host":"web1.wweblog.pw"}},"server":"172.66.47.44","port":"2053","uuid":"80e098a1-f768-3dfb-b97f-6c3a5d34bcd8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-广东省揭阳市移动42_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i1.onebox6.org","port":"38201","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"亚洲(欢迎订阅Youtube破解资源君)_12","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}},"server":"ingress-i1.onebox6.org","port":"38201","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"v2cross.com\r","server":"cg.rutracker-cn.com","port":443,"uuid":"72972da9-d188-40c6-83a6-4ec28fde2c0a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","headers":{"path":"/xxPb49hL0C","servername":"cg.rutracker-cn.com"}}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare公司CDN节点26_3","server":"oz.moonfree.top","port":"443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@SSRSUB-V11-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i1.onebox6.org","port":"38106","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@SSRSUB-V09-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}},"server":"ingress-i1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-广东省移动39_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm09.bdate.xyz","port":"1510","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "US_800\r"
-      - "US_799\r"
-      - "US_795\r"
-      - "US_794\r"
-      - "US_793\r"
-      - "US_790\r"
-      - "US_789\r"
-      - "US_788\r"
-      - "US_787\r"
-      - "US_786\r"
-      - "US_785\r"
-      - "US_783\r"
-      - "US_782\r"
-      - "US_773\r"
-      - "SG_693\r"
-      - Relay_🇨🇳CN-🇺🇸US_275
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - Relay_🇨🇳CN-🇹🇼TW_277
-      - "Relay_🇨🇳CN-🇹🇼TW_235\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_232\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_229\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_218\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_217\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_207\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_204\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_203\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_202\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_199\r"
-      - "Relay_🇨🇳CN-🇷🇺RU_208\r"
-      - Relay_🇨🇳CN-🇱🇺LU_271
-      - "Relay_🇨🇳CN-🇯🇵JP_234\r"
-      - Relay_🇨🇳CN-🇭🇰HK_262
-      - Relay_🇨🇳CN-🇺🇸US_196
-      - Relay_🇨🇳CN-🇷🇺RU_197
-      - "NL_671\r"
-      - "NL_670\r"
-      - "NL_669\r"
-      - "NL_667\r"
-      - "NL_647\r"
-      - "GB_625\r"
-      - "GB_624\r"
-      - "GB_623\r"
-      - "GB_622\r"
-      - "DE_614\r"
-      - CN_590
-      - CN_589
-      - CN_588
-      - CN_587
-      - "CN_584\r"
-      - "CN_583\r"
-      - "CN_582\r"
-      - "CN_581\r"
-      - "CN_236\r"
-      - "CN_231\r"
-      - "CN_230\r"
-      - "CN_228\r"
-      - "CN_227\r"
-      - "CN_222\r"
-      - "CN_216\r"
-      - "CN_214\r"
-      - "CN_213\r"
-      - "CN_212\r"
-      - "CN_211\r"
-      - "CN_210\r"
-      - "CN_206\r"
-      - "CN_205\r"
-      - "CN_201\r"
-      - "CN_200\r"
-      - "_30\r"
-      - "_27\r"
-      - "_23\r"
-      - "_22\r"
-      - "_21\r"
-      - "_20\r"
-      - "_17\r"
-      - "_16\r"
-      - "_15\r"
-      - "_13\r"
-      - "_11\r"
-      - "_10\r"
-      - "_06\r"
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_1
+      - "github.com/freefq-澳大利亚悉尼Oracle云计算数据中心43\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
+      - "github.com/freefq-美国22\r_1"
+      - "github.com/freefq-乌克兰17\r_1"
+      - github.com/freefq-广东省广州市移动41_1
+      - github.com/freefq-美国CloudFlare节点47
+      - 欧洲(欢迎订阅Youtube破解资源君)_2
+      - github.com/freefq-美国CloudFlare节点27_1
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-英国25\r_1"
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_1"
+      - US-高速节点推荐：v2cross.com
+      - github.com/freefq-广东省揭阳市移动42_1
+      - github.com/freefq-广东省揭阳市移动42_2
+      - "github.com/freefq-美国45\r_1"
+      - github.com/freefq-美国CloudFlare节点27_2
+      - "github.com/freefq-英国25\r_2"
+      - 🇨🇳CN_346|0.99Mb_1
+      - "github.com/freefq-美国45\r_2"
+      - "US-高速节点购买：v2cross.com\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - "github.com/freefq-美国10\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_4
+      - "US-高速节点购买：v2cross.com\r_2"
+      - "US-高速节点购买：v2cross.com\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - v2cross.com-广东省揭阳市移动42
+      - "github.com/freefq-美国13\r_1"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_1"
+      - "美国(欢迎订阅Youtube破解资源君)\r_2"
+      - "US-高速节点购买：v2cross.com\r_4"
+      - github.com/freefq-美国CloudFlare公司CDN节点37_2
+      - "新加坡(欢迎订阅Youtube破解资源君)\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_7
+      - "github.com/freefq-乌克兰17\r_2"
+      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_2"
+      - 亚洲(欢迎订阅Youtube破解资源君)_2
+      - CN-高速节点推荐：v2cross.com_1
+      - github.com/freefq-广东省移动39_1
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - github.com/freefq-美国CloudFlare公司CDN节点26_1
+      - github.com/freefq-美国CloudFlare公司CDN节点26_2
+      - "JP-高速节点购买：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_3
+      - CN-高速节点推荐：v2cross.com_2
+      - 🇨🇳CN_346|0.99Mb_2
+      - github.com/freefq-广东省广州市移动41_2
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_3
+      - github.com/freefq-广东省揭阳市移动35_1
+      - "US-高速节点购买：v2cross.com\r_5"
+      - "github.com/freefq-美国22\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_3"
+      - 🇨🇳CN_591
+      - "github.com/freefq-美国13\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-美国10\r_2"
+      - 欧洲(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_4
+      - CN-高速节点推荐：v2cross.com_3
+      - github.com/freefq-广东省移动39_2
+      - "CZ-高速节点推荐：v2cross.com\r"
+      - "github.com/freefq-美国13\r_3"
+      - "github.com/freefq-美国10\r_3"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_4
+      - TW-高速节点购买：v2cross.com_1
+      - github.com/freefq-美国CloudFlare节点27_3
+      - "v2cross.com-美国10\r"
+      - "US-高速节点推荐：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_5
+      - RU-高速节点购买：v2cross.com_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_4"
+      - 亚洲(欢迎订阅Youtube破解资源君)_6
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_5
+      - "美国(欢迎订阅Youtube破解资源君)\r_5"
+      - RU-高速节点购买：v2cross.com_2
+      - github.com/freefq-广东省揭阳市移动36_1
+      - github.com/freefq-广东省揭阳市移动36_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_7
+      - github.com/freefq-广东省揭阳市移动35_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_8
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - "US-高速节点购买：v2cross.com\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_7"
+      - "JP-高速节点购买：v2cross.com\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_8"
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - github.com/freefq-广东省揭阳市移动35_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - 亚洲(欢迎订阅Youtube破解资源君)_9
+      - github.com/freefq-广东省揭阳市移动36_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - SG-高速节点推荐：v2cross.com
+      - "github.com/freefq-美国22\r_3"
+      - Relay_🇨🇳CN-🇭🇰HK_281
+      - 🇨🇳CN_346|0.99Mb_3
+      - "JP-高速节点购买：v2cross.com\r_3"
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - v2cross.com-美国内华达州拉斯维加斯BuyVM3
+      - 欧洲(欢迎订阅Youtube破解资源君)_14
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_2
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_3
+      - 🇺🇸_US_美国
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - "美国(欢迎订阅Youtube破解资源君)\r_9"
+      - "US-高速节点推荐：v2cross.com\r_2"
+      - "AU-高速节点推荐：v2cross.com\r"
+      - RU-高速节点购买：v2cross.com_3
+      - "github.com/freefq-英国25\r_3"
+      - TW-高速节点购买：v2cross.com_2
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_3"
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省广州市移动41_3
+      - default_name
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_2"
+      - "v2cross.com-美国8\r_1"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - "github.com/freefq-美国45\r_3"
+      - "v2cross.com-美国8\r_2"
+      - '@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_3
+      - TW-高速节点购买：v2cross.com_3
+      - "美国(欢迎订阅Youtube破解资源君)\r_10"
+      - "v2cross.com-美国8\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_15
+      - github.com/freefq-广东省揭阳市移动42_3
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - "v2cross.com\r"
+      - github.com/freefq-美国CloudFlare公司CDN节点26_3
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省移动39_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "US_800\r"
-      - "US_799\r"
-      - "US_795\r"
-      - "US_794\r"
-      - "US_793\r"
-      - "US_790\r"
-      - "US_789\r"
-      - "US_788\r"
-      - "US_787\r"
-      - "US_786\r"
-      - "US_785\r"
-      - "US_783\r"
-      - "US_782\r"
-      - "US_773\r"
-      - "SG_693\r"
-      - Relay_🇨🇳CN-🇺🇸US_275
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - Relay_🇨🇳CN-🇹🇼TW_277
-      - "Relay_🇨🇳CN-🇹🇼TW_235\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_232\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_229\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_218\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_217\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_207\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_204\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_203\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_202\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_199\r"
-      - "Relay_🇨🇳CN-🇷🇺RU_208\r"
-      - Relay_🇨🇳CN-🇱🇺LU_271
-      - "Relay_🇨🇳CN-🇯🇵JP_234\r"
-      - Relay_🇨🇳CN-🇭🇰HK_262
-      - Relay_🇨🇳CN-🇺🇸US_196
-      - Relay_🇨🇳CN-🇷🇺RU_197
-      - "NL_671\r"
-      - "NL_670\r"
-      - "NL_669\r"
-      - "NL_667\r"
-      - "NL_647\r"
-      - "GB_625\r"
-      - "GB_624\r"
-      - "GB_623\r"
-      - "GB_622\r"
-      - "DE_614\r"
-      - CN_590
-      - CN_589
-      - CN_588
-      - CN_587
-      - "CN_584\r"
-      - "CN_583\r"
-      - "CN_582\r"
-      - "CN_581\r"
-      - "CN_236\r"
-      - "CN_231\r"
-      - "CN_230\r"
-      - "CN_228\r"
-      - "CN_227\r"
-      - "CN_222\r"
-      - "CN_216\r"
-      - "CN_214\r"
-      - "CN_213\r"
-      - "CN_212\r"
-      - "CN_211\r"
-      - "CN_210\r"
-      - "CN_206\r"
-      - "CN_205\r"
-      - "CN_201\r"
-      - "CN_200\r"
-      - "_30\r"
-      - "_27\r"
-      - "_23\r"
-      - "_22\r"
-      - "_21\r"
-      - "_20\r"
-      - "_17\r"
-      - "_16\r"
-      - "_15\r"
-      - "_13\r"
-      - "_11\r"
-      - "_10\r"
-      - "_06\r"
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_1
+      - "github.com/freefq-澳大利亚悉尼Oracle云计算数据中心43\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
+      - "github.com/freefq-美国22\r_1"
+      - "github.com/freefq-乌克兰17\r_1"
+      - github.com/freefq-广东省广州市移动41_1
+      - github.com/freefq-美国CloudFlare节点47
+      - 欧洲(欢迎订阅Youtube破解资源君)_2
+      - github.com/freefq-美国CloudFlare节点27_1
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-英国25\r_1"
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_1"
+      - US-高速节点推荐：v2cross.com
+      - github.com/freefq-广东省揭阳市移动42_1
+      - github.com/freefq-广东省揭阳市移动42_2
+      - "github.com/freefq-美国45\r_1"
+      - github.com/freefq-美国CloudFlare节点27_2
+      - "github.com/freefq-英国25\r_2"
+      - 🇨🇳CN_346|0.99Mb_1
+      - "github.com/freefq-美国45\r_2"
+      - "US-高速节点购买：v2cross.com\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - "github.com/freefq-美国10\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_4
+      - "US-高速节点购买：v2cross.com\r_2"
+      - "US-高速节点购买：v2cross.com\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - v2cross.com-广东省揭阳市移动42
+      - "github.com/freefq-美国13\r_1"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_1"
+      - "美国(欢迎订阅Youtube破解资源君)\r_2"
+      - "US-高速节点购买：v2cross.com\r_4"
+      - github.com/freefq-美国CloudFlare公司CDN节点37_2
+      - "新加坡(欢迎订阅Youtube破解资源君)\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_7
+      - "github.com/freefq-乌克兰17\r_2"
+      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_2"
+      - 亚洲(欢迎订阅Youtube破解资源君)_2
+      - CN-高速节点推荐：v2cross.com_1
+      - github.com/freefq-广东省移动39_1
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - github.com/freefq-美国CloudFlare公司CDN节点26_1
+      - github.com/freefq-美国CloudFlare公司CDN节点26_2
+      - "JP-高速节点购买：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_3
+      - CN-高速节点推荐：v2cross.com_2
+      - 🇨🇳CN_346|0.99Mb_2
+      - github.com/freefq-广东省广州市移动41_2
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_3
+      - github.com/freefq-广东省揭阳市移动35_1
+      - "US-高速节点购买：v2cross.com\r_5"
+      - "github.com/freefq-美国22\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_3"
+      - 🇨🇳CN_591
+      - "github.com/freefq-美国13\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-美国10\r_2"
+      - 欧洲(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_4
+      - CN-高速节点推荐：v2cross.com_3
+      - github.com/freefq-广东省移动39_2
+      - "CZ-高速节点推荐：v2cross.com\r"
+      - "github.com/freefq-美国13\r_3"
+      - "github.com/freefq-美国10\r_3"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_4
+      - TW-高速节点购买：v2cross.com_1
+      - github.com/freefq-美国CloudFlare节点27_3
+      - "v2cross.com-美国10\r"
+      - "US-高速节点推荐：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_5
+      - RU-高速节点购买：v2cross.com_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_4"
+      - 亚洲(欢迎订阅Youtube破解资源君)_6
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_5
+      - "美国(欢迎订阅Youtube破解资源君)\r_5"
+      - RU-高速节点购买：v2cross.com_2
+      - github.com/freefq-广东省揭阳市移动36_1
+      - github.com/freefq-广东省揭阳市移动36_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_7
+      - github.com/freefq-广东省揭阳市移动35_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_8
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - "US-高速节点购买：v2cross.com\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_7"
+      - "JP-高速节点购买：v2cross.com\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_8"
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - github.com/freefq-广东省揭阳市移动35_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - 亚洲(欢迎订阅Youtube破解资源君)_9
+      - github.com/freefq-广东省揭阳市移动36_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - SG-高速节点推荐：v2cross.com
+      - "github.com/freefq-美国22\r_3"
+      - Relay_🇨🇳CN-🇭🇰HK_281
+      - 🇨🇳CN_346|0.99Mb_3
+      - "JP-高速节点购买：v2cross.com\r_3"
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - v2cross.com-美国内华达州拉斯维加斯BuyVM3
+      - 欧洲(欢迎订阅Youtube破解资源君)_14
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_2
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_3
+      - 🇺🇸_US_美国
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - "美国(欢迎订阅Youtube破解资源君)\r_9"
+      - "US-高速节点推荐：v2cross.com\r_2"
+      - "AU-高速节点推荐：v2cross.com\r"
+      - RU-高速节点购买：v2cross.com_3
+      - "github.com/freefq-英国25\r_3"
+      - TW-高速节点购买：v2cross.com_2
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_3"
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省广州市移动41_3
+      - default_name
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_2"
+      - "v2cross.com-美国8\r_1"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - "github.com/freefq-美国45\r_3"
+      - "v2cross.com-美国8\r_2"
+      - '@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_3
+      - TW-高速节点购买：v2cross.com_3
+      - "美国(欢迎订阅Youtube破解资源君)\r_10"
+      - "v2cross.com-美国8\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_15
+      - github.com/freefq-广东省揭阳市移动42_3
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - "v2cross.com\r"
+      - github.com/freefq-美国CloudFlare公司CDN节点26_3
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省移动39_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "US_800\r"
-      - "US_799\r"
-      - "US_795\r"
-      - "US_794\r"
-      - "US_793\r"
-      - "US_790\r"
-      - "US_789\r"
-      - "US_788\r"
-      - "US_787\r"
-      - "US_786\r"
-      - "US_785\r"
-      - "US_783\r"
-      - "US_782\r"
-      - "US_773\r"
-      - "SG_693\r"
-      - Relay_🇨🇳CN-🇺🇸US_275
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - Relay_🇨🇳CN-🇹🇼TW_277
-      - "Relay_🇨🇳CN-🇹🇼TW_235\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_232\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_229\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_218\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_217\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_207\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_204\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_203\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_202\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_199\r"
-      - "Relay_🇨🇳CN-🇷🇺RU_208\r"
-      - Relay_🇨🇳CN-🇱🇺LU_271
-      - "Relay_🇨🇳CN-🇯🇵JP_234\r"
-      - Relay_🇨🇳CN-🇭🇰HK_262
-      - Relay_🇨🇳CN-🇺🇸US_196
-      - Relay_🇨🇳CN-🇷🇺RU_197
-      - "NL_671\r"
-      - "NL_670\r"
-      - "NL_669\r"
-      - "NL_667\r"
-      - "NL_647\r"
-      - "GB_625\r"
-      - "GB_624\r"
-      - "GB_623\r"
-      - "GB_622\r"
-      - "DE_614\r"
-      - CN_590
-      - CN_589
-      - CN_588
-      - CN_587
-      - "CN_584\r"
-      - "CN_583\r"
-      - "CN_582\r"
-      - "CN_581\r"
-      - "CN_236\r"
-      - "CN_231\r"
-      - "CN_230\r"
-      - "CN_228\r"
-      - "CN_227\r"
-      - "CN_222\r"
-      - "CN_216\r"
-      - "CN_214\r"
-      - "CN_213\r"
-      - "CN_212\r"
-      - "CN_211\r"
-      - "CN_210\r"
-      - "CN_206\r"
-      - "CN_205\r"
-      - "CN_201\r"
-      - "CN_200\r"
-      - "_30\r"
-      - "_27\r"
-      - "_23\r"
-      - "_22\r"
-      - "_21\r"
-      - "_20\r"
-      - "_17\r"
-      - "_16\r"
-      - "_15\r"
-      - "_13\r"
-      - "_11\r"
-      - "_10\r"
-      - "_06\r"
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_1
+      - "github.com/freefq-澳大利亚悉尼Oracle云计算数据中心43\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
+      - "github.com/freefq-美国22\r_1"
+      - "github.com/freefq-乌克兰17\r_1"
+      - github.com/freefq-广东省广州市移动41_1
+      - github.com/freefq-美国CloudFlare节点47
+      - 欧洲(欢迎订阅Youtube破解资源君)_2
+      - github.com/freefq-美国CloudFlare节点27_1
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-英国25\r_1"
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_1"
+      - US-高速节点推荐：v2cross.com
+      - github.com/freefq-广东省揭阳市移动42_1
+      - github.com/freefq-广东省揭阳市移动42_2
+      - "github.com/freefq-美国45\r_1"
+      - github.com/freefq-美国CloudFlare节点27_2
+      - "github.com/freefq-英国25\r_2"
+      - 🇨🇳CN_346|0.99Mb_1
+      - "github.com/freefq-美国45\r_2"
+      - "US-高速节点购买：v2cross.com\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - "github.com/freefq-美国10\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_4
+      - "US-高速节点购买：v2cross.com\r_2"
+      - "US-高速节点购买：v2cross.com\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - v2cross.com-广东省揭阳市移动42
+      - "github.com/freefq-美国13\r_1"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_1"
+      - "美国(欢迎订阅Youtube破解资源君)\r_2"
+      - "US-高速节点购买：v2cross.com\r_4"
+      - github.com/freefq-美国CloudFlare公司CDN节点37_2
+      - "新加坡(欢迎订阅Youtube破解资源君)\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_7
+      - "github.com/freefq-乌克兰17\r_2"
+      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_2"
+      - 亚洲(欢迎订阅Youtube破解资源君)_2
+      - CN-高速节点推荐：v2cross.com_1
+      - github.com/freefq-广东省移动39_1
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - github.com/freefq-美国CloudFlare公司CDN节点26_1
+      - github.com/freefq-美国CloudFlare公司CDN节点26_2
+      - "JP-高速节点购买：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_3
+      - CN-高速节点推荐：v2cross.com_2
+      - 🇨🇳CN_346|0.99Mb_2
+      - github.com/freefq-广东省广州市移动41_2
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_3
+      - github.com/freefq-广东省揭阳市移动35_1
+      - "US-高速节点购买：v2cross.com\r_5"
+      - "github.com/freefq-美国22\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_3"
+      - 🇨🇳CN_591
+      - "github.com/freefq-美国13\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-美国10\r_2"
+      - 欧洲(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_4
+      - CN-高速节点推荐：v2cross.com_3
+      - github.com/freefq-广东省移动39_2
+      - "CZ-高速节点推荐：v2cross.com\r"
+      - "github.com/freefq-美国13\r_3"
+      - "github.com/freefq-美国10\r_3"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_4
+      - TW-高速节点购买：v2cross.com_1
+      - github.com/freefq-美国CloudFlare节点27_3
+      - "v2cross.com-美国10\r"
+      - "US-高速节点推荐：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_5
+      - RU-高速节点购买：v2cross.com_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_4"
+      - 亚洲(欢迎订阅Youtube破解资源君)_6
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_5
+      - "美国(欢迎订阅Youtube破解资源君)\r_5"
+      - RU-高速节点购买：v2cross.com_2
+      - github.com/freefq-广东省揭阳市移动36_1
+      - github.com/freefq-广东省揭阳市移动36_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_7
+      - github.com/freefq-广东省揭阳市移动35_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_8
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - "US-高速节点购买：v2cross.com\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_7"
+      - "JP-高速节点购买：v2cross.com\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_8"
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - github.com/freefq-广东省揭阳市移动35_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - 亚洲(欢迎订阅Youtube破解资源君)_9
+      - github.com/freefq-广东省揭阳市移动36_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - SG-高速节点推荐：v2cross.com
+      - "github.com/freefq-美国22\r_3"
+      - Relay_🇨🇳CN-🇭🇰HK_281
+      - 🇨🇳CN_346|0.99Mb_3
+      - "JP-高速节点购买：v2cross.com\r_3"
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - v2cross.com-美国内华达州拉斯维加斯BuyVM3
+      - 欧洲(欢迎订阅Youtube破解资源君)_14
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_2
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_3
+      - 🇺🇸_US_美国
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - "美国(欢迎订阅Youtube破解资源君)\r_9"
+      - "US-高速节点推荐：v2cross.com\r_2"
+      - "AU-高速节点推荐：v2cross.com\r"
+      - RU-高速节点购买：v2cross.com_3
+      - "github.com/freefq-英国25\r_3"
+      - TW-高速节点购买：v2cross.com_2
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_3"
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省广州市移动41_3
+      - default_name
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_2"
+      - "v2cross.com-美国8\r_1"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - "github.com/freefq-美国45\r_3"
+      - "v2cross.com-美国8\r_2"
+      - '@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_3
+      - TW-高速节点购买：v2cross.com_3
+      - "美国(欢迎订阅Youtube破解资源君)\r_10"
+      - "v2cross.com-美国8\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_15
+      - github.com/freefq-广东省揭阳市移动42_3
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - "v2cross.com\r"
+      - github.com/freefq-美国CloudFlare公司CDN节点26_3
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省移动39_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "US_800\r"
-      - "US_799\r"
-      - "US_795\r"
-      - "US_794\r"
-      - "US_793\r"
-      - "US_790\r"
-      - "US_789\r"
-      - "US_788\r"
-      - "US_787\r"
-      - "US_786\r"
-      - "US_785\r"
-      - "US_783\r"
-      - "US_782\r"
-      - "US_773\r"
-      - "SG_693\r"
-      - Relay_🇨🇳CN-🇺🇸US_275
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - Relay_🇨🇳CN-🇹🇼TW_277
-      - "Relay_🇨🇳CN-🇹🇼TW_235\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_232\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_229\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_218\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_217\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_207\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_204\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_203\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_202\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_199\r"
-      - "Relay_🇨🇳CN-🇷🇺RU_208\r"
-      - Relay_🇨🇳CN-🇱🇺LU_271
-      - "Relay_🇨🇳CN-🇯🇵JP_234\r"
-      - Relay_🇨🇳CN-🇭🇰HK_262
-      - Relay_🇨🇳CN-🇺🇸US_196
-      - Relay_🇨🇳CN-🇷🇺RU_197
-      - "NL_671\r"
-      - "NL_670\r"
-      - "NL_669\r"
-      - "NL_667\r"
-      - "NL_647\r"
-      - "GB_625\r"
-      - "GB_624\r"
-      - "GB_623\r"
-      - "GB_622\r"
-      - "DE_614\r"
-      - CN_590
-      - CN_589
-      - CN_588
-      - CN_587
-      - "CN_584\r"
-      - "CN_583\r"
-      - "CN_582\r"
-      - "CN_581\r"
-      - "CN_236\r"
-      - "CN_231\r"
-      - "CN_230\r"
-      - "CN_228\r"
-      - "CN_227\r"
-      - "CN_222\r"
-      - "CN_216\r"
-      - "CN_214\r"
-      - "CN_213\r"
-      - "CN_212\r"
-      - "CN_211\r"
-      - "CN_210\r"
-      - "CN_206\r"
-      - "CN_205\r"
-      - "CN_201\r"
-      - "CN_200\r"
-      - "_30\r"
-      - "_27\r"
-      - "_23\r"
-      - "_22\r"
-      - "_21\r"
-      - "_20\r"
-      - "_17\r"
-      - "_16\r"
-      - "_15\r"
-      - "_13\r"
-      - "_11\r"
-      - "_10\r"
-      - "_06\r"
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_1
+      - "github.com/freefq-澳大利亚悉尼Oracle云计算数据中心43\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
+      - "github.com/freefq-美国22\r_1"
+      - "github.com/freefq-乌克兰17\r_1"
+      - github.com/freefq-广东省广州市移动41_1
+      - github.com/freefq-美国CloudFlare节点47
+      - 欧洲(欢迎订阅Youtube破解资源君)_2
+      - github.com/freefq-美国CloudFlare节点27_1
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-英国25\r_1"
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_1"
+      - US-高速节点推荐：v2cross.com
+      - github.com/freefq-广东省揭阳市移动42_1
+      - github.com/freefq-广东省揭阳市移动42_2
+      - "github.com/freefq-美国45\r_1"
+      - github.com/freefq-美国CloudFlare节点27_2
+      - "github.com/freefq-英国25\r_2"
+      - 🇨🇳CN_346|0.99Mb_1
+      - "github.com/freefq-美国45\r_2"
+      - "US-高速节点购买：v2cross.com\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - "github.com/freefq-美国10\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_4
+      - "US-高速节点购买：v2cross.com\r_2"
+      - "US-高速节点购买：v2cross.com\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - v2cross.com-广东省揭阳市移动42
+      - "github.com/freefq-美国13\r_1"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_1"
+      - "美国(欢迎订阅Youtube破解资源君)\r_2"
+      - "US-高速节点购买：v2cross.com\r_4"
+      - github.com/freefq-美国CloudFlare公司CDN节点37_2
+      - "新加坡(欢迎订阅Youtube破解资源君)\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_7
+      - "github.com/freefq-乌克兰17\r_2"
+      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_2"
+      - 亚洲(欢迎订阅Youtube破解资源君)_2
+      - CN-高速节点推荐：v2cross.com_1
+      - github.com/freefq-广东省移动39_1
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - github.com/freefq-美国CloudFlare公司CDN节点26_1
+      - github.com/freefq-美国CloudFlare公司CDN节点26_2
+      - "JP-高速节点购买：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_3
+      - CN-高速节点推荐：v2cross.com_2
+      - 🇨🇳CN_346|0.99Mb_2
+      - github.com/freefq-广东省广州市移动41_2
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_3
+      - github.com/freefq-广东省揭阳市移动35_1
+      - "US-高速节点购买：v2cross.com\r_5"
+      - "github.com/freefq-美国22\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_3"
+      - 🇨🇳CN_591
+      - "github.com/freefq-美国13\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-美国10\r_2"
+      - 欧洲(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_4
+      - CN-高速节点推荐：v2cross.com_3
+      - github.com/freefq-广东省移动39_2
+      - "CZ-高速节点推荐：v2cross.com\r"
+      - "github.com/freefq-美国13\r_3"
+      - "github.com/freefq-美国10\r_3"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_4
+      - TW-高速节点购买：v2cross.com_1
+      - github.com/freefq-美国CloudFlare节点27_3
+      - "v2cross.com-美国10\r"
+      - "US-高速节点推荐：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_5
+      - RU-高速节点购买：v2cross.com_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_4"
+      - 亚洲(欢迎订阅Youtube破解资源君)_6
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_5
+      - "美国(欢迎订阅Youtube破解资源君)\r_5"
+      - RU-高速节点购买：v2cross.com_2
+      - github.com/freefq-广东省揭阳市移动36_1
+      - github.com/freefq-广东省揭阳市移动36_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_7
+      - github.com/freefq-广东省揭阳市移动35_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_8
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - "US-高速节点购买：v2cross.com\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_7"
+      - "JP-高速节点购买：v2cross.com\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_8"
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - github.com/freefq-广东省揭阳市移动35_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - 亚洲(欢迎订阅Youtube破解资源君)_9
+      - github.com/freefq-广东省揭阳市移动36_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - SG-高速节点推荐：v2cross.com
+      - "github.com/freefq-美国22\r_3"
+      - Relay_🇨🇳CN-🇭🇰HK_281
+      - 🇨🇳CN_346|0.99Mb_3
+      - "JP-高速节点购买：v2cross.com\r_3"
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - v2cross.com-美国内华达州拉斯维加斯BuyVM3
+      - 欧洲(欢迎订阅Youtube破解资源君)_14
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_2
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_3
+      - 🇺🇸_US_美国
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - "美国(欢迎订阅Youtube破解资源君)\r_9"
+      - "US-高速节点推荐：v2cross.com\r_2"
+      - "AU-高速节点推荐：v2cross.com\r"
+      - RU-高速节点购买：v2cross.com_3
+      - "github.com/freefq-英国25\r_3"
+      - TW-高速节点购买：v2cross.com_2
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_3"
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省广州市移动41_3
+      - default_name
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_2"
+      - "v2cross.com-美国8\r_1"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - "github.com/freefq-美国45\r_3"
+      - "v2cross.com-美国8\r_2"
+      - '@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_3
+      - TW-高速节点购买：v2cross.com_3
+      - "美国(欢迎订阅Youtube破解资源君)\r_10"
+      - "v2cross.com-美国8\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_15
+      - github.com/freefq-广东省揭阳市移动42_3
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - "v2cross.com\r"
+      - github.com/freefq-美国CloudFlare公司CDN节点26_3
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省移动39_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "US_800\r"
-      - "US_799\r"
-      - "US_795\r"
-      - "US_794\r"
-      - "US_793\r"
-      - "US_790\r"
-      - "US_789\r"
-      - "US_788\r"
-      - "US_787\r"
-      - "US_786\r"
-      - "US_785\r"
-      - "US_783\r"
-      - "US_782\r"
-      - "US_773\r"
-      - "SG_693\r"
-      - Relay_🇨🇳CN-🇺🇸US_275
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - Relay_🇨🇳CN-🇹🇼TW_277
-      - "Relay_🇨🇳CN-🇹🇼TW_235\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_232\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_229\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_218\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_217\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_207\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_204\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_203\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_202\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_199\r"
-      - "Relay_🇨🇳CN-🇷🇺RU_208\r"
-      - Relay_🇨🇳CN-🇱🇺LU_271
-      - "Relay_🇨🇳CN-🇯🇵JP_234\r"
-      - Relay_🇨🇳CN-🇭🇰HK_262
-      - Relay_🇨🇳CN-🇺🇸US_196
-      - Relay_🇨🇳CN-🇷🇺RU_197
-      - "NL_671\r"
-      - "NL_670\r"
-      - "NL_669\r"
-      - "NL_667\r"
-      - "NL_647\r"
-      - "GB_625\r"
-      - "GB_624\r"
-      - "GB_623\r"
-      - "GB_622\r"
-      - "DE_614\r"
-      - CN_590
-      - CN_589
-      - CN_588
-      - CN_587
-      - "CN_584\r"
-      - "CN_583\r"
-      - "CN_582\r"
-      - "CN_581\r"
-      - "CN_236\r"
-      - "CN_231\r"
-      - "CN_230\r"
-      - "CN_228\r"
-      - "CN_227\r"
-      - "CN_222\r"
-      - "CN_216\r"
-      - "CN_214\r"
-      - "CN_213\r"
-      - "CN_212\r"
-      - "CN_211\r"
-      - "CN_210\r"
-      - "CN_206\r"
-      - "CN_205\r"
-      - "CN_201\r"
-      - "CN_200\r"
-      - "_30\r"
-      - "_27\r"
-      - "_23\r"
-      - "_22\r"
-      - "_21\r"
-      - "_20\r"
-      - "_17\r"
-      - "_16\r"
-      - "_15\r"
-      - "_13\r"
-      - "_11\r"
-      - "_10\r"
-      - "_06\r"
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_1
+      - "github.com/freefq-澳大利亚悉尼Oracle云计算数据中心43\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
+      - "github.com/freefq-美国22\r_1"
+      - "github.com/freefq-乌克兰17\r_1"
+      - github.com/freefq-广东省广州市移动41_1
+      - github.com/freefq-美国CloudFlare节点47
+      - 欧洲(欢迎订阅Youtube破解资源君)_2
+      - github.com/freefq-美国CloudFlare节点27_1
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-英国25\r_1"
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_1"
+      - US-高速节点推荐：v2cross.com
+      - github.com/freefq-广东省揭阳市移动42_1
+      - github.com/freefq-广东省揭阳市移动42_2
+      - "github.com/freefq-美国45\r_1"
+      - github.com/freefq-美国CloudFlare节点27_2
+      - "github.com/freefq-英国25\r_2"
+      - 🇨🇳CN_346|0.99Mb_1
+      - "github.com/freefq-美国45\r_2"
+      - "US-高速节点购买：v2cross.com\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - "github.com/freefq-美国10\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_4
+      - "US-高速节点购买：v2cross.com\r_2"
+      - "US-高速节点购买：v2cross.com\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - v2cross.com-广东省揭阳市移动42
+      - "github.com/freefq-美国13\r_1"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_1"
+      - "美国(欢迎订阅Youtube破解资源君)\r_2"
+      - "US-高速节点购买：v2cross.com\r_4"
+      - github.com/freefq-美国CloudFlare公司CDN节点37_2
+      - "新加坡(欢迎订阅Youtube破解资源君)\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_7
+      - "github.com/freefq-乌克兰17\r_2"
+      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_2"
+      - 亚洲(欢迎订阅Youtube破解资源君)_2
+      - CN-高速节点推荐：v2cross.com_1
+      - github.com/freefq-广东省移动39_1
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - github.com/freefq-美国CloudFlare公司CDN节点26_1
+      - github.com/freefq-美国CloudFlare公司CDN节点26_2
+      - "JP-高速节点购买：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_3
+      - CN-高速节点推荐：v2cross.com_2
+      - 🇨🇳CN_346|0.99Mb_2
+      - github.com/freefq-广东省广州市移动41_2
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_3
+      - github.com/freefq-广东省揭阳市移动35_1
+      - "US-高速节点购买：v2cross.com\r_5"
+      - "github.com/freefq-美国22\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_3"
+      - 🇨🇳CN_591
+      - "github.com/freefq-美国13\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-美国10\r_2"
+      - 欧洲(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_4
+      - CN-高速节点推荐：v2cross.com_3
+      - github.com/freefq-广东省移动39_2
+      - "CZ-高速节点推荐：v2cross.com\r"
+      - "github.com/freefq-美国13\r_3"
+      - "github.com/freefq-美国10\r_3"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_4
+      - TW-高速节点购买：v2cross.com_1
+      - github.com/freefq-美国CloudFlare节点27_3
+      - "v2cross.com-美国10\r"
+      - "US-高速节点推荐：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_5
+      - RU-高速节点购买：v2cross.com_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_4"
+      - 亚洲(欢迎订阅Youtube破解资源君)_6
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_5
+      - "美国(欢迎订阅Youtube破解资源君)\r_5"
+      - RU-高速节点购买：v2cross.com_2
+      - github.com/freefq-广东省揭阳市移动36_1
+      - github.com/freefq-广东省揭阳市移动36_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_7
+      - github.com/freefq-广东省揭阳市移动35_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_8
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - "US-高速节点购买：v2cross.com\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_7"
+      - "JP-高速节点购买：v2cross.com\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_8"
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - github.com/freefq-广东省揭阳市移动35_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - 亚洲(欢迎订阅Youtube破解资源君)_9
+      - github.com/freefq-广东省揭阳市移动36_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - SG-高速节点推荐：v2cross.com
+      - "github.com/freefq-美国22\r_3"
+      - Relay_🇨🇳CN-🇭🇰HK_281
+      - 🇨🇳CN_346|0.99Mb_3
+      - "JP-高速节点购买：v2cross.com\r_3"
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - v2cross.com-美国内华达州拉斯维加斯BuyVM3
+      - 欧洲(欢迎订阅Youtube破解资源君)_14
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_2
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_3
+      - 🇺🇸_US_美国
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - "美国(欢迎订阅Youtube破解资源君)\r_9"
+      - "US-高速节点推荐：v2cross.com\r_2"
+      - "AU-高速节点推荐：v2cross.com\r"
+      - RU-高速节点购买：v2cross.com_3
+      - "github.com/freefq-英国25\r_3"
+      - TW-高速节点购买：v2cross.com_2
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_3"
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省广州市移动41_3
+      - default_name
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_2"
+      - "v2cross.com-美国8\r_1"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - "github.com/freefq-美国45\r_3"
+      - "v2cross.com-美国8\r_2"
+      - '@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_3
+      - TW-高速节点购买：v2cross.com_3
+      - "美国(欢迎订阅Youtube破解资源君)\r_10"
+      - "v2cross.com-美国8\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_15
+      - github.com/freefq-广东省揭阳市移动42_3
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - "v2cross.com\r"
+      - github.com/freefq-美国CloudFlare公司CDN节点26_3
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省移动39_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "US_800\r"
-      - "US_799\r"
-      - "US_795\r"
-      - "US_794\r"
-      - "US_793\r"
-      - "US_790\r"
-      - "US_789\r"
-      - "US_788\r"
-      - "US_787\r"
-      - "US_786\r"
-      - "US_785\r"
-      - "US_783\r"
-      - "US_782\r"
-      - "US_773\r"
-      - "SG_693\r"
-      - Relay_🇨🇳CN-🇺🇸US_275
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - Relay_🇨🇳CN-🇹🇼TW_277
-      - "Relay_🇨🇳CN-🇹🇼TW_235\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_232\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_229\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_218\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_217\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_207\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_204\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_203\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_202\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_199\r"
-      - "Relay_🇨🇳CN-🇷🇺RU_208\r"
-      - Relay_🇨🇳CN-🇱🇺LU_271
-      - "Relay_🇨🇳CN-🇯🇵JP_234\r"
-      - Relay_🇨🇳CN-🇭🇰HK_262
-      - Relay_🇨🇳CN-🇺🇸US_196
-      - Relay_🇨🇳CN-🇷🇺RU_197
-      - "NL_671\r"
-      - "NL_670\r"
-      - "NL_669\r"
-      - "NL_667\r"
-      - "NL_647\r"
-      - "GB_625\r"
-      - "GB_624\r"
-      - "GB_623\r"
-      - "GB_622\r"
-      - "DE_614\r"
-      - CN_590
-      - CN_589
-      - CN_588
-      - CN_587
-      - "CN_584\r"
-      - "CN_583\r"
-      - "CN_582\r"
-      - "CN_581\r"
-      - "CN_236\r"
-      - "CN_231\r"
-      - "CN_230\r"
-      - "CN_228\r"
-      - "CN_227\r"
-      - "CN_222\r"
-      - "CN_216\r"
-      - "CN_214\r"
-      - "CN_213\r"
-      - "CN_212\r"
-      - "CN_211\r"
-      - "CN_210\r"
-      - "CN_206\r"
-      - "CN_205\r"
-      - "CN_201\r"
-      - "CN_200\r"
-      - "_30\r"
-      - "_27\r"
-      - "_23\r"
-      - "_22\r"
-      - "_21\r"
-      - "_20\r"
-      - "_17\r"
-      - "_16\r"
-      - "_15\r"
-      - "_13\r"
-      - "_11\r"
-      - "_10\r"
-      - "_06\r"
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_1
+      - "github.com/freefq-澳大利亚悉尼Oracle云计算数据中心43\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
+      - "github.com/freefq-美国22\r_1"
+      - "github.com/freefq-乌克兰17\r_1"
+      - github.com/freefq-广东省广州市移动41_1
+      - github.com/freefq-美国CloudFlare节点47
+      - 欧洲(欢迎订阅Youtube破解资源君)_2
+      - github.com/freefq-美国CloudFlare节点27_1
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-英国25\r_1"
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_1"
+      - US-高速节点推荐：v2cross.com
+      - github.com/freefq-广东省揭阳市移动42_1
+      - github.com/freefq-广东省揭阳市移动42_2
+      - "github.com/freefq-美国45\r_1"
+      - github.com/freefq-美国CloudFlare节点27_2
+      - "github.com/freefq-英国25\r_2"
+      - 🇨🇳CN_346|0.99Mb_1
+      - "github.com/freefq-美国45\r_2"
+      - "US-高速节点购买：v2cross.com\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - "github.com/freefq-美国10\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_4
+      - "US-高速节点购买：v2cross.com\r_2"
+      - "US-高速节点购买：v2cross.com\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - v2cross.com-广东省揭阳市移动42
+      - "github.com/freefq-美国13\r_1"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_1"
+      - "美国(欢迎订阅Youtube破解资源君)\r_2"
+      - "US-高速节点购买：v2cross.com\r_4"
+      - github.com/freefq-美国CloudFlare公司CDN节点37_2
+      - "新加坡(欢迎订阅Youtube破解资源君)\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_7
+      - "github.com/freefq-乌克兰17\r_2"
+      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_2"
+      - 亚洲(欢迎订阅Youtube破解资源君)_2
+      - CN-高速节点推荐：v2cross.com_1
+      - github.com/freefq-广东省移动39_1
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - github.com/freefq-美国CloudFlare公司CDN节点26_1
+      - github.com/freefq-美国CloudFlare公司CDN节点26_2
+      - "JP-高速节点购买：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_3
+      - CN-高速节点推荐：v2cross.com_2
+      - 🇨🇳CN_346|0.99Mb_2
+      - github.com/freefq-广东省广州市移动41_2
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_3
+      - github.com/freefq-广东省揭阳市移动35_1
+      - "US-高速节点购买：v2cross.com\r_5"
+      - "github.com/freefq-美国22\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_3"
+      - 🇨🇳CN_591
+      - "github.com/freefq-美国13\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-美国10\r_2"
+      - 欧洲(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_4
+      - CN-高速节点推荐：v2cross.com_3
+      - github.com/freefq-广东省移动39_2
+      - "CZ-高速节点推荐：v2cross.com\r"
+      - "github.com/freefq-美国13\r_3"
+      - "github.com/freefq-美国10\r_3"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_4
+      - TW-高速节点购买：v2cross.com_1
+      - github.com/freefq-美国CloudFlare节点27_3
+      - "v2cross.com-美国10\r"
+      - "US-高速节点推荐：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_5
+      - RU-高速节点购买：v2cross.com_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_4"
+      - 亚洲(欢迎订阅Youtube破解资源君)_6
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_5
+      - "美国(欢迎订阅Youtube破解资源君)\r_5"
+      - RU-高速节点购买：v2cross.com_2
+      - github.com/freefq-广东省揭阳市移动36_1
+      - github.com/freefq-广东省揭阳市移动36_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_7
+      - github.com/freefq-广东省揭阳市移动35_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_8
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - "US-高速节点购买：v2cross.com\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_7"
+      - "JP-高速节点购买：v2cross.com\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_8"
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - github.com/freefq-广东省揭阳市移动35_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - 亚洲(欢迎订阅Youtube破解资源君)_9
+      - github.com/freefq-广东省揭阳市移动36_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - SG-高速节点推荐：v2cross.com
+      - "github.com/freefq-美国22\r_3"
+      - Relay_🇨🇳CN-🇭🇰HK_281
+      - 🇨🇳CN_346|0.99Mb_3
+      - "JP-高速节点购买：v2cross.com\r_3"
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - v2cross.com-美国内华达州拉斯维加斯BuyVM3
+      - 欧洲(欢迎订阅Youtube破解资源君)_14
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_2
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_3
+      - 🇺🇸_US_美国
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - "美国(欢迎订阅Youtube破解资源君)\r_9"
+      - "US-高速节点推荐：v2cross.com\r_2"
+      - "AU-高速节点推荐：v2cross.com\r"
+      - RU-高速节点购买：v2cross.com_3
+      - "github.com/freefq-英国25\r_3"
+      - TW-高速节点购买：v2cross.com_2
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_3"
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省广州市移动41_3
+      - default_name
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_2"
+      - "v2cross.com-美国8\r_1"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - "github.com/freefq-美国45\r_3"
+      - "v2cross.com-美国8\r_2"
+      - '@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_3
+      - TW-高速节点购买：v2cross.com_3
+      - "美国(欢迎订阅Youtube破解资源君)\r_10"
+      - "v2cross.com-美国8\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_15
+      - github.com/freefq-广东省揭阳市移动42_3
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - "v2cross.com\r"
+      - github.com/freefq-美国CloudFlare公司CDN节点26_3
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省移动39_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -627,87 +1082,152 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "US_800\r"
-      - "US_799\r"
-      - "US_795\r"
-      - "US_794\r"
-      - "US_793\r"
-      - "US_790\r"
-      - "US_789\r"
-      - "US_788\r"
-      - "US_787\r"
-      - "US_786\r"
-      - "US_785\r"
-      - "US_783\r"
-      - "US_782\r"
-      - "US_773\r"
-      - "SG_693\r"
-      - Relay_🇨🇳CN-🇺🇸US_275
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - Relay_🇨🇳CN-🇹🇼TW_277
-      - "Relay_🇨🇳CN-🇹🇼TW_235\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_232\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_229\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_218\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_217\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_207\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_204\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_203\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_202\r"
-      - "Relay_🇨🇳CN-🇹🇼TW_199\r"
-      - "Relay_🇨🇳CN-🇷🇺RU_208\r"
-      - Relay_🇨🇳CN-🇱🇺LU_271
-      - "Relay_🇨🇳CN-🇯🇵JP_234\r"
-      - Relay_🇨🇳CN-🇭🇰HK_262
-      - Relay_🇨🇳CN-🇺🇸US_196
-      - Relay_🇨🇳CN-🇷🇺RU_197
-      - "NL_671\r"
-      - "NL_670\r"
-      - "NL_669\r"
-      - "NL_667\r"
-      - "NL_647\r"
-      - "GB_625\r"
-      - "GB_624\r"
-      - "GB_623\r"
-      - "GB_622\r"
-      - "DE_614\r"
-      - CN_590
-      - CN_589
-      - CN_588
-      - CN_587
-      - "CN_584\r"
-      - "CN_583\r"
-      - "CN_582\r"
-      - "CN_581\r"
-      - "CN_236\r"
-      - "CN_231\r"
-      - "CN_230\r"
-      - "CN_228\r"
-      - "CN_227\r"
-      - "CN_222\r"
-      - "CN_216\r"
-      - "CN_214\r"
-      - "CN_213\r"
-      - "CN_212\r"
-      - "CN_211\r"
-      - "CN_210\r"
-      - "CN_206\r"
-      - "CN_205\r"
-      - "CN_201\r"
-      - "CN_200\r"
-      - "_30\r"
-      - "_27\r"
-      - "_23\r"
-      - "_22\r"
-      - "_21\r"
-      - "_20\r"
-      - "_17\r"
-      - "_16\r"
-      - "_15\r"
-      - "_13\r"
-      - "_11\r"
-      - "_10\r"
-      - "_06\r"
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_1
+      - "github.com/freefq-澳大利亚悉尼Oracle云计算数据中心43\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
+      - "github.com/freefq-美国22\r_1"
+      - "github.com/freefq-乌克兰17\r_1"
+      - github.com/freefq-广东省广州市移动41_1
+      - github.com/freefq-美国CloudFlare节点47
+      - 欧洲(欢迎订阅Youtube破解资源君)_2
+      - github.com/freefq-美国CloudFlare节点27_1
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-英国25\r_1"
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_1"
+      - US-高速节点推荐：v2cross.com
+      - github.com/freefq-广东省揭阳市移动42_1
+      - github.com/freefq-广东省揭阳市移动42_2
+      - "github.com/freefq-美国45\r_1"
+      - github.com/freefq-美国CloudFlare节点27_2
+      - "github.com/freefq-英国25\r_2"
+      - 🇨🇳CN_346|0.99Mb_1
+      - "github.com/freefq-美国45\r_2"
+      - "US-高速节点购买：v2cross.com\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - "github.com/freefq-美国10\r_1"
+      - 欧洲(欢迎订阅Youtube破解资源君)_4
+      - "US-高速节点购买：v2cross.com\r_2"
+      - "US-高速节点购买：v2cross.com\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - v2cross.com-广东省揭阳市移动42
+      - "github.com/freefq-美国13\r_1"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_1"
+      - "美国(欢迎订阅Youtube破解资源君)\r_2"
+      - "US-高速节点购买：v2cross.com\r_4"
+      - github.com/freefq-美国CloudFlare公司CDN节点37_2
+      - "新加坡(欢迎订阅Youtube破解资源君)\r"
+      - 欧洲(欢迎订阅Youtube破解资源君)_7
+      - "github.com/freefq-乌克兰17\r_2"
+      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_1
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_2"
+      - 亚洲(欢迎订阅Youtube破解资源君)_2
+      - CN-高速节点推荐：v2cross.com_1
+      - github.com/freefq-广东省移动39_1
+      - '@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub'
+      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - github.com/freefq-美国CloudFlare公司CDN节点26_1
+      - github.com/freefq-美国CloudFlare公司CDN节点26_2
+      - "JP-高速节点购买：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_3
+      - CN-高速节点推荐：v2cross.com_2
+      - 🇨🇳CN_346|0.99Mb_2
+      - github.com/freefq-广东省广州市移动41_2
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_3
+      - github.com/freefq-广东省揭阳市移动35_1
+      - "US-高速节点购买：v2cross.com\r_5"
+      - "github.com/freefq-美国22\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_3"
+      - 🇨🇳CN_591
+      - "github.com/freefq-美国13\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_1"
+      - "github.com/freefq-美国10\r_2"
+      - 欧洲(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_4
+      - CN-高速节点推荐：v2cross.com_3
+      - github.com/freefq-广东省移动39_2
+      - "CZ-高速节点推荐：v2cross.com\r"
+      - "github.com/freefq-美国13\r_3"
+      - "github.com/freefq-美国10\r_3"
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_4
+      - TW-高速节点购买：v2cross.com_1
+      - github.com/freefq-美国CloudFlare节点27_3
+      - "v2cross.com-美国10\r"
+      - "US-高速节点推荐：v2cross.com\r_1"
+      - 亚洲(欢迎订阅Youtube破解资源君)_5
+      - RU-高速节点购买：v2cross.com_1
+      - "美国(欢迎订阅Youtube破解资源君)\r_4"
+      - 亚洲(欢迎订阅Youtube破解资源君)_6
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_5
+      - "美国(欢迎订阅Youtube破解资源君)\r_5"
+      - RU-高速节点购买：v2cross.com_2
+      - github.com/freefq-广东省揭阳市移动36_1
+      - github.com/freefq-广东省揭阳市移动36_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_7
+      - github.com/freefq-广东省揭阳市移动35_2
+      - 亚洲(欢迎订阅Youtube破解资源君)_8
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - "US-高速节点购买：v2cross.com\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_6"
+      - "美国(欢迎订阅Youtube破解资源君)\r_7"
+      - "JP-高速节点购买：v2cross.com\r_2"
+      - "美国(欢迎订阅Youtube破解资源君)\r_8"
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - github.com/freefq-广东省揭阳市移动35_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - 亚洲(欢迎订阅Youtube破解资源君)_9
+      - github.com/freefq-广东省揭阳市移动36_3
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - SG-高速节点推荐：v2cross.com
+      - "github.com/freefq-美国22\r_3"
+      - Relay_🇨🇳CN-🇭🇰HK_281
+      - 🇨🇳CN_346|0.99Mb_3
+      - "JP-高速节点购买：v2cross.com\r_3"
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - v2cross.com-美国内华达州拉斯维加斯BuyVM3
+      - 欧洲(欢迎订阅Youtube破解资源君)_14
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_2
+      - github.com/freefq-美国内华达州拉斯维加斯BuyVM3_3
+      - 🇺🇸_US_美国
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - "美国(欢迎订阅Youtube破解资源君)\r_9"
+      - "US-高速节点推荐：v2cross.com\r_2"
+      - "AU-高速节点推荐：v2cross.com\r"
+      - RU-高速节点购买：v2cross.com_3
+      - "github.com/freefq-英国25\r_3"
+      - TW-高速节点购买：v2cross.com_2
+      - "github.com/freefq-英国伦敦Oracle云计算数据中心14\r_3"
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省广州市移动41_3
+      - default_name
+      - "欧洲(欢迎订阅Youtube破解资源君)\r_2"
+      - "日本(欢迎订阅Youtube破解资源君)\r_2"
+      - "v2cross.com-美国8\r_1"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - "github.com/freefq-美国45\r_3"
+      - "v2cross.com-美国8\r_2"
+      - '@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub'
+      - github.com/freefq-美国CloudFlare公司CDN节点37_3
+      - TW-高速节点购买：v2cross.com_3
+      - "美国(欢迎订阅Youtube破解资源君)\r_10"
+      - "v2cross.com-美国8\r_3"
+      - 欧洲(欢迎订阅Youtube破解资源君)_15
+      - github.com/freefq-广东省揭阳市移动42_3
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - "v2cross.com\r"
+      - github.com/freefq-美国CloudFlare公司CDN节点26_3
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - github.com/freefq-广东省移动39_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
