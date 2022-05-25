@@ -5,130 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_1","server":"213.183.59.214","port":9042,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"S7KwUu7yBy58S3Ga"}
-  - {"type":"ss","name":"🇸🇬_SG_新加坡","server":"157.230.41.220","port":29596,"cipher":"aes-256-cfb","password":"e6c1cf51375c407d92d110881a825acb"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_1","server":"65.49.210.47","port":10895,"uuid":"51a66487-e65e-47cb-8c6d-6054bb29a5f7","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇰🇷_KR_韩国","server":"o03.trojan.tel","port":18443,"password":"6a230f59-a22f-4d03-9dee-8a15458e429a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国->🇬🇧_GB_英国","server":"s2.upyun.online","port":12340,"password":"c0276440-f163-4f40-a08c-78b158ce6c4f","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国_2","server":"jgwdb2.gaox.ml","port":443,"password":"c19d1432-8b3e-4818-8837-3d160cf65908","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇬🇧_GB_英国","server":"78.129.253.9","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_2","server":"213.183.59.214","port":9041,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"U6qnYRhfyDmn8sgn"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_3","server":"213.183.59.214","port":9073,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"daFYagqDdBdA6VTX"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_4","server":"213.183.59.214","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_5","server":"213.183.59.214","port":9000,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"a3GFYt36Sm82Vys9"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_6","server":"213.183.59.214","port":9007,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"kSPmvwdFzGMMW5pY"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_7","server":"213.183.59.214","port":9026,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"QWDDvVE9npNurQfA"}
+  - {"type":"ss","name":"v2rayse_test","server":"198.57.27.218","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"vmess","name":"v2rayse_test","server":"154.23.190.162","port":443,"uuid":"b9984674-f771-4e67-a198-c7e60720ba2c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ssr","name":"v2rayse_test","server":"20.239.49.44","port":59814,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"3df57276-03ef-45cf-bdd4-4edb6dfaa0ef"}
+  - {"type":"trojan","name":"v2rayse_test","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇳🇱_NL_荷兰_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇳🇱_NL_荷兰_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -151,19 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_1
-      - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
-      - 🇳🇱_NL_荷兰_7
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
+      - v2rayse_test
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
