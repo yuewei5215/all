@@ -15,6 +15,14 @@ proxies:
   - {"type":"trojan","name":"🇺🇸_US_美国_2","server":"jgwcc3.gaox.ml","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true}
   - {"type":"ssr","name":"🇳🇱_NL_荷兰_4","server":"213.183.59.206","port":9027,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"EXN3S3eQpjE7EJu8"}
   - {"type":"ssr","name":"🇳🇱_NL_荷兰_5","server":"213.183.59.214","port":9001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UkXRsXvR6buDMG2Y"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_6","server":"213.183.59.206","port":9018,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"fG2artUmHfNT2cX7"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_7","server":"213.183.59.206","port":9015,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZpNDDKRu9MagNvaf"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_8","server":"213.183.59.206","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ"}
+  - {"type":"ss","name":"🇳🇱_NL_荷兰_9","server":"213.183.59.214","port":9007,"cipher":"aes-256-cfb","password":"kSPmvwdFzGMMW5pY"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_10","server":"213.183.59.214","port":9031,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BwcAUZk8hUFAkDGN"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_11","server":"213.183.59.214","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF"}
+  - {"type":"ss","name":"🇳🇱_NL_荷兰_12","server":"213.183.59.214","port":9014,"cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_13","server":"213.183.59.206","port":9070,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"bf7v334KKDV3YDhH"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +39,14 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇳🇱_NL_荷兰_8
+      - 🇳🇱_NL_荷兰_9
+      - 🇳🇱_NL_荷兰_10
+      - 🇳🇱_NL_荷兰_11
+      - 🇳🇱_NL_荷兰_12
+      - 🇳🇱_NL_荷兰_13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -47,6 +63,14 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇳🇱_NL_荷兰_8
+      - 🇳🇱_NL_荷兰_9
+      - 🇳🇱_NL_荷兰_10
+      - 🇳🇱_NL_荷兰_11
+      - 🇳🇱_NL_荷兰_12
+      - 🇳🇱_NL_荷兰_13
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -63,6 +87,14 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇳🇱_NL_荷兰_8
+      - 🇳🇱_NL_荷兰_9
+      - 🇳🇱_NL_荷兰_10
+      - 🇳🇱_NL_荷兰_11
+      - 🇳🇱_NL_荷兰_12
+      - 🇳🇱_NL_荷兰_13
   - name: 📲 电报信息
     type: select
     proxies:
@@ -78,6 +110,14 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇳🇱_NL_荷兰_8
+      - 🇳🇱_NL_荷兰_9
+      - 🇳🇱_NL_荷兰_10
+      - 🇳🇱_NL_荷兰_11
+      - 🇳🇱_NL_荷兰_12
+      - 🇳🇱_NL_荷兰_13
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -93,6 +133,14 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇳🇱_NL_荷兰_8
+      - 🇳🇱_NL_荷兰_9
+      - 🇳🇱_NL_荷兰_10
+      - 🇳🇱_NL_荷兰_11
+      - 🇳🇱_NL_荷兰_12
+      - 🇳🇱_NL_荷兰_13
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -108,6 +156,14 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇳🇱_NL_荷兰_8
+      - 🇳🇱_NL_荷兰_9
+      - 🇳🇱_NL_荷兰_10
+      - 🇳🇱_NL_荷兰_11
+      - 🇳🇱_NL_荷兰_12
+      - 🇳🇱_NL_荷兰_13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,6 +196,14 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇳🇱_NL_荷兰_4
       - 🇳🇱_NL_荷兰_5
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇳🇱_NL_荷兰_8
+      - 🇳🇱_NL_荷兰_9
+      - 🇳🇱_NL_荷兰_10
+      - 🇳🇱_NL_荷兰_11
+      - 🇳🇱_NL_荷兰_12
+      - 🇳🇱_NL_荷兰_13
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
