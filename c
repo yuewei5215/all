@@ -5,46 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🇺🇸_US_美国","server":"45.61.173.125","port":31224,"uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":0,"cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"🇷🇺_RU_俄罗斯联邦","server":"ru.node.qchwnd.moe","port":44606,"password":"2971161c-46af-4ac3-b9c3-409b2750a751","udp":true,"skip-cert-verify":true}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_1","server":"213.183.59.206","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_2","server":"213.183.59.206","port":9080,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"VP8ZPxQpJtZRCjfZ"}
+  - {"type":"ssr","name":"🇳🇱_NL_荷兰_3","server":"213.183.59.206","port":9094,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rpgbNnU9rDDU4aWZ"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
