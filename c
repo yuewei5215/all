@@ -5,74 +5,74 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"香港-1.67MB/s(Youtube:不良林)","ws-opts":{"path":"/ray","headers":{"host":"426hk.fans8.xyz"}},"server":"426hk.fans8.xyz","port":80,"uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":2,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"澳大利亚-1.44MB/s(Youtube:不良林)","server":"jgwxn3.gaox.ml","port":443,"password":"cb43b7c2-b744-41c5-bcc2-fd7467b332cf","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"香港-1.44MB/s(Youtube:不良林)","ws-opts":{"path":"/ray","headers":{"host":"511hk.fans8.xyz"}},"server":"511hk.fans8.xyz","port":80,"uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":2,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"法国-1.43MB/s(Youtube:不良林)","ws-opts":{"path":"/path/120208301422","headers":{"host":"54.37.192.112"}},"server":"54.37.192.112","port":443,"uuid":"9f58234c-355b-4065-ae21-d4a63099aba5","alterId":64,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"中国-347.1KB/s(Youtube:不良林)","ws-opts":{"path":"/ray","headers":{"host":"521hk.fans8.xyz"}},"server":"521hk.fans8.xyz","port":80,"uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":2,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"ssr","name":"🇷🇺_RU_俄罗斯联邦","server":"213.183.53.177","port":9024,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BejrQvtu9sqUeNuZ"}
+  - {"type":"ss","name":"🇨🇳_CN_中国->🇭🇰_HK_香港","server":"fkgfw-prod.i.sxl.cn","port":443,"cipher":"aes-256-cfb","password":"E4DNMf73kHPrd8Qq7aqGPf7f"}
+  - {"type":"ss","name":"🇳🇱_NL_荷兰_1","server":"213.183.59.214","port":9024,"cipher":"aes-256-cfb","password":"BejrQvtu9sqUeNuZ"}
+  - {"type":"ss","name":"🇳🇱_NL_荷兰_2","server":"213.183.59.214","port":9042,"cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
+  - {"type":"ss","name":"🇳🇱_NL_荷兰_3","server":"213.183.59.214","port":9011,"cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港-1.67MB/s(Youtube:不良林)
-      - 澳大利亚-1.44MB/s(Youtube:不良林)
-      - 香港-1.44MB/s(Youtube:不良林)
-      - 法国-1.43MB/s(Youtube:不良林)
-      - 中国-347.1KB/s(Youtube:不良林)
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港-1.67MB/s(Youtube:不良林)
-      - 澳大利亚-1.44MB/s(Youtube:不良林)
-      - 香港-1.44MB/s(Youtube:不良林)
-      - 法国-1.43MB/s(Youtube:不良林)
-      - 中国-347.1KB/s(Youtube:不良林)
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港-1.67MB/s(Youtube:不良林)
-      - 澳大利亚-1.44MB/s(Youtube:不良林)
-      - 香港-1.44MB/s(Youtube:不良林)
-      - 法国-1.43MB/s(Youtube:不良林)
-      - 中国-347.1KB/s(Youtube:不良林)
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港-1.67MB/s(Youtube:不良林)
-      - 澳大利亚-1.44MB/s(Youtube:不良林)
-      - 香港-1.44MB/s(Youtube:不良林)
-      - 法国-1.43MB/s(Youtube:不良林)
-      - 中国-347.1KB/s(Youtube:不良林)
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港-1.67MB/s(Youtube:不良林)
-      - 澳大利亚-1.44MB/s(Youtube:不良林)
-      - 香港-1.44MB/s(Youtube:不良林)
-      - 法国-1.43MB/s(Youtube:不良林)
-      - 中国-347.1KB/s(Youtube:不良林)
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港-1.67MB/s(Youtube:不良林)
-      - 澳大利亚-1.44MB/s(Youtube:不良林)
-      - 香港-1.44MB/s(Youtube:不良林)
-      - 法国-1.43MB/s(Youtube:不良林)
-      - 中国-347.1KB/s(Youtube:不良林)
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +95,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港-1.67MB/s(Youtube:不良林)
-      - 澳大利亚-1.44MB/s(Youtube:不良林)
-      - 香港-1.44MB/s(Youtube:不良林)
-      - 法国-1.43MB/s(Youtube:不良林)
-      - 中国-347.1KB/s(Youtube:不良林)
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
+      - 🇳🇱_NL_荷兰_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
