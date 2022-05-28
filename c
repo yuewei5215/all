@@ -5,102 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"🇰🇷_KR_韩国","server":"20.196.206.47","port":8313,"cipher":"chacha20-ietf-poly1305","password":"ljqdalu13.."}
-  - {"type":"ss","name":"🇨🇳_CN_中国->🇰🇷_KR_韩国","server":"180.163.62.91","port":10065,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"🇭🇰_HK_香港","server":"104.208.118.183","port":8313,"cipher":"chacha20-ietf-poly1305","password":"ljqdalu13.."}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_1","server":"213.183.59.214","port":9059,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"9XwYyZsK8SNzQDtY"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_2","server":"213.183.59.214","port":9093,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"wfLC2y7rzZyCmuyt"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_3","server":"213.183.59.214","port":9073,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"daFYagqDdBdA6VTX"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_4","server":"213.183.59.214","port":9032,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UWZQeLRWnkqgkseq"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_5","server":"213.183.59.214","port":9011,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"M3t2ZEQcMGRWBjRa"}
-  - {"type":"ssr","name":"🇳🇱_NL_荷兰_6","server":"213.183.59.214","port":9025,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"XPtzA9sCug3SPR4c"}
+  - {"type":"vmess","name":"起舞","server":"144.34.181.15","port":"23153","uuid":"92521682-6414-4069-9834-5393c5958489","alterId":"0","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷_KR_韩国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
+      - 起舞
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷_KR_韩国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
+      - 起舞
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷_KR_韩国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
+      - 起舞
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷_KR_韩国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
+      - 起舞
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇰🇷_KR_韩国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
+      - 起舞
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷_KR_韩国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
+      - 起舞
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -123,15 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷_KR_韩国
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港
-      - 🇳🇱_NL_荷兰_1
-      - 🇳🇱_NL_荷兰_2
-      - 🇳🇱_NL_荷兰_3
-      - 🇳🇱_NL_荷兰_4
-      - 🇳🇱_NL_荷兰_5
-      - 🇳🇱_NL_荷兰_6
+      - 起舞
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
