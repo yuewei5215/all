@@ -5,46 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"起舞","server":"144.34.181.15","port":"23153","uuid":"92521682-6414-4069-9834-5393c5958489","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"日本-2.24MB/s(Youtube:不良林)","server":"139.162.124.250","port":28443,"password":"fca82897-b178-4824-9c75-abe60c103dda","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"中国-7.57MB/s(Youtube:不良林)","server":"116.129.253.191","port":3389,"password":"e37c6d7efa845d60","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"韩国-547.1KB/s(Youtube:不良林)","server":"13.125.218.170","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"vmess","name":"法国-2.97MB/s(Youtube:不良林)","ws-opts":{"path":"/path/120208301422","headers":{"host":"54.37.192.112"}},"server":"54.37.192.112","port":443,"uuid":"9f58234c-355b-4065-ae21-d4a63099aba5","alterId":64,"cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 起舞
+      - 日本-2.24MB/s(Youtube:不良林)
+      - 中国-7.57MB/s(Youtube:不良林)
+      - 韩国-547.1KB/s(Youtube:不良林)
+      - 法国-2.97MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 起舞
+      - 日本-2.24MB/s(Youtube:不良林)
+      - 中国-7.57MB/s(Youtube:不良林)
+      - 韩国-547.1KB/s(Youtube:不良林)
+      - 法国-2.97MB/s(Youtube:不良林)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 起舞
+      - 日本-2.24MB/s(Youtube:不良林)
+      - 中国-7.57MB/s(Youtube:不良林)
+      - 韩国-547.1KB/s(Youtube:不良林)
+      - 法国-2.97MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 起舞
+      - 日本-2.24MB/s(Youtube:不良林)
+      - 中国-7.57MB/s(Youtube:不良林)
+      - 韩国-547.1KB/s(Youtube:不良林)
+      - 法国-2.97MB/s(Youtube:不良林)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 起舞
+      - 日本-2.24MB/s(Youtube:不良林)
+      - 中国-7.57MB/s(Youtube:不良林)
+      - 韩国-547.1KB/s(Youtube:不良林)
+      - 法国-2.97MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 起舞
+      - 日本-2.24MB/s(Youtube:不良林)
+      - 中国-7.57MB/s(Youtube:不良林)
+      - 韩国-547.1KB/s(Youtube:不良林)
+      - 法国-2.97MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -67,7 +88,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 起舞
+      - 日本-2.24MB/s(Youtube:不良林)
+      - 中国-7.57MB/s(Youtube:不良林)
+      - 韩国-547.1KB/s(Youtube:不良林)
+      - 法国-2.97MB/s(Youtube:不良林)
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
