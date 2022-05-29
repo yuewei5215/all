@@ -5,102 +5,102 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"github.com/freefq-日本12","server":"43.200.6.115","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"ss","name":"github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心23","server":"213.183.59.191","port":9064,"cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
-  - {"type":"ss","name":"github.com/freefq-俄罗斯32","server":"185.4.65.6","port":21247,"cipher":"aes-256-cfb","password":"vDS9G2p"}
-  - {"type":"ss","name":"github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点43","server":"fkgfw-prod.i.sxl.cn","port":443,"cipher":"aes-256-cfb","password":"E4DNMf73kHPrd8Qq7aqGPf7f"}
-  - {"type":"trojan","name":"github.com/freefq-美国53","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点56","server":"139.219.130.70","port":443,"cipher":"aes-256-cfb","password":"E4DNMf73kHPrd8Qq7aqGPf7f"}
-  - {"type":"trojan","name":"github.com/freefq-新加坡DigitalOcean数据中心67","server":"zxsg.jietiyun.xyz","port":11101,"password":"c9db0aad-e6a9-4a7e-9285-b88302c35346","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"github.com/freefq-美国俄勒冈州波特兰Amazon数据中心72","server":"54.214.170.7","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"trojan","name":"github.com/freefq-日本78","server":"zk518.tk","port":8443,"password":"zhang1990","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡","server":"ppy-giacn2.0098dns02in.work","port":26021,"uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_CN_中国","server":"ppy-giacn2.0098dns02in.work","port":26020,"uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","server":"ppy-cmcc.0098dns02in.work","port":26015,"uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_CN_中国->🇺🇸_US_美国_2","server":"ppy-giacn2.0098dns02in.work","port":26002,"uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"🇨🇳_CN_中国->🇭🇰_HK_香港","server":"iepl.rookiecloud.info","port":50497,"cipher":"aes-128-gcm","password":"674f2f62-cb5d-4e25-8aa8-839e1a15c15c"}
+  - {"type":"trojan","name":"🇸🇬_SG_新加坡","server":"zxsg.jietiyun.xyz","port":11101,"password":"c9db0aad-e6a9-4a7e-9285-b88302c35346","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_1","server":"ppy-cmcc.0098dns02in.work","port":26010,"uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_2","server":"ppy-cmcc.0098dns02in.work","port":26013,"uuid":"1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"default_name","server":"oz.moonfree.top","port":443,"uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":0,"cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - github.com/freefq-日本12
-      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心23
-      - github.com/freefq-俄罗斯32
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点43
-      - github.com/freefq-美国53
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点56
-      - github.com/freefq-新加坡DigitalOcean数据中心67
-      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心72
-      - github.com/freefq-日本78
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - default_name
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - github.com/freefq-日本12
-      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心23
-      - github.com/freefq-俄罗斯32
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点43
-      - github.com/freefq-美国53
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点56
-      - github.com/freefq-新加坡DigitalOcean数据中心67
-      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心72
-      - github.com/freefq-日本78
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - default_name
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq-日本12
-      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心23
-      - github.com/freefq-俄罗斯32
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点43
-      - github.com/freefq-美国53
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点56
-      - github.com/freefq-新加坡DigitalOcean数据中心67
-      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心72
-      - github.com/freefq-日本78
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - default_name
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github.com/freefq-日本12
-      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心23
-      - github.com/freefq-俄罗斯32
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点43
-      - github.com/freefq-美国53
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点56
-      - github.com/freefq-新加坡DigitalOcean数据中心67
-      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心72
-      - github.com/freefq-日本78
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - default_name
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - github.com/freefq-日本12
-      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心23
-      - github.com/freefq-俄罗斯32
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点43
-      - github.com/freefq-美国53
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点56
-      - github.com/freefq-新加坡DigitalOcean数据中心67
-      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心72
-      - github.com/freefq-日本78
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - default_name
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github.com/freefq-日本12
-      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心23
-      - github.com/freefq-俄罗斯32
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点43
-      - github.com/freefq-美国53
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点56
-      - github.com/freefq-新加坡DigitalOcean数据中心67
-      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心72
-      - github.com/freefq-日本78
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - default_name
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -123,15 +123,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq-日本12
-      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心23
-      - github.com/freefq-俄罗斯32
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点43
-      - github.com/freefq-美国53
-      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点56
-      - github.com/freefq-新加坡DigitalOcean数据中心67
-      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心72
-      - github.com/freefq-日本78
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+      - default_name
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
