@@ -5,60 +5,753 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"🇺🇸_US_美国_1","server":"38.68.134.48","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_2","server":"fhcarm2.gaox.ml","port":443,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇺🇸_US_美国_3","server":"54.214.170.7","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"vmess","name":"英国_0528044","server":"45.61.173.125","port":"31224","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"英国(yudou66.com玉豆分享)2","server":"bgpv2.ktyjsq.com","port":"12229","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"印度(TG频道:@kxswa)","server":"172.104.206.42","port":"31221","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"亚洲2","server":"bgpv2.ktyjsq.com","port":"12221","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"亚洲(yudou66.com玉豆分享)","server":"bgpv2.ktyjsq.com","port":"12223","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_0528126","server":"129.226.215.77","port":"38328","uuid":"21f46ce9-ced4-4573-872d-190587bbb101","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_0528125","server":"129.226.214.106","port":"56552","uuid":"107fd66d-0f00-4ec6-8c70-75f1ed180173","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_0528115","server":"129.226.215.7","port":"28833","uuid":"e20eea47-f0f1-49b8-da1b-969693463008","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_0528114","server":"129.226.213.254","port":"19969","uuid":"fee53a69-62f1-4817-8fb8-417960cdcf84","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_0528106","server":"129.226.214.101","port":"51332","uuid":"6951282c-94d5-4f5d-cbc5-1e97f90bfe39","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_0528103","server":"129.226.217.168","port":"15322","uuid":"7676a524-3603-473e-de41-2bc6273d52fc","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_0528094","server":"129.226.216.121","port":"49381","uuid":"2f6d0f82-80c4-42ed-fd46-c76e7cc81de0","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_0528075","server":"129.226.217.153","port":"15184","uuid":"bb02fa5b-1d15-46f4-fa47-053c6db61e39","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_0528073","server":"129.226.93.161","port":"40236","uuid":"931416fe-98f2-4098-c8e7-3634e27ce6f4","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_0528068","server":"129.226.217.71","port":"24000","uuid":"8155e01b-1b54-410d-9550-555390a90d9d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_0528059","server":"129.226.93.198","port":"57696","uuid":"1ec2c6a9-f727-412d-a433-fbb87c3aca50","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡_0528048","server":"129.226.216.124","port":"14728","uuid":"eea3d090-e068-4b74-8039-91fd79218d1a","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡(欢迎订阅Youtube破解资源君)_6","server":"129.226.95.71","port":"56916","uuid":"29d4cfd8-9aea-4796-9320-b2b9234fc141","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡(欢迎订阅Youtube破解资源君)_5","server":"129.226.214.28","port":"15430","uuid":"6e9a4ae9-e60b-4cea-af9f-9de18d37404e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡(欢迎订阅Youtube破解资源君)_4","server":"129.226.217.101","port":"19660","uuid":"0d47b5c9-24ce-4774-c300-58e79b77a9eb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡(欢迎订阅Youtube破解资源君)_3","server":"129.226.95.12","port":"14597","uuid":"4d346473-716f-404a-819c-e56fc07b0234","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡(nodefree.org免费分享)_5","server":"129.226.95.71","port":"56916","uuid":"29d4cfd8-9aea-4796-9320-b2b9234fc141","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"台湾(nodefree.org免费分享)","server":"bgpv2.ktyjsq.com","port":"12222","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"日本_0528070","server":"150.230.4.136","port":"11151","uuid":"18ef8b86-5dfe-48a9-b4e4-b5f595f7e555","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"日本(nodefree.org免费分享)","server":"bgpv2.ktyjsq.com","port":"12205","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_12","server":"bgpv2.ktyjsq.com","port":"12223","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_11","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"欧洲(欢迎订阅Youtube破解资源君)_10","server":"bgpv2.ktyjsq.com","port":"12205","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"欧洲(yudou66.com玉豆分享)2","server":"bgpv2.ktyjsq.com","port":"12229","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国078","server":"150.230.4.136","port":"11151","uuid":"18ef8b86-5dfe-48a9-b4e4-b5f595f7e555","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国065","server":"u5.anmu.one","port":"16443","uuid":"8170e8f8-cba4-42ad-b3bc-04f10fd254c7","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"美国_0528738","ws-opts":{"path":"/v2ray","headers":{"host":"50.114.56.20"}},"server":"50.114.56.20","port":"4440","uuid":"8d13dc0f-c4c9-3f66-b8de-d9a5d432842a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国_0528271","ws-opts":{"path":"/","headers":{"host":"oz.moonfree.top"}},"server":"oz.moonfree.top","port":"443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国(欢迎订阅Youtube破解资源君)_3","server":"u2.anmu.one","port":"16499","uuid":"32b306e1-d5b1-4913-d8d3-56ac23637de7","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"美国(nodefree.org免费分享)_7","server":"bgpv2.ktyjsq.com","port":"12205","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国(nodefree.org免费分享)_4","server":"u5.anmu.one","port":"16494","uuid":"b39c6188-43b1-4a8c-ca01-19a0f9ae769a","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"钉钉|443|香港|01","ws-opts":{"path":"/","headers":{"host":"43.129.87.145"}},"server":"43.129.87.145","port":"443","uuid":"64561d57-81a0-4a58-bf11-7adb4d1103fa","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"德国_0528028","server":"213.226.71.209","port":"31251","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"巴西_0528004","server":"138.118.175.28","port":"31320","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"US_54","ws-opts":{"path":"/","headers":{"host":"159.223.93.179"}},"server":"159.223.93.179","port":"80","uuid":"23734aa1-5de0-465f-9662-4f0239b31d9f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_53","server":"45.61.173.125","port":"31224","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"US_143+TG@peekfun+|+2.44Mb","server":"s2.upyun.online","port":12340,"password":"c0276440-f163-4f40-a08c-78b158ce6c4f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US_142+TG@peekfun+|+1.62Mb","server":"s1.upyun.online","port":12340,"password":"c0276440-f163-4f40-a08c-78b158ce6c4f","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"SG_51","server":"129.226.214.30","port":"36067","uuid":"26feaed3-6918-4600-d9cd-45a678d79c3a","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"SG_30","server":"129.226.94.27","port":"23785","uuid":"d0771055-cccc-4b79-c4db-d2942f8c9e62","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"SG_2836_26.16Mb|59.28Mb","ws-opts":{"path":"/","headers":{"host":"sh.moonfree.top"}},"server":"sh.moonfree.top","port":"11263","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇨🇦CA_07","server":"120.232.239.6","port":"31220","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"JP_101+TG@peekfun+|+3.23Mb","server":"s1.upyun.online","port":12340,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"HK66","server":"183.232.239.72","port":31112,"cipher":"aes-128-gcm","password":"a22f0bcf-ab80-4d3f-904f-032ac012326a"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云95","server":"129.226.94.27","port":"23785","uuid":"d0771055-cccc-4b79-c4db-d2942f8c9e62","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-亚太地区59","server":"103.172.116.87","port":"31244","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云54_1","server":"129.226.217.101","port":"19660","uuid":"0d47b5c9-24ce-4774-c300-58e79b77a9eb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云54_2","server":"129.226.217.101","port":"19660","uuid":"0d47b5c9-24ce-4774-c300-58e79b77a9eb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云5","server":"129.226.215.95","port":"43613","uuid":"9e1be3ad-911d-4dcc-822f-f8f8e79f62e2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云24","server":"129.226.217.215","port":"29971","uuid":"696085ad-1886-454b-eb65-db1743a8ec2c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云2","server":"129.226.213.254","port":"19969","uuid":"fee53a69-62f1-4817-8fb8-417960cdcf84","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云14","server":"129.226.213.30","port":"35006","uuid":"1bdeedc8-ab5d-4d0e-ce89-72a8deb80b64","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云13","server":"129.226.217.153","port":"15184","uuid":"bb02fa5b-1d15-46f4-fa47-053c6db61e39","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-美国66","server":"45.61.174.36","port":"31325","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"80","ws-opts":{"path":"/","headers":{"host":"chunchuan-02.aikala.shop"}},"server":"chunchuan-02.aikala.shop","port":"80","uuid":"9ea0f7b2-5ae3-4e1a-b3d7-b5fdf25215a8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"+新加坡0777","server":"3.0.54.98","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"trojan","name":"+香港1a","server":"49hk05.fans8.xyz","port":443,"password":"cd3d48cb-6641-4183-aff1-f8f6789fecce","udp":true,"skip-cert-verify":true,"sni":"49hk05.fans8.xyz"}
+  - {"type":"trojan","name":"+美国(欢迎订阅Youtube破解资源君)","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"+US美国(Youtube技术分享室)+32","server":"38.68.134.48","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"+US美国(Youtube技术分享室)+18","server":"38.68.134.48","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"trojan","name":"+Relay_🇺🇸US-🇺🇸US_58","server":"jgwcc2.gaox.ml","port":443,"password":"9c822f05-cfdc-479a-9534-60f3d4127435","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"+Relay_🇨🇳CN-🇹🇼TW_262","server":"14.29.124.168","port":24009,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"+Relay_🇨🇳CN-🇭🇰HK_211","server":"14.29.124.174","port":11004,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"+github.com/freefq+-+日本东京Amazon数据中心+9","server":"54.238.232.202","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"ss","name":"+github.com/freefq+-+荷兰北荷兰省阿姆斯特丹Melbicom数据中心+28","server":"213.183.59.190","port":9045,"cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
+  - {"type":"ss","name":"+github.com/freefq+-+荷兰++16","server":"37.218.241.43","port":443,"cipher":"chacha20-ietf-poly1305","password":"xCjmxGzrUoBA"}
+  - {"type":"trojan","name":"+GB-高速节点推荐：v1.mk/vip_1","server":"jgwld2.gaox.ml","port":443,"password":"d7fd8aaa-4581-4281-80aa-4b63e5e1f157","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"+CN-高速节点推荐：v1.mk/vip","server":"cdn2.myuuusss.com","port":20011,"cipher":"aes-128-gcm","password":"b195963c-2631-442d-ab3a-6e78df25d904"}
+  - {"type":"ss","name":"+:荷兰-ss-213.183.59.214:9058-可用-直连-仅支持荷兰地区NF自制剧","server":"213.183.59.214","port":9058,"cipher":"aes-256-cfb","password":"dML2sfhbVwvtfNPe"}
+  - {"type":"ss","name":"+(Youtube技术分享室)🇨🇳中国+7","server":"14.29.124.168","port":25247,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"+(Youtube技术分享室)🇨🇳中国+5","server":"14.29.124.168","port":25289,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"+(Youtube技术分享室)🇨🇳中国+12","server":"14.29.124.168","port":25297,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"+(Youtube技术分享室)🇨🇳中国+11","server":"14.29.124.168","port":25217,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"vmess","name":"|36.93Mb","server":"zf3.qimengsdf.ml","port":"33552","uuid":"96b5a34b-55e8-40a4-85ba-1f7ba208d43e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_9","server":"14.29.124.168","port":25219,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_8","server":"14.29.124.168","port":25256,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_7","server":"14.29.124.168","port":25267,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_6","server":"14.29.124.168","port":25233,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_5","server":"14.29.124.168","port":25271,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_4_1","server":"14.29.124.168","port":25268,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"vmess","name":"_油管频道：全网最强白嫖_4_2","server":"bgpv2.ktyjsq.com","port":"12221","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_3_1","server":"14.29.124.168","port":25230,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"vmess","name":"_油管频道：全网最强白嫖_3_2","server":"bgpv2.ktyjsq.com","port":"12222","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_2","server":"14.29.124.168","port":25252,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_15","server":"14.29.124.168","port":25259,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_14","server":"14.29.124.168","port":25296,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_13","server":"14.29.124.168","port":25241,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_12","server":"14.29.124.168","port":25293,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_11","server":"14.29.124.168","port":25231,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_10","server":"14.29.124.168","port":25279,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_1","server":"14.29.124.168","port":25266,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"vmess","name":"_9.27Mb|38.13Mb","server":"zf3.qimengsdf.ml","port":"49996","uuid":"96b5a34b-55e8-40a4-85ba-1f7ba208d43e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"_8.46Mb|94.92Mb","server":"zf3.qimengsdf.ml","port":"12413","uuid":"96b5a34b-55e8-40a4-85ba-1f7ba208d43e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"_561_14.62Mb+|11.76Mb","server":"14.29.124.168","port":25286,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_339_22.30Mb+|+7.90Mb","server":"14.29.124.168","port":25222,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"vmess","name":"_3.95Mb|123.08Mb","server":"zf3.qimengsdf.ml","port":"52457","uuid":"96b5a34b-55e8-40a4-85ba-1f7ba208d43e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v5.ssrsub.com"}},"server":"v5.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 英国_0528044
+      - 英国(yudou66.com玉豆分享)2
+      - 印度(TG频道:@kxswa)
+      - 亚洲2
+      - 亚洲(yudou66.com玉豆分享)
+      - 新加坡_0528126
+      - 新加坡_0528125
+      - 新加坡_0528115
+      - 新加坡_0528114
+      - 新加坡_0528106
+      - 新加坡_0528103
+      - 新加坡_0528094
+      - 新加坡_0528075
+      - 新加坡_0528073
+      - 新加坡_0528068
+      - 新加坡_0528059
+      - 新加坡_0528048
+      - 新加坡(欢迎订阅Youtube破解资源君)_6
+      - 新加坡(欢迎订阅Youtube破解资源君)_5
+      - 新加坡(欢迎订阅Youtube破解资源君)_4
+      - 新加坡(欢迎订阅Youtube破解资源君)_3
+      - 新加坡(nodefree.org免费分享)_5
+      - 台湾(nodefree.org免费分享)
+      - 日本_0528070
+      - 日本(nodefree.org免费分享)
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(yudou66.com玉豆分享)2
+      - 美国078
+      - 美国065
+      - 美国_0528738
+      - 美国_0528271
+      - 美国(欢迎订阅Youtube破解资源君)_3
+      - 美国(nodefree.org免费分享)_7
+      - 美国(nodefree.org免费分享)_4
+      - 钉钉|443|香港|01
+      - 德国_0528028
+      - 巴西_0528004
+      - US_54
+      - US_53
+      - US_143+TG@peekfun+|+2.44Mb
+      - US_142+TG@peekfun+|+1.62Mb
+      - SG_51
+      - SG_30
+      - SG_2836_26.16Mb|59.28Mb
+      - Relay_🇨🇳CN-🇨🇦CA_07
+      - JP_101+TG@peekfun+|+3.23Mb
+      - HK66
+      - github.com/v2rayfree-新加坡腾讯云95
+      - github.com/freefq-亚太地区59
+      - github.com/freefq-新加坡腾讯云54_1
+      - github.com/freefq-新加坡腾讯云54_2
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云2
+      - github.com/freefq-新加坡腾讯云14
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/freefq-美国66
+      - '80'
+      - +新加坡0777
+      - +香港1a
+      - +美国(欢迎订阅Youtube破解资源君)
+      - +US美国(Youtube技术分享室)+32
+      - +US美国(Youtube技术分享室)+18
+      - +Relay_🇺🇸US-🇺🇸US_58
+      - +Relay_🇨🇳CN-🇹🇼TW_262
+      - +Relay_🇨🇳CN-🇭🇰HK_211
+      - +github.com/freefq+-+日本东京Amazon数据中心+9
+      - +github.com/freefq+-+荷兰北荷兰省阿姆斯特丹Melbicom数据中心+28
+      - +github.com/freefq+-+荷兰++16
+      - +GB-高速节点推荐：v1.mk/vip_1
+      - +CN-高速节点推荐：v1.mk/vip
+      - +:荷兰-ss-213.183.59.214:9058-可用-直连-仅支持荷兰地区NF自制剧
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - +(Youtube技术分享室)🇨🇳中国+5
+      - +(Youtube技术分享室)🇨🇳中国+12
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - '|36.93Mb'
+      - _油管频道：全网最强白嫖_9
+      - _油管频道：全网最强白嫖_8
+      - _油管频道：全网最强白嫖_7
+      - _油管频道：全网最强白嫖_6
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_4_1
+      - _油管频道：全网最强白嫖_4_2
+      - _油管频道：全网最强白嫖_3_1
+      - _油管频道：全网最强白嫖_3_2
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_15
+      - _油管频道：全网最强白嫖_14
+      - _油管频道：全网最强白嫖_13
+      - _油管频道：全网最强白嫖_12
+      - _油管频道：全网最强白嫖_11
+      - _油管频道：全网最强白嫖_10
+      - _油管频道：全网最强白嫖_1
+      - _9.27Mb|38.13Mb
+      - _8.46Mb|94.92Mb
+      - _561_14.62Mb+|11.76Mb
+      - _339_22.30Mb+|+7.90Mb
+      - _3.95Mb|123.08Mb
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 英国_0528044
+      - 英国(yudou66.com玉豆分享)2
+      - 印度(TG频道:@kxswa)
+      - 亚洲2
+      - 亚洲(yudou66.com玉豆分享)
+      - 新加坡_0528126
+      - 新加坡_0528125
+      - 新加坡_0528115
+      - 新加坡_0528114
+      - 新加坡_0528106
+      - 新加坡_0528103
+      - 新加坡_0528094
+      - 新加坡_0528075
+      - 新加坡_0528073
+      - 新加坡_0528068
+      - 新加坡_0528059
+      - 新加坡_0528048
+      - 新加坡(欢迎订阅Youtube破解资源君)_6
+      - 新加坡(欢迎订阅Youtube破解资源君)_5
+      - 新加坡(欢迎订阅Youtube破解资源君)_4
+      - 新加坡(欢迎订阅Youtube破解资源君)_3
+      - 新加坡(nodefree.org免费分享)_5
+      - 台湾(nodefree.org免费分享)
+      - 日本_0528070
+      - 日本(nodefree.org免费分享)
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(yudou66.com玉豆分享)2
+      - 美国078
+      - 美国065
+      - 美国_0528738
+      - 美国_0528271
+      - 美国(欢迎订阅Youtube破解资源君)_3
+      - 美国(nodefree.org免费分享)_7
+      - 美国(nodefree.org免费分享)_4
+      - 钉钉|443|香港|01
+      - 德国_0528028
+      - 巴西_0528004
+      - US_54
+      - US_53
+      - US_143+TG@peekfun+|+2.44Mb
+      - US_142+TG@peekfun+|+1.62Mb
+      - SG_51
+      - SG_30
+      - SG_2836_26.16Mb|59.28Mb
+      - Relay_🇨🇳CN-🇨🇦CA_07
+      - JP_101+TG@peekfun+|+3.23Mb
+      - HK66
+      - github.com/v2rayfree-新加坡腾讯云95
+      - github.com/freefq-亚太地区59
+      - github.com/freefq-新加坡腾讯云54_1
+      - github.com/freefq-新加坡腾讯云54_2
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云2
+      - github.com/freefq-新加坡腾讯云14
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/freefq-美国66
+      - '80'
+      - +新加坡0777
+      - +香港1a
+      - +美国(欢迎订阅Youtube破解资源君)
+      - +US美国(Youtube技术分享室)+32
+      - +US美国(Youtube技术分享室)+18
+      - +Relay_🇺🇸US-🇺🇸US_58
+      - +Relay_🇨🇳CN-🇹🇼TW_262
+      - +Relay_🇨🇳CN-🇭🇰HK_211
+      - +github.com/freefq+-+日本东京Amazon数据中心+9
+      - +github.com/freefq+-+荷兰北荷兰省阿姆斯特丹Melbicom数据中心+28
+      - +github.com/freefq+-+荷兰++16
+      - +GB-高速节点推荐：v1.mk/vip_1
+      - +CN-高速节点推荐：v1.mk/vip
+      - +:荷兰-ss-213.183.59.214:9058-可用-直连-仅支持荷兰地区NF自制剧
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - +(Youtube技术分享室)🇨🇳中国+5
+      - +(Youtube技术分享室)🇨🇳中国+12
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - '|36.93Mb'
+      - _油管频道：全网最强白嫖_9
+      - _油管频道：全网最强白嫖_8
+      - _油管频道：全网最强白嫖_7
+      - _油管频道：全网最强白嫖_6
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_4_1
+      - _油管频道：全网最强白嫖_4_2
+      - _油管频道：全网最强白嫖_3_1
+      - _油管频道：全网最强白嫖_3_2
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_15
+      - _油管频道：全网最强白嫖_14
+      - _油管频道：全网最强白嫖_13
+      - _油管频道：全网最强白嫖_12
+      - _油管频道：全网最强白嫖_11
+      - _油管频道：全网最强白嫖_10
+      - _油管频道：全网最强白嫖_1
+      - _9.27Mb|38.13Mb
+      - _8.46Mb|94.92Mb
+      - _561_14.62Mb+|11.76Mb
+      - _339_22.30Mb+|+7.90Mb
+      - _3.95Mb|123.08Mb
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 英国_0528044
+      - 英国(yudou66.com玉豆分享)2
+      - 印度(TG频道:@kxswa)
+      - 亚洲2
+      - 亚洲(yudou66.com玉豆分享)
+      - 新加坡_0528126
+      - 新加坡_0528125
+      - 新加坡_0528115
+      - 新加坡_0528114
+      - 新加坡_0528106
+      - 新加坡_0528103
+      - 新加坡_0528094
+      - 新加坡_0528075
+      - 新加坡_0528073
+      - 新加坡_0528068
+      - 新加坡_0528059
+      - 新加坡_0528048
+      - 新加坡(欢迎订阅Youtube破解资源君)_6
+      - 新加坡(欢迎订阅Youtube破解资源君)_5
+      - 新加坡(欢迎订阅Youtube破解资源君)_4
+      - 新加坡(欢迎订阅Youtube破解资源君)_3
+      - 新加坡(nodefree.org免费分享)_5
+      - 台湾(nodefree.org免费分享)
+      - 日本_0528070
+      - 日本(nodefree.org免费分享)
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(yudou66.com玉豆分享)2
+      - 美国078
+      - 美国065
+      - 美国_0528738
+      - 美国_0528271
+      - 美国(欢迎订阅Youtube破解资源君)_3
+      - 美国(nodefree.org免费分享)_7
+      - 美国(nodefree.org免费分享)_4
+      - 钉钉|443|香港|01
+      - 德国_0528028
+      - 巴西_0528004
+      - US_54
+      - US_53
+      - US_143+TG@peekfun+|+2.44Mb
+      - US_142+TG@peekfun+|+1.62Mb
+      - SG_51
+      - SG_30
+      - SG_2836_26.16Mb|59.28Mb
+      - Relay_🇨🇳CN-🇨🇦CA_07
+      - JP_101+TG@peekfun+|+3.23Mb
+      - HK66
+      - github.com/v2rayfree-新加坡腾讯云95
+      - github.com/freefq-亚太地区59
+      - github.com/freefq-新加坡腾讯云54_1
+      - github.com/freefq-新加坡腾讯云54_2
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云2
+      - github.com/freefq-新加坡腾讯云14
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/freefq-美国66
+      - '80'
+      - +新加坡0777
+      - +香港1a
+      - +美国(欢迎订阅Youtube破解资源君)
+      - +US美国(Youtube技术分享室)+32
+      - +US美国(Youtube技术分享室)+18
+      - +Relay_🇺🇸US-🇺🇸US_58
+      - +Relay_🇨🇳CN-🇹🇼TW_262
+      - +Relay_🇨🇳CN-🇭🇰HK_211
+      - +github.com/freefq+-+日本东京Amazon数据中心+9
+      - +github.com/freefq+-+荷兰北荷兰省阿姆斯特丹Melbicom数据中心+28
+      - +github.com/freefq+-+荷兰++16
+      - +GB-高速节点推荐：v1.mk/vip_1
+      - +CN-高速节点推荐：v1.mk/vip
+      - +:荷兰-ss-213.183.59.214:9058-可用-直连-仅支持荷兰地区NF自制剧
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - +(Youtube技术分享室)🇨🇳中国+5
+      - +(Youtube技术分享室)🇨🇳中国+12
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - '|36.93Mb'
+      - _油管频道：全网最强白嫖_9
+      - _油管频道：全网最强白嫖_8
+      - _油管频道：全网最强白嫖_7
+      - _油管频道：全网最强白嫖_6
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_4_1
+      - _油管频道：全网最强白嫖_4_2
+      - _油管频道：全网最强白嫖_3_1
+      - _油管频道：全网最强白嫖_3_2
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_15
+      - _油管频道：全网最强白嫖_14
+      - _油管频道：全网最强白嫖_13
+      - _油管频道：全网最强白嫖_12
+      - _油管频道：全网最强白嫖_11
+      - _油管频道：全网最强白嫖_10
+      - _油管频道：全网最强白嫖_1
+      - _9.27Mb|38.13Mb
+      - _8.46Mb|94.92Mb
+      - _561_14.62Mb+|11.76Mb
+      - _339_22.30Mb+|+7.90Mb
+      - _3.95Mb|123.08Mb
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 英国_0528044
+      - 英国(yudou66.com玉豆分享)2
+      - 印度(TG频道:@kxswa)
+      - 亚洲2
+      - 亚洲(yudou66.com玉豆分享)
+      - 新加坡_0528126
+      - 新加坡_0528125
+      - 新加坡_0528115
+      - 新加坡_0528114
+      - 新加坡_0528106
+      - 新加坡_0528103
+      - 新加坡_0528094
+      - 新加坡_0528075
+      - 新加坡_0528073
+      - 新加坡_0528068
+      - 新加坡_0528059
+      - 新加坡_0528048
+      - 新加坡(欢迎订阅Youtube破解资源君)_6
+      - 新加坡(欢迎订阅Youtube破解资源君)_5
+      - 新加坡(欢迎订阅Youtube破解资源君)_4
+      - 新加坡(欢迎订阅Youtube破解资源君)_3
+      - 新加坡(nodefree.org免费分享)_5
+      - 台湾(nodefree.org免费分享)
+      - 日本_0528070
+      - 日本(nodefree.org免费分享)
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(yudou66.com玉豆分享)2
+      - 美国078
+      - 美国065
+      - 美国_0528738
+      - 美国_0528271
+      - 美国(欢迎订阅Youtube破解资源君)_3
+      - 美国(nodefree.org免费分享)_7
+      - 美国(nodefree.org免费分享)_4
+      - 钉钉|443|香港|01
+      - 德国_0528028
+      - 巴西_0528004
+      - US_54
+      - US_53
+      - US_143+TG@peekfun+|+2.44Mb
+      - US_142+TG@peekfun+|+1.62Mb
+      - SG_51
+      - SG_30
+      - SG_2836_26.16Mb|59.28Mb
+      - Relay_🇨🇳CN-🇨🇦CA_07
+      - JP_101+TG@peekfun+|+3.23Mb
+      - HK66
+      - github.com/v2rayfree-新加坡腾讯云95
+      - github.com/freefq-亚太地区59
+      - github.com/freefq-新加坡腾讯云54_1
+      - github.com/freefq-新加坡腾讯云54_2
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云2
+      - github.com/freefq-新加坡腾讯云14
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/freefq-美国66
+      - '80'
+      - +新加坡0777
+      - +香港1a
+      - +美国(欢迎订阅Youtube破解资源君)
+      - +US美国(Youtube技术分享室)+32
+      - +US美国(Youtube技术分享室)+18
+      - +Relay_🇺🇸US-🇺🇸US_58
+      - +Relay_🇨🇳CN-🇹🇼TW_262
+      - +Relay_🇨🇳CN-🇭🇰HK_211
+      - +github.com/freefq+-+日本东京Amazon数据中心+9
+      - +github.com/freefq+-+荷兰北荷兰省阿姆斯特丹Melbicom数据中心+28
+      - +github.com/freefq+-+荷兰++16
+      - +GB-高速节点推荐：v1.mk/vip_1
+      - +CN-高速节点推荐：v1.mk/vip
+      - +:荷兰-ss-213.183.59.214:9058-可用-直连-仅支持荷兰地区NF自制剧
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - +(Youtube技术分享室)🇨🇳中国+5
+      - +(Youtube技术分享室)🇨🇳中国+12
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - '|36.93Mb'
+      - _油管频道：全网最强白嫖_9
+      - _油管频道：全网最强白嫖_8
+      - _油管频道：全网最强白嫖_7
+      - _油管频道：全网最强白嫖_6
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_4_1
+      - _油管频道：全网最强白嫖_4_2
+      - _油管频道：全网最强白嫖_3_1
+      - _油管频道：全网最强白嫖_3_2
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_15
+      - _油管频道：全网最强白嫖_14
+      - _油管频道：全网最强白嫖_13
+      - _油管频道：全网最强白嫖_12
+      - _油管频道：全网最强白嫖_11
+      - _油管频道：全网最强白嫖_10
+      - _油管频道：全网最强白嫖_1
+      - _9.27Mb|38.13Mb
+      - _8.46Mb|94.92Mb
+      - _561_14.62Mb+|11.76Mb
+      - _339_22.30Mb+|+7.90Mb
+      - _3.95Mb|123.08Mb
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 英国_0528044
+      - 英国(yudou66.com玉豆分享)2
+      - 印度(TG频道:@kxswa)
+      - 亚洲2
+      - 亚洲(yudou66.com玉豆分享)
+      - 新加坡_0528126
+      - 新加坡_0528125
+      - 新加坡_0528115
+      - 新加坡_0528114
+      - 新加坡_0528106
+      - 新加坡_0528103
+      - 新加坡_0528094
+      - 新加坡_0528075
+      - 新加坡_0528073
+      - 新加坡_0528068
+      - 新加坡_0528059
+      - 新加坡_0528048
+      - 新加坡(欢迎订阅Youtube破解资源君)_6
+      - 新加坡(欢迎订阅Youtube破解资源君)_5
+      - 新加坡(欢迎订阅Youtube破解资源君)_4
+      - 新加坡(欢迎订阅Youtube破解资源君)_3
+      - 新加坡(nodefree.org免费分享)_5
+      - 台湾(nodefree.org免费分享)
+      - 日本_0528070
+      - 日本(nodefree.org免费分享)
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(yudou66.com玉豆分享)2
+      - 美国078
+      - 美国065
+      - 美国_0528738
+      - 美国_0528271
+      - 美国(欢迎订阅Youtube破解资源君)_3
+      - 美国(nodefree.org免费分享)_7
+      - 美国(nodefree.org免费分享)_4
+      - 钉钉|443|香港|01
+      - 德国_0528028
+      - 巴西_0528004
+      - US_54
+      - US_53
+      - US_143+TG@peekfun+|+2.44Mb
+      - US_142+TG@peekfun+|+1.62Mb
+      - SG_51
+      - SG_30
+      - SG_2836_26.16Mb|59.28Mb
+      - Relay_🇨🇳CN-🇨🇦CA_07
+      - JP_101+TG@peekfun+|+3.23Mb
+      - HK66
+      - github.com/v2rayfree-新加坡腾讯云95
+      - github.com/freefq-亚太地区59
+      - github.com/freefq-新加坡腾讯云54_1
+      - github.com/freefq-新加坡腾讯云54_2
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云2
+      - github.com/freefq-新加坡腾讯云14
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/freefq-美国66
+      - '80'
+      - +新加坡0777
+      - +香港1a
+      - +美国(欢迎订阅Youtube破解资源君)
+      - +US美国(Youtube技术分享室)+32
+      - +US美国(Youtube技术分享室)+18
+      - +Relay_🇺🇸US-🇺🇸US_58
+      - +Relay_🇨🇳CN-🇹🇼TW_262
+      - +Relay_🇨🇳CN-🇭🇰HK_211
+      - +github.com/freefq+-+日本东京Amazon数据中心+9
+      - +github.com/freefq+-+荷兰北荷兰省阿姆斯特丹Melbicom数据中心+28
+      - +github.com/freefq+-+荷兰++16
+      - +GB-高速节点推荐：v1.mk/vip_1
+      - +CN-高速节点推荐：v1.mk/vip
+      - +:荷兰-ss-213.183.59.214:9058-可用-直连-仅支持荷兰地区NF自制剧
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - +(Youtube技术分享室)🇨🇳中国+5
+      - +(Youtube技术分享室)🇨🇳中国+12
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - '|36.93Mb'
+      - _油管频道：全网最强白嫖_9
+      - _油管频道：全网最强白嫖_8
+      - _油管频道：全网最强白嫖_7
+      - _油管频道：全网最强白嫖_6
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_4_1
+      - _油管频道：全网最强白嫖_4_2
+      - _油管频道：全网最强白嫖_3_1
+      - _油管频道：全网最强白嫖_3_2
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_15
+      - _油管频道：全网最强白嫖_14
+      - _油管频道：全网最强白嫖_13
+      - _油管频道：全网最强白嫖_12
+      - _油管频道：全网最强白嫖_11
+      - _油管频道：全网最强白嫖_10
+      - _油管频道：全网最强白嫖_1
+      - _9.27Mb|38.13Mb
+      - _8.46Mb|94.92Mb
+      - _561_14.62Mb+|11.76Mb
+      - _339_22.30Mb+|+7.90Mb
+      - _3.95Mb|123.08Mb
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 英国_0528044
+      - 英国(yudou66.com玉豆分享)2
+      - 印度(TG频道:@kxswa)
+      - 亚洲2
+      - 亚洲(yudou66.com玉豆分享)
+      - 新加坡_0528126
+      - 新加坡_0528125
+      - 新加坡_0528115
+      - 新加坡_0528114
+      - 新加坡_0528106
+      - 新加坡_0528103
+      - 新加坡_0528094
+      - 新加坡_0528075
+      - 新加坡_0528073
+      - 新加坡_0528068
+      - 新加坡_0528059
+      - 新加坡_0528048
+      - 新加坡(欢迎订阅Youtube破解资源君)_6
+      - 新加坡(欢迎订阅Youtube破解资源君)_5
+      - 新加坡(欢迎订阅Youtube破解资源君)_4
+      - 新加坡(欢迎订阅Youtube破解资源君)_3
+      - 新加坡(nodefree.org免费分享)_5
+      - 台湾(nodefree.org免费分享)
+      - 日本_0528070
+      - 日本(nodefree.org免费分享)
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(yudou66.com玉豆分享)2
+      - 美国078
+      - 美国065
+      - 美国_0528738
+      - 美国_0528271
+      - 美国(欢迎订阅Youtube破解资源君)_3
+      - 美国(nodefree.org免费分享)_7
+      - 美国(nodefree.org免费分享)_4
+      - 钉钉|443|香港|01
+      - 德国_0528028
+      - 巴西_0528004
+      - US_54
+      - US_53
+      - US_143+TG@peekfun+|+2.44Mb
+      - US_142+TG@peekfun+|+1.62Mb
+      - SG_51
+      - SG_30
+      - SG_2836_26.16Mb|59.28Mb
+      - Relay_🇨🇳CN-🇨🇦CA_07
+      - JP_101+TG@peekfun+|+3.23Mb
+      - HK66
+      - github.com/v2rayfree-新加坡腾讯云95
+      - github.com/freefq-亚太地区59
+      - github.com/freefq-新加坡腾讯云54_1
+      - github.com/freefq-新加坡腾讯云54_2
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云2
+      - github.com/freefq-新加坡腾讯云14
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/freefq-美国66
+      - '80'
+      - +新加坡0777
+      - +香港1a
+      - +美国(欢迎订阅Youtube破解资源君)
+      - +US美国(Youtube技术分享室)+32
+      - +US美国(Youtube技术分享室)+18
+      - +Relay_🇺🇸US-🇺🇸US_58
+      - +Relay_🇨🇳CN-🇹🇼TW_262
+      - +Relay_🇨🇳CN-🇭🇰HK_211
+      - +github.com/freefq+-+日本东京Amazon数据中心+9
+      - +github.com/freefq+-+荷兰北荷兰省阿姆斯特丹Melbicom数据中心+28
+      - +github.com/freefq+-+荷兰++16
+      - +GB-高速节点推荐：v1.mk/vip_1
+      - +CN-高速节点推荐：v1.mk/vip
+      - +:荷兰-ss-213.183.59.214:9058-可用-直连-仅支持荷兰地区NF自制剧
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - +(Youtube技术分享室)🇨🇳中国+5
+      - +(Youtube技术分享室)🇨🇳中国+12
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - '|36.93Mb'
+      - _油管频道：全网最强白嫖_9
+      - _油管频道：全网最强白嫖_8
+      - _油管频道：全网最强白嫖_7
+      - _油管频道：全网最强白嫖_6
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_4_1
+      - _油管频道：全网最强白嫖_4_2
+      - _油管频道：全网最强白嫖_3_1
+      - _油管频道：全网最强白嫖_3_2
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_15
+      - _油管频道：全网最强白嫖_14
+      - _油管频道：全网最强白嫖_13
+      - _油管频道：全网最强白嫖_12
+      - _油管频道：全网最强白嫖_11
+      - _油管频道：全网最强白嫖_10
+      - _油管频道：全网最强白嫖_1
+      - _9.27Mb|38.13Mb
+      - _8.46Mb|94.92Mb
+      - _561_14.62Mb+|11.76Mb
+      - _339_22.30Mb+|+7.90Mb
+      - _3.95Mb|123.08Mb
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -81,9 +774,108 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 英国_0528044
+      - 英国(yudou66.com玉豆分享)2
+      - 印度(TG频道:@kxswa)
+      - 亚洲2
+      - 亚洲(yudou66.com玉豆分享)
+      - 新加坡_0528126
+      - 新加坡_0528125
+      - 新加坡_0528115
+      - 新加坡_0528114
+      - 新加坡_0528106
+      - 新加坡_0528103
+      - 新加坡_0528094
+      - 新加坡_0528075
+      - 新加坡_0528073
+      - 新加坡_0528068
+      - 新加坡_0528059
+      - 新加坡_0528048
+      - 新加坡(欢迎订阅Youtube破解资源君)_6
+      - 新加坡(欢迎订阅Youtube破解资源君)_5
+      - 新加坡(欢迎订阅Youtube破解资源君)_4
+      - 新加坡(欢迎订阅Youtube破解资源君)_3
+      - 新加坡(nodefree.org免费分享)_5
+      - 台湾(nodefree.org免费分享)
+      - 日本_0528070
+      - 日本(nodefree.org免费分享)
+      - 欧洲(欢迎订阅Youtube破解资源君)_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - 欧洲(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(yudou66.com玉豆分享)2
+      - 美国078
+      - 美国065
+      - 美国_0528738
+      - 美国_0528271
+      - 美国(欢迎订阅Youtube破解资源君)_3
+      - 美国(nodefree.org免费分享)_7
+      - 美国(nodefree.org免费分享)_4
+      - 钉钉|443|香港|01
+      - 德国_0528028
+      - 巴西_0528004
+      - US_54
+      - US_53
+      - US_143+TG@peekfun+|+2.44Mb
+      - US_142+TG@peekfun+|+1.62Mb
+      - SG_51
+      - SG_30
+      - SG_2836_26.16Mb|59.28Mb
+      - Relay_🇨🇳CN-🇨🇦CA_07
+      - JP_101+TG@peekfun+|+3.23Mb
+      - HK66
+      - github.com/v2rayfree-新加坡腾讯云95
+      - github.com/freefq-亚太地区59
+      - github.com/freefq-新加坡腾讯云54_1
+      - github.com/freefq-新加坡腾讯云54_2
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云2
+      - github.com/freefq-新加坡腾讯云14
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/freefq-美国66
+      - '80'
+      - +新加坡0777
+      - +香港1a
+      - +美国(欢迎订阅Youtube破解资源君)
+      - +US美国(Youtube技术分享室)+32
+      - +US美国(Youtube技术分享室)+18
+      - +Relay_🇺🇸US-🇺🇸US_58
+      - +Relay_🇨🇳CN-🇹🇼TW_262
+      - +Relay_🇨🇳CN-🇭🇰HK_211
+      - +github.com/freefq+-+日本东京Amazon数据中心+9
+      - +github.com/freefq+-+荷兰北荷兰省阿姆斯特丹Melbicom数据中心+28
+      - +github.com/freefq+-+荷兰++16
+      - +GB-高速节点推荐：v1.mk/vip_1
+      - +CN-高速节点推荐：v1.mk/vip
+      - +:荷兰-ss-213.183.59.214:9058-可用-直连-仅支持荷兰地区NF自制剧
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - +(Youtube技术分享室)🇨🇳中国+5
+      - +(Youtube技术分享室)🇨🇳中国+12
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - '|36.93Mb'
+      - _油管频道：全网最强白嫖_9
+      - _油管频道：全网最强白嫖_8
+      - _油管频道：全网最强白嫖_7
+      - _油管频道：全网最强白嫖_6
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_4_1
+      - _油管频道：全网最强白嫖_4_2
+      - _油管频道：全网最强白嫖_3_1
+      - _油管频道：全网最强白嫖_3_2
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_15
+      - _油管频道：全网最强白嫖_14
+      - _油管频道：全网最强白嫖_13
+      - _油管频道：全网最强白嫖_12
+      - _油管频道：全网最强白嫖_11
+      - _油管频道：全网最强白嫖_10
+      - _油管频道：全网最强白嫖_1
+      - _9.27Mb|38.13Mb
+      - _8.46Mb|94.92Mb
+      - _561_14.62Mb+|11.76Mb
+      - _339_22.30Mb+|+7.90Mb
+      - _3.95Mb|123.08Mb
+      - '@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub'
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
