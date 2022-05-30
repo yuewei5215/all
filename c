@@ -5,53 +5,207 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"🇺🇸_US_美国","server":"fhcarm2.gaox.ml","port":443,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇹🇼_TW_台湾","server":"0319tw05.fans8.xyz","port":443,"password":"cd3d48cb-6641-4183-aff1-f8f6789fecce","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"github.com/freefq-日本东京Amazon数据中心10","server":"54.238.232.202","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"ss","name":"github.com/freefq-韩国首尔Amazon数据中心11","server":"13.125.218.170","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"ss","name":"github.com/freefq-韩国首尔Amazon数据中心16","server":"3.35.207.65","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"trojan","name":"github.com/freefq-瑞典20","server":"au2-4.nigirocloud.com","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-美国惠普HP21","server":"twsxxnhk.158801.xyz","port":30913,"password":"4b5a0665-8936-49ba-9bb7-d1084e35fb79","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"github.com/freefq-荷兰22","server":"37.218.241.43","port":443,"cipher":"chacha20-ietf-poly1305","password":"xCjmxGzrUoBA"}
+  - {"type":"ss","name":"github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心25","server":"213.183.59.214","port":9005,"cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
+  - {"type":"ss","name":"github.com/freefq-日本27","server":"43.200.6.115","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"ss","name":"github.com/freefq-美国29","server":"147.182.151.24","port":20110,"cipher":"aes-256-cfb","password":"f5e0ecc4e6b84a668ee9ed98e0a30ca9"}
+  - {"type":"ss","name":"github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点32","server":"fkgfw-prod.i.sxl.cn","port":443,"cipher":"aes-256-cfb","password":"E4DNMf73kHPrd8Qq7aqGPf7f"}
+  - {"type":"trojan","name":"github.com/freefq-美国35","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-瑞典37","server":"au2-1.nigirocloud.com","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-美国38","server":"fhcarm2.gaox.ml","port":443,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"github.com/freefq-新加坡DigitalOcean数据中心40","server":"157.230.41.220","port":29596,"cipher":"aes-256-cfb","password":"e6c1cf51375c407d92d110881a825acb"}
+  - {"type":"ss","name":"github.com/freefq-俄罗斯46","server":"185.4.65.6","port":21247,"cipher":"aes-256-cfb","password":"vDS9G2p"}
+  - {"type":"ss","name":"github.com/freefq-塞浦路斯48","server":"213.169.137.221","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"type":"trojan","name":"github.com/freefq-日本50","server":"49hk05.fans8.xyz","port":443,"password":"cd3d48cb-6641-4183-aff1-f8f6789fecce","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-日本东京M24752","server":"jp1.v2yyds.cc","port":32111,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-瑞典53","server":"au2-3.nigirocloud.com","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq-加拿大54","server":"0319tw05.fans8.xyz","port":443,"password":"cd3d48cb-6641-4183-aff1-f8f6789fecce","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点55","server":"139.219.130.70","port":443,"cipher":"aes-256-cfb","password":"E4DNMf73kHPrd8Qq7aqGPf7f"}
+  - {"type":"ss","name":"github.com/freefq-美国俄勒冈州波特兰Amazon数据中心74","server":"54.214.170.7","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"ss","name":"github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心79","server":"213.183.59.190","port":9006,"cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
+  - {"type":"trojan","name":"github.com/freefq-澳大利亚悉尼Oracle云计算数据中心85","server":"neteasy.ga","port":28931,"password":"MnROfwtPYa","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国
-      - 🇹🇼_TW_台湾
+      - github.com/freefq-日本东京Amazon数据中心10
+      - github.com/freefq-韩国首尔Amazon数据中心11
+      - github.com/freefq-韩国首尔Amazon数据中心16
+      - github.com/freefq-瑞典20
+      - github.com/freefq-美国惠普HP21
+      - github.com/freefq-荷兰22
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心25
+      - github.com/freefq-日本27
+      - github.com/freefq-美国29
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点32
+      - github.com/freefq-美国35
+      - github.com/freefq-瑞典37
+      - github.com/freefq-美国38
+      - github.com/freefq-新加坡DigitalOcean数据中心40
+      - github.com/freefq-俄罗斯46
+      - github.com/freefq-塞浦路斯48
+      - github.com/freefq-日本50
+      - github.com/freefq-日本东京M24752
+      - github.com/freefq-瑞典53
+      - github.com/freefq-加拿大54
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点55
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心74
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心79
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心85
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国
-      - 🇹🇼_TW_台湾
+      - github.com/freefq-日本东京Amazon数据中心10
+      - github.com/freefq-韩国首尔Amazon数据中心11
+      - github.com/freefq-韩国首尔Amazon数据中心16
+      - github.com/freefq-瑞典20
+      - github.com/freefq-美国惠普HP21
+      - github.com/freefq-荷兰22
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心25
+      - github.com/freefq-日本27
+      - github.com/freefq-美国29
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点32
+      - github.com/freefq-美国35
+      - github.com/freefq-瑞典37
+      - github.com/freefq-美国38
+      - github.com/freefq-新加坡DigitalOcean数据中心40
+      - github.com/freefq-俄罗斯46
+      - github.com/freefq-塞浦路斯48
+      - github.com/freefq-日本50
+      - github.com/freefq-日本东京M24752
+      - github.com/freefq-瑞典53
+      - github.com/freefq-加拿大54
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点55
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心74
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心79
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心85
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
-      - 🇹🇼_TW_台湾
+      - github.com/freefq-日本东京Amazon数据中心10
+      - github.com/freefq-韩国首尔Amazon数据中心11
+      - github.com/freefq-韩国首尔Amazon数据中心16
+      - github.com/freefq-瑞典20
+      - github.com/freefq-美国惠普HP21
+      - github.com/freefq-荷兰22
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心25
+      - github.com/freefq-日本27
+      - github.com/freefq-美国29
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点32
+      - github.com/freefq-美国35
+      - github.com/freefq-瑞典37
+      - github.com/freefq-美国38
+      - github.com/freefq-新加坡DigitalOcean数据中心40
+      - github.com/freefq-俄罗斯46
+      - github.com/freefq-塞浦路斯48
+      - github.com/freefq-日本50
+      - github.com/freefq-日本东京M24752
+      - github.com/freefq-瑞典53
+      - github.com/freefq-加拿大54
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点55
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心74
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心79
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心85
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
-      - 🇹🇼_TW_台湾
+      - github.com/freefq-日本东京Amazon数据中心10
+      - github.com/freefq-韩国首尔Amazon数据中心11
+      - github.com/freefq-韩国首尔Amazon数据中心16
+      - github.com/freefq-瑞典20
+      - github.com/freefq-美国惠普HP21
+      - github.com/freefq-荷兰22
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心25
+      - github.com/freefq-日本27
+      - github.com/freefq-美国29
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点32
+      - github.com/freefq-美国35
+      - github.com/freefq-瑞典37
+      - github.com/freefq-美国38
+      - github.com/freefq-新加坡DigitalOcean数据中心40
+      - github.com/freefq-俄罗斯46
+      - github.com/freefq-塞浦路斯48
+      - github.com/freefq-日本50
+      - github.com/freefq-日本东京M24752
+      - github.com/freefq-瑞典53
+      - github.com/freefq-加拿大54
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点55
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心74
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心79
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心85
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国
-      - 🇹🇼_TW_台湾
+      - github.com/freefq-日本东京Amazon数据中心10
+      - github.com/freefq-韩国首尔Amazon数据中心11
+      - github.com/freefq-韩国首尔Amazon数据中心16
+      - github.com/freefq-瑞典20
+      - github.com/freefq-美国惠普HP21
+      - github.com/freefq-荷兰22
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心25
+      - github.com/freefq-日本27
+      - github.com/freefq-美国29
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点32
+      - github.com/freefq-美国35
+      - github.com/freefq-瑞典37
+      - github.com/freefq-美国38
+      - github.com/freefq-新加坡DigitalOcean数据中心40
+      - github.com/freefq-俄罗斯46
+      - github.com/freefq-塞浦路斯48
+      - github.com/freefq-日本50
+      - github.com/freefq-日本东京M24752
+      - github.com/freefq-瑞典53
+      - github.com/freefq-加拿大54
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点55
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心74
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心79
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心85
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
-      - 🇹🇼_TW_台湾
+      - github.com/freefq-日本东京Amazon数据中心10
+      - github.com/freefq-韩国首尔Amazon数据中心11
+      - github.com/freefq-韩国首尔Amazon数据中心16
+      - github.com/freefq-瑞典20
+      - github.com/freefq-美国惠普HP21
+      - github.com/freefq-荷兰22
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心25
+      - github.com/freefq-日本27
+      - github.com/freefq-美国29
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点32
+      - github.com/freefq-美国35
+      - github.com/freefq-瑞典37
+      - github.com/freefq-美国38
+      - github.com/freefq-新加坡DigitalOcean数据中心40
+      - github.com/freefq-俄罗斯46
+      - github.com/freefq-塞浦路斯48
+      - github.com/freefq-日本50
+      - github.com/freefq-日本东京M24752
+      - github.com/freefq-瑞典53
+      - github.com/freefq-加拿大54
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点55
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心74
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心79
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心85
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +228,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国
-      - 🇹🇼_TW_台湾
+      - github.com/freefq-日本东京Amazon数据中心10
+      - github.com/freefq-韩国首尔Amazon数据中心11
+      - github.com/freefq-韩国首尔Amazon数据中心16
+      - github.com/freefq-瑞典20
+      - github.com/freefq-美国惠普HP21
+      - github.com/freefq-荷兰22
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心25
+      - github.com/freefq-日本27
+      - github.com/freefq-美国29
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点32
+      - github.com/freefq-美国35
+      - github.com/freefq-瑞典37
+      - github.com/freefq-美国38
+      - github.com/freefq-新加坡DigitalOcean数据中心40
+      - github.com/freefq-俄罗斯46
+      - github.com/freefq-塞浦路斯48
+      - github.com/freefq-日本50
+      - github.com/freefq-日本东京M24752
+      - github.com/freefq-瑞典53
+      - github.com/freefq-加拿大54
+      - github.com/freefq-上海市微软Azure世纪互联上海数据中心BGP节点55
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心74
+      - github.com/freefq-荷兰北荷兰省阿姆斯特丹Melbicom数据中心79
+      - github.com/freefq-澳大利亚悉尼Oracle云计算数据中心85
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
