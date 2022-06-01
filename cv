@@ -264,6 +264,48 @@ proxies:
   - {name: github.com/freefq - 美国  169, server: kr01.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 美国  170, server: streaming-1-route.teacher2050.com, port: 31222, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 171, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: HK19, server: gz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: e1bff6e4-5adf-4bdf-9863-5b2318b96017, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: 以太坊, server: gz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: e1bff6e4-5adf-4bdf-9863-5b2318b96017, udp: true}
+  - {name: 比特币, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: e1bff6e4-5adf-4bdf-9863-5b2318b96017, udp: true}
+  - {name: HK18, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: bfaf0f2b-c727-32ea-ab28-25e438fda91f, sni: nf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: HK13, server: 3.says.cloud, port: 10006, type: trojan, password: e4497944-728b-4099-bcd7-0ece95ec4183, sni: 3.says.cloud, skip-cert-verify: true, udp: true}
+  - {name: HK14, server: 3.says.cloud, port: 10001, type: trojan, password: e4497944-728b-4099-bcd7-0ece95ec4183, sni: 3.says.cloud, skip-cert-verify: true, udp: true}
+  - {name: HK15, server: 3.says.cloud, port: 10009, type: trojan, password: e4497944-728b-4099-bcd7-0ece95ec4183, sni: 3.says.cloud, skip-cert-verify: true, udp: true}
+  - {name: HK16, server: 3.says.cloud, port: 10003, type: trojan, password: e4497944-728b-4099-bcd7-0ece95ec4183, sni: 3.says.cloud, skip-cert-verify: true, udp: true}
+  - {name: HK17, server: 3.says.cloud, port: 10005, type: trojan, password: e4497944-728b-4099-bcd7-0ece95ec4183, sni: 3.says.cloud, skip-cert-verify: true, udp: true}
+  - {name: HK7, server: 123456789.158801.xyz, port: 80, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: HK8, server: 20.247.0.239, port: 80, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: HK9, server: 123456789.158801.xyz, port: 40001, type: trojan, password: 26467dec-9f2b-4114-9c42-c8cc97493690, sni: 123456789.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK10, server: 123456789.158801.xyz, port: 40005, type: trojan, password: 26467dec-9f2b-4114-9c42-c8cc97493690, sni: 123456789.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK11, server: 123456789.158801.xyz, port: 40002, type: trojan, password: 26467dec-9f2b-4114-9c42-c8cc97493690, sni: 123456789.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK12, server: 123456789.158801.xyz, port: 40003, type: trojan, password: 26467dec-9f2b-4114-9c42-c8cc97493690, sni: 123456789.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: Singapore-Tencent, server: 129.226.217.153, port: 15184, type: vmess, uuid: bb02fa5b-1d15-46f4-fa47-053c6db61e39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Singapore-Tencent 2, server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Singapore-Alibaba, server: 161.117.224.49, port: 29235, type: vmess, uuid: 71090d6b-ae98-4b7e-8367-bc1c700a75c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Singapore-Tencent 3, server: 129.226.216.81, port: 40952, type: vmess, uuid: d65aa42c-4102-48d7-d055-b24ea0c8fe91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Singapore-Tencent 4, server: 129.226.213.241, port: 24824, type: vmess, uuid: 8c1e17cf-c378-403f-862c-62897510116c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本1, server: jp3.bpyun.live, port: 443, type: trojan, password: 9b209d34-0f5b-307d-b8d1-a63c8cc47303, sni: jp3.bpyun.live, skip-cert-verify: true, udp: true}
+  - {name: HK5, server: 18.163.37.30, port: 30274, type: vmess, uuid: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: HK6, server: 18.163.37.30, port: 30272, type: vmess, uuid: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: HK4, server: 103.233.251.211, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 127ed1400716, udp: true}
+  - {name: HK2, server: 18.163.37.30, port: 80, type: vmess, uuid: 121b663a-9127-4854-8161-c3dbb0ff5556, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: HK3, server: 18.163.37.30, port: 30272, type: vmess, uuid: 121b663a-9127-4854-8161-c3dbb0ff5556, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 香港, server: 20.205.32.135, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: HK, server: 20.239.162.124, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: HK1, server: 523hk2.fans8.xyz, port: 443, type: trojan, password: c6799a1d-4a74-4683-919f-98b0a5046591, sni: 523hk2.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: SG1, server: zh01lv5sgp02.feiguayun.xyz, port: 34087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc, udp: true}
+  - {name: 韩国, server: 20.249.59.141, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: JP1, server: 13.215.203.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 台湾, server: 14.29.124.168, port: 24016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW, server: 14.29.124.168, port: 24026, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 弯弯, server: 14.29.124.168, port: 24008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 蛙蛙, server: 14.29.124.168, port: 24009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 蛙, server: 14.29.124.168, port: 24005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: JP, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: US, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 新加坡, server: cdn2.myuuusss.com, port: 32022, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: 日本, server: cdn2.myuuusss.com, port: 37004, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -528,6 +570,48 @@ proxy-groups:
       - github.com/freefq - 美国  169
       - github.com/freefq - 美国  170
       - github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 171
+      - HK19
+      - 以太坊
+      - 比特币
+      - HK18
+      - HK13
+      - HK14
+      - HK15
+      - HK16
+      - HK17
+      - HK7
+      - HK8
+      - HK9
+      - HK10
+      - HK11
+      - HK12
+      - Singapore-Tencent
+      - Singapore-Tencent 2
+      - Singapore-Alibaba
+      - Singapore-Tencent 3
+      - Singapore-Tencent 4
+      - 日本1
+      - HK5
+      - HK6
+      - HK4
+      - HK2
+      - HK3
+      - 香港
+      - HK
+      - HK1
+      - SG1
+      - 韩国
+      - JP1
+      - 台湾
+      - TW
+      - 弯弯
+      - 蛙蛙
+      - 蛙
+      - JP
+      - US
+      - 美国
+      - 新加坡
+      - 日本
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
@@ -792,6 +876,48 @@ proxy-groups:
       - github.com/freefq - 美国  169
       - github.com/freefq - 美国  170
       - github.com/freefq - 美国亚利桑那州凤凰城Oracle云计算数据中心 171
+      - HK19
+      - 以太坊
+      - 比特币
+      - HK18
+      - HK13
+      - HK14
+      - HK15
+      - HK16
+      - HK17
+      - HK7
+      - HK8
+      - HK9
+      - HK10
+      - HK11
+      - HK12
+      - Singapore-Tencent
+      - Singapore-Tencent 2
+      - Singapore-Alibaba
+      - Singapore-Tencent 3
+      - Singapore-Tencent 4
+      - 日本1
+      - HK5
+      - HK6
+      - HK4
+      - HK2
+      - HK3
+      - 香港
+      - HK
+      - HK1
+      - SG1
+      - 韩国
+      - JP1
+      - 台湾
+      - TW
+      - 弯弯
+      - 蛙蛙
+      - 蛙
+      - JP
+      - US
+      - 美国
+      - 新加坡
+      - 日本
   - name: Other
     type: select
     proxies:
