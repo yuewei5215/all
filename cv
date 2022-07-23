@@ -98,7 +98,7 @@ proxy-groups:
       - 台湾 B | 中继 | Prepaid Users
   - name: 自动选择
     type: url-test
-    url: http://www.msftconnecttest.com/connecttest.txt
+    url: http://www.gstatic.com/generate_204
     interval: 150
     proxies:
       - github.com/freefq - 香港Microsoft数据中心 1
