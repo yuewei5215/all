@@ -1648,6 +1648,7 @@ rules:
  - DOMAIN-SUFFIX,tw,全局设置
  - DOMAIN-SUFFIX,uk,全局设置
  - DOMAIN-SUFFIX,us,全局设置
+ - DOMAIN-SUFFIX,ca,全局设置
  - DOMAIN-KEYWORD,1e100,全局设置
  - DOMAIN-KEYWORD,abema,全局设置
  - DOMAIN-KEYWORD,appledaily,全局设置
