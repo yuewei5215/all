@@ -1952,7 +1952,6 @@ rules:
  - DOMAIN-SUFFIX,annatam.com,全局设置
  - DOMAIN-SUFFIX,anobii.com,全局设置
  - DOMAIN-SUFFIX,anontext.com,全局设置
- - DOMAIN-SUFFIX,anonymise.us,全局设置
  - DOMAIN-SUFFIX,anonymitynetwork.com,全局设置
  - DOMAIN-SUFFIX,anonymizer.com,全局设置
  - DOMAIN-SUFFIX,anonymouse.org,全局设置
@@ -2297,6 +2296,7 @@ rules:
  - DOMAIN-SUFFIX,brave.com,全局设置
  - DOMAIN-SUFFIX,bravotube.net,全局设置
  - DOMAIN-SUFFIX,brazzers.com,全局设置
+ - DOMAIN-SUFFIX,breached.to,全局设置
  - DOMAIN-SUFFIX,break.com,全局设置
  - DOMAIN-SUFFIX,breakgfw.com,全局设置
  - DOMAIN-SUFFIX,breaking911.com,全局设置
@@ -2335,6 +2335,7 @@ rules:
  - DOMAIN-SUFFIX,bunbunhk.com,全局设置
  - DOMAIN-SUFFIX,busayari.com,全局设置
  - DOMAIN-SUFFIX,business-humanrights.org,全局设置
+ - DOMAIN-SUFFIX,business.page,全局设置
  - DOMAIN-SUFFIX,businessinsider.com,全局设置
  - DOMAIN-SUFFIX,businessinsider.com.au,全局设置
  - DOMAIN-SUFFIX,businesstoday.com.tw,全局设置
@@ -3293,6 +3294,7 @@ rules:
  - DOMAIN-SUFFIX,finler.net,全局设置
  - DOMAIN-SUFFIX,firearmsworld.net,全局设置
  - DOMAIN-SUFFIX,firebaseio.com,全局设置
+ - DOMAIN-SUFFIX,firefox.com,全局设置
  - DOMAIN-SUFFIX,fireofliberty.org,全局设置
  - DOMAIN-SUFFIX,firetweet.io,全局设置
  - DOMAIN-SUFFIX,firstfivefollowers.com,全局设置
@@ -3476,6 +3478,7 @@ rules:
  - DOMAIN-SUFFIX,gamez.com.tw,全局设置
  - DOMAIN-SUFFIX,gamousa.com,全局设置
  - DOMAIN-SUFFIX,ganges.com,全局设置
+ - DOMAIN-SUFFIX,ganjingworld.com,全局设置
  - DOMAIN-SUFFIX,gaoming.net,全局设置
  - DOMAIN-SUFFIX,gaopi.net,全局设置
  - DOMAIN-SUFFIX,gaozhisheng.net,全局设置
@@ -5457,6 +5460,7 @@ rules:
  - DOMAIN-SUFFIX,pastebin.com,全局设置
  - DOMAIN-SUFFIX,pastie.org,全局设置
  - DOMAIN-SUFFIX,pathtosharepoint.com,全局设置
+ - DOMAIN-SUFFIX,patreon.com,全局设置
  - DOMAIN-SUFFIX,paxful.com,全局设置
  - DOMAIN-SUFFIX,pbs.org,全局设置
  - DOMAIN-SUFFIX,pbwiki.com,全局设置
@@ -5638,6 +5642,7 @@ rules:
  - DOMAIN-SUFFIX,procopytips.com,全局设置
  - DOMAIN-SUFFIX,project-syndicate.org,全局设置
  - DOMAIN-SUFFIX,prosiben.de,全局设置
+ - DOMAIN-SUFFIX,proton.me,全局设置
  - DOMAIN-SUFFIX,protonvpn.com,全局设置
  - DOMAIN-SUFFIX,provideocoalition.com,全局设置
  - DOMAIN-SUFFIX,provpnaccounts.com,全局设置
@@ -5953,6 +5958,7 @@ rules:
  - DOMAIN-SUFFIX,sellclassics.com,全局设置
  - DOMAIN-SUFFIX,sendsmtp.com,全局设置
  - DOMAIN-SUFFIX,sendspace.com,全局设置
+ - DOMAIN-SUFFIX,sensortower.com,全局设置
  - DOMAIN-SUFFIX,seraph.me,全局设置
  - DOMAIN-SUFFIX,servehttp.com,全局设置
  - DOMAIN-SUFFIX,serveuser.com,全局设置
@@ -7245,6 +7251,7 @@ rules:
  - DOMAIN-SUFFIX,wow-life.net,全局设置
  - DOMAIN-SUFFIX,wow.com,全局设置
  - DOMAIN-SUFFIX,wowgirls.com,全局设置
+ - DOMAIN-SUFFIX,wowhead.com,全局设置
  - DOMAIN-SUFFIX,wowlegacy.ml,全局设置
  - DOMAIN-SUFFIX,wowporn.com,全局设置
  - DOMAIN-SUFFIX,wowrk.com,全局设置
@@ -7734,6 +7741,7 @@ rules:
  - DOMAIN-SUFFIX,steamcommunity.com,全局设置
  - DOMAIN-SUFFIX,steamgames.com,全局设置
  - DOMAIN-SUFFIX,steampowered.com,全局设置
+ - DOMAIN-SUFFIX,steamserver.net,全局设置
  - DOMAIN-SUFFIX,steamstatic.com,全局设置
  - DOMAIN-SUFFIX,steamstat.us,全局设置
  - DOMAIN,steambroadcast.akamaized.net,全局设置
