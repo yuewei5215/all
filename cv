@@ -1338,6 +1338,7 @@ rules:
  - IP-CIDR,161.97.148.156/24,全局设置,no-resolve
  - DOMAIN-SUFFIX,emby.cristiamo.top,全局设置
  - DOMAIN-SUFFIX,emby.crislee.cn,全局设置
+ - IP-CIDR,94.130.71.39/24,全局设置,no-resolve
  - DOMAIN-SUFFIX,edgedatg.com,全局设置
  - DOMAIN-SUFFIX,go.com,全局设置
  - DOMAIN-KEYWORD,abematv.akamaized.net,全局设置
