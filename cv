@@ -1256,6 +1256,7 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,DIRECT
  - DOMAIN-SUFFIX,tendawifi.com,DIRECT
  - DOMAIN-SUFFIX,zte.home,DIRECT
+ - DOMAIN-SUFFIX,tplogin.cn,DIRECT
  - DOMAIN-SUFFIX,emby.wtf,全局设置
  - DOMAIN-SUFFIX,plusmedia.site,全局设置
  - DOMAIN-SUFFIX,mickeycloud.com,全局设置
