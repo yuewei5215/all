@@ -1363,6 +1363,7 @@ rules:
  - DOMAIN-SUFFIX,aiv-cdn.net,全局设置
  - DOMAIN-SUFFIX,aiv-delivery.net,全局设置
  - DOMAIN-SUFFIX,amazon.jobs,全局设置
+ - DOMAIN-SUFFIX,amazonuniversity.jobs,全局设置
  - DOMAIN-SUFFIX,amazonvideo.com,全局设置
  - DOMAIN-SUFFIX,media-amazon.com,全局设置
  - DOMAIN-SUFFIX,pv-cdn.net,全局设置
@@ -1592,18 +1593,18 @@ rules:
  - DOMAIN-SUFFIX,twitch-ext.rootonline.de,全局设置
  - DOMAIN-SUFFIX,twitch.tv,全局设置
  - DOMAIN-SUFFIX,twitchcdn.net,全局设置
+ - PROCESS-NAME,com.viu.pad,全局设置
+ - PROCESS-NAME,com.viu.phone,全局设置
+ - PROCESS-NAME,com.vuclip.viu,全局设置
  - DOMAIN,api.viu.now.com,全局设置
  - DOMAIN,d1k2us671qcoau.cloudfront.net,全局设置
  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,全局设置
  - DOMAIN,dfp6rglgjqszk.cloudfront.net,全局设置
- - DOMAIN-SUFFIX,bootstrapcdn.com,全局设置
- - DOMAIN-SUFFIX,cloudfront.net,全局设置
  - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,全局设置
- - DOMAIN-SUFFIX,firebaseio.com,全局设置
- - DOMAIN-SUFFIX,jwpcdn.com,全局设置
- - DOMAIN-SUFFIX,jwplayer.com,全局设置
+ - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,全局设置
+ - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,全局设置
+ - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,全局设置
  - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,全局设置
- - DOMAIN-SUFFIX,nowe.com,全局设置
  - DOMAIN-SUFFIX,viu.com,全局设置
  - DOMAIN-SUFFIX,viu.now.com,全局设置
  - DOMAIN-SUFFIX,viu.tv,全局设置
