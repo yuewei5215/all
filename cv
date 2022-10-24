@@ -2230,6 +2230,7 @@ rules:
  - DOMAIN-SUFFIX,blinkx.com,全局设置
  - DOMAIN-SUFFIX,blinw.com,全局设置
  - DOMAIN-SUFFIX,blip.tv,全局设置
+ - DOMAIN-SUFFIX,blockcast.it,全局设置
  - DOMAIN-SUFFIX,blockcn.com,全局设置
  - DOMAIN-SUFFIX,blockedbyhk.com,全局设置
  - DOMAIN-SUFFIX,blockless.com,全局设置
@@ -2712,6 +2713,7 @@ rules:
  - DOMAIN-SUFFIX,crossfire.co.kr,全局设置
  - DOMAIN-SUFFIX,crossthewall.net,全局设置
  - DOMAIN-SUFFIX,crossvpn.net,全局设置
+ - DOMAIN-SUFFIX,croxyproxy.com,全局设置
  - DOMAIN-SUFFIX,crrev.com,全局设置
  - DOMAIN-SUFFIX,crucial.com,全局设置
  - DOMAIN-SUFFIX,crunchyroll.com,全局设置
@@ -4314,6 +4316,7 @@ rules:
  - DOMAIN-SUFFIX,inoreader.com,全局设置
  - DOMAIN-SUFFIX,inote.tw,全局设置
  - DOMAIN-SUFFIX,insecam.org,全局设置
+ - DOMAIN-SUFFIX,inside.com.tw,全局设置
  - DOMAIN-SUFFIX,insidevoa.com,全局设置
  - DOMAIN-SUFFIX,instagram.com,全局设置
  - DOMAIN-SUFFIX,instanthq.com,全局设置
@@ -4438,6 +4441,7 @@ rules:
  - DOMAIN-SUFFIX,jgoodies.com,全局设置
  - DOMAIN-SUFFIX,jiangweiping.com,全局设置
  - DOMAIN-SUFFIX,jiaoyou8.com,全局设置
+ - DOMAIN-SUFFIX,jichangtj.com,全局设置
  - DOMAIN-SUFFIX,jiehua.cz,全局设置
  - DOMAIN-SUFFIX,jiepang.com,全局设置
  - DOMAIN-SUFFIX,jieshibaobao.com,全局设置
@@ -4664,7 +4668,7 @@ rules:
  - DOMAIN-SUFFIX,liberal.org.hk,全局设置
  - DOMAIN-SUFFIX,libertytimes.com.tw,全局设置
  - DOMAIN-SUFFIX,libraryinformationtechnology.com,全局设置
- - DOMAIN-SUFFIX,lidecheng.com,全局设置
+ - DOMAIN-SUFFIX,libredd.it,全局设置
  - DOMAIN-SUFFIX,lifemiles.com,全局设置
  - DOMAIN-SUFFIX,lighten.org.tw,全局设置
  - DOMAIN-SUFFIX,lighti.me,全局设置
@@ -5306,6 +5310,7 @@ rules:
  - DOMAIN-SUFFIX,nzchinese.com,全局设置
  - DOMAIN-SUFFIX,nzchinese.net.nz,全局设置
  - DOMAIN-SUFFIX,oanda.com,全局设置
+ - DOMAIN-SUFFIX,oann.com,全局设置
  - DOMAIN-SUFFIX,oauth.net,全局设置
  - DOMAIN-SUFFIX,observechina.net,全局设置
  - DOMAIN-SUFFIX,obutu.com,全局设置
@@ -5501,12 +5506,11 @@ rules:
  - DOMAIN-SUFFIX,peoplenews.tw,全局设置
  - DOMAIN-SUFFIX,peopo.org,全局设置
  - DOMAIN-SUFFIX,percy.in,全局设置
+ - DOMAIN-SUFFIX,perfect-privacy.com,全局设置
  - DOMAIN-SUFFIX,perfectgirls.net,全局设置
- - DOMAIN-SUFFIX,perfectvpn.net,全局设置
  - DOMAIN-SUFFIX,periscope.tv,全局设置
  - DOMAIN-SUFFIX,persecutionblog.com,全局设置
  - DOMAIN-SUFFIX,persiankitty.com,全局设置
- - DOMAIN-SUFFIX,pfd.org.hk,全局设置
  - DOMAIN-SUFFIX,phapluan.org,全局设置
  - DOMAIN-SUFFIX,phayul.com,全局设置
  - DOMAIN-SUFFIX,philborges.com,全局设置
@@ -6277,6 +6281,7 @@ rules:
  - DOMAIN-SUFFIX,studentsforafreetibet.org,全局设置
  - DOMAIN-SUFFIX,stumbleupon.com,全局设置
  - DOMAIN-SUFFIX,stupidvideos.com,全局设置
+ - DOMAIN-SUFFIX,substack.com,全局设置
  - DOMAIN-SUFFIX,successfn.com,全局设置
  - DOMAIN-SUFFIX,sueddeutsche.de,全局设置
  - DOMAIN-SUFFIX,sugarsync.com,全局设置
@@ -6965,6 +6970,7 @@ rules:
  - DOMAIN-SUFFIX,venetianmacao.com,全局设置
  - DOMAIN-SUFFIX,ventureswell.com,全局设置
  - DOMAIN-SUFFIX,veoh.com,全局设置
+ - DOMAIN-SUFFIX,vercel.app,全局设置
  - DOMAIN-SUFFIX,verizon.net,全局设置
  - DOMAIN-SUFFIX,vermonttibet.org,全局设置
  - DOMAIN-SUFFIX,versavpn.com,全局设置
@@ -7000,6 +7006,7 @@ rules:
  - DOMAIN-SUFFIX,viu.com,全局设置
  - DOMAIN-SUFFIX,viu.tv,全局设置
  - DOMAIN-SUFFIX,vivahentai4u.net,全局设置
+ - DOMAIN-SUFFIX,vivaldi.com,全局设置
  - DOMAIN-SUFFIX,vivatube.com,全局设置
  - DOMAIN-SUFFIX,vivthomas.com,全局设置
  - DOMAIN-SUFFIX,vizvaz.com,全局设置
@@ -7810,5 +7817,7 @@ rules:
  - DOMAIN-SUFFIX,icntv.xyz,全局设置
  - DOMAIN-SUFFIX,flzbcdn.xyz,全局设置
  - DOMAIN-SUFFIX,ocnttv.com,全局设置
+ - DOMAIN-SUFFIX,vikacg.com,全局设置
+ - DOMAIN-SUFFIX,picjs.xyz,全局设置
  - GEOIP,CN,DIRECT
  - MATCH,其他设置
