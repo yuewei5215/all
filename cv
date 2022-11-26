@@ -552,6 +552,7 @@ rules:
  - DOMAIN-SUFFIX,douyuscdn.com,DIRECT
  - DOMAIN-SUFFIX,douyutv.com,DIRECT
  - DOMAIN-SUFFIX,epicgames.com,DIRECT
+ - DOMAIN-SUFFIX,epicgames.dev,DIRECT
  - DOMAIN-SUFFIX,helpshift.com,DIRECT
  - DOMAIN-SUFFIX,paragon.com,DIRECT
  - DOMAIN-SUFFIX,unrealengine.com,DIRECT
