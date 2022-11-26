@@ -552,6 +552,7 @@ rules:
  - DOMAIN-SUFFIX,douyuscdn.com,DIRECT
  - DOMAIN-SUFFIX,douyutv.com,DIRECT
  - DOMAIN-SUFFIX,epicgames.com,DIRECT
+ - DOMAIN-SUFFIX,epicgames.dev,DIRECT
  - DOMAIN-SUFFIX,helpshift.com,DIRECT
  - DOMAIN-SUFFIX,paragon.com,DIRECT
  - DOMAIN-SUFFIX,unrealengine.com,DIRECT
@@ -1819,6 +1820,7 @@ rules:
  - DOMAIN-SUFFIX,about.google,全局设置
  - DOMAIN-SUFFIX,aboutgfw.com,全局设置
  - DOMAIN-SUFFIX,abs.edu,全局设置
+ - DOMAIN-SUFFIX,acast.com,全局设置
  - DOMAIN-SUFFIX,accim.org,全局设置
  - DOMAIN-SUFFIX,accountkit.com,全局设置
  - DOMAIN-SUFFIX,aceros-de-hispania.com,全局设置
@@ -2262,6 +2264,7 @@ rules:
  - DOMAIN-SUFFIX,blueangellive.com,全局设置
  - DOMAIN-SUFFIX,bmfinn.com,全局设置
  - DOMAIN-SUFFIX,bnews.co,全局设置
+ - DOMAIN-SUFFIX,bnext.com.tw,全局设置
  - DOMAIN-SUFFIX,bnn.co,全局设置
  - DOMAIN-SUFFIX,bnrmetal.com,全局设置
  - DOMAIN-SUFFIX,boardreader.com,全局设置
@@ -2325,6 +2328,7 @@ rules:
  - DOMAIN-SUFFIX,btc98.com,全局设置
  - DOMAIN-SUFFIX,btcbank.bank,全局设置
  - DOMAIN-SUFFIX,btctrade.im,全局设置
+ - DOMAIN-SUFFIX,btdig.com,全局设置
  - DOMAIN-SUFFIX,btdigg.org,全局设置
  - DOMAIN-SUFFIX,btku.me,全局设置
  - DOMAIN-SUFFIX,btku.org,全局设置
@@ -2332,7 +2336,6 @@ rules:
  - DOMAIN-SUFFIX,btsynckeys.com,全局设置
  - DOMAIN-SUFFIX,budaedu.org,全局设置
  - DOMAIN-SUFFIX,buddhanet.com.tw,全局设置
- - DOMAIN-SUFFIX,buddhistchannel.tv,全局设置
  - DOMAIN-SUFFIX,buffered.com,全局设置
  - DOMAIN-SUFFIX,bullguard.com,全局设置
  - DOMAIN-SUFFIX,bullog.org,全局设置
@@ -3305,6 +3308,7 @@ rules:
  - DOMAIN-SUFFIX,firetweet.io,全局设置
  - DOMAIN-SUFFIX,firstfivefollowers.com,全局设置
  - DOMAIN-SUFFIX,firstpost.com,全局设置
+ - DOMAIN-SUFFIX,firstrade.com,全局设置
  - DOMAIN-SUFFIX,fizzik.com,全局设置
  - DOMAIN-SUFFIX,flagsonline.it,全局设置
  - DOMAIN-SUFFIX,flecheinthepeche.fr,全局设置
@@ -4129,6 +4133,7 @@ rules:
  - DOMAIN-SUFFIX,hornygamer.com,全局设置
  - DOMAIN-SUFFIX,hornytrip.com,全局设置
  - DOMAIN-SUFFIX,horrorporn.com,全局设置
+ - DOMAIN-SUFFIX,hostloc.com,全局设置
  - DOMAIN-SUFFIX,hotair.com,全局设置
  - DOMAIN-SUFFIX,hotav.tv,全局设置
  - DOMAIN-SUFFIX,hotels.cn,全局设置
@@ -4498,6 +4503,7 @@ rules:
  - DOMAIN-SUFFIX,juoaa.com,全局设置
  - DOMAIN-SUFFIX,justdied.com,全局设置
  - DOMAIN-SUFFIX,justfreevpn.com,全局设置
+ - DOMAIN-SUFFIX,justhost.ru,全局设置
  - DOMAIN-SUFFIX,justicefortenzin.org,全局设置
  - DOMAIN-SUFFIX,justmysocks1.net,全局设置
  - DOMAIN-SUFFIX,justpaste.it,全局设置
@@ -5381,6 +5387,7 @@ rules:
  - DOMAIN-SUFFIX,openleaks.org,全局设置
  - DOMAIN-SUFFIX,opensea.io,全局设置
  - DOMAIN-SUFFIX,opensource.google,全局设置
+ - DOMAIN-SUFFIX,openstreetmap.org,全局设置
  - DOMAIN-SUFFIX,opentech.fund,全局设置
  - DOMAIN-SUFFIX,openvpn.net,全局设置
  - DOMAIN-SUFFIX,openvpn.org,全局设置
@@ -5851,6 +5858,7 @@ rules:
  - DOMAIN-SUFFIX,rixcloud.com,全局设置
  - DOMAIN-SUFFIX,rixcloud.us,全局设置
  - DOMAIN-SUFFIX,rlwlw.com,全局设置
+ - DOMAIN-SUFFIX,rmbl.ws,全局设置
  - DOMAIN-SUFFIX,rmjdw.com,全局设置
  - DOMAIN-SUFFIX,rmjdw132.info,全局设置
  - DOMAIN-SUFFIX,roadshow.hk,全局设置
@@ -5883,6 +5891,7 @@ rules:
  - DOMAIN-SUFFIX,ruanyifeng.com,全局设置
  - DOMAIN-SUFFIX,rukor.org,全局设置
  - DOMAIN-SUFFIX,rule34.xxx,全局设置
+ - DOMAIN-SUFFIX,rumble.com,全局设置
  - DOMAIN-SUFFIX,runbtx.com,全局设置
  - DOMAIN-SUFFIX,rushbee.com,全局设置
  - DOMAIN-SUFFIX,rusvpn.com,全局设置
