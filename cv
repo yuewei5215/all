@@ -757,8 +757,6 @@ rules:
  - DOMAIN-SUFFIX,clouddn.com,DIRECT
  - DOMAIN-SUFFIX,cloudxns.net,DIRECT
  - DOMAIN-SUFFIX,cn163.net,DIRECT
- - DOMAIN-SUFFIX,cnbeta.com,DIRECT
- - DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
  - DOMAIN-SUFFIX,cnblogs.com,DIRECT
  - DOMAIN-SUFFIX,cnki.net,DIRECT
  - DOMAIN-SUFFIX,cnmstl.net,DIRECT
