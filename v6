@@ -1,1 +1,1 @@
-[session-0e4a65be] Route error: The Repository has been blocked. see: https://gitee.com/chenx58/clash
+[session-ba4c06bb] Route error: Post "http://authunicorn.gitee-prod:3000/api/v3/internal/authorize/raw": dial tcp: i/o timeout
