@@ -1762,6 +1762,7 @@ rules:
  - DOMAIN-SUFFIX,ablwang.com,全局设置
  - DOMAIN-SUFFIX,aboluowang.com,全局设置
  - DOMAIN-SUFFIX,about.google,全局设置
+ - DOMAIN-SUFFIX,about.me,全局设置
  - DOMAIN-SUFFIX,aboutgfw.com,全局设置
  - DOMAIN-SUFFIX,abs.edu,全局设置
  - DOMAIN-SUFFIX,acast.com,全局设置
@@ -2046,6 +2047,7 @@ rules:
  - DOMAIN-SUFFIX,baijie.org,全局设置
  - DOMAIN-SUFFIX,bailandaily.com,全局设置
  - DOMAIN-SUFFIX,baixing.me,全局设置
+ - DOMAIN-SUFFIX,baizhi.org,全局设置
  - DOMAIN-SUFFIX,bakgeekhome.tk,全局设置
  - DOMAIN-SUFFIX,banana-vpn.com,全局设置
  - DOMAIN-SUFFIX,band.us,全局设置
@@ -2284,6 +2286,7 @@ rules:
  - DOMAIN-SUFFIX,bullguard.com,全局设置
  - DOMAIN-SUFFIX,bullog.org,全局设置
  - DOMAIN-SUFFIX,bullogger.com,全局设置
+ - DOMAIN-SUFFIX,bumingbai.net,全局设置
  - DOMAIN-SUFFIX,bunbunhk.com,全局设置
  - DOMAIN-SUFFIX,busayari.com,全局设置
  - DOMAIN-SUFFIX,business-humanrights.org,全局设置
@@ -2457,6 +2460,7 @@ rules:
  - DOMAIN-SUFFIX,chinadigitaltimes.net,全局设置
  - DOMAIN-SUFFIX,chinaelections.org,全局设置
  - DOMAIN-SUFFIX,chinaeweekly.com,全局设置
+ - DOMAIN-SUFFIX,chinafile.com,全局设置
  - DOMAIN-SUFFIX,chinafreepress.org,全局设置
  - DOMAIN-SUFFIX,chinagate.com,全局设置
  - DOMAIN-SUFFIX,chinageeks.org,全局设置
@@ -2873,6 +2877,7 @@ rules:
  - DOMAIN-SUFFIX,dotvpn.com,全局设置
  - DOMAIN-SUFFIX,doub.io,全局设置
  - DOMAIN-SUFFIX,doubibackup.com,全局设置
+ - DOMAIN-SUFFIX,doublethinklab.org,全局设置
  - DOMAIN-SUFFIX,doubmirror.cf,全局设置
  - DOMAIN-SUFFIX,dougscripts.com,全局设置
  - DOMAIN-SUFFIX,douhokanko.net,全局设置
@@ -3432,6 +3437,7 @@ rules:
  - DOMAIN-SUFFIX,gamez.com.tw,全局设置
  - DOMAIN-SUFFIX,gamousa.com,全局设置
  - DOMAIN-SUFFIX,ganges.com,全局设置
+ - DOMAIN-SUFFIX,ganjing.com,全局设置
  - DOMAIN-SUFFIX,ganjingworld.com,全局设置
  - DOMAIN-SUFFIX,gaoming.net,全局设置
  - DOMAIN-SUFFIX,gaopi.net,全局设置
@@ -3968,6 +3974,7 @@ rules:
  - DOMAIN-SUFFIX,hhdcb3office.org,全局设置
  - DOMAIN-SUFFIX,hhthesakyatrizin.org,全局设置
  - DOMAIN-SUFFIX,hi-on.org.tw,全局设置
+ - DOMAIN-SUFFIX,hiccears.com,全局设置
  - DOMAIN-SUFFIX,hidden-advent.org,全局设置
  - DOMAIN-SUFFIX,hide.me,全局设置
  - DOMAIN-SUFFIX,hidecloud.com,全局设置
@@ -4056,6 +4063,7 @@ rules:
  - DOMAIN-SUFFIX,hmvdigital.com,全局设置
  - DOMAIN-SUFFIX,hnjhj.com,全局设置
  - DOMAIN-SUFFIX,hnntube.com,全局设置
+ - DOMAIN-SUFFIX,hojemacau.com.mo,全局设置
  - DOMAIN-SUFFIX,hola.com,全局设置
  - DOMAIN-SUFFIX,hola.org,全局设置
  - DOMAIN-SUFFIX,holymountaincn.com,全局设置
@@ -4080,6 +4088,7 @@ rules:
  - DOMAIN-SUFFIX,hostloc.com,全局设置
  - DOMAIN-SUFFIX,hotair.com,全局设置
  - DOMAIN-SUFFIX,hotav.tv,全局设置
+ - DOMAIN-SUFFIX,hotcoin.com,全局设置
  - DOMAIN-SUFFIX,hotels.cn,全局设置
  - DOMAIN-SUFFIX,hotfrog.com.tw,全局设置
  - DOMAIN-SUFFIX,hotgoo.com,全局设置
@@ -4136,6 +4145,7 @@ rules:
  - DOMAIN-SUFFIX,hulkshare.com,全局设置
  - DOMAIN-SUFFIX,hulu.com,全局设置
  - DOMAIN-SUFFIX,huluim.com,全局设置
+ - DOMAIN-SUFFIX,humanrightspressawards.org,全局设置
  - DOMAIN-SUFFIX,hung-ya.com,全局设置
  - DOMAIN-SUFFIX,hungerstrikeforaids.org,全局设置
  - DOMAIN-SUFFIX,huobi.co,全局设置
@@ -4532,6 +4542,7 @@ rules:
  - DOMAIN-SUFFIX,koranmandarin.com,全局设置
  - DOMAIN-SUFFIX,korenan2.com,全局设置
  - DOMAIN-SUFFIX,kqes.net,全局设置
+ - DOMAIN-SUFFIX,kraken.com,全局设置
  - DOMAIN-SUFFIX,krtco.com.tw,全局设置
  - DOMAIN-SUFFIX,ksdl.org,全局设置
  - DOMAIN-SUFFIX,ksnews.com.tw,全局设置
@@ -4924,6 +4935,7 @@ rules:
  - DOMAIN-SUFFIX,monitorchina.org,全局设置
  - DOMAIN-SUFFIX,monitorware.com,全局设置
  - DOMAIN-SUFFIX,monlamit.org,全局设置
+ - DOMAIN-SUFFIX,monocloud.me,全局设置
  - DOMAIN-SUFFIX,monster.com,全局设置
  - DOMAIN-SUFFIX,moodyz.com,全局设置
  - DOMAIN-SUFFIX,moon.fm,全局设置
@@ -5107,6 +5119,7 @@ rules:
  - DOMAIN-SUFFIX,newhighlandvision.com,全局设置
  - DOMAIN-SUFFIX,newipnow.com,全局设置
  - DOMAIN-SUFFIX,newlandmagazine.com.au,全局设置
+ - DOMAIN-SUFFIX,newmitbbs.com,全局设置
  - DOMAIN-SUFFIX,newnews.ca,全局设置
  - DOMAIN-SUFFIX,news100.com.tw,全局设置
  - DOMAIN-SUFFIX,newsancai.com,全局设置
@@ -5421,6 +5434,7 @@ rules:
  - DOMAIN-SUFFIX,pastie.org,全局设置
  - DOMAIN-SUFFIX,pathtosharepoint.com,全局设置
  - DOMAIN-SUFFIX,patreon.com,全局设置
+ - DOMAIN-SUFFIX,pawoo.net,全局设置
  - DOMAIN-SUFFIX,paxful.com,全局设置
  - DOMAIN-SUFFIX,pbs.org,全局设置
  - DOMAIN-SUFFIX,pbwiki.com,全局设置
@@ -5868,6 +5882,7 @@ rules:
  - DOMAIN-SUFFIX,samair.ru,全局设置
  - DOMAIN-SUFFIX,sambhota.org,全局设置
  - DOMAIN-SUFFIX,sandscotaicentral.com,全局设置
+ - DOMAIN-SUFFIX,sankakucomplex.com,全局设置
  - DOMAIN-SUFFIX,sankei.com,全局设置
  - DOMAIN-SUFFIX,sanmin.com.tw,全局设置
  - DOMAIN-SUFFIX,sans.edu,全局设置
@@ -7091,6 +7106,7 @@ rules:
  - DOMAIN-SUFFIX,weblagu.com,全局设置
  - DOMAIN-SUFFIX,webmproject.org,全局设置
  - DOMAIN-SUFFIX,webpack.de,全局设置
+ - DOMAIN-SUFFIX,webpkgcache.com,全局设置
  - DOMAIN-SUFFIX,webrtc.org,全局设置
  - DOMAIN-SUFFIX,webrush.net,全局设置
  - DOMAIN-SUFFIX,webs-tv.net,全局设置
