@@ -4280,6 +4280,7 @@ rules:
  - DOMAIN-SUFFIX,instagram.com,全局设置
  - DOMAIN-SUFFIX,instanthq.com,全局设置
  - DOMAIN-SUFFIX,institut-tibetain.org,全局设置
+ - DOMAIN-SUFFIX,interactivebrokers.com,全局设置
  - DOMAIN-SUFFIX,internet.org,全局设置
  - DOMAIN-SUFFIX,internetdefenseleague.org,全局设置
  - DOMAIN-SUFFIX,internetfreedom.org,全局设置
@@ -5336,6 +5337,7 @@ rules:
  - DOMAIN-SUFFIX,ontrac.com,全局设置
  - DOMAIN-SUFFIX,oopsforum.com,全局设置
  - DOMAIN-SUFFIX,open.com.hk,全局设置
+ - DOMAIN-SUFFIX,openai.com,全局设置
  - DOMAIN-SUFFIX,openallweb.com,全局设置
  - DOMAIN-SUFFIX,opendemocracy.net,全局设置
  - DOMAIN-SUFFIX,opendn.xyz,全局设置
@@ -6176,6 +6178,7 @@ rules:
  - DOMAIN-SUFFIX,spreadshirt.es,全局设置
  - DOMAIN-SUFFIX,spring4u.info,全局设置
  - DOMAIN-SUFFIX,springboardplatform.com,全局设置
+ - DOMAIN-SUFFIX,springwood.me,全局设置
  - DOMAIN-SUFFIX,sprite.org,全局设置
  - DOMAIN-SUFFIX,sproutcore.com,全局设置
  - DOMAIN-SUFFIX,sproxy.info,全局设置
@@ -6464,6 +6467,7 @@ rules:
  - DOMAIN-SUFFIX,thlib.org,全局设置
  - DOMAIN-SUFFIX,thomasbernhard.org,全局设置
  - DOMAIN-SUFFIX,thongdreams.com,全局设置
+ - DOMAIN-SUFFIX,threadreaderapp.com,全局设置
  - DOMAIN-SUFFIX,threatchaos.com,全局设置
  - DOMAIN-SUFFIX,throughnightsfire.com,全局设置
  - DOMAIN-SUFFIX,thumbzilla.com,全局设置
@@ -7408,6 +7412,7 @@ rules:
  - DOMAIN-SUFFIX,yong.hu,全局设置
  - DOMAIN-SUFFIX,yorkbbs.ca,全局设置
  - DOMAIN-SUFFIX,you-get.org,全局设置
+ - DOMAIN-SUFFIX,you.com,全局设置
  - DOMAIN-SUFFIX,youdontcare.com,全局设置
  - DOMAIN-SUFFIX,youjizz.com,全局设置
  - DOMAIN-SUFFIX,youmaker.com,全局设置
