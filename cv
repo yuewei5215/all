@@ -1187,6 +1187,7 @@ rules:
  - DOMAIN,instant.arubanetworks.com,DIRECT
  - DOMAIN,setmeup.arubanetworks.com,DIRECT
  - DOMAIN,router.asus.com,DIRECT
+ - DOMAIN,www.asusrouter.com,DIRECT
  - DOMAIN-SUFFIX,hiwifi.com,DIRECT
  - DOMAIN-SUFFIX,leike.cc,DIRECT
  - DOMAIN-SUFFIX,miwifi.com,DIRECT
@@ -1199,6 +1200,7 @@ rules:
  - DOMAIN-SUFFIX,tendawifi.com,DIRECT
  - DOMAIN-SUFFIX,zte.home,DIRECT
  - DOMAIN-SUFFIX,tplogin.cn,DIRECT
+ - DOMAIN-SUFFIX,wifi.cmcc,DIRECT
  - DOMAIN-SUFFIX,emby.wtf,全局设置
  - DOMAIN-SUFFIX,plusmedia.site,全局设置
  - DOMAIN-SUFFIX,mickeycloud.com,全局设置
