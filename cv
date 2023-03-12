@@ -344,7 +344,6 @@ rules:
  - DOMAIN-SUFFIX,xn--fiqs8s,DIRECT
  - DOMAIN-SUFFIX,xn--55qx5d,DIRECT
  - DOMAIN-SUFFIX,xn--io0a7i,DIRECT
- - DOMAIN-KEYWORD,-cn,DIRECT
  - DOMAIN-KEYWORD,360buy,DIRECT
  - DOMAIN-KEYWORD,alicdn,DIRECT
  - DOMAIN-KEYWORD,alimama,DIRECT
@@ -502,6 +501,7 @@ rules:
  - DOMAIN-SUFFIX,dbankcdn.com,DIRECT
  - DOMAIN-SUFFIX,hc-cdn.com,DIRECT
  - DOMAIN-SUFFIX,hicloud.com,DIRECT
+ - DOMAIN-SUFFIX,hihonor.com,DIRECT
  - DOMAIN-SUFFIX,huawei.com,DIRECT
  - DOMAIN-SUFFIX,huaweicloud.com,DIRECT
  - DOMAIN-SUFFIX,huaweishop.net,DIRECT
@@ -694,10 +694,10 @@ rules:
  - DOMAIN-SUFFIX,redacted.ch,DIRECT
  - DOMAIN-SUFFIX,springsunday.net,DIRECT
  - DOMAIN-SUFFIX,tjupt.org,DIRECT
+ - DOMAIN-SUFFIX,tju.pt,DIRECT
  - DOMAIN-SUFFIX,totheglory.im,DIRECT
  - DOMAIN-SUFFIX,trontv.com,DIRECT
  - DOMAIN-SUFFIX,teamviewer.com,DIRECT
- - IP-CIDR,109.239.140.0/24,DIRECT,no-resolve
  - IP-CIDR,139.220.243.27/32,DIRECT,no-resolve
  - IP-CIDR,172.16.102.56/32,DIRECT,no-resolve
  - IP-CIDR,185.188.32.1/28,DIRECT,no-resolve
@@ -853,7 +853,9 @@ rules:
  - DOMAIN-SUFFIX,nruan.com,DIRECT
  - DOMAIN-SUFFIX,nuomi.com,DIRECT
  - DOMAIN-SUFFIX,onedns.net,DIRECT
+ - DOMAIN-SUFFIX,oneplus.com,DIRECT
  - DOMAIN-SUFFIX,onlinedown.net,DIRECT
+ - DOMAIN-SUFFIX,oppo.com,DIRECT
  - DOMAIN-SUFFIX,oracle.com,DIRECT
  - DOMAIN-SUFFIX,oschina.net,DIRECT
  - DOMAIN-SUFFIX,ourdvs.com,DIRECT
@@ -875,6 +877,7 @@ rules:
  - DOMAIN-SUFFIX,quanmin.tv,DIRECT
  - DOMAIN-SUFFIX,qunar.com,DIRECT
  - DOMAIN-SUFFIX,qunarzz.com,DIRECT
+ - DOMAIN-SUFFIX,realme.com,DIRECT
  - DOMAIN-SUFFIX,repaik.com,DIRECT
  - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
  - DOMAIN-SUFFIX,runoob.com,DIRECT
@@ -908,6 +911,7 @@ rules:
  - DOMAIN-SUFFIX,upyun.com,DIRECT
  - DOMAIN-SUFFIX,uxengine.net,DIRECT
  - DOMAIN-SUFFIX,videocc.net,DIRECT
+ - DOMAIN-SUFFIX,vivo.com,DIRECT
  - DOMAIN-SUFFIX,wandoujia.com,DIRECT
  - DOMAIN-SUFFIX,weather.com,DIRECT
  - DOMAIN-SUFFIX,weico.cc,DIRECT
@@ -1173,6 +1177,7 @@ rules:
  - DOMAIN-SUFFIX,lan,DIRECT
  - DOMAIN-SUFFIX,local,DIRECT
  - DOMAIN-SUFFIX,localhost,DIRECT
+ - IP-CIDR,0.0.0.0/8,DIRECT,no-resolve
  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
