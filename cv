@@ -1596,9 +1596,7 @@ rules:
  - DOMAIN-SUFFIX,bit.no.com,全局设置
  - DOMAIN-SUFFIX,btlibrary.me,全局设置
  - DOMAIN-SUFFIX,cccat.io,全局设置
- - DOMAIN-SUFFIX,chat.openai.com,全局设置
  - DOMAIN-SUFFIX,cloudcone.com,全局设置
- - DOMAIN-SUFFIX,dubox.com,全局设置
  - DOMAIN-SUFFIX,gameloft.com,全局设置
  - DOMAIN-SUFFIX,garena.com,全局设置
  - DOMAIN-SUFFIX,hoyolab.com,全局设置
@@ -1607,7 +1605,6 @@ rules:
  - DOMAIN-SUFFIX,linkedin.com,全局设置
  - DOMAIN-SUFFIX,myteamspeak.com,全局设置
  - DOMAIN-SUFFIX,notion.so,全局设置
- - DOMAIN-SUFFIX,openai.com,全局设置
  - DOMAIN-SUFFIX,ping.pe,全局设置
  - DOMAIN-SUFFIX,reddit.com,全局设置
  - DOMAIN-SUFFIX,teddysun.com,全局设置
@@ -1821,7 +1818,6 @@ rules:
  - DOMAIN-SUFFIX,advertfan.com,全局设置
  - DOMAIN-SUFFIX,advertisercommunity.com,全局设置
  - DOMAIN-SUFFIX,ae.org,全局设置
- - DOMAIN-SUFFIX,aei.org,全局设置
  - DOMAIN-SUFFIX,aenhancers.com,全局设置
  - DOMAIN-SUFFIX,aex.com,全局设置
  - DOMAIN-SUFFIX,af.mil,全局设置
@@ -6091,6 +6087,7 @@ rules:
  - DOMAIN-SUFFIX,sjum.cn,全局设置
  - DOMAIN-SUFFIX,sketchappsources.com,全局设置
  - DOMAIN-SUFFIX,skimtube.com,全局设置
+ - DOMAIN-SUFFIX,skk.moe,全局设置
  - DOMAIN-SUFFIX,skybet.com,全局设置
  - DOMAIN-SUFFIX,skyking.com.tw,全局设置
  - DOMAIN-SUFFIX,skykiwi.com,全局设置
