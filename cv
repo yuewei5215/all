@@ -453,6 +453,7 @@ rules:
   - DOMAIN-SUFFIX,bytetos.com,DIRECT
   - DOMAIN-SUFFIX,bytexservice.com,DIRECT
   - DOMAIN-SUFFIX,douyin.com,DIRECT
+  - DOMAIN-SUFFIX,douyincdn.com,DIRECT
   - DOMAIN-SUFFIX,douyinpic.com,DIRECT
   - DOMAIN-SUFFIX,douyinstatic.com,DIRECT
   - DOMAIN-SUFFIX,douyinvod.com,DIRECT
@@ -607,6 +608,7 @@ rules:
   - DOMAIN,st.dl.bscstorage.net,DIRECT
   - DOMAIN,st.dl.eccdnx.com,DIRECT
   - DOMAIN,st.dl.pinyuncloud.com,DIRECT
+  - DOMAIN,xz.pphimalayanrt.com,DIRECT
   - DOMAIN,steampipe.steamcontent.tnkjmec.com,DIRECT
   - DOMAIN,steampowered.com.8686c.com,DIRECT
   - DOMAIN,steamstatic.com.8686c.com,DIRECT
