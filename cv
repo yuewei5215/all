@@ -1933,6 +1933,7 @@ rules:
   - DOMAIN-SUFFIX,aniscartujo.com,全局设置
   - DOMAIN-SUFFIX,annatam.com,全局设置
   - DOMAIN-SUFFIX,anobii.com,全局设置
+  - DOMAIN-SUFFIX,anonfiles.com,全局设置
   - DOMAIN-SUFFIX,anontext.com,全局设置
   - DOMAIN-SUFFIX,anonymitynetwork.com,全局设置
   - DOMAIN-SUFFIX,anonymizer.com,全局设置
@@ -2598,6 +2599,7 @@ rules:
   - DOMAIN-SUFFIX,cloudcone.com,全局设置
   - DOMAIN-SUFFIX,cloudflare-ipfs.com,全局设置
   - DOMAIN-SUFFIX,cloudfront.net,全局设置
+  - DOMAIN-SUFFIX,cloudfunctions.net,全局设置
   - DOMAIN-SUFFIX,club1069.com,全局设置
   - DOMAIN-SUFFIX,clubhouseapi.com,全局设置
   - DOMAIN-SUFFIX,clyp.it,全局设置
@@ -4372,6 +4374,7 @@ rules:
   - DOMAIN-SUFFIX,italiatibet.org,全局设置
   - DOMAIN-SUFFIX,itasoftware.com,全局设置
   - DOMAIN-SUFFIX,itemdb.com,全局设置
+  - DOMAIN-SUFFIX,itemfix.com,全局设置
   - DOMAIN-SUFFIX,ithome.com.tw,全局设置
   - DOMAIN-SUFFIX,itsaol.com,全局设置
   - DOMAIN-SUFFIX,itshidden.com,全局设置
@@ -4627,6 +4630,7 @@ rules:
   - DOMAIN-SUFFIX,le-vpn.com,全局设置
   - DOMAIN-SUFFIX,leafyvpn.net,全局设置
   - DOMAIN-SUFFIX,lecloud.net,全局设置
+  - DOMAIN-SUFFIX,ledger.com,全局设置
   - DOMAIN-SUFFIX,leeao.com.cn,全局设置
   - DOMAIN-SUFFIX,lefora.com,全局设置
   - DOMAIN-SUFFIX,left21.hk,全局设置
@@ -5336,6 +5340,7 @@ rules:
   - DOMAIN-SUFFIX,okx.com,全局设置
   - DOMAIN-SUFFIX,olabloga.pl,全局设置
   - DOMAIN-SUFFIX,old-cat.net,全局设置
+  - DOMAIN-SUFFIX,olehdtv.com,全局设置
   - DOMAIN-SUFFIX,olevod.com,全局设置
   - DOMAIN-SUFFIX,olumpo.com,全局设置
   - DOMAIN-SUFFIX,olympicwatch.org,全局设置
