@@ -1538,7 +1538,7 @@ rules:
   - DOMAIN-SUFFIX,p-cdn.us,全局设置
   - DOMAIN-SUFFIX,sndcdn.com,全局设置
   - DOMAIN-SUFFIX,soundcloud.com,全局设置
-  - DOMAIN-KEYWORD,-spotify-com,全局设置
+  - DOMAIN-KEYWORD,-spotify-,全局设置
   - DOMAIN-KEYWORD,spotify.com,全局设置
   - DOMAIN-SUFFIX,pscdn.co,全局设置
   - DOMAIN-SUFFIX,scdn.co,全局设置
@@ -1551,7 +1551,7 @@ rules:
   - DOMAIN-SUFFIX,tidalhifi.com,全局设置
   - DOMAIN,hamifans.emome.net,全局设置
   - DOMAIN-SUFFIX,skyking.com.tw,全局设置
-  - DOMAIN-KEYWORD,tiktokcdn-,全局设置
+  - DOMAIN-KEYWORD,tiktokcdn,全局设置
   - DOMAIN-SUFFIX,byteoversea.com,全局设置
   - DOMAIN-SUFFIX,ibytedtos.com,全局设置
   - DOMAIN-SUFFIX,ipstatp.com,全局设置
