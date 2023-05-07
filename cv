@@ -7713,6 +7713,8 @@ rules:
   - IP-CIDR,119.235.236.0/23,全局设置,no-resolve
   - IP-CIDR,147.92.128.0/17,全局设置,no-resolve
   - IP-CIDR,203.104.128.0/19,全局设置,no-resolve
+  - DOMAIN,cloud.oracle.com,全局设置
+  - DOMAIN-SUFFIX,oraclecloud.com,全局设置
   - DOMAIN-KEYWORD,1drv,全局设置
   - DOMAIN-KEYWORD,onedrive,全局设置
   - DOMAIN-KEYWORD,skydrive,全局设置
