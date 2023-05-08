@@ -1528,6 +1528,12 @@ rules:
   - DOMAIN-SUFFIX,olevod.io,全局设置
   - DOMAIN-SUFFIX,olevod.tv,全局设置
   - DOMAIN-SUFFIX,olevodtv.com,全局设置
+  - DOMAIN-KEYWORD,openai,全局设置
+  - DOMAIN-SUFFIX,ai.com,全局设置
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,全局设置
+  - DOMAIN-SUFFIX,openai.com,全局设置
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,全局设置
+  - DOMAIN-SUFFIX,stripe.com,全局设置
   - DOMAIN-SUFFIX,pbs.org,全局设置
   - DOMAIN-SUFFIX,pandora.com,全局设置
   - DOMAIN-SUFFIX,phncdn.com,全局设置
