@@ -1407,6 +1407,7 @@ rules:
   - DOMAIN-SUFFIX,amazonvideo.com,全局设置
   - DOMAIN-SUFFIX,media-amazon.com,全局设置
   - DOMAIN-SUFFIX,pv-cdn.net,全局设置
+  - DOMAIN-SUFFIX,seattlespheres.com,全局设置
   - DOMAIN,gspe1-ssl.ls.apple.com,全局设置
   - DOMAIN,np-edge.itunes.apple.com,全局设置
   - DOMAIN,play-edge.itunes.apple.com,全局设置
@@ -1615,9 +1616,17 @@ rules:
   - DOMAIN-SUFFIX,olevodtv.com,全局设置
   - DOMAIN-KEYWORD,openai,全局设置
   - DOMAIN-SUFFIX,ai.com,全局设置
+  - DOMAIN-SUFFIX,auth0.com,全局设置
   - DOMAIN-SUFFIX,challenges.cloudflare.com,全局设置
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,全局设置
+  - DOMAIN-SUFFIX,events.statsigapi.net,全局设置
+  - DOMAIN-SUFFIX,featuregates.org,全局设置
+  - DOMAIN-SUFFIX,identrust.com,全局设置
+  - DOMAIN-SUFFIX,intercom.io,全局设置
+  - DOMAIN-SUFFIX,intercomcdn.com,全局设置
   - DOMAIN-SUFFIX,openai.com,全局设置
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,全局设置
+  - DOMAIN-SUFFIX,sentry.io,全局设置
   - DOMAIN-SUFFIX,stripe.com,全局设置
   - DOMAIN-SUFFIX,pbs.org,全局设置
   - DOMAIN-SUFFIX,pandora.com,全局设置
