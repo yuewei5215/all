@@ -113,6 +113,7 @@ proxies:
   - {name: HK-IPLC-7, server: 0kxedm1x8q8lksmj03.xingbayun.buzz, port: 10003, client-fingerprint: chrome, type: vmess, uuid: 65a42bd8-cfe6-4cc5-ab47-04fdd4c1e799, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: HK-IPLC-8, server: hk80.sanfen001.pics, port: 80, client-fingerprint: chrome, type: vmess, uuid: 6db42a0c-5abc-4d1c-a09c-2052c661f9f8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
   - {name: HK-IPLC-9, server: hk80-2.sanfen001.pics, port: 80, client-fingerprint: chrome, type: vmess, uuid: 6db42a0c-5abc-4d1c-a09c-2052c661f9f8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 订阅转换:https://suburl.v1.mk, server: api.v1.mk, port: 8888, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 014bb090-bc65-46fd-ad20-c70718b676e8, tfo: false, udp: true}
 proxy-groups:
   - name: 全局设置
     type: select
@@ -216,6 +217,7 @@ proxy-groups:
       - HK-IPLC-7
       - HK-IPLC-8
       - HK-IPLC-9
+      - 订阅转换:https://suburl.v1.mk
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -319,6 +321,7 @@ proxy-groups:
       - HK-IPLC-7
       - HK-IPLC-8
       - HK-IPLC-9
+      - 订阅转换:https://suburl.v1.mk
   - name: 其他设置
     type: select
     proxies:
