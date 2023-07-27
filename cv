@@ -1404,6 +1404,7 @@ rules:
   - DOMAIN-SUFFIX,aiv-cdn.net,全局设置
   - DOMAIN-SUFFIX,aiv-delivery.net,全局设置
   - DOMAIN-SUFFIX,amazon.jobs,全局设置
+  - DOMAIN-SUFFIX,amazontools.com,全局设置
   - DOMAIN-SUFFIX,amazonuniversity.jobs,全局设置
   - DOMAIN-SUFFIX,amazonvideo.com,全局设置
   - DOMAIN-SUFFIX,media-amazon.com,全局设置
@@ -1590,6 +1591,7 @@ rules:
   - IP-CIDR,192.173.64.0/18,全局设置,no-resolve
   - IP-CIDR,198.38.96.0/19,全局设置,no-resolve
   - IP-CIDR,198.45.48.0/20,全局设置,no-resolve
+  - IP-CIDR,203.75.84.0/24,全局设置,no-resolve
   - IP-CIDR,207.45.72.0/22,全局设置,no-resolve
   - IP-CIDR,208.75.76.0/22,全局设置,no-resolve
   - DOMAIN-SUFFIX,dmc.nico,全局设置
