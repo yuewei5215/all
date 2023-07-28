@@ -3886,6 +3886,7 @@ rules:
   - DOMAIN-SUFFIX,greenreadings.com,全局设置
   - DOMAIN-SUFFIX,greenvpn.net,全局设置
   - DOMAIN-SUFFIX,greenvpn.org,全局设置
+  - DOMAIN-SUFFIX,grindr.com,全局设置
   - DOMAIN-SUFFIX,grotty-monday.com,全局设置
   - DOMAIN-SUFFIX,grow.google,全局设置
   - DOMAIN-SUFFIX,gs-discuss.com,全局设置
@@ -4266,6 +4267,7 @@ rules:
   - DOMAIN-SUFFIX,imb.org,全局设置
   - DOMAIN-SUFFIX,imdb.com,全局设置
   - DOMAIN-SUFFIX,img.ly,全局设置
+  - DOMAIN-SUFFIX,imgasd.com,全局设置
   - DOMAIN-SUFFIX,imgchili.net,全局设置
   - DOMAIN-SUFFIX,imgmega.com,全局设置
   - DOMAIN-SUFFIX,imgur.com,全局设置
@@ -4751,6 +4753,7 @@ rules:
   - DOMAIN-SUFFIX,lzjscript.com,全局设置
   - DOMAIN-SUFFIX,lzmtnews.org,全局设置
   - DOMAIN-SUFFIX,m-sport.co.uk,全局设置
+  - DOMAIN-SUFFIX,m-team.cc,全局设置
   - DOMAIN-SUFFIX,m.me,全局设置
   - DOMAIN-SUFFIX,macgamestore.com,全局设置
   - DOMAIN-SUFFIX,macrovpn.com,全局设置
@@ -7323,6 +7326,7 @@ rules:
   - DOMAIN-SUFFIX,xiaohexie.com,全局设置
   - DOMAIN-SUFFIX,xiaolan.me,全局设置
   - DOMAIN-SUFFIX,xiaoma.org,全局设置
+  - DOMAIN-SUFFIX,xiaomi.eu,全局设置
   - DOMAIN-SUFFIX,xiaxiaoqiang.net,全局设置
   - DOMAIN-SUFFIX,xiezhua.com,全局设置
   - DOMAIN-SUFFIX,xihua.es,全局设置
