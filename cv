@@ -437,9 +437,6 @@ rules:
   - DOMAIN-SUFFIX,hdslb.com,DIRECT
   - DOMAIN-SUFFIX,im9.com,DIRECT
   - DOMAIN-SUFFIX,smtcdns.net,DIRECT
-  - DOMAIN-SUFFIX,battle.net,DIRECT
-  - DOMAIN-SUFFIX,battlenet.com,DIRECT
-  - DOMAIN-SUFFIX,blizzard.com,DIRECT
   - DOMAIN-SUFFIX,amemv.com,DIRECT
   - DOMAIN-SUFFIX,bdxiguaimg.com,DIRECT
   - DOMAIN-SUFFIX,bdxiguastatic.com,DIRECT
