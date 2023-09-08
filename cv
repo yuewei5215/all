@@ -4349,7 +4349,6 @@ rules:
   - DOMAIN-SUFFIX,israbox.com,全局设置
   - DOMAIN-SUFFIX,issuu.com,全局设置
   - DOMAIN-SUFFIX,istars.co.nz,全局设置
-  - DOMAIN-SUFFIX,istarshine.com,全局设置
   - DOMAIN-SUFFIX,istef.info,全局设置
   - DOMAIN-SUFFIX,istiqlalhewer.com,全局设置
   - DOMAIN-SUFFIX,istockphoto.com,全局设置
