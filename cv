@@ -262,4 +262,68 @@ proxy-groups:
       - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 39
       - github.com/freefq - 美国CloudFlare公司CDN节点 40
       - github.com/freefq - 澳大利亚Kooweerup Secondary College 41
-      - github.com/f
+      - github.com/freefq - 澳大利亚Cranbourne Secondary College 42
+      - github.com/freefq - 美国RF Engineering 43
+      - github.com/freefq - 美国RF Engineering 44
+      - github.com/freefq - 美国CloudFlare公司CDN节点 45
+      - github.com/freefq - 美国CloudFlare节点 46
+      - github.com/freefq - 美国  47
+      - github.com/freefq - 美国CloudFlare公司CDN节点 48
+      - github.com/freefq - 法国  49
+      - github.com/freefq - 美国CloudFlare节点 50
+      - github.com/freefq - 美国  51
+      - github.com/freefq - 美国CloudFlare节点 52
+      - github.com/freefq - 美国CloudFlare公司CDN节点 53
+      - github.com/freefq - 美国CloudFlare节点 54
+      - github.com/freefq - 新加坡OVH 55
+      - 香港-80端口
+      - 香港-80端口-02
+      - 香港高级接入点-01
+      - 香港高速接入点-03
+      - 新加坡高速接入点-02
+      - 新加坡-高级节点
+      - 新加坡高速接入点-01
+      - 新加坡高速接入点-03
+      - 新加坡高速接入点-04
+      - 香港高速接入点-02
+      - 香港高速接入点-04
+      - 美国高速接入点-02
+      - 日本高速接入点-01
+      - 美国高速接入点-01
+      - 香港D
+      - 香港B
+      - 新加坡D
+      - 新加坡A
+      - 新加坡B
+      - 年付10元每月600G
+      - 香港C
+      - 香港A
+      - 新加坡C
+      - 美国D
+      - 美国B
+      - 德国A
+      - 英国A
+      - 加拿大A
+      - 加拿大B
+      - 德国B
+      - 美国A
+      - 澳大利亚A
+      - 澳大利亚B
+      - 英国B
+      - HK-IPLC-1
+      - HK-IPLC-2
+      - HK-IPLC-3
+      - HK-IPLC-4
+      - HK-IPLC-5
+      - HK-IPLC-6
+      - HK-IPLC-7
+      - HK-IPLC-8
+      - HK-IPLC-9
+  - name: 其他设置
+    type: select
+    proxies:
+      - 全局设置
+      - DIRECT
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,其他设置
