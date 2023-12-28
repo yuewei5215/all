@@ -1,1 +1,1 @@
-[session-784102b3] Route error: The Repository has been blocked. see: https://gitee.com/chenx58/clash
+[session-5c4a0880] Route error: Post "http://10.0.240.216:3000/api/v3/internal/authorize/raw": dial tcp 10.0.240.216:3000: connect: connection refused
